@@ -1,0 +1,336 @@
+pre/post,prj,commit,author,time,message
+pre,mpld3_mpld3,5963c4b7a488698321604417ed3f7043529848d4,cristianowa <cristianowa@users.noreply.github.com>,1566225749,"Merge 6efe6cb1ffd1434c8097e399aca8c5e2f04432c8 into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+pre,mpld3_mpld3,5963c4b7a488698321604417ed3f7043529848d4,cristianowa <cristianowa@users.noreply.github.com>,1566225749,"Merge 6efe6cb1ffd1434c8097e399aca8c5e2f04432c8 into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+pre,mpld3_mpld3,a2cf0f1f8c49048028ea15915dfece82d7f7d532,Bogdan Budescu <bbudescu@gmail.com>,1568113959,"Merge 36d3e0abb41f55509211a5a3e7970273ffe61b24 into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+pre,mpld3_mpld3,a2cf0f1f8c49048028ea15915dfece82d7f7d532,Bogdan Budescu <bbudescu@gmail.com>,1568113959,"Merge 36d3e0abb41f55509211a5a3e7970273ffe61b24 into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+pre,mpld3_mpld3,d18fe3c707c14e643c8c37f05eb8898614070db8,Joel Klinger <joel.alexander.klinger@gmail.com>,1568117671,"Merge 64d47059d080a3ee998565397489a0b4e9a3b44f into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+pre,mpld3_mpld3,d18fe3c707c14e643c8c37f05eb8898614070db8,Joel Klinger <joel.alexander.klinger@gmail.com>,1568117671,"Merge 64d47059d080a3ee998565397489a0b4e9a3b44f into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+pre,mpld3_mpld3,ff57f8632d54c8850c283a43a0521677868efda2,Abraham Flaxman <abie@alum.mit.edu>,1568602171,"Merge 3a88c8e39b3f6ce6f7a06b8371bcdbdcdcca78c6 into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+pre,mpld3_mpld3,ff57f8632d54c8850c283a43a0521677868efda2,Abraham Flaxman <abie@alum.mit.edu>,1568602171,"Merge 3a88c8e39b3f6ce6f7a06b8371bcdbdcdcca78c6 into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+pre,mpld3_mpld3,54f7f00ca96efa648d51417544b633f01cea9bb9,monochrojazz <s.yasumoto1210@gmail.com>,1568602631,"Merge 03b7b83b9997bb3a076f990fb7fe75dd90c7636e into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+pre,mpld3_mpld3,54f7f00ca96efa648d51417544b633f01cea9bb9,monochrojazz <s.yasumoto1210@gmail.com>,1568602631,"Merge 03b7b83b9997bb3a076f990fb7fe75dd90c7636e into 8cd68ee75ff8ad22358096e2dae1d225db52b6f6
+"
+post,mpld3_mpld3,17e884e4211b3ca701c3735a567c0af6e11027da,Vlad-Ștefan Harbuz <vladh@users.noreply.github.com>,1591010599,"Merge pull request #19 from sciris/do-not-force-agg
+
+Do not force agg"
+post,mpld3_mpld3,17e884e4211b3ca701c3735a567c0af6e11027da,Vlad-Ștefan Harbuz <vladh@users.noreply.github.com>,1591010599,"Merge pull request #19 from sciris/do-not-force-agg
+
+Do not force agg"
+post,mpld3_mpld3,af0ffab585537687fe4f527c1a6dc1bb896dca2d,Vlad-Ștefan Harbuz <vlad@vladh.net>,1591181296,"Add vim config
+"
+post,mpld3_mpld3,af0ffab585537687fe4f527c1a6dc1bb896dca2d,Vlad-Ștefan Harbuz <vlad@vladh.net>,1591181296,"Add vim config
+"
+post,mpld3_mpld3,8da03f1aa4377f5ee1f65cc90ab634aca8fd4f99,Vlad-Ștefan Harbuz <vlad@vladh.net>,1591181302,"Add .flake8
+"
+post,mpld3_mpld3,8da03f1aa4377f5ee1f65cc90ab634aca8fd4f99,Vlad-Ștefan Harbuz <vlad@vladh.net>,1591181302,"Add .flake8
+"
+post,mpld3_mpld3,1040dfeb16ed3b4c6e1e90d451afd14a07458d58,Vlad-Ștefan Harbuz <vlad@vladh.net>,1591181331,"Ignore venv folder
+"
+post,mpld3_mpld3,1040dfeb16ed3b4c6e1e90d451afd14a07458d58,Vlad-Ștefan Harbuz <vlad@vladh.net>,1591181331,"Ignore venv folder
+"
+post,mpld3_mpld3,a7cda32d9c58e80b83c8ffb99429ee61eca6d15a,Vlad-Ștefan Harbuz <vlad@vladh.net>,1591181353,"Clean up text_axis.py a bit, just style things
+"
+post,mpld3_mpld3,a7cda32d9c58e80b83c8ffb99429ee61eca6d15a,Vlad-Ștefan Harbuz <vlad@vladh.net>,1591181353,"Clean up text_axis.py a bit, just style things
+"
+pre,nilmtk_nilmtk,d0438ac5e35f45dd4117862bcd58bd4aa89491ae,camilomarino <cmarino@fing.edu.uy>,1645592354,"Fixing error in Greend dataset converter.
+
+The h5 was closing before loading the metadata, now it closes after without error.
+A link to download the dataset is also added to the docstring.
+"
+pre,nilmtk_nilmtk,33f5515c7df25a64a2592e5cb265808464317e74,camilomarino <camilo.marino.cabrera@gmail.com>,1645628703,"Fixed some requested changes in pr #905
+"
+pre,nilmtk_nilmtk,5e40cc2828d3f1a6e75401194ca480546a300cc1,BenjaminFrazer <76188836+BenjaminFrazer@users.noreply.github.com>,1657966086,"Clarification on siteonlyapi documentation
+
+Took me a while to figure out exactly what this flag was doing, and wasn't explicitly clear from anything in this documentation, so I added some clarification as I understand it."
+pre,nilmtk_nilmtk,c850600631681384d9a442644623c2b8f04a9d20,BenjaminFrazer <76188836+BenjaminFrazer@users.noreply.github.com>,1658008503,"Update writing_a_dataset_converter.md
+
+corrected 'reactive energy' to reactive power"
+pre,nilmtk_nilmtk,dde510b7b2299958597a6b3885230844c1b7e9da,BenjaminFrazer <76188836+BenjaminFrazer@users.noreply.github.com>,1658008503,"Update writing_a_dataset_converter.md
+
+corrected 'reactive energy' to reactive power"
+pre,nilmtk_nilmtk,94dde686b81ad2fd3b334d3d022e93f3b049c4cf,BenjaminFrazer <76188836+BenjaminFrazer@users.noreply.github.com>,1660221478,"Merge 5e40cc2828d3f1a6e75401194ca480546a300cc1 into dde510b7b2299958597a6b3885230844c1b7e9da
+"
+pre,nilmtk_nilmtk,27dcb535beb297020781ad9c82c5bb30e62eee59,Camilo Mariño <camilo.marino.cabrera@gmail.com>,1660267699,"Merge a90bd958589b18bbb777b673b505f48628855bcc into dde510b7b2299958597a6b3885230844c1b7e9da
+"
+pre,nilmtk_nilmtk,5cf6a81a0eeae0efe4e4ad34104cb53866de7334,Christoph Klemenjak <christoph.klemenjak@gmail.com>,1660357093,"Merge d21bf835a5dfed89a748ea64ea8db18bdec37285 into dde510b7b2299958597a6b3885230844c1b7e9da
+"
+pre,nilmtk_nilmtk,168096e1f6a7a5ac40a9801806e8edd40eea0b74,rgtzths <43450638+rgtzths@users.noreply.github.com>,1660357094,"Merge fd81570561a19f8ceb90438678d99f8156085ed0 into dde510b7b2299958597a6b3885230844c1b7e9da
+"
+pre,nilmtk_nilmtk,b501c66822517a76bdc5cdaf7552003b405a3115,Camilo Mariño <camilo.marino.cabrera@gmail.com>,1660357095,"Merge 33f5515c7df25a64a2592e5cb265808464317e74 into dde510b7b2299958597a6b3885230844c1b7e9da
+"
+post,nilmtk_nilmtk,ae5cc63c4e8de92db5aa9d520283aae4b6f74453,ladia1 <122142365+ladia1@users.noreply.github.com>,1686117208,"Update install_user.md
+
+Install instructions were updated to allow the user to download the latest version of the toolkit. Only the latest version( nilmtk 0.4.3) seems to be available on Anaconda, attempts to install older version like 0.4.2 listed in errors."
+post,nilmtk_nilmtk,d7c76c6621b5915d0cc6813df9bffe70b0c7b5a6,ladia1 <122142365+ladia1@users.noreply.github.com>,1686117673,Update install_user.md
+post,nilmtk_nilmtk,b2c514479cef478cab872cb635056da08d5352a1,ladia1 <122142365+ladia1@users.noreply.github.com>,1686121176,"Updating installation instructions (#968)
+
+* Update install_user.md
+
+Install instructions were updated to allow the user to download the latest version of the toolkit. Only the latest version( nilmtk 0.4.3) seems to be available on Anaconda, attempts to install older version like 0.4.2 listed in errors."
+post,nilmtk_nilmtk,3b31ac26decae8b81b5c5e11ae31564228343969,BenjaminFrazer <76188836+BenjaminFrazer@users.noreply.github.com>,1686121194,"Merge 5e40cc2828d3f1a6e75401194ca480546a300cc1 into b2c514479cef478cab872cb635056da08d5352a1
+"
+post,nilmtk_nilmtk,4ac7b3a852323fc72a270c791ca72d9d2b09515e,Rafael Teixeira <43450638+rgtzths@users.noreply.github.com>,1686804815,"Merge fd81570561a19f8ceb90438678d99f8156085ed0 into b2c514479cef478cab872cb635056da08d5352a1
+"
+post,nilmtk_nilmtk,19f1ee355eefb4c65a530cd850be2ed279c35f4f,Christoph Klemenjak <christoph.klemenjak@gmail.com>,1688464004,"Merge d21bf835a5dfed89a748ea64ea8db18bdec37285 into b2c514479cef478cab872cb635056da08d5352a1
+"
+post,nilmtk_nilmtk,cea616c04af502341ca6708765ca588cc47a2f9f,Camilo Mariño <camilo.marino.cabrera@gmail.com>,1688560305,"Merge 33f5515c7df25a64a2592e5cb265808464317e74 into b2c514479cef478cab872cb635056da08d5352a1
+"
+post,nilmtk_nilmtk,b8cbcfb8f92f4f86698c9da7e94d0d13c78abe29,Dom <97384583+tosemml@users.noreply.github.com>,1692767034,Use join
+post,nilmtk_nilmtk,ba16f4a16c9f0aa5f88216845853a84d799fbed6,Dom <97384583+tosemml@users.noreply.github.com>,1694063756,fix bug
+post,nilmtk_nilmtk,02cfc6d877f70b94bf2297f12cb37028ad3b736f,Dom <97384583+tosemml@users.noreply.github.com>,1694426521,"Merge ba16f4a16c9f0aa5f88216845853a84d799fbed6 into b2c514479cef478cab872cb635056da08d5352a1
+"
+pre,dellytools_delly,2efd7f37c621f05673049a1417b71d93c5fb75b3,tobiasrausch <rauschtobi@gmail.com>,1538030815,"exclude file checks
+"
+pre,dellytools_delly,6fa277faf08736b8fc6349a3cc1bf8fcce8c94c1,tobiasrausch <rauschtobi@gmail.com>,1538031092,"removed old warning
+"
+pre,dellytools_delly,54900aea041b26b1d4e4b62125cc2434c8fcbe5e,tobiasrausch <rauschtobi@gmail.com>,1538032116,"activate indel calling
+"
+pre,dellytools_delly,c5a64bb35e9d49c49778f8a0bc1da51fb4ba5c7c,tobiasrausch <rauschtobi@gmail.com>,1538037008,"ignore read-groups
+"
+pre,dellytools_delly,cae675d6cc327836caab0576cf2187464b0599bc,tobiasrausch <rauschtobi@gmail.com>,1538037985,"log1p
+"
+pre,dellytools_delly,60869882f72745e11843fc2b948eaef7b56d3936,tobiasrausch <rauschtobi@gmail.com>,1538038478,"log1p
+"
+pre,dellytools_delly,3a59b5769fc6d2aee053dfd2841ce1e3b271a6c2,tobiasrausch <rauschtobi@gmail.com>,1538051967,"delly v0.7.9
+"
+pre,dellytools_delly,79454d0fac83b8898a9f38cb89ad4d103423aa2f,tobiasrausch <rauschtobi@gmail.com>,1538053234,"updated readme
+"
+pre,dellytools_delly,4cbd81984f0dca20a645e7a055cf5b77917688bf,tobiasrausch <rauschtobi@gmail.com>,1538053421,"updated readme
+"
+pre,dellytools_delly,28ddf62a4351add7eabb9bd46ad2c0c6c9916575,tobiasrausch <rauschtobi@gmail.com>,1538079220,"updated readme
+"
+post,dellytools_delly,e7a54a1c120004dc5bf2e23fb7635a68cfcf3b1d,tobiasrausch <rauschtobi@gmail.com>,1548855528,"local align
+"
+post,dellytools_delly,ac1ad760b8fe8e81991f326e54cd7a03cc176007,tobiasrausch <rauschtobi@gmail.com>,1548855620,"space efficient alignments
+"
+post,dellytools_delly,01b3e5051099ff7373b4e98eea5680d1e6833e09,tobiasrausch <rauschtobi@gmail.com>,1548856387,"space-efficient nw
+"
+post,dellytools_delly,8ae15608e915792526eb1af0c6a0c675558fb891,tobiasrausch <rauschtobi@gmail.com>,1548857610,"lcs
+"
+post,dellytools_delly,08bbb7c9be005b6fdf1460aabd7e9611c9b9c6b1,tobiasrausch <rauschtobi@gmail.com>,1548863048,"drop rg
+"
+post,dellytools_delly,8b8dd95a58882f123e982aa9641db8c96cd639ec,tobiasrausch <rauschtobi@gmail.com>,1548885225,"single lib per sample
+"
+post,dellytools_delly,d41f4571265accf2ed5c682ce651a1140e139667,tobiasrausch <rauschtobi@gmail.com>,1548923314,"boost and htslib versions
+"
+post,dellytools_delly,57a90deb735018630de89bbb144d43f409ebfb38,tobiasrausch <rauschtobi@gmail.com>,1548926983,"single pair map
+"
+post,dellytools_delly,0e5bd9640ece2eca12646230c4b596e851dd4f2e,tobiasrausch <rauschtobi@gmail.com>,1548931380,"simple junction model
+"
+post,dellytools_delly,a4e053585115b1168529f288535133c96d414107,tobiasrausch <rauschtobi@gmail.com>,1548938084,"SR clustering
+"
+pre,bedops_bedops,2022cb19dd77cb2b4d0b92fb6689bb7d290e6867,Alex Reynolds <alexpreynolds@gmail.com>,1657578732,"Added `--no-query` option to `closest-features`
+"
+pre,bedops_bedops,a22aafe19c61c89dd2d852e62b5680bf15b4ec87,Alex Reynolds <alexpreynolds@gmail.com>,1657695549,"Modified CIGAR string for --split output from bam2*/sam2*
+"
+pre,bedops_bedops,e3aaf7426721e4adbe2850abd92210fdde540fa3,Alex Reynolds <alexpreynolds@gmail.com>,1657696672,"Updated revision history and CHANGELOG
+"
+pre,bedops_bedops,71975aa4c7d6a23d44fb1b630eb33f6ca6f99a0c,Alex Reynolds <alexpreynolds@gmail.com>,1657700309,"Updated macOS compilation steps
+"
+pre,bedops_bedops,e3e3ef52ca98e492225f814eab0ae13d22452546,Alex Reynolds <alexpreynolds@gmail.com>,1673378740,"Initial v2p4p42 commit
+"
+pre,bedops_bedops,08045b5dbbcd37de78cc7cd68aab196dd6b22d65,Alex Reynolds <alexpreynolds@gmail.com>,1699909342,"Update copyright and readthedocs requirements
+"
+pre,bedops_bedops,e5b566d1e09bea5c1b6ea32e9fd737170ff7126f,Alex Reynolds <alexpreynolds@gmail.com>,1699909583,"Removing invisible YAML file
+"
+pre,bedops_bedops,73ea664530f54e2a0e39c19f18a00c47659d9146,Alex Reynolds <alexpreynolds@gmail.com>,1699912482,"Patched sam2bed/bam2bed --split issue #281
+"
+pre,bedops_bedops,1c671c7ff100407f504ac3c8bd51ddec425d3d00,Alex Reynolds <alexpreynolds@gmail.com>,1699914992,"Patched issue 275 for AUGUSTUS-formatted GFF annotations
+"
+pre,bedops_bedops,917dc6777190983a92dedd4fa7556191ea23606a,Alex Reynolds <alexpreynolds@gmail.com>,1706404281,"Resolve issue 284 with `unstarch --gzip` on zero-sized chromosome record
+"
+post,bedops_bedops,d4d6f4fce3d57edd25ee6cefb12552991ab8a102,Alex Reynolds <alexpreynolds@gmail.com>,1744310363,"10 Apr 2025 patches (Starch-related updates)
+"
+post,bedops_bedops,f878c638fb24e9e59b2a403449230f7d38a07eb2,Alex Reynolds <alexpreynolds@gmail.com>,1744315908,"10 Apr 2025 patches (general release preparation)
+"
+post,bedops_bedops,51d2adac6a3aaae73268cf07d0c4127387d335fa,Alex Reynolds <alexpreynolds@gmail.com>,1744316365,"10 Apr 2025 patches (zlib version update)
+"
+post,bedops_bedops,8a68206b9635c7ebdbb41142c161586202029f27,Alex Reynolds <alexpreynolds@gmail.com>,1744322317,Temporarily disable macOS details and CI and documentation badges
+post,bedops_bedops,009c10c0d11a2c7bc8f33e087d591574d04ae94c,Alex Reynolds <alexpreynolds@gmail.com>,1745951325,Update main.yml to remove unused runner
+pre,opencog_opencog,28003aebb1847725e32faa74490924ee7e9927aa,Linas Vepstas <linasvepstas@gmail.com>,1664318454,"More path adjustments
+
+This code is insane.
+The module name and the file defining the module must have the same name!
+"
+pre,opencog_opencog,f1e3fcbe1c5c6b55b2a2f0788bcb2a1f1e4635ee,Linas Vepstas <linasvepstas@gmail.com>,1664318724,"Fix bad install paths
+
+The module name and the file defining the module must have the same name!
+"
+pre,opencog_opencog,008cdbe7f192fc66b3deadf6400f8edb54533f36,Linas Vepstas <linasvepstas@gmail.com>,1664318941,"Fix for bug #3680 - bad install paths.
+
+This is an attempted fix for bug #3680 -- the guile modules
+were (and still are) being defined incorrectly. But I think
+this is enough to fix bug #3680
+
+The guile module name and the file defining the module must have
+the same name! Otherwise, things get installed incorrectly, and then
+they won't load as expected.
+"
+pre,opencog_opencog,bb4e160f1960f886f4d774abe89b276655948aa7,Linas Vepstas <linasvepstas@gmail.com>,1664320289,"One of ghost unit tests now passes ...
+
+After the fix of 008cdbe7f192fc66b3deadf6400f8edb54533f36 one of the
+three unit tests now passes...
+"
+pre,opencog_opencog,e1330567a065818dd132888e80f2651af3dfbcde,Linas Vepstas <linasvepstas@gmail.com>,1670013719,"Add Unify as a pre-req to URE
+"
+pre,opencog_opencog,0fdbd2339262b81be2b356e10d30a8ebe305b8e5,Linas Vepstas <linasvepstas@gmail.com>,1677814101,"Remove AnaphoraUTest from test suite.
+"
+pre,opencog_opencog,2ab6ea2f456d53d45deed816beee7979830fd565,Linas Vepstas <linasvepstas@gmail.com>,1677814532,"""test"" is a reserved keyword in cmake
+"
+pre,opencog_opencog,b823e5ce6e23d03e5ece4cf579d50228e6ae1c2e,Linas Vepstas <linasvepstas@gmail.com>,1677816715,"Disable ghost unit tests. They're broken, it seems.
+"
+pre,opencog_opencog,85a95ddd7e6640eacd75ec17b6faf5ccd66c2d3a,Linas Vepstas <linasvepstas@gmail.com>,1677817402,"Revise repo status. It is obsolete.
+"
+pre,opencog_opencog,77db0f038910ff1c04bd8a650de67d12de0360a1,Linas Vepstas <linasvepstas@gmail.com>,1677865584,"Point at the replacement repos.
+"
+post,opencog_opencog,aa370e63132f14000aa497b7e8bbed8d7ceec01f,Linas Vepštas <linasvepstas@gmail.com>,1737703734,"Fix old bit-rot
+"
+post,opencog_opencog,1ade81381a68c53bf9fb74eae669fab422131a0a,Linas Vepštas <linasvepstas@gmail.com>,1737704061,"Fix old bit-rot
+"
+post,opencog_opencog,7bc21764d950329462fd4ea965ec45913b823620,Linas Vepštas <linasvepstas@gmail.com>,1737754059,"Disable OpenPsi unit tests. They're bit-rotted.
+"
+post,opencog_opencog,0c2d1c3160954cfcc1b47d755cadd3bb77b45794,Linas Vepštas <linasvepstas@gmail.com>,1743629597,"Port to cmake-4.0 Python3 API
+"
+post,opencog_opencog,95aa080cce1f51101797b4199124339597a09503,Linas Vepštas <linasvepstas@gmail.com>,1743640821,"Install dependency into circle-ci test flow
+"
+post,opencog_opencog,54b6eb996bc2c6fb00df27ed230f316c05a1edda,Linas Vepštas <linasvepstas@gmail.com>,1743650885,"Circle-ci: Install atomspace-storage earlier.
+"
+post,opencog_opencog,d2e06a9d67dd742beaa73b5288ccf4701c2a91a9,Linas Vepštas <linasvepstas@gmail.com>,1743660063,"Ah ha! Root cause of failure is missing deply key on the git repo
+"
+post,opencog_opencog,ad18008f6e975c5f6d97a169717f74f6ef075420,Linas Vepštas <linasvepstas@gmail.com>,1755584750,"Convert ancient code to modern TruthValue API
+
+Yes the code is obsolete, but it should at least build
+"
+post,opencog_opencog,ae68bda779f16571bb017b8d3ea56ff8f50a822f,Linas Vepštas <linasvepstas@gmail.com>,1756208125,"Fix broken header includes
+"
+pre,matwey_fips3,2afbc260634a37bb1ee53b3cb52fb262d6a4ace7,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1630415768,"Use Qt 6.0 in GitHub Actions
+"
+pre,matwey_fips3,cb31640995f6fe143f7556c52cf633bbd8218ea1,Konstantin Malanchev <hombit@gmail.com>,1630416431,"qt6 CI for macOS
+"
+pre,matwey_fips3,db80e05d4210b2d8b40a07e4494486b220090cc5,Konstantin Malanchev <hombit@gmail.com>,1630416431,"qt6 CI for macOS
+"
+pre,matwey_fips3,98d94040babf9fc4187a9555f6261b6f709d4e15,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1631383931,"[WIP] Update CMakeLists.txt for Qt6
+"
+pre,matwey_fips3,f5b17f99c916588dda27f918aee7ab0b5a5d48ea,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1631383931,"[WIP] Update CMakeLists.txt for Qt6
+"
+pre,matwey_fips3,c7a6936b653acb49a13e56940c704665fc4755f4,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1632511392,"Merge branch 'qt6' of github.com:matwey/fips3 into qt6
+"
+pre,matwey_fips3,a14304d6c38b3bfe8358b92f9c2988d7a2855f0d,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1632511976,"Configure Qt6 on macos
+"
+pre,matwey_fips3,23ea04021079639b95f0a9e9e51f7a1a52c326c6,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1632512296,"USE_QT6 for Linux ci
+"
+pre,matwey_fips3,58e3ce67c797ac802cf87fd7e119157d7529d1b2,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1632512454,"Fix CI
+"
+pre,matwey_fips3,9e5bec9b2c62baaac2de46754aea2b002c5e4323,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1632512465,"Merge 58e3ce67c797ac802cf87fd7e119157d7529d1b2 into a4e1b36a474d65da74774d339d41a6e07f9ca7ab
+"
+post,matwey_fips3,d79bbd3f6ac05825e3f3573e405027e112f1a04f,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1730131885,"Update space.fips.Fips.metainfo.xml to fix linter issues
+"
+post,matwey_fips3,76dcb64049a32de91d16f3d543ff76ee3a3574a5,Konstantin Malanchev <hombit@gmail.com>,1732987841,"Merge cc6121f5f5913cb08673da844e6455fe7172baca into d79bbd3f6ac05825e3f3573e405027e112f1a04f
+"
+post,matwey_fips3,f758ea101cd1d5dda6eef24eed1e7298f266ef4f,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1732987858,"Merge 58e3ce67c797ac802cf87fd7e119157d7529d1b2 into d79bbd3f6ac05825e3f3573e405027e112f1a04f
+"
+post,matwey_fips3,b02c2bc625aa7aaec4f744cc7ed898543968b8c6,Konstantin Malanchev <hombit@gmail.com>,1746801947,"Merge pull request #141 from matwey/issue-templates
+
+Add github issue templates"
+post,matwey_fips3,34450a0230cde7a9b548a2d3dcf16a526b4e2012,Matwey V. Kornilov <matwey.kornilov@gmail.com>,1750890749,"Merge 58e3ce67c797ac802cf87fd7e119157d7529d1b2 into b02c2bc625aa7aaec4f744cc7ed898543968b8c6
+"
+pre,neuralensemble_libneuroml,ba9c2774c377b96dfde74926d216ca02ae1335ea,Padraig Gleeson <p.gleeson@gmail.com>,1554913926,"Update to v0.2.47
+
+Fix issue with HDF5/XML reader if position = (0,0,0)
+"
+pre,neuralensemble_libneuroml,63bdcba11c026e854d87a7a571ea00bf49e6e4c3,Ankur Sinha (Ankur Sinha Gmail) <sanjay.ankur@gmail.com>,1554981485,"Add makefile and logo to Manifest
+"
+pre,neuralensemble_libneuroml,4af014453ea870f756bef054854edf2b1b04f3d2,Ankur Sinha (Ankur Sinha Gmail) <sanjay.ankur@gmail.com>,1554981636,"Include examples in Manifest
+"
+pre,neuralensemble_libneuroml,414519c502de2a124c06c6d822845d5f3603c724,Ankur Sinha (Ankur Sinha Gmail) <sanjay.ankur@gmail.com>,1554982487,"Include conf.py for doc generation
+"
+pre,neuralensemble_libneuroml,e7b6e13bc692199bebc22faa2d02e201662a67dc,Padraig Gleeson <p.gleeson@gmail.com>,1555089194,"Merge pull request #86 from sanjayankur31/development
+
+Minor tweaks to Manifest"
+pre,neuralensemble_libneuroml,27b964c93c86796e5dcdc7d32c72e97e06ffccc2,Padraig Gleeson <p.gleeson@gmail.com>,1562073227,"Less verbose when id not found
+"
+pre,neuralensemble_libneuroml,97b884a75a49d907b94f707c9796be2b9d1481dd,Padraig Gleeson <p.gleeson@gmail.com>,1566497097,"Python 3 fix for h5 files...
+"
+pre,neuralensemble_libneuroml,2dc1e787d4a860dea1bca18beabbc38a32d737b4,Padraig Gleeson <p.gleeson@gmail.com>,1572984528,"Readme tweak
+"
+pre,neuralensemble_libneuroml,73b5a7aa47d523e85fdf74143ef543bc990c02a3,Padraig Gleeson <p.gleeson@gmail.com>,1572984730,"More readme updates
+"
+pre,neuralensemble_libneuroml,57421c9e9b4f547de65b34a809bf80ae6ed1ce5b,Padraig Gleeson <p.gleeson@gmail.com>,1574760972,"Update to v0.2.50 & use NeuroML_v2.0.xsd
+"
+post,neuralensemble_libneuroml,7200dbd3f40f0875515bc25949e75462ff6663d8,Padraig  Gleeson <p.gleeson@gmail.com>,1586369826,"Update readme
+"
+post,neuralensemble_libneuroml,c0010cabf6bb6745c779fdad670cff861dfbfa4d,Padraig  Gleeson <p.gleeson@gmail.com>,1589797693,"Add nml 2.1 schema
+"
+post,neuralensemble_libneuroml,2807173626d3d00e6ffadd728a43465603a54431,Padraig Gleeson <p.gleeson@gmail.com>,1589798932,"Update to v0.2.51; use NML schema v2.1
+"
+post,neuralensemble_libneuroml,b91d0b957fd822792c1a3569cf779f993a0ce183,Padraig  Gleeson <p.gleeson@gmail.com>,1592330082,"Improved helper methods & more tests
+"
+post,neuralensemble_libneuroml,76399ab4715d758a965bcf9ee71aebf2a8c92b70,Padraig  Gleeson <p.gleeson@gmail.com>,1592330882,"Tweaking
+"
+post,neuralensemble_libneuroml,544c202d5519ea2751ef3ad6ba64253b3b677dfa,Padraig  Gleeson <p.gleeson@gmail.com>,1592388427,"Minor addition to cell.get_all_segments_in_group() to assume 'all'=all
+"
+post,neuralensemble_libneuroml,7b44a395e4c666a3ec0f210e0aadb0766dbb0086,Padraig  Gleeson <p.gleeson@gmail.com>,1596015120,"Test on py3.8
+"
+post,neuralensemble_libneuroml,d5a952872fec7e5e915d012015201d00a1eb0b0c,Padraig  Gleeson <p.gleeson@gmail.com>,1599225671,"Add a notebook on morphologies
+"
+post,neuralensemble_libneuroml,264d38165f0a452250b1818aa8a730318c1053f9,Padraig  Gleeson <p.gleeson@gmail.com>,1599226390,"Update
+"
+post,neuralensemble_libneuroml,db9a9909b4c4ae3d4b4ab76f16ac3fd3acc66a3c,Padraig  Gleeson <p.gleeson@gmail.com>,1603128493,"Fixes issue reading nml in h5 on python3
+"
+pre,benjjneb_dada2,97cb711545661d49fe1e0e59200cff503fcbb475,Benjamin Callahan <benjamin.j.callahan@gmail.com>,1625165275,"Push 1.20 release notes
+
+Just a bug fix that's worth noting.
+
+Fixes #1369
+"
+pre,benjjneb_dada2,0cd335b755c7e07be85ff974a3d81d2c37c5c865,Terje Kvernes <terjekv@users.noreply.github.com>,1625458534,"Merge c9c9bb95d5ee2f4bfc7a266ac4fe869f931ee3c1 into 2e8360d08912b429533d1495198a4ac02e00ba32
+"
+pre,benjjneb_dada2,b5f020cba616ba192103a6557d32a09d3aea3a78,gmagoon <gmagoon@alum.mit.edu>,1625646048,"Merge 8aa63770b765b0dac4af64a309b7a3c4ef0e5601 into 2e8360d08912b429533d1495198a4ac02e00ba32
+"
+pre,benjjneb_dada2,c0a9afbf8ee8f0d0a9a7b607818c6c57883a855b,Filip <vrbacky@fnhk.cz>,1625692731,"Merge fc670f180d6fe005065eb681d4b60b3394988abe into 2e8360d08912b429533d1495198a4ac02e00ba32
+"
+pre,benjjneb_dada2,3abe06c92fa609c486cba0256e36af67237aa68c,Nitesh Turaga <nitesh.turaga@gmail.com>,1635265549,"bump x.y.z version to even y prior to creation of RELEASE_3_14 branch
+"
+pre,benjjneb_dada2,4635ec049d2e8d71ed6251bd27e1660fe1d478a3,Nitesh Turaga <nitesh.turaga@gmail.com>,1635265549,"bump x.y.z version to odd y following creation of RELEASE_3_14 branch
+"
+pre,benjjneb_dada2,e3ebedf3a6999997cd3d399b4225720761a39ec5,Benjamin Callahan <benjamin.j.callahan@gmail.com>,1643772852,"Added MiDaS contributed training fasta
+"
+pre,benjjneb_dada2,6173c7f820c1208986417ec12bf43de15279515a,Nitesh Turaga <nitesh.turaga@gmail.com>,1650986978,"bump x.y.z version to odd y following creation of RELEASE_3_15 branch
+"
+pre,benjjneb_dada2,889dd0cb7d9add70611803d79794c134760ad183,Nitesh Turaga <nitesh.turaga@gmail.com>,1650986978,"bump x.y.z version to even y prior to creation of RELEASE_3_15 branch
+"
+pre,benjjneb_dada2,f65d40df0f82ace491ee899b092d186f3f5ae9d9,Ben Callahan <bcallah@ncsu.edu>,1651700255,"Working on M1 ARM
+
+Changed detection to x86_64, rather then specific SSE detection, using the predefined gcc compiler macro.
+"
+post,benjjneb_dada2,71e22c97f3fad5905a404af1f835b1388690c43a,Ben Callahan <bcallah@ncsu.edu>,1666802773,"Test update
+"
+post,benjjneb_dada2,8f8ce8205d33ed0d15fd5b98ecbb34efe9987e3c,Terje Kvernes <terjekv@users.noreply.github.com>,1666810833,"Merge c9c9bb95d5ee2f4bfc7a266ac4fe869f931ee3c1 into 71e22c97f3fad5905a404af1f835b1388690c43a
+"
+post,benjjneb_dada2,5d6e88141aecf4aa214172d3c5b3c737234b899b,Ben Callahan <bcallah@ncsu.edu>,1666811651,"Credential test 2
+"
+post,benjjneb_dada2,09aef580eb371eacbeb5b799d8db54bc07bd2157,Ben Callahan <bcallah@ncsu.edu>,1666814270,"Merge branch 'master' of git.bioconductor.org:packages/dada2
+"
+post,benjjneb_dada2,6374593f60577999f56b015a1789dc7716371b39,Ben Callahan <bcallah@ncsu.edu>,1666814371,"Merge branch 'master' into ARMfix
+"
+post,benjjneb_dada2,1348696ad270e59f620d962c3813c29afeddb996,Ben Callahan <bcallah@ncsu.edu>,1666815862,"Update DESCRIPTION
+"
+post,benjjneb_dada2,e6fd6d28a07eedbf603b96a2c639f602be8f7cb1,Ben Callahan <bcallah@ncsu.edu>,1666976284,"Bugfix
+
+Should fix the x64 build failures on BioC.
+"
+post,benjjneb_dada2,0e1cf873201f6cb01411af98092d01a7a43888c3,J Wokaty <jennifer.wokaty@sph.cuny.edu>,1667315580,"bump x.y.z version to odd y following creation of RELEASE_3_16 branch
+"
+post,benjjneb_dada2,71af423cdc9eb1954aa48e39e5cc46e0e365ac71,J Wokaty <jennifer.wokaty@sph.cuny.edu>,1667315580,"bump x.y.z version to even y prior to creation of RELEASE_3_16 branch
+"
+post,benjjneb_dada2,f1e72fb2f1c9091cd81bd01290110a67b6ea0e27,Ben Callahan <bcallah@ncsu.edu>,1667413799,"Fix release version number.
+"

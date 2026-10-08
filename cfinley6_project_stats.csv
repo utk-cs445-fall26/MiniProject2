@@ -1,0 +1,10 @@
+project,number of commits,number of authors,max time,min time,number of stars,number of forks,last commit date,LongestGapStart,LongestGapEnd,LongestGapLength,NumCommitsAfterLastGap,NumberOfGapsInTimeline,ActivityPattern,BeforeThemes,AfterThemes
+mpld3_mpld3,2295,98,2025-11-02,2013-12-18,2413,364,2026-01-02,2019-10,2020-05,8,230.0,10,irregular,Other:Other,Feature development:Other
+nilmtk_nilmtk,2158,104,2026-01-20,2013-12-03,955,489,2026-07-20,2022-09,2023-05,9,105.0,6,irregular,Other:Dependency updates,Other:Dependency updates
+dellytools_delly,1488,24,2026-02-26,2013-11-15,537,138,2026-10-05,2018-10,2018-12,3,540.0,4,irregular,Other:Documentation updates,Other:Automated bot contributions
+bedops_bedops,1983,36,2025-04-29,2013-08-26,375,63,2025-04-29,2024-02,2025-03,14,5.0,9,irregular,Bug fixes:Dependency updates,Bug fixes:Automated bot contributions
+opencog_opencog,30804,256,2025-08-26,2008-01-21,2481,740,2025-08-26,2023-04,2024-12,21,9.0,3,irregular,Other:Bug fixes,Bug fixes:Other
+matwey_fips3,678,8,2025-06-25,2017-03-03,32,5,2026-07-01,2021-10,2024-09,36,5.0,4,irregular,Automated bot contributions:Other,Other:Bug fixes
+neuralensemble_libneuroml,1719,31,2025-09-10,2012-03-16,46,33,2026-07-23,2019-12,2020-03,4,884.0,2,steady,Other:Documentation updates,Feature development:Other
+benjjneb_dada2,1048,62,2025-10-28,2014-12-17,556,172,2026-07-31,2022-06,2022-09,4,92.0,3,irregular,Dependency updates:Other,Dependency updates:Other
+ngageoint_opensphere,71618,840,2026-02-26,2008-01-21,202,90,2024-08-16,,,0,0.0,0,steady,N/A active Project,N/A active Project

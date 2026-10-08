@@ -1,0 +1,42 @@
+project,#commits,#authors,From,To,#stars,#forks,LastGHCommitDate,"LongestGapStart (YYYY-MM), ","LongestGapEnd (YYYY-MM),",LongestGapLength,NumCommitsAfterLastGap,pattern,NumberOfGapsInTimeline,BeforeThemes,AfterThemes,HypothesizedGapReason,HasRecovered,WhyRecovered,WhoRecovered ,Currentstatus,RecentThemes,Notes
+nlesc_mcfly,936,14,1463735564,1757000411,366,83,2025/7/28,2023-05,2024-08,14,33,irregular,7,"Bug fixes, feature development","Bug fixes, dependency updates", Project done or abandoned,No,N/A,Christiaan Meijer,Inactive,Bug fixes,"Although it is a deep learning tool with current day relevance, this project appears to be made in a short timespan.
+The longest gap is simple to guess, since it surrounded by low activity.
+One could suspect that this repository was part of a summer project, beacuse it had a record spike during the middle of 2020.
+The current inactivity is probably caused by the end of a project."
+cjhopp_scripts,1395,3,1477379901,1757625485,9,3,2026/8/25,2023-08,2024-06,9,73,irregular,2,"Bug fixes, feature development","Bug fixes, feature development","Changing lifestyle, mostly active during COVID",No,N/A,cjhopp,Active,Bug fixes,"This repository has notable unpredictable activity patterns.
+It is a PhD workflow tool and dips in activity after 2022.
+The decline, along with the longest gap, could easily be explained as a lifestyle change.
+The single author of the repository perhaps graduated and stopped working on this project."
+synthetichealth_module-builder,796,33,1510549990,1758835577,49,29,2026/9/25,2024-06,2024-11,4,20,declining,2,"Feature development, bug fixes","Dependency updates, documentation updates",Commits peaked in 2018,No,N/A,Dylan Hall,Inactive,Bug fixes,"This module builder repository demonstrates a very slow death of commits rather than a rapid decline.
+It has lots of initial activity, followed by the longest gaps in 2023 and onwards.
+This trend is easy to interpret, as a project no longer in need of further development.
+With this pattern, one might expect small bursts in the future, but nothing to match the early commits.
+"
+pennylaneai_pennylane,68389,318,1524072902,1777068056,3500,869,2026/9/25,2019-03,2019-03,1,24198,rising,0,"Bug fixes, documentation updates","Feature development, bug fixes",Project still gaining traction,Yes,New ideas/authors,quantshah,Active,Bug fixes,"Pennylane is a quantum software platform that supports a wide range of science and research.
+The repository started in 2018 and has steadily increased since.
+The longest gaps, and all the gaps overall, were early in its development and probably for simple reasons.
+Based on this, I would expect this repository to continue having steady activity, which is rare."
+jatinchowdhury18_analogtapemodel,1230,20,1549443220,1760884626,1400,76,2023/11/5,2024-09,2025-04,6,10,declining,7,"Bug fixes, documentation updates","Bug fixes, dependency updates",COVID project slowly dies out,No,N/A,jatin,Inactive,Bug fixes,"Similar to other projects, this analog tape recording tool repository has declined since 2022.
+The longest gap is recent and part of on ongoing silence, which was easy to understand.
+The pattern overall shows minimal commits the past few years.
+This might be due to the project being complete or no longer important to update."
+paddlepaddle_deepspeech,1,1,1495458037,1760990174,12700,2000,2026/6/12,2018-06,2019-04,9,8551,irregular,2,"Bug fixes, documentation updates","Bug fixes, documentation updates",Project still gaining traction,Yes,New authors,Yibing Liu,Active,Bug fixes,"Paddle paddle deepspeech, a machine learning toolset, took off in 2020 and settled back down in 2023. 
+Its largest gap makes since as a time before its hayday.
+The likely reason for current inactivity is a lack of new features.
+Since it has over 100 authors, it still gets occasional commits now."
+fraserw_pymop,384,8,1449069906,1749048223,23,18,2025/6/4,2021-06,2022-08,13,16,declining,10,"Feature development, bug fixes","Feature development, bug fixes",Project done or died out,No,N/A,JJ Kavelaars,Inactive,Bug fixes,"This project has been inactive most of its life. 
+There was a pile of commits in 2016, some more in 2019, and not much since.
+As goes with many python projects, it's safe to assume this one will remain quiet in the future.
+The longest gap was easy to interpret, as it was surrounded by other gaps."
+henryseg_veering,794,4,1580218442,1761926867,10,3,2026/9/24,2020-04,2020-08,3,584,declining,1,"Feature development, bug fixes","Feature development, bug fixes",COVID,Yes,Adding a new feature,Henry Segerman,Active,Bug fixes,"This project is for niche python coding projects related to triangulation, and it surged in activity before slowing dying out. 
+The longest gap was early into the project between large spikes, which is puzzling. 
+I suspect that the gap was due to lifestyle changes, since it occured in mid 2020. 
+The more recent inactivity on this project is likely due to most features being complete."
+tanghaibao_goatools,1839,54,1263583173,1757808452,908,212,2026/8/21,2012-01,2013-03,13,1667,irregular,9,"Bug fixes, documentation updates","Bug fixes, documentation updates",Project still gaining traction,Yes,New ideas/authors,Haibao Tang,Active,"Bug fixes, feature development","While its activity is concentrated in 2015-2020, this project was started all the way back in 2010.
+Since this project is a python library, it makes sense that the beginning and end of its history are full of long gaps.
+The gap is easy to read when you compare it to the period of large effort where most of the development took place.
+The declining activity of this repository suggests that the library is complete, aside from occasional updates. "
+helske_bssm,894,6,1465322397,1758701591,49,14,2026/9/24,2024-09,2025-09,11,1,declining,8,"Bug fixes, documentation updates",Bug fixes, Project done or abandoned,No,N/A,Jouni Helske,Inactive,Bug fixes,"This project is a ""Bayesian Inference of State Space Models"" and is marked by early activity and a lack of commits since 2018.
+The longest gap is just one of the more recent gaps. 
+This inactivity is likely caused by the project's completion or a lack of interest.
+The activity patterns on this project appear to have always been a little sporadic."

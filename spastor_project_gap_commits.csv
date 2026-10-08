@@ -1,0 +1,376 @@
+,project,commit,author,time,message,Month
+Pre,tanghaibao_goatools,8c729903689e16b9dae6eae67e1227e4d50d50b7,Aurélien Naldi <aurelien.naldi@unil.ch>,1276867886,"update the OBO parser to take alternative IDs into account and use only the main ID when cunting occurences
+",2010-06
+Pre,tanghaibao_goatools,bcc7cd170f9ff2b8df98fa6984a6f60fe29176cc,Haibao Tang <tanghaibao@gmail.com>,1277142448,"revert naldi's change of count_terms() signature
+",2010-06
+Pre,tanghaibao_goatools,f75455067a7f7aad66f5b229ab514977b70c34d9,Haibao Tang <tanghaibao@gmail.com>,1277142944,"revert my own changes, naldi's changes are for alt_ids. now
+count_terms() calls are also consistent. FDR procedure confirmed.
+",2010-06
+Pre,tanghaibao_goatools,3b30776df67bf94276ca87773bb0ac3cf5546070,Haibao Tang <tanghaibao@gmail.com>,1279819535,"avoid code dup in obo_parser.draw_lineage
+",2010-07
+Pre,tanghaibao_goatools,05d51ecc85281824bfa20835c92540e25a308b65,Haibao Tang <tanghaibao@gmail.com>,1288841897,"small changes to refresh readme (clear bad cache)
+",2010-11
+Pre,tanghaibao_goatools,bfce032ce6b74cbd28d7e7b7a4f40e42df1429fa,Haibao Tang <tanghaibao@gmail.com>,1288841953,"minor
+",2010-11
+Pre,tanghaibao_goatools,d66096504e347cd6aa1547692e9c6940b2ec0cb7,GitHub Merge Button <merge-button@github.com>,1319901851,Merge 1aa0cd771c7106b20ef972c57cf9d6d121b98280 into bfce032ce6b74cbd28d7e7b7a4f40e42df1429fa,2011-10
+Pre,tanghaibao_goatools,1aa0cd771c7106b20ef972c57cf9d6d121b98280,Gun.io Whitespace Robot <contact@gun.io>,1319901936,"Remove whitespace [Gun.io WhitespaceBot]
+",2011-10
+Pre,tanghaibao_goatools,106570d8e1564479fcef307312b00a323c4f4d8e,Haibao Tang <tanghaibao@gmail.com>,1320002169,"Merge pull request #7 from GunioRobot/clean
+
+Hi! I cleaned up your code for you!",2011-10
+Pre,tanghaibao_goatools,933a28f960e65e5e7d32d6e28f3ca7df042665cb,Haibao Tang <tanghaibao@gmail.com>,1328033482,"add description for enrichment column
+",2012-01
+Post,tanghaibao_goatools,349b6f6917e459324d865436e6ce873ef7df43cc,Haibao Tang <tanghaibao@gmail.com>,1362493662,"address Issue #11, decouple '--alpha' (test-wise alpha) and '--pval' (family-wise alpha)",2013-03
+Post,tanghaibao_goatools,26d59d1324de1d8b1c212f8a74a8225ad7eaec65,Haibao Tang <tanghaibao@gmail.com>,1362503482,"address Issue #9, write out GML output for Cytoscape",2013-03
+Post,tanghaibao_goatools,904a6754f2dff37508f21e8e98af38205e135820,Haibao Tang <tanghaibao@gmail.com>,1362503882,"add link to graphmlreader
+",2013-03
+Post,tanghaibao_goatools,768b72199ddcb8f43fa07c93d26025a3c9586674,caoxinkai <caoxinkai@gmail.com>,1365732438,Create xkcao,2013-04
+Post,tanghaibao_goatools,9a7a7216a42363ccda1ee4eac88d947fee28a233,caoxinkai <caoxinkai@gmail.com>,1365732721,Merge 768b72199ddcb8f43fa07c93d26025a3c9586674 into 904a6754f2dff37508f21e8e98af38205e135820,2013-04
+Post,tanghaibao_goatools,41a147765c8714c82e07bc3711beb03aafcaddfb,Haibao Tang <tanghaibao@gmail.com>,1371567816,handle empty case per Issue #16,2013-06
+Post,tanghaibao_goatools,be15824820b2188e4727e65422e7d90366c404fd,r4d2 <patrick.flick@gmail.com>,1377036438,small fixes and code formating according to PEP8,2013-08
+Post,tanghaibao_goatools,cd5d296bd5fbc6beaf5307a018c0ecaf77e06e78,r4d2 <patrick.flick@gmail.com>,1377115602,"map2slim, tests for map2slim, fixes
+
+implemented the mapslim method of the map2slim.pl script from the
+geneontology go-perl package ( http://search.cpan.org/~cmungall/go-
+perl/scripts/map2slim )",2013-08
+Post,tanghaibao_goatools,99dce9190df3cc6847cfbf99e8399ec47c924e09,r4d2 <patrick.flick@gmail.com>,1377184888,"map_to_slim command-line script
+",2013-08
+Post,tanghaibao_goatools,0262e1d299769953b94cc4d69735eb8b58f5ab52,r4d2 <patrick.flick@gmail.com>,1377189918,"documentation and test into run.sh
+",2013-08
+Pre,synthetichealth_module-builder,f9e7e3d7b4612a2da2ee6dcbfd046cddf1061615,Dylan Hall <dehall@mitre.org>,1702405187,Merge 5144d263614bcf041324bae91f0efc5946b136f1 into f78aaf01d8862ca935f5c13783d0144e482212d8,2023-12
+Pre,synthetichealth_module-builder,343e1f2fc17170396177792e080deb6c70bfe966,Dylan Hall <dehall@mitre.org>,1711039296,"add version field on Code
+",2024-03
+Pre,synthetichealth_module-builder,99335df348f43d0cd5a5188c25cac34b718d3b10,Jason Walonoski <jawalonoski@users.noreply.github.com>,1711044621,"Merge pull request #330 from synthetichealth/code_versions
+
+Add version field on Code",2024-03
+Pre,synthetichealth_module-builder,19b8820b12fd85f138cdf569c984fa1482a8da0b,Dylan Hall <dehall@mitre.org>,1711046202,Update deploy.yml,2024-03
+Pre,synthetichealth_module-builder,0f4b9580ab22cf94b00c8189eac9c09f1e88e843,Dylan Hall <dehall@mitre.org>,1711046478,Update deploy.yml,2024-03
+Pre,synthetichealth_module-builder,b0b4449938ac252684e75790482ce9a0bbd39d82,Dylan Hall <dehall@mitre.org>,1711059706,"Merge pull request #331 from dehall/master
+
+Update deploy workflow",2024-03
+Pre,synthetichealth_module-builder,7affefcf7434ef5e1821c93ad21f52019b1395cc,github-actions[bot] <github-actions[bot]@users.noreply.github.com>,1711059920,deploying latest module builder b0b4449938ac252684e75790482ce9a0bbd39d82,2024-03
+Pre,synthetichealth_module-builder,41caf985e6e626ff089a2a80dbb07c0f003828ca,Dylan Hall <dehall@mitre.org>,1717680532,Merge 5144d263614bcf041324bae91f0efc5946b136f1 into b0b4449938ac252684e75790482ce9a0bbd39d82,2024-06
+Pre,synthetichealth_module-builder,31f3f9554c4d9084d618a74e57fa6998e3e2d360,Dylan Hall <dehall@mitre.org>,1718173593,Merge 266c8ab92b50d1db8404cf1d5b0ad848de91442a into b0b4449938ac252684e75790482ce9a0bbd39d82,2024-06
+Pre,synthetichealth_module-builder,de8daa83d2781a750a175ff46f1b05370f422eab,Andy Gregorowicz <andy@gregorowicz.org>,1718281102,Merge 6f271941d7fca7b00b56ebdec6d16182a2195021 into b0b4449938ac252684e75790482ce9a0bbd39d82,2024-06
+Post,synthetichealth_module-builder,fc44710d653e92c12d4a18922d1fad83bf9a9668,Dylan Hall <dehall@mitre.org>,1732145672,Merge f3e1241ca364d3dc561ef74b4a62c2285dab5704 into b0b4449938ac252684e75790482ce9a0bbd39d82,2024-11
+Post,synthetichealth_module-builder,eef47093f30884a843d1dc143f3f05776f5866e9,Dylan Hall <dehall@mitre.org>,1737145814,"update modules to latest
+",2025-01
+Post,synthetichealth_module-builder,3a94f4a575aa2ef52560261ea1da1c2a49a1151c,github-actions[bot] <github-actions[bot]@users.noreply.github.com>,1737146058,deploying latest module builder eef47093f30884a843d1dc143f3f05776f5866e9,2025-01
+Post,synthetichealth_module-builder,31d1909476da96b46821b2a252cfcd02c6488fc9,Andy Gregorowicz <andy@gregorowicz.org>,1742084539,Merge 6f271941d7fca7b00b56ebdec6d16182a2195021 into eef47093f30884a843d1dc143f3f05776f5866e9,2025-03
+Post,synthetichealth_module-builder,6488978df8cf24cc06629ce12a4640c95676cbe3,Dylan Hall <dehall@mitre.org>,1743803777,Merge f3e1241ca364d3dc561ef74b4a62c2285dab5704 into eef47093f30884a843d1dc143f3f05776f5866e9,2025-04
+Post,synthetichealth_module-builder,9db9912fb1708d3e3741a61d0d08cb796d66e7a2,Dylan Hall <dehall@mitre.org>,1743803878,Merge 5144d263614bcf041324bae91f0efc5946b136f1 into eef47093f30884a843d1dc143f3f05776f5866e9,2025-04
+Post,synthetichealth_module-builder,ad4aee4dbd89f6e74b4256f4df66c4fd3d9a41b7,Dylan Hall <dehall@mitre.org>,1743804092,Merge 266c8ab92b50d1db8404cf1d5b0ad848de91442a into eef47093f30884a843d1dc143f3f05776f5866e9,2025-04
+Post,synthetichealth_module-builder,202ce90b8db7f52894cde44c7015c37d741b6854,KeeyanGhoreshi <keeyan.ghoreshi@uconn.edu>,1754933744,"update dependencies
+",2025-08
+Post,synthetichealth_module-builder,d31e227aa73905a7ab4b6a3340b0d10fb7712e2b,KeeyanGhoreshi <keeyan.ghoreshi@uconn.edu>,1754936492,"test changes
+",2025-08
+Post,synthetichealth_module-builder,a16ee2cb741b26611b7615bccb9771a242b55beb,Keeyan <kgdimps@gmail.com>,1754936500,Merge d31e227aa73905a7ab4b6a3340b0d10fb7712e2b into eef47093f30884a843d1dc143f3f05776f5866e9,2025-08
+Pre,pennylaneai_pennylane,09b9048bede6cccefee20b48f3f2facd65ae119e,Josh Izaac <josh146@gmail.com>,1549744566,"torch gpu fixes
+",2019-02
+Pre,pennylaneai_pennylane,2fd37e93ddadbec631e400248e5ae3a090598d91,Josh Izaac <josh146@gmail.com>,1549744720,"torch gpu fixes
+",2019-02
+Pre,pennylaneai_pennylane,1d4f5f09b15443e1d8ac05a1dfda936303fd3dfe,Josh Izaac <josh146@gmail.com>,1549747217,"updated travis
+",2019-02
+Pre,pennylaneai_pennylane,194ccd00a9a7f7075c37680c970e56bab4808e60,Josh Izaac <josh146@gmail.com>,1550102905,"updated changelog
+",2019-02
+Pre,pennylaneai_pennylane,2ae60d3f2da565dec2971f024914cef98af9b024,Josh Izaac <josh146@gmail.com>,1552108318,"interfaces setup bug fix
+",2019-03
+Pre,pennylaneai_pennylane,1f5854b2736a95ce496abb385f34688ddab82ea5,mariaschuld <mariaschuld@gmail.com>,1553171618,"update docs
+",2019-03
+Pre,pennylaneai_pennylane,085d57e9e22054a6746359d1f632ab8d32aa3afe,Josh Izaac <josh146@gmail.com>,1553192843,"correct docstring signature of CVNeuralNetlayer
+",2019-03
+Pre,pennylaneai_pennylane,08f94b32e364cb866905414ba0b719ad9dc6cad8,mariaschuld <mariaschuld@gmail.com>,1553586340,"some fixes from testing
+",2019-03
+Pre,pennylaneai_pennylane,27580ae39f6b61f1028ae42c98d4af806c7e7933,Nathan Killoran <co9olguy@users.noreply.github.com>,1553606126,Update pennylane/template.py,2019-03
+Pre,pennylaneai_pennylane,0e725a5ba39ecadad9b3efe5da8e1d2a1b2c8d9d,Nathan Killoran <co9olguy@users.noreply.github.com>,1553606757,"Merge pull request #173 from XanaduAI/Issue#167
+
+Fixed error in CVQNN docstring and added some more explanation",2019-03
+Post,pennylaneai_pennylane,0e0d3db754c5a9d06a3df9075cef520a27b7a3ba,quantshah <shahnawaz.ahmed95@gmail.com>,1555073919,"A minimal pennylane.about
+",2019-04
+Post,pennylaneai_pennylane,27781a3e07dba1c94d8ab7f7da40a8ab0242fde7,Josh Izaac <josh146@gmail.com>,1555512517,"fix pennylane traceback on travis
+",2019-04
+Post,pennylaneai_pennylane,2f7a47d1f94b0318594f77a0cf67e3c65e0d0faf,Josh Izaac <josh146@gmail.com>,1555512526,"Merge branch 'master' of https://github.com/xanaduai/pennylane
+",2019-04
+Post,pennylaneai_pennylane,308daf3604a13b984b434de37346732b9fe2e123,Josh Izaac <josh146@gmail.com>,1556130927,"added Q# plugin
+",2019-04
+Post,pennylaneai_pennylane,30da7557322e7b7751e74e5b1168953c0674c58a,mariaschuld <mariaschuld@gmail.com>,1556788401,"update docstring
+",2019-05
+Post,pennylaneai_pennylane,0d642948ec3bcbf1ba2fb0e5bf7167f0784e9442,quantshah <shahnawaz.ahmed95@gmail.com>,1557003839,"multi expand add
+",2019-05
+Post,pennylaneai_pennylane,2a6b5f992363423f986b625d3210ff6e8db0ee15,mariaschuld <mariaschuld@gmail.com>,1557235339,"start layers tests
+",2019-05
+Post,pennylaneai_pennylane,2aa220d7d1235cc923962368e4cca40e398a56cb,mariaschuld <mariaschuld@gmail.com>,1557235352,"typo
+",2019-05
+Post,pennylaneai_pennylane,127b88795a99ce9049ecb19478f7c1004701d5fc,mariaschuld <mariaschuld@gmail.com>,1557330050,"finish embeddings testing except from CV phases
+",2019-05
+Post,pennylaneai_pennylane,262c34f064816450f41040f0c3651f90a2e80349,mariaschuld <mariaschuld@gmail.com>,1557330067,"rewrite existing tests as pytests
+",2019-05
+Pre,paddlepaddle_deepspeech,1e5c236fb92a90b763ec96354aa74e26aef48272,eric_xu <feitongxiaoke@gmail.com>,1528080067,Merge 860c781832bda9e4d15b1920d7639443ccc34aa3 into 4f9a210761d6234acbbc88afdd718a667d52f5d0,2018-06
+Pre,paddlepaddle_deepspeech,45a867b7308032dc70c7e6dddf4045b7f791d83b,eric_xu <feitongxiaoke@gmail.com>,1528080131,fix README_cn.md,2018-06
+Pre,paddlepaddle_deepspeech,7f8942150215ba3a12b4f74dcb95732222553dd7,eric_xu <feitongxiaoke@gmail.com>,1528080131,fix README_cn.md,2018-06
+Pre,paddlepaddle_deepspeech,6371cd2d0a11429175d7a67c82b066ada70f90e6,eric_xu <feitongxiaoke@gmail.com>,1528080383,Update README_cn.md,2018-06
+Pre,paddlepaddle_deepspeech,0ef67f165c346fdb0026b94d8eb67ff9414be384,eric_xu <feitongxiaoke@gmail.com>,1528080402,Merge 6371cd2d0a11429175d7a67c82b066ada70f90e6 into 4f9a210761d6234acbbc88afdd718a667d52f5d0,2018-06
+Pre,paddlepaddle_deepspeech,893b81ea7657ecd4b01b20e2b7c524ac7c763f46,eric_xu <feitongxiaoke@gmail.com>,1528080634,Update README_cn.md,2018-06
+Pre,paddlepaddle_deepspeech,c5f7efa39a916da9d7d1cbbbaf45e0e24f7151a9,eric_xu <feitongxiaoke@gmail.com>,1528080634,Update README_cn.md,2018-06
+Pre,paddlepaddle_deepspeech,0f8f2b6635c2792a74203ae892aab07fe03ba163,Shan Yi <35982308+shanyi15@users.noreply.github.com>,1528081606,"Merge pull request #247 from ericxk/patch-1
+
+fix README_cn.md",2018-06
+Pre,paddlepaddle_deepspeech,a76fc692123e97e5f183c3a00e30b7f2e2d3f07c,Shan Yi <35982308+shanyi15@users.noreply.github.com>,1528081606,"Merge pull request #247 from ericxk/patch-1
+
+fix README_cn.md",2018-06
+Pre,paddlepaddle_deepspeech,43665ede0c7bea429de7c595afa5eba04d4ddf76,Konstantin Krestnikov <rai220@gmail.com>,1528116719,Merge f52ad5e5a8d752370867f737ced9bb04b1e63001 into a76fc692123e97e5f183c3a00e30b7f2e2d3f07c,2018-06
+Post,paddlepaddle_deepspeech,445d84ee2635e0a5fcd7c5f41fc7f2962c1fc4c4,Yibing Liu <liuyibing01@baidu.com>,1556008537,"Update lm & acoustic models' link
+",2019-04
+Post,paddlepaddle_deepspeech,4eb106b0e8cef0153b16a27f5947620c338daf7f,Yibing Liu <liuyibing01@baidu.com>,1556008537,"Update lm & acoustic models' link
+",2019-04
+Post,paddlepaddle_deepspeech,46489abed887294d38b826825fec23f35d6a88d0,Yibing Liu <liuyibing01@baidu.com>,1556008850,"Merge pull request #322 from PaddlePaddle/fix_models_link
+
+Update lm & acoustic models' link",2019-04
+Post,paddlepaddle_deepspeech,cdcbc8716713c041b131a16f5605e19b9bda6e97,Yibing Liu <liuyibing01@baidu.com>,1556008850,"Merge pull request #322 from PaddlePaddle/fix_models_link
+
+Update lm & acoustic models' link",2019-04
+Post,paddlepaddle_deepspeech,00f9782b09b4b5c744d79fc1d34e514882d82192,Konstantin Krestnikov <rai220@gmail.com>,1557380022,Merge f52ad5e5a8d752370867f737ced9bb04b1e63001 into cdcbc8716713c041b131a16f5605e19b9bda6e97,2019-05
+Post,paddlepaddle_deepspeech,3218ae60c45eb462f4b9383c8dd33bb2c98a4ead,Yibing Liu <liuyibing01@baidu.com>,1560247187,"Update the urls in download scripts
+",2019-06
+Post,paddlepaddle_deepspeech,95e5d1f5ab2e762ebc03d5d6f51c40369b5b1d3d,Yibing Liu <liuyibing01@baidu.com>,1560247187,"Update the urls in download scripts
+",2019-06
+Post,paddlepaddle_deepspeech,15de13ede159a38db009524077a46211803f4a47,Yibing Liu <liuyibing01@baidu.com>,1560247499,"Merge pull request #333 from PaddlePaddle/update_urls
+
+Update the urls in download scripts",2019-06
+Post,paddlepaddle_deepspeech,464eaca36820a35c16e5cb146cde287d9a83295d,Yibing Liu <liuyibing01@baidu.com>,1560247499,"Merge pull request #333 from PaddlePaddle/update_urls
+
+Update the urls in download scripts",2019-06
+Post,paddlepaddle_deepspeech,1be9a215f7ac31a6a6268165d5f249a43fcd4349,Philip Tzou <philip.npc@gmail.com>,1561008261,`np` is used (line 93) but not defined in `data_utils/speech.py`,2019-06
+Pre,nlesc_mcfly,972d7b9b33280f0dcbfe9b3776db15f48ec2e6d3,Malte Lüken <m.luken@esciencecenter.nl>,1673352222,Restrict scipy version in requirements,2023-01
+Pre,nlesc_mcfly,56eafee1b0ebdfa2b387de0441dcd7e03d81113d,Malte Lüken <m.luken@esciencecenter.nl>,1673352574,Restrict versions of scikit-learn and numpy requirements,2023-01
+Pre,nlesc_mcfly,c30f92ba958f6a43ae200de9dd5db7ff6f668e0a,Olga Lyashevska <olga.lyashevska@gmail.com>,1673354540,"Merge pull request #319 from NLeSC/fix-rtd-build
+
+Fix: read the doc build",2023-01
+Pre,nlesc_mcfly,168055c3be93b188a17e649d3be146fa87f24a58,Christiaan Meijer <c.meijer@esciencecenter.nl>,1674124526,Update ROADMAP.md,2023-01
+Pre,nlesc_mcfly,fae06e32fe39bdee5dffc4631c12872f90e67608,Christiaan Meijer <c.meijer@esciencecenter.nl>,1675849720,"Merge pull request #318 from abelsiqueira/patch-1
+
+Change CITATION.cff cff-version to 1.2.0",2023-02
+Pre,nlesc_mcfly,3450a7a72fa15f35b43d948acda2428343aed77e,Christiaan Meijer <c.meijer@esciencecenter.nl>,1675850016,Merge branch 'main' into refactorings,2023-02
+Pre,nlesc_mcfly,fe331b11063b3e2d5f06f8f6c04f7d2e32dae8fd,Christiaan Meijer <c.meijer@esciencecenter.nl>,1675854015,"fix merge issues modelgen
+",2023-02
+Pre,nlesc_mcfly,9d053a43b965306449821f14b715068bdbcc018b,Christiaan Meijer <c.meijer@esciencecenter.nl>,1675861401,"Merge pull request #304 from NLeSC/refactorings
+
+refactor modelgen",2023-02
+Pre,nlesc_mcfly,765b191f17d41cc96181247a80f6ad5446b17c21,Christiaan Meijer <c.meijer@esciencecenter.nl>,1685431844,Create FAIRSECO.yml,2023-05
+Pre,nlesc_mcfly,958aa1c115ca55a50272e39f3855086a8fb59309,github-actions[bot] <github-actions[bot]@users.noreply.github.com>,1685432397,"Update FAIRSECO history file
+",2023-05
+Post,nlesc_mcfly,fadc0a2006538a8e274c73c0c78112bd94924cd8,Christiaan Meijer <c.meijer@esciencecenter.nl>,1723109620,add scrutinizer ocular token,2024-08
+Post,nlesc_mcfly,5326968e278b14608cc9577c7d471cd9999fa9ab,Christiaan Meijer <c.meijer@esciencecenter.nl>,1723110588,Create .coveragerc,2024-08
+Post,nlesc_mcfly,e256a578b12a9391fbf9dbbba9c75cd4d6bac6a3,Christiaan Meijer <c.meijer@esciencecenter.nl>,1723111081,"drop 3.7, 3.8, 3.9 testing",2024-08
+Post,nlesc_mcfly,47b6e8c3815810c690fa43167ce8fc70d227d8f5,Christiaan Meijer <c.meijer@esciencecenter.nl>,1723111118,Update README.md,2024-08
+Post,nlesc_mcfly,5fc84af6c5373d820576f826c58acdd07db8b01b,Christiaan Meijer <c.meijer@esciencecenter.nl>,1723111170,drop python < 3.10 support,2024-08
+Post,nlesc_mcfly,60ecb34621f41fd11198c4809aa2a54e6c60e87e,Christiaan Meijer <c.meijer@esciencecenter.nl>,1723111671,Update setup.py remove dependency restrictions,2024-08
+Post,nlesc_mcfly,ccebb96d22879749ed22c9fd40626df3e2c2d666,Christiaan Meijer <c.meijer@esciencecenter.nl>,1723111915,Update setup.py (revert last commit),2024-08
+Post,nlesc_mcfly,0e73c6c5358aefb451eaf2cc9efddafdc5ee4961,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1725401794,"Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows
+
+Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 3 to 4.1.7.
+- [Release notes](https://github.com/actions/download-artifact/releases)
+- [Commits](https://github.com/actions/download-artifact/compare/v3...v4.1.7)
+
+---
+updated-dependencies:
+- dependency-name: actions/download-artifact
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>",2024-09
+Post,nlesc_mcfly,030e5e4d138d2c2ed55acfb3a3aa61a1c4e8f469,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1725401796,Merge 0e73c6c5358aefb451eaf2cc9efddafdc5ee4961 into ccebb96d22879749ed22c9fd40626df3e2c2d666,2024-09
+Post,nlesc_mcfly,c4f496d55201a737ac887a406c1eaf723431d858,HeinrichAD <HeinrichAD@users.noreply.github.com>,1744615899,"add multi-backend Keras 3 support and update dependencies
+
+- migrate to Keras 3 to support Numpy, JAX, Tensorflow and PyTorch
+- remove strict TensorFlow requirements
+- switch to recommended model file format. Note: HDF5 file format is considered legacy. They recommend the native Keras format "".keras"" instead.
+- update CI build (first_check) to test multiple Keras backends
+- update dependencies
+- switch from setup.py to pyproject.toml to support pip>=25.0.1
+- update Readme to inform about multi-backend Keras 3 support and GPU support
+- add keras backend tests (JAX, Tensorflow and PyTorch)
+- increase version from 4.0.0 to 4.1.0
+- temporary disable Scrutinizer GitHub action to test/run the actions inside the fork",2025-04
+Pre,jatinchowdhury18_analogtapemodel,51aa03b730968740a573865b02503a345f2aefc9,jatin <jatinchowdhury18@gmail.com>,1699077422,"Fixing typo in Wow/OH process variance filter
+",2023-11
+Pre,jatinchowdhury18_analogtapemodel,e3edf8d539bed819be88faee611301b3f69d30fc,jatin <jatinchowdhury18@gmail.com>,1699132131,"Skip STN test on Macos
+",2023-11
+Pre,jatinchowdhury18_analogtapemodel,23b10b435c7bd051c1380bfe4703670256124d02,jatin <jatinchowdhury18@gmail.com>,1699132170,"Loosen bounds for PresetLevelTest
+",2023-11
+Pre,jatinchowdhury18_analogtapemodel,3068276edc2ad3e2388b6c8722f949961fd3c9ae,jatin <jatinchowdhury18@gmail.com>,1699132185,"Bump version
+",2023-11
+Pre,jatinchowdhury18_analogtapemodel,604372e4ffd9690c3e283362e4598cb43edbb475,jatin <jatinchowdhury18@gmail.com>,1699211858,"Update changelog
+",2023-11
+Pre,jatinchowdhury18_analogtapemodel,bbf7d4c12b61b12f25db786320ee8aa19f65a790,codesee-maps[bot] <86324825+codesee-maps[bot]@users.noreply.github.com>,1699708011,Merge 39b7044743e1cef24eb87b09f174583bb90e1959 into 604372e4ffd9690c3e283362e4598cb43edbb475,2023-11
+Pre,jatinchowdhury18_analogtapemodel,7150cd72800ae497e634d03a5fec75e7cf6a78b5,bastard <134429563+RustoMCSpit@users.noreply.github.com>,1714248789,"Create plugins.json
+
+necessary for https://github.com/studiorack/studiorack-registry",2024-04
+Pre,jatinchowdhury18_analogtapemodel,01a4e2880dce09fb32b7307e13bfe9ca8c64d7e1,bastard <134429563+RustoMCSpit@users.noreply.github.com>,1714248820,Merge 7150cd72800ae497e634d03a5fec75e7cf6a78b5 into 604372e4ffd9690c3e283362e4598cb43edbb475,2024-04
+Pre,jatinchowdhury18_analogtapemodel,7d95aa555b104a41969b517fd778f364e55e0536,jatin <jatinchowdhury18@gmail.com>,1727071747,"Temporarily removing some loading code
+",2024-09
+Pre,jatinchowdhury18_analogtapemodel,46bdc3662eb369d36d3817159a87eae68f068c26,jatinchowdhury18 <jatinchowdhury18@gmail.com>,1727155672,Update cmake.yml,2024-09
+Post,jatinchowdhury18_analogtapemodel,8a3330947cc61b62560f26bda981413ae0787cf8,jatin <jatinchowdhury18@gmail.com>,1744159820,Updating to JUCE 8,2025-04
+Post,jatinchowdhury18_analogtapemodel,843482c115d6fbdba7586d56b277c3aa6cfedb7d,jatin <jatinchowdhury18@gmail.com>,1744160693,"Attempting to fix builds
+",2025-04
+Post,jatinchowdhury18_analogtapemodel,0d81e1fdc3962e042c37e65bf942f8b5d356139a,jatin <jatinchowdhury18@gmail.com>,1744161402,"Fixing headless build
+",2025-04
+Post,jatinchowdhury18_analogtapemodel,ae9029cc210ab14cb9d4cfc2678e4061518768b5,jatinchowdhury18 <jatinchowdhury18@gmail.com>,1744161407,Merge 0d81e1fdc3962e042c37e65bf942f8b5d356139a into 46bdc3662eb369d36d3817159a87eae68f068c26,2025-04
+Post,jatinchowdhury18_analogtapemodel,f4346ad95422f2a5d96977cd9bf50e3ebf3955fa,github-actions[bot] <github-actions[bot]@users.noreply.github.com>,1744161499,"Apply clang-format
+",2025-04
+Post,jatinchowdhury18_analogtapemodel,218fb6f0388f32a01ca137554e2175078b55de84,jatin <jatinchowdhury18@gmail.com>,1744162685,"Tweaking Linux deps
+",2025-04
+Post,jatinchowdhury18_analogtapemodel,4f918bba393ad56ad6af0595ed4594dcd5bd18f0,jatinchowdhury18 <jatinchowdhury18@gmail.com>,1744179097,"Updating to JUCE 8 (#326)
+
+* Updating to JUCE 8
+
+* Attempting to fix builds
+
+* Fixing headless build
+
+* Apply clang-format
+
+* Tweaking Linux deps
+
+---------
+
+Co-authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>",2025-04
+Post,jatinchowdhury18_analogtapemodel,ad5f630c5dae895df6fcd08d67a903c2ce952b48,jatin <jatinchowdhury18@gmail.com>,1744185516,"Update AAX build script
+",2025-04
+Post,jatinchowdhury18_analogtapemodel,d01281a246fbac318674509f154e27f245fb38de,Bart Brouns <bart@magnetophon.nl>,1760883639,"Update RTNeural submodule to latest version
+",2025-10
+Post,jatinchowdhury18_analogtapemodel,405ea2d76fc92da83b5a879bf8424d58381b20f1,Bart Brouns <bart@magnetophon.nl>,1760884626,Merge d01281a246fbac318674509f154e27f245fb38de into 604372e4ffd9690c3e283362e4598cb43edbb475,2025-10
+Pre,henryseg_veering,fa43a3ced0872b1048389f4bfb547bed3dd3425d,Henry Segerman <github.com@segerman.org>,1585948604,"only bury triangles that have interesting and long edges
+",2020-04
+Pre,henryseg_veering,5a1384427d6bde37b20bfe0afe80e42e1e99a8f9,Henry Segerman <github.com@segerman.org>,1586114564,"New build types - make_coastal_edges_internal and explore_prongs
+",2020-04
+Pre,henryseg_veering,09bac6453e6196e8facf422263b001e31cd3573e,Henry Segerman <github.com@segerman.org>,1586198635,"hybrid build type
+",2020-04
+Pre,henryseg_veering,ae0c3583b3e7c8923253e0822e2aeadf59160c41,Henry Segerman <github.com@segerman.org>,1586277610,"working on adding loxodromics
+",2020-04
+Pre,henryseg_veering,cd9acfe5f1b3d91cd7ba3d17b60fd5bae6376415,Henry Segerman <github.com@segerman.org>,1586472703,"clean up, vertices now descend from ladderpoles, draw all torus components
+",2020-04
+Pre,henryseg_veering,36252bae8e655c9d6d826e081f3cd24dfc9a4f92,Henry Segerman <github.com@segerman.org>,1586472723,"Update continent.py
+",2020-04
+Pre,henryseg_veering,94d62d92bfb7eb9153d236ac9ebd4f30574fc842,Saul Schleimer <saulsch@gmail.com>,1587121635,"reversed sign - so we are no longer _assuming_ the polynomial is palindromic
+",2020-04
+Pre,henryseg_veering,63b701c425badef320602c411d62245b34965f19,Saul Schleimer <saulsch@gmail.com>,1587125329,"fixed typo in veering_poly
+",2020-04
+Pre,henryseg_veering,6b58022fbb1745dae6accad04e1532d5697bd63b,Henry Segerman <github.com@segerman.org>,1587178149,"Tracking down craziness in developing
+
+likely accumulation of float error - it happens when approaching vertices that are not incident to infinity
+",2020-04
+Pre,henryseg_veering,5e4768b0354e10b1e64d4966fef1e944b33b0921,Henry Segerman <github.com@segerman.org>,1588272989,"Add naive build type
+",2020-04
+Post,henryseg_veering,3ee059baf870f7984aaee60f1a05a3401c3ff726,Henry Segerman <github.com@segerman.org>,1596418362,"Added lighting curves
+",2020-08
+Post,henryseg_veering,68ef91e98b3663112fc706a720035fb06eaba717,Henry Segerman <github.com@segerman.org>,1596423140,"filenames indicate whether we hit max tetrahedra
+",2020-08
+Post,henryseg_veering,223369a726a9ac4328ba3a39b6428347fe692b8a,Henry Segerman <github.com@segerman.org>,1596475740,"lightning curves on vertices not midpoints, trimmed to the fund dom
+",2020-08
+Post,henryseg_veering,afde955cc42f8979d6fb6dce8e1f876810760eca,Henry Segerman <github.com@segerman.org>,1596725681,"Added calculation for the upper and lower landscapes for the continent
+",2020-08
+Post,henryseg_veering,90b938c0eff2f1a5fe44063ca304814cae99290f,Saul Schleimer <saulsch@gmail.com>,1597419003,"Remove comments
+",2020-08
+Post,henryseg_veering,360fab39ca0687ac1afc424511afe650c91ae339,Saul Schleimer <saulsch@gmail.com>,1597419159,"Fixing the order
+",2020-08
+Post,henryseg_veering,b2453a3c593ba32679b116a10d9fbbf631822cfe,Saul Schleimer <saulsch@gmail.com>,1597419186,"Merge branch 'images' of https://github.com/henryseg/Veering into images
+",2020-08
+Post,henryseg_veering,8809aee1f7969a705bd91da3dab24cab720c7f08,Henry Segerman <henryseg@users.noreply.github.com>,1597419499,Merge branch 'master' into images,2020-08
+Post,henryseg_veering,c5c52d1c0e693681b665f1a8af8e61f800b7d6ea,Henry Segerman <henryseg@users.noreply.github.com>,1597419581,"Merge pull request #5 from henryseg/images
+
+Images -> master",2020-08
+Post,henryseg_veering,2937e4ef5d7045ea462b8fb0a68b3f05e1b3009e,Saul Schleimer <saulsch@gmail.com>,1597420551,"added taut_poly, added cycles to faces_in_homology
+",2020-08
+Pre,helske_bssm,809dd3a58a818c7868106972ffe9e01fb2c4a6e0,helske <jouni.helske@iki.fi>,1675776350,"small tweaks to Rmds, update gha workflow
+",2023-02
+Pre,helske_bssm,38b5e976a1edbcf50d5d73b8adecb8814578706c,Jouni Helske <jouni.helske@iki.fi>,1675776686,"Merge pull request #32 from helske/master
+
+small tweaks to Rmds, update gha workflow",2023-02
+Pre,helske_bssm,7fd79101cc3793fd2494c52377720601a12f74c1,Jouni Helske <jouni.helske@utu.fi>,1693823866,"update aliases
+",2023-09
+Pre,helske_bssm,3c55c2c34d4fe0ed8d769a24c5c944dadfd7a93e,Jouni Helske <jouni.helske@utu.fi>,1693828187,"update links
+",2023-09
+Pre,helske_bssm,97b489eab709173512ca6f7341a028eccaed98a2,Jouni Helske <jouni.helske@utu.fi>,1697452969,"remove magrittr dependency
+",2023-10
+Pre,helske_bssm,6eff0a8fe7a5ecc2d7120884022c98a0d6ac9bfe,Jouni Helske <jouni.helske@utu.fi>,1697453003,"update metadata
+",2023-10
+Pre,helske_bssm,3b5c6c1753dccb3045b7e2d750157d16a0d3c71c,Jouni Helske <jouni.helske@utu.fi>,1698143801,"omp thread limit
+",2023-10
+Pre,helske_bssm,232b2fe37f94c29c05ddc11580dda795c02b210d,Jouni Helske <jouni.helske@utu.fi>,1698232713,"change OMP env variable
+",2023-10
+Pre,helske_bssm,a317fb772fbc1acc9e55976cf5da6202c9ff7dd1,Jouni Helske <jouni.helske@utu.fi>,1698411627,"dont run exchange example
+",2023-10
+Pre,helske_bssm,813a94ba0abfa28877de1f2ebdec54f75c54344a,Jouni Helske <jouni.helske@utu.fi>,1725792381,"reactivate codecov
+",2024-09
+Post,helske_bssm,316c0770f639f14b3fb7de7db461be65b17b714a,Jouni Helske <jvhels@utu.fi>,1758701591,"fix is_finite warnings from Armadillo
+",2025-09
+Pre,fraserw_pymop,2b5c37094f08d1e697f103f2dcbfb97930eaa102,fraserw <westhefras@gmail.com>,1578263218,--adjust setup.py to handle py27/py3 astropy issue.,2020-01
+Pre,fraserw_pymop,41d13afb7f9cd25aac397492ef89337880ca27f7,fraserw <westhefras@gmail.com>,1594830837,"--provide the ability to force the background to some value in fitMoffat
+",2020-07
+Pre,fraserw_pymop,418d33e26c398baac88082425b8cbdecd02a20cc,fraserw <westhefras@gmail.com>,1594831226,"--add missed variable pass
+",2020-07
+Pre,fraserw_pymop,d31a68d4a76fc1ca1423a7c328464268edac381f,fraserw <westhefras@gmail.com>,1594832804,"--removed superfluous print statement
+",2020-07
+Pre,fraserw_pymop,17355463c5bcc36c1af70813a94e4ffc0edc0109,fraserw <westhefras@gmail.com>,1612316736,"--added bg mode choice to the genPSFLookupTable function
+",2021-02
+Pre,fraserw_pymop,ac6146f170403dfc964f33d06ca1c2b019a3a2f0,fraserw <westhefras@gmail.com>,1612371764,"--improvements to the initialization of the MCMC chain
+",2021-02
+Pre,fraserw_pymop,c1aa768601ff4f368aaee94b0a701ec543b6867a,fraserw <westhefras@gmail.com>,1612457451,"Revert ""--improvements to the initialization of the MCMC chain""
+
+This reverts commit ac6146f170403dfc964f33d06ca1c2b019a3a2f0.",2021-02
+Pre,fraserw_pymop,40e77644b63f4589850d6679f15b7bbbf699f514,fraserw <westhefras@gmail.com>,1612457797,"--recovering from yesterday's errant push
+",2021-02
+Pre,fraserw_pymop,3bad7a8c6305d9e372a1153a9af3ef1be413ee77,fraserw <westhefras@gmail.com>,1612458193,"--adding the bgmode option I thought I added yesterday
+",2021-02
+Pre,fraserw_pymop,78c3ebd2fbf92804eae87ce18208e01291e5e86f,fraserw <westhefras@gmail.com>,1623964367,"--fixed the missing test fits images
+",2021-06
+Post,fraserw_pymop,34f6af5ad0e80862c6eb23bab904e375d0a53a42,JJ Kavelaars <jjkavelaars@gmail.com>,1659730709,"Make nbins an argument instead of picking up from global
+",2022-08
+Post,fraserw_pymop,b5d9e0121c0ac0d942812caefb7fae752b10bf21,JJ Kavelaars <jjkavelaars@gmail.com>,1659730731,PEP8 cleanup and switch to use logger instead of print,2022-08
+Post,fraserw_pymop,61980a97a605043b0ff42490a1d2da2b706f33eb,JJ Kavelaars <jjkavelaars@gmail.com>,1659730806,"PEP-8 cleanup, very minor addition of extra line at end of file",2022-08
+Post,fraserw_pymop,8fadae907982a9369f8c2580a3755fa8b27e8b87,JJ Kavelaars <jjkavelaars@gmail.com>,1659730836,"Put some requirements here... eventually they should all go here
+",2022-08
+Post,fraserw_pymop,f1600a295ace81c06916f54378bd61f6e94077d5,JJ Kavelaars <jjkavelaars@gmail.com>,1659730854,"Add scikit-learn as dependency as it is needed
+",2022-08
+Post,fraserw_pymop,df912042d2645f9aa9055f1d725b41574885db9c,JJ Kavelaars <jjkavelaars@gmail.com>,1659730916,"Add CANFAR docker build system to repository
+",2022-08
+Post,fraserw_pymop,f7aa22326b9d1a67f8c25ba82db5a8cc5f594397,Ryan Ridden <rri38@Beep-booper.canterbury.ac.nz>,1688705482,"incorrect multiplication in the moffat profile function
+",2023-07
+Post,fraserw_pymop,b5094b77caa707c6320fe6b7f132b082daa82fe3,JJ Kavelaars <JJ.Kavelaars@nrc-cnrc.gc.ca>,1718753110,"Some logging bugs removed
+",2024-06
+Post,fraserw_pymop,6c5a9cf5f5cfc358a4586c4684149574764a4237,JJ Kavelaars <jj.kavelaars@nrc-cnrc.gc.ca>,1726480075,Merge b5094b77caa707c6320fe6b7f132b082daa82fe3 into 78c3ebd2fbf92804eae87ce18208e01291e5e86f,2024-09
+Post,fraserw_pymop,a4e98c8529d56d68b54505a520bb878f10e47b0a,Wesley Fraser <westhefras@gmail.com>,1748880969,Fixed the trimBGHighpix bug when doing interactive photometry,2025-06
+Pre,cjhopp_scripts,9d9a22f011375aca20a7b3ce298a9d3cef8040d6,cjhopp <chopp@lbl.gov>,1673391157,"lots of DTS delta plotting and amplify plotting funcs
+",2023-01
+Pre,cjhopp_scripts,c03851b9217fd083de42c6534571fc9a49bf8f9b,cjhopp <chopp@lbl.gov>,1674085617,"adding DTS and neubrex functions
+",2023-01
+Pre,cjhopp_scripts,09fc3698483350d583c201e7bcf3e6ab1b352ff4,cjhopp <chopp@lbl.gov>,1675205477,cleanup after 22.04 upgrade,2023-01
+Pre,cjhopp_scripts,93a042d4dd41b3675043e9a98b1fa43ce66333be,cjhopp <chopp@lbl.gov>,1678119670,dump changes 3-6-23,2023-03
+Pre,cjhopp_scripts,d33396fea5535313b6a11383562560289c822e35,cjhopp <chopp@lbl.gov>,1678402546,"NUMO plotting; minor FSB/CSD plotting; relocate
+",2023-03
+Pre,cjhopp_scripts,10a4d3427f78eaec713559b1651b680556faee1b,cjhopp <chopp@lbl.gov>,1680808894,large dump 4-6-23,2023-04
+Pre,cjhopp_scripts,58a598f5009e2f565ec376a20fa5ffa2b4910163,cjhopp <chopp@lbl.gov>,1683042053,dump 5-2-23,2023-05
+Pre,cjhopp_scripts,a407cbec7232cbf5c118240b98642ec6340decb7,cjhopp <chopp@lbl.gov>,1684171989,"patua processing start date; DSS additions
+",2023-05
+Pre,cjhopp_scripts,89cecfe82532e84a739e26a845b9455df0090ca5,cjhopp <chopp@lbl.gov>,1684174484,"patua processing end date
+",2023-05
+Pre,cjhopp_scripts,aeb40fe7edc5e63aadb6ab78c29b86a5ff16a09d,cjhopp <chopp@lbl.gov>,1692628999,"post baby dump
+",2023-08
+Post,cjhopp_scripts,f171d421b9826ddd6f984a99270e099f0ae460ef,cjhopp <chopp@lbl.gov>,1717604930,dump codes 6-5-24,2024-06
+Post,cjhopp_scripts,74188421f52cbbe1d25abd19ef95cb619f17b9c3,cjhopp <chopp@lbl.gov>,1717605353,"new DAC slurm job file
+",2024-06
+Post,cjhopp_scripts,006f14f31fb64baa538cf5024e17e528113667e4,cjhopp <chopp@lbl.gov>,1717606736,"Lawrencium path fix for DAC matched filt
+",2024-06
+Post,cjhopp_scripts,d405aa83a8d2d34bc7140a2dd661f63a57f9b505,cjhopp <chopp@lbl.gov>,1717620416,"try edited source installation
+",2024-06
+Post,cjhopp_scripts,27abf3342e5e5735ad08295331864161edb6b257,cjhopp <cjhopp@mtu.edu>,1717691345,"switch to lr4 partition, per Edison; up proc to 24 cores",2024-06
+Post,cjhopp_scripts,f9dbfa288e23371c1f2777f840f53dd532293fef,cjhopp <chopp@lbl.gov>,1717709096,"add test job script and eliminate Error catching
+",2024-06
+Post,cjhopp_scripts,64b30f6292a549dc9c9c2b5a261bf7d4f9eaf31d,cjhopp <chopp@lbl.gov>,1717773444,"merge returned stream from client_detect before slicing for writing
+",2024-06
+Post,cjhopp_scripts,eb511361a24289fc83576ed33295d463986ff6b4,cjhopp <chopp@lbl.gov>,1717775388,"merge returned stream from client_detect before slicing for writing
+",2024-06
+Post,cjhopp_scripts,07e6b8a71902e8f91f725368b900a86dc61fe40d,cjhopp <chopp@lbl.gov>,1717778935,"actually dont merge, unmask instead
+",2024-06
+Post,cjhopp_scripts,ac734e1ab6a0568098be58696a5881a7788b5008,cjhopp <chopp@lbl.gov>,1718053949,run DAC MF for Jan-Apr 2024; adjusting family stack plotting,2024-06

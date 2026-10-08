@@ -1,0 +1,1774 @@
+,project,commit,author,time,message,Month
+16342,helske_bssm,013a139aceaf2ceb545c1009b79aba008733696a,helske <jouni.helske@iki.fi>,1614178302,"Rcpp::Function outside of both model and mcmc classes
+",2021-02
+16343,helske_bssm,016191a4d742333cb77e363e388079fa938edf5c,Jouni Helske <jouni.helske@jyu.fi>,1503674137,"psd_chol and parallel option outside of openMP
+",2017-08
+16344,helske_bssm,01db7b315cc2a2a10aa88044e26a74e0b83bd49d,helske <jouni.helske@iki.fi>,1637173776,"don't overwrite D
+",2021-11
+16345,helske_bssm,01ff688420f15986aede10b943ca4480ef654867,helske <jouni.helske@iki.fi>,1613927116,"note acceptance rate for DA
+",2021-02
+16346,helske_bssm,022a96076df4317afdb6aa8b148596fdee055f26,helske <jouni.helske@iki.fi>,1603796827,"fix ref to KFAS and remove call to reshape2
+",2020-10
+16347,helske_bssm,023cfc02cfc3f54f8d43210262bb308699a35d5f,helske <jouni.helske@iki.fi>,1610111123,"example of bivariate nongaussian model
+",2021-01
+16348,helske_bssm,0258a83246824453d40104145e4f8d442e7e7308,Jouni Helske <jouni.helske@iki.fi>,1515400737,"indexing
+",2018-01
+16349,helske_bssm,02aeda0fa0e03f629805afe9cdce502f36bca370,Jouni Helske <jouni.helske@jyu.fi>,1485265875,"complete rework
+",2017-01
+16350,helske_bssm,02f8f2770cd21a04491cddb0f40ba491a3bd3c29,Jouni Helske <jouni.helske@jyu.fi>,1468126505,"is block size
+",2016-07
+16351,helske_bssm,030051553e02d9cb1550ebd1f2b19a4106f9d7af,Jouni Helske <jouni.helske@iki.fi>,1515137333,"fix docs
+",2018-01
+16352,helske_bssm,030b41c97a011059a7906994281c4050c602fe90,helske <jouni.helske@iki.fi>,1613835435,"really fix...
+",2021-02
+16353,helske_bssm,03695190c2bdf4c90d82574086aeaaef64d1b1c6,Jouni Helske <jouni.helske@jyu.fi>,1484142667,"check y and use noise_const for sd_y of bsm
+",2017-01
+16354,helske_bssm,0381443233924534d4d7489aa40a766cb1f68df5,helske <jouni.helske@iki.fi>,1611068416,"remove extra poisson case
+",2021-01
+16355,helske_bssm,038cf51cf146ae74d5aaec3d50870438247cf6dc,Jouni Helske <jouni.helske@jyu.fi>,1504871432,"clearer parallelization for nlg_ssm as well
+",2017-09
+16356,helske_bssm,03a8ac1d5df794916755d1bc5a3814be04a370cd,helske <jouni.helske@iki.fi>,1630602569,"increase tolerance for mcmc test
+",2021-09
+16357,helske_bssm,03f4dbc8ac1ae0cb5f6d33fa6c349cac46b0dee0,helske <jouni.helske@iki.fi>,1630773836,"fix noise term update for ar1_lg
+",2021-09
+16358,helske_bssm,0407a14c721c8535ccad834f7e81fa031c2bd6a1,Jouni Helske <jouni.helske@jyu.fi>,1498491240,"version
+",2017-06
+16359,helske_bssm,04761c0b54d4e73e049f3901a1930f8c53ec867e,helske <jouni.helske@iki.fi>,1611216198,"fix variance conversion of gaussian series in mng case
+",2021-01
+16360,helske_bssm,04be11eddfe0c7a82a4af3f01c5cad49de3c9993,helske <jouni.helske@iki.fi>,1632032443,"parameter types for postcorrect
+",2021-09
+16361,helske_bssm,04d1573368cd872d3b03585d2edaf9af76718e82,helske <jouni.helske@iki.fi>,1610954951,"remove travis, tweak docs
+",2021-01
+16362,helske_bssm,04d2d45aed9cb39c69776b21698580a90caf49ad,Jouni Helske <jouni.helske@iki.fi>,1542701576,"...
+",2018-11
+16363,helske_bssm,056fe8fb85f2d3a602c9d91b4929542633c47d27,helske <jouni.helske@iki.fi>,1591175422,"gamma dist added, negbin modified to match DK, gaussian for mng
+",2020-06
+16364,helske_bssm,057d6e22c945c154167be1bf532f64e5fe420328,helske <jouni.helske@iki.fi>,1625864920,"update docs
+",2021-07
+16365,helske_bssm,06b4aedfa5c72f72b360e1f62584d629309d8eea,Jouni Helske <jouni.helske@jyu.fi>,1474231046,"correct frequency
+",2016-09
+16366,helske_bssm,06c6960cbca5a8b186cf524c69bd4b182304511f,Jouni Helske <jouni.helske@jyu.fi>,1465323001,Update README.md,2016-06
+16367,helske_bssm,08290cbb81ed4c29dd7420d37e532efe26b90ae4,Jouni Helske <jouni.helske@jyu.fi>,1473937197,"pass model as a list
+",2016-09
+16368,helske_bssm,0829919d8e19f267d86cc192d7d28214998e1890,Jouni Helske <jouni.helske@jyu.fi>,1502380913,"multivariate y
+",2017-08
+16369,helske_bssm,08ebfbf29dcd6c7c9741aa72f68bcb08297be4cf,helske <jouni.helske@iki.fi>,1637867531,"2.0.0 to rOpensci and CRAN
+",2021-11
+16370,helske_bssm,09112e8459036b8597ac9c0b563f12f9ca8a2292,Jouni Helske <jouni.helske@jyu.fi>,1479467551,"transpose theta
+",2016-11
+16371,helske_bssm,091da8e69fff9a130b68e92c7680b4c32c9a632e,Jouni Helske <jouni.helske@iki.fi>,1511339825,"to CRAN
+",2017-11
+16372,helske_bssm,092cdcce5f2fed827f1ad7ef3fd11134e157b48a,Jouni Helske <jouni.helske@jyu.fi>,1489348194,"smoother to fast smoother
+",2017-03
+16373,helske_bssm,09b85e475c6ef1df1c00cf6183f4b7d1ca36a353,Jouni Helske <jouni.helske@liu.se>,1516816369,"summary method implemented in scalable way
+",2018-01
+16374,helske_bssm,09be454a6219833e7ec3a3dbd6edc04f99e51a84,Jouni Helske <jouni.helske@jyu.fi>,1498302460,"x to object
+",2017-06
+16375,helske_bssm,09d4ef82cae8ee54ac515754de152abc7980db50,Jouni Helske <jouni.helske@jyu.fi>,1467151281,"updated docs
+",2016-06
+16376,helske_bssm,09e681e73d4f6742f72eedfcd6ac3615457129e4,helske <jouni.helske@iki.fi>,1630440660,"started to clean up codes
+",2021-08
+16377,helske_bssm,0a168b371fa59d8d174f4111dfbaf166d378bbb3,Jouni Helske <jouni.helske@jyu.fi>,1472821541,"...
+",2016-09
+16378,helske_bssm,0b370251386d5f23182d91b436b9bde9a66ce306,Jouni Helske <jouni.helske@jyu.fi>,1468061021,"testruns
+",2016-07
+16379,helske_bssm,0b80c1aef0d98f906b0cbec88c8a7d7f00d07133,helske <jouni.helske@jyu.fi>,1471001744,"upper prior for svm
+",2016-08
+16380,helske_bssm,0b90a2e6ce4943dfc3e6073eb89b7ab76c8dc8f6,helske <jouni.helske@iki.fi>,1637836985,"return original object with invisible, test flag
+",2021-11
+16381,helske_bssm,0bb7b57f430a7b86a203e541ccbed4bcf8c268b6,Jouni Helske <jouni.helske@jyu.fi>,1480495301,"...
+",2016-11
+16382,helske_bssm,0be1427a25100d57dc7412e6967ecf25a4da7b5f,Jouni Helske <jouni.helske@jyu.fi>,1495271568,"Merge branch 'master' of https://github.com/helske/bssm
+",2017-05
+16383,helske_bssm,0bfb964c310fbc17de41d2873adfe7d21c2d08de,Jouni Helske <jouni.helske@jyu.fi>,1503734912,"remove foreach
+",2017-08
+16384,helske_bssm,0c71396b820d26a805aa67fc0a35d922492c0980,Jouni Helske <jouni.helske@jyu.fi>,1498503565,"remove TODO
+",2017-06
+16385,helske_bssm,0c7834e18505814a257cd3f70672d98ed690e599,helske <jouni.helske@iki.fi>,1637174539,"remove tolower
+",2021-11
+16386,helske_bssm,0c7ebbd489c49826f218f5c67283ab8e6f6b02ff,Jouni Helske <jouni.helske@jyu.fi>,1489314624,"faster ekf smoother
+",2017-03
+16387,helske_bssm,0cbd7bacdbb4a0d648ed791318fcac9f9263da6f,helske <jouni.helske@iki.fi>,1590566404,"R functions for model update
+",2020-05
+16388,helske_bssm,0d10bbb5607538339ea2150088043a3a6a4636ac,Jouni Helske <jouni.helske@liu.se>,1517303566,"Merge branch 'master' of https://github.com/helske/bssm
+",2018-01
+16389,helske_bssm,0d6b6761062acc9dee0f345ee0395cba3235b458,helske <jouni.helske@iki.fi>,1657102830,"fix the link
+",2022-07
+16390,helske_bssm,0e1222c89b2709a5fddd00027be19d69975c4eac,Jouni Helske <jouni.helske@jyu.fi>,1477321430,"document method in loglik
+",2016-10
+16391,helske_bssm,0e41c069de117c0c54e40bc18fb37c86fab51e46,helske <jouni.helske@iki.fi>,1613748929,"improve docs
+",2021-02
+16392,helske_bssm,0e45c0d70eb1c9a0883ab570f98201dc22383c1e,Jouni Helske <jouni.helske@jyu.fi>,1489053911,"chol for condcov
+",2017-03
+16393,helske_bssm,0f93a513cd4c275f1ac7ae8024e6281584a36f2c,Jouni Helske <jouni.helske@liu.se>,1517313368,"intendation of vignette
+",2018-01
+16394,helske_bssm,0fc88966e5a82899ac9de25ec5bfe81e2eb2b42e,Jouni Helske <jouni.helske@jyu.fi>,1485452533,"fixed thinning
+",2017-01
+16395,helske_bssm,0fe7b7dfda93b07bce6e157f06693406b606f26e,Jouni Helske <jouni.helske@jyu.fi>,1466680328,"add primes
+",2016-06
+16396,helske_bssm,1029fae53e12063721075ec47b9f4981df0f1bef,helske <jouni.helske@iki.fi>,1591188222,"mng state summary template
+",2020-06
+16397,helske_bssm,104030ba572782743c573651a0842a5c526cfb04,helske <jouni.helske@iki.fi>,1637770069,"fix docs etc based on autotest
+",2021-11
+16398,helske_bssm,105c7fdf2e6299cb96855d55131fe3a478364890,Jouni Helske <jouni.helske@jyu.fi>,1497889609,"reimplement spdk
+",2017-06
+16399,helske_bssm,10bf8f6e5b046bae3efe3ad990df8290ebce6127,helske <jouni.helske@iki.fi>,1630832304,"remove p==1 warning
+",2021-09
+16400,helske_bssm,113bdeef958b7cd610f467c781f00701c91492bd,Jouni Helske <jouni.helske@jyu.fi>,1473868690,"back to public
+",2016-09
+16401,helske_bssm,115e6ca241328bfac4c005f9a51279afee974be1,Jouni Helske <jouni.helske@jyu.fi>,1478127366,"proper seeding for parallel rngs
+",2016-11
+16402,helske_bssm,126c3c7a8b1a506fc569622adf3b5adb572791d2,Jouni Helske <jouni.helske@iki.fi>,1542270474,"log transformation in predict
+",2018-11
+16403,helske_bssm,127843bbeb83f25612a23d1e1914c680429a9640,Jouni Helske <jouni.helske@jyu.fi>,1491750025,"corrected documentation, fixed approximate mcmc
+",2017-04
+16404,helske_bssm,12b3d532fbfabe0141aa85790137a8bc4d67cba6,Jouni Helske <jouni.helske@iki.fi>,1513718051,"restructured priors
+",2017-12
+16405,helske_bssm,12d51df79f91fdd0b1ec376e9f1030f12fa6beea,Jouni Helske <jouni.helske@jyu.fi>,1485970586,"general nonlinear model
+",2017-02
+16406,helske_bssm,13665821ce758f92476503eabd896e605a401e9b,Jouni Helske <jouni.helske@iki.fi>,1515071946,"init order
+",2018-01
+16407,helske_bssm,13a9c2d895909044af09431f360d9b1a5e0a5521,helske <jouni.helske@iki.fi>,1591168615,"laplace iter for gamma etc ready, still needs weights
+",2020-06
+16408,helske_bssm,13f24faff072f721309dad482de063d1cd41df25,Jouni Helske <jouni.helske@jyu.fi>,1465456376,"check p not n
+",2016-06
+16409,helske_bssm,142a1dd8a914a28db2cef88ccf1a691a6c67c1c4,helske <jouni.helske@iki.fi>,1637442078,"typo in srrstats
+",2021-11
+16410,helske_bssm,1481fe96247d145fa9132c5e3d96d0e14bb8e7cd,Jouni Helske <jouni.helske@iki.fi>,1515254075,"add ramcmc dependence to vignette?
+",2018-01
+16411,helske_bssm,154571672b3a515715424fbac1f54f1080651b25,Jouni Helske <jouni.helske@iki.fi>,1515073671,"trim vignette
+",2018-01
+16412,helske_bssm,1557aeb9648d3e9e7a5d3d2b34f9a07095c2694b,helske <jouni.helske@iki.fi>,1630965199,"typos, put ramcmc and sitmo back to suggests
+",2021-09
+16413,helske_bssm,156f03b7ec1286e7e44152a6908bf12e7656eeea,helske <jouni.helske@iki.fi>,1591181859,"fix time-varying cubes
+",2020-06
+16414,helske_bssm,15ac1132bec3bc71ead78a74657646bd66a2ef7e,helske <jouni.helske@iki.fi>,1610108399,"more examples
+",2021-01
+16415,helske_bssm,15b0bd34ffa99cd5ceebe73b77b58eaf630f7421,Jouni Helske <jouni.helske@iki.fi>,1554366472,"1.0.7 to CRAN
+",2019-04
+16416,helske_bssm,15cc33e844ebfabcd1f4c885cb322d2eceacf1c1,Jouni Helske <jouni.helske@iki.fi>,1625865432,add link to slides,2021-07
+16417,helske_bssm,163bf19d639284343438918b65db7dbdc1321f60,Jouni Helske <jouni.helske@jyu.fi>,1504463421,"mcmc_type fix
+",2017-09
+16418,helske_bssm,164610f64bb40f661751c56c5b84e1a9cf772afa,Jouni Helske <jouni.helske@jyu.fi>,1492693988,"correct summaries for mcmc output
+",2017-04
+16419,helske_bssm,168031aae333daebf2006e145721df1ed180a711,Jouni Helske <jouni.helske@jyu.fi>,1473684824,"...
+",2016-09
+16420,helske_bssm,169326e6bcb4493fabd92d52330fe78f392b31bd,Jouni Helske <jouni.helske@jyu.fi>,1474137399,"terminate particle filter with zero weights
+",2016-09
+16421,helske_bssm,16f619c739173df875cb0dda1cc7f5e496915bfb,helske <jouni.helske@iki.fi>,1651464942,"tweak tolerances to pass MKL checks on CRAN, update citation info
+",2022-05
+16422,helske_bssm,1711a62ed5382e3737bf4dd83df49a0d06c2a024,helske <jouni.helske@iki.fi>,1630491291,"shortened long lines, check model components mroe cleanly
+",2021-09
+16423,helske_bssm,171349ad0d5de675b35f0006a12d686ab8ce9070,Jouni Helske <jouni.helske@iki.fi>,1541882708,"add jacobian to ung_amcmc...
+",2018-11
+16424,helske_bssm,171b7361d291519f437472fb286654bb08bf1ea2,helske <jouni.helske@iki.fi>,1630785719,"fixed predict past to multivariate models
+",2021-09
+16425,helske_bssm,1745915ec02e03459d38ef0d14bfe7054d543aa0,helske <jouni.helske@iki.fi>,1630574247,"fix smoother tests
+",2021-09
+16426,helske_bssm,174701651ac32e960f4776946b8c7b87840797f5,helske <jouni.helske@iki.fi>,1603812861,"import cov, fix latex
+",2020-10
+16427,helske_bssm,17b59b9998620543711434816eb4135b40c26b4f,helske <jouni.helske@iki.fi>,1590870980,"battling with file permission
+",2020-05
+16428,helske_bssm,184feed322f1cbeee42f36963b1d65522c3e2307,helske <jouni.helske@iki.fi>,1632000293,"update Rd files
+",2021-09
+16429,helske_bssm,191d49ddf98938a65e382fddd8f69fa4ad481b5a,Jouni Helske <jouni.helske@jyu.fi>,1492592628,"proper approximation and psi-pf for nlg_ssm
+",2017-04
+16430,helske_bssm,1930702a78f81cf7af302e3c280ba92b27cfdcfd,helske <jouni.helske@iki.fi>,1637142623,"ncol to nrow
+",2021-11
+16431,helske_bssm,196087272722d4c4678e53ffe1ae4a3e6b0009ca,helske <jouni.helske@iki.fi>,1630855318,"fix non-const phi
+",2021-09
+16432,helske_bssm,1968dae57a136d6787308f384e8649ae27932c82,Jouni Helske <jouni.helske@jyu.fi>,1477911608,"use antithetic
+",2016-10
+16433,helske_bssm,19746d042fd117ce7da2d91e4dc07c6bd6c9e641,Jouni Helske <jouni.helske@jyu.fi>,1474109156,"updated readme
+",2016-09
+16434,helske_bssm,197b98d53bcba5d06bcf4ec87051c5c774c4cd2f,helske <jouni.helske@iki.fi>,1637595591,"fixed standards tags
+",2021-11
+16435,helske_bssm,1989d57ac3da869d0f75645471ed90a9cc3fb422,Jouni Helske <jouni.helske@iki.fi>,1651264206,update citation info,2022-04
+16436,helske_bssm,19a4e519e29855c8a8c22c7613cadc4777f4c17c,Jouni Helske <jouni.helske@jyu.fi>,1487856121,"weighted batch means and ess
+",2017-02
+16437,helske_bssm,19e2b3fc1ad9a06da5ff75466153b6e1a07e8d5e,helske <jouni.helske@iki.fi>,1637877365,"update urls
+",2021-11
+16438,helske_bssm,1a1fdf27aac2b882202e4dd7f0f64cbb627266f0,helske <jouni.helske@iki.fi>,1636994047,"going through standards
+",2021-11
+16439,helske_bssm,1a5f37dd84c2375ede94a4914521a38f1abdb60d,Jouni Helske <jouni.helske@iki.fi>,1515398250,"add warning about expandind IS output
+",2018-01
+16440,helske_bssm,1acc9f21c593f051c542869a10a0dde46da23efc,helske <jouni.helske@iki.fi>,1632001301,"fix typo
+",2021-09
+16441,helske_bssm,1b312fad973194a2239aa68b93943cd507f58420,Jouni Helske <jouni.helske@liu.se>,1517322439,"remove dist
+",2018-01
+16442,helske_bssm,1b976d0d695ead09ba77a58b24fc810396c7602a,helske <jouni.helske@jyu.fi>,1465555094,"gsmm to gssm
+",2016-06
+16443,helske_bssm,1ba00864f0b0290e2f1206b90c7d92c0e998e22f,helske <jouni.helske@iki.fi>,1637050405,"use tidyr in as_draws
+",2021-11
+16444,helske_bssm,1c5a3cf3bce0f72a9559ebdc56c4d9e8c99e3081,Jouni Helske <jouni.helske@jyu.fi>,1478155832,"reproducible seeds
+",2016-11
+16445,helske_bssm,1c637679a561c3144c5a48390f20f0d20e699b7e,helske <jouni.helske@jyu.fi>,1465391650,"colour to color
+",2016-06
+16446,helske_bssm,1c7682f615dc57868abea3fb04c56a3e6f3f453e,helske <jouni.helske@iki.fi>,1617167735,"first try
+",2021-03
+16447,helske_bssm,1d16c43209df5077517fc78309cbab58c2f1b04a,Jouni Helske <jouni.helske@iki.fi>,1515235371,"...
+",2018-01
+16448,helske_bssm,1d39fe8579738c625f767eee9c3862408bd71877,helske <jouni.helske@iki.fi>,1591166476,"fix mng_ssm init, add more dists to R side
+",2020-06
+16449,helske_bssm,1d5fe33b6d43e2c9efd494981751f3c00d90fce6,Jouni Helske <jouni.helske@jyu.fi>,1476052630,"update todo
+",2016-10
+16450,helske_bssm,1d7a4313ac378ddfc57342aab7df07707ff38fc0,Jouni Helske <jouni.helske@jyu.fi>,1489053947,"proper weighting
+",2017-03
+16451,helske_bssm,1daa06b148bdf2b69d1e372dc14c80c5f653c070,Jouni Helske <jouni.helske@jyu.fi>,1477319042,"change convtol for KFAS
+",2016-10
+16452,helske_bssm,1e63da8058e0e4bb728399ca261444b50eebd073,Jouni Helske <jouni.helske@iki.fi>,1542282861,"fix vignette
+",2018-11
+16453,helske_bssm,1ecef4c855e7dfd5d163a624c8833c4f65149634,helske <jouni.helske@jyu.fi>,1465556453,"as_ngssm
+",2016-06
+16454,helske_bssm,1ee3a67177ede2dc89c8c4474b2e8447ccc9b96a,helske <jouni.helske@iki.fi>,1613767782,"compare cov against eps when computing densities
+",2021-02
+16455,helske_bssm,1f1bc21fc56b02ab387aa1839381bb2798978318,Jouni Helske <jouni.helske@jyu.fi>,1476200060,"add tests
+",2016-10
+16456,helske_bssm,1f9842072df40dd88ae48b6841d9dfa775f2099d,Jouni Helske <jouni.helske@jyu.fi>,1475061616,"correct flag for psifilter in mcmc
+",2016-09
+16457,helske_bssm,200a0235a0c8e1eb736e34d00e5234c45da30b2c,Jouni Helske <jouni.helske@jyu.fi>,1465322397,"public commit
+",2016-06
+16458,helske_bssm,201a8f8408386a166fa25e6ef7e36b59f24646e3,Jouni Helske <jouni.helske@jyu.fi>,1498580479,"to CRAN
+",2017-06
+16459,helske_bssm,2061ae3cc48d77060bb2016b8ebd6e33963bb85c,Jouni Helske <jouni.helske@jyu.fi>,1497945050,"fix tests
+",2017-06
+16460,helske_bssm,20cd73a71e67fcb9724972ba9f5bbae31b772a61,helske <jouni.helske@jyu.fi>,1465555266,"corrected typo
+",2016-06
+16461,helske_bssm,2108eb3b6850984682dea661b801d77e193cc916,helske <jouni.helske@iki.fi>,1612546230,"fix previous commit on dmvnorm
+",2021-02
+16462,helske_bssm,211928274a2b4f5f477e335f5a9662361d4e5b1f,Jouni Helske <jouni.helske@jyu.fi>,1465458375,"corrected precomputed fast smoother for case where first observation is missing
+",2016-06
+16463,helske_bssm,215a6e14144eb2e05afaa45e3ef38bf8536f34ea,helske <jouni.helske@iki.fi>,1630820599,"fix nb sampling in predict
+",2021-09
+16464,helske_bssm,217ea60ebb3de85adf09801d332a91ad7038e096,Jouni Helske <jouni.helske@jyu.fi>,1498567934,"fix tests
+",2017-06
+16465,helske_bssm,21dcb49f0cce8eb51bbe4a778af11f9a758cae09,Jouni Helske <jouni.helske@jyu.fi>,1477925172,"bsf_summary
+",2016-10
+16466,helske_bssm,21fae6e21b32c8fbdc56374cf31d78399800c597,Jouni Helske <jouni.helske@jyu.fi>,1474150465,"model to object
+",2016-09
+16467,helske_bssm,2248194f73ae0023d18b7b607559eb8c1b0da8b5,Jouni Helske <jouni.helske@jyu.fi>,1488821214,"autoplot
+",2017-03
+16468,helske_bssm,232b2fe37f94c29c05ddc11580dda795c02b210d,Jouni Helske <jouni.helske@utu.fi>,1698232713,"change OMP env variable
+",2023-10
+16469,helske_bssm,239b43573cb171d78d2c04a80278dc51be1f48cd,Jouni Helske <jouni.helske@jyu.fi>,1498217298,"compute new mode estimate even with global approx
+",2017-06
+16470,helske_bssm,241c4a8d7efc0c894298ee17f681e10b9eacbb0a,helske <jouni.helske@iki.fi>,1612539825,"fix some fixes of dmvnorm...
+",2021-02
+16471,helske_bssm,244faf97fce84017edcf8c7ba209b3c8908f5195,helske <jouni.helske@iki.fi>,1617394398,"add logLik
+",2021-04
+16472,helske_bssm,24820ca4211ce8e2f1f724f715624b606f7065a7,Jouni Helske <jouni.helske@jyu.fi>,1476111570,"is_correction.h
+",2016-10
+16473,helske_bssm,249044ea41f88ebc7b658fef932cdd0a28893dd3,helske <jouni.helske@iki.fi>,1614076591,"define V as p times p just to be sure
+",2021-02
+16474,helske_bssm,24bf5e0d5480a6936c2fae84f6b2b03fda71028c,helske <jouni.helske@iki.fi>,1630510428,"fix arg checks
+",2021-09
+16475,helske_bssm,24dbc389edec2bd5a092044afdd789a7f146ff11,helske <jouni.helske@iki.fi>,1637157519,"more standards
+",2021-11
+16476,helske_bssm,25167b46f8113d214be593468303b24a31adf680,helske <jouni.helske@iki.fi>,1603345055,"fix flags
+",2020-10
+16477,helske_bssm,252e5b4a40f4ea3256edf20ec5207543d29a1959,helske <jouni.helske@iki.fi>,1636833707,"added a fitted method
+",2021-11
+16478,helske_bssm,25ea227a8fb44ad3d5fb215cd1192639544c653a,Jouni Helske <jouni.helske@iki.fi>,1515233516,"update vignette pdf
+",2018-01
+16479,helske_bssm,25f306ee8a7361dfd753ce65d8d5bf7e26c71971,helske <jouni.helske@iki.fi>,1603894766,"tweak docs and refs
+",2020-10
+16480,helske_bssm,263e0ca2fec7388ab4ff9bdda0df96f3688bf776,Jouni Helske <jouni.helske@jyu.fi>,1466183800,"fixed tests
+",2016-06
+16481,helske_bssm,26454725b8c39b4959d76bd9dd812c1fc0a9b21f,Jouni Helske <jouni.helske@jyu.fi>,1498217073,"summary method
+",2017-06
+16482,helske_bssm,264df3562f914d4c60c2f638b10aa03822e6a995,Jouni Helske <jouni.helske@jyu.fi>,1468305396,"correct target acceptance in DA2
+",2016-07
+16483,helske_bssm,2672a3ea1556a8d092436efeb13b8b5138467d8d,Jouni Helske <jouni.helske@jyu.fi>,1468056305,"naming of methods
+",2016-07
+16484,helske_bssm,268fcf044135d786ded1a90b65ca2b17cd5a9446,Jouni Helske <jouni.helske@jyu.fi>,1496411676,"roxygen
+",2017-06
+16485,helske_bssm,26c86fbb4b8bfc5e1bb65fad85f254793e64167f,Jouni Helske <jouni.helske@jyu.fi>,1467144460,"export importance sampler
+",2016-06
+16486,helske_bssm,26d721e1fd706cb474a9bf1d3d907d958141562a,helske <jouni.helske@iki.fi>,1611216334,"fix scaling terms for multivariate non-Gaussian models
+",2021-01
+16487,helske_bssm,273e7a1f56a906d5c85d0e197c899d9a43c07c9c,Jouni Helske <jouni.helske@jyu.fi>,1475700087,"as<bool>
+",2016-10
+16488,helske_bssm,275df241e5f924831804cb86b5e611504b7ba935,helske <jouni.helske@iki.fi>,1630672705,"test MCMC for nlg model
+",2021-09
+16489,helske_bssm,27b4c483ba23d00ff010efd494d5ca97c831bdbc,Jouni Helske <jouni.helske@jyu.fi>,1477317795,"default must be spdk for now
+",2016-10
+16490,helske_bssm,2800cb7151cceee962b97dabea43cb03572c72cd,localadmin <localadmin@math-kintaro.ad.jyu.fi>,1591128484,"fixed dims on mv models
+",2020-06
+16491,helske_bssm,2819eb2d8e6e47bc579ba9e805ab0516af39daf9,helske <jouni.helske@iki.fi>,1612435050,"fix parallel sampling for general gaussian models
+",2021-02
+16492,helske_bssm,283381f558b1d62d94d5d8a4745b52f10695da9f,Jouni Helske <jouni.helske@jyu.fi>,1483556399,"updated Rds
+",2017-01
+16493,helske_bssm,28589228c5cb99a0481aa66e09678fd1ee46c60a,Jouni Helske <jouni.helske@iki.fi>,1613944526,Update README.md,2021-02
+16494,helske_bssm,28791efd25f47e3cf628d7af7740c443ef91a060,helske <jouni.helske@iki.fi>,1630521779,"EKFP transpose at
+",2021-09
+16495,helske_bssm,289672a1edb685b6659019e68a32ce887b9ce67d,Jouni Helske <jouni.helske@iki.fi>,1515503958,"remove hasName
+",2018-01
+16496,helske_bssm,28a3b13a94a2de8c2e16013a738e6be192feaf0a,helske <jouni.helske@iki.fi>,1580125054,"set simulation method to psi for approximate mcmc sampling (nsim_states=1)
+",2020-01
+16497,helske_bssm,2a16034b92711052e3b5266c663c6c7fbe648905,Jouni Helske <jouni.helske@jyu.fi>,1498299773,"update docs
+",2017-06
+16498,helske_bssm,2a8816204d33fa89b879a097be8e7365286f525e,helske <jouni.helske@jyu.fi>,1467804290,"SV model
+",2016-07
+16499,helske_bssm,2abd757a63558ccffbd82bf7ffe90d795b4c138a,helske <jouni.helske@jyu.fi>,1470051995,"stop RAM after burnin
+",2016-08
+16500,helske_bssm,2b12a6a96effb50f42e427f9ba8c07419e152f3b,Jouni Helske <jouni.helske@jyu.fi>,1498403377,"to CRAN
+",2017-06
+16501,helske_bssm,2b2bd4c6fcfec399404743e45de48a2487c266f1,helske <jouni.helske@iki.fi>,1630503550,"typo
+",2021-09
+16502,helske_bssm,2be789372682c4cf09aa2c640d42b6e8fedc4c0f,helske <jouni.helske@iki.fi>,1637840993,"give arbitrary upper limits to satisfy autotest checks
+",2021-11
+16503,helske_bssm,2c03f8af3d4c24d900e2331026909e2443ecb216,Jouni Helske <jouni.helske@jyu.fi>,1502380923,"unsigned int
+",2017-08
+16504,helske_bssm,2c2ca326f2cb95551e820d1c2b305ab8c8a44aaf,helske <jouni.helske@iki.fi>,1637359850,"rewrote summary and print methods, fixed asymptotic_var options
+",2021-11
+16505,helske_bssm,2ca37531d2a1e2e5a907eda310d1a0a3e6c74d1a,Jouni Helske <jouni.helske@jyu.fi>,1498299793,"update date
+",2017-06
+16506,helske_bssm,2cf6a36cc9ccdd898228331551d315740e30f0b3,helske <jouni.helske@iki.fi>,1610953852,"add post-correction, nsim to particles, fix dim drop bug in predict
+",2021-01
+16507,helske_bssm,2d15b7bca67d25b81be175f0a9959a0dc1b676cc,helske <jouni.helske@iki.fi>,1612536886,"fixed expand issue with IS3
+",2021-02
+16508,helske_bssm,2d36f0cd6459b7238cadec94d2432d3569c12264,Jouni Helske <jouni.helske@jyu.fi>,1474056055,Update .travis.yml,2016-09
+16509,helske_bssm,2d842eaf8eed1b519076c2187f6b80967bd9b136,helske <jouni.helske@iki.fi>,1591615562,"change predict method and fix approx_state update
+",2020-06
+16510,helske_bssm,2e804a8d5caf35574c094c4311971269957e24f2,helske <jouni.helske@iki.fi>,1631389853,"dontrun to donttest
+",2021-09
+16511,helske_bssm,2e8c90716632e4895c329823735d95a603bc735a,Jouni Helske <jouni.helske@jyu.fi>,1492082026,"return gssm from ngl_approx
+",2017-04
+16512,helske_bssm,2ed2458cefcad58e752bc54f3ad43f812001f434,helske <jouni.helske@iki.fi>,1612535120,"fix weights of multivariate nlg
+",2021-02
+16513,helske_bssm,2ed5375318b2e7924875a2df978bcbb4a78db0c0,Jouni Helske <jouni.helske@jyu.fi>,1504515560,"fix vignette, MCSE default to FALSE
+",2017-09
+16514,helske_bssm,2f4ab067e8c4f9869aada298e61a2bdc018cfd2d,sbgraves237 <spencer.graves@effectivedefense.org>,1568918003," add blank line at end
+",2019-09
+16515,helske_bssm,2f60e654f50e0ee37bf2fdc66152f973d94517cb,Jouni Helske <jouni.helske@jyu.fi>,1477911702,"psif_summary
+",2016-10
+16516,helske_bssm,2f61c1be4c42449dcecf79171e679dab9522abc4,helske <jouni.helske@iki.fi>,1630498599,"linting
+",2021-09
+16517,helske_bssm,2fab01253d6baaedbda107567deea71257636b6d,Jouni Helske <jouni.helske@jyu.fi>,1489139727,"wrong include
+",2017-03
+16518,helske_bssm,2ff36d936b640e34f3cc0d5d27a55fbc01a34e65,Jouni Helske <jouni.helske@jyu.fi>,1477926782,"modify testvalues due to antithetics
+",2016-10
+16519,helske_bssm,30110a133b950219114a8bae1c40255cf6c52cc8,helske <jouni.helske@iki.fi>,1630994470,"update docs
+",2021-09
+16520,helske_bssm,3078d8285e7ad989c0e2794488be0424a01ce529,helske <jouni.helske@iki.fi>,1590499180,"fix more R_ functions
+",2020-05
+16521,helske_bssm,3086b362eca27a07f852540e5913ca79d6114c04,helske <jouni.helske@iki.fi>,1617287435,"correct mode dimension for is-correction
+",2021-04
+16522,helske_bssm,3113cc5b706e954fd6e9f087c4bdd037e01c458d,Jouni Helske <jouni.helske@jyu.fi>,1469131845,"param and summary for ng_mcmc and da
+",2016-07
+16523,helske_bssm,312c1abc051a7420bbd55868a5472239601baeff,Jouni Helske <jouni.helske@jyu.fi>,1485293266,"bsf and corrected approximation
+",2017-01
+16524,helske_bssm,316c0770f639f14b3fb7de7db461be65b17b714a,Jouni Helske <jvhels@utu.fi>,1758701591,"fix is_finite warnings from Armadillo
+",2025-09
+16525,helske_bssm,31b9afcc030fdf73941ed1ca9de6a9eda25c7eb9,Jouni Helske <jouni.helske@jyu.fi>,1488382531,"gaussian prediction
+",2017-03
+16526,helske_bssm,31e11b89682e26fb300a95c9a9f9fb86353b33a3,helske <jouni.helske@iki.fi>,1591196155,"fix is-mcmc weighting
+",2020-06
+16527,helske_bssm,31f4c4f27822035d3a4752e3f7f0954a3f48ab5a,Jouni Helske <jouni.helske@iki.fi>,1515055385,"change printing
+",2018-01
+16528,helske_bssm,3214ee74b56466f496505c86414ace23879cd564,Jouni Helske <jouni.helske@jyu.fi>,1467920995,"added sv models
+",2016-07
+16529,helske_bssm,3235a398a7729470743e3fd2318042ba1cc32b64,helske <jouni.helske@jyu.fi>,1465552286,"exact logLik for ng models
+",2016-06
+16530,helske_bssm,325d8c619c7f28c7d3a211ab5e5bc34f1968d963,Jouni Helske <jouni.helske@jyu.fi>,1497027064,"trying to get vignette working
+",2017-06
+16531,helske_bssm,326a8388b006d80f41745f55847e743d30537d2b,helske <jouni.helske@iki.fi>,1591115334,"fixing xbeta and gaussian_approx
+",2020-06
+16532,helske_bssm,3323d2ec60b35b2048028bd6ae32409415b6e1f8,helske <jouni.helske@iki.fi>,1630832255,"fix iekf for nlg loglik
+",2021-09
+16533,helske_bssm,3361c2cd76931abb8370f614ccf8903b9b269270,Jouni Helske <jouni.helske@jyu.fi>,1476368906,"fix mu
+",2016-10
+16534,helske_bssm,33add529c26802a495102ce0ad48f40ce92a87a5,Jouni Helske <jouni.helske@jyu.fi>,1491296465,"psi_smoother
+",2017-04
+16535,helske_bssm,33d6538bd050e4fd36a8d58576776914d842de70,helske <jouni.helske@iki.fi>,1631952983,"update docs
+",2021-09
+16536,helske_bssm,33f83aa48d30eac816f4e14a1d25d4fdecd11057,Jouni Helske <jouni.helske@jyu.fi>,1466162644,Update README.md,2016-06
+16537,helske_bssm,34a39b5df98b045ba6f6b52292230a8a96bb0b26,helske <jouni.helske@iki.fi>,1591624154,"ready for merge to master
+",2020-06
+16538,helske_bssm,34af5d5dd2c2af563a713178c370889931aada2e,Jouni Helske <jouni.helske@jyu.fi>,1480428357,"check target
+",2016-11
+16539,helske_bssm,34c0d542fa6d1005050467afe8fad145cb3732e5,Jouni Helske <jouni.helske@jyu.fi>,1491295279,"deal with single coefficient
+",2017-04
+16540,helske_bssm,34f6d16e9424179f4b1494728b72da8c5ec0b467,Jouni Helske <jouni.helske@jyu.fi>,1486557126,"check for ekf
+",2017-02
+16541,helske_bssm,35efee4e43aafedaa979ac9a4db3ea901da8d5ef,helske <jouni.helske@iki.fi>,1630774855,"mng to mlg in predict call
+",2021-09
+16542,helske_bssm,3619ff6ac048277d343f2ae0790727e91245379c,helske <jouni.helske@iki.fi>,1630646765,"fix tests, ignore codemeta in R build
+",2021-09
+16543,helske_bssm,362ac994bb0198d4fd177871ed9d06a57d38f421,helske <jouni.helske@iki.fi>,1632578907,"...
+",2021-09
+16544,helske_bssm,363b427e24f2e46383347c687ab0824bec531323,Jouni Helske <jouni.helske@jyu.fi>,1476042484,"fix sim_smoother arg order
+",2016-10
+16545,helske_bssm,374f7861367af6f89b94918ed2ef23050d199e8c,helske <jouni.helske@iki.fi>,1637332481,"sde model, remove Hmisc, add estimate_ess
+",2021-11
+16546,helske_bssm,3794753aa82e086de0e920413dc8bff3fa06dfa8,Jouni Helske <jouni.helske@iki.fi>,1569153802,"Merge pull request #22 from sbgraves237/master
+
+fix bugs in predict",2019-09
+16547,helske_bssm,37e457fee85bc952588c1296ce6badcd481d822b,Jouni Helske <jouni.helske@jyu.fi>,1489053956,"state_varying and bssm.h
+",2017-03
+16548,helske_bssm,3811fc3f078e7b154fc4bb70ef14620dcc77377f,helske <jouni.helske@iki.fi>,1629697818,"merge
+",2021-08
+16549,helske_bssm,384001f82f4c44bcbb8ff556543fb35743b72f8f,Jouni Helske <jouni.helske@jyu.fi>,1491214935,"standard errors etc
+",2017-04
+16550,helske_bssm,387faf738956dc1770fbe74fb07747fd5992b7c4,Jouni Helske <jouni.helske@jyu.fi>,1473676846,Update README.md,2016-09
+16551,helske_bssm,38ae1b37fe48e244d296a00bc08413a845b415ec,helske <jouni.helske@iki.fi>,1631201831,"use transformed scale for AR models, make deep copy in predict method
+",2021-09
+16552,helske_bssm,38b5e976a1edbcf50d5d73b8adecb8814578706c,Jouni Helske <jouni.helske@iki.fi>,1675776686,"Merge pull request #32 from helske/master
+
+small tweaks to Rmds, update gha workflow",2023-02
+16553,helske_bssm,3902e89dd21b5b3ca76f84573a87951b25f0b562,helske <jouni.helske@iki.fi>,1610956742,"fix suggest_n for nlg
+",2021-01
+16554,helske_bssm,39043ad779ecb5fe9804e3c405aa453dbd0ea636,helske <jouni.helske@iki.fi>,1591638793,"fixed issues with CRAN tests
+",2020-06
+16555,helske_bssm,39df175ca59d81c216ef382991630046b3e1d358,Jouni Helske <jouni.helske@jyu.fi>,1569242799,"trying to fix encoding issues
+",2019-09
+16556,helske_bssm,3ac08a59c97e08e0c6fb932214da088121fde311,Jouni Helske <jouni.helske@jyu.fi>,1476052827,"updated todo
+",2016-10
+16557,helske_bssm,3b5c6c1753dccb3045b7e2d750157d16a0d3c71c,Jouni Helske <jouni.helske@utu.fi>,1698143801,"omp thread limit
+",2023-10
+16558,helske_bssm,3bc6c16c20a2daf963d85dba66b7a8fd0cf5cb36,Jouni Helske <jouni.helske@jyu.fi>,1474150837,"remove beta from call to svm_run_mcmc
+",2016-09
+16559,helske_bssm,3c55c2c34d4fe0ed8d769a24c5c944dadfd7a93e,Jouni Helske <jouni.helske@utu.fi>,1693828187,"update links
+",2023-09
+16560,helske_bssm,3c6921014fb36c4eb620b84069dedfa2c2af0f70,helske <jouni.helske@iki.fi>,1631309331,"u to x in check_u
+",2021-09
+16561,helske_bssm,3c81e73b94940b3fc292728bd2934438b6f24693,Jouni Helske <jouni.helske@jyu.fi>,1465474666,"improved documentation
+",2016-06
+16562,helske_bssm,3c89aedf5007f21a1f356566f49f74814bf862a2,Jouni Helske <jouni.helske@jyu.fi>,1498298564,"tweaked growth_model vignette
+",2017-06
+16563,helske_bssm,3c8df8901e1734dfa66c79a5f8f796be0a208317,Jouni Helske <jouni.helske@jyu.fi>,1483543113,"constant factor for additional noise, and fix to R
+",2017-01
+16564,helske_bssm,3cd86b37492a521062c61de8eccb2d27be20b951,Jouni Helske <jouni.helske@jyu.fi>,1480927236,"summary mcmc with pf
+",2016-12
+16565,helske_bssm,3d01bfcffea16dadd1fa76076993594195603677,Jouni Helske <jouni.helske@jyu.fi>,1497467604,"change email
+",2017-06
+16566,helske_bssm,3d3035d9cb85771b947adbf75be38f6abbea5057,Jouni Helske <jouni.helske@jyu.fi>,1488205441,"expand samples
+",2017-02
+16567,helske_bssm,3d4044447ec6a7523af13d6e7768dfdd7c302403,Jouni Helske <jouni.helske@jyu.fi>,1498497257,"switch to sitmo, no refs
+",2017-06
+16568,helske_bssm,3dbc220a7197a22799294b399788e791c1df3dfb,Jouni Helske <jouni.helske@jyu.fi>,1492696096,"fetch diagis from github
+",2017-04
+16569,helske_bssm,3e6fbc3ed226a2993317cb0d123889d897feed8c,helske <jouni.helske@jyu.fi>,1470657526,"adaptive_approx
+",2016-08
+16570,helske_bssm,3e962f7059b96e80179c60802aadbf201a8f3dda,helske <jouni.helske@iki.fi>,1637590900,"implement IACT in C++
+",2021-11
+16571,helske_bssm,3f8d8f78d2d0df2b870658c0d7ac3ea651c29763,helske <jouni.helske@iki.fi>,1613846079,"note benefit of summary type in docs
+",2021-02
+16572,helske_bssm,3f99f35347a4cc009a1f8f83b88f3320fffc2a50,Jouni Helske <jouni.helske@iki.fi>,1511260341,"fix doc, remove extra CITATION
+",2017-11
+16573,helske_bssm,3fa36650e3da93f476577af206693362e68bb693,helske <jouni.helske@iki.fi>,1611216409,"add test for multivariate non-gaussian model
+",2021-01
+16574,helske_bssm,3fa83da370d3fddbbc769a13b88b55a613704b64,helske <jouni.helske@iki.fi>,1630962079,"update namespace with checkmate imports
+",2021-09
+16575,helske_bssm,3fea146d8dbf696b2dc3b1cbc6730aafb12c91c0,Jouni Helske <jouni.helske@jyu.fi>,1474102064,"...
+",2016-09
+16576,helske_bssm,3fedcc577b5df0b056af8d219244d171865f5fd3,helske <jouni.helske@iki.fi>,1637565585,"fix summary output and some docs
+",2021-11
+16577,helske_bssm,3ffd2faef7a668c0696b75313300b0f57a2af499,helske <jouni.helske@iki.fi>,1580318039,"exports and to CRAN
+",2020-01
+16578,helske_bssm,402c0d0c6a2a836467a69f3212db8bda44cb595c,Jouni Helske <jouni.helske@jyu.fi>,1474039526,"const without clone
+",2016-09
+16579,helske_bssm,404b5db11eb446dee06be1e40ff152a4cc472565,Jouni Helske <jouni.helske@jyu.fi>,1468607788,"merge
+",2016-07
+16580,helske_bssm,409d0d20f868bc8370c2d4b4453b219efb50eb96,helske <jouni.helske@jyu.fi>,1465905035,"fixed the order of n_burnin and n_thin arguments in summary mcmc
+",2016-06
+16581,helske_bssm,40d387e0d5d5443736727e5e7ce4d13e602e14c6,Jouni Helske <jouni.helske@jyu.fi>,1466607365,"is corrected mcmc
+",2016-06
+16582,helske_bssm,40e8a1d6e0d6ca8df14ba9a9f8dbca12fbab50b6,Jouni Helske <jouni.helske@iki.fi>,1512739709,"Merge branch 'master' of https://github.com/helske/bssm
+",2017-12
+16583,helske_bssm,4121a6537b43aba9cf709755008bc584866dc15a,Jouni Helske <jouni.helske@jyu.fi>,1465480645,"inherit parameters in ng_bsm
+",2016-06
+16584,helske_bssm,412f2c6ba6bf5537f0b13adc2dfb0cfc2c22f977,helske <jouni.helske@iki.fi>,1610646943,"changed argument nsim to particles
+",2021-01
+16585,helske_bssm,41ca886e4fe91995dea07c75b06cc4996d6bd03a,Jouni Helske <jouni.helske@jyu.fi>,1473944477,"restructuring function calls
+",2016-09
+16586,helske_bssm,41cbd09d081d5abe8f186e4224c6f6a16b7d5dd6,Jouni Helske <jouni.helske@jyu.fi>,1474059229,Update .travis.yml,2016-09
+16587,helske_bssm,41d413117d3eec84970aa6d77116a411e15ca15b,Jouni Helske <jouni.helske@jyu.fi>,1467958431,"still testing
+",2016-07
+16588,helske_bssm,4286737d0d3bdd059f400b5163f1498ccc6cfe2e,Jouni Helske <jouni.helske@iki.fi>,1553011455,"fix missingness issue in EKF
+",2019-03
+16589,helske_bssm,428ceac0d5852251a8abc75589b28ee5e4bcbdc6,Jouni Helske <jouni.helske@jyu.fi>,1474100377,"...
+",2016-09
+16590,helske_bssm,42af823cc37596bb7dbe4cf18dc6c3c7d969d309,Jouni Helske <jouni.helske@jyu.fi>,1486556551,"fix ekf_mcmc
+",2017-02
+16591,helske_bssm,42bb0d91e0ee246dd04371a20a584bc72dd6c809,Jouni Helske <jouni.helske@jyu.fi>,1476307883,"correct beta distribution
+",2016-10
+16592,helske_bssm,42df2bc0af13cfd9d46d4eeef9b877bb052a80ef,helske <jouni.helske@iki.fi>,1613858953,"few more examples
+",2021-02
+16593,helske_bssm,42e541ddbbf62341af0a1d8865c0f6e56335f85a,Jouni Helske <jouni.helske@jyu.fi>,1569226580,"fixed more typos
+",2019-09
+16594,helske_bssm,4353bb14cbef7de273f73a9819e779d1b3f89770,Jouni Helske <jouni.helske@jyu.fi>,1569171045,"update docs
+",2019-09
+16595,helske_bssm,43a675d919821cbb36bb18c277617a52537326dd,Jouni Helske <jouni.helske@liu.se>,1516788743,"check for state samples
+",2018-01
+16596,helske_bssm,441de3d46473d53ab9052828ad803ba96503a4b8,Jouni Helske <jouni.helske@jyu.fi>,1497880023,"prepare for release
+",2017-06
+16597,helske_bssm,4422c5ea1b3e607c471e55562b0be9ef21a0ee1d,Kyle Husmann <kyle.husmann@gmail.com>,1605192695,Replace ~ with \sim,2020-11
+16598,helske_bssm,442f4b4502915c84844cf139601ef64b48a4934b,Jouni Helske <jouni.helske@jyu.fi>,1475502686,"priors for beta
+",2016-10
+16599,helske_bssm,449696dece60c9916f3941ebf5ec69b9e4d68451,Jouni Helske <jouni.helske@jyu.fi>,1498217056,"fix tests
+",2017-06
+16600,helske_bssm,44aebff46eba6cec61df87d0b27fe1cbe74caefa,Jouni Helske <jouni.helske@jyu.fi>,1501441259,"Merge branch 'master' of https://github.com/helske/bssm
+",2017-07
+16601,helske_bssm,44b4e11b94ec508e933a3a852a0cb06fbcef64a0,helske <jouni.helske@iki.fi>,1631310789,"update version
+",2021-09
+16602,helske_bssm,44bbc07056e8f760175db1d06dc7e2d893e837b3,Jouni Helske <jouni.helske@jyu.fi>,1493283258,"auxiliary filter
+",2017-04
+16603,helske_bssm,44c3f1f283ec66ea5f41e8189200db891e3074d6,Jouni Helske <jouni.helske@jyu.fi>,1474108741,"remove rest of prints
+",2016-09
+16604,helske_bssm,44d4f2757ae0d6f06ad634a3c7967987e9362d32,helske <jouni.helske@iki.fi>,1637852726,"fix typo
+",2021-11
+16605,helske_bssm,44e9fca659cb5e185f72de6a413e1b21bf6f1234,Helske <jovetale@jyu.fi>,1569165503,"fixed predict method for ngssm (and gssm?)
+",2019-09
+16606,helske_bssm,4544f94f3c3f09e0e031d4040d8fb13937bd48e0,Jouni Helske <jouni.helske@jyu.fi>,1476126711,"check interrupt
+",2016-10
+16607,helske_bssm,4553c8ec7e59d7440bca2217ed3527f1855d58bd,Jouni Helske <jouni.helske@jyu.fi>,1466864608,"byrow = TRUE
+",2016-06
+16608,helske_bssm,4567e7d6e4cb9bc691d1609c81cdd0d9738a8083,Jouni Helske <jouni.helske@iki.fi>,1517752162,"fix nlg_ssm loglik
+",2018-02
+16609,helske_bssm,45865f46a7868c95422df625679e736121aaa124,Jouni Helske <jouni.helske@jyu.fi>,1569168982,"fix date
+",2019-09
+16610,helske_bssm,459e5d6373ee3113f938b9ba5ebe1dde0d5c1f98,Jouni Helske <jouni.helske@jyu.fi>,1497024617,"removed unused varibles and reordered initialization
+",2017-06
+16611,helske_bssm,45a2ae4fd0129bbc76e46e440dde4f70f4ccc4dd,Jouni Helske <jouni.helske@jyu.fi>,1465450726,"citation
+",2016-06
+16612,helske_bssm,46b9dedf6c3939eb4c27eb62626f6b2f3d263f53,helske <jouni.helske@iki.fi>,1613760742,"initialize in case of premature stop in pf
+",2021-02
+16613,helske_bssm,46e07d9d769242f2e3bedadda056298c66f51fa4,Jouni Helske <jouni.helske@jyu.fi>,1489399400,"check finiteness of Vt
+",2017-03
+16614,helske_bssm,473321823d799a011c055439d0f40188b65304cc,Jouni Helske <jouni.helske@jyu.fi>,1488822568,"fixed intervals and ts start
+",2017-03
+16615,helske_bssm,475323944755e1592a6d299f0501aabf84e97bec,Jouni Helske <jouni.helske@jyu.fi>,1498303475,"remove extra quotation mark..
+",2017-06
+16616,helske_bssm,47677aa4b9fcd05313c4f465d175efc5854f14ea,Jouni Helske <jouni.helske@jyu.fi>,1483553946,"doc
+",2017-01
+16617,helske_bssm,47d72bed9a6aca49d608b8b1e1bffc4ce6fcf975,Jouni Helske <jouni.helske@liu.se>,1516719052,"added marginal posterior and summary options
+",2018-01
+16618,helske_bssm,47efd047286a27696378c79c58679ccaa9f8254f,helske <jouni.helske@iki.fi>,1657096845,"a default plot method for the MCMC output
+",2022-07
+16619,helske_bssm,485c5576ceb763a3850ef4ea8faff03fdbb43b38,Jouni Helske <jouni.helske@iki.fi>,1515162856,"Merge branch 'master' of https://github.com/helske/bssm
+",2018-01
+16620,helske_bssm,487d88fb2d510c1b85ec24ea0f299c829146f5b9,Jouni Helske <jouni.helske@jyu.fi>,1478687692,"constants in bsf
+",2016-11
+16621,helske_bssm,49657585c04b39cc13c70a542d0b512a834083dc,Jouni Helske <jouni.helske@jyu.fi>,1488290466,"summary MCMC for gaussian models
+",2017-02
+16622,helske_bssm,497f1f6323af3399b1baeb4662ab29f96691613e,helske <jouni.helske@iki.fi>,1611217921,"do not test on macos
+",2021-01
+16623,helske_bssm,49cc356644bbf079e0f517be5d6fb44fb7f91b52,Jouni Helske <jouni.helske@jyu.fi>,1466517737,"quantile pred correction for ng models as well
+",2016-06
+16624,helske_bssm,49cdae8775b78bf5215206a1faa8a09336277525,Jouni Helske <jouni.helske@iki.fi>,1517480763,"multivariate missingness working, fixes #12
+",2018-02
+16625,helske_bssm,4a960da6b79dee6352e2b3f53ef85b55c6986622,Jouni Helske <jouni.helske@jyu.fi>,1485512193,"updated smoother APIs
+",2017-01
+16626,helske_bssm,4a96fb44875b7f685fa655436d216c033ac4ea4a,helske <jouni.helske@iki.fi>,1637858548,"fix too long lines
+",2021-11
+16627,helske_bssm,4ac39d913fa2653bba00a69b6366e8242d9ae9d2,Jouni Helske <jouni.helske@jyu.fi>,1474969117,"...
+",2016-09
+16628,helske_bssm,4ae3ea5c8e69bb209639267fec4e373e8409ac40,helske <jouni.helske@iki.fi>,1614152822,"move rcpp::function from models to mcmc class (issue persists)
+",2021-02
+16629,helske_bssm,4b0aa23f27aa288489fdf6ce228d6e73fce9291a,helske <jouni.helske@iki.fi>,1637441776,"add missing verbose argument
+",2021-11
+16630,helske_bssm,4c27acd82764fda037ca9f5bacebaa293673892a,Jouni Helske <jouni.helske@jyu.fi>,1466174749,"more tests
+",2016-06
+16631,helske_bssm,4c851af5e656c29e1e1a9be67b07f7f737ebdf8c,helske <jouni.helske@iki.fi>,1617693646,"dim fix
+",2021-04
+16632,helske_bssm,4c9658f147c6a54225ed1c2507a6b80826e84954,helske <jouni.helske@iki.fi>,1610956854,"fix warning for suggest_N
+",2021-01
+16633,helske_bssm,4db5596299e94d042b7988e79afaa24a00b279ad,Jouni Helske <jouni.helske@jyu.fi>,1471985795,"bootstrap filter
+",2016-08
+16634,helske_bssm,4e77af66cf1ac2d4a4a19b5857df1e038d9a4184,Jouni Helske <jouni.helske@iki.fi>,1515184561,"fix prediction interval issues
+",2018-01
+16635,helske_bssm,4fe1f19cad4b6ee3dcbc7032e8bbce92403f2e98,helske <jouni.helske@iki.fi>,1631884780,"more examples, warn about overly large number of samples
+",2021-09
+16636,helske_bssm,4fe2f02ab474ed5054029fa22f8dc1e97011f0d6,helske <jouni.helske@iki.fi>,1632026808,"wrap some examples with \donttest
+",2021-09
+16637,helske_bssm,500892fe5fb359cb5d028bb9be150753a0b1cbe3,Jouni Helske <jouni.helske@jyu.fi>,1467141503,"convtol for approximation
+",2016-06
+16638,helske_bssm,502e44bef1cbc3068326e268b3f5d0e9784d2664,helske <jouni.helske@iki.fi>,1630702096,"increase testing
+",2021-09
+16639,helske_bssm,50c5471bc0fa406ea23f5e77ea34c27a3bd343b6,Jouni Helske <jouni.helske@iki.fi>,1515186735,"remove extra time step from smoother outputs
+",2018-01
+16640,helske_bssm,514a7a2eed892f6cc96340cd025b892cfd01447d,Jouni Helske <jouni.helske@jyu.fi>,1488540331,"fix importance sampling and tests
+",2017-03
+16641,helske_bssm,519473db2856a12ac51c824c6c3354220e5567fd,helske <jouni.helske@iki.fi>,1591077471,"reimplement IS-MCMC
+",2020-06
+16642,helske_bssm,51e9eaf158ddbf052e08827eeed424651f436060,Jouni Helske <jouni.helske@jyu.fi>,1470141468,"merge
+",2016-08
+16643,helske_bssm,51f566112235593e007ad25d739d6b07c96dd2cb,Jouni Helske <jouni.helske@iki.fi>,1515139273,"print for summary MCMC
+",2018-01
+16644,helske_bssm,51fb0c134eafb37798b427dc6c7d588468c262f6,helske <jouni.helske@iki.fi>,1631201773,"add few examples
+",2021-09
+16645,helske_bssm,5201995af25616368b07f2aa808534fbb1c25b8f,helske <jouni.helske@iki.fi>,1637260149,"added examples and improved docs, fixed standards
+",2021-11
+16646,helske_bssm,520eec751af651c4ec2d26ad19dc9b8e4a61a1ec,Jouni Helske <jouni.helske@jyu.fi>,1473977250,Update .travis.yml,2016-09
+16647,helske_bssm,521d928ea826817e656ab09f577d253a11a5378e,Jouni Helske <jouni.helske@iki.fi>,1515150416,"fix predictions
+",2018-01
+16648,helske_bssm,527963ff1dd8769dcebfa6f0ef93821dc623a490,Jouni Helske <jouni.helske@jyu.fi>,1569243222,"switch to html vignettes
+",2019-09
+16649,helske_bssm,527b0edb95db40f4d85fc24799f01ed3740dc8cd,Jouni Helske <jouni.helske@jyu.fi>,1473086019,"...
+",2016-09
+16650,helske_bssm,529f8b26846b8cecfccaeccc3fbb110bf1431905,helske <jouni.helske@iki.fi>,1637555184,"Merge branch 'master' of https://github.com/helske/bssm
+",2021-11
+16651,helske_bssm,530dcd8c1b6c6f76ec847b207e23ff871765c521,helske <jouni.helske@iki.fi>,1632000805,"check_prop
+",2021-09
+16652,helske_bssm,531e0b19dfe605d4d7fa98738dd9fa2ec479d07b,Jouni Helske <jouni.helske@liu.se>,1517487450,"fix out of bounds issue
+",2018-02
+16653,helske_bssm,53d236725d8dca479cc3bc72a3efc2fa319afa45,Jouni Helske <jouni.helske@iki.fi>,1515242933,"fix dims
+",2018-01
+16654,helske_bssm,5411af11b9bce807b74127f5a9a6d0bec20c707a,Jouni Helske <jouni.helske@iki.fi>,1513765306,"continuing with vignette
+",2017-12
+16655,helske_bssm,546808955b72f8dee82b2a6e968f91622d17e4e8,Jouni Helske <jouni.helske@jyu.fi>,1473336339,"...
+",2016-09
+16656,helske_bssm,547e2d61caa4dbf9dd3f8fcdeb7ef6345d830c2e,Jouni Helske <jouni.helske@iki.fi>,1517300634,"remove extra storage space
+",2018-01
+16657,helske_bssm,54ba6300dc99def2b951fbe34491eff8b2bf3b9d,Jouni Helske <jouni.helske@jyu.fi>,1466846901,"correct print method for univariate case
+",2016-06
+16658,helske_bssm,555ceea5560ff193084681fb1b29508945bef5d0,Jouni Helske <jouni.helske@jyu.fi>,1493627821,"use old matrices in iekf
+",2017-05
+16659,helske_bssm,5585a719d68691c1a5b87253c2a8d163882067c0,Jouni Helske <jouni.helske@jyu.fi>,1474982684,"logU to logLik and store time in run_mcmc
+",2016-09
+16660,helske_bssm,5639570afe8b24f2973377ad3ad4225facdf7522,helske <jouni.helske@iki.fi>,1637068988,"draws, diagnostics, ess computation
+",2021-11
+16661,helske_bssm,563aedd6ff2ca541ed675be36e0b47878ebede4b,Jouni Helske <jouni.helske@jyu.fi>,1501441049,Update README.md,2017-07
+16662,helske_bssm,564ff03445553dfb0868ee6cb1019f71ab0b78e9,Jouni Helske <jouni.helske@liu.se>,1517313084,"return something
+",2018-01
+16663,helske_bssm,56555d618bd50445d9df5ba1c665174ca3d5dd11,helske <jouni.helske@iki.fi>,1637858019,"allow zero burnin
+",2021-11
+16664,helske_bssm,565982931dfe1681f442234f4aa48007977c23af,helske <jouni.helske@iki.fi>,1637345694,"fix tests and typo
+",2021-11
+16665,helske_bssm,567f184049555a0eaddcf98883938abf425a9736,helske <jouni.helske@iki.fi>,1613756718,"fix and clean nlg template
+",2021-02
+16666,helske_bssm,56d6e4398d048ae68e323f5f52513ec363468673,helske <jouni.helske@iki.fi>,1582049729,"unsigned with int
+",2020-02
+16667,helske_bssm,57b783767cb6cc817f4cfa9c7e75aa3097595105,helske <jouni.helske@iki.fi>,1617290609,"fix scales
+",2021-04
+16668,helske_bssm,58468d42d948cf656da3dececa0db2dd0c8e1a70,Helske <jovetale@jyu.fi>,1569166519,"added stan to vignette
+",2019-09
+16669,helske_bssm,58a5e327b5dc1982c86161658ef5108a6fe19ef7,Jouni Helske <jouni.helske@jyu.fi>,1469998252,"mu
+",2016-07
+16670,helske_bssm,591f17b5dbd66731432612fdc487429d0604791f,Jouni Helske <jouni.helske@jyu.fi>,1501619159,"fully general linear-gaussian
+",2017-08
+16671,helske_bssm,592b407e9d2af7470be3f4f23479a64f112609d1,Jouni Helske <jouni.helske@jyu.fi>,1466517617,"quantile prediction on response scale did not update model correctly
+",2016-06
+16672,helske_bssm,5944f8e496f4dc4a19d9c27a1a0af36c5cf68715,Jouni Helske <jouni.helske@jyu.fi>,1476042249,"svm sim_smoother demean false
+",2016-10
+16673,helske_bssm,594e3fd44109d749ab0aa97c9ba30ecea2d94765,Jouni Helske <jouni.helske@jyu.fi>,1474038500,"correct order of approximation and scaling factor
+",2016-09
+16674,helske_bssm,596b6d67c5e5e717a2b2324c5e8122f03c3f152f,helske <jouni.helske@iki.fi>,1611216384,"fix scaling terms for univariate gamma model
+",2021-01
+16675,helske_bssm,59c01728b91afb7c569a361c67a3a22ac38da114,Jouni Helske <jouni.helske@jyu.fi>,1500143959,"alphasim to alpha
+",2017-07
+16676,helske_bssm,59e69625ab57b9eacc77c40cdb2d774a62dc9ee9,Jouni Helske <jouni.helske@jyu.fi>,1474902250,"Merge branch 'master' of https://github.com/helske/bssm
+",2016-09
+16677,helske_bssm,5a1703c23f83a8eb271b0c2a65d60090286c2795,helske <jouni.helske@iki.fi>,1630618283,"SDE tests
+",2021-09
+16678,helske_bssm,5a1b26116678c941788db76097a2041f2316588a,Jouni Helske <jouni.helske@jyu.fi>,1488211883,"Merge branch 'master' into redesign
+",2017-02
+16679,helske_bssm,5a518b99b3f7011a4ca8c75aac3b5abe3ecaa111,helske <jouni.helske@iki.fi>,1610990500,"unsigned int
+",2021-01
+16680,helske_bssm,5a6177de3951d8613d12a551dc99ac3991f0749d,sbgraves237 <spencer.graves@effectivedefense.org>,1568576524," roll version number
+",2019-09
+16681,helske_bssm,5a7ecd581c426354a4e6322d0d0605dc320f498a,Jouni Helske <jouni.helske@iki.fi>,1510562897,"fixed nonparallel nlg_amcmc
+",2017-11
+16682,helske_bssm,5af8031e84c26d502c2ca8452467db53800bf5e9,Jouni Helske <jouni.helske@iki.fi>,1517810646,"update version
+",2018-02
+16683,helske_bssm,5aff263e1db6b6c054ff84dd7b2eadee8b80c656,Jouni Helske <jouni.helske@jyu.fi>,1493625469,"check for zero weights
+",2017-05
+16684,helske_bssm,5ba1e8de8ec2009106ef0a293ec1c46d8c2da98b,Jouni Helske <jouni.helske@iki.fi>,1515077564,"rename growth model file
+",2018-01
+16685,helske_bssm,5c901667a326fab79127c04efdabff51ed2f3ea7,Jouni Helske <jouni.helske@jyu.fi>,1475576537,"precomputed g_loglik for psifilter, adjust ram based on that
+",2016-10
+16686,helske_bssm,5cb32c89605489f1611bd76e248c046ebbcf258b,Jouni Helske <jouni.helske@iki.fi>,1625835654,add link to helske-universe,2021-07
+16687,helske_bssm,5cc989d1d36444cab3f10e2bfa508793cb4fd4da,Jouni Helske <jouni.helske@jyu.fi>,1498297837,"fixed summary with univariate states
+",2017-06
+16688,helske_bssm,5ceef1ed8abe5df85600cbc9e77d68ed6b0944a4,helske <jouni.helske@jyu.fi>,1465379027,"added pdf vignette
+",2016-06
+16689,helske_bssm,5d167d9f34043a471b5a6955672873ba872acb39,Jouni Helske <jouni.helske@jyu.fi>,1504219063,"rep
+",2017-08
+16690,helske_bssm,5d4463b174e0a52edd54bd3f4f3e280441e020f7,Jouni Helske <jouni.helske@jyu.fi>,1504510799,"NEWS
+",2017-09
+16691,helske_bssm,5dcce004ce95c330f0f55a75f0dd5eb1acdcc0f5,Jouni Helske <jouni.helske@jyu.fi>,1492091758,"summary function for bsf
+",2017-04
+16692,helske_bssm,5e835d3cc62820de7591f09efb094021eb314aec,helske <jouni.helske@iki.fi>,1605079225,"preparing for CRAN
+",2020-11
+16693,helske_bssm,5ee4adecf01dbdd77078724d3dd7a891df5cbb80,helske <jouni.helske@iki.fi>,1615377552,"remove unused milstein function and match definitions of the SDE model (univariate state)
+",2021-03
+16694,helske_bssm,5f0c1eaa8e43af60ae2dc115189a5fd79ea375ce,Jouni Helske <jouni.helske@jyu.fi>,1467887738,T to RR in gssm::log_likelihood,2016-07
+16695,helske_bssm,5f3e0a5d5911efbbbcbaeaa7d62a6208d66d37ce,helske <jouni.helske@iki.fi>,1580318060,"missing weight for IS-SPDK without OPENMP flag
+",2020-01
+16696,helske_bssm,5fcdb5280b5fffc417ec90e2f345f5d670610abf,helske <jouni.helske@iki.fi>,1610260164,"fix gamma
+",2021-01
+16697,helske_bssm,6009425d3eb9cd2617539c2121b84b5259044f9f,helske <jouni.helske@iki.fi>,1637164043,"fix missigness check
+",2021-11
+16698,helske_bssm,6017d402e07adcd0f7be3a862a05317eb92b712c,Jouni Helske <jouni.helske@jyu.fi>,1488562690,"expand to expand_sample
+",2017-03
+16699,helske_bssm,6035045aba8d4518b1e77d977b00ca7a3b5add50,Jouni Helske <jouni.helske@jyu.fi>,1485265790,"standalone filter-smoother
+",2017-01
+16700,helske_bssm,61de51eb753b285acfc20e71ceb432c7ed4d8a49,Jouni Helske <jouni.helske@jyu.fi>,1466495955,"quantile type to 8, correct dimensions for predict with multiple sims
+",2016-06
+16701,helske_bssm,62a1023a8281ff4ae383fb66a197b91cbc161543,Jouni Helske <jouni.helske@jyu.fi>,1489402136,"DA for nlg
+",2017-03
+16702,helske_bssm,62abf31350a174cf6367bbd69d4456e62dda90f2,Jouni Helske <jouni.helske@liu.se>,1516951196,"share sum_w and Valpha
+",2018-01
+16703,helske_bssm,62e2fcd1c079fa0f8f51cffef99f51be6d840b1c,helske <jouni.helske@iki.fi>,1582123524,"summary and print are congruent
+",2020-02
+16704,helske_bssm,63af9d3a9b144ada849725751e47c7a363313ca6,Jouni Helske <jouni.helske@jyu.fi>,1494405503,"updated documentation
+",2017-05
+16705,helske_bssm,63df669292d198cd0482d5296ee0426bfb3aa3c2,helske <jouni.helske@jyu.fi>,1467637987,"remove rda
+",2016-07
+16706,helske_bssm,640b4a25230c39692774a259464f6fab50b0ec60,Jouni Helske <jouni.helske@jyu.fi>,1474052982,"testing travis error
+",2016-09
+16707,helske_bssm,644aa29c3a425d3462e0de0f7f2d34c7d1f6f90a,helske <jouni.helske@iki.fi>,1637645705,"few doc fixes and missing import
+",2021-11
+16708,helske_bssm,648c4450feb1768f8a8d49073d04c12742d57ec4,Jouni Helske <jouni.helske@iki.fi>,1559635866,"fix stratified sampling in case length(p)!=N i.e. never
+",2019-06
+16709,helske_bssm,64c30d84758806b6be2245d659dcd29c4e469db0,helske <jouni.helske@iki.fi>,1630525055,"nlg example models
+",2021-09
+16710,helske_bssm,64d17dd451e977348135fc6a3f27f97dae9c835f,Jouni Helske <jouni.helske@jyu.fi>,1474059907,"Merge branch 'master' of https://github.com/helske/bssm
+",2016-09
+16711,helske_bssm,654b34d76e865bf2375858732ac7f55e9f44c691,Jouni Helske <jouni.helske@jyu.fi>,1477316491,"particle filter options for loglik
+",2016-10
+16712,helske_bssm,65515380f088697b279874988dd311ac04390cd5,Jouni Helske <jouni.helske@jyu.fi>,1504870299,"streamline parallelization, fix spdk
+",2017-09
+16713,helske_bssm,6552e53b013684f9dc5ae1d811aa9f21f5c3c97d,Jouni Helske <jouni.helske@jyu.fi>,1485537283,"mv gaussian
+",2017-01
+16714,helske_bssm,6558dfb4a1afeddb52796f7c33280fa0d894766c,helske <jouni.helske@iki.fi>,1630779155,"fix suggest_N for nlg
+",2021-09
+16715,helske_bssm,6593d114a97359fc24a7ac6c232aa45ab071628c,helske <jouni.helske@iki.fi>,1630504031,"fix check_R calls
+",2021-09
+16716,helske_bssm,65aafce294d44553e0188d7688b65323f9cddc72,Jouni Helske <jouni.helske@jyu.fi>,1474560365,"...
+",2016-09
+16717,helske_bssm,65beb55a422a4c2df651039aa29a33a6765ea545,helske <jouni.helske@iki.fi>,1630672124,"import fast ekf smoother, test it too
+",2021-09
+16718,helske_bssm,6660fd6c414d8d1f5dd6e38f040c72dc918a2b57,helske <jouni.helske@iki.fi>,1637577696,"fix printing
+",2021-11
+16719,helske_bssm,6677629c2b4ac65f64e3e11a8097a5581a439ed5,Jouni Helske <jouni.helske@jyu.fi>,1500019011,"total se
+",2017-07
+16720,helske_bssm,6696f957fb016fc5dc477eab4b64c95d45fd9d6b,Jouni Helske <jouni.helske@jyu.fi>,1492604580,"psi_isc ready
+",2017-04
+16721,helske_bssm,669a725ecea2bc2d2fa15f47d8e5eb18174858fb,Jouni Helske <jouni.helske@jyu.fi>,1504681728,"arma inf to std inf
+",2017-09
+16722,helske_bssm,67168ea201f2057ee12c9bbca11ffc1f4b703ca3,Jouni Helske <jouni.helske@jyu.fi>,1502912320,"update HH and RR in mgg...
+",2017-08
+16723,helske_bssm,67321daa22081e55381ec829d534f29aeac52f90,helske <jouni.helske@iki.fi>,1632027047,"alias bssm_prior and \dontshow
+",2021-09
+16724,helske_bssm,6781c278c994611b0b380a2128c047f1245c4e5b,localadmin <localadmin@math-kintaro.ad.jyu.fi>,1590855557,"no ref to model, avoids some mem leaks, keep fixing and tweaking
+",2020-05
+16725,helske_bssm,679b231523b658716a799a4da4c47bb5ae25264f,Jouni Helske <jouni.helske@jyu.fi>,1498484177,"use std:: etc
+",2017-06
+16726,helske_bssm,67bccbba50344b0ee0cd9d3aeee77451a27cabe2,Jouni Helske <jouni.helske@jyu.fi>,1466966693,"updated docs
+",2016-06
+16727,helske_bssm,68aa621c65d454a2f15c7e690ee5422b9f9138d6,Jouni Helske <jouni.helske@iki.fi>,1515071286,"add virtual
+",2018-01
+16728,helske_bssm,68d5f1b88c63cbbeb3848a216136c303f5632ddc,Jouni Helske <jouni.helske@jyu.fi>,1497024572,"add dashes for yaml
+",2017-06
+16729,helske_bssm,69106574457b8d460486b242582187d09bbaac35,Jouni Helske <jouni.helske@iki.fi>,1515244379,"remove aux filter
+",2018-01
+16730,helske_bssm,6952307a3b2e8c4c0a85d022a9f0db0ad48f132b,Jouni Helske <jouni.helske@jyu.fi>,1500210165,"wrong order of arguments
+",2017-07
+16731,helske_bssm,698466e4416fec9450dc5dc5a09f4dd2ac7d05ee,Jouni Helske <jouni.helske@jyu.fi>,1500197560,"fix exports
+",2017-07
+16732,helske_bssm,69a62db0f36d71c5945b6a42e343851637bd033d,Jouni Helske <jouni.helske@jyu.fi>,1466947578,"allow scalar P1
+",2016-06
+16733,helske_bssm,6ab892b29304f4c335801722e51ca9a1d0bf3842,Jouni Helske <jouni.helske@jyu.fi>,1477320093,"update Rds
+",2016-10
+16734,helske_bssm,6b08e0c8e38a7fac4160c534ceed2aecd1fb3f16,Jouni Helske <jouni.helske@jyu.fi>,1498506243,"still one ref to go
+",2017-06
+16735,helske_bssm,6b44200e83b7075df755ac66a47dec248eb25706,Jouni Helske <jouni.helske@jyu.fi>,1492611222,"block thinning
+",2017-04
+16736,helske_bssm,6b51e280a0d0ca79d3e8a5a552913602378f3ac4,helske <jouni.helske@iki.fi>,1630936030,"remove few duplicate lines
+",2021-09
+16737,helske_bssm,6bc3b4befe85a577da91679bc3984affae142d7c,Jouni Helske <jouni.helske@jyu.fi>,1494406646,"docs ready, release
+",2017-05
+16738,helske_bssm,6c1491ca88a0ca595fe27e9743566e774b07b81a,helske <jouni.helske@iki.fi>,1610957690,"fix weight scaling in importance sampling
+",2021-01
+16739,helske_bssm,6c8bf45f58d0a984ebf4902cc903b3880317c1e8,Jouni Helske <jouni.helske@jyu.fi>,1467954169,"svtesting
+",2016-07
+16740,helske_bssm,6cc17f94e4e006ab5f76a3f50e114ba7efa9b456,Jouni Helske <jouni.helske@jyu.fi>,1475576494,"correct order of mean and sd for normal distribution
+",2016-10
+16741,helske_bssm,6cc56fe41c95827a23f245d74e1f2c693a3af062,helske <jouni.helske@iki.fi>,1630779653,"update NEWS
+",2021-09
+16742,helske_bssm,6d78c762ca9675dc3d1aa3e59422d536b66f03e1,Jouni Helske <jouni.helske@jyu.fi>,1487957196,"growth model
+",2017-02
+16743,helske_bssm,6da9c2b0d4d8a8459eec7a531a1a03923f732e4f,helske <jouni.helske@iki.fi>,1630590058,"typo in tests
+",2021-09
+16744,helske_bssm,6df6e6fef7ffd7db176e5f31786e05ee453023f7,Jouni Helske <jouni.helske@jyu.fi>,1503694651,"move all MCMC algorithms under method argument, add IS3
+",2017-08
+16745,helske_bssm,6eff0a8fe7a5ecc2d7120884022c98a0d6ac9bfe,Jouni Helske <jouni.helske@utu.fi>,1697453003,"update metadata
+",2023-10
+16746,helske_bssm,6f1d19d4d59eb9b1d2d257d583f4e5c5ea162992,Jouni Helske <jouni.helske@jyu.fi>,1465928371,"check some arguments in model building functions
+",2016-06
+16747,helske_bssm,6fcff5e12d1b6aaa6e915cfe86058a26d66b71d5,helske <jouni.helske@iki.fi>,1657094908,"added more details on priors
+",2022-07
+16748,helske_bssm,70458ec2e1db189bb315a2876978913b7026f5d2,Jouni Helske <jouni.helske@iki.fi>,1554807411,"openmp sharing changes due to gcc9
+",2019-04
+16749,helske_bssm,7094a503bd19019cee40d6bd675d5fb0ca395d4f,Jouni Helske <jouni.helske@jyu.fi>,1477319189,"document max_iter and conv_tol
+",2016-10
+16750,helske_bssm,7103e2ad3f76f8859ee7a78301310ccdf514ac2b,helske <jouni.helske@iki.fi>,1631797067,"check period argument
+",2021-09
+16751,helske_bssm,7142ef1d7e3471669295c4c1f9a84a3edf646ee5,Jouni Helske <jouni.helske@iki.fi>,1515253835,"init order
+",2018-01
+16752,helske_bssm,71b70379049f22b542604a08144336b1ba9fbbaf,Jouni Helske <jouni.helske@jyu.fi>,1473429435,"prior class
+",2016-09
+16753,helske_bssm,72731f529334bb0be26a22ff3faa43002b380677,helske <jouni.helske@iki.fi>,1617038464,"fix predict for svm
+",2021-03
+16754,helske_bssm,729e04ada3aa9a5165dafdeb365da490da29e69a,Jouni Helske <jouni.helske@jyu.fi>,1470023626,"negative variances..
+",2016-08
+16755,helske_bssm,72a143e946a9505a6e267e3f518f035a58718bc7,helske <jouni.helske@iki.fi>,1631371369,"larger tolerance as osx seems to complain
+",2021-09
+16756,helske_bssm,72cabda3d457901a75346142f344bc233d751034,helske <jouni.helske@iki.fi>,1613730093,"various changes and fixes to SDE case, simply dmvnorm, remove R::lchoose
+",2021-02
+16757,helske_bssm,72e6f5295c8579244a3d57d4aafe299aca452f17,Jouni Helske <jouni.helske@iki.fi>,1515322909,"need sitmo and ramcmc in suggest for vignette...
+",2018-01
+16758,helske_bssm,731d15592f7c66185a1189c01799a5dff594f38b,Jouni Helske <jouni.helske@jyu.fi>,1474546347,"psifilter
+",2016-09
+16759,helske_bssm,73520a7897fe6a59ae343852a7be280c92fec76b,Jouni Helske <jouni.helske@iki.fi>,1515162845,"return onestep predictions
+",2018-01
+16760,helske_bssm,7370aea1b2ddc33e1de5d9c0e05ac446de8f15bc,Jouni Helske <jouni.helske@iki.fi>,1613944583,Update README.md,2021-02
+16761,helske_bssm,7389750049a4719b3ca513818169166b83d6d5c7,helske <jouni.helske@jyu.fi>,1466162244,"added tests and travis
+",2016-06
+16762,helske_bssm,73e3e716bc4a536fdbfe8ea73fc0a45190743478,helske <jouni.helske@iki.fi>,1625862432,"forgot to commit stuff (updated drownings data)
+",2021-07
+16763,helske_bssm,73e9b0610c211eb0168b25584409f30365e86189,Jouni Helske <jouni.helske@iki.fi>,1515253477,"fix citation...
+",2018-01
+16764,helske_bssm,745373d02f0673d6556e669ce9494e1369787966,helske <jouni.helske@iki.fi>,1651838455,"add ropensci badge, switch to markdown NEWS
+",2022-05
+16765,helske_bssm,749d483d16a71ebd5252a89e37ba345fe9750f06,helske <jouni.helske@iki.fi>,1603806726,"update docs
+",2020-10
+16766,helske_bssm,74fc79d5517ce9fdef846c54384535745bb93a82,Jouni Helske <jouni.helske@jyu.fi>,1487609497,"example, remove printing
+",2017-02
+16767,helske_bssm,7504cc499d55ee19fe641670dd3b1e7522cd561e,helske <jouni.helske@iki.fi>,1591683343,"inlining
+",2020-06
+16768,helske_bssm,755b2dd12e62c4203121bd7493ae4f0536d92f6e,helske <jouni.helske@iki.fi>,1612767673,"n_stored in nlg postcorrect
+",2021-02
+16769,helske_bssm,75863e6befe670d872f99bccdef913a099d72f61,Jouni Helske <jouni.helske@jyu.fi>,1483551161,"fix dimension of R
+",2017-01
+16770,helske_bssm,75ace53ae5e28420a22785351c35b8b312e34ed8,Jouni Helske <jouni.helske@jyu.fi>,1475576459,"replace sd_noise with sd_y in bsm
+",2016-10
+16771,helske_bssm,75cfac00e435463a4d7ed2cc9c321c09fb83aad4,helske <jouni.helske@iki.fi>,1630500626,"xreg from a list
+",2021-09
+16772,helske_bssm,76053161b1742be986f04eb47cd15db61857a5b8,Jouni Helske <jouni.helske@iki.fi>,1513778146,"Merge branch 'master' of https://github.com/helske/bssm
+",2017-12
+16773,helske_bssm,7660c932bdf13e5a9c09e1c73725a68f2a50c1da,Jouni Helske <jouni.helske@jyu.fi>,1493626053,"iekf, aux, step-halving...
+",2017-05
+16774,helske_bssm,7743801f6532bf67c0f6656a76abc6034f7e83e8,Jouni Helske <jouni.helske@jyu.fi>,1498217094,"...
+",2017-06
+16775,helske_bssm,77f90286a35bae81fa6ddca7167c468d4186df37,Jouni Helske <jouni.helske@jyu.fi>,1495295145,"correct regspace
+",2017-05
+16776,helske_bssm,7808b3f02bd7eb26a0e081d73bc2d7a4f9fe227d,Jouni Helske <jouni.helske@jyu.fi>,1473408962," starting to clean up
+",2016-09
+16777,helske_bssm,783979eb5ca27ca47fd529731dee819cf6d5dacd,Jouni Helske <jouni.helske@jyu.fi>,1467657525,"blocking
+",2016-07
+16778,helske_bssm,7907b50459f6bedda886af37d1e711285807bb29,Jouni Helske <jouni.helske@jyu.fi>,1502902992,"proper tsp and some doc fixs
+",2017-08
+16779,helske_bssm,796e010981e7e93915d9c4b8ffd5e8839f0c6c38,Jouni Helske <jouni.helske@jyu.fi>,1475503333,"nit to init
+",2016-10
+16780,helske_bssm,797a8f8499022176cab08a87da64ec23e5fa4edb,Jouni Helske <jouni.helske@jyu.fi>,1474382907,"cross-covariance smoother
+",2016-09
+16781,helske_bssm,797b5693551384aff276b0f21f0cae71fadd9d21,helske <jouni.helske@iki.fi>,1580121517,"add ts attribute to svm output
+",2020-01
+16782,helske_bssm,79ce2170b6d1a3c56d68866e95093a6267d9b5c6,helske <jouni.helske@iki.fi>,1591303140,"fix nlg approx and log_weights
+",2020-06
+16783,helske_bssm,79fab4b6c33c60ce14e0f970716e7aad44e86349,Jouni Helske <jouni.helske@jyu.fi>,1492694514,"updated documentation
+",2017-04
+16784,helske_bssm,7a2ada7ed555ce87d1f654b9a43255eed6857f37,helske <jouni.helske@iki.fi>,1630783717,"bsf tests
+",2021-09
+16785,helske_bssm,7a44b04ecd8ec441a46c48f5704c7c00e1e213fa,Jouni Helske <jouni.helske@jyu.fi>,1505204896,"approx marginal when nsim=0
+",2017-09
+16786,helske_bssm,7a9d5009a145788e2cf0cc12d4d901b8ca622928,helske <jouni.helske@iki.fi>,1630749140,"fix check_y, add more prediction tests
+",2021-09
+16787,helske_bssm,7b18fb693210cd264a8baa3731aae9d12d845e1e,sbgraves237 <spencer.graves@effectivedefense.org>,1567384000," fix missing nsim and make object$alpha[nrow(object$alpha),,] a matrix ..
+ in a call to nongaussian_predict,
+ when then encountered a fatal error in C code
+",2019-09
+16788,helske_bssm,7b3359e7d5c4b45a17d846c3d0805818090efd8c,helske <jouni.helske@iki.fi>,1580121584,"fix example (dont run)
+",2020-01
+16789,helske_bssm,7b5bdd44afbb6fc8cc71d85b9e54209176585b61,helske <jouni.helske@iki.fi>,1614183696,"fix weird sync issue which caused two commits to cancel out...
+",2021-02
+16790,helske_bssm,7bc9a74c664268d53246f8a749c1bcc700a48668,helske <jouni.helske@jyu.fi>,1470044367,"summary for poisson ready
+",2016-08
+16791,helske_bssm,7c7a16fd253abe1e9939e2509391e3e7bb2dd573,Jouni Helske <jouni.helske@iki.fi>,1562229128,"export mv_gssm, fixes #21
+",2019-07
+16792,helske_bssm,7d2b83aebe3560a80ae7393b70cda7805f38f67e,Jouni Helske <jouni.helske@jyu.fi>,1476958324,"scaling by mode
+",2016-10
+16793,helske_bssm,7ed17f673f193f8f70b71f1ad9c3f237391ac70f,Jouni Helske <jouni.helske@jyu.fi>,1469118494,"adjust_S function, add types to ng_mcmc
+",2016-07
+16794,helske_bssm,7f2fd964a9cded747a95a18a93eea2bc74f67b56,Jouni Helske <jouni.helske@jyu.fi>,1487959838,"::: for now
+",2017-02
+16795,helske_bssm,7fa2d11098740817246424267ba4317a1733b1ee,Jouni Helske <jouni.helske@jyu.fi>,1488283275,"importance sampling from R
+",2017-02
+16796,helske_bssm,7fab2af1286cef9166b9ef148f13e74d46b72274,helske <jouni.helske@iki.fi>,1603793422,"added psi-apf vignette, particle filter for multivariate models, fixed docs
+",2020-10
+16797,helske_bssm,7fd79101cc3793fd2494c52377720601a12f74c1,Jouni Helske <jouni.helske@utu.fi>,1693823866,"update aliases
+",2023-09
+16798,helske_bssm,8023c687aaa48372ac431b4189ee3797e6967f23,Jouni Helske <jouni.helske@iki.fi>,1515511647,"ncol parenthesis
+",2018-01
+16799,helske_bssm,8077a66bfcdc3a7c324eae74dfa6aef791b548aa,Jouni Helske <jouni.helske@jyu.fi>,1488210785,"...
+",2017-02
+16800,helske_bssm,809dd3a58a818c7868106972ffe9e01fb2c4a6e0,helske <jouni.helske@iki.fi>,1675776350,"small tweaks to Rmds, update gha workflow
+",2023-02
+16801,helske_bssm,80a9a088011867a6c27ac7a252f3f37522d6d381,Jouni Helske <jouni.helske@jyu.fi>,1474044679,"fix tests
+",2016-09
+16802,helske_bssm,80fead27881de351de6f0637463c3d5a8d3331d5,Jouni Helske <jouni.helske@jyu.fi>,1474099241,"...
+",2016-09
+16803,helske_bssm,813a94ba0abfa28877de1f2ebdec54f75c54344a,Jouni Helske <jouni.helske@utu.fi>,1725792381,"reactivate codecov
+",2024-09
+16804,helske_bssm,81f9adc7905487147bbd73df7a02af343749a7e7,helske <jouni.helske@iki.fi>,1637151102,"test that negbin works as in the paper
+",2021-11
+16805,helske_bssm,824e289f84b7b117920383fa583a3403961ed960,helske <jouni.helske@iki.fi>,1630954073,"import checkmate
+",2021-09
+16806,helske_bssm,8261f2cb966e499b40f2a14f0310a4963d68292c,helske <jouni.helske@iki.fi>,1630763438,"update news
+",2021-09
+16807,helske_bssm,8290fbec45fc21ad797681acf3693878c005679e,helske <jouni.helske@jyu.fi>,1470041762,"numerical stability
+",2016-08
+16808,helske_bssm,82a6ab63f4a80bcaf2ee507eb8e52a776e4c4fe0,helske <jouni.helske@iki.fi>,1637161013,"docs
+",2021-11
+16809,helske_bssm,830a348fbfcc8587ca224eaf402061452d9cc3ec,Jouni Helske <jouni.helske@jyu.fi>,1480493660,"targe to target
+",2016-11
+16810,helske_bssm,835eba3abc76b3191b828c3349362970a48f119b,helske <jouni.helske@iki.fi>,1637866072,"decrease iter in fitted example
+",2021-11
+16811,helske_bssm,83a853ae2532d9eaae90394b885cb6ca7ca72223,Jouni Helske <jouni.helske@jyu.fi>,1475149513,"adapt approx in psi-filter
+",2016-09
+16812,helske_bssm,83cb6519028248921834f0a504bae413c6cb01e7,Jouni Helske <jouni.helske@jyu.fi>,1497024550,"updated examples to run faster
+",2017-06
+16813,helske_bssm,84ad7e86628fcf7eccabb152deed44f5b0bb28f0,Jouni Helske <jouni.helske@jyu.fi>,1475745170,"added negbin test
+",2016-10
+16814,helske_bssm,84ae5612b1a120ca7ee2cd0ddca3d396915b0f62,Jouni Helske <jouni.helske@jyu.fi>,1470630203,"back
+",2016-08
+16815,helske_bssm,84af7a44fa1646da90c623c20286e5380519dd05,Jouni Helske <jouni.helske@jyu.fi>,1473868703,"Merge branch 'master' of https://github.com/helske/bssm into devel
+",2016-09
+16816,helske_bssm,85074a0d379e153b266d64ff1069a7d2eabc2d43,helske <jouni.helske@iki.fi>,1637406960,"fix some standards and add newlines
+",2021-11
+16817,helske_bssm,8592e04b196bacc4b8e5a00776cebc2ee42b9210,Jouni Helske <jouni.helske@iki.fi>,1517254163,"summary for SDE
+",2018-01
+16818,helske_bssm,859f6765a0f85088d62369945443ec3274ae4369,Jouni Helske <jouni.helske@jyu.fi>,1498554715,"missing consts
+",2017-06
+16819,helske_bssm,860bef9903fa2d3a0353e8b034a5cab046ef0f84,helske <jouni.helske@jyu.fi>,1467637866,"blocking scheme
+",2016-07
+16820,helske_bssm,86ff8b6e88c1fc68c5f772c9ee2b31fdba39fc80,sbgraves237 <spencer.graves@effectivedefense.org>,1568917974," add blank line at end
+",2019-09
+16821,helske_bssm,87151947268fb2ac1d99d1ec2353b2258e38118b,helske <jouni.helske@iki.fi>,1630949736,"check integer and real arguments
+",2021-09
+16822,helske_bssm,87bc39b82ac937d3410796fce04577b6c84d0806,helske <jouni.helske@iki.fi>,1617554640,"cleanup
+",2021-04
+16823,helske_bssm,87e6296feb0ecdee55ac21e60ccb11ead2381de2,Jouni Helske <jouni.helske@iki.fi>,1515232220,"state prediction for nlg_ssm
+",2018-01
+16824,helske_bssm,885282b4bfea13f4949ded5d093403c4ce8797ed,Jouni Helske <jouni.helske@jyu.fi>,1481032453,"use svd in particle filters, fixes #5
+",2016-12
+16825,helske_bssm,88ad29290f323152c7f5344892c2d1dd7c192f27,helske <jouni.helske@iki.fi>,1637099076,"example to readme
+",2021-11
+16826,helske_bssm,89741a2e18f0bd12fdb8a03a516c823c65e0937c,helske <jouni.helske@iki.fi>,1625861477,"Merge branch 'master' of https://github.com/helske/bssm
+",2021-07
+16827,helske_bssm,8af1bc978d8e8f9d3fdc17e706d9b449796ad282,helske <jouni.helske@iki.fi>,1630499764,"add contribution guidelines etc and coverage checks
+",2021-09
+16828,helske_bssm,8afa5f65585ed644917bab910021f5739189bf84,helske <jouni.helske@iki.fi>,1657092108,"added documentation to ?bssm
+",2022-07
+16829,helske_bssm,8b4a9975093134ce0c828dfda4e5d21fc899156f,Jouni Helske <jouni.helske@jyu.fi>,1497889761,"relax tolerances for 32bit platforms
+",2017-06
+16830,helske_bssm,8bade444070c967609e341ac8a5d248a5abbca4b,Jouni Helske <jouni.helske@liu.se>,1517303562,"update version number
+",2018-01
+16831,helske_bssm,8bfacc4db6a98fe06b6323a6adc5462c458bf7df,Jouni Helske <jouni.helske@jyu.fi>,1470336921,"Merge branch 'devel' of bitbucket.org:helske/bssm_devel_branch into devel
+",2016-08
+16832,helske_bssm,8c024b2e35189c57ce6efb69831e345be449160f,Jouni Helske <jouni.helske@jyu.fi>,1498301498,"add missing quote
+",2017-06
+16833,helske_bssm,8c43881e205e742caee642722862d311b505eb15,helske <jouni.helske@jyu.fi>,1466423742,"restructured mcmc, summary_mcmc had extra plus one in Valpha division
+",2016-06
+16834,helske_bssm,8c52ea3253af02c238f936de1618f37db61f0118,helske <jouni.helske@iki.fi>,1637877523,"dont include README cache to tar.gz
+",2021-11
+16835,helske_bssm,8c9ee135a026a22b42e6d0487b4a3e576e2283a0,Jouni Helske <jouni.helske@iki.fi>,1517810533,"initialize last ccov
+",2018-02
+16836,helske_bssm,8ccbd98758b8c172deb237ba22d7357769ccd5b5,helske <jouni.helske@iki.fi>,1632000227,"update docs
+",2021-09
+16837,helske_bssm,8cde6955c03eae4ab541dc32322b6dbf88259316,Jouni Helske <jouni.helske@jyu.fi>,1468036403,"no xbeta in gy for sv
+",2016-07
+16838,helske_bssm,8ceba7bd398d37a7633debca4075a70630a72ee0,Jouni Helske <jouni.helske@jyu.fi>,1492723624,"report the length of the jump chain
+",2017-04
+16839,helske_bssm,8d2d5d53f20f93cb3a212de291c93a32a928d8fa,helske <jouni.helske@iki.fi>,1630821711,"typo in tests
+",2021-09
+16840,helske_bssm,8d971275b8f5021cebe29facd6c40c4d2c597ab5,Jouni Helske <jouni.helske@liu.se>,1516786742,"ekf mcmc types
+",2018-01
+16841,helske_bssm,8dc1e9d3edb7f6bdc014e8dc4762cd70c7299424,helske <jouni.helske@iki.fi>,1603801198,"no need for xtable
+",2020-10
+16842,helske_bssm,8df71d40eb610c8ffdd2ef546eb62139c9586ba6,Jouni Helske <jouni.helske@jyu.fi>,1470575888,"testing summary
+",2016-08
+16843,helske_bssm,8e6070bd3289007223c1219db4b7b033f957fa24,Jouni Helske <jouni.helske@jyu.fi>,1504887997,"state dependent noise, streamlined pointers
+",2017-09
+16844,helske_bssm,8f72642c9a4ed3d3e6727e7db5749f5078020d70,Jouni Helske <jouni.helske@jyu.fi>,1480093781,"restructured src
+",2016-11
+16845,helske_bssm,8f7fec555aca196839825201c9aac66fbab2969e,Jouni Helske <jouni.helske@jyu.fi>,1498382288,Update README.md,2017-06
+16846,helske_bssm,8fe61ddb64bcd90a818d4d37d7597ebc24e3cf89,helske <jouni.helske@iki.fi>,1637871139,"modify rbuildignore in order to add readme
+",2021-11
+16847,helske_bssm,914bf4554537b66e8d6408f4ec37a8b7b76a605e,Jouni Helske <jouni.helske@iki.fi>,1511255868,"updated documentation
+",2017-11
+16848,helske_bssm,91bb693f2591fb7a916147d2c7b581a910c230eb,helske <jouni.helske@iki.fi>,1613830276,"fix previous fix
+",2021-02
+16849,helske_bssm,91cc789ad5f29802b4bd69daa3d410fdefca72ad,Jouni Helske <jouni.helske@jyu.fi>,1500144032,"rm o
+",2017-07
+16850,helske_bssm,91e7eaccc530a4fca9ec47b1f705932b59981047,Jouni Helske <jouni.helske@jyu.fi>,1492705189,"correct zero variance case
+",2017-04
+16851,helske_bssm,924cc4244ca549a4140e258dcdc8eb1c01512180,Jouni Helske <jouni.helske@jyu.fi>,1473409405,"remove extra functions
+",2016-09
+16852,helske_bssm,92dc65435b1dc8b03c9bc7eec8a97400d8acbee9,Jouni Helske <jouni.helske@jyu.fi>,1489581802,"psi-filter and bsf smoother
+",2017-03
+16853,helske_bssm,92fae92c389428ab24de7277b6c786d6f606130e,Jouni Helske <jouni.helske@jyu.fi>,1499324569,"to CRAN
+",2017-07
+16854,helske_bssm,92ff3b89d4f5ed1fa241a227b9b7395129587ae2,Jouni Helske <jouni.helske@jyu.fi>,1474135184,"m to k in particle filter
+",2016-09
+16855,helske_bssm,93a62925181a83e0c939cf710418b1b2a9be2ee8,Jouni Helske <jouni.helske@jyu.fi>,1474039556,"Merge branch 'master' of https://github.com/helske/bssm
+",2016-09
+16856,helske_bssm,93a79cfcbf079bd5efb6870917627167d8fbebfc,helske <jouni.helske@iki.fi>,1613825779,"remove extra weighting with uniform weights
+",2021-02
+16857,helske_bssm,9403343dc022db6c7a9471aa5e68099afe6a0db4,helske <jouni.helske@iki.fi>,1631946756,"fix model name
+",2021-09
+16858,helske_bssm,948d79b00b3f0a1a2d95661605676911d058c016,helske <jouni.helske@iki.fi>,1615377954,"update docs
+",2021-03
+16859,helske_bssm,956c212b0df2022e697659a9655d9bdc53bbe4e0,Jouni Helske <jouni.helske@jyu.fi>,1474311400,Update .Rbuildignore,2016-09
+16860,helske_bssm,9607a519f5259913fa52a54668df700fe5b74cfa,helske <jouni.helske@iki.fi>,1637361589,"...
+",2021-11
+16861,helske_bssm,9651e3cf4232504bd0eae9181875c4aaf5045f03,Jouni Helske <jouni.helske@jyu.fi>,1486557315,"remove printing
+",2017-02
+16862,helske_bssm,96edaa4dc5359dc4e71dee4e489603daede13b44,helske <jouni.helske@jyu.fi>,1465553933,"renamed files and classes
+",2016-06
+16863,helske_bssm,96fd004eb5317f222b1d1eb53ba09469902c756b,Jouni Helske <jouni.helske@jyu.fi>,1502108279,"add pdf vignettes
+",2017-08
+16864,helske_bssm,9717ca4227c9e8d4a22445df06c3c36308c6e32c,helske <jouni.helske@iki.fi>,1637609852,"test for numeric in IACT
+",2021-11
+16865,helske_bssm,9752746bd203d376224bb25dc32cecfd0f177cda,Jouni Helske <jouni.helske@jyu.fi>,1492703414,"updated prediction docs
+",2017-04
+16866,helske_bssm,97a43643cb56815760abf25f851b62ef57cd1551,Jouni Helske <jouni.helske@jyu.fi>,1473974789,"...
+",2016-09
+16867,helske_bssm,97b2ef912c0c6fdf407ed98f99a47c5c545e5c73,helske <jouni.helske@iki.fi>,1613767646,"initialize and warn about inf loglik
+",2021-02
+16868,helske_bssm,97b489eab709173512ca6f7341a028eccaed98a2,Jouni Helske <jouni.helske@utu.fi>,1697452969,"remove magrittr dependency
+",2023-10
+16869,helske_bssm,985eee43de9ad7d4c213799dd7eaf4adb8c516ca,helske <jouni.helske@iki.fi>,1630743059,"tweak argument checks, more tests
+",2021-09
+16870,helske_bssm,986c41ee9833b1c9982f66d669927d672e0c959a,helske <jouni.helske@iki.fi>,1580121465,"correct samples in ngssm pm-spdk
+",2020-01
+16871,helske_bssm,988d74622e8f2ec40d3a8a2c301b0833e3a45745,Jouni Helske <jouni.helske@iki.fi>,1512739639,"update vignette
+",2017-12
+16872,helske_bssm,98a94c85a2e8cdf5ed800bef62f06312b606ee79,helske <jouni.helske@iki.fi>,1617285167,"GSV model
+",2021-04
+16873,helske_bssm,98c2a7cc48870d05f9450d48c832bdbabd2a24de,helske <jouni.helske@iki.fi>,1625862020,"actual Rmd...
+",2021-07
+16874,helske_bssm,98daf9ab68535fc1b4db817823c2e53c2964b48f,Jouni Helske <jouni.helske@jyu.fi>,1474059681,Update .travis.yml,2016-09
+16875,helske_bssm,98ea6171974e1debfe4b0b7e2cde1589b50e7dd7,helske <jouni.helske@iki.fi>,1590496335,"starting to add things
+",2020-05
+16876,helske_bssm,99af3a9d1f6dfabbbf06c6679a8200f527eab2c7,Jouni Helske <jouni.helske@jyu.fi>,1499330977,"compute bsf_bsm
+",2017-07
+16877,helske_bssm,99e1e79eaa5a7c4f95bc80a100a1eab6c231f52a,Jouni Helske <jouni.helske@jyu.fi>,1502912718,"updated NEWS
+",2017-08
+16878,helske_bssm,99eda8f7bd4318a424995013a19f4da16da428cc,Jouni Helske <jouni.helske@jyu.fi>,1473665239,"...
+",2016-09
+16879,helske_bssm,9a34160ac32fec8082236571742f760a22867cc5,Jouni Helske <jouni.helske@jyu.fi>,1488229502,"fixing old functions
+",2017-02
+16880,helske_bssm,9a3b4f2c2c66ed78196eaa1a0b13d0acd268ae64,helske <jouni.helske@iki.fi>,1637142817,"replication
+",2021-11
+16881,helske_bssm,9a5a3891b70bf4c395a48b4a6ada88bd543621b4,Jouni Helske <jouni.helske@liu.se>,1516719230,"fixing nlg_ssm summary
+",2018-01
+16882,helske_bssm,9a69e270e28b17ff2cdada46938ef3473738f683,Jouni Helske <jouni.helske@jyu.fi>,1496344021,"fix bug in parallel isc
+",2017-06
+16883,helske_bssm,9a741db50b3fd46550e1cc0e90e4340f4c111175,Jouni Helske <jouni.helske@jyu.fi>,1476111553,"log1p
+",2016-10
+16884,helske_bssm,9a970f003a19dc7fea1e6e0df16239a9c4325c1e,helske <jouni.helske@iki.fi>,1630832240,"update docs
+",2021-09
+16885,helske_bssm,9ab3c4eafd71d293e2a25a8464e32f8c5f4f1b8d,helske <jouni.helske@iki.fi>,1614076570,"add pandoc to sysreq and check it in vignettes
+",2021-02
+16886,helske_bssm,9ad3f0e07d4c95fd1c2c10ac76ffb4bf48efb6d4,Jouni Helske <jouni.helske@iki.fi>,1517300031,"checkout output of mcmc correctly
+",2018-01
+16887,helske_bssm,9b03d2f340a028c6d9814dde352587e11fdfe420,Jouni Helske <jouni.helske@jyu.fi>,1474902233,"wrong quotes
+",2016-09
+16888,helske_bssm,9b6763bb14d9f9df9f308555250aa6f99aa23a50,helske <jouni.helske@jyu.fi>,1465890316,"fixed importance weights for binomial and negbin cases
+",2016-06
+16889,helske_bssm,9b7b0f7efc60f165a1281ea2a7303cd94f6e5bf9,helske <jouni.helske@iki.fi>,1630562293,"tests for sim_smoother and post_correct
+",2021-09
+16890,helske_bssm,9be0b995d26709d2c1e95e47db9c1bacaef1d026,Jouni Helske <jouni.helske@jyu.fi>,1502108290,"general gaussian model
+",2017-08
+16891,helske_bssm,9bf6640bd6227d1a10319a1d04da5beb66f01539,Jouni Helske <jouni.helske@jyu.fi>,1465536150,"parallel state simulation
+",2016-06
+16892,helske_bssm,9c0f55632349b1e0b5475af48b2b4c84cba89472,helske <jouni.helske@iki.fi>,1611144743,"fix distribution check with multivariate model
+",2021-01
+16893,helske_bssm,9c8a270a53d22d4f511705503dd4ee0c786b67f9,Jouni Helske <jouni.helske@iki.fi>,1516775938,"summary and marginal inference
+",2018-01
+16894,helske_bssm,9ccc1935dc1f9f874ce790cd038a9620827eec37,helske <jouni.helske@iki.fi>,1630520149,"return one step predictions from EKPF
+",2021-09
+16895,helske_bssm,9d3a14123b6a8ca7afdbf7b3ec6f54efbf660a72,helske <jouni.helske@iki.fi>,1631306963,"add longer prior names to avoid clash with gamma primitive, use utf-8 on Rd files
+",2021-09
+16896,helske_bssm,9eb92aa11bf496bb8a28b19d7522ec3f787c87fc,Jouni Helske <jouni.helske@iki.fi>,1515237975,"typo
+",2018-01
+16897,helske_bssm,9f3395562cd9b30867f4d3ed243b788dab16f75f,helske <jouni.helske@iki.fi>,1590683117,"local_approx to model constructor, dist to int
+",2020-05
+16898,helske_bssm,9f43c43cebf166cd291807067a41357977c0e351,Jouni Helske <jouni.helske@iki.fi>,1513778836,"merge
+",2017-12
+16899,helske_bssm,9fcc7fdd6e09a3724efcae975228c94b27f91cf2,helske <jouni.helske@iki.fi>,1611125402,"fix gaussian in ung_mng and some examples
+",2021-01
+16900,helske_bssm,a022713dbee60a2050357ee2f49348021a5c478a,Jouni Helske <jouni.helske@jyu.fi>,1498504912,"no reference to firstprivate
+",2017-06
+16901,helske_bssm,a0230d27da2f547f420017d8f887a3be34b130f2,Jouni Helske <jouni.helske@jyu.fi>,1493283354,"correct names
+",2017-04
+16902,helske_bssm,a0ae478b3a848c1d7ef92b89147e346b3a8e3e21,helske <jouni.helske@iki.fi>,1657090190,"point to the R journal paper and the vignette in the ?bssm
+",2022-07
+16903,helske_bssm,a10840302e8362d6d407d56fd34d1cdb48e9a46f,helske <jouni.helske@iki.fi>,1588673727,"as.data.frame and truncated normal prior
+",2020-05
+16904,helske_bssm,a1e0e406140dc3c74d22a6c998b858b207a68f25,helske <jouni.helske@iki.fi>,1614691543,"some fixes to docs
+",2021-03
+16905,helske_bssm,a2008c0295fd9d0ac78558c1a7ecb30b51cc8721,Jouni Helske <jouni.helske@jyu.fi>,1475760715,"link to vignette
+",2016-10
+16906,helske_bssm,a2b006d29e6baa805daa59aebc3d9a6b031c00a7,helske <jouni.helske@iki.fi>,1651513631,"update docs
+",2022-05
+16907,helske_bssm,a2f47b1999675d6648e16220385465af7ed3885c,Jouni Helske <jouni.helske@jyu.fi>,1481131326,"remove export
+",2016-12
+16908,helske_bssm,a30e7ad6f5b9725fe5e8363f20e3acf8710e4a44,helske <jouni.helske@iki.fi>,1591367118,"fixed approximate ekf mcmc
+",2020-06
+16909,helske_bssm,a317fb772fbc1acc9e55976cf5da6202c9ff7dd1,Jouni Helske <jouni.helske@utu.fi>,1698411627,"dont run exchange example
+",2023-10
+16910,helske_bssm,a35ddedb4c9b5befc524b87ec121d0e54f405abd,helske <jouni.helske@iki.fi>,1582052191,"use approx loglik in RAM with PM-SPDK and PM-PSI (fixed typos)
+",2020-02
+16911,helske_bssm,a3dd77223f922ca5337e5f1914e88c643b808152,helske <jouni.helske@jyu.fi>,1466159530,"unsafe.col
+",2016-06
+16912,helske_bssm,a431b6f60bd21d93c6cea593b62384c27ac144d1,helske <jouni.helske@iki.fi>,1610956705,"fix nlg post-correction call
+",2021-01
+16913,helske_bssm,a480d03585743714057a095981143eba662bf68a,Jouni Helske <jouni.helske@jyu.fi>,1486464604,"ekf
+",2017-02
+16914,helske_bssm,a4d440ca867db3827ee2a33fb9e1276d1b5c74af,helske <jouni.helske@iki.fi>,1637174661,"missingness, standards, docs
+",2021-11
+16915,helske_bssm,a4f406679765f966768a643ab37c688eebf34e51,helske <jouni.helske@jyu.fi>,1470047333,"trim weights
+",2016-08
+16916,helske_bssm,a55a4da5e6be5619f5f4d7ec2bbf3809b0210d8d,Jouni Helske <jouni.helske@jyu.fi>,1497445954,"updated vignette
+",2017-06
+16917,helske_bssm,a57facb23bfe6464a2046a56f3ba66d2c463afd5,Jouni Helske <jouni.helske@jyu.fi>,1467306525,"don't rerun smoother if theta is equal with previous theta
+",2016-06
+16918,helske_bssm,a5c2ee281c249ffb384aeb44c510208cb923c862,Jouni Helske <jouni.helske@jyu.fi>,1476739033,"prior names
+",2016-10
+16919,helske_bssm,a5d14d2fa8291de4b8d56024136fca0ab1da07e1,helske <jouni.helske@iki.fi>,1637590850,"add precomputed negbin model
+",2021-11
+16920,helske_bssm,a5dcd9933b1a8eee82484033a68bf3e8ad2b0f86,helske <jouni.helske@iki.fi>,1614076511,"fix curly braces when no openmp available
+",2021-02
+16921,helske_bssm,a5fbe2f07d71ca74d9cde1bdff94480ac99d959d,Jouni Helske <jouni.helske@jyu.fi>,1486558954,"remove log-proposal
+",2017-02
+16922,helske_bssm,a674f861dc1f2da2e25eee9df699c006635db1b6,Jouni Helske <jouni.helske@jyu.fi>,1477226802,"changed method names
+",2016-10
+16923,helske_bssm,a6a41c7297c637fc5065f42fe55d0a449db2208e,Jouni Helske <jouni.helske@jyu.fi>,1498503133,"Merge branch 'master' of https://github.com/helske/bssm
+",2017-06
+16924,helske_bssm,a6a495dbfdf8d153fec144dad9e00f4637933e82,Jouni Helske <jouni.helske@jyu.fi>,1466845808,"print method for MCMC output
+",2016-06
+16925,helske_bssm,a6cdf17acf50a6af2ac6a1681dcb355aeee12017,helske <jouni.helske@iki.fi>,1637528214,"fix latex rendering in readme
+",2021-11
+16926,helske_bssm,a6f0b89917bcfd381eb4f0085a61fed7866ca831,Jouni Helske <jouni.helske@jyu.fi>,1469984413,"summary
+",2016-07
+16927,helske_bssm,a6f2395b34c33140a612a4a18e9152f33ff31839,helske <jouni.helske@jyu.fi>,1466418577,"check for zero F
+",2016-06
+16928,helske_bssm,a740cab2eeb564b9b3cd3bc62587928c07427c15,helske <jouni.helske@iki.fi>,1591187195,"add BH to template depends
+",2020-06
+16929,helske_bssm,a7514c43be14ca0093bf5705adbe73f288397538,Jouni Helske <jouni.helske@jyu.fi>,1471448911,"remove extra log_space from importance_sample
+",2016-08
+16930,helske_bssm,a7e21799d67e83de07487dd983eaa7145f803689,helske <jouni.helske@iki.fi>,1614204013,"clean some openmp codes
+",2021-02
+16931,helske_bssm,a7f2564910f2ff410635d62b0159849aa20d102d,Jouni Helske <jouni.helske@jyu.fi>,1498514202,"...
+",2017-06
+16932,helske_bssm,a7fc6224ab5cfedcd4ace03454df147f7a4667dc,helske <jouni.helske@iki.fi>,1630773801,"allow p==1 for mng model
+",2021-09
+16933,helske_bssm,a85504e3608a9265ff19ef64aeb5d667d0485e71,helske <jouni.helske@iki.fi>,1632033625,"switch nlg models in tests
+",2021-09
+16934,helske_bssm,a884dfb7e6bc8bc9c0089a74b4bddc0204e6891c,Jouni Helske <jouni.helske@iki.fi>,1554476142,"fix docs
+",2019-04
+16935,helske_bssm,a89fbe307b8b4c064170b3de0f306aa33e1eeba4,helske <jouni.helske@iki.fi>,1631774919,"more tests and examples, update news etc
+",2021-09
+16936,helske_bssm,a9bc075bab60241bb39c8a3511a8ebbe4f3e4e64,Jouni Helske <jouni.helske@jyu.fi>,1492704409,"add m
+",2017-04
+16937,helske_bssm,a9e9284c1ebb1daa58ff2fec3cb7d7d0a7cd2175,Jouni Helske <jouni.helske@jyu.fi>,1501078052,"dont set seed in coupled bsf
+",2017-07
+16938,helske_bssm,aa615df1bf6a72298f0cbc2e88b1757c98678cf8,helske <jouni.helske@iki.fi>,1576828778,"added iterations for tests in order to pass with MKL at CRAN
+",2019-12
+16939,helske_bssm,aa7ba116e3aaa9680f2fb43a3727be06abca5916,helske <jouni.helske@iki.fi>,1630936008,"identical to equal due to CRAN test without long doubles
+",2021-09
+16940,helske_bssm,aade2e5b87c524a72bb9922d3ce7d9295e4be43f,Jouni Helske <jouni.helske@jyu.fi>,1504510696,"prediction with nsim samples
+",2017-09
+16941,helske_bssm,ab3fcc37c38e0ab710e0bd23cad7492f8b0adc18,Jouni Helske <jouni.helske@jyu.fi>,1473711981,"...
+",2016-09
+16942,helske_bssm,aba0432f9829c62b4f61cf6c9039a554809bee9e,Jouni Helske <jouni.helske@iki.fi>,1511258032,"update growth_model
+",2017-11
+16943,helske_bssm,abe3d6db41401e2c477f1745cc6302f1a41a94e3,helske <jouni.helske@iki.fi>,1580123471,"correct asymptotic SEs
+",2020-01
+16944,helske_bssm,ac65db29552ef4c65c6821b18a7db099c63afc7c,Jouni Helske <jouni.helske@iki.fi>,1515177653,"add ts info to mcmc output
+",2018-01
+16945,helske_bssm,acc2e915c46474b2f83ce6d34212139ca4074d0d,Jouni Helske <jouni.helske@jyu.fi>,1467995365,"still working with xbeta
+",2016-07
+16946,helske_bssm,ad1957c62ec00d3f6e62e961f9fd4dc7a8f3f5cd,Jouni Helske <jouni.helske@jyu.fi>,1484045154,"support negbin mcmc
+",2017-01
+16947,helske_bssm,ad77c02fec4140d19882faa516370c613362f392,helske <jouni.helske@iki.fi>,1614089746,"update news
+",2021-02
+16948,helske_bssm,ad9f3da80f49e172f6e8c60196d2a2cb439a79dd,helske <jouni.helske@iki.fi>,1610561376,"fix test
+",2021-01
+16949,helske_bssm,ada45555d1d8fa33613adff638d75c21cae38e9c,helske <jouni.helske@iki.fi>,1630751945,"fix check_y for matrix case, added examples
+",2021-09
+16950,helske_bssm,adc6e4fdb727db1666bdcf7f0ff1527ba723718f,Jouni Helske <jouni.helske@jyu.fi>,1474230796,"remove period from non-bsm models
+",2016-09
+16951,helske_bssm,ade067d817c4fb9c2c9290de6e7aa0ce8b5277f8,Jouni Helske <jouni.helske@jyu.fi>,1493998343,"docs
+",2017-05
+16952,helske_bssm,ae159f9b1f9047f78dc1b7bd510c8f44a930540d,helske <jouni.helske@iki.fi>,1630736579,"n_states as integer
+",2021-09
+16953,helske_bssm,ae3af5316db814b6b28f15669b61aa17204f8b69,helske <jouni.helske@iki.fi>,1613846048,"fix bib
+",2021-02
+16954,helske_bssm,ae6700f791d5200e0f849b6e3555de87145a302f,Jouni Helske <jouni.helske@jyu.fi>,1465457221,"corrected fast smoother for case where first observation is missing
+",2016-06
+16955,helske_bssm,ae8f55b9c340117918a7da80076fdbb2896b0280,Jouni Helske <jouni.helske@jyu.fi>,1488487738,"predict for nlg_ssm
+",2017-03
+16956,helske_bssm,aea2cf02b08b05389c16fd0c36e81a637fa8fc3d,Jouni Helske <jouni.helske@jyu.fi>,1476042232,"da to false if nsim_states=1
+",2016-10
+16957,helske_bssm,aeacb9c92a40949fece3eebff664e1ecd6928956,Jouni Helske <jouni.helske@jyu.fi>,1472250717,"...
+",2016-08
+16958,helske_bssm,aef4f5630f5a6f2f920ac0a57fc7cac31922c6c6,helske <jouni.helske@iki.fi>,1629697776,"link to slides
+",2021-08
+16959,helske_bssm,afaa0ca895153b43a208e4ada111fdf7671f8d02,Jouni Helske <jouni.helske@jyu.fi>,1492521602,"alphahat to ts
+",2017-04
+16960,helske_bssm,aff2cfaf031349724ee6c947e0cd3212fe65edce,Jouni Helske <jouni.helske@liu.se>,1517416258,"...
+",2018-01
+16961,helske_bssm,b016ee28291cf64024240ff22e5334db72f7230f,helske <jouni.helske@iki.fi>,1631910327,"fix typos, load posterior package
+",2021-09
+16962,helske_bssm,b0ab8c0067e571809cd99d6abe24eea3302606ba,helske <jouni.helske@iki.fi>,1630762953,"still fixing check_y
+",2021-09
+16963,helske_bssm,b0f1a23b240ea388149bd5d5654587b9e370e27c,helske <jouni.helske@iki.fi>,1591303164,"fix loglik call for nlg
+",2020-06
+16964,helske_bssm,b118540fbeac518550230476b850da863bb186e1,Jouni Helske <jouni.helske@jyu.fi>,1488826797,"load ggplot2
+",2017-03
+16965,helske_bssm,b18c58d42702c5d81c96ef73635c3d63496c3c16,helske <jouni.helske@iki.fi>,1637525978,"fixed docs, tests, posterior import etc
+",2021-11
+16966,helske_bssm,b223a967baee0c0118bbb146140a267f983d0619,helske <jouni.helske@iki.fi>,1613748822,"fix dmvnorm in missing case
+",2021-02
+16967,helske_bssm,b23fbf0d31cf8de6dfc48edda1b64ea8fee2e2a5,Jouni Helske <jouni.helske@jyu.fi>,1478127406,"extra semicolon
+",2016-11
+16968,helske_bssm,b26671977aad7d86a2bbc67d96d7924afaafcdd8,Jouni Helske <jouni.helske@jyu.fi>,1465379623,raw link to pdf,2016-06
+16969,helske_bssm,b37a2c245904fc206e184d9d59aa94ea01ddbafb,Jouni Helske <jouni.helske@iki.fi>,1515248540,"citation
+",2018-01
+16970,helske_bssm,b385f0be5796a845402444efbb3aa40564068236,helske <jouni.helske@iki.fi>,1617102081,"add note about sv parameterization
+",2021-03
+16971,helske_bssm,b3c6ce35c599b1131c81ea0d951e9bb2dd84ca03,helske <jouni.helske@iki.fi>,1613767731,"init
+",2021-02
+16972,helske_bssm,b43e8ad850a0aeb995902e38eb500adbb859cc81,Jouni Helske <jouni.helske@iki.fi>,1515425982,"remove extra long example
+",2018-01
+16973,helske_bssm,b45199ee198b04e7b9431f4b10c0c48ce6848fa8,helske <jouni.helske@iki.fi>,1614183951,"clean description
+",2021-02
+16974,helske_bssm,b49c1da49465c1395aee92d5b765bb6a717db046,helske <jouni.helske@iki.fi>,1630774498,"add power to pow
+",2021-09
+16975,helske_bssm,b52262bbc2725b4f1aff3219186032aceed480d0,Jouni Helske <jouni.helske@jyu.fi>,1475933149,"store ll_init
+",2016-10
+16976,helske_bssm,b576ec74b7a0b7d1dde1114e023fe963369831c2,helske <jouni.helske@iki.fi>,1618321803,"fix SV test and remove parallel example due to Solaris
+",2021-04
+16977,helske_bssm,b5e33ca66a6014446119c2036a5f504a0e80b2ec,helske <jouni.helske@iki.fi>,1631307397,"remember to add files...
+",2021-09
+16978,helske_bssm,b69d491e9df51a4aace7ec8725982a2ad173b0b4,helske <jouni.helske@iki.fi>,1580121565,"init with zeros for marginal mcmc
+",2020-01
+16979,helske_bssm,b6ba24f202b14bf3f730788e64adbfbfdddd6e5b,Jouni Helske <jouni.helske@jyu.fi>,1466847243,"import thin
+",2016-06
+16980,helske_bssm,b6cf5de252e171bc371dde1a0c042af8ac1b2781,Jouni Helske <jouni.helske@iki.fi>,1515073315,"add refs
+",2018-01
+16981,helske_bssm,b6db2430cc9118d1018659e827c2d61a40821622,Jouni Helske <jouni.helske@iki.fi>,1517254305,"restore run_mcmc...
+",2018-01
+16982,helske_bssm,b6fa236fb4a32de671927ac0070d8550e26ac8f0,Jouni Helske <jouni.helske@liu.se>,1517389896,"small numerical issues
+",2018-01
+16983,helske_bssm,b73c4f5f9b9433ed97da64720276be942520830b,Jouni Helske <jouni.helske@jyu.fi>,1465415495,"updated docs
+",2016-06
+16984,helske_bssm,b74117ac4149f196d275fee129384522ddcdd1d6,Jouni Helske <jouni.helske@jyu.fi>,1504164795,"i to j
+",2017-08
+16985,helske_bssm,b75ecf1f7515311d33e1a0a90829be0339107daf,helske <jouni.helske@iki.fi>,1630595763,"more tests
+",2021-09
+16986,helske_bssm,b7816a15aaab90333acac5c04495dec76ac0dd8a,helske <jouni.helske@jyu.fi>,1466167836,"-heavy
+",2016-06
+16987,helske_bssm,b7f1133be018688dbcb1ad81bdb76c548de3e0f0,Jouni Helske <jouni.helske@jyu.fi>,1503694811,"updated NEWS
+",2017-08
+16988,helske_bssm,b7fbc6c04a87b75bbc1945866e76713a335d40f9,helske <jouni.helske@iki.fi>,1631774493,"fix ekf-smoothing when iekf_iter>0
+",2021-09
+16989,helske_bssm,b818eb23096e956a4d1bf416e21e2b3f3730fcbd,helske <jouni.helske@jyu.fi>,1465379235,"updated vignette
+",2016-06
+16990,helske_bssm,b8261a88ea98ce15fc1c83b49e9f35fc5115e7ab,helske <jouni.helske@iki.fi>,1591115847,"check multivariate distributions
+",2020-06
+16991,helske_bssm,b84fc49328ae494cdb62a2f18664389a36090e6a,Jouni Helske <jouni.helske@jyu.fi>,1492093925,"only last weights to summary function
+",2017-04
+16992,helske_bssm,b86b15edd25672242fcb68f821ab62f3d981e0c4,helske <jouni.helske@iki.fi>,1630776103,"mng to mlg in predict past call and new tests
+",2021-09
+16993,helske_bssm,b8db8275e96e3974da7442e4a34d0f1eb6362a80,helske <jouni.helske@iki.fi>,1611216527,"update version number and news
+",2021-01
+16994,helske_bssm,b92c1954dee5f6093ce80449475b87fdd16fa79c,Jouni Helske <jouni.helske@jyu.fi>,1488495829,"updated docs
+",2017-03
+16995,helske_bssm,b951c146922415c3fe28b8b6c4629649352ac96f,Jouni Helske <jouni.helske@jyu.fi>,1476042285,"svm fast_smoother demean false
+",2016-10
+16996,helske_bssm,b9998f9e5417e6fb0831013b1b159a7f93a24c12,helske <jouni.helske@jyu.fi>,1470999207,"handle failed approximations
+",2016-08
+16997,helske_bssm,b9ccc0d15e7d5e51be397366eae09324bc2464d6,helske <jouni.helske@iki.fi>,1639143722,"set weights to 1
+",2021-12
+16998,helske_bssm,b9e43d8f7351e454fbf975f81449806de3754a95,Jouni Helske <jouni.helske@jyu.fi>,1474054182,"still working on travis arma error
+",2016-09
+16999,helske_bssm,ba11142fe42a71fe14834eaa0f22469fd4f71251,helske <jouni.helske@iki.fi>,1630832329,"update ekf test with missing data
+",2021-09
+17000,helske_bssm,ba6545056e093bd850bde99d93b505d1953d8b59,Jouni Helske <jouni.helske@liu.se>,1517487677,"...
+",2018-02
+17001,helske_bssm,ba88d4c0b0096672d1cc7d424db5532cf7a14c53,helske <jouni.helske@iki.fi>,1637260368,"no strict argument
+",2021-11
+17002,helske_bssm,baedacd97b5ef7c6b1fc7efb108802c585922227,helske <jouni.helske@iki.fi>,1611068437,"correct model type for nongaussian bsf
+",2021-01
+17003,helske_bssm,bb2d82170a73ad2ed0400ed418e6d3690d0e3219,Jouni Helske <jouni.helske@jyu.fi>,1476192657,"permute alpha_store on fly
+",2016-10
+17004,helske_bssm,bb2d835d6bc6aa7b325283daf19d3909094d920d,Jouni Helske <jouni.helske@jyu.fi>,1475765412,"keep vignette
+",2016-10
+17005,helske_bssm,bb62a9a21aed5260c66d1ec5b1a9becb93000b08,helske <jouni.helske@jyu.fi>,1470210597,"end adaptive phase
+",2016-08
+17006,helske_bssm,bbd2e605a55e9d02102dbda429d3d672f0390457,helske <jouni.helske@iki.fi>,1612558252,"fix postcorrect
+",2021-02
+17007,helske_bssm,bc5211397b4848dc9f2f8e232f28eab66566ef85,Jouni Helske <jouni.helske@jyu.fi>,1476366259,"added contant to state equation
+",2016-10
+17008,helske_bssm,bc5e590650870f2aa09dcb4946a41f30cbd8eafd,helske <jouni.helske@iki.fi>,1637096153,"export asymptotic_var, ess alternatives, docs...
+",2021-11
+17009,helske_bssm,bc6974f41ea3ca07e9ca57563f6d78592746a67c,Jouni Helske <jouni.helske@jyu.fi>,1466185772,"parametric interval computation with better initial guesses
+",2016-06
+17010,helske_bssm,bc9387feecac1fb2c079367cbc6c87bbc8bd35f9,helske <jouni.helske@iki.fi>,1637337916,"more tests
+",2021-11
+17011,helske_bssm,bc98a52333e4c9afd5d098264b91f8606fd5bdcc,Jouni Helske <jouni.helske@jyu.fi>,1475770084,"match.arg in particle_filter.svm
+",2016-10
+17012,helske_bssm,bcad53acd7be1c142481d9a432b8f318c88ff295,Jouni Helske <jouni.helske@jyu.fi>,1488553340,"boostrap filter
+",2017-03
+17013,helske_bssm,bcc4c729b3889464c2596c0eaca2da69d4ace688,Jouni Helske <jouni.helske@jyu.fi>,1476300550,"hardcoded GKL prior
+",2016-10
+17014,helske_bssm,beddc73a62ce5b985a87c3329875bb4cb79a977b,Jouni Helske <jouni.helske@jyu.fi>,1474103603,"...
+",2016-09
+17015,helske_bssm,bf8fe28a24742261186cd47322652cd58e9416f1,helske <jouni.helske@jyu.fi>,1465541226,"colour to color
+",2016-06
+17016,helske_bssm,bfc86bb9560bf978d2c370f0dd9c0656d4871253,Jouni Helske <jouni.helske@iki.fi>,1562923782,"...
+",2019-07
+17017,helske_bssm,c055f30b42297d576762c654989feb272755f913,Jouni Helske <jouni.helske@jyu.fi>,1473869770,"update tests
+",2016-09
+17018,helske_bssm,c0c3031936e1466eee1bded38cf4efa1320f9e61,Jouni Helske <jouni.helske@jyu.fi>,1474060841,"...
+",2016-09
+17019,helske_bssm,c0e76b3aca942e64740d2df8a0fdbdba88c1c34d,helske <jouni.helske@jyu.fi>,1465374485,"better default values for predict
+",2016-06
+17020,helske_bssm,c0f929785c544d80db3ddf6b1fe32839313ed4f6,Jouni Helske <jouni.helske@iki.fi>,1605196084,"Merge pull request #23 from khusmann/master
+
+change ~ to \sim",2020-11
+17021,helske_bssm,c112bbc2c852bc7199faafcb9cce296d555aa8e4,Jouni Helske <jouni.helske@jyu.fi>,1493730374,"added loglik methods for nlg_ssm
+",2017-05
+17022,helske_bssm,c14f86d2f9266d8e9b0721c38db0adbec7b24af5,Jouni Helske <jouni.helske@jyu.fi>,1569179423,"fix typos
+",2019-09
+17023,helske_bssm,c19eccbad65b72a131a7b84e211b696d95a5f2ff,Jouni Helske <jouni.helske@iki.fi>,1517765348,"fix out of bounds error in ekf_filter
+",2018-02
+17024,helske_bssm,c1a55958ad64d075a4014ee8840af6481d3e5ca8,Jouni Helske <jouni.helske@jyu.fi>,1483526585,"...
+",2017-01
+17025,helske_bssm,c1b9ca6b185a65aff39b49fd03349de2913a0c26,helske <jouni.helske@iki.fi>,1615444450,"...
+",2021-03
+17026,helske_bssm,c1cee909f0ee7c6ace50f1e004ae5cd1bc8343cb,helske <jouni.helske@iki.fi>,1637578155,"summarize to summarise
+",2021-11
+17027,helske_bssm,c1de6bfe87a36d3e5f15d2f4ce3fa574d9801423,helske <jouni.helske@iki.fi>,1630704050,"fix tests...
+",2021-09
+17028,helske_bssm,c2009cbb86593f15539f65d616925b99c69b209d,Jouni Helske <jouni.helske@jyu.fi>,1477044438,"use same scaling in psi filter as in importance sampling
+",2016-10
+17029,helske_bssm,c2c047654962c3a429546d2f47a500ee9415994e,Jouni Helske <jouni.helske@jyu.fi>,1473371550,Update README.md,2016-09
+17030,helske_bssm,c30433ede77009a174d6ac1bbd6f2d4ad032f9a8,Jouni Helske <jouni.helske@jyu.fi>,1475694794,"priors for general models and negbin dispersion
+",2016-10
+17031,helske_bssm,c3ca1f525f58c5828db273db063b03ccc67c84c3,helske <jouni.helske@jyu.fi>,1471001325,"tests
+",2016-08
+17032,helske_bssm,c3d895bd4824d1b6425a620e9651e08662525f06,helske <jouni.helske@iki.fi>,1612792620,"remove debug flags, mark #27 fixed
+",2021-02
+17033,helske_bssm,c3f75fffb2f8de7f193349655f42e1292aaea366,Jouni Helske <jouni.helske@jyu.fi>,1492697527,"corrected prediction example
+",2017-04
+17034,helske_bssm,c41e567f35b6e5f670826731bb09705eef647353,helske <jouni.helske@iki.fi>,1613993319,"trim computing time of vignettes
+",2021-02
+17035,helske_bssm,c463708cc850fe1fddc78bfed6f3c39819083139,helske <jouni.helske@iki.fi>,1610707038,"fix gamma in bsm_ng
+",2021-01
+17036,helske_bssm,c4e5bc2f28c1d50625f978f7e2b6b733f80e3e14,Jouni Helske <jouni.helske@jyu.fi>,1497467566,"growth model and fixed mcmc tests
+",2017-06
+17037,helske_bssm,c57c9a55b2d40cc24c0ee06ed8f162787bcbe6a9,Jouni Helske <jouni.helske@jyu.fi>,1496410971,"remove state dependency from variances of nlg_smm
+",2017-06
+17038,helske_bssm,c5c4d170f4b781de5e0fedaa7067f929cdd46689,Jouni Helske <jouni.helske@jyu.fi>,1505118714,"EKF-mcmc reworked
+",2017-09
+17039,helske_bssm,c69b1e9dc6b740272e423b9d918ab8e5e53379c7,helske <jouni.helske@iki.fi>,1637594490,"fix tests and typo
+",2021-11
+17040,helske_bssm,c6c2a2dcda6d61afa2a6e0e0812fee8ddbd678a3,Jouni Helske <jouni.helske@jyu.fi>,1468666533,"is and approx methods in c side
+",2016-07
+17041,helske_bssm,c778d1098ee9d4eb9233925d46c58e2b2946f8dc,Jouni Helske <jouni.helske@jyu.fi>,1488488192,"remove predict examples before rewriting
+",2017-03
+17042,helske_bssm,c78ed1c622d0dc2d0f476bbfb84cb0b408a59101,helske <jouni.helske@iki.fi>,1582050754,"use approx loglik in RAM with PM-SPDK and PM-PSI
+",2020-02
+17043,helske_bssm,c7b12aaeedfb8e98a4a075574fa6195bd7f5fcf5,Jouni Helske <jouni.helske@jyu.fi>,1466967186,"increase iterations for prettier picture
+",2016-06
+17044,helske_bssm,c86446d5a6f7f5b8c7835fa16eee9aa878b80539,Jouni Helske <jouni.helske@jyu.fi>,1508090429,"ng_ar1 model
+",2017-10
+17045,helske_bssm,c876f9ee9408c5587a27485fba29fbe64994ae00,helske <jouni.helske@iki.fi>,1613748857,"initialize to remove warning
+",2021-02
+17046,helske_bssm,c8c236d13b201bf02f61210d46244bc64d5a9075,Jouni Helske <jouni.helske@jyu.fi>,1492696377,"import ess and pretty print run time
+",2017-04
+17047,helske_bssm,c8cd1f04dc0a4dd198e49d2a9592da905379a4e9,helske <jouni.helske@iki.fi>,1630674103,"more bsf tests
+",2021-09
+17048,helske_bssm,c9866cb2646935494733bf2b459ad19b22f2079e,Jouni Helske <jouni.helske@jyu.fi>,1475766950,"move vignette
+",2016-10
+17049,helske_bssm,c9907be91fb340d1188808f03cd6a7cec01c8700,helske <jouni.helske@iki.fi>,1610710573,"better scaling of weights
+",2021-01
+17050,helske_bssm,c9b3521919315a74d69fa8f2bc94cb7b2527f9ad,sbgraves237 <spencer.graves@effectivedefense.org>,1568941011,"fix call to nongaussian_predict
+",2019-09
+17051,helske_bssm,c9c75e9862718a4036cfa7fb961d75ac44f27c85,Jouni Helske <jouni.helske@jyu.fi>,1472900444,"...
+",2016-09
+17052,helske_bssm,ca06f9edb2917cb51373371f52544bb23d850765,Jouni Helske <jouhe21@liu.se>,1534324533,"update repo
+",2018-08
+17053,helske_bssm,ca70c6ba335bff2e7de26267c544c9b91954cf97,Jouni Helske <jouni.helske@liu.se>,1518606032,"update NEWS
+",2018-02
+17054,helske_bssm,ca7b5e09a9bb8283d4799f98369b94108f0314df,Jouni Helske <jouni.helske@jyu.fi>,1489349141,"subsetting
+",2017-03
+17055,helske_bssm,ca8df108d25d91752d1c79b7e0d32d5f6c5222b5,Jouni Helske <jouni.helske@jyu.fi>,1503694578,"ifelse to switch
+",2017-08
+17056,helske_bssm,ca8e8c081aaf05b8a93e1667b888bdeddd3f31b1,Jouni Helske <jouni.helske@jyu.fi>,1478687706,"handling u and phi in KFAS conversion
+",2016-11
+17057,helske_bssm,caa30d997b42e1517e74090bc7fafe0493392858,helske <jouni.helske@iki.fi>,1632031034,"new file
+",2021-09
+17058,helske_bssm,cb4ccb22e1e690e552b1c9b280512745b052c443,helske <jouni.helske@jyu.fi>,1467623949,"Merge branch 'devel' of bitbucket.org:helske/bssm_devel_branch into devel
+",2016-07
+17059,helske_bssm,cb91cb7438c2d24e9082495e4f0b2d2d12b94a30,Jouni Helske <jouni.helske@jyu.fi>,1494411413,"correct approximate EKF-MCMC
+",2017-05
+17060,helske_bssm,cbacbaf11b1cad2a6a02fc5e7779618d58cfab6f,helske <jouni.helske@iki.fi>,1631912787,"fix draws example
+",2021-09
+17061,helske_bssm,cc390a09a6345a7313bc17dd0fd39db12f49149d,Jouni Helske <jouni.helske@jyu.fi>,1495271552,"linspace
+",2017-05
+17062,helske_bssm,cc8209be884dacc5fb09e4e7df04ec35283a6132,helske <jouni.helske@iki.fi>,1637852664,"add citation info to readme
+",2021-11
+17063,helske_bssm,ccf8dbd240c54607a3650b34a996eed97110c1d2,helske <jouni.helske@iki.fi>,1630559193,"fix particle smoother test
+",2021-09
+17064,helske_bssm,ce418c7f4895f33a97c1573b0c0bcde601d24a61,Jouni Helske <jouni.helske@iki.fi>,1515487672,"angle brackets
+",2018-01
+17065,helske_bssm,cef18807200bccea454ea0b80ca476d84e48345a,Jouni Helske <jouni.helske@jyu.fi>,1475929190,"fix non-DA pf
+",2016-10
+17066,helske_bssm,cf1035155048a192017321d61ec32a2e4a1caf01,Jouni Helske <jouni.helske@jyu.fi>,1466954278,"more examples
+",2016-06
+17067,helske_bssm,cf268fd8ab2fc1bc2e723957ce9f5386a09a1cd6,Jouni Helske <jouni.helske@jyu.fi>,1488562808,"update Rds
+",2017-03
+17068,helske_bssm,cfcb995eaacd27657bdf4a59abafe0b5714c10a2,Jouni Helske <jouni.helske@jyu.fi>,1466587466,"sample_states to template
+",2016-06
+17069,helske_bssm,d0116cda516fa28a11f749c8d0b3a0c1cabda39b,Jouni Helske <jouni.helske@iki.fi>,1515163683,"fix intervals with zero sd
+",2018-01
+17070,helske_bssm,d03d623fb3ddaf07bb4fb9fd29670676140d3e49,helske <jouni.helske@iki.fi>,1610990509,"update version number
+",2021-01
+17071,helske_bssm,d0568503c1b261d6ca655a9fbdff7e7799c716f2,Jouni Helske <jouni.helske@jyu.fi>,1476463055,"fix svm2
+",2016-10
+17072,helske_bssm,d0601f152fc658b5381a1dda62c7a781cd28405c,Jouni Helske <jouni.helske@jyu.fi>,1472897065,"...
+",2016-09
+17073,helske_bssm,d0766e435a005dca395f4c95867c8b7bdae9bc8c,Jouni Helske <jouni.helske@jyu.fi>,1502712543,"fix lgg_ssm state_sampler
+",2017-08
+17074,helske_bssm,d09ff6ba8adccf227ca63bbfee29756d6d1055b8,Jouni Helske <jouni.helske@jyu.fi>,1468053112,"IS for svm
+",2016-07
+17075,helske_bssm,d0cda4cd47631266e9cddc16341188d379dc6b44,helske <jouni.helske@jyu.fi>,1470745605,"faster approx_iter for svm
+",2016-08
+17076,helske_bssm,d0e288d662b20e116c9f352405e20e45e95dcbed,Jouni Helske <jouni.helske@jyu.fi>,1472931479,"...
+",2016-09
+17077,helske_bssm,d12761cbe8b420fdecd00efb1ea6ab60b118ad3b,Jouni Helske <jouni.helske@jyu.fi>,1502912270,"remove old header
+",2017-08
+17078,helske_bssm,d179f2833b81e5c2482085eb1a7b1bd1ec96f7f3,Jouni Helske <jouni.helske@jyu.fi>,1503694611,"extra bracket
+",2017-08
+17079,helske_bssm,d1838c0f225ded2ee66fb2af5c474d07c44d8034,helske <jouni.helske@iki.fi>,1630773728,"allow p==1 for mlg model
+",2021-09
+17080,helske_bssm,d1d826d0899e58f6f02e91aedf48bbbc8c59748e,helske <jouni.helske@iki.fi>,1651469674,"remove ubuntu devel test
+",2022-05
+17081,helske_bssm,d2713ed141068e8c7b8886ac2edf753ca728673f,Jouni Helske <jouni.helske@jyu.fi>,1475747044,"add phi_est to svm
+",2016-10
+17082,helske_bssm,d28e6e4dfad7d976b42a31e1c8027815921598af,helske <jouni.helske@iki.fi>,1630528363,"test particle_smoother
+",2021-09
+17083,helske_bssm,d29f08eca5c3ab13a63e95525d3ffc6f9604cdc0,Jouni Helske <jouni.helske@jyu.fi>,1488553371,"...
+",2017-03
+17084,helske_bssm,d2bc3b17e55a8e726ac35eef2e8f73b6bdd7b200,helske <jouni.helske@iki.fi>,1637094419,"object to model
+",2021-11
+17085,helske_bssm,d307eacb39b27575ebcf0d3ab39e410e1e3dd915,sbgraves237 <spencer.graves@effectivedefense.org>,1568935360,"Merge branch 'master' of https://github.com/sbgraves237/bssm
+",2019-09
+17086,helske_bssm,d3264a5f29e68584b3f5c39db5028a870b26eaea,helske <jouni.helske@iki.fi>,1631217388,"remove extra transformation from predict method, improve docs
+",2021-09
+17087,helske_bssm,d3596ebb27fede189ccbb839af462edd24df0d3f,Jouni Helske <jouni.helske@jyu.fi>,1484932810,"proper ess for blocking
+",2017-01
+17088,helske_bssm,d3a08da45801ccccb547f6f56c6359ce77eed2ac,Jouni Helske <jouni.helske@jyu.fi>,1465322736,remove travis,2016-06
+17089,helske_bssm,d3a2118b7e62f8bf15c192bbd03abee31456019b,helske <jouni.helske@iki.fi>,1630617493,"more tests for ekf
+",2021-09
+17090,helske_bssm,d42372a121986d20a8e7bd0197bf5fb3495cf4f4,helske <jouni.helske@iki.fi>,1613818899,"fix state summaries
+",2021-02
+17091,helske_bssm,d4f2f4f9418682057f4372afc98c65fcca42ccd7,Jouni Helske <jouni.helske@liu.se>,1517494872,"numerically stabler filter
+",2018-02
+17092,helske_bssm,d4f5c9f750c3472ecc9a5cc133f908fec5a62627,helske <jouni.helske@iki.fi>,1637919580,"remove nonexistent srr tag, fixes #30#
+",2021-11
+17093,helske_bssm,d5050b665880b888b465ddffb414fb95b5a58dc1,helske <jouni.helske@iki.fi>,1614178882,"Rcpp::Function outside of both model and mcmc classes
+",2021-02
+17094,helske_bssm,d56c9bdab2d2959cf5bfb32ff8bee8f8967210d2,Jouni Helske <jouni.helske@jyu.fi>,1480198253,"...
+",2016-11
+17095,helske_bssm,d56f580e04313e58688d85c30db184d02261990d,helske <jouni.helske@iki.fi>,1605510216,"commit old changes, fix #25
+",2020-11
+17096,helske_bssm,d5829ff5c672d39a60d6ae459401a691d36d8bf3,Jouni Helske <jouni.helske@jyu.fi>,1468607681,"general ll_approx_u in approx2
+",2016-07
+17097,helske_bssm,d5d60c2e96f80cc651820a0ba7212abc1e02a780,Jouni Helske <jouni.helske@jyu.fi>,1475580880,"adjust initial var in glm test
+",2016-10
+17098,helske_bssm,d5eaf8f5bd6c639fd99560b254063ccd5e06c654,helske <jouni.helske@iki.fi>,1582018021,"commit last CRAN push
+",2020-02
+17099,helske_bssm,d5f4e53ad3263f5d574b504b3dea680782c1801d,Jouni Helske <jouni.helske@liu.se>,1516874788,"summary and marginal inference now works for all models
+",2018-01
+17100,helske_bssm,d60638c3ade7205724440194eeb7e63c56a83062,helske <jouni.helske@iki.fi>,1603346223,"actually commit predict_past.cpp...
+",2020-10
+17101,helske_bssm,d69b50535618550ff2cb21d24abe714bc1fd4800,helske <jouni.helske@iki.fi>,1632133427,"fix seed for predict tests
+",2021-09
+17102,helske_bssm,d724942b611fbefeffa50ffae6d1f84ce867fb66,Jouni Helske <jouni.helske@jyu.fi>,1468060972,"constant nsim block is
+",2016-07
+17103,helske_bssm,d74e8e709a23ad9ed797327ec6769eb425ae24c9,helske <jouni.helske@iki.fi>,1603345077,"added predict_past, fixed docs, added examples
+",2020-10
+17104,helske_bssm,d7b603bb2c486fbda3c1b920ec25286f0b7f8693,Jouni Helske <jouni.helske@jyu.fi>,1497538310,Create .travis.yml,2017-06
+17105,helske_bssm,d7e683deef23fa71432ac9ffe0822564f20c9df8,Jouni Helske <jouni.helske@jyu.fi>,1468037928,"restructured importance weights scaling
+",2016-07
+17106,helske_bssm,d7f16b07ae182fb27e6b66013e37024395c62f27,helske <jouni.helske@iki.fi>,1632117863,"starting with SRR
+",2021-09
+17107,helske_bssm,d82f717b4a4d37cd4202a746e34dd72bb4de647b,Jouni Helske <jouni.helske@jyu.fi>,1488562761,"don't treat warnings as errors
+",2017-03
+17108,helske_bssm,d8dee890a292ce9e29da6c0c12179862d74a08f5,Jouni Helske <jouni.helske@jyu.fi>,1492521621,"correct weights
+",2017-04
+17109,helske_bssm,d92d4b6d9c5109acd0911feb51cc08108c169d0f,Jouni Helske <jouni.helske@jyu.fi>,1472567266,"pf
+",2016-08
+17110,helske_bssm,d9606dcde1e6616f9f7624fcd5cc3d76be1a3a66,Jouni Helske <jouni.helske@iki.fi>,1637526557,Merge branch 'master' into srr,2021-11
+17111,helske_bssm,d98e045f8271d1823f7e0dfcd0d2e5ea4e58f235,Jouni Helske <jouni.helske@jyu.fi>,1474105800,"fixed?
+",2016-09
+17112,helske_bssm,d9ef351754972952e0f0798037d029c53feda78c,helske <jouni.helske@iki.fi>,1637836103,"fix predict examples
+",2021-11
+17113,helske_bssm,dac1a8d3dd35e71d29d3348de19e71488db6d8d3,Jouni Helske <jouni.helske@jyu.fi>,1466021153,"added tests
+",2016-06
+17114,helske_bssm,dac70d667dce4ac11fe2108c03801f9edee0ccca,Jouni Helske <jouni.helske@jyu.fi>,1474296440,"updated docs
+",2016-09
+17115,helske_bssm,dae56053a770a357158f7a4ac4ba8bcc88584549,Jouni Helske <jouni.helske@jyu.fi>,1485265843,"conditional distribution of states
+",2017-01
+17116,helske_bssm,dba7f7b275354ae94e37adfff45d49c3bcb702e5,Jouni Helske <jouni.helske@jyu.fi>,1488474751,"predictions for ngssm
+",2017-03
+17117,helske_bssm,dbb42682ce15096e07c02157cbc5de65fb26633f,Jouni Helske <jouni.helske@jyu.fi>,1478527649,"fix glk_prior and speed up bsf
+",2016-11
+17118,helske_bssm,dc02d2f500250c168a798e0a444a46f5652b469a,Jouni Helske <jouni.helske@jyu.fi>,1465379946,Update README.md,2016-06
+17119,helske_bssm,dc7baef04a578ef9dc3e3908cda0ae3407de9c44,Jouni Helske <jouni.helske@jyu.fi>,1478278644,"fixes #9
+",2016-11
+17120,helske_bssm,dc8faf3fd8e503f851d7ca6715c12b8a1b4a49d5,helske <jouni.helske@iki.fi>,1613890994,"http to https
+",2021-02
+17121,helske_bssm,dca502c864eafb0223ec47101dba7a552e6725a5,Jouni Helske <jouni.helske@jyu.fi>,1493633742,"fix iekf in smoother
+",2017-05
+17122,helske_bssm,ddd51fd9dc757dfda77bf003c46a3608a6ccfdb0,Jouni Helske <jouni.helske@jyu.fi>,1466675064,"return weights as well
+",2016-06
+17123,helske_bssm,de209924aa150696496c534e117f85debe9f55fe,Jouni Helske <jouni.helske@liu.se>,1517321808,"methods for ar1
+",2018-01
+17124,helske_bssm,de6ec60236c65ca94121e4d09ae0f6bd9641e3d6,Jouni Helske <jouni.helske@jyu.fi>,1466395939,"quantile method as default
+",2016-06
+17125,helske_bssm,de8120a0b78c5e9849ca250b3fb55a5ffc4e378a,helske <jouni.helske@iki.fi>,1615377488,"example of priors
+",2021-03
+17126,helske_bssm,dedb934634cf987ac8c380a90b996c44b8c9814e,Jouni Helske <jouni.helske@jyu.fi>,1474059897,"...
+",2016-09
+17127,helske_bssm,dee25b39bf88e52f6de211d9ac530fb5ee321dc4,Jouni Helske <jouni.helske@liu.se>,1516605255,"resubmission to CRAN
+",2018-01
+17128,helske_bssm,df451209fdd188f69a3db9763bb15f76f541200c,helske <jouni.helske@iki.fi>,1591188120,"add support for mv is-mcmc
+",2020-06
+17129,helske_bssm,df705c78ff425af4ce6af30fb5dd3494456be44f,helske <jouni.helske@iki.fi>,1591116342,"remove covr checks as it doesn't seem to work with R4.0.0
+",2020-06
+17130,helske_bssm,dfb6b8ce7a868896911c6860d81b2851e575cfbb,helske <jouni.helske@iki.fi>,1630672820,"few more tests for MCMC
+",2021-09
+17131,helske_bssm,dff732682544af4b982df1e55bc0190314f3d2ee,Jouni Helske <jouni.helske@jyu.fi>,1498417453,"don't store loglik
+",2017-06
+17132,helske_bssm,e01d43405075482bd997eef59e8dbcf865ad1c57,helske <jouni.helske@jyu.fi>,1467978306,"xbeta
+",2016-07
+17133,helske_bssm,e21aae1363701aaa199b75dd461ca20f05e4c9c8,Jouni Helske <jouni.helske@iki.fi>,1515150466,"add ar1 model
+",2018-01
+17134,helske_bssm,e23dc765a4ad4a8d4d47c270f99f96b3ad546855,helske <jouni.helske@jyu.fi>,1466425285,"more restructuring
+",2016-06
+17135,helske_bssm,e2656437f2e8a1aace78e7d09df183744a7dbf1e,Jouni Helske <jouni.helske@jyu.fi>,1474109271,"updated docs
+",2016-09
+17136,helske_bssm,e2f2e2ff5428f2ca5a68edeb5db726bf1b53cacf,Jouni Helske <jouni.helske@jyu.fi>,1473420317,"remove extra seeds and work on priors
+",2016-09
+17137,helske_bssm,e321b39742fbcda8e355e88080e6f64ed7d155b1,helske <jouni.helske@jyu.fi>,1470916334,"log_space for svm and default
+",2016-08
+17138,helske_bssm,e32544f17d94865e99a660797b56e7e7bc1b5a47,helske <jouni.helske@iki.fi>,1612536811,"fix parallization of is-correction for general models
+",2021-02
+17139,helske_bssm,e3a027ebafdbd57ef8279a0d5febb097832da088,Jouni Helske <jouni.helske@jyu.fi>,1492596768,"is-correction for nlg_ssm using bsf
+",2017-04
+17140,helske_bssm,e3d670074cdd94f75f118cb393949fba3c145a2f,Jouni Helske <jouni.helske@iki.fi>,1513779887,"updated docs
+",2017-12
+17141,helske_bssm,e3fff9607f905becf3d96440a8d95473a3a71248,Jouni Helske <jouni.helske@iki.fi>,1517476107,"working on multivariate case
+",2018-02
+17142,helske_bssm,e4318be45bf1dbd629d20ba521d8d9a193985b7d,Jouni Helske <jouni.helske@jyu.fi>,1468817194,"approx_model generic
+",2016-07
+17143,helske_bssm,e46d7cd9dd0f5c791ec7eee42551321517bea455,helske <jouni.helske@iki.fi>,1591167258,"rowvec to negbin
+",2020-06
+17144,helske_bssm,e68cff795c2b564428679e7f6f574fb69da06db9,helske <jouni.helske@jyu.fi>,1466424256,"updated docs
+",2016-06
+17145,helske_bssm,e6a41242eb16f7e1dad1fcb6ab238ecb981553af,Jouni Helske <jouni.helske@jyu.fi>,1481129898,"cleaning codes
+",2016-12
+17146,helske_bssm,e6ba7e122f0cd67a0193f95f88eb30bf5f7e4c05,Jouni Helske <jouni.helske@jyu.fi>,1474113931,"updated docs
+",2016-09
+17147,helske_bssm,e6ca618e1a1369e19591682312fc367b782cdff4,Jouni Helske <jouni.helske@jyu.fi>,1499324405,"skip MC tests on CRAN
+",2017-07
+17148,helske_bssm,e7152e40c9f7506f19333465ae0772e869daaab5,Jouni Helske <jouni.helske@jyu.fi>,1480416535,"add diagis and change ramcmc call
+",2016-11
+17149,helske_bssm,e737d77825f4eff5bdc41a818366423adadd480f,Jouni Helske <jouni.helske@jyu.fi>,1477575530,"drop the exp family from name
+",2016-10
+17150,helske_bssm,e7a56290a78912697879c1813352900ded9ef192,Jouni Helske <jouni.helske@jyu.fi>,1489073772,"UKF
+",2017-03
+17151,helske_bssm,e7aa137cc6a6b87967df169ccd8ebee96b45a7c5,helske <jouni.helske@iki.fi>,1630515022,"small tweaks, modify github actions for covr
+",2021-09
+17152,helske_bssm,e882160c65f1d8577a1dfafe4bfdf673d140d698,Jouni Helske <jouni.helske@jyu.fi>,1499329313,"correct way of using skip
+",2017-07
+17153,helske_bssm,e8a7448c2714a33f5063fd4656e7dc4e9cdac351,helske <jouni.helske@iki.fi>,1613732651,"slice(t) in weights
+",2021-02
+17154,helske_bssm,e8a8afb653288918bcfa69574f2bcd1f96ffd9b5,Jouni Helske <jouni.helske@jyu.fi>,1476788654,"merge gkl prior
+",2016-10
+17155,helske_bssm,e8ffc8022ab8b51ca346f859025336aab22f1984,helske <jouni.helske@iki.fi>,1590680362,"changed naming, streamlining code, support for R priors
+",2020-05
+17156,helske_bssm,e9054de7ad6ac667e9630e9d7579936d861dec22,Jouni Helske <jouni.helske@jyu.fi>,1474106030,"remove Rcouts
+",2016-09
+17157,helske_bssm,e92f262df0058ba1125f9d36af668c95b3ae854a,Jouni Helske <jouni.helske@jyu.fi>,1497273908,"IS-SE to SE-IS
+",2017-06
+17158,helske_bssm,e93c56e043747ed2222dddef2ef097ad8679567f,helske <jouni.helske@iki.fi>,1589976867,"minor fixes to docs
+",2020-05
+17159,helske_bssm,e952770d3769858c19ee43960bc04c4af75c75c6,helske <jouni.helske@jyu.fi>,1465552807,"approximate filtering for ng models
+",2016-06
+17160,helske_bssm,e9c4e5451f336870f319e581d8279f20e64287f5,helske <jouni.helske@iki.fi>,1625861432,"slides for UseR2021
+",2021-07
+17161,helske_bssm,ea0f1086a2632a1577757c73d078d1be9b5e88c7,Jouni Helske <jouni.helske@iki.fi>,1553069933,Fix initialization of uvect,2019-03
+17162,helske_bssm,ea2d558084145417e8e7d0fb0dd7b749a70919de,helske <jouni.helske@jyu.fi>,1471004865,"no log_space for svm by default
+",2016-08
+17163,helske_bssm,ea487b59bc5f241f32dca7772b153c11f7406316,Jouni Helske <jouni.helske@jyu.fi>,1474096793,"...
+",2016-09
+17164,helske_bssm,ea6ba46c3e1587910c7d5dc9b27dac30e9f8d170,helske <jouni.helske@iki.fi>,1637260820,"fix links in Rds
+",2021-11
+17165,helske_bssm,ea92d9dedfc8ba931ea7affb2421be6c14275bd9,Jouni Helske <jouni.helske@jyu.fi>,1475760550,"add vignette pdf
+",2016-10
+17166,helske_bssm,ea9ab596025a90297c2b55a6f0b2cb0e90c7cbe6,Jouni Helske <jouni.helske@jyu.fi>,1502393479,"finite prior
+",2017-08
+17167,helske_bssm,eaa96f64248ca42245eb4d9adab0551aa82521cd,Jouni Helske <jouni.helske@iki.fi>,1637554896,"Merge pull request #29 from helske/srr
+
+Merge all changes inspired by preparation to rOpenSci ",2021-11
+17168,helske_bssm,eaec160336fa966f34ff82c8c2066d90f83bcdb9,helske <jouni.helske@iki.fi>,1657097164,"point to the other vignettes regarding nlg and sde models
+",2022-07
+17169,helske_bssm,eb013f372b08a9c889380fd61e8ef6c6e1e5a822,Jouni Helske <jouni.helske@liu.se>,1518604565,"fix cholesky and partial missingness in multivariate case, fixes #17
+",2018-02
+17170,helske_bssm,eb27593337ed410bc68ed036e02512ccd30a5b47,helske <jouni.helske@iki.fi>,1637439062,"added progress bar, getting ready for 2.0.0
+",2021-11
+17171,helske_bssm,eb9d9b9f428346832c913e078cd5fe4b85c98f3a,helske <jouni.helske@iki.fi>,1617285948,"fix is call
+",2021-04
+17172,helske_bssm,eba50a0f2b5d327b2818f51fb432c7e82eb3e11c,Jouni Helske <jouni.helske@jyu.fi>,1496404670,"fixed pm_psi
+",2017-06
+17173,helske_bssm,ebad22a5f9ca2c596333daf0eaf76611656627e1,helske <jouni.helske@iki.fi>,1637361099,"fix typos in standards tags
+",2021-11
+17174,helske_bssm,ebeaea0398876654ad70114e314082caf2f9a3e1,helske <jouni.helske@iki.fi>,1591187216,"convert arma::vec to numeric vector
+",2020-06
+17175,helske_bssm,ebf2ef3678964795bbc3659b52761c2216c48338,Jouni Helske <jouni.helske@iki.fi>,1512742382,"start streamlining
+",2017-12
+17176,helske_bssm,ec24bb5fa0268ccd629a516d622f177ce52e340c,Jouni Helske <jouni.helske@iki.fi>,1515425397,"stan comparison
+",2018-01
+17177,helske_bssm,ec77f8c085572cfdac8a70b1aa05a29991b69ec8,helske <jouni.helske@iki.fi>,1657099696,"link to mcmc_combo
+",2022-07
+17178,helske_bssm,ec9268a844400c054706af1e82d827c9a3794027,Jouni Helske <jouni.helske@jyu.fi>,1487519877,"lotka-volterra example
+",2017-02
+17179,helske_bssm,edceb6ae214f0f28dd6119ccb21ea027de9f63fb,Jouni Helske <jouni.helske@iki.fi>,1513778121,"sampling with log(1+x) transform for bsm models
+",2017-12
+17180,helske_bssm,ee3bd1be2bfa05739b117d19beb31a473f998d21,Jouni Helske <jouni.helske@jyu.fi>,1504126249,"da and isc to method argument, add is3,nsim to predict
+",2017-08
+17181,helske_bssm,ef179688d5ddfec918e8181d7d6e5df643e5bfcb,helske <jouni.helske@iki.fi>,1618321598,"fix SV test due to change in model arguments
+",2021-04
+17182,helske_bssm,ef23d5121183aa702eeb2bb448dc7fc2a3e9127d,Jouni Helske <jouni.helske@jyu.fi>,1474972086,"added space
+",2016-09
+17183,helske_bssm,ef3acb4da5ef76f56a60c2be62ddd2b2ddd948a8,helske <jouni.helske@iki.fi>,1631371346,"improve documentation
+",2021-09
+17184,helske_bssm,ef9bc8f3b1eeb8bc7eb1d2615eeea2a1c5cd5ad9,Jouni Helske <jouni.helske@jyu.fi>,1493930578,"export particle smoothers
+",2017-05
+17185,helske_bssm,effc7b23fe4ed940bf1fc66018da705f7f42620a,helske <jouni.helske@iki.fi>,1610559308,"switch default mcmc from da to is2 and add github actions
+",2021-01
+17186,helske_bssm,f0b305e7b9019fbb7c2c561efd1222998f57d177,helske <jouni.helske@iki.fi>,1603873533,"fix w-ess for states
+",2020-10
+17187,helske_bssm,f0e4b834c615cf218bb7c3fb1338d97b1d1bad2f,helske <jouni.helske@iki.fi>,1631379033,"improve svm docs, remove nonexisting beta*xreg part
+",2021-09
+17188,helske_bssm,f0f811a5457a49ca27613cec88c55264155fb63e,Jouni Helske <jouni.helske@jyu.fi>,1492677677,"add count=1
+",2017-04
+17189,helske_bssm,f11219f2575858342e52226d87a4c3a6c9ed265f,Jouni Helske <jouni.helske@jyu.fi>,1489139757,"svm rename, remove xreg
+",2017-03
+17190,helske_bssm,f15b5e08624db04167338c8fb7285a04b3882ef5,Jouni Helske <jouni.helske@iki.fi>,1515235222,"remove extra time step and fix automatic dimension drop...
+",2018-01
+17191,helske_bssm,f21ed04098ba45fcb07d9ceb90bd59f5a526fea6,Jouni Helske <jouni.helske@jyu.fi>,1500143985,"sde
+",2017-07
+17192,helske_bssm,f239ef45dc0b3a88d47e74673ab5e4c90a3eecdb,Jouni Helske <jouni.helske@jyu.fi>,1492091772,"use summary in bsf
+",2017-04
+17193,helske_bssm,f2c22af88d2190f9b8ae07e8bb94091bc7e2398d,helske <jouni.helske@iki.fi>,1630566907,"add phi, use priors
+",2021-09
+17194,helske_bssm,f2d3ab08a605fab54ad8b275c835e3e64276ba99,Jouni Helske <jouni.helske@jyu.fi>,1475760091,"updated vignette and ar to rho
+",2016-10
+17195,helske_bssm,f31e10ec1f008332eb3273b547b3abc0f4983a4f,Jouni Helske <jouni.helske@jyu.fi>,1475569030,"construct prior properly with single covariate
+",2016-10
+17196,helske_bssm,f33917ae964c6890e38cd96d348f160fb53e9c64,helske <jouni.helske@iki.fi>,1591710565,"small tweaks to docs, 1.0.0 to CRAN
+",2020-06
+17197,helske_bssm,f3e9575bd5c038c4d670b0a5b08782eb6d6ea9d4,helske <jouni.helske@iki.fi>,1630525081,"more tests
+",2021-09
+17198,helske_bssm,f3f47cc3ee6a6971aae007d0db49aff1ce054d7c,Jouni Helske <jouni.helske@iki.fi>,1515055710,"suggest sde
+",2018-01
+17199,helske_bssm,f3f69490740436f67faa0cb643fa139b229a86c9,Jouni Helske <jouni.helske@iki.fi>,1512751450,"updating lgg_ssm
+",2017-12
+17200,helske_bssm,f460f52a3c6fd072a0ed83e455b21f8f843a24c0,helske <jouni.helske@iki.fi>,1587020739,"fix a bug in negative binomial run_mcmc
+",2020-04
+17201,helske_bssm,f58ecf8bdcf461b0a52384e82d7d5310cd8d393b,helske <jouni.helske@iki.fi>,1630773869,"same direct computation of RR as in lg case
+",2021-09
+17202,helske_bssm,f5909f27c72e939f547694d5e4f71936854634f8,Jouni Helske <jouni.helske@jyu.fi>,1489310717,"remove ylims
+",2017-03
+17203,helske_bssm,f6125d264869084b7a36625d3dc0bae3e7b7df06,Jouni Helske <jouni.helske@jyu.fi>,1502912301,"don't compute ESS and SE by default
+",2017-08
+17204,helske_bssm,f63c28f891a078cf9493554442cb76e2fd0bf0c3,helske <jouni.helske@iki.fi>,1611216254,"fix simulation smoother for multivariate gaussian model
+",2021-01
+17205,helske_bssm,f6a97f2a135b41cb3e0f362bac0c510c7c17963b,Jouni Helske <jouni.helske@jyu.fi>,1476194924,"fixed as_gssm and as_ngssm
+",2016-10
+17206,helske_bssm,f7a1324ca3aebc2b8c5cbb1e8e31f5984ebaf18a,Jouni Helske <jouni.helske@jyu.fi>,1477319176,"model to object in run_mcmc.svm
+",2016-10
+17207,helske_bssm,f80a6fcbd20bae0e55ad506791df18f495a105c7,Jouni Helske <jouni.helske@jyu.fi>,1491486367,"sum scales in spdk, check for errors in bsf
+",2017-04
+17208,helske_bssm,f83c055605c7e5c310a2936397f1c33337893c70,Jouni Helske <jouni.helske@iki.fi>,1541867511,"fix dims
+",2018-11
+17209,helske_bssm,f843875da025c18c20f0018ae279996bda389bb1,Jouni Helske <jouni.helske@jyu.fi>,1497025261,"add some leeway to tests
+",2017-06
+17210,helske_bssm,f8a48a801498cd5d2a9bdb135a54653e63885a1c,Jouni Helske <jouni.helske@iki.fi>,1542569451,"add type to ng_ar1
+",2018-11
+17211,helske_bssm,f8e391e59f1f4aa82d351eb3975e103bf90d0bbf,Jouni Helske <jouni.helske@iki.fi>,1515227408,"y to ts
+",2018-01
+17212,helske_bssm,f8f6ff3fc150f9696738ae35f3c55f6409997185,Jouni Helske <jouni.helske@jyu.fi>,1502902951,"proper seeding of parallel coarse engines
+",2017-08
+17213,helske_bssm,f9ce30cbd35efe22f011206195135607bc96742f,Jouni Helske <jouni.helske@jyu.fi>,1469216513,"running summary stats
+",2016-07
+17214,helske_bssm,fa179b12012925798ad30406c0fdcc5c3fced8a3,Jouni Helske <jouni.helske@jyu.fi>,1488809514,"reworked prediction
+",2017-03
+17215,helske_bssm,fa88fca5fd5c68ef72ab7103ffe26d3409877f12,Jouni Helske <jouni.helske@jyu.fi>,1474095105,"...
+",2016-09
+17216,helske_bssm,fac90ee8efd2be114d3ac4f7dcae3da341c8b10f,helske <jouni.helske@iki.fi>,1637835835,"improved documentation and changed predict method
+",2021-11
+17217,helske_bssm,faf562d8e718574dae7045a2097602ede94420fc,helske <jouni.helske@iki.fi>,1580121535,"switch vignette format
+",2020-01
+17218,helske_bssm,fb927b8d9f0983064c44382b7a1e455d7c1ceedf,Jouni Helske <jouni.helske@jyu.fi>,1488535138,"change tolerance of approxSSM
+",2017-03
+17219,helske_bssm,fbc0553e2af3e3f945a5f35c190e6a75fdf7da7c,Jouni Helske <jouni.helske@iki.fi>,1542268000,"...
+",2018-11
+17220,helske_bssm,fbdddba7aa6caea2b2bfafdf92ae3f8a82086466,helske <jouni.helske@iki.fi>,1630442423,"regression construction to own function, sapply to vapply
+",2021-08
+17221,helske_bssm,fc0df85757aca2b7470696da61653a129260e744,Jouni Helske <jouni.helske@jyu.fi>,1504862060,"isnan
+",2017-09
+17222,helske_bssm,fc7aef89edf1ee2dd512bc788ba5539456325c5d,Jouni Helske <jouni.helske@jyu.fi>,1488224941,"svm and approx
+",2017-02
+17223,helske_bssm,fd1305da775e993b6e0b20a3b9a48abb1e677436,Jouni Helske <jouni.helske@jyu.fi>,1469189516,"something wrong in mcmc_full with nsim>1
+",2016-07
+17224,helske_bssm,fd87bcf73b9e00d3d7b34c0b0f00b4b6da07836e,Jouni Helske <jouni.helske@jyu.fi>,1494415819,Update README.md,2017-05
+17225,helske_bssm,fe28084b6e12d9ab45466c50a380a88f2baa1f49,Jouni Helske <jouni.helske@jyu.fi>,1472503035,"particle filtering
+",2016-08
+17226,helske_bssm,fe2a40b8f49d09605b7b37ade80692b08a986cd5,Jouni Helske <jouni.helske@jyu.fi>,1498302603,"remove extra R
+",2017-06
+17227,helske_bssm,fe2b2d66bc96b6eb8b469c13a0ef4e2160d35620,helske <jouni.helske@iki.fi>,1591196730,"updated docs
+",2020-06
+17228,helske_bssm,fe6f1e1b3d167baf84cd35367e4cdaa5b041b1a5,Jouni Helske <jouni.helske@jyu.fi>,1474230460,"added methods
+",2016-09
+17229,helske_bssm,fe83988cca7c149c74260747dab4883f5d6def57,helske <jouni.helske@iki.fi>,1630562268,"fix calls to post-correction due to merge mess earlier
+",2021-09
+17230,helske_bssm,ff03b13c559271792e54dc9bf865a419012fbef2,Jouni Helske <jouni.helske@jyu.fi>,1474231230,"zero y to 1e-4 in svm constructor
+",2016-09
+17231,helske_bssm,ff4a31df5ef69991a4a697c7c249e1656a520714,Jouni Helske <jouni.helske@jyu.fi>,1491486182,"fixed documentation
+",2017-04
+17232,helske_bssm,ff67de9b26e47726264010d53bf44d949c9e28a8,helske <jouni.helske@iki.fi>,1610230027,"added gamma prior
+",2021-01
+17233,helske_bssm,ffb83d2eb059366c4ebfcbbc618331763b5b8349,helske <jouni.helske@iki.fi>,1603864382,"order of summary
+",2020-10
+17234,helske_bssm,ffced00f80dc0b7f1f2d65bf8705da3fa2a5e4b6,Jouni Helske <jouni.helske@jyu.fi>,1473614714,"strugling with priors
+",2016-09
+17235,helske_bssm,ffd9e39d81a3c2ae9313ddc1e5196c30c6aad7e8,Jouni Helske <jouni.helske@jyu.fi>,1474901490,"restructuring and unifying codes
+",2016-09
+17236,helske_bssm,fff4d64572183bca6b0aedfae47293bffda9a894,helske <jouni.helske@jyu.fi>,1465544472,"corrected mv check
+",2016-06
+17237,helske_bssm,fffbf87e4f2a950894ba779f58d20ea449da41b5,Jouni Helske <jouni.helske@jyu.fi>,1497535414,"add more travis tests
+",2017-06

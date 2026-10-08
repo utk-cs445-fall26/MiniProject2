@@ -1,0 +1,11 @@
+Project;ncommits;nauthors;from;to;nstars;nforks;lastGHCommitDate;LongestGapStart;LongestGapEnd;LongestGapLength;NumCommitsAfterLastGap;ActivityPattern;NumberOfGapsInTimeline
+dlr-rm_blenderproc;5512;152;1561714326;1773536613;3730;519;2026-01-07;2025-03;2025-03;1;59;declining;0
+riatelab_cartography;737;20;1434011231;1753254419;403;44;2025-07-23;2024-02;2025-06;17;1;declining;6
+patrickzib_sfa;466;13;1456151926;1746192497;321;67;2025-05-02;2022-04;2025-04;37;1;declining;6
+openexoplanetcatalogue_open_exoplanet_catalogue;7241;90;1294715012;1762326075;1128;224;2026-09-28;2018-12;2019-05;6;1549;U-shaped;3
+snakemake-workflows_rna-seq-kallisto-sleuth;1420;47;1544611877;1761911629;69;48;2026-08-17;2020-05;2020-07;3;1095;steady;1
+brianmanderson_dicom_utilities;407;14;1570647049;1626980498;108;32;2026-09-08;2020-08;2020-08;1;287;irregular;0
+iraf-community_iraf;2782;36;604158491;1762086551;180;54;2026-09-25;2000-01;2002-06;30;2761;irregular;23
+dgerosa_precession;1191;18;1447340508;1756209459;42;18;2026-06-06;2018-12;2020-02;15;766;cyclical;7
+plasmapy_plasmapy;25686;355;1448390184;1776415066;714;374;2026-09-28;2016-01;2016-09;9;25646;rising;2
+iqusoft_intel-qs;543;58;1509994471;1758510134;264;76;2026-09-11;2018-08;2019-01;6;529;irregular;3

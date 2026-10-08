@@ -1,0 +1,528 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;dlr-rm_blenderproc;6dab608a7952f26bee20b2f09955049dc5a7a91a;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1734364125;"chore(docu): Some fixes and error message improvement
+"
+pre;dlr-rm_blenderproc;d64184a7ebc3e441a747d57f5ef70bbc202bc8e5;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1734368622;"fix(stereo): Fixes float64/32 conversion error
+"
+pre;dlr-rm_blenderproc;6f1d64f497a170ed417e3de0d5909f15e7c5dd8f;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1734432416;"fix(urdf): Replaces urdfpy with urchin to support newer python versions
+"
+pre;dlr-rm_blenderproc;e112c0d856120bd0bb707a785258befad8225650;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1734440056;"Merge remote-tracking branch 'dlr/main' into blenderproc-without-run
+"
+pre;dlr-rm_blenderproc;63531e872802b9498ebf985c6aea86ed607440e8;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1734885724;"Merge pull request #1158 from Griperis/blenderproc-without-run
+
+Allow use of external bpy package from python environment"
+pre;dlr-rm_blenderproc;9ba44b1ced0750abee844cd8dbdb0a3e302478f9;Matthias Humt <22399283+hummat@users.noreply.github.com>;1734987319;"Merge a8bfdb9d29d09f6390242e6944f9171fcd0e7033 into 63531e872802b9498ebf985c6aea86ed607440e8
+"
+pre;dlr-rm_blenderproc;610039795e4124c0206c9a722f233f4104472ac3;Andrey Yashkin <38919268+AndreyYashkin@users.noreply.github.com>;1734987635;"Merge 86c5fe3085990544ea0183f505664e5d6ece5210 into 63531e872802b9498ebf985c6aea86ed607440e8
+"
+pre;dlr-rm_blenderproc;05b003f8fcbaffb90ca3e62f4e3730e8acd88250;eugenelyj <496734971@qq.com>;1736256226;"fix the blender version searching in mac
+"
+pre;dlr-rm_blenderproc;abad448f67960dd43f4f4e95d60fa75399beeaa5;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1736787660;"Merge pull request #1178 from eugenelyj/main
+
+fix the blender version searching in mac"
+pre;dlr-rm_blenderproc;0069ba72eece1649ce7750c2657698bfc89f8859;Hiroaki Santo <santo.hiroaki@ist.osaka-u.ac.jp>;1740190315;Create Dockerfile
+post;dlr-rm_blenderproc;611d31a566051d5c2d3c0876ab27cf64b3586e5f;Santo Hiroaki <santo.hiroaki@gmail.com>;1744381916;"Merge branch 'r2.7' of https://github.com/DLR-RM/BlenderProc into DLR-RM-r2.7
+
+# Conflicts:
+#	blenderproc/api/renderer/__init__.py
+"
+post;dlr-rm_blenderproc;104618ae9f488e2d702c3c389338bdfb4c97fa0d;Hiroaki Santo <santo.hiroaki@ist.osaka-u.ac.jp>;1744383368;Update Dockerfile
+post;dlr-rm_blenderproc;b2f190d1fd2ec9f138d787dc7376eca4fde2c821;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1744397325;"fix(camera): Fixes y-flip in project/unproject
+
+Relevant if cy != height / 2
+"
+post;dlr-rm_blenderproc;88a470520b990309b26708ee32a46a0c83fa7b93;Matthias Humt <22399283+hummat@users.noreply.github.com>;1744612824;"Merge a8bfdb9d29d09f6390242e6944f9171fcd0e7033 into b2f190d1fd2ec9f138d787dc7376eca4fde2c821
+"
+post;dlr-rm_blenderproc;b7c4581f3fa99b265999f09a84d654194a7b8125;Andrey Yashkin <38919268+AndreyYashkin@users.noreply.github.com>;1744612844;"Merge 86c5fe3085990544ea0183f505664e5d6ece5210 into b2f190d1fd2ec9f138d787dc7376eca4fde2c821
+"
+post;dlr-rm_blenderproc;27decb182989ac37191dcb1aa342f4b53deefe4c;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1744830329;chore(docu): Fixes script path
+post;dlr-rm_blenderproc;c5e5ea2017c7b50cc29288ec97a4c77a08a961ed;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1744830353;Update README.md
+post;dlr-rm_blenderproc;1dfe3b1c799233b57feb5753ad9cfb1cd3ac86a5;Dominik Winkelbauer <dominik.winkelbauer@dlr.de>;1744830364;Update README.md
+post;dlr-rm_blenderproc;7b0354560412ff9a3fa27b03f5186e321f81c8a2;Zdenek Dolezal <zdeno@polygoniq.com>;1750690515;"feat(blender): upgrade to 4.3.2
+"
+post;dlr-rm_blenderproc;14d6b5e0962b0c145c57ea86295c22b26af92617;Zdenek Dolezal <zdeno@polygoniq.com>;1750691534;"fix(utility): do not iterate over actions collection while modifying it
+"
+pre;riatelab_cartography;98567c46d1f9fc23555df1552993485b9a7a4ff0;rCarto <timothee.giraud@cnrs.fr>;1674033446;"increment version + NEWS
+"
+pre;riatelab_cartography;188a92e7cdc6e51d82ca8cacd970c7bb426f5d84;rCarto <timothee.giraud@cnrs.fr>;1674034227;"update website - CRAN submit
+"
+pre;riatelab_cartography;4c8aec06d72bbd78b5a69f14cc1010cd45316a22;rCarto <timothee.giraud@cnrs.fr>;1694613540;"fix: use bibentry() instead of citEntry()
+"
+pre;riatelab_cartography;0870f24d2023a21eb6eab8759e242303002a87fe;rCarto <timothee.giraud@cnrs.fr>;1694613600;"fix: modify pkg level doc
+"
+pre;riatelab_cartography;9fd83724da6b9089c0cf3fb340f16ccc5d63aa92;rCarto <timothee.giraud@cnrs.fr>;1694614762;"docs: add codemeta and cff
+"
+pre;riatelab_cartography;50751498e7464655ecd7315dcb0e2c99e5ff83c7;rCarto <timothee.giraud@cnrs.fr>;1694614815;"chore: increase vesion, update NEWS
+
+CRAN release
+"
+pre;riatelab_cartography;9c38cde8cb464ff3d3a4b7c80ab0b0577de9f71d;rCarto <timothee.giraud@cnrs.fr>;1694691756;"fix: modify somme urls
+
+CRAN release
+"
+pre;riatelab_cartography;9fc749de184c7a5db76d542ea98e4d3f6fa8ecf0;olivroy <52606734+olivroy@users.noreply.github.com>;1704846262;Add website to DESCRIPTION
+pre;riatelab_cartography;6f601d246d18f1098c3960a22f7cb5166b9fa2eb;olivroy <52606734+olivroy@users.noreply.github.com>;1704846270;"Merge 9fc749de184c7a5db76d542ea98e4d3f6fa8ecf0 into 9c38cde8cb464ff3d3a4b7c80ab0b0577de9f71d
+"
+pre;riatelab_cartography;72c9306bc8ea9e4ef03124a1efb291bf53c4450f;pompolompo <138770677+pompolompo@users.noreply.github.com>;1705150776;"Update getBreaks.R
+
+Takes care of zero values in the ""geom"" method"
+post;riatelab_cartography;f6fd10ddca00931f642192d1fdd77e7b3dfbfeb9;rCarto <timothee.giraud@cnrs.fr>;1753254419;"update package, clean readme, fix urls, fix Rd links
+
+submit to CRAN
+"
+pre;patrickzib_sfa;fad4b65c55cbcaadab690dba94098867796300f2;Patrick Schäfer <patrick.schaefer@zib.de>;1617699254;"Gradle Update and Bugfix for equi-depth binning
+"
+pre;patrickzib_sfa;c754f294135fc3e6f5778fd4fccdac99e7489c75;Patrick Schäfer <patrick.schaefer@zib.de>;1617700679;"Teaser concurrency fix
+"
+pre;patrickzib_sfa;4f17ab8b0758f59fc961fdf6708959b90677c1d5;Patrick Schäfer <patrick.schaefer@zib.de>;1617700697;"fixed test cases
+"
+pre;patrickzib_sfa;5d37ddf09e9403a06f0009da434a094d459521aa;Patrick Schäfer <patrick.schaefer@zib.de>;1617700713;"revert SFA binning
+"
+pre;patrickzib_sfa;7a7bf657819cd39f9d599ff4b072db3a3955fa40;Patrick Schäfer <patrick.schaefer@zib.de>;1617701026;"add one dataset
+"
+pre;patrickzib_sfa;de0efb7601740af4aba83c17be191f423f3c91e3;Patrick Schäfer <patrick.schaefer@zib.de>;1632466655;"latest research
+"
+pre;patrickzib_sfa;8d93a933dbeb5f8d3b28dcd586730c610de06408;Patrick Schäfer <patrick.schaefer@informatik.hu-berlin.de>;1646831799;"remove gradle deprecated tag
+"
+pre;patrickzib_sfa;932052a1048a919fd76885f6b0dc72f2e465cc85;Patrick Schäfer <patrick.schaefer@informatik.hu-berlin.de>;1647418607;"Multivariate Extension for TEASER
+"
+pre;patrickzib_sfa;5790c4ac7862d225c7a5131a4a21df2f516e072d;Patrick Schäfer <patrick.schaefer@informatik.hu-berlin.de>;1647418908;"Remove some warnings
+"
+pre;patrickzib_sfa;7ed2e2fc02d7ea224915fe1e538179b944d0789f;Patrick Schäfer <patrick.schaefer@informatik.hu-berlin.de>;1647419046;"test case
+"
+post;patrickzib_sfa;bc88d2889b5ba924ced9973f025dac6f86b2bf95;Patrick Schäfer <patrick.schaefer@informatik.hu-berlin.de>;1746192497;Update README.md
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;34c8ec819137fced631517e415e44e4b681a36b5;Andrew Tribick <ajtribick@googlemail.com>;1537464293;"Add OGLE-2017-BLG-0482L
+
+Details from Han et al. (2018)
+http://adsabs.harvard.edu/abs/2018AJ....155..211H
+"
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;f19147e507f31e08f5146941384c99fec2c63a3f;Andrew Tribick <ajtribick@googlemail.com>;1537465519;"Add OGLE-2017-BLG-1140L
+
+Details from Calchi Novati et al. (2018)
+http://adsabs.harvard.edu/abs/2018AJ....155..261C
+"
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;8e8a73e297cbf0f00a0c7cda70a368641b4dcde7;Andrew Tribick <ajtribick@googlemail.com>;1537465962;"Add OGLE-2017-BLG-1434L
+
+Details from Udalski et al. (2018)
+http://adsabs.harvard.edu/abs/2018AcA....68....1U
+"
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;be300a1eec547ed71fffcf356381ce555f51e01b;Andrew Tribick <ajtribick@googlemail.com>;1537466208;"Add OGLE-2017-BLG-1522L
+
+Details from Jung et al. (2018)
+http://adsabs.harvard.edu/abs/2018AJ....155..219J
+"
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;e2a0475fb669445fe73482b4dc3dc4317b7d159d;Andrew Tribick <ajtribick@googlemail.com>;1537467167;"Add TCP J05074264+2447555L
+
+Details from Nucita et al. (2018)
+http://adsabs.harvard.edu/abs/2018MNRAS.476.2962N
+"
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;f1b44e855ef72cce5b489d5ff45a2b90c13f44d7;Andrew Tribick <ajtribick@googlemail.com>;1537467573;"Add UKIRT-2017-BLG-001L
+
+Details from Shvartzvald et al. (2018)
+http://adsabs.harvard.edu/abs/2018ApJ...857L...8S
+"
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;8978f3c963635caed0f9c60826312692bb546654;Hanno Rein <hanno@hanno-rein.de>;1537531567;"Merge pull request #1086 from ajtribick/microlensing
+
+Update planets detected by microlensing"
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;04fd9d44a2bd9e251b1d2c9c33307c3b190081d3;Hanno Rein <hanno@hanno-rein.de>;1537547657;"Merge pull request #1085 from ajtribick/eps_ind_bc
+
+Update Epsilon Indi"
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;76137faa166823683dffd927d5fe2ae93cef1a86;ajtribick <ajtribick@googlemail.com>;1537556651;"Merge ab6b165f8685755f55e94c8a9fd8bf81a7c5994e into 04fd9d44a2bd9e251b1d2c9c33307c3b190081d3
+"
+pre;openexoplanetcatalogue_open_exoplanet_catalogue;e5494a02fabb8a5872e4c3d54d3e2315fb1d2a07;ajtribick <ajtribick@googlemail.com>;1542146849;"Merge dfcf830499c7601644a0fb92e9e65dd4f3c50b7f into 04fd9d44a2bd9e251b1d2c9c33307c3b190081d3
+"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;926109fc08cf2e3ca92642d831c17342c47678d9;Florian Cabot <florian.cabot@epfl.ch>;1560334362;"Update EPIC 211089792
+
+SANTERNE, A., HÉBRARD, G., LILLO-BOX, J., et al. EPIC211089792 b: an
+aligned and inflated hot jupiter in a young visual binary. arXiv
+preprint arXiv:1601.07680, 2016.
+
+https://arxiv.org/pdf/1601.07680.pdf
+"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;221a6b7d2584f5521e335f0321be07e1f7da9357;Florian Cabot <florian.cabot@epfl.ch>;1560334734;"Update WASP 139
+
+HELLIER, Coel, ANDERSON, D. R., CAMERON, A. Collier, et al. WASP-South
+transiting exoplanets: WASP-130b, WASP-131b, WASP-132b, WASP-139b,
+WASP-140b, WASP-141b and WASP-142b. Monthly Notices of the Royal
+Astronomical Society, 2016, vol. 465, no 3, p. 3693-3707.
+
+https://arxiv.org/pdf/1604.04195.pdf
+"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;8ef4e161561126e3a03317a9d533e5b8703e3fb5;Hanno Rein <hanno@hanno-rein.de>;1560365194;"Merge pull request #1088 from Dexter9313/master
+
+Update EPIC 211089792 and WASP 139"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;38dcc204967bbb0c3fe1e0212a4793bde4c14abb;ajtribick <ajtribick@googlemail.com>;1560378532;"Merge dfcf830499c7601644a0fb92e9e65dd4f3c50b7f into 8ef4e161561126e3a03317a9d533e5b8703e3fb5
+"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;5e851674adeb54fa4eb19abe18d7a5a67b570028;Christian Sturm <Sol-d@users.noreply.github.com>;1573307429;"Create NGTS-2.xml
+
+https://arxiv.org/abs/1805.10449"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;ce23cae4cbe003dc174cf29a66805b96adc2e896;Christian Sturm <Sol-d@users.noreply.github.com>;1573307580;"Create NGTS-3.xml
+
+https://arxiv.org/abs/1805.01378"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;7555cdf24d614290b6daa2126fb465fb39ce3cc9;Christian Sturm <Sol-d@users.noreply.github.com>;1573307639;"Create NGTS-4.xml
+
+https://arxiv.org/abs/1809.00678"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;147f6b314e226e22c9dddb0468e74ef6af635ae3;Christian Sturm <Sol-d@users.noreply.github.com>;1573307676;"Create NGTS-5.xml
+
+https://arxiv.org/abs/1905.02593"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;6abc6e26fdf8a3eda28aad5b0baf692d2c6a4a99;Christian Sturm <Sol-d@users.noreply.github.com>;1573307713;"Create NGTS-6.xml
+
+https://arxiv.org/abs/1904.07997"
+post;openexoplanetcatalogue_open_exoplanet_catalogue;863d8f5a7856a5db155de5a220f19266a497e3b2;Christian Sturm <Sol-d@users.noreply.github.com>;1573307753;"Create NGTS-10.xml
+
+https://arxiv.org/abs/1909.12424"
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;5e0195e43057f71cb5be753c79e08c556e888055;Johannes Köster <johannes.koester@tu-dortmund.de>;1587558661;Remove explicit conda clean again.
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;90b5abaad5c2b79fb24c9c970ba342e2288d3af1;David Laehnemann <david.laehnemann@hhu.de>;1587568039;sleuth-init.R: revert to species-specific biomart dataset selection
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;d9b1e9e9d55a5d39d46263946136dabb7f1e65cd;AntonieV <45459714+AntonieV@users.noreply.github.com>;1587717510;"Ihw fdr control (#22)
+
+* added ihw-script for testing
+
+* IHW-integration in workflow
+
+* created an own environment for ihw, refactoring variables in ihw-script, changing some references to wildcards in reports
+
+* changes according to View #22, in ihw-fdr-control.R script added merging of ens_gene and ext_gene columns in ihw-results .tsv-files
+
+* Add `--conda-cleanup-pkgs` to GitHub Action args.
+
+This is an attempt to keep the space needed by the conda environments as small as possible.
+
+* Add `--latency-wait 15` seconds to GitHub Actions.
+
+Attempt to avoid error of the CI Test.
+
+* View #22: changes in merging of ens_gene and ext_gene columns in ihw-results .tsv-files and NA-handling
+
+* View #22: ihw merging of columns as pipe
+
+* remove debugging code
+
+* add feature request link to IHW TODO
+
+* add `ls` to debug GitHub Actions missing output failure
+
+* more debugging output
+
+* a little less verbosity from conda
+
+* force conda in bioc download to copy, less verbose
+
+* bioc db download: remove `--quiet`
+
+* more bioc db download debugging output
+
+* try bioc db download with `conda clean` before and after
+
+* remove `--latency-wait 15` from GitHub Action
+
+* try cleaning up Docker container
+
+* force docker system prune in GitHub Actions
+
+otherwise, it prompts to ask if we're sure and defaults to No
+
+* GitHub Actions: try cleaning up Docker container earlier
+
+* bioc db download less verbose, find where space is used in Docker container
+
+* fix
+
+* fix `du -sh` calls
+
+* biomaRt: iterate through mirrors upon error
+
+With the current configuration, it will iterate through the whole set of mirrors three times and then finally give up. At the end of each round, the script will wait for 30 seconds in the hope that intermittent errors go away. And the script explicitly does not start with the default mirror ""www"", as this is the one with very frequent errors.
+
+* bioc db download: remove all debugging output
+
+* GitHub Action: remove `docker system prune` as it has no effect
+
+* Instruct snakemake action to cleanup conda cache as well.
+
+* Remove explicit conda clean again.
+
+* sleuth-init.R: revert to species-specific biomart dataset selection
+
+Co-authored-by: David Laehnemann <david.laehnemann@hhu.de>
+Co-authored-by: Johannes Köster <johannes.koester@tu-dortmund.de>"
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;f1966b440a01a4b93e2aed9425cf61bf68c37cd3;Johannes Köster <johannes.koester@tu-dortmund.de>;1587717968;Merge branch 'master' into diffsplice
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;0509c11a91d6f4265e28c8d124f4eba7e9ecb372;Johannes Köster <johannes.koester@uni-due.de>;1588071609;"patch docker daemon data root
+"
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;24a31bb671d2c4189b3e5823fc251832b32506a1;Johannes Köster <johannes.koester@uni-due.de>;1588071960;"dbg
+"
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;a34d2f780d11e81de2b423d088be7c74af81c402;Johannes Köster <johannes.koester@uni-due.de>;1588072104;"try cleaning up cache
+"
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;37ddec6ea0ec6de35a5e88a44590ce199754b561;Johannes Köster <johannes.koester@uni-due.de>;1588073829;"use latest action with hopefully fixed space issues
+"
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;4bb9ade4927d642dcbd9b93a38a25a920fc94f1c;Johannes Köster <johannes.koester@uni-due.de>;1588073904;"polish
+"
+pre;snakemake-workflows_rna-seq-kallisto-sleuth;96c9acedd40109a8e965ffe4c561b2fb3e3e29a8;Johannes Köster <johannes.koester@uni-due.de>;1588073924;"Merge 4bb9ade4927d642dcbd9b93a38a25a920fc94f1c into d9b1e9e9d55a5d39d46263946136dabb7f1e65cd
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;73654191560650a40a23aa2cb623475976327e31;David Laehnemann <david.laehnemann@hhu.de>;1597996020;"remove .test/report.html as it is too big (17 Mb is > 10 Mb GitHub limit)
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;8424b41a32bf1dad9d6f91707715bcfeae2cbecd;David Laehnemann <david.laehnemann@hhu.de>;1598006272;"remove .test/report.html as it is too big (17 Mb is > 10 Mb GitHub limit) (#25)
+
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;660d0f3f3f270a9b569e35544e0777ad46319967;David Laehnemann <david.laehnemann@hhu.de>;1600267069;"ensure that biomart getBM() does not use a cache (this has led to failures)
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;3cd43dbaaea80c53a952807c0869a65de6679479;David Laehnemann <david.laehnemann@hhu.de>;1600268621;"ensure that biomart getBM() does not use a cache (this has led to failures) (#26)
+
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;f2f2c4137df6514d6e3439145497e0178fe476cd;Johannes Köster <johannes.koester@uni-due.de>;1605609654;"Merge 4bb9ade4927d642dcbd9b93a38a25a920fc94f1c into 3cd43dbaaea80c53a952807c0869a65de6679479
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;ca7c27615fad6c839c7e156a359d82b97a63c5a6;Johannes Köster <johannes.koester@tu-dortmund.de>;1610635163;"fmt
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;901f0ec21ae053330b0de285c8d2871e83b9155b;Johannes Köster <johannes.koester@tu-dortmund.de>;1610635776;"fix lints
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;2890c16f4adaaf67b1562b525f3dc271c8599654;Johannes Köster <johannes.koester@tu-dortmund.de>;1610635805;"fixes
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;5f5d4731cd1df9647cc58b0447ceecec70ea5f0c;Johannes Köster <johannes.koester@tu-dortmund.de>;1610637681;"formatting and linting
+"
+post;snakemake-workflows_rna-seq-kallisto-sleuth;aabb853e1edfa0c8acb2932f1585e0eaad3e7624;Johannes Köster <johannes.koester@tu-dortmund.de>;1610637850;"minor
+"
+pre;brianmanderson_dicom_utilities;1a67d385ddce9186b373f0a64fd3c70fbd9e640d;bmanderson@mdanderson.org <bmanderson@mdanderson.org>;1591115381;"add defualts of None
+"
+pre;brianmanderson_dicom_utilities;b256c192a95ef34aa0b92884b702195a332a2bb1;markba122@gmail.com <bmanderson@mdanderson.org>;1595271250;"update the shiftrows and shiftcols to reflect the image position information
+"
+pre;brianmanderson_dicom_utilities;1d69bf845345e4e0df13af24e56207c0feecd7aa;markba122@gmail.com <bmanderson@mdanderson.org>;1595271257;"update key*
+"
+pre;brianmanderson_dicom_utilities;b0985c7597e1a6464eeffd2b00f7e35581198338;markba122@gmail.com <bmanderson@mdanderson.org>;1595275465;"properly named ShiftRows and ShiftCols
+"
+pre;brianmanderson_dicom_utilities;49bea87473e1e685cdbd6e478d68e822fd6686f2;markba122@gmail.com <bmanderson@mdanderson.org>;1595279495;"properly change by Xx, Xy, Xz, Yx, Yy, and Yz.. unfortunately this doesn't correct for slice location, preventing us to write DicomRT structures properly for oblique images.. working on it
+"
+pre;brianmanderson_dicom_utilities;dc879b3961fbc4449ebb103836ead2cb9bb23eec;Anderson <BMAnderson@mdanderson.org>;1595343104;"working to properly write out oblique contour predictions... renamed, created meshgrid for finding z-slice labels, updating to run on individual pixelsize
+"
+pre;brianmanderson_dicom_utilities;fc1b9b844735923e2acbabf0d6d69fcaf21dd03e;Anderson <BMAnderson@mdanderson.org>;1595350099;"now properly adjusts for PixelSize in x and y direction, still can't write out oblique predictions.. not getting the z-value set correctly, lines 98 and 78
+"
+pre;brianmanderson_dicom_utilities;ef6005481037395a0c3f195f10df4ea5857b2eaa;Anderson <BMAnderson@mdanderson.org>;1595359400;"still working on fixing Oblique predictions, now use PixelSpacing correctly in making mask
+"
+pre;brianmanderson_dicom_utilities;197934737138e1d9045ff95b14fdf1eededb9814;Anderson <BMAnderson@mdanderson.org>;1595360803;"still working on fixing z..
+"
+pre;brianmanderson_dicom_utilities;9c007ff5e3d37178b437cf1ffebaed7511a7fa16;Anderson <BMAnderson@mdanderson.org>;1595364530;"don't know how to fix it, works fine for axial
+"
+post;brianmanderson_dicom_utilities;bb6d778a690fcac3ed17b8b177426e5d0a2fe924;markba122@gmail.com <bmanderson@mdanderson.org>;1600183266;"still waiting on SimpleITK to implement direction selection... adding in minor fix until then
+"
+post;brianmanderson_dicom_utilities;dc21defd448f3f628a54809cef6893dc2f33c284;markba122@gmail.com <bmanderson@mdanderson.org>;1600186574;"flip actual handle and mask handle
+"
+post;brianmanderson_dicom_utilities;425584e6dbfec87c055c10f648fe1aecdc779ad5;markba122@gmail.com <bmanderson@mdanderson.org>;1600194091;"updated to iterate through structures, so you can pass multiple structure files and get all RTs. Also now works with properly re-writing out images not defined in HFS
+"
+post;brianmanderson_dicom_utilities;623372fad6493249b122294942c57e88089dec8f;markba122@gmail.com <bmanderson@mdanderson.org>;1600196620;"deleting submodule
+"
+post;brianmanderson_dicom_utilities;eda403868f775cb0c026d262075d16f8636ae38a;markba122@gmail.com <bmanderson@mdanderson.org>;1600196652;"removed plot_scroll as a submodule
+"
+post;brianmanderson_dicom_utilities;e6b608a350d073c2c680fe87c1a276125b78cdf9;markba122@gmail.com <bmanderson@mdanderson.org>;1600196809;"refactor naming, changed Dicom_to_Imagestack to be DicomReaderWriter
+"
+post;brianmanderson_dicom_utilities;e67ab138e79976517d22df364abada4a73e69310;markba122@gmail.com <bmanderson@mdanderson.org>;1600196900;"add back ref for legacy
+"
+post;brianmanderson_dicom_utilities;e1ac8ec56280486693cd962ef798d8285a6e1722;markba122@gmail.com <bmanderson@mdanderson.org>;1600196921;"move to src
+"
+post;brianmanderson_dicom_utilities;7de252a3089a791f1769ee6011152e70dd26ec63;markba122@gmail.com <bmanderson@mdanderson.org>;1600197343;"expanded the ignore file
+"
+post;brianmanderson_dicom_utilities;e4ab32f43a3bbfa330ff400bdd10efbb13b43294;markba122@gmail.com <bmanderson@mdanderson.org>;1600197748;"adding classifiers and and long_descriptions
+"
+pre;iraf-community_iraf;bf20ec66a179a77343ef10aef81f02578e9a2622;IRAF <iraf@noao.edu>;832773060;"IRAF LNUX Version 2.10.4p2
+"
+pre;iraf-community_iraf;41e78b029e033ad18e2857c378a8f444ced52095;IRAF <iraf@noao.edu>;832773115;"IRAF LNUX Version 2.10.4p2
+"
+pre;iraf-community_iraf;9b4f762a698564d2c97639b4365daa68ede93f5a;IRAF <iraf@noao.edu>;832773115;"IRAF LNUX Version 2.10.4p2
+"
+pre;iraf-community_iraf;2e6ec102ebdc060ca61f59281d3e9338c0fd9524;IRAF <iraf@noao.edu>;882880752;"IRAF PCIX Version 2.11.1
+
+ * New FITS image kernel
+ * New version of the native runtime IRAF image format
+ * Support of long filenames
+ * Most of the new IRAF science software incorporated
+ * Re-organized IMAGES package
+"
+pre;iraf-community_iraf;c2b20fe29a82bb8b9221013e13a9759c03cd9213;IRAF <iraf@noao.edu>;882880752;"IRAF PCIX Version 2.11.1
+
+ * New FITS image kernel
+ * New version of the native runtime IRAF image format
+ * Support of long filenames
+ * Most of the new IRAF science software incorporated
+ * Re-organized IMAGES package
+"
+pre;iraf-community_iraf;efa269d0a225d6d00a6e63e374677abd208ceafc;IRAF <iraf@noao.edu>;882880752;"IRAF PCIX Version 2.11.1
+
+ * New FITS image kernel
+ * New version of the native runtime IRAF image format
+ * Support of long filenames
+ * Most of the new IRAF science software incorporated
+ * Re-organized IMAGES package
+"
+pre;iraf-community_iraf;31551dcd368c015dd4074035c8b2a8c40504811e;IRAF <iraf@noao.edu>;935221907;"IRAF PCIX Version 2.11.2
+"
+pre;iraf-community_iraf;9ab4807884971d7b7e165e775e4a3bee95bafaec;IRAF <iraf@noao.edu>;944207623;"IRAF PCIX Version 2.11.3
+"
+pre;iraf-community_iraf;270a8155e868d1b9e5045c69df2765b1b4ff0588;IRAF <iraf@noao.edu>;944224947;"IRAF PCIX Version 2.11.3
+"
+pre;iraf-community_iraf;e1070f217970d97ca4240613104fea66619dbdbc;IRAF <iraf@noao.edu>;944224947;"IRAF PCIX Version 2.11.3
+"
+post;iraf-community_iraf;0a6e539320c60944903878d4d97e8a8a9f713db1;IRAF <iraf@noao.edu>;1026820713;"IRAF DUNX Version 2.12.1
+
+ * Enhanced pixel mask support
+ * Platform support upgrades: new port to MacOS X; Solaris, Linux
+   upgrades
+"
+post;iraf-community_iraf;566dca2b9ad12d3c19803610c9a84b93c4e32603;IRAF <iraf@noao.edu>;1026820713;"IRAF DUNX Version 2.12.1
+
+ * Enhanced pixel mask support
+ * Platform support upgrades: new port to MacOS X; Solaris, Linux
+   upgrades
+"
+post;iraf-community_iraf;ad30f11a8016c6234191b1f09f2d0b06e30ad4fc;IRAF <iraf@noao.edu>;1026820713;"IRAF DUNX Version 2.12.1
+
+ * Enhanced pixel mask support
+ * Platform support upgrades: new port to MacOS X; Solaris, Linux
+   upgrades
+"
+post;iraf-community_iraf;3aae2bfa8a2a9ed6d856438eec4164d540ac5140;IRAF <iraf@noao.edu>;1075896019;"IRAF PCIX Version 2.12.2
+"
+post;iraf-community_iraf;5318f9b3c2d8abf0bd3952488d5da4be449e2160;IRAF <iraf@noao.edu>;1075896019;"IRAF PCIX Version 2.12.2
+"
+post;iraf-community_iraf;a4e9982b48b49a48216d2bd7a75d156ad1da069e;IRAF <iraf@noao.edu>;1075896019;"IRAF PCIX Version 2.12.2
+"
+post;iraf-community_iraf;47f3b71db496cd227ed81148cf93fec56efcc0d3;IRAF <iraf@noao.edu>;1089830033;"IRAF PCIX Version 2.12.2a
+"
+post;iraf-community_iraf;02866413793731227317e3102108df1d3cd39f36;IRAF <iraf@noao.edu>;1145454987;"IRAF PCIX Version 2.13BETA2
+"
+post;iraf-community_iraf;1edf01a410ca4966cf5ac454cc835344ef9e2f12;IRAF <iraf@noao.edu>;1145454987;"IRAF PCIX Version 2.13BETA2
+"
+post;iraf-community_iraf;3fe157ef2b01234c0c0fa1809c3970f57f7fe067;IRAF <iraf@noao.edu>;1145454987;"IRAF PCIX Version 2.13BETA2
+"
+pre;dgerosa_precession;9528abc54f4c012b21f8646e7560a7f5c0923414;Davide Gerosa <dgerosa@caltech.edu>;1541542059;"python 3 support
+"
+pre;dgerosa_precession;b3b6ad08d44e8bd3cbd9d352e70fcaa9f7153f64;Davide Gerosa <dgerosa@caltech.edu>;1541542310;"Merge pull request #2 from dgerosa/dev
+
+Dev"
+pre;dgerosa_precession;6934db8df86029c2a646c5f928cdc13a4e3ed317;Davide Gerosa <dgerosa@caltech.edu>;1541542479;"Automatic commit from generate_documentation.sh
+"
+pre;dgerosa_precession;37ca9fd4cca59b22a37f9778857c108666809cf6;Davide Gerosa <dgerosa@caltech.edu>;1541543549;"Automatic commit from generate_documentation.sh
+"
+pre;dgerosa_precession;8bfc86f0b00eabc9ad5080ec1c20f56fd18f3834;Davide Gerosa <dgerosa@caltech.edu>;1541543576;"v in docs
+"
+pre;dgerosa_precession;7ecc78b62175606aee9c060b5a81b954e87c24e5;Davide Gerosa <dgerosa@caltech.edu>;1541543725;"python 3
+"
+pre;dgerosa_precession;596f7747374021fdfc81bcc286ca0d9e9a232598;Davide Gerosa <dgerosa@caltech.edu>;1541543777;"Automatic commit from generate_documentation.sh
+"
+pre;dgerosa_precession;a2d356b3c56ad4a36701a290857515cf830bd032;Davide Gerosa <dgerosa@caltech.edu>;1541543802;"python 3 support
+"
+pre;dgerosa_precession;b11a72bebeee9fdb80c2a17d91eccaa55bc047d1;Davide Gerosa <dgerosa@caltech.edu>;1541543846;"Automatic commit from generate_documentation.sh
+"
+pre;dgerosa_precession;c756eb09d20e94bb6e6d89141f2d650c141596f8;Davide Gerosa <dgerosa@caltech.edu>;1541555382;"legacy python2 code
+"
+post;dgerosa_precession;cd0c8a8bf93a5ed4700c6a465b496b2daab51ea7;Davide Gerosa <dgerosa@star.sr.bham.ac.uk>;1584355982;"docstrings
+"
+post;dgerosa_precession;97f4814f8d03f124f4418914babe72ee519f9a0e;Davide Gerosa <dgerosa@star.sr.bham.ac.uk>;1584356439;"Automatic commit from generate_documentation.sh
+"
+post;dgerosa_precession;fcd266e0cfc9ec6b4bc23259cd01398b6eb03f31;Davide Gerosa <dgerosa@star.sr.bham.ac.uk>;1584356587;"Automatic commit from generate_documentation.sh
+"
+post;dgerosa_precession;1e121ae382f0af478aca602c04c694eeaeb189c9;Davide Gerosa <dgerosa@star.sr.bham.ac.uk>;1589824157;"storing precession v1 documentation
+"
+post;dgerosa_precession;4a7175edb0cc11b35ad8308ca95ade0bf03836f4;Davide Gerosa <dgerosa@star.sr.bham.ac.uk>;1590570672;"wiping for v2
+"
+post;dgerosa_precession;eb540091d17b7363aec3be19a76838392c23c3b7;Davide Gerosa <dgerosa@star.sr.bham.ac.uk>;1590571497;Update README.md
+post;dgerosa_precession;24bdf45ae01e0e8661c0c54ee9951ae3b99db12c;Davide Gerosa <dgerosa@star.sr.bham.ac.uk>;1590571596;"wiping gh-pages branch for v2
+"
+post;dgerosa_precession;924f6128b4a6251242d82d069e58347d7b0faeb5;Davide Gerosa <dgerosa@star.sr.bham.ac.uk>;1590572072;"setting up actions
+"
+post;dgerosa_precession;82677c0137b1d03c20f131a595688132b2af41a9;Davide Gerosa <dgerosa@star.sr.bham.ac.uk>;1590572368;"MIT license
+"
+post;dgerosa_precession;d55cd49736592193ecc27c2913634562433c1004;MDM988 <mmould@star.sr.bham.ac.uk>;1590572513;"docs folder
+"
+pre;plasmapy_plasmapy;d7368767193b9be50d2fe0b6c12883e11ec19b83;Nick Murphy <namurphy@users.noreply.github.com>;1448931363;Update README.md
+pre;plasmapy_plasmapy;8209d25a4908b1fd2b28c6b69c0759eb373f6609;Nick Murphy <namurphy@users.noreply.github.com>;1448931404;Rename LICENSE.rst to LICENSE.md
+pre;plasmapy_plasmapy;b71aa9ad74f3da1ac817eccaf3ca7dffc315ae72;Nick Murphy <namurphy@users.noreply.github.com>;1448931443;Rename Astropy_LICENSE.rst to Astropy_LICENSE.md
+pre;plasmapy_plasmapy;a965f43a6680c00589ea89fd9be4a16606aad1fd;Nick Murphy <namurphy@users.noreply.github.com>;1448931464;Update and rename README.rst to README.md
+pre;plasmapy_plasmapy;607c6a77bf3e1d55920f67aefc945e12cb0feacf;Nick Murphy <namurphy@users.noreply.github.com>;1448931503;Update and rename README.rst to README.md
+pre;plasmapy_plasmapy;42b353fd46bc485cb2b8b1e2e8968e1fc73be6f1;Nick Murphy <namurphy@users.noreply.github.com>;1448931606;"Merge pull request #8 from namurphy/master
+
+Changing to markdown (.md) files"
+pre;plasmapy_plasmapy;27249480018570f50681b7eef14c3c11f97921b7;Nick Murphy <namurphy@users.noreply.github.com>;1448931893;Create code_of_conduct.md
+pre;plasmapy_plasmapy;16fb5123fcd81bfffb54407ad2ef0c64bf2cea2b;Nick Murphy <namurphy@users.noreply.github.com>;1448931974;"Merge pull request #9 from namurphy/master
+
+Creating code_of_conduct.md"
+pre;plasmapy_plasmapy;b71fb11f111aa775c6fed6a1c9eb960fb834658f;Nick Murphy <namurphy@users.noreply.github.com>;1448932291;Update README.md
+pre;plasmapy_plasmapy;8261ef67a23b867d9157a17634255e92d26c3b2a;Nick Murphy <namurphy@users.noreply.github.com>;1448935113;"Merge pull request #10 from namurphy/master
+
+Update header for README.md in plasmapy/utils"
+post;plasmapy_plasmapy;3570b3fffa5ff439dafb3b9d3cd4355d87410fb7;Nick Murphy <namurphy@cfa.harvard.edu>;1477337894;"Updating the code of conduct to Contributor Covenant v1.4
+"
+post;plasmapy_plasmapy;ee24baf27c2bc5459cf2bc70224eaa0c493fb4f0;Nick Murphy <namurphy@users.noreply.github.com>;1477703710;Changing dates of copyright and style of license
+post;plasmapy_plasmapy;965f0ed9dc67389471f6f47cd8fcfb158e3583b7;Nick Murphy <namurphy@users.noreply.github.com>;1477704038;"Adding initial citation for PlasmaPy
+
+This presentation was posted at the APS DPP Meeting in 2016 in San Jose, California and uploaded to Zenodo."
+post;plasmapy_plasmapy;0917dffcf77184fb879d731b2732eecb426045d1;Nick Murphy <namurphy@cfa.harvard.edu>;1477704431;"Updating project status and adding initial citation to top-level README file
+"
+post;plasmapy_plasmapy;11eace75d89e7bfbfd5755edf9f5551b1d00245f;Drew Leonard <andy.j.leonard@gmail.com>;1485950243;"Python3-ise the __init__ so things run
+"
+post;plasmapy_plasmapy;d9795c62532a3e9e2ed2205da60c4094ebe72399;Drew Leonard <andy.j.leonard@gmail.com>;1485964252;"Very basic Plasma object
+"
+post;plasmapy_plasmapy;f67ac0588dbd0e203773444e6593b8711c2f1460;Drew Leonard <andy.j.leonard@gmail.com>;1485966207;"Initial variable arrays and some docstrings
+"
+post;plasmapy_plasmapy;0593b5b8b301a676fee59ef27aa988169270fcfe;Drew Leonard <andy.j.leonard@gmail.com>;1486042756;"Parametrize test to check 1D, 2D and 3D plasma setup
+"
+post;plasmapy_plasmapy;ff9322ccac5b07d436355677b75f5d4f77a28f12;Nick Murphy <namurphy@cfa.harvard.edu>;1488218119;"Creating an outline of a vision statement with intro paragraph
+"
+post;plasmapy_plasmapy;b5e08cd6578f67339bec3596e6bf8d2fe7d91a87;Drew Leonard <andy.j.leonard@gmail.com>;1489867608;"Rename test file
+"
+pre;iqusoft_intel-qs;4b6336367998b5706a33db473cfc1576bc14cf0b;Vladimir Mironov <vladimir.a.mironov@gmail.com>;1517752552;"BigMPI compatibility
+
+BigMPI support for very large jobs
+See https://github.com/jeffhammond/BigMPI for details
+"
+pre;iqusoft_intel-qs;fe73a896a0cbd7f0b77e72f082da2b2f506cc8de;Vladimir Mironov <vladimir.a.mironov@gmail.com>;1517758083;"Fixes an issue with parallel submake
+
+This patch allows submakes to run in parallel
+"
+pre;iqusoft_intel-qs;19223dbd3d1df873b4519c9a4fc77df1a6f6dbde;Vladimir Mironov <vamironov@users.noreply.github.com>;1519161229;Merge branch 'master' into BigMPI
+pre;iqusoft_intel-qs;18fd2de9e379284d0e9deda85940682a6b9b4c6c;Justin Hogaboam <justin.w.hogaboam@intel.com>;1522255198;"Merge pull request #3 from vamironov/make-parallel
+
+Fix for an issue with parallel submake"
+pre;iqusoft_intel-qs;51e127196d45b74d3aa449e50698952395dabc4e;Justin Hogaboam <justin.w.hogaboam@intel.com>;1522255275;"Merge pull request #2 from vamironov/BigMPI
+
+BigMPI compatibility"
+pre;iqusoft_intel-qs;f6656fc3c676b2431b3b250615af94f0f33ed3b8;jwhogabo <justin.w.hogaboam@intel.com>;1522343231;"Adds Jeff Hammonds BigMPI implementation to the simulation utility software.
+  - Snapshot taken from GitHub project on 03/29/2018 at commit
+    3107abb811d2785a7b1f101ac5722de78f354704
+"
+pre;iqusoft_intel-qs;df5dde580f02b5c0f812fe40a2fced69999248ce;jwhogabo <justin.w.hogaboam@intel.com>;1522454629;"Disables BigMPI by default.
+"
+pre;iqusoft_intel-qs;25949d570b51401ad538d7df6126bb87416bdaaf;giangiac <gian.giacomo.guerreschi@intel.com>;1528385541;"VERSION: naming of methods and variables consistent with good coding practices. Flag for the use/exclusion of MPI is fully applied. Additional documentation for several methods of QubitRegister class. NOTE: due to renaming, not backword compatible but better positioned for user adoption and maintenance.
+"
+pre;iqusoft_intel-qs;9a43f077daf619c0cd212c48cf4d5676a28053b5;giangiac <gian.giacomo.guerreschi@intel.com>;1532962214;"REMOVE: folder for the documentation. The html files should be generated with the appropriate make command.
+"
+pre;iqusoft_intel-qs;c525f093a3481ba964d8ba3d7440b9f0868c8e44;giangiac <gian.giacomo.guerreschi@intel.com>;1532967735;"EDIT: imposed naming convention also on methods related to the size of the state.
+"
+post;iqusoft_intel-qs;3d68e0c050a2869149440de64f820a77d101d390;jwhogabo <justin.w.hogaboam@intel.com>;1549315039;"Hotfix: fixes missing <random> header include that prevents successful compile.
+"
+post;iqusoft_intel-qs;9e1d8ba64ccb171c5683a31f16fba1761dbd57a5;jwhogabo <justin.w.hogaboam@intel.com>;1549315951;"Removes direct FQDN of a host in the build system.
+"
+post;iqusoft_intel-qs;97295b4da2ca423f81e67d5b652036cee990091d;giangiac <gian.giacomo.guerreschi@intel.com>;1549329940;"EDIT: old flag NOREPA_HAS_MPI substituted with the new INTELQS_HAS_MPI for the programs in the '/tests' folder
+"
+post;iqusoft_intel-qs;5ddab2c1699b7bb06f2fb559bd12ed2abbb1db26;jwhogabo <justin.w.hogaboam@intel.com>;1549396207;"Merge consistent-naming feature branch back into the development branch.
+- The changes will break backwards compatibility in some ways but
+  lead us to much greener pastures in the future.
+"
+post;iqusoft_intel-qs;e526472731f47609676683d372eec5e64554a65f;jwhogabo <justin.w.hogaboam@intel.com>;1549397181;"Merge latest updates from the develop branch to master.
+  - Changes are non-backwards compatible API naming for
+    Intel-QS methods.
+"
+post;iqusoft_intel-qs;81cd2ce4afc2f99431ae37cb57e56a698386782f;giangiac <gian.giacomo.guerreschi@intel.com>;1562956758;"BUG-FIX: addresses an issue with src_glb_start being wrongly initialized in ApplyControlled1QubitGate_helper.
+The bug only affected the implementation of diagonal controlled gates with specialization on, when control qubit was local and target qubit was global.
+"
+post;iqusoft_intel-qs;0869e302d59340702408d93f66eacdde45519882;giangiac <gian.giacomo.guerreschi@intel.com>;1562956884;"Merge branch 'develop' to apply a bug-fix that affects some special case of controlled-gates.
+"
+post;iqusoft_intel-qs;3c10996958dcd99204a0fd5ba9be2bc0d06ff34a;Hogaboam, Justin W <justin.w.hogaboam@intel.com>;1576203306;"Major feature updates to Intel-QS.
+  - New CMake 3.15 based build system with auto-dependency checking.
+  - Remove dependency on Intel proprietary compiler tools.
+  - Added new quantum algorithm example files and tutorials.
+  - Adds capability to build within Docker images for Cloud enabling.
+  - Adds a Python interface for seamless integration with other
+    quantum frameworks.
+  - Performance improvements.
+  - Easier MPI/MKL/OpenMP/TBB selection for performance tuning.
+"
+post;iqusoft_intel-qs;c8f31025f93088eff91ef6355da2cc9f4a28cfbf;Lee J. O'Riordan <lee.oriordan@ichec.ie>;1576600686;"Add include/src dir information to intel_qs target
+"
+post;iqusoft_intel-qs;f3bdaeb1b809e69df27f3f8b453fd3f738ba2127;Lee J. O'Riordan <lee.oriordan@ichec.ie>;1576600736;"Enable fPIC to be controlled by an option flag
+"

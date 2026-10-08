@@ -1,0 +1,695 @@
+{
+  "netid": "dpate172",
+  "collection_started_at_utc": "2026-09-29T04:10:16Z",
+  "methodology": {
+    "stars": "GitHub REST repository stargazers_count.",
+    "forks": "GitHub REST repository forks_count.",
+    "last_commit_date": "Committer date of the current default-branch tip; not repository pushed_at. Author date is retained separately.",
+    "github_default_branch_commit_count": "Number of commits reachable from the current default branch, derived from commits endpoint Link pagination with per_page=1.",
+    "github_contributor_count_including_anonymous": "Contributors endpoint pagination with anon=1 and per_page=1. GitHub's cached contributor identities need not equal distinct raw WoC author strings.",
+    "comparison_caveat": "Live GitHub default-branch history can differ from the WoC snapshot in date coverage, branch coverage, and identity grouping. Counts are validation context, not a replacement for WoC results."
+  },
+  "projects": [
+    {
+      "project_wocid": "ketch_nodepy",
+      "assigned_github_url": "https://github.com/ketch/nodepy",
+      "canonical_github_url": "https://github.com/ketch/nodepy",
+      "canonical_full_name": "ketch/nodepy",
+      "default_branch": "master",
+      "stars": 83,
+      "forks": 23,
+      "last_commit_date": "2024-09-04T07:27:22Z",
+      "last_commit_author_date": "2024-09-04T07:27:22Z",
+      "last_commit_sha": "0f071ac7b9cf41bcd27dedb614ab814fb0a98007",
+      "last_commit_url": "https://github.com/ketch/nodepy/commit/0f071ac7b9cf41bcd27dedb614ab814fb0a98007",
+      "github_default_branch_commit_count": 578,
+      "github_contributor_count_including_anonymous": 15,
+      "retrieved_at_utc": "2026-09-29T04:10:18Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/ketch/nodepy",
+          "retrieved_at_utc": "2026-09-29T04:10:18Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:17 GMT",
+          "link": null,
+          "etag": "W/\"63b8e3ac2046ee211e3fdc4b62d61c51095b128daf899a56c6ada5f819e77e21\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/ketch/nodepy/commits?sha=master&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:18Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:18 GMT",
+          "link": "<https://api.github.com/repositories/4030392/commits?sha=master&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/4030392/commits?sha=master&per_page=1&page=578>; rel=\"last\"",
+          "etag": "W/\"44492b70afb61d5ce7f9c53a987db882dad47d27af5add418fc8188ba13f5627\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/ketch/nodepy/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:19Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:19 GMT",
+          "link": "<https://api.github.com/repositories/4030392/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/4030392/contributors?anon=1&per_page=1&page=15>; rel=\"last\"",
+          "etag": "W/\"fdcdd3058c4127065a496f0e051d95edd31510d5c116126646292015ea6acae4\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 4030392,
+        "full_name": "ketch/nodepy",
+        "html_url": "https://github.com/ketch/nodepy",
+        "url": "https://api.github.com/repos/ketch/nodepy",
+        "default_branch": "master",
+        "stargazers_count": 83,
+        "forks_count": 23,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2024-09-04T07:27:32Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "0f071ac7b9cf41bcd27dedb614ab814fb0a98007",
+        "html_url": "https://github.com/ketch/nodepy/commit/0f071ac7b9cf41bcd27dedb614ab814fb0a98007",
+        "author": {
+          "name": "David Ketcheson",
+          "email": "dketch@gmail.com",
+          "date": "2024-09-04T07:27:22Z"
+        },
+        "committer": {
+          "name": "David Ketcheson",
+          "email": "dketch@gmail.com",
+          "date": "2024-09-04T07:27:22Z"
+        }
+      }
+    },
+    {
+      "project_wocid": "mouseland_suite2p",
+      "assigned_github_url": "https://github.com/MouseLand/suite2p",
+      "canonical_github_url": "https://github.com/MouseLand/suite2p",
+      "canonical_full_name": "MouseLand/suite2p",
+      "default_branch": "main",
+      "stars": 474,
+      "forks": 285,
+      "last_commit_date": "2026-06-02T15:36:28Z",
+      "last_commit_author_date": "2026-06-02T15:36:28Z",
+      "last_commit_sha": "90be8953c03c6f4275dcd392ac1c6f554116169e",
+      "last_commit_url": "https://github.com/MouseLand/suite2p/commit/90be8953c03c6f4275dcd392ac1c6f554116169e",
+      "github_default_branch_commit_count": 2582,
+      "github_contributor_count_including_anonymous": 43,
+      "retrieved_at_utc": "2026-09-29T04:10:21Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/MouseLand/suite2p",
+          "retrieved_at_utc": "2026-09-29T04:10:21Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:20 GMT",
+          "link": null,
+          "etag": "W/\"1f2523a0fa91ddce16456c015f09ef4b605e887c1cf87eb0a3780d113a5bb672\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/MouseLand/suite2p/commits?sha=main&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:21Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:21 GMT",
+          "link": "<https://api.github.com/repositories/141175642/commits?sha=main&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/141175642/commits?sha=main&per_page=1&page=2582>; rel=\"last\"",
+          "etag": "W/\"0b6753407f460581c171a2a1765cfaa2d9d425629407b76bce0f4c19d06904ed\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/MouseLand/suite2p/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:22Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:22 GMT",
+          "link": "<https://api.github.com/repositories/141175642/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/141175642/contributors?anon=1&per_page=1&page=43>; rel=\"last\"",
+          "etag": "W/\"7dc685842300cfa09b1595d27fd52bd474f80d74b7b4ff6214b7c46105a67711\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 141175642,
+        "full_name": "MouseLand/suite2p",
+        "html_url": "https://github.com/MouseLand/suite2p",
+        "url": "https://api.github.com/repos/MouseLand/suite2p",
+        "default_branch": "main",
+        "stargazers_count": 474,
+        "forks_count": 285,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-09-12T17:29:12Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "90be8953c03c6f4275dcd392ac1c6f554116169e",
+        "html_url": "https://github.com/MouseLand/suite2p/commit/90be8953c03c6f4275dcd392ac1c6f554116169e",
+        "author": {
+          "name": "carsen-stringer",
+          "email": "carsen.stringer@gmail.com",
+          "date": "2026-06-02T15:36:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-06-02T15:36:28Z"
+        }
+      }
+    },
+    {
+      "project_wocid": "esri_geoportal-server",
+      "assigned_github_url": "https://github.com/Esri/geoportal-server",
+      "canonical_github_url": "https://github.com/Esri/geoportal-server",
+      "canonical_full_name": "Esri/geoportal-server",
+      "default_branch": "master",
+      "stars": 253,
+      "forks": 151,
+      "last_commit_date": "2025-07-08T20:25:48Z",
+      "last_commit_author_date": "2025-07-08T20:25:48Z",
+      "last_commit_sha": "cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+      "last_commit_url": "https://github.com/Esri/geoportal-server/commit/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+      "github_default_branch_commit_count": 1605,
+      "github_contributor_count_including_anonymous": 47,
+      "retrieved_at_utc": "2026-09-29T04:10:24Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/Esri/geoportal-server",
+          "retrieved_at_utc": "2026-09-29T04:10:24Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:23 GMT",
+          "link": null,
+          "etag": "W/\"5c030ffb2cca684cc9011960989f20b1d0e4ab8be5b453707cc077abe07efc81\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/Esri/geoportal-server/commits?sha=master&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:24Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:24 GMT",
+          "link": "<https://api.github.com/repositories/5485573/commits?sha=master&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/5485573/commits?sha=master&per_page=1&page=1605>; rel=\"last\"",
+          "etag": "W/\"e16b8ee74f08adb4a6c149a1b7c0fc82a727d60ad9ee2cd4414c22ed863d1a48\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/Esri/geoportal-server/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:25Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:25 GMT",
+          "link": "<https://api.github.com/repositories/5485573/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/5485573/contributors?anon=1&per_page=1&page=47>; rel=\"last\"",
+          "etag": "W/\"b0606dc633ab252ab61d6c852e24007115b7e00885116c19281c3dc57dc7cc38\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 5485573,
+        "full_name": "Esri/geoportal-server",
+        "html_url": "https://github.com/Esri/geoportal-server",
+        "url": "https://api.github.com/repos/Esri/geoportal-server",
+        "default_branch": "master",
+        "stargazers_count": 253,
+        "forks_count": 151,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-09-25T22:37:25Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+        "html_url": "https://github.com/Esri/geoportal-server/commit/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+        "author": {
+          "name": "Marten",
+          "email": "mhogeweg@esri.com",
+          "date": "2025-07-08T20:25:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T20:25:48Z"
+        }
+      }
+    },
+    {
+      "project_wocid": "hpparvi_pytransit",
+      "assigned_github_url": "https://github.com/hpparvi/PyTransit",
+      "canonical_github_url": "https://github.com/hpparvi/PyTransit",
+      "canonical_full_name": "hpparvi/PyTransit",
+      "default_branch": "master",
+      "stars": 111,
+      "forks": 23,
+      "last_commit_date": "2026-08-18T14:55:08Z",
+      "last_commit_author_date": "2026-08-18T14:55:08Z",
+      "last_commit_sha": "811d5a990649b68ca683f2685e818436ba81d927",
+      "last_commit_url": "https://github.com/hpparvi/PyTransit/commit/811d5a990649b68ca683f2685e818436ba81d927",
+      "github_default_branch_commit_count": 989,
+      "github_contributor_count_including_anonymous": 3,
+      "retrieved_at_utc": "2026-09-29T04:10:27Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/hpparvi/PyTransit",
+          "retrieved_at_utc": "2026-09-29T04:10:27Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:26 GMT",
+          "link": null,
+          "etag": "W/\"8ff56d44d4ae76870cd2033921bb57718104e535c3973df772e50319ee588a8f\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/hpparvi/PyTransit/commits?sha=master&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:27Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:27 GMT",
+          "link": "<https://api.github.com/repositories/6838892/commits?sha=master&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/6838892/commits?sha=master&per_page=1&page=989>; rel=\"last\"",
+          "etag": "W/\"bb32b2bf059f2c57bebe015ce73c68121890952e7a349f2429842c562ff0bbbc\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/hpparvi/PyTransit/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:28Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:28 GMT",
+          "link": "<https://api.github.com/repositories/6838892/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/6838892/contributors?anon=1&per_page=1&page=3>; rel=\"last\"",
+          "etag": "W/\"2f62eb832d58341d888563402d9a76209d53ca7b86e7e747c48d84dfb0bcc0e1\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 6838892,
+        "full_name": "hpparvi/PyTransit",
+        "html_url": "https://github.com/hpparvi/PyTransit",
+        "url": "https://api.github.com/repos/hpparvi/PyTransit",
+        "default_branch": "master",
+        "stargazers_count": 111,
+        "forks_count": 23,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-09-08T09:11:44Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "811d5a990649b68ca683f2685e818436ba81d927",
+        "html_url": "https://github.com/hpparvi/PyTransit/commit/811d5a990649b68ca683f2685e818436ba81d927",
+        "author": {
+          "name": "Hannu Parviainen",
+          "email": "hpparvi@gmail.com",
+          "date": "2026-08-18T14:55:08Z"
+        },
+        "committer": {
+          "name": "Hannu Parviainen",
+          "email": "hpparvi@gmail.com",
+          "date": "2026-08-18T14:55:08Z"
+        }
+      }
+    },
+    {
+      "project_wocid": "sundmanbo_opencalphad",
+      "assigned_github_url": "https://github.com/sundmanbo/opencalphad",
+      "canonical_github_url": "https://github.com/sundmanbo/opencalphad",
+      "canonical_full_name": "sundmanbo/opencalphad",
+      "default_branch": "master",
+      "stars": 248,
+      "forks": 86,
+      "last_commit_date": "2026-09-27T23:14:23Z",
+      "last_commit_author_date": "2026-09-27T23:14:23Z",
+      "last_commit_sha": "cae3000558c95ff948af7446301eb4d234dd2775",
+      "last_commit_url": "https://github.com/sundmanbo/opencalphad/commit/cae3000558c95ff948af7446301eb4d234dd2775",
+      "github_default_branch_commit_count": 490,
+      "github_contributor_count_including_anonymous": 7,
+      "retrieved_at_utc": "2026-09-29T04:10:30Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/sundmanbo/opencalphad",
+          "retrieved_at_utc": "2026-09-29T04:10:30Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:29 GMT",
+          "link": null,
+          "etag": "W/\"787d204013b67e29c37d8284a98f29246fa2229f47b913b5b9330b43b46920eb\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/sundmanbo/opencalphad/commits?sha=master&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:30Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:30 GMT",
+          "link": "<https://api.github.com/repositories/22139850/commits?sha=master&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/22139850/commits?sha=master&per_page=1&page=490>; rel=\"last\"",
+          "etag": "W/\"b5206e2f1a5d1f4265dbc7284cab75e30cd1f37d21b21a3ed864bb8af5514571\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/sundmanbo/opencalphad/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:31Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:31 GMT",
+          "link": "<https://api.github.com/repositories/22139850/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/22139850/contributors?anon=1&per_page=1&page=7>; rel=\"last\"",
+          "etag": "W/\"f735788e59d8f8fe4c00e70998eedda859e6e9ba9d7587a553c1e7c34968a3ab\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 22139850,
+        "full_name": "sundmanbo/opencalphad",
+        "html_url": "https://github.com/sundmanbo/opencalphad",
+        "url": "https://api.github.com/repos/sundmanbo/opencalphad",
+        "default_branch": "master",
+        "stargazers_count": 248,
+        "forks_count": 86,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-09-27T23:14:27Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "cae3000558c95ff948af7446301eb4d234dd2775",
+        "html_url": "https://github.com/sundmanbo/opencalphad/commit/cae3000558c95ff948af7446301eb4d234dd2775",
+        "author": {
+          "name": "Bo Sundman",
+          "email": "bo.sundman@gmail.com",
+          "date": "2026-09-27T23:14:23Z"
+        },
+        "committer": {
+          "name": "Bo Sundman",
+          "email": "bo.sundman@gmail.com",
+          "date": "2026-09-27T23:14:23Z"
+        }
+      }
+    },
+    {
+      "project_wocid": "stack-of-tasks_pinocchio",
+      "assigned_github_url": "https://github.com/stack-of-tasks/pinocchio",
+      "canonical_github_url": "https://github.com/stack-of-tasks/pinocchio",
+      "canonical_full_name": "stack-of-tasks/pinocchio",
+      "default_branch": "devel",
+      "stars": 3767,
+      "forks": 580,
+      "last_commit_date": "2026-09-25T13:33:03Z",
+      "last_commit_author_date": "2026-09-25T13:33:03Z",
+      "last_commit_sha": "4accf2f993e4d4bb81db864d7dea3526d0a5aa2d",
+      "last_commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/4accf2f993e4d4bb81db864d7dea3526d0a5aa2d",
+      "github_default_branch_commit_count": 13480,
+      "github_contributor_count_including_anonymous": 126,
+      "retrieved_at_utc": "2026-09-29T04:10:33Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/stack-of-tasks/pinocchio",
+          "retrieved_at_utc": "2026-09-29T04:10:33Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:32 GMT",
+          "link": null,
+          "etag": "W/\"3a3cd75819e5d876666d85c524f891f1f62b1283577aea1de10b316d4caed2a0\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/stack-of-tasks/pinocchio/commits?sha=devel&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:33Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:33 GMT",
+          "link": "<https://api.github.com/repositories/24897645/commits?sha=devel&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/24897645/commits?sha=devel&per_page=1&page=13480>; rel=\"last\"",
+          "etag": "W/\"cef96143df0bec63c4a0f9c26ef9a2c42feb2cb4e94dd24d7f7e8dfaa306637f\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/stack-of-tasks/pinocchio/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:34Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:34 GMT",
+          "link": "<https://api.github.com/repositories/24897645/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/24897645/contributors?anon=1&per_page=1&page=126>; rel=\"last\"",
+          "etag": "W/\"e1556ce98317558b56b9aa30a69c5d2834b5120d916337fc6fac317c43130e73\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 24897645,
+        "full_name": "stack-of-tasks/pinocchio",
+        "html_url": "https://github.com/stack-of-tasks/pinocchio",
+        "url": "https://api.github.com/repos/stack-of-tasks/pinocchio",
+        "default_branch": "devel",
+        "stargazers_count": 3767,
+        "forks_count": 580,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-09-25T13:33:04Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "4accf2f993e4d4bb81db864d7dea3526d0a5aa2d",
+        "html_url": "https://github.com/stack-of-tasks/pinocchio/commit/4accf2f993e4d4bb81db864d7dea3526d0a5aa2d",
+        "author": {
+          "name": "Joris Vaillant",
+          "email": "joris.vaillant@inria.fr",
+          "date": "2026-09-25T13:33:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-09-25T13:33:03Z"
+        }
+      }
+    },
+    {
+      "project_wocid": "microsoft_fhir-server",
+      "assigned_github_url": "https://github.com/microsoft/fhir-server",
+      "canonical_github_url": "https://github.com/microsoft/fhir-server",
+      "canonical_full_name": "microsoft/fhir-server",
+      "default_branch": "main",
+      "stars": 1384,
+      "forks": 594,
+      "last_commit_date": "2026-09-28T20:37:32Z",
+      "last_commit_author_date": "2026-09-28T20:37:32Z",
+      "last_commit_sha": "2ab352f73fcbab4aec22fb0f950472c2ffa1d54b",
+      "last_commit_url": "https://github.com/microsoft/fhir-server/commit/2ab352f73fcbab4aec22fb0f950472c2ffa1d54b",
+      "github_default_branch_commit_count": 3118,
+      "github_contributor_count_including_anonymous": 131,
+      "retrieved_at_utc": "2026-09-29T04:10:36Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/microsoft/fhir-server",
+          "retrieved_at_utc": "2026-09-29T04:10:36Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:35 GMT",
+          "link": null,
+          "etag": "W/\"7b203f5968051e328b2e89bfcd0cda20c14326eb207800459d5052caa30e1dc5\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/microsoft/fhir-server/commits?sha=main&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:36Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:36 GMT",
+          "link": "<https://api.github.com/repositories/145907688/commits?sha=main&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/145907688/commits?sha=main&per_page=1&page=3118>; rel=\"last\"",
+          "etag": "W/\"e1fa244cee4ffedbb8a9856eea78af65ea844531543e4d9237dd0173c8aae8d5\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/microsoft/fhir-server/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:37Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:37 GMT",
+          "link": "<https://api.github.com/repositories/145907688/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/145907688/contributors?anon=1&per_page=1&page=131>; rel=\"last\"",
+          "etag": "W/\"b04768df594c11112b1094509261765762f2a7b09165b1301f21194d17ac6be3\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 145907688,
+        "full_name": "microsoft/fhir-server",
+        "html_url": "https://github.com/microsoft/fhir-server",
+        "url": "https://api.github.com/repos/microsoft/fhir-server",
+        "default_branch": "main",
+        "stargazers_count": 1384,
+        "forks_count": 594,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-09-28T23:05:25Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "2ab352f73fcbab4aec22fb0f950472c2ffa1d54b",
+        "html_url": "https://github.com/microsoft/fhir-server/commit/2ab352f73fcbab4aec22fb0f950472c2ffa1d54b",
+        "author": {
+          "name": "dependabot[bot]",
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "date": "2026-09-28T20:37:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-09-28T20:37:32Z"
+        }
+      }
+    },
+    {
+      "project_wocid": "rapidsai_cucim",
+      "assigned_github_url": "https://github.com/rapidsai/cucim",
+      "canonical_github_url": "https://github.com/rapidsai/cucim",
+      "canonical_full_name": "rapidsai/cucim",
+      "default_branch": "main",
+      "stars": 469,
+      "forks": 92,
+      "last_commit_date": "2026-09-22T16:03:13Z",
+      "last_commit_author_date": "2026-09-22T16:03:13Z",
+      "last_commit_sha": "b4aeec5a2be3ef24128b6ee63e233c59386c4992",
+      "last_commit_url": "https://github.com/rapidsai/cucim/commit/b4aeec5a2be3ef24128b6ee63e233c59386c4992",
+      "github_default_branch_commit_count": 828,
+      "github_contributor_count_including_anonymous": 41,
+      "retrieved_at_utc": "2026-09-29T04:10:39Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/rapidsai/cucim",
+          "retrieved_at_utc": "2026-09-29T04:10:39Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:38 GMT",
+          "link": null,
+          "etag": "W/\"beacd1a707aab69f0b70a3ed5b311d9ee03b6279ca99d56f588e8628c298819c\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/rapidsai/cucim/commits?sha=main&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:39Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:39 GMT",
+          "link": "<https://api.github.com/repositories/356356336/commits?sha=main&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/356356336/commits?sha=main&per_page=1&page=828>; rel=\"last\"",
+          "etag": "W/\"08d4e5bda8ca96f6e4bcd321fb488e32feb7e74f2ff94325dabc80e703fb6210\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/rapidsai/cucim/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:40Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:40 GMT",
+          "link": "<https://api.github.com/repositories/356356336/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/356356336/contributors?anon=1&per_page=1&page=41>; rel=\"last\"",
+          "etag": "W/\"a31e2b64fe82580c89ea353aa682147c1b2b91bf8752f4d7c7f74caa15f08b4b\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 356356336,
+        "full_name": "rapidsai/cucim",
+        "html_url": "https://github.com/rapidsai/cucim",
+        "url": "https://api.github.com/repos/rapidsai/cucim",
+        "default_branch": "main",
+        "stargazers_count": 469,
+        "forks_count": 92,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2026-09-22T18:19:31Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "b4aeec5a2be3ef24128b6ee63e233c59386c4992",
+        "html_url": "https://github.com/rapidsai/cucim/commit/b4aeec5a2be3ef24128b6ee63e233c59386c4992",
+        "author": {
+          "name": "rapids-bot[bot]",
+          "email": "73299758+rapids-bot[bot]@users.noreply.github.com",
+          "date": "2026-09-22T16:03:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-09-22T16:03:13Z"
+        }
+      }
+    },
+    {
+      "project_wocid": "agnwinds_python",
+      "assigned_github_url": "https://github.com/agnwinds/python",
+      "canonical_github_url": "https://github.com/agnwinds/python",
+      "canonical_full_name": "agnwinds/python",
+      "default_branch": "main",
+      "stars": 0,
+      "forks": 0,
+      "last_commit_date": "2024-10-22T21:47:15Z",
+      "last_commit_author_date": "2024-10-22T21:47:15Z",
+      "last_commit_sha": "491e7981a7e0ae1f0ad6705dc0ed52ecef920b6b",
+      "last_commit_url": "https://github.com/agnwinds/python/commit/491e7981a7e0ae1f0ad6705dc0ed52ecef920b6b",
+      "github_default_branch_commit_count": 3967,
+      "github_contributor_count_including_anonymous": 37,
+      "retrieved_at_utc": "2026-09-29T04:10:42Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/agnwinds/python",
+          "retrieved_at_utc": "2026-09-29T04:10:42Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:41 GMT",
+          "link": null,
+          "etag": "W/\"6e18f22d17f7978b91f56e1ffba0c8fa2304bccde69dcda3ec4ad5ac08a7fe53\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/agnwinds/python/commits?sha=main&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:42Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:42 GMT",
+          "link": "<https://api.github.com/repositories/874781567/commits?sha=main&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/874781567/commits?sha=main&per_page=1&page=3967>; rel=\"last\"",
+          "etag": "W/\"2b79e572993a806b87b7df0ef0ab849eb1e08e13bbbb58a95a5d40d05731726d\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/agnwinds/python/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:43Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:43 GMT",
+          "link": "<https://api.github.com/repositories/874781567/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/874781567/contributors?anon=1&per_page=1&page=37>; rel=\"last\"",
+          "etag": "W/\"f19390f409986786a8f7b0ea580d20ac6d27dc2d59ddebee01a2a9c5d122eff5\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 874781567,
+        "full_name": "agnwinds/python",
+        "html_url": "https://github.com/agnwinds/python",
+        "url": "https://api.github.com/repos/agnwinds/python",
+        "default_branch": "main",
+        "stargazers_count": 0,
+        "forks_count": 0,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2024-10-25T16:40:24Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "491e7981a7e0ae1f0ad6705dc0ed52ecef920b6b",
+        "html_url": "https://github.com/agnwinds/python/commit/491e7981a7e0ae1f0ad6705dc0ed52ecef920b6b",
+        "author": {
+          "name": "Knox S. Long",
+          "email": "long@stsci.edu",
+          "date": "2024-10-22T21:47:15Z"
+        },
+        "committer": {
+          "name": "Knox S. Long",
+          "email": "long@stsci.edu",
+          "date": "2024-10-22T21:47:15Z"
+        }
+      }
+    },
+    {
+      "project_wocid": "csgillespie_powerlaw",
+      "assigned_github_url": "https://github.com/csgillespie/poweRlaw",
+      "canonical_github_url": "https://github.com/csgillespie/poweRlaw",
+      "canonical_full_name": "csgillespie/poweRlaw",
+      "default_branch": "main",
+      "stars": 113,
+      "forks": 26,
+      "last_commit_date": "2025-02-03T09:07:24Z",
+      "last_commit_author_date": "2025-02-03T09:07:24Z",
+      "last_commit_sha": "46dd4a1769465f0e2447721d88b701c26844641e",
+      "last_commit_url": "https://github.com/csgillespie/poweRlaw/commit/46dd4a1769465f0e2447721d88b701c26844641e",
+      "github_default_branch_commit_count": 529,
+      "github_contributor_count_including_anonymous": 7,
+      "retrieved_at_utc": "2026-09-29T04:10:45Z",
+      "sources": {
+        "repository": {
+          "url": "https://api.github.com/repos/csgillespie/poweRlaw",
+          "retrieved_at_utc": "2026-09-29T04:10:45Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:44 GMT",
+          "link": null,
+          "etag": "W/\"d2f49623da102a236225d43a1b021b9618e070f2084822168d881fde7c34993e\""
+        },
+        "default_branch_commits": {
+          "url": "https://api.github.com/repos/csgillespie/poweRlaw/commits?sha=main&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:45Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:45 GMT",
+          "link": "<https://api.github.com/repositories/6989977/commits?sha=main&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/6989977/commits?sha=main&per_page=1&page=529>; rel=\"last\"",
+          "etag": "W/\"713a2cddc91bf8a275a98dbfd68f28d7e2e60ea14dfbeae422f4992755b1660c\""
+        },
+        "contributors": {
+          "url": "https://api.github.com/repos/csgillespie/poweRlaw/contributors?anon=1&per_page=1",
+          "retrieved_at_utc": "2026-09-29T04:10:46Z",
+          "http_status": 200,
+          "http_date": "Tue, 29 Sep 2026 04:10:46 GMT",
+          "link": "<https://api.github.com/repositories/6989977/contributors?anon=1&per_page=1&page=2>; rel=\"next\", <https://api.github.com/repositories/6989977/contributors?anon=1&per_page=1&page=7>; rel=\"last\"",
+          "etag": "W/\"56e891d55300216e6a3397c17fe64afbd41f6a5670ef3f14ba895eaca1c71833\""
+        }
+      },
+      "raw_repository_fields": {
+        "id": 6989977,
+        "full_name": "csgillespie/poweRlaw",
+        "html_url": "https://github.com/csgillespie/poweRlaw",
+        "url": "https://api.github.com/repos/csgillespie/poweRlaw",
+        "default_branch": "main",
+        "stargazers_count": 113,
+        "forks_count": 26,
+        "archived": false,
+        "disabled": false,
+        "pushed_at": "2025-02-03T09:12:23Z"
+      },
+      "raw_latest_commit_fields": {
+        "sha": "46dd4a1769465f0e2447721d88b701c26844641e",
+        "html_url": "https://github.com/csgillespie/poweRlaw/commit/46dd4a1769465f0e2447721d88b701c26844641e",
+        "author": {
+          "name": "Colin Gillespie",
+          "email": "csgillespie@gmail.com",
+          "date": "2025-02-03T09:07:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-02-03T09:07:24Z"
+        }
+      }
+    }
+  ],
+  "collection_completed_at_utc": "2026-09-29T04:10:46Z"
+}

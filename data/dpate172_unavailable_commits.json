@@ -1,0 +1,148 @@
+{
+  "checked_at_utc": "2026-09-29T07:49:20.952072Z",
+  "unavailable": {
+    "12be3a616fbd343db925ebe04f646fd4f5526772": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key 12be3a616fbd343db925ebe04f646fd4f5526772 not found in /da5_fast/All.sha1c/commit_18.tch",
+        "commit_object": "Key 12be3a616fbd343db925ebe04f646fd4f5526772 not found in /da5_fast/All.sha1c/commit_18.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "3dbcc1390a70910b8bea5b825d04444f108bbe97": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key 3dbcc1390a70910b8bea5b825d04444f108bbe97 not found in /da5_fast/All.sha1c/commit_61.tch",
+        "commit_object": "Key 3dbcc1390a70910b8bea5b825d04444f108bbe97 not found in /da5_fast/All.sha1c/commit_61.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "41b666a0517e8394a948411daedb489164da4fd2": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key 41b666a0517e8394a948411daedb489164da4fd2 not found in /da5_fast/All.sha1c/commit_65.tch",
+        "commit_object": "Key 41b666a0517e8394a948411daedb489164da4fd2 not found in /da5_fast/All.sha1c/commit_65.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "448c3f246ccd0dcf5420a84228b15458c94a514c": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key 448c3f246ccd0dcf5420a84228b15458c94a514c not found in /da5_fast/All.sha1c/commit_68.tch",
+        "commit_object": "Key 448c3f246ccd0dcf5420a84228b15458c94a514c not found in /da5_fast/All.sha1c/commit_68.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "5f40fa73bfac8a8e1854a43677378815df4d75f4": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key 5f40fa73bfac8a8e1854a43677378815df4d75f4 not found in /da5_fast/All.sha1c/commit_95.tch",
+        "commit_object": "Key 5f40fa73bfac8a8e1854a43677378815df4d75f4 not found in /da5_fast/All.sha1c/commit_95.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "62e446e7c4b564641b479629ce1742a8437447ea": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key 62e446e7c4b564641b479629ce1742a8437447ea not found in /da5_fast/All.sha1c/commit_98.tch",
+        "commit_object": "Key 62e446e7c4b564641b479629ce1742a8437447ea not found in /da5_fast/All.sha1c/commit_98.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "6dd0e2382331ddda944bdd4f6b7ed348ec576de7": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key 6dd0e2382331ddda944bdd4f6b7ed348ec576de7 not found in /da5_fast/All.sha1c/commit_109.tch",
+        "commit_object": "Key 6dd0e2382331ddda944bdd4f6b7ed348ec576de7 not found in /da5_fast/All.sha1c/commit_109.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "6f02c878f9b90d2f6c8c6f98abf228385f82611e": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key 6f02c878f9b90d2f6c8c6f98abf228385f82611e not found in /da5_fast/All.sha1c/commit_111.tch",
+        "commit_object": "Key 6f02c878f9b90d2f6c8c6f98abf228385f82611e not found in /da5_fast/All.sha1c/commit_111.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "88c247c5ab0aaf70994c1cf2755d9379ff8a1e23": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23 not found in /da5_fast/All.sha1c/commit_8.tch",
+        "commit_object": "Key 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23 not found in /da5_fast/All.sha1c/commit_8.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "beb9793b008235f918b9716421cd83a92ff4a9c1": {
+      "woc_projects": [
+        "agnwinds_python"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key beb9793b008235f918b9716421cd83a92ff4a9c1 not found in /da5_fast/All.sha1c/commit_62.tch",
+        "commit_object": "Key beb9793b008235f918b9716421cd83a92ff4a9c1 not found in /da5_fast/All.sha1c/commit_62.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "d1d928cbbc704724f7af153548aebea0b10a4046": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key d1d928cbbc704724f7af153548aebea0b10a4046 not found in /da5_fast/All.sha1c/commit_81.tch",
+        "commit_object": "Key d1d928cbbc704724f7af153548aebea0b10a4046 not found in /da5_fast/All.sha1c/commit_81.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "e618bd04b1dd2cc0adb1481890a0f388096caa93": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key e618bd04b1dd2cc0adb1481890a0f388096caa93 not found in /da5_fast/All.sha1c/commit_102.tch",
+        "commit_object": "Key e618bd04b1dd2cc0adb1481890a0f388096caa93 not found in /da5_fast/All.sha1c/commit_102.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    },
+    "fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1": {
+      "woc_projects": [
+        "microsoft_fhir-server"
+      ],
+      "woc_errors": {
+        "commit.tch": "Key fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1 not found in /da5_fast/All.sha1c/commit_124.tch",
+        "commit_object": "Key fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1 not found in /da5_fast/All.sha1c/commit_124.tch"
+      },
+      "object_type": "unknown",
+      "research_evidence": "data/dpate172_missing_object_research.json"
+    }
+  }
+}

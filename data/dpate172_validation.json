@@ -1,0 +1,33 @@
+{
+  "netid": "dpate172",
+  "checked_at_utc": "2026-09-29T07:49:21.297847Z",
+  "base_url": "https://worldofcode.org/api/",
+  "project_count": 10,
+  "project_commit_rows": 48502,
+  "raw_p2c_project_object_rows": 48587,
+  "excluded_noncommit_objects": 85,
+  "excluded_noncommit_rows": 85,
+  "unique_candidate_objects": 48502,
+  "unique_commit_objects": 48489,
+  "missing_commits": 13,
+  "available_commit_objects": 48489,
+  "metadata_complete": false,
+  "missing_project_commit_rows": 13,
+  "woc_commit_objects": 48254,
+  "git_recovered_commit_objects": 235,
+  "duplicate_project_commit_pairs": 0,
+  "csv_roundtrip_passed": true,
+  "summary_sha256": "6bfce082c1c22343e639948aad80aab57dab22ad330ec3d01ed469c6bb3a3b6b",
+  "counts": {
+    "ketch_nodepy": 713,
+    "mouseland_suite2p": 3297,
+    "esri_geoportal-server": 1822,
+    "hpparvi_pytransit": 1134,
+    "sundmanbo_opencalphad": 550,
+    "stack-of-tasks_pinocchio": 11597,
+    "microsoft_fhir-server": 20582,
+    "rapidsai_cucim": 3010,
+    "agnwinds_python": 5213,
+    "csgillespie_powerlaw": 584
+  }
+}

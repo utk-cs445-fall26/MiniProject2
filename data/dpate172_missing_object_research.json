@@ -1,0 +1,1135 @@
+{
+  "12be3a616fbd343db925ebe04f646fd4f5526772": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T04:46:19.399807+00:00",
+    "status": "unresolved; no complete commit object located",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "Exact hash fetch failed: upload-pack: not our ref"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/12be3a616fbd343db925ebe04f646fd4f5526772",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/12be3a616fbd343db925ebe04f646fd4f5526772",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/12be3a616fbd343db925ebe04f646fd4f5526772",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "12be3a616fbd343db925ebe04f646fd4f5526772",
+        "result": "No commits returned"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/12be3a616fbd343db925ebe04f646fd4f5526772",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/12be3a616fbd343db925ebe04f646fd4f5526772",
+        "result": "Key not found in /da5_fast/c2aAcCtFullV2605.18.tch"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/12be3a616fbd343db925ebe04f646fd4f5526772",
+        "result": "Key not found in /da8_data/basemaps/c2datFullV.18.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/12be3a616fbd343db925ebe04f646fd4f5526772",
+        "http_status": 530,
+        "result": "Mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "url": "https://archive.softwareheritage.org/api/1/revision/12be3a616fbd343db925ebe04f646fd4f5526772/",
+        "http_status": 404,
+        "result": "Revision not found"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "url": "https://archive.softwareheritage.org/api/1/release/12be3a616fbd343db925ebe04f646fd4f5526772/",
+        "http_status": 404,
+        "result": "Release not found"
+      },
+      {
+        "source": "Public web search",
+        "queries": [
+          "\"12be3a616fbd343db925ebe04f646fd4f5526772\"",
+          "\"12be3a6\" fhir"
+        ],
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/12be3a616fbd343db925ebe04f646fd4f5526772",
+        "error": "KeyError: 'Key 12be3a616fbd343db925ebe04f646fd4f5526772 not found in /da0_data/basemaps/c2taFullS.18.tch'"
+      }
+    ],
+    "retain_identifier_only": true,
+    "integrity_policy": "No author, timestamp, message, or object type is inferred. An identifier-only CSV row preserves the WoC-listed SHA with blank metadata; coverage reports explicitly mark this unresolved candidate."
+  },
+  "3dbcc1390a70910b8bea5b825d04444f108bbe97": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T05:41:08.435969+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref 3dbcc1390a70910b8bea5b825d04444f108bbe97"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"3dbcc1390a70910b8bea5b825d04444f108bbe97\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "result": "Key 3dbcc1390a70910b8bea5b825d04444f108bbe97 not found in /da5_fast/c2aAcCtFullV2605.29.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "http_status": 530,
+        "result": "Batch request failed: mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "sha": "3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "kind": "revision",
+        "url": "https://archive.softwareheritage.org/api/1/revision/3dbcc1390a70910b8bea5b825d04444f108bbe97/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git 3dbcc1390a70910b8bea5b825d04444f108bbe97 not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "sha": "3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "kind": "release",
+        "url": "https://archive.softwareheritage.org/api/1/release/3dbcc1390a70910b8bea5b825d04444f108bbe97/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git 3dbcc1390a70910b8bea5b825d04444f108bbe97 not found.\"}"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "result": "Key 3dbcc1390a70910b8bea5b825d04444f108bbe97 not found in /da8_data/basemaps/c2datFullV.29.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "result": "Key 3dbcc1390a70910b8bea5b825d04444f108bbe97 not found in /da0_data/basemaps/c2taFullS.29.tch"
+      }
+    ],
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier.",
+    "retain_identifier_only": true
+  },
+  "41b666a0517e8394a948411daedb489164da4fd2": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T05:41:08.435986+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref 41b666a0517e8394a948411daedb489164da4fd2"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/41b666a0517e8394a948411daedb489164da4fd2",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/41b666a0517e8394a948411daedb489164da4fd2",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/41b666a0517e8394a948411daedb489164da4fd2",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "41b666a0517e8394a948411daedb489164da4fd2",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"41b666a0517e8394a948411daedb489164da4fd2\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/41b666a0517e8394a948411daedb489164da4fd2",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/41b666a0517e8394a948411daedb489164da4fd2",
+        "result": "Key 41b666a0517e8394a948411daedb489164da4fd2 not found in /da5_fast/c2aAcCtFullV2605.1.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/41b666a0517e8394a948411daedb489164da4fd2",
+        "http_status": 530,
+        "result": "Batch request failed: mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "sha": "41b666a0517e8394a948411daedb489164da4fd2",
+        "kind": "revision",
+        "url": "https://archive.softwareheritage.org/api/1/revision/41b666a0517e8394a948411daedb489164da4fd2/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git 41b666a0517e8394a948411daedb489164da4fd2 not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "sha": "41b666a0517e8394a948411daedb489164da4fd2",
+        "kind": "release",
+        "url": "https://archive.softwareheritage.org/api/1/release/41b666a0517e8394a948411daedb489164da4fd2/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git 41b666a0517e8394a948411daedb489164da4fd2 not found.\"}"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/41b666a0517e8394a948411daedb489164da4fd2",
+        "result": "Key 41b666a0517e8394a948411daedb489164da4fd2 not found in /da8_data/basemaps/c2datFullV.1.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/41b666a0517e8394a948411daedb489164da4fd2",
+        "result": "Key 41b666a0517e8394a948411daedb489164da4fd2 not found in /da0_data/basemaps/c2taFullS.1.tch"
+      }
+    ],
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier.",
+    "retain_identifier_only": true
+  },
+  "448c3f246ccd0dcf5420a84228b15458c94a514c": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T05:41:08.435996+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref 448c3f246ccd0dcf5420a84228b15458c94a514c"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"448c3f246ccd0dcf5420a84228b15458c94a514c\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "result": "Key 448c3f246ccd0dcf5420a84228b15458c94a514c not found in /da5_fast/c2aAcCtFullV2605.4.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "http_status": 530,
+        "result": "Batch request failed: mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "sha": "448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "kind": "revision",
+        "url": "https://archive.softwareheritage.org/api/1/revision/448c3f246ccd0dcf5420a84228b15458c94a514c/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git 448c3f246ccd0dcf5420a84228b15458c94a514c not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "sha": "448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "kind": "release",
+        "url": "https://archive.softwareheritage.org/api/1/release/448c3f246ccd0dcf5420a84228b15458c94a514c/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git 448c3f246ccd0dcf5420a84228b15458c94a514c not found.\"}"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "result": "Key 448c3f246ccd0dcf5420a84228b15458c94a514c not found in /da8_data/basemaps/c2datFullV.4.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "result": "Key 448c3f246ccd0dcf5420a84228b15458c94a514c not found in /da0_data/basemaps/c2taFullS.4.tch"
+      }
+    ],
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier.",
+    "retain_identifier_only": true
+  },
+  "5f40fa73bfac8a8e1854a43677378815df4d75f4": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T06:00:21.169567+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref 5f40fa73bfac8a8e1854a43677378815df4d75f4"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"5f40fa73bfac8a8e1854a43677378815df4d75f4\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "result": "Key 5f40fa73bfac8a8e1854a43677378815df4d75f4 not found in /da5_fast/c2aAcCtFullV2605.31.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "http_status": 530,
+        "result": "Batch request failed: mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "sha": "5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "kind": "revision",
+        "url": "https://archive.softwareheritage.org/api/1/revision/5f40fa73bfac8a8e1854a43677378815df4d75f4/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git 5f40fa73bfac8a8e1854a43677378815df4d75f4 not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "sha": "5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "kind": "release",
+        "url": "https://archive.softwareheritage.org/api/1/release/5f40fa73bfac8a8e1854a43677378815df4d75f4/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git 5f40fa73bfac8a8e1854a43677378815df4d75f4 not found.\"}"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "result": "Key 5f40fa73bfac8a8e1854a43677378815df4d75f4 not found in /da8_data/basemaps/c2datFullV.31.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "result": "Key 5f40fa73bfac8a8e1854a43677378815df4d75f4 not found in /da0_data/basemaps/c2taFullS.31.tch"
+      }
+    ],
+    "primary_woc_errors": {
+      "commit.tch": "Key 5f40fa73bfac8a8e1854a43677378815df4d75f4 not found in /da5_fast/All.sha1c/commit_95.tch",
+      "commit_object": "Key 5f40fa73bfac8a8e1854a43677378815df4d75f4 not found in /da5_fast/All.sha1c/commit_95.tch"
+    },
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier.",
+    "retain_identifier_only": true
+  },
+  "62e446e7c4b564641b479629ce1742a8437447ea": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T06:00:21.169575+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref 62e446e7c4b564641b479629ce1742a8437447ea"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/62e446e7c4b564641b479629ce1742a8437447ea",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/62e446e7c4b564641b479629ce1742a8437447ea",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/62e446e7c4b564641b479629ce1742a8437447ea",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "62e446e7c4b564641b479629ce1742a8437447ea",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"62e446e7c4b564641b479629ce1742a8437447ea\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/62e446e7c4b564641b479629ce1742a8437447ea",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/62e446e7c4b564641b479629ce1742a8437447ea",
+        "result": "Key 62e446e7c4b564641b479629ce1742a8437447ea not found in /da5_fast/c2aAcCtFullV2605.2.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/62e446e7c4b564641b479629ce1742a8437447ea",
+        "http_status": 530,
+        "result": "Batch request failed: mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "sha": "62e446e7c4b564641b479629ce1742a8437447ea",
+        "kind": "revision",
+        "url": "https://archive.softwareheritage.org/api/1/revision/62e446e7c4b564641b479629ce1742a8437447ea/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git 62e446e7c4b564641b479629ce1742a8437447ea not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "sha": "62e446e7c4b564641b479629ce1742a8437447ea",
+        "kind": "release",
+        "url": "https://archive.softwareheritage.org/api/1/release/62e446e7c4b564641b479629ce1742a8437447ea/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git 62e446e7c4b564641b479629ce1742a8437447ea not found.\"}"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/62e446e7c4b564641b479629ce1742a8437447ea",
+        "result": "Key 62e446e7c4b564641b479629ce1742a8437447ea not found in /da8_data/basemaps/c2datFullV.2.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/62e446e7c4b564641b479629ce1742a8437447ea",
+        "result": "Key 62e446e7c4b564641b479629ce1742a8437447ea not found in /da0_data/basemaps/c2taFullS.2.tch"
+      }
+    ],
+    "primary_woc_errors": {
+      "commit.tch": "Key 62e446e7c4b564641b479629ce1742a8437447ea not found in /da5_fast/All.sha1c/commit_98.tch",
+      "commit_object": "Key 62e446e7c4b564641b479629ce1742a8437447ea not found in /da5_fast/All.sha1c/commit_98.tch"
+    },
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier.",
+    "retain_identifier_only": true
+  },
+  "6dd0e2382331ddda944bdd4f6b7ed348ec576de7": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T06:15:28.665185+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref 6dd0e2382331ddda944bdd4f6b7ed348ec576de7"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"6dd0e2382331ddda944bdd4f6b7ed348ec576de7\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "result": "Key 6dd0e2382331ddda944bdd4f6b7ed348ec576de7 not found in /da5_fast/c2aAcCtFullV2605.13.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "http_status": 530,
+        "result": "Batch request failed: mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "sha": "6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "kind": "revision",
+        "url": "https://archive.softwareheritage.org/api/1/revision/6dd0e2382331ddda944bdd4f6b7ed348ec576de7/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git 6dd0e2382331ddda944bdd4f6b7ed348ec576de7 not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "sha": "6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "kind": "release",
+        "url": "https://archive.softwareheritage.org/api/1/release/6dd0e2382331ddda944bdd4f6b7ed348ec576de7/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git 6dd0e2382331ddda944bdd4f6b7ed348ec576de7 not found.\"}"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "result": "Key 6dd0e2382331ddda944bdd4f6b7ed348ec576de7 not found in /da8_data/basemaps/c2datFullV.13.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "result": "Key 6dd0e2382331ddda944bdd4f6b7ed348ec576de7 not found in /da0_data/basemaps/c2taFullS.13.tch"
+      }
+    ],
+    "primary_woc_errors": {
+      "commit.tch": "Key 6dd0e2382331ddda944bdd4f6b7ed348ec576de7 not found in /da5_fast/All.sha1c/commit_109.tch",
+      "commit_object": "Key 6dd0e2382331ddda944bdd4f6b7ed348ec576de7 not found in /da5_fast/All.sha1c/commit_109.tch"
+    },
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier.",
+    "retain_identifier_only": true
+  },
+  "6f02c878f9b90d2f6c8c6f98abf228385f82611e": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T06:15:28.665198+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref 6f02c878f9b90d2f6c8c6f98abf228385f82611e"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"6f02c878f9b90d2f6c8c6f98abf228385f82611e\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "result": "Key 6f02c878f9b90d2f6c8c6f98abf228385f82611e not found in /da5_fast/c2aAcCtFullV2605.15.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "http_status": 530,
+        "result": "Batch request failed: mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "sha": "6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "kind": "revision",
+        "url": "https://archive.softwareheritage.org/api/1/revision/6f02c878f9b90d2f6c8c6f98abf228385f82611e/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git 6f02c878f9b90d2f6c8c6f98abf228385f82611e not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "sha": "6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "kind": "release",
+        "url": "https://archive.softwareheritage.org/api/1/release/6f02c878f9b90d2f6c8c6f98abf228385f82611e/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git 6f02c878f9b90d2f6c8c6f98abf228385f82611e not found.\"}"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "result": "Key 6f02c878f9b90d2f6c8c6f98abf228385f82611e not found in /da8_data/basemaps/c2datFullV.15.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "result": "Key 6f02c878f9b90d2f6c8c6f98abf228385f82611e not found in /da0_data/basemaps/c2taFullS.15.tch"
+      }
+    ],
+    "primary_woc_errors": {
+      "commit.tch": "Key 6f02c878f9b90d2f6c8c6f98abf228385f82611e not found in /da5_fast/All.sha1c/commit_111.tch",
+      "commit_object": "Key 6f02c878f9b90d2f6c8c6f98abf228385f82611e not found in /da5_fast/All.sha1c/commit_111.tch"
+    },
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier.",
+    "retain_identifier_only": true
+  },
+  "88c247c5ab0aaf70994c1cf2755d9379ff8a1e23": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T06:28:00.030294+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"88c247c5ab0aaf70994c1cf2755d9379ff8a1e23\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "result": "Key 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23 not found in /da5_fast/c2aAcCtFullV2605.8.tch"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "result": "Key 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23 not found in /da8_data/basemaps/c2datFullV.8.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "result": "Key 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23 not found in /da0_data/basemaps/c2taFullS.8.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "http_status": 530,
+        "result": "Mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "url": "https://archive.softwareheritage.org/api/1/revision/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23 not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "url": "https://archive.softwareheritage.org/api/1/release/88c247c5ab0aaf70994c1cf2755d9379ff8a1e23/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23 not found.\"}"
+      }
+    ],
+    "primary_woc_errors": {
+      "commit.tch": "Key 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23 not found in /da5_fast/All.sha1c/commit_8.tch",
+      "commit_object": "Key 88c247c5ab0aaf70994c1cf2755d9379ff8a1e23 not found in /da5_fast/All.sha1c/commit_8.tch"
+    },
+    "retain_identifier_only": true,
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier."
+  },
+  "beb9793b008235f918b9716421cd83a92ff4a9c1": {
+    "project_wocid": "agnwinds_python",
+    "checked_at_utc": "2026-09-29T07:03:00.633676+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/agnwinds/python",
+        "result": "fatal: remote error: upload-pack: not our ref beb9793b008235f918b9716421cd83a92ff4a9c1"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/agnwinds/python/commits/beb9793b008235f918b9716421cd83a92ff4a9c1",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/agnwinds/python/git/commits/beb9793b008235f918b9716421cd83a92ff4a9c1",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/agnwinds/python/git/tags/beb9793b008235f918b9716421cd83a92ff4a9c1",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "beb9793b008235f918b9716421cd83a92ff4a9c1",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"beb9793b008235f918b9716421cd83a92ff4a9c1\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/beb9793b008235f918b9716421cd83a92ff4a9c1",
+        "result": [
+          "agnwinds_python"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/beb9793b008235f918b9716421cd83a92ff4a9c1",
+        "result": "Key beb9793b008235f918b9716421cd83a92ff4a9c1 not found in /da5_fast/c2aAcCtFullV2605.30.tch"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/beb9793b008235f918b9716421cd83a92ff4a9c1",
+        "result": "Key beb9793b008235f918b9716421cd83a92ff4a9c1 not found in /da8_data/basemaps/c2datFullV.30.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/beb9793b008235f918b9716421cd83a92ff4a9c1",
+        "result": "Key beb9793b008235f918b9716421cd83a92ff4a9c1 not found in /da0_data/basemaps/c2taFullS.30.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/beb9793b008235f918b9716421cd83a92ff4a9c1",
+        "http_status": 530,
+        "result": "Mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "url": "https://archive.softwareheritage.org/api/1/revision/beb9793b008235f918b9716421cd83a92ff4a9c1/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git beb9793b008235f918b9716421cd83a92ff4a9c1 not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "url": "https://archive.softwareheritage.org/api/1/release/beb9793b008235f918b9716421cd83a92ff4a9c1/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git beb9793b008235f918b9716421cd83a92ff4a9c1 not found.\"}"
+      }
+    ],
+    "primary_woc_errors": {
+      "commit.tch": "Key beb9793b008235f918b9716421cd83a92ff4a9c1 not found in /da5_fast/All.sha1c/commit_62.tch",
+      "commit_object": "Key beb9793b008235f918b9716421cd83a92ff4a9c1 not found in /da5_fast/All.sha1c/commit_62.tch"
+    },
+    "retain_identifier_only": true,
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier."
+  },
+  "d1d928cbbc704724f7af153548aebea0b10a4046": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T07:25:04.128192+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref d1d928cbbc704724f7af153548aebea0b10a4046"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/d1d928cbbc704724f7af153548aebea0b10a4046",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/d1d928cbbc704724f7af153548aebea0b10a4046",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/d1d928cbbc704724f7af153548aebea0b10a4046",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "d1d928cbbc704724f7af153548aebea0b10a4046",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"d1d928cbbc704724f7af153548aebea0b10a4046\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/d1d928cbbc704724f7af153548aebea0b10a4046",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/d1d928cbbc704724f7af153548aebea0b10a4046",
+        "result": "Key d1d928cbbc704724f7af153548aebea0b10a4046 not found in /da5_fast/c2aAcCtFullV2605.17.tch"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/d1d928cbbc704724f7af153548aebea0b10a4046",
+        "result": "Key d1d928cbbc704724f7af153548aebea0b10a4046 not found in /da8_data/basemaps/c2datFullV.17.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/d1d928cbbc704724f7af153548aebea0b10a4046",
+        "result": "Key d1d928cbbc704724f7af153548aebea0b10a4046 not found in /da0_data/basemaps/c2taFullS.17.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/d1d928cbbc704724f7af153548aebea0b10a4046",
+        "http_status": 530,
+        "result": "Mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "url": "https://archive.softwareheritage.org/api/1/revision/d1d928cbbc704724f7af153548aebea0b10a4046/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git d1d928cbbc704724f7af153548aebea0b10a4046 not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "url": "https://archive.softwareheritage.org/api/1/release/d1d928cbbc704724f7af153548aebea0b10a4046/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git d1d928cbbc704724f7af153548aebea0b10a4046 not found.\"}"
+      }
+    ],
+    "primary_woc_errors": {
+      "commit.tch": "Key d1d928cbbc704724f7af153548aebea0b10a4046 not found in /da5_fast/All.sha1c/commit_81.tch",
+      "commit_object": "Key d1d928cbbc704724f7af153548aebea0b10a4046 not found in /da5_fast/All.sha1c/commit_81.tch"
+    },
+    "retain_identifier_only": true,
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier."
+  },
+  "e618bd04b1dd2cc0adb1481890a0f388096caa93": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T07:37:27.174604+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref e618bd04b1dd2cc0adb1481890a0f388096caa93"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"e618bd04b1dd2cc0adb1481890a0f388096caa93\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "result": "Key e618bd04b1dd2cc0adb1481890a0f388096caa93 not found in /da5_fast/c2aAcCtFullV2605.6.tch"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "result": "Key e618bd04b1dd2cc0adb1481890a0f388096caa93 not found in /da8_data/basemaps/c2datFullV.6.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "result": "Key e618bd04b1dd2cc0adb1481890a0f388096caa93 not found in /da0_data/basemaps/c2taFullS.6.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "http_status": 530,
+        "result": "Mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "url": "https://archive.softwareheritage.org/api/1/revision/e618bd04b1dd2cc0adb1481890a0f388096caa93/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git e618bd04b1dd2cc0adb1481890a0f388096caa93 not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "url": "https://archive.softwareheritage.org/api/1/release/e618bd04b1dd2cc0adb1481890a0f388096caa93/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git e618bd04b1dd2cc0adb1481890a0f388096caa93 not found.\"}"
+      }
+    ],
+    "primary_woc_errors": {
+      "commit.tch": "Key e618bd04b1dd2cc0adb1481890a0f388096caa93 not found in /da5_fast/All.sha1c/commit_102.tch",
+      "commit_object": "Key e618bd04b1dd2cc0adb1481890a0f388096caa93 not found in /da5_fast/All.sha1c/commit_102.tch"
+    },
+    "retain_identifier_only": true,
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier."
+  },
+  "fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1": {
+    "project_wocid": "microsoft_fhir-server",
+    "checked_at_utc": "2026-09-29T07:49:06.546644+00:00",
+    "status": "unresolved; no complete or partial metadata located after bounded source checks",
+    "checks": [
+      {
+        "source": "original Git repository",
+        "url": "https://github.com/microsoft/fhir-server",
+        "result": "fatal: remote error: upload-pack: not our ref fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1"
+      },
+      {
+        "source": "GitHub app commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/commits/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1",
+        "http_status": 422,
+        "result": "No commit found for SHA"
+      },
+      {
+        "source": "GitHub app raw commit metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/commits/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub app tag metadata",
+        "url": "https://api.github.com/repos/microsoft/fhir-server/git/tags/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1",
+        "http_status": 404,
+        "result": "Not Found"
+      },
+      {
+        "source": "GitHub global commit search",
+        "query": "fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1",
+        "result": "No commits returned"
+      },
+      {
+        "source": "Public web search",
+        "query": "\"fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1\"",
+        "result": "No results"
+      },
+      {
+        "source": "World of Code c2p",
+        "url": "https://worldofcode.org/api/lookup/map/c2p/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1",
+        "result": [
+          "microsoft_fhir-server"
+        ]
+      },
+      {
+        "source": "World of Code c2aAcCt",
+        "url": "https://worldofcode.org/api/lookup/map/c2aAcCt/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1",
+        "result": "Key fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1 not found in /da5_fast/c2aAcCtFullV2605.28.tch"
+      },
+      {
+        "source": "World of Code c2dat",
+        "url": "https://worldofcode.org/api/lookup/map/c2dat/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1",
+        "result": "Key fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1 not found in /da8_data/basemaps/c2datFullV.28.tch"
+      },
+      {
+        "source": "World of Code c2ta",
+        "url": "https://worldofcode.org/api/lookup/map/c2ta/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1",
+        "result": "Key fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1 not found in /da0_data/basemaps/c2taFullS.28.tch"
+      },
+      {
+        "source": "World of Code mirror",
+        "url": "https://woc.osslab-pku.org/api/lookup/object/commit/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1",
+        "http_status": 530,
+        "result": "Mirror unavailable"
+      },
+      {
+        "source": "Software Heritage revision archive",
+        "url": "https://archive.softwareheritage.org/api/1/revision/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Revision with sha1_git fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1 not found.\"}"
+      },
+      {
+        "source": "Software Heritage release archive",
+        "url": "https://archive.softwareheritage.org/api/1/release/fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1/",
+        "http_status": 404,
+        "body": "{\"exception\":\"NotFoundExc\",\"reason\":\"Release with sha1_git fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1 not found.\"}"
+      }
+    ],
+    "primary_woc_errors": {
+      "commit.tch": "Key fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1 not found in /da5_fast/All.sha1c/commit_124.tch",
+      "commit_object": "Key fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1 not found in /da5_fast/All.sha1c/commit_124.tch"
+    },
+    "retain_identifier_only": true,
+    "integrity_policy": "Retain only the WoC-listed SHA and project identifier. Author, timestamp, and commit message remain blank. Object type is unknown; do not infer it or silently exclude the identifier."
+  }
+}

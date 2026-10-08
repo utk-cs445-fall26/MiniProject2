@@ -1,0 +1,326 @@
+{
+  "netid": "dpate172",
+  "as_of_utc": "2025-09-30T23:59:59Z",
+  "active_since_utc": "2025-04-01T00:00:00Z",
+  "source_summary_sha256": "6bfce082c1c22343e639948aad80aab57dab22ad330ec3d01ed469c6bb3a3b6b",
+  "part2_stats_sha256": "6e077eb028b2d138306f103c6312968d8026331d83eb1fa0ac10215e456d4421",
+  "project_count": 10,
+  "gap_sample_projects": 8,
+  "gap_sample_rows": 144,
+  "recent_sample_rows": 100,
+  "projects": {
+    "ketch_nodepy": {
+      "pre_count": 10,
+      "post_count": 2,
+      "recent_count": 10,
+      "omitted_undated": 0,
+      "theme_counts": {
+        "pre": {
+          "Documentation updates": 10
+        },
+        "post": {
+          "Bug fixes": 1,
+          "Documentation updates": 1
+        },
+        "recent": {
+          "Documentation updates": 9,
+          "Bug fixes": 1
+        }
+      },
+      "post_author_comparison": {
+        "returning": [
+          "David Ketcheson <dketch@gmail.com>"
+        ],
+        "new": []
+      },
+      "latest_github_commit_as_of_cutoff": "2024-09-04T07:27:22Z",
+      "Currentstatus": "Inactive"
+    },
+    "mouseland_suite2p": {
+      "pre_count": 10,
+      "post_count": 10,
+      "recent_count": 10,
+      "omitted_undated": 0,
+      "theme_counts": {
+        "pre": {
+          "Bug fixes": 9,
+          "Feature development": 1
+        },
+        "post": {
+          "Other": 5,
+          "Bug fixes": 3,
+          "Documentation updates": 2
+        },
+        "recent": {
+          "Bug fixes": 5,
+          "Feature development": 3,
+          "Documentation updates": 1,
+          "Dependency updates": 1
+        }
+      },
+      "post_author_comparison": {
+        "returning": [
+          "Chris Ki <chriski777@berkeley.edu>",
+          "Chris Ki <cski@andrew.cmu.edu>",
+          "calebshibu <162204606+calebshibu@users.noreply.github.com>"
+        ],
+        "new": []
+      },
+      "latest_github_commit_as_of_cutoff": "2025-08-30T18:56:25Z",
+      "Currentstatus": "Active"
+    },
+    "esri_geoportal-server": {
+      "pre_count": 10,
+      "post_count": 2,
+      "recent_count": 10,
+      "omitted_undated": 0,
+      "theme_counts": {
+        "pre": {
+          "Automated bot contributions": 3,
+          "Documentation updates": 2,
+          "Security patches": 2,
+          "Bug fixes": 1,
+          "Dependency updates": 1,
+          "Other": 1
+        },
+        "post": {
+          "Documentation updates": 2
+        },
+        "recent": {
+          "Documentation updates": 5,
+          "Dependency updates": 3,
+          "Automated bot contributions": 2
+        }
+      },
+      "post_author_comparison": {
+        "returning": [
+          "Marten <mhogeweg@esri.com>"
+        ],
+        "new": []
+      },
+      "latest_github_commit_as_of_cutoff": "2025-07-08T20:25:48Z",
+      "Currentstatus": "Active"
+    },
+    "hpparvi_pytransit": {
+      "pre_count": 10,
+      "post_count": 10,
+      "recent_count": 10,
+      "omitted_undated": 0,
+      "theme_counts": {
+        "pre": {
+          "Other": 8,
+          "Documentation updates": 2
+        },
+        "post": {
+          "Other": 4,
+          "Bug fixes": 2,
+          "Documentation updates": 2,
+          "Feature development": 1,
+          "Release": 1
+        },
+        "recent": {
+          "Bug fixes": 4,
+          "Documentation updates": 2,
+          "Feature development": 1,
+          "Dependency updates": 1,
+          "Release": 1,
+          "Other": 1
+        }
+      },
+      "post_author_comparison": {
+        "returning": [
+          "Hannu Parviainen <hpparvi@gmail.com>"
+        ],
+        "new": []
+      },
+      "latest_github_commit_as_of_cutoff": "2025-07-22T11:45:24Z",
+      "Currentstatus": "Active"
+    },
+    "sundmanbo_opencalphad": {
+      "pre_count": 10,
+      "post_count": 10,
+      "recent_count": 10,
+      "omitted_undated": 0,
+      "theme_counts": {
+        "pre": {
+          "Feature development": 5,
+          "Bug fixes": 3,
+          "Documentation updates": 1,
+          "Other": 1
+        },
+        "post": {
+          "Other": 9,
+          "Feature development": 1
+        },
+        "recent": {
+          "Other": 5,
+          "Bug fixes": 3,
+          "Feature development": 2
+        }
+      },
+      "post_author_comparison": {
+        "returning": [
+          "Bo Sundman <bo.sundman@gmail.com>"
+        ],
+        "new": [
+          "zhongjingjogy <zhongjingjogy@gmail.com>"
+        ]
+      },
+      "latest_github_commit_as_of_cutoff": "2025-05-13T09:11:01Z",
+      "Currentstatus": "Active"
+    },
+    "stack-of-tasks_pinocchio": {
+      "pre_count": 10,
+      "post_count": 10,
+      "recent_count": 10,
+      "omitted_undated": 0,
+      "theme_counts": {
+        "pre": {
+          "Bug fixes": 6,
+          "Feature development": 2,
+          "Other": 2
+        },
+        "post": {
+          "Other": 5,
+          "Documentation updates": 3,
+          "Bug fixes": 2
+        },
+        "recent": {
+          "Dependency updates": 4,
+          "Automated bot contributions": 3,
+          "Bug fixes": 2,
+          "Documentation updates": 1
+        }
+      },
+      "post_author_comparison": {
+        "returning": [
+          "Justin Carpentier <jcarpent@laas.fr>",
+          "Justin Carpentier <justin.carpentier@laas.fr>",
+          "Mansard <nmansard@laas.fr>"
+        ],
+        "new": []
+      },
+      "latest_github_commit_as_of_cutoff": "2025-09-29T07:08:59Z",
+      "Currentstatus": "Active"
+    },
+    "microsoft_fhir-server": {
+      "pre_count": 0,
+      "post_count": 0,
+      "recent_count": 10,
+      "omitted_undated": 12,
+      "theme_counts": {
+        "pre": {},
+        "post": {},
+        "recent": {
+          "Bug fixes": 4,
+          "Dependency updates": 3,
+          "Feature development": 2,
+          "Automated bot contributions": 1
+        }
+      },
+      "post_author_comparison": {
+        "returning": [],
+        "new": []
+      },
+      "latest_github_commit_as_of_cutoff": "2025-09-30T15:35:55Z",
+      "Currentstatus": "Active"
+    },
+    "rapidsai_cucim": {
+      "pre_count": 0,
+      "post_count": 0,
+      "recent_count": 10,
+      "omitted_undated": 0,
+      "theme_counts": {
+        "pre": {},
+        "post": {},
+        "recent": {
+          "Automated bot contributions": 4,
+          "Dependency updates": 2,
+          "Other": 2,
+          "Documentation updates": 1,
+          "Release": 1
+        }
+      },
+      "post_author_comparison": {
+        "returning": [],
+        "new": []
+      },
+      "latest_github_commit_as_of_cutoff": "2025-09-24T15:40:04Z",
+      "Currentstatus": "Active"
+    },
+    "agnwinds_python": {
+      "pre_count": 10,
+      "post_count": 10,
+      "recent_count": 10,
+      "omitted_undated": 1,
+      "theme_counts": {
+        "pre": {
+          "Bug fixes": 3,
+          "Other": 3,
+          "Feature development": 2,
+          "Documentation updates": 1,
+          "Release": 1
+        },
+        "post": {
+          "Feature development": 3,
+          "Documentation updates": 3,
+          "Bug fixes": 2,
+          "Other": 2
+        },
+        "recent": {
+          "Bug fixes": 3,
+          "Documentation updates": 3,
+          "Release": 2,
+          "Feature development": 1,
+          "Other": 1
+        }
+      },
+      "post_author_comparison": {
+        "returning": [
+          "Knox S. Long <long@stsci.edu>",
+          "jhmatthews <matthews@ast.cam.ac.uk>"
+        ],
+        "new": []
+      },
+      "latest_github_commit_as_of_cutoff": "2024-10-22T21:47:15Z",
+      "Currentstatus": "Inactive"
+    },
+    "csgillespie_powerlaw": {
+      "pre_count": 10,
+      "post_count": 10,
+      "recent_count": 10,
+      "omitted_undated": 0,
+      "theme_counts": {
+        "pre": {
+          "Other": 5,
+          "Bug fixes": 2,
+          "Release": 2,
+          "Documentation updates": 1
+        },
+        "post": {
+          "Documentation updates": 3,
+          "Other": 3,
+          "Bug fixes": 2,
+          "Dependency updates": 1,
+          "Automated bot contributions": 1
+        },
+        "recent": {
+          "Bug fixes": 3,
+          "Release": 3,
+          "Other": 3,
+          "Documentation updates": 1
+        }
+      },
+      "post_author_comparison": {
+        "returning": [
+          "Colin Gillespie <csgillespie@gmail.com>"
+        ],
+        "new": [
+          "csgillespie <csgillespie@gmail.com>"
+        ]
+      },
+      "latest_github_commit_as_of_cutoff": "2025-02-03T09:07:24Z",
+      "Currentstatus": "Inactive"
+    }
+  }
+}

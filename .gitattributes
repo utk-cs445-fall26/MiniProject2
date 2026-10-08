@@ -1,0 +1,6 @@
+# Preserve the exact bytes used by the notebook's checksums and commit messages.
+dpate172_project_summary.csv -text
+dpate172_project_stats.csv -text
+dpate172_project_gap_commits.csv -text
+dpate172_commits_timeseries_*.csv -text
+data/dpate172_* -text

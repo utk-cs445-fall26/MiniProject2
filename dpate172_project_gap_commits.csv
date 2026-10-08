@@ -1,0 +1,381 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;ketch_nodepy;bb3c774c9fcd4e390fa7b41225da9b2b9d55f77e;Alexandru Fikl <alexfikl@gmail.com>;1687453613;"docs: fix incorrectly escaped charaters
+"
+pre;ketch_nodepy;053b14070c63744e1fb79cbd059c74a7742e3c3b;Alexandru Fikl <alexfikl@gmail.com>;1687454194;"docs: fix some issues found by sphinxlint
+"
+pre;ketch_nodepy;7377b30b49308bd95da6973c9d06a28daa9390ad;Alexandru Fikl <alexfikl@gmail.com>;1687454194;"docs: fix some issues found by sphinxlint
+"
+pre;ketch_nodepy;0bc06110efa2f505335c2101ac4725b6fb1c4595;Alexandru Fikl <alexfikl@gmail.com>;1687454351;"docs: update some links found by linkcheck
+"
+pre;ketch_nodepy;8833dc6c7cab91c864449ebff0ef12db527a914d;Alexandru Fikl <alexfikl@gmail.com>;1687454351;"docs: update some links found by linkcheck
+"
+pre;ketch_nodepy;8947eb594f34fcaa8d68f61342a3e5e34eb67abb;Alexandru Fikl <alexfikl@gmail.com>;1687455343;"docs: fix sphinx formatting in tutorials
+"
+pre;ketch_nodepy;92abe8a0817ac460cec5b9222cffc6276361ebe5;Alexandru Fikl <alexfikl@gmail.com>;1687455343;"docs: fix sphinx formatting in tutorials
+"
+pre;ketch_nodepy;693cd1d5ca776fc46f665d733fd965cd972bdd4e;Alexandru Fikl <alexfikl@gmail.com>;1687456941;"docs: fix doctests
+"
+pre;ketch_nodepy;a78dd5c5021a0dbf7952c3614996315dbed5a642;Alexandru Fikl <alexfikl@gmail.com>;1687456941;"docs: fix doctests
+"
+pre;ketch_nodepy;147d0828c75dd52c54be0a8271846103c2a15409;David Ketcheson <dketch@gmail.com>;1693979164;Update downloads badge in README.md
+post;ketch_nodepy;1ea45f786c297fbc1f73e8f4e531bf0d795dea6f;David Ketcheson <dketch@gmail.com>;1725434820;"Improved coefficients for SSP(5,4).
+"
+post;ketch_nodepy;0f071ac7b9cf41bcd27dedb614ab814fb0a98007;David Ketcheson <dketch@gmail.com>;1725434842;"Merge branch 'master' of https://github.com/ketch/nodepy
+
+* 'master' of https://github.com/ketch/nodepy:
+  Update downloads badge in README.md
+"
+pre;mouseland_suite2p;d073f7c61d1335130db48facd38d344977a5fbc2;unknown <carsen.stringer@gmail.com>;1722517051;"fixing gui
+"
+pre;mouseland_suite2p;8679d1361a9e770ead1daad045ad734f695daddd;carsen-stringer <carsen.stringer@gmail.com>;1722524794;"fixing logging
+"
+pre;mouseland_suite2p;8fc7f3f5f4342b00ebb9e0e5a463930d7dc666a7;carsen-stringer <carsen.stringer@gmail.com>;1722531439;"fixing rungui
+"
+pre;mouseland_suite2p;eb89266d78257f2b8c4b987d033c8b755c3e8d28;Carsen Stringer <carsen.stringer@gmail.com>;1722531647;"revert classifier keys
+"
+pre;mouseland_suite2p;9837b8a738b650b4ef232ac5469e0d48cc7458bf;carsen-stringer <carsen.stringer@gmail.com>;1722532321;"add logger
+"
+pre;mouseland_suite2p;c2620b7c7e9dd70859703293545b32a91c8a0b86;Carsen Stringer <carsen.stringer@gmail.com>;1722537398;"bug in preclassify
+"
+pre;mouseland_suite2p;69d5573feb7106bdc114e5cc55ff4f17f1bed2e0;Ludovic Bellier <ludovic.bellier@gmail.com>;1722628352;"fix frames_include
+"
+pre;mouseland_suite2p;50f92df8be3b8a16a9dc5f2b9a2c71ea87614f3f;Zach Ip <47134386+Zachary-Ip@users.noreply.github.com>;1727289812;"Merge 69d5573feb7106bdc114e5cc55ff4f17f1bed2e0 into c88e1ba3aa2013fe379e64c7e45ae73a417eb4a7
+"
+pre;mouseland_suite2p;7c8980dcae4de61cb7bc65380048260d444e8840;ZL <lizm@ion.ac.cn>;1728703452;"Fix file path handling when username contains spaces
+"
+pre;mouseland_suite2p;89701642946105ff6bb0f87deeb3a821ed1b1d47;felixsmli <93766207+felixsmli@users.noreply.github.com>;1728709971;"Merge 7c8980dcae4de61cb7bc65380048260d444e8840 into c88e1ba3aa2013fe379e64c7e45ae73a417eb4a7
+"
+post;mouseland_suite2p;7bb28c69e6c020c3c7ac963968563620045167af;Chris Ki <cski@andrew.cmu.edu>;1735105177;"Addresses #1144 to exclude user-specified bad frames from registration metric calculation
+"
+post;mouseland_suite2p;cc576eb8bc182cbeb6c3cc5e64d7e8494d2c00cc;Chris Ki <cski@andrew.cmu.edu>;1735106103;"update print for registration_metric in pipeline function
+"
+post;mouseland_suite2p;d9131eb3a3b69a451218160491ae4a45547ab9ac;Chris Ki <chriski777@berkeley.edu>;1735247444;"Update .gitignore to exclude data directories
+"
+post;mouseland_suite2p;2c4069586f5c84439124a3586a45488841417ef9;Chris Ki <chriski777@berkeley.edu>;1735249698;"Addresses #1149.
+"
+post;mouseland_suite2p;0f72406c1b06b2ee5c4fa915518d3fc2bad905a4;Chris Ki <chriski777@berkeley.edu>;1735253628;"Update gui.rst to address #1021.
+"
+post;mouseland_suite2p;e0e4d6df3dd140af34c0af664b5e8c88fcb6eaa6;Chris Ki <cski@andrew.cmu.edu>;1735510617;Update bug_report.yml
+post;mouseland_suite2p;9922f3bb5183c5c9569ef11a4131124ccd710858;calebshibu <162204606+calebshibu@users.noreply.github.com>;1735512563;"Merge 3e936d3d913acdfdd66f10367858d7c0fa3ccfdb into e0e4d6df3dd140af34c0af664b5e8c88fcb6eaa6
+"
+post;mouseland_suite2p;ad7f77ce3edd508f420b8654366e090862c272d5;Chris Ki <chriski777@berkeley.edu>;1735780636;"Merge branch 'main' of https://github.com/MouseLand/suite2p into dev
+"
+post;mouseland_suite2p;b92b7fa24c9e153897ea50d9c5e6afdd124e7197;Chris Ki <cski@andrew.cmu.edu>;1735780811;Update test_and_deploy.yml to debug macOS test issues
+post;mouseland_suite2p;e624e5e1bc51095e2393c116ca3d7ff9d51087c1;Chris Ki <chriski777@berkeley.edu>;1735780935;"Merge branch 'dev' of https://github.com/MouseLand/suite2p into dev
+"
+pre;esri_geoportal-server;29a1c66ebfbcd8f44247fa73b96fed50f52aada1;Jill Saligoe-Simmel <49758885+jsaligoe@users.noreply.github.com>;1686855036;Update README.md
+pre;esri_geoportal-server;45e87dbee63941f8245f0b46ff17fa9d2f06680c;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1700004375;"Bump org.json:json in /geoportal/maven/geoportal-jar
+
+Bumps [org.json:json](https://github.com/douglascrockford/JSON-java) from 20230227 to 20231013.
+- [Release notes](https://github.com/douglascrockford/JSON-java/releases)
+- [Changelog](https://github.com/stleary/JSON-java/blob/master/docs/RELEASES.md)
+- [Commits](https://github.com/douglascrockford/JSON-java/commits)
+
+---
+updated-dependencies:
+- dependency-name: org.json:json
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;esri_geoportal-server;e0727d73fbd9730f9c3c8d023ec08b7ea9803ae5;Marten <mhogeweg@esri.com>;1700004671;"Merge pull request #342 from Esri/dependabot/maven/geoportal/maven/geoportal-jar/org.json-json-20231013
+
+Bump org.json:json from 20230227 to 20231013 in /geoportal/maven/geoportal-jar"
+pre;esri_geoportal-server;1a993b835114b35b11654c80c6bc2f482b10e116;Marten Hogeweg <mhogeweg@esri.com>;1708553658;"clean up old javadoc and fix 'current'
+"
+pre;esri_geoportal-server;08219c463b02562464a23996474c7c703bc30ee0;Marten Hogeweg <mhogeweg@esri.com>;1708553913;"cleanup
+"
+pre;esri_geoportal-server;a211f0bc8e0c3f5a8390048d30da2382f37eea3d;Marten Hogeweg <mhogeweg@esri.com>;1708554086;"fix && to ||
+"
+pre;esri_geoportal-server;1f1c88dffed1875cedc28ce58b045d2c17f98fd8;Aviv Keller <38299977+RedYetiDev@users.noreply.github.com>;1709431803;Prevent iFrame Injection
+pre;esri_geoportal-server;b135c8e7a8128163bd1862621b0a79520c4a7d3a;Aviv Keller <38299977+RedYetiDev@users.noreply.github.com>;1709431874;"Merge 1f1c88dffed1875cedc28ce58b045d2c17f98fd8 into a211f0bc8e0c3f5a8390048d30da2382f37eea3d
+"
+pre;esri_geoportal-server;ff88c6615e5acea1caf942a61791e97604302c1b;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1727981209;"Bump commons-io:commons-io in /geoportal/maven/geoportal-jar
+
+Bumps commons-io:commons-io from 2.7 to 2.14.0.
+
+---
+updated-dependencies:
+- dependency-name: commons-io:commons-io
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;esri_geoportal-server;f65c9af9fec3891fe71ef55abb0a947f0505c266;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1727981211;"Merge ff88c6615e5acea1caf942a61791e97604302c1b into e0727d73fbd9730f9c3c8d023ec08b7ea9803ae5
+"
+post;esri_geoportal-server;cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b;Marten <mhogeweg@esri.com>;1752006348;Update README.md
+post;esri_geoportal-server;3014a9ce2120bd33ddde44bd4dae139775ec3785;Marten <mhogeweg@esri.com>;1752367435;Update index.html
+pre;hpparvi_pytransit;4d3807a2ffc55ead7467eae289e95f951d047f97;Hannu Parviainen <hpparvi@gmail.com>;1430833915;"Modified .travis.yml
+"
+pre;hpparvi_pytransit;90c3ae11c3a4aebb36d6cd40f227efca50915dc6;Hannu Parviainen <hpparvi@gmail.com>;1430833986;"Modified .travis.yml
+"
+pre;hpparvi_pytransit;a2796335e346eb107c4add32d865d34e74b7697b;Hannu Parviainen <hpparvi@gmail.com>;1430834171;"Modified .travis.yml
+"
+pre;hpparvi_pytransit;fa4cf57ef535e6ed12e60cbdfe4abfa21e97c48d;Hannu Parviainen <hpparvi@gmail.com>;1430834855;"Modified .travis.yml and README.md
+"
+pre;hpparvi_pytransit;9ce606ea33d735ad62c84c912e14c04eda4f3c13;Hannu Parviainen <hpparvi@gmail.com>;1430835620;"Added a dummy .coveralls.yml file
+"
+pre;hpparvi_pytransit;f26c89adfb32771f319772449e79bbe144d975cb;Hannu Parviainen <hpparvi@gmail.com>;1430835798;"Modified .travis.yml
+"
+pre;hpparvi_pytransit;1e6aba5cecc668206865a1d21eb9e681ae9364f8;Hannu Parviainen <hpparvi@gmail.com>;1431688537;Update README.md
+pre;hpparvi_pytransit;bc509c90494f5271846fbb2fb19f067e0be1eb51;Hannu Parviainen <hpparvi@gmail.com>;1432813439;"Added GNU license headers to most of the source files.
+"
+pre;hpparvi_pytransit;796913a271dbc367dcd4debf5457b7aea6c6e6a1;Hannu Parviainen <hpparvi@gmail.com>;1432813456;"Merge branch 'master' of https://github.com/hpparvi/PyTransit
+"
+pre;hpparvi_pytransit;5470c458647cdbe0e4a4ebddd2dd21853bee2b72;Hannu Parviainen <hpparvi@gmail.com>;1432815360;Update README.md
+post;hpparvi_pytransit;ba60c3080324344329fddbd0fbc114dd142465d9;Hannu Parviainen <hpparvi@gmail.com>;1452609794;"A simple fix for the bug occurring when z==k, needs to be improved.
+"
+post;hpparvi_pytransit;3ae8da753f554733573303b04fcb45956304d608;Hannu Parviainen <hpparvi@gmail.com>;1452685147;"Cleanup for the bugfix when z==k.
+"
+post;hpparvi_pytransit;18565a38f2b60a322bad4e32cac1c458f6e05d1c;Hannu Parviainen <hpparvi@gmail.com>;1452685188;"Merge branch 'master' of https://github.com/hpparvi/PyTransit
+"
+post;hpparvi_pytransit;fd6b3f8170e73b4e2f900986489f48e836eb55d6;Hannu Parviainen <hpparvi@gmail.com>;1452686763;"Switched to use a faster routine for elliptic integrals.
+"
+post;hpparvi_pytransit;45dd881c0ac6e6f5ab7a772c69eee3149edd833e;Hannu Parviainen <hpparvi@gmail.com>;1452688085;"Minor cleanup and a proper attribution and references for the Bulirsch elliptical integral routine.
+"
+post;hpparvi_pytransit;c1f3d2a7cd279cdbd0863e03275231d009f53a57;Hannu Parviainen <hpparvi@gmail.com>;1452688085;"Minor cleanup and a proper attribution and references for the Bulirsch elliptical integral routine.
+"
+post;hpparvi_pytransit;264391de594ba7cb074989928484b420fcbf8868;Hannu Parviainen <hpparvi@gmail.com>;1452708644;"Merge branch 'development' of https://github.com/hpparvi/PyTransit into development
+"
+post;hpparvi_pytransit;f386d3c3e568abbc9611f70fbd402478aa307fb3;Hannu Parviainen <hpparvi@gmail.com>;1452730679;"Merge pull request #13 from OxES/master
+
+Merge pull request #2 from hpparvi/master"
+post;hpparvi_pytransit;f260e2a278b2706a0888083fd09a60810033200e;Hannu Parviainen <hpparvi@gmail.com>;1452730816;"Merge pull request #3 from hpparvi/master
+
+blah"
+post;hpparvi_pytransit;a56b9f646bb88a476450aecd15fe11f9ca6abb32;Hannu Parviainen <hpparvi@gmail.com>;1452857973;"Corrected the version number in setup.py.
+"
+pre;sundmanbo_opencalphad;845ea243ab829a4c52d1a6303577f210f42210bf;Bo Sundman <bo.sundman@gmail.com>;1678316505;"Minor fixes and start on a new CVM model
+"
+pre;sundmanbo_opencalphad;efda8a80e136588d95748c37ba175092fa5a5939;Bo Sundman <bo.sundman@gmail.com>;1682358634;"updated the GEIN function and some more things
+"
+pre;sundmanbo_opencalphad;9c3bc9a8dd8863c835a059e1aa18744e3c9ad897;Bo Sundman <bo.sundman@gmail.com>;1685196968;"Added command to calculate EET
+
+The Equi-Entropy Criterion requires calculation of the T or composition a solid phase has the same entropy as the liquid.  This should be done automatically by the software to prevent solid to become stable when they are mechanically unstable but it can be nice to calculate this explicitly also
+"
+pre;sundmanbo_opencalphad;3fafa5809160276ca8907bb6f3413f345d3a6f2e;Bo Sundman <bo.sundman@gmail.com>;1695044227;"First upload from new PC
+
+Macros steo-tzero and map19 updated and minor other changes
+"
+pre;sundmanbo_opencalphad;9312c56e2895aa066d1a841fb9f4b8ebb152c382;Bo Sundman <bo.sundman@gmail.com>;1696100005;"Added XML format output
+
+With the new unary models and data the current TDB format is not suitable.  A new XML based format is discussed and has been added for testing.  Only output is available at present
+"
+pre;sundmanbo_opencalphad;c6a23557240d4c4a4d8c2261f81c01648efd44fe;Bo Sundman <bo.sundman@gmail.com>;1696163265;"Minor XML fix
+
+Prevent illegal XML characters
+"
+pre;sundmanbo_opencalphad;ce6d922f031aa9243dde47498c24bb5d386bdf06;Bo Sundman <bo.sundman@gmail.com>;1698164233;"fixed longtime bug for powers
+
+In expressions T**-1 was wringly accepted as T**0 which can cause serious errors.  Now there is an error message and the TDB file must be manually corrected.
+"
+pre;sundmanbo_opencalphad;55f422c714e0d6577dff35757d83d44db18953e7;Bo Sundman <bo.sundman@gmail.com>;1698573385;"Modified the AL-C example
+
+and a spelling error
+"
+pre;sundmanbo_opencalphad;7ad968aed26de7cd4bbd23cf5495686e97f84aa0;Bo Sundman <bo.sundman@gmail.com>;1702730708;"Many minor updates
+
+Preparing for XML format
+"
+pre;sundmanbo_opencalphad;fc03e3e6b5ebc1fcf29d715f5065dd1f48dc3419;Bo Sundman <bo.sundman@gmail.com>;1702730971;"Forgot liboctq.F90
+
+Fix of a compilation error
+"
+post;sundmanbo_opencalphad;bef99c408b9a59e75a5f374a88c2fbecff0456b8;Bo Sundman <bo.sundman@gmail.com>;1718734985;"Start implementing multicomponent MQMQA
+
+Added a gtp3XQ.F90 directory with all MQMQA routines
+"
+post;sundmanbo_opencalphad;fc124e71a793fb5419ea2849ec02ddd56576ebd5;Bo Sundman <bo.sundman@gmail.com>;1728232884;"Minor cleanup of old code, new example
+
+Preparation for major MQMQA implementation.  New example for prototype FCC ordering with SRO
+"
+post;sundmanbo_opencalphad;9d339d95d08227801f6007e5290b5b2ae5d9f4c6;zhongjingjogy <zhongjingjogy@gmail.com>;1728481365;"update.
+"
+post;sundmanbo_opencalphad;39db22335dcd7933b41d9a2489cf718381132aad;zhongjingjogy <zhongjingjogy@gmail.com>;1728609317;"compile success.
+"
+post;sundmanbo_opencalphad;4a7bec78b2142e5fe7cf9e3f031e1dadf3b38015;zhongjingjogy <zhongjingjogy@gmail.com>;1728611435;"update: try add compile oc6p.
+"
+post;sundmanbo_opencalphad;45883ec656031303765792c97334d101013deb3f;zhongjingjogy <zhongjingjogy@gmail.com>;1728611547;"update.
+"
+post;sundmanbo_opencalphad;492c0c43ebf39fc612bb36d56ab6c7860c0ac467;zhongjingjogy <zhongjingjogy@gmail.com>;1728613450;"update: test compile on linux.
+"
+post;sundmanbo_opencalphad;e5bcf20cb8b4a21f92a7407034dbd7c38b7b99ca;zhongjingjogy <zhongjingjogy@gmail.com>;1728616282;"build oc by default.
+"
+post;sundmanbo_opencalphad;9f8e6c1934f3a46950bb620979f60e7bcae7f37c;zhongjingjogy <zhongjingjogy@gmail.com>;1728618661;"enable github actions.
+"
+post;sundmanbo_opencalphad;5405c9912169ef60974a952255db4933bde2c4c4;zhongjingjogy <zhongjingjogy@gmail.com>;1728622922;"test.
+"
+pre;stack-of-tasks_pinocchio;0692a47dfcbe197c061ee12c73d2b8cb3dede139;Mansard <nmansard@laas.fr>;1415974483;"Bullet-proofed the robotviewer client.
+"
+pre;stack-of-tasks_pinocchio;a92d06a9957de6cd593004a7896747bfba3f1c9b;Mansard <nmansard@laas.fr>;1415974483;"Bullet-proofed the robotviewer client.
+"
+pre;stack-of-tasks_pinocchio;7f3c67f027c5ea717f8101adee467ae52c2d21f8;Mansard <nmansard@laas.fr>;1415974587;"Models: IVIGIT Romeo properly sized model (for the lab).
+"
+pre;stack-of-tasks_pinocchio;a4ad1745bbd1bccb3ce256ba7783f6dc8e1ca084;Mansard <nmansard@laas.fr>;1415974587;"Models: IVIGIT Romeo properly sized model (for the lab).
+"
+pre;stack-of-tasks_pinocchio;8bc49f19e287efbcdb1127da0610bdc446ee0a56;Mansard <nmansard@laas.fr>;1415977028;"Corrected a major bug in the joint revolute (doubtlessly introduced by recent commit 941214).
+"
+pre;stack-of-tasks_pinocchio;bfce9df8181bb4d904e6e42a50c58b59acce30bd;Mansard <nmansard@laas.fr>;1415977028;"Corrected a major bug in the joint revolute (doubtlessly introduced by recent commit 941214).
+"
+pre;stack-of-tasks_pinocchio;0fb61c0ad766ed7ce15aa8e89c4e8b0cc384a2b5;Mansard <nmansard@laas.fr>;1415977104;"Benchmark: repaired timings and introduce random reinit to comply with OS remarks.
+Scores:
+RNEA = 		4.5206 us
+CRBA = 		5.29557 us
+Cholesky = 	2.33944us
+Jacobian = 	3.6358 us
+COM+Jcom = 	3.95835 us
+"
+pre;stack-of-tasks_pinocchio;eba6c3f18721b165068151a382b299bdf1488103;Mansard <nmansard@laas.fr>;1415977104;"Benchmark: repaired timings and introduce random reinit to comply with OS remarks.
+Scores:
+RNEA = 		4.5206 us
+CRBA = 		5.29557 us
+Cholesky = 	2.33944us
+Jacobian = 	3.6358 us
+COM+Jcom = 	3.95835 us
+"
+pre;stack-of-tasks_pinocchio;49c297d023e750ae6a786157d4f6d73e721be0d5;Mansard <nmansard@laas.fr>;1415997149;"Revised the unitests, added some doc and created a ""check"" compilation rule. All unitests passed ok.
+"
+pre;stack-of-tasks_pinocchio;5f423fbd95653e892cd894f5ff4d37284d5bb8e5;Mansard <nmansard@laas.fr>;1415997149;"Revised the unitests, added some doc and created a ""check"" compilation rule. All unitests passed ok.
+"
+post;stack-of-tasks_pinocchio;84c964d3285ce78a13b02c1a5745ed32ef42bd67;Mansard <nmansard@laas.fr>;1421009669;"Lab: Modification for ISAE.
+"
+post;stack-of-tasks_pinocchio;b432ae5fa46341247696ef77056b1a42127aa577;Mansard <nmansard@laas.fr>;1421009669;"Lab: Modification for ISAE.
+"
+post;stack-of-tasks_pinocchio;6992790eb197f4101585940b9c26d7922b558c01;Justin Carpentier <justin.carpentier@laas.fr>;1422290601;"Merge with upstream
+"
+post;stack-of-tasks_pinocchio;a9d4f005464729757802ed3f273b818d213582b5;Justin Carpentier <jcarpent@laas.fr>;1422290609;"Merge 6992790eb197f4101585940b9c26d7922b558c01 into b432ae5fa46341247696ef77056b1a42127aa577
+"
+post;stack-of-tasks_pinocchio;f4d2046c7bf01cb12f3993b507b5416324ed8e09;Justin Carpentier <justin.carpentier@laas.fr>;1422304982;"[Minor] Cosmetic changes in CMakeLists: add categories for headers
+"
+post;stack-of-tasks_pinocchio;01676a727afa98397756e74a0ee2b8b549837ccb;Justin Carpentier <justin.carpentier@laas.fr>;1422308885;"[Minor] Update preprocessor macro
+"
+post;stack-of-tasks_pinocchio;cec43e7db525c85ed94e5f79c933c7c444bda909;Justin Carpentier <justin.carpentier@laas.fr>;1422363914;"[Minor] Correct variable initialization
+"
+post;stack-of-tasks_pinocchio;a4766125de766c730026bac88d69babcfd4f6e4b;Justin Carpentier <justin.carpentier@laas.fr>;1422441062;"[Debug] Correct contructor ConstraintTpl + add default constraint of dimension 3
+"
+post;stack-of-tasks_pinocchio;d49b99b1a79c05ce97ad7f19a319c5e66ea9b90b;Justin Carpentier <justin.carpentier@laas.fr>;1422441140;"[Minor] Update todo.txt
+
+Conflicts:
+	todo.txt
+"
+post;stack-of-tasks_pinocchio;4799290010cb6af6df00de10b1340020c8c39ab0;Justin Carpentier <justin.carpentier@laas.fr>;1422467421;"[Minor] Modify printing style
+"
+pre;agnwinds_python;758f610f629c5aa0bfba81ad63415059ede62118;Knox S. Long <long@stsci.edu>;1676407602;"Small fix for a type
+"
+pre;agnwinds_python;e45c4ac85cf283329013cbdac2b521e2746638bf;Knox S. Long <long@stsci.edu>;1677100143;"A small amount of cleanup.  One change would affect models
+with vertically extended disks slightly.
+"
+pre;agnwinds_python;ee13a3213c7d85558cc1eb15a4ec9785098a70bd;Knox S. Long <long@stsci.edu>;1677444876;"A comment on limb darkening
+"
+pre;agnwinds_python;9202f3251b68d7f3521310b67efe95d8b3d0e3f7;Knox S. Long <long@stsci.edu>;1678126072;"Modificaton to cdf.c to avoid failuures in cdf_get_rand due to round off errors
+"
+pre;agnwinds_python;60134899cceb0c0a82536134987c4f1e07b51bed;Knox S. Long <long@stsci.edu>;1678463617;"Merge branch 'dev' into xcompton
+"
+pre;agnwinds_python;664c88535bb64551389c2b8d83e3ebd04b3292e4;Knox S. Long <long@stsci.edu>;1678463749;"Change minor version
+"
+pre;agnwinds_python;84aef802daa20bbeb7ca36bc879c83f842e0ca2c;Knox S. Long <long@stsci.edu>;1678464158;"Smaall merge problem
+"
+pre;agnwinds_python;928d344e1162a464bc463a636fb70916906d746c;Knox S. Long <long@stsci.edu>;1678464788;"Xcompton (#998)
+
+* Move all of compton scattering into Compton.c
+
+* Adds the effect that accounts for the fact that a
+electron scattered photons ends get more photons toward it
+than going away
+
+* Add dipole scattering for compton scattering at low energies
+
+
+* Modification to cdf.c to avoid failures in cdf_get_rand due to round off errors associated with read-in arrays
+
+* Change minor version to 87a
+"
+pre;agnwinds_python;4a89c0e3bf5b646e5de5c2cd40d2488dee001740;Knox S. Long <long@stsci.edu>;1678735881;"Initial cleanup of routines
+"
+pre;agnwinds_python;635ec3f9de9c341f50bcce689306561a66e92c4b;Knox S. Long <long@stsci.edu>;1678905395;"Updates to rad_hydro_files to add columns
+"
+post;agnwinds_python;ff4cc84f5068454d2946235c5e75d9b1bc9ba5d3;Knox S. Long <long@stsci.edu>;1685656538;"Add some columnts to the heat.txt table
+
+The heat.txt table contains J for each cell.
+The columns addded print out J_direct and J_scatt
+in addition.
+"
+post;agnwinds_python;7979715bc0982b399ad6f73f6a4a938ca93554a6;Knox S. Long <long@stsci.edu>;1685657178;"Small updated to comments
+"
+post;agnwinds_python;070deb9ae0cee06f199e932ac02ded4180863c8d;Knox S. Long <long@stsci.edu>;1685796597;"Add python scripts necessary to create rtheta import grids
+with equal and unequal angle spacing.
+"
+post;agnwinds_python;a7337370f3eb66bc597a372d013281f18a50a289;Knox S. Long <long@stsci.edu>;1687285141;"Small change
+"
+post;agnwinds_python;3174734fb835b053ea094f287b4b88b34ae5b7da;jhmatthews <matthews@ast.cam.ac.uk>;1687328401;"tweaked wind model documentation structure
+"
+post;agnwinds_python;74679f59afea0a300b6b416cf5bea89e52d9e4db;Knox S. Long <long@stsci.edu>;1687447484;"Pluto (#1002)
+
+
+* Updates to rad_hydro_files to add columns
+
+* Add some columns to the heat.txt table
+
+The heat.txt table contains J for each cell.
+The columns addded print out J_direct and J_scatt
+in addition.
+
+* Add python scripts necessary to create rtheta import grids
+with equal and unequal angle spacing.
+"
+post;agnwinds_python;a5eea6ec47ebe8e4ab16b02f24d0fee52792ef93;Knox S. Long <long@stsci.edu>;1687448601;"Merge pull request #1003 from agnwinds/dev
+
+Dev into main "
+post;agnwinds_python;52886ae24d4542555c9fb4853021c97f3aa9a4e8;jhmatthews <matthews@ast.cam.ac.uk>;1687448747;"fix bug in diag IO, fixes #1004
+"
+post;agnwinds_python;0b869003574d329431b972e505f9b85a1a279095;jhmatthews <matthews@ast.cam.ac.uk>;1687878459;"fix for issue #1005
+"
+post;agnwinds_python;8484040bdf3186e0a8481a84eb2aadee93da4a3f;jhmatthews <matthews@ast.cam.ac.uk>;1689600048;"some docs updates
+"
+pre;csgillespie_powerlaw;85440609486dbb0a61b00c06a1003bc13341bd5e;Colin Gillespie <csgillespie@gmail.com>;1587716257;"Update .gitignore
+"
+pre;csgillespie_powerlaw;5753e204e9603d225fefb20710203aee16920b8d;Colin Gillespie <csgillespie@gmail.com>;1587716271;"Update Rproj file
+"
+pre;csgillespie_powerlaw;a9fa517dde741b569af5dde3e5813fcd14238bfc;Colin Gillespie <csgillespie@gmail.com>;1587716278;"Bump News
+"
+pre;csgillespie_powerlaw;3bc6563010eb78d06e5923d2b1029e33a5f44be4;Colin Gillespie <csgillespie@gmail.com>;1589921660;"Docs: Spelling
+"
+pre;csgillespie_powerlaw;90176e4aef53a31a4095f37321e0357b50e2e0ca;Colin Gillespie <csgillespie@gmail.com>;1589923749;"Code formatting.
+"
+pre;csgillespie_powerlaw;90bb715f355446e80b6c5359657721dab220624c;Colin Gillespie <csgillespie@gmail.com>;1589923942;"1. Catch extreme tail issues with lognornaml
+
+2. Minor performance optimisation
+---
+Closes #88
+"
+pre;csgillespie_powerlaw;97ad240628a3b97852bdceddb9e742a32c576982;Colin Gillespie <csgillespie@gmail.com>;1589924006;"Bump News/Description
+"
+pre;csgillespie_powerlaw;5fffab8e827fea9d385b8394721503770bd82a00;Colin Gillespie <csgillespie@gmail.com>;1589924105;"Merge pull request #90 from csgillespie/remoteerrors
+
+Tail issues in the lognormal"
+pre;csgillespie_powerlaw;f549d8cc682122090f9d1a3a6c8ba34e1ccbbcab;Colin Gillespie <csgillespie@gmail.com>;1637408702;"(test): adding GitHub Actions
+"
+pre;csgillespie_powerlaw;f42202c0860e20776a134a48ef19096a8d91e750;Colin Gillespie <csgillespie@gmail.com>;1637425068;"Merge f549d8cc682122090f9d1a3a6c8ba34e1ccbbcab into 5fffab8e827fea9d385b8394721503770bd82a00
+"
+post;csgillespie_powerlaw;ad80bcd3ef7da449f65482e5a636718df874d88d;Colin Gillespie <csgillespie@gmail.com>;1706183030;"fix: Package engine in vignette
+"
+post;csgillespie_powerlaw;5dd00c70b0cc255040698d51a3acdbd78532238e;Colin Gillespie <csgillespie@gmail.com>;1738507304;"chore: roxygen2 update
+"
+post;csgillespie_powerlaw;ce4d56827d91a5305afb9fc1f4293e977dc3f619;Colin Gillespie <csgillespie@gmail.com>;1738507379;Remove temp file
+post;csgillespie_powerlaw;fdca7becb138033370a2156f71c2b748d8b64e97;Colin Gillespie <csgillespie@gmail.com>;1738507379;Init orphan branch
+post;csgillespie_powerlaw;a55c901163e83180aad247b45569e27532855805;Colin Gillespie <csgillespie@gmail.com>;1738507440;"feat: Adding pkgdown
+"
+post;csgillespie_powerlaw;822ec9e64c524435e1619923d2a2b775be81cb65;Colin Gillespie <csgillespie@gmail.com>;1738508674;"GA test
+"
+post;csgillespie_powerlaw;73989c23bcb15706552c5735eac0aaa297479d52;Colin Gillespie <csgillespie@gmail.com>;1738509224;"feat: Adding pkgdown
+"
+post;csgillespie_powerlaw;495efe6a481270830b703b52d55cc2a8bfad2dd0;Colin Gillespie <csgillespie@gmail.com>;1738510201;"fix: Package engine in vignette (#103)
+
+* fix: Package engine in vignette
+* chore: roxygen2 update
+* feat: Adding pkgdown
+"
+post;csgillespie_powerlaw;dece0d4544dca9aaec4e2d70832b67a19d4d51c9;csgillespie <csgillespie@gmail.com>;1738510370;"Deploying to gh-pages from @ csgillespie/poweRlaw@495efe6a481270830b703b52d55cc2a8bfad2dd0 🚀
+"
+post;csgillespie_powerlaw;8021f68d7e0c3832a32b60414c3f65bf34ec86be;Colin Gillespie <csgillespie@gmail.com>;1738512903;"docs: Improve lognormal doc
+"

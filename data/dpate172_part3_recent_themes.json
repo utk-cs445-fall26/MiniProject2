@@ -1,0 +1,522 @@
+{
+  "ketch_nodepy": [
+    {
+      "commit_sha1": "0f071ac7b9cf41bcd27dedb614ab814fb0a98007",
+      "theme": "Documentation updates",
+      "reason": "Merge message names the README downloads-badge update."
+    },
+    {
+      "commit_sha1": "1ea45f786c297fbc1f73e8f4e531bf0d795dea6f",
+      "theme": "Bug fixes",
+      "reason": "The inspected diff improves the precision of existing SSP(5,4) coefficients."
+    },
+    {
+      "commit_sha1": "147d0828c75dd52c54be0a8271846103c2a15409",
+      "theme": "Documentation updates",
+      "reason": "Changes the README badge."
+    },
+    {
+      "commit_sha1": "0213db0f657f177cf7ca3a3f49d455204dfb7b11",
+      "theme": "Documentation updates",
+      "reason": "Fixes Sphinx formatting in low_storage_rk."
+    },
+    {
+      "commit_sha1": "053b14070c63744e1fb79cbd059c74a7742e3c3b",
+      "theme": "Documentation updates",
+      "reason": "Fixes documentation lint issues."
+    },
+    {
+      "commit_sha1": "18eda38f761e62eef6a142baf047d321b9d212b4",
+      "theme": "Documentation updates",
+      "reason": "Fixes Sphinx formatting in rooted_trees."
+    },
+    {
+      "commit_sha1": "4b9929ea78405d3036a339686bb6ed5588f1a9bd",
+      "theme": "Documentation updates",
+      "reason": "Fixes Sphinx formatting in linear_multistep_method."
+    },
+    {
+      "commit_sha1": "58fa51bc65d97f560c0458adb37a5654806e8798",
+      "theme": "Documentation updates",
+      "reason": "Corrects the documentation bibliography configuration."
+    },
+    {
+      "commit_sha1": "8833dc6c7cab91c864449ebff0ef12db527a914d",
+      "theme": "Documentation updates",
+      "reason": "Updates documentation links."
+    },
+    {
+      "commit_sha1": "8947eb594f34fcaa8d68f61342a3e5e34eb67abb",
+      "theme": "Documentation updates",
+      "reason": "Fixes tutorial formatting."
+    }
+  ],
+  "mouseland_suite2p": [
+    {
+      "commit_sha1": "dd98b4f2ecd9dc6e53250fbe90a4de493176fea6",
+      "theme": "Bug fixes",
+      "reason": "Merged PR explicitly fixes Python 3.11 and newer compatibility."
+    },
+    {
+      "commit_sha1": "cd6dc9d7d58823eae225616d9e0adca2b2594b8e",
+      "theme": "Bug fixes",
+      "reason": "Casts the time step to int to fix issue #1179."
+    },
+    {
+      "commit_sha1": "3472ced9b31ab83edf58fff53a0d080f27cea575",
+      "theme": "Bug fixes",
+      "reason": "Corrects the default model in the GUI and documentation."
+    },
+    {
+      "commit_sha1": "c4a3ecbcff725cfa91517e2a5289261e28eae6e6",
+      "theme": "Feature development",
+      "reason": "Adds support for Cellpose-SAM; bug resolutions are secondary to that new support."
+    },
+    {
+      "commit_sha1": "d2e3a9a4ed9b05f3ea9f70c7ce86bc85bd00cbe4",
+      "theme": "Bug fixes",
+      "reason": "Corrects GUI default parameters for the selected model."
+    },
+    {
+      "commit_sha1": "39f4ec0225c72937295924090be0b5847b7a4086",
+      "theme": "Bug fixes",
+      "reason": "Corrects traceback output to diagnose test failures."
+    },
+    {
+      "commit_sha1": "6b4e64c6f4299724447f65b7f221a79c54b0da69",
+      "theme": "Feature development",
+      "reason": "Enables Cellpose GPU usage when available."
+    },
+    {
+      "commit_sha1": "ee83979a391761394a044b60322778bbdc808d24",
+      "theme": "Documentation updates",
+      "reason": "Adds PyTorch GPU installation guidance."
+    },
+    {
+      "commit_sha1": "73e532321a8e5c4a0fea35cb508a96df2bc63848",
+      "theme": "Feature development",
+      "reason": "Configures CPSAM and its default options as part of new-model support."
+    },
+    {
+      "commit_sha1": "1860140982a8672f66dae1e976cfbe69ca610f6c",
+      "theme": "Dependency updates",
+      "reason": "Replaces the Cellpose3 dependency with Cellpose4."
+    }
+  ],
+  "esri_geoportal-server": [
+    {
+      "commit_sha1": "cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+      "theme": "Documentation updates",
+      "reason": "Updates the retired-project README."
+    },
+    {
+      "commit_sha1": "e0727d73fbd9730f9c3c8d023ec08b7ea9803ae5",
+      "theme": "Dependency updates",
+      "reason": "Human merge of the JSON library version bump."
+    },
+    {
+      "commit_sha1": "45e87dbee63941f8245f0b46ff17fa9d2f06680c",
+      "theme": "Automated bot contributions",
+      "reason": "Dependabot authors a JSON version bump."
+    },
+    {
+      "commit_sha1": "29a1c66ebfbcd8f44247fa73b96fed50f52aada1",
+      "theme": "Documentation updates",
+      "reason": "Updates README."
+    },
+    {
+      "commit_sha1": "ede7422b7281ba1d8216c6a8c1874b1285425ef0",
+      "theme": "Documentation updates",
+      "reason": "Updates the project website index."
+    },
+    {
+      "commit_sha1": "3c090d3f192b185323dff53a4438d50b0595d06a",
+      "theme": "Dependency updates",
+      "reason": "Human merge of a JSON library upgrade."
+    },
+    {
+      "commit_sha1": "ab6608b54b86ce9de9ab11240eb1b445bac3524b",
+      "theme": "Automated bot contributions",
+      "reason": "Dependabot authors the JSON upgrade."
+    },
+    {
+      "commit_sha1": "514a5e615fa7b34a1e40c832e9531867249893a0",
+      "theme": "Documentation updates",
+      "reason": "Updates README."
+    },
+    {
+      "commit_sha1": "993095cb3bf3bb577a72ef9fb88ca9e19f7af130",
+      "theme": "Dependency updates",
+      "reason": "Human merge of the commons-fileupload version bump."
+    },
+    {
+      "commit_sha1": "5bf37e01fb02c0a1021d6e0db4a4efe9de24660b",
+      "theme": "Documentation updates",
+      "reason": "Updates README."
+    }
+  ],
+  "microsoft_fhir-server": [
+    {
+      "commit_sha1": "23e51ea657838d73aafae7f2458fc5ba8b03fa1d",
+      "theme": "Bug fixes",
+      "reason": "PR #5168 describes an attempted fix for long validation lock waits: https://github.com/microsoft/fhir-server/pull/5168"
+    },
+    {
+      "commit_sha1": "17b590f76f444baeada0d14f27984bc5380b7949",
+      "theme": "Bug fixes",
+      "reason": "PR #5167 corrects transaction-cancellation handling from HTTP500 to HTTP408: https://github.com/microsoft/fhir-server/pull/5167"
+    },
+    {
+      "commit_sha1": "311152d5f9b4883d2008b333b867fd77cf00a13d",
+      "theme": "Bug fixes",
+      "reason": "Corrects include/revinclude SMART search behavior."
+    },
+    {
+      "commit_sha1": "6fd529d2d871865f07a38e3fe46baa223a3fe1a6",
+      "theme": "Bug fixes",
+      "reason": "Corrects relative paths in project-item files."
+    },
+    {
+      "commit_sha1": "06172b329e33ff82769ddc0b2f0455bf679142ae",
+      "theme": "Feature development",
+      "reason": "Implements the new $docref operation; accompanying fixes are part of its implementation."
+    },
+    {
+      "commit_sha1": "68b7e934aca9d1fbc0f5f45bd44104c9558b4a7f",
+      "theme": "Dependency updates",
+      "reason": "Human-authored GitHub Actions version updates."
+    },
+    {
+      "commit_sha1": "7d4f8b742eef234a4f16b5eaec6e5a2a17360e2d",
+      "theme": "Automated bot contributions",
+      "reason": "Dependabot authors the actions/labeler upgrade."
+    },
+    {
+      "commit_sha1": "07cec398e71e203193d1691ad0c4128c69211bd0",
+      "theme": "Dependency updates",
+      "reason": "Upgrades the healthcare shared package and related dependencies."
+    },
+    {
+      "commit_sha1": "08c4b4b43a85b30ad022d6849412797e8629cb42",
+      "theme": "Dependency updates",
+      "reason": "Migrates from legacy AzureAD PowerShell modules to Microsoft.Graph modules."
+    },
+    {
+      "commit_sha1": "a4bfe652819f3ce5d921ae73ede847c006fb4c83",
+      "theme": "Feature development",
+      "reason": "Adds a background service for cross-pod search-parameter synchronization."
+    }
+  ],
+  "rapidsai_cucim": [
+    {
+      "commit_sha1": "5568d3dfb45042393f3d56eafc72c5385f51af12",
+      "theme": "Automated bot contributions",
+      "reason": "gpuCI performs a release-branch forward merge."
+    },
+    {
+      "commit_sha1": "6bc5b8fb55b976bb7ce87dbc98c2aa9a4e156c51",
+      "theme": "Other",
+      "reason": "Primarily removes unused build configuration and references; hook updates are a secondary cleanup."
+    },
+    {
+      "commit_sha1": "e6f77ae0bccd5dca3ec2e2f787ef192faa30edc9",
+      "theme": "Other",
+      "reason": "An empty commit triggers an infrastructure rebuild rather than changing application code."
+    },
+    {
+      "commit_sha1": "cab2e744744295d53bfa04749407e7892d025933",
+      "theme": "Automated bot contributions",
+      "reason": "gpuCI performs a release-branch forward merge."
+    },
+    {
+      "commit_sha1": "3b38f06622f46291f040d120793487b2824b044c",
+      "theme": "Release",
+      "reason": "Configures generation of release notes."
+    },
+    {
+      "commit_sha1": "2603aecb2890c6106fc05734b1c0b469ae54ec94",
+      "theme": "Automated bot contributions",
+      "reason": "gpuCI performs a release-branch forward merge."
+    },
+    {
+      "commit_sha1": "9bbee2877c55c2fc087666312452c153a30fe3b5",
+      "theme": "Dependency updates",
+      "reason": "Declares the missing pip host dependency."
+    },
+    {
+      "commit_sha1": "dcc10009e4662ae310322b0066c5f5830c1d0983",
+      "theme": "Automated bot contributions",
+      "reason": "gpuCI performs a release-branch forward merge."
+    },
+    {
+      "commit_sha1": "42cf58f25b105dd2094cbd26c15ac2f498889211",
+      "theme": "Dependency updates",
+      "reason": "Changes libcufile dependency constraints and package variants."
+    },
+    {
+      "commit_sha1": "d6886afe9aa145a8c6776dae27c969d8a45a9ed8",
+      "theme": "Documentation updates",
+      "reason": "Updates documentation for version 25.12."
+    }
+  ],
+  "hpparvi_pytransit": [
+    {
+      "commit_sha1": "176937f878e41629b5728fb4edb649081d6c1927",
+      "theme": "Release",
+      "reason": "Updates the changelog and increases the package version."
+    },
+    {
+      "commit_sha1": "900ee53283b1830410e8918ff1c95749876c70af",
+      "theme": "Bug fixes",
+      "reason": "Improves TSModel numerical accuracy. The inspected model_trspec.py diff corrects the overlap-area approximation near the stellar limb."
+    },
+    {
+      "commit_sha1": "55d22ce9282f622ceb06655da07883dd8f8693d4",
+      "theme": "Documentation updates",
+      "reason": "Adds an example notebook explaining and visualizing TSModel errors."
+    },
+    {
+      "commit_sha1": "9da4f864bffb70afded741291f1f304fba30fd27",
+      "theme": "Feature development",
+      "reason": "Adds a configurable slope_order parameter for radial-velocity slope modeling."
+    },
+    {
+      "commit_sha1": "67e6f0e3c72ea3ceb77fdd5d585e7025e51c0d54",
+      "theme": "Bug fixes",
+      "reason": "Makes spectral-table readers explicitly return double-precision data, correcting their data-type handling."
+    },
+    {
+      "commit_sha1": "b6dd3202e2a61a463edb4bc3dba9790075f2b235",
+      "theme": "Bug fixes",
+      "reason": "Replaces an incompatible NumPy method call with ptp(fitc); the accompanying version bump is secondary to the compatibility repair."
+    },
+    {
+      "commit_sha1": "9a39e7162b93e9f61f8a79409606b8c1649fc750",
+      "theme": "Documentation updates",
+      "reason": "Updates installation documentation."
+    },
+    {
+      "commit_sha1": "8ac00f0aaf6f5181d0e2336c34b59889bba9a241",
+      "theme": "Bug fixes",
+      "reason": "The message explicitly describes a SciPy compatibility fix."
+    },
+    {
+      "commit_sha1": "65d2706c05114777d0b073bca599e9590a99236f",
+      "theme": "Other",
+      "reason": "Improves contamination tests without describing a new user feature or a specific defect repair."
+    },
+    {
+      "commit_sha1": "094655929481eab404c50896c7374f2663d1da10",
+      "theme": "Dependency updates",
+      "reason": "Changes pyrr from a required dependency to an optional dependency."
+    }
+  ],
+  "sundmanbo_opencalphad": [
+    {
+      "commit_sha1": "e1f8cb75310b58e6fac152254cdcc5c8e6f15152",
+      "theme": "Bug fixes",
+      "reason": "Corrects the wrong ionic-liquid phase name used by the map4 example."
+    },
+    {
+      "commit_sha1": "44e12f50c8cbd2d0151f386e85aab9b84bd50b47",
+      "theme": "Other",
+      "reason": "Describes moving to a new home computer and learning Makefiles, explicitly saying there are no real new changes."
+    },
+    {
+      "commit_sha1": "10e952378fea74b47b088505d3617306906d3869",
+      "theme": "Other",
+      "reason": "Corrects a date and deletes redundant files as repository housekeeping."
+    },
+    {
+      "commit_sha1": "4ba3419291a968ba8c970a2137f7ba5245b6d57d",
+      "theme": "Other",
+      "reason": "Removes two redundant Excel files used in MQMQA testing."
+    },
+    {
+      "commit_sha1": "21e2289d445529e72dc5ef8ae05f50eecf39c639",
+      "theme": "Other",
+      "reason": "Tests uploading from a new computer and explicitly reports no code changes."
+    },
+    {
+      "commit_sha1": "cb5ea7911511900da1e9b3678607cf43adda98e3",
+      "theme": "Feature development",
+      "reason": "Adds a PLOT APPEND feature that overlays a calculated diagram with points from an Excel CSV file."
+    },
+    {
+      "commit_sha1": "e408ea20867e1f939ca74cf77becc95128a7eb35",
+      "theme": "Bug fixes",
+      "reason": "Corrects MQMQA excess-parameter calculations involving multiple cations."
+    },
+    {
+      "commit_sha1": "cd8910af3b4b6598534ee1b398307554d246505c",
+      "theme": "Other",
+      "reason": "Tests the Linux installation script without identifying a specific defect or dependency change."
+    },
+    {
+      "commit_sha1": "f91327e62c55820db62cbe474b597ef85c04eab9",
+      "theme": "Feature development",
+      "reason": "Prepares XTDB format support to enable new Calphad models and features."
+    },
+    {
+      "commit_sha1": "b16e979380d9358ff57a24e70c5199d2f604f062",
+      "theme": "Bug fixes",
+      "reason": "Fixes a problem with disordered fraction sets and removes debug information."
+    }
+  ],
+  "stack-of-tasks_pinocchio": [
+    {
+      "commit_sha1": "dd81e6f046f6e342418e9a30920dc9a5ef23fb78",
+      "theme": "Dependency updates",
+      "reason": "A human-authored merge incorporates the prefix-dev/setup-pixi update from 0.9.0 to 0.9.1."
+    },
+    {
+      "commit_sha1": "3560aa4f844afac5cd34f98b847166d35288526a",
+      "theme": "Automated bot contributions",
+      "reason": "Dependabot authors the setup-pixi dependency-version update."
+    },
+    {
+      "commit_sha1": "268466cf7ebc5686201289b8951f260b46447802",
+      "theme": "Bug fixes",
+      "reason": "The otherwise sparse merge message identifies PR 2771, whose title is 'example-viser-viewer: fix erd path'. Source: https://github.com/stack-of-tasks/pinocchio/pull/2771"
+    },
+    {
+      "commit_sha1": "0e5a846c5a7479af4fe3cbde0891ba6ef4ff80e0",
+      "theme": "Documentation updates",
+      "reason": "Adds a changelog entry without stating a version bump or release operation."
+    },
+    {
+      "commit_sha1": "1a233d838ef5b0eb51dc6022b96712d1fc2a3fef",
+      "theme": "Dependency updates",
+      "reason": "Adds meshlab and viser to the Nix environment."
+    },
+    {
+      "commit_sha1": "36a04bddb6980a7bcd28ebcc55d4e442f7920d87",
+      "theme": "Bug fixes",
+      "reason": "Repairs the erd path used by the example Viser viewer."
+    },
+    {
+      "commit_sha1": "fb6514a491e35487c116b4b9af9fa4b9ba76fa5b",
+      "theme": "Dependency updates",
+      "reason": "A human-authored merge incorporates a flake.lock dependency-lock update."
+    },
+    {
+      "commit_sha1": "b05695dd67f02283663d27d8f6a5f417b3a4b8c1",
+      "theme": "Automated bot contributions",
+      "reason": "The github-actions bot authors the flake.lock update."
+    },
+    {
+      "commit_sha1": "833845c19af4a8dc6e9975c7fea3598c964318bd",
+      "theme": "Dependency updates",
+      "reason": "A human-authored merge incorporates the actions/checkout update from version 4 to 5."
+    },
+    {
+      "commit_sha1": "adbab4c78c21bb3999db16503ec31cf11dcb34e7",
+      "theme": "Automated bot contributions",
+      "reason": "Dependabot authors the actions/checkout major-version update."
+    }
+  ],
+  "agnwinds_python": [
+    {
+      "commit_sha1": "491e7981a7e0ae1f0ad6705dc0ed52ecef920b6b",
+      "theme": "Documentation updates",
+      "reason": "Expands the README documentation."
+    },
+    {
+      "commit_sha1": "e5a801446354e02025db79482cf08ae6bbafc35d",
+      "theme": "Documentation updates",
+      "reason": "Updates README.md."
+    },
+    {
+      "commit_sha1": "7b7f529b934290430497d37cc33688c4e33ff3d3",
+      "theme": "Release",
+      "reason": "Merges the named Python 88x version into the main branch."
+    },
+    {
+      "commit_sha1": "771684477d5fe83424b1a9708f856097c0f387b8",
+      "theme": "Bug fixes",
+      "reason": "Merges the identified istat-logic fix for bug 1093."
+    },
+    {
+      "commit_sha1": "8cfc8f3ca6f8dccb1516e08f172363cf487faf0b",
+      "theme": "Documentation updates",
+      "reason": "Resolves a documentation conflict."
+    },
+    {
+      "commit_sha1": "3ca79288a5f224e3c3de46bf323afcebbe698b3f",
+      "theme": "Release",
+      "reason": "Sets the version to 88x in preparation for the Sirocco name change."
+    },
+    {
+      "commit_sha1": "c96b6cdb952452fb40bcbe6f548b5ee61857c152",
+      "theme": "Bug fixes",
+      "reason": "Fixes istat logic in trans_phot for the explicitly referenced bug 1093."
+    },
+    {
+      "commit_sha1": "a88de457ae72b50578549c2a1fff5e2eb59b299a",
+      "theme": "Other",
+      "reason": "Generic development-branch synchronization merge with no stated substantive change."
+    },
+    {
+      "commit_sha1": "9a9cf310aadb4cdda4460254b30f11a0848c8513",
+      "theme": "Feature development",
+      "reason": "Adds source/windsave2fits.c in the inspected merge diff, alongside radiation-temperature changes and disk_diag fixes."
+    },
+    {
+      "commit_sha1": "8d3e35acc4407886044da25f55d218b1ce63fbbc",
+      "theme": "Bug fixes",
+      "reason": "The brief message says 'corrected'; the inspected estimators_simple.c diff restores assignment of the calculated radiation temperature to xplasma->t_r."
+    }
+  ],
+  "csgillespie_powerlaw": [
+    {
+      "commit_sha1": "46dd4a1769465f0e2447721d88b701c26844641e",
+      "theme": "Release",
+      "reason": "Explicitly prepares a CRAN release, including version changes, documentation, linting, and test fixes."
+    },
+    {
+      "commit_sha1": "495efe6a481270830b703b52d55cc2a8bfad2dd0",
+      "theme": "Bug fixes",
+      "reason": "The main stated change repairs the package engine used for the vignette; documentation-tool updates accompany that fix."
+    },
+    {
+      "commit_sha1": "5fffab8e827fea9d385b8394721503770bd82a00",
+      "theme": "Bug fixes",
+      "reason": "Merges the identified repair for lognormal tail issues."
+    },
+    {
+      "commit_sha1": "97ad240628a3b97852bdceddb9e742a32c576982",
+      "theme": "Release",
+      "reason": "Updates NEWS and DESCRIPTION; the inspected DESCRIPTION diff raises the package version from 0.70.6 to 0.70.6.9001."
+    },
+    {
+      "commit_sha1": "90bb715f355446e80b6c5359657721dab220624c",
+      "theme": "Bug fixes",
+      "reason": "Handles extreme lognormal tails and closes issue 88, with a secondary performance optimization."
+    },
+    {
+      "commit_sha1": "90176e4aef53a31a4095f37321e0357b50e2e0ca",
+      "theme": "Other",
+      "reason": "Formats code without identifying a behavior change."
+    },
+    {
+      "commit_sha1": "3bc6563010eb78d06e5923d2b1029e33a5f44be4",
+      "theme": "Documentation updates",
+      "reason": "Corrects spelling in documentation."
+    },
+    {
+      "commit_sha1": "a9fa517dde741b569af5dde3e5813fcd14238bfc",
+      "theme": "Release",
+      "reason": "The inspected NEWS.md diff adds the Version 0.70.6 release-note section describing its packaging changes."
+    },
+    {
+      "commit_sha1": "5753e204e9603d225fefb20710203aee16920b8d",
+      "theme": "Other",
+      "reason": "Updates the RStudio project configuration without describing a feature, defect, or dependency update."
+    },
+    {
+      "commit_sha1": "85440609486dbb0a61b00c06a1003bc13341bd5e",
+      "theme": "Other",
+      "reason": "Updates Git ignore rules as repository housekeeping."
+    }
+  ]
+}

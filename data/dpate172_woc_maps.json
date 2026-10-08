@@ -1,0 +1,1111 @@
+{
+  "data": [
+    {
+      "name": "A2a",
+      "sharding_bits": 0,
+      "version": "V2605",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "A2a",
+      "sharding_bits": 0,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "A2a",
+      "sharding_bits": 0,
+      "version": "U",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "A2a",
+      "sharding_bits": 0,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "A2a",
+      "sharding_bits": 0,
+      "version": "S",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2A",
+      "sharding_bits": 0,
+      "version": "V2605",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2A",
+      "sharding_bits": 0,
+      "version": "V0",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2A",
+      "sharding_bits": 0,
+      "version": "V3",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2A",
+      "sharding_bits": 0,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2A",
+      "sharding_bits": 0,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2A",
+      "sharding_bits": 0,
+      "version": "S",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2c",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "a2c",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "a2c",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "P2c",
+      "sharding_bits": 5,
+      "version": "V2605",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "P2c",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "P2c",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "P2c",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "P2p",
+      "sharding_bits": 0,
+      "version": "V2605",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2p",
+      "sharding_bits": 0,
+      "version": "V2510",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2p",
+      "sharding_bits": 0,
+      "version": "V2412",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2p",
+      "sharding_bits": 0,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2p",
+      "sharding_bits": 0,
+      "version": "U",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2p",
+      "sharding_bits": 0,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2p",
+      "sharding_bits": 0,
+      "version": "S",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2p",
+      "sharding_bits": 0,
+      "version": "R",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2P",
+      "sharding_bits": 0,
+      "version": "V2605",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2P",
+      "sharding_bits": 0,
+      "version": "V2510",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2P",
+      "sharding_bits": 0,
+      "version": "V2412",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2P",
+      "sharding_bits": 0,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2P",
+      "sharding_bits": 0,
+      "version": "U",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2P",
+      "sharding_bits": 0,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2P",
+      "sharding_bits": 0,
+      "version": "S",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2P",
+      "sharding_bits": 0,
+      "version": "R",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "A2c",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "A2c",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "A2P",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "A2P",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2A",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2A",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "A2b",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "A2b",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "A2fb",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "a2p",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2p",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2p",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2p",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2p",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "b2P",
+      "sharding_bits": 5,
+      "version": "V2605",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "b2P",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2b",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "b2BadDate",
+      "sharding_bits": 0,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "b2ManyP",
+      "sharding_bits": 0,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "b2ob",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "P2a",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2a",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "P2a",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2a",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2a",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2a",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2Aw100",
+      "sharding_bits": 0,
+      "version": "S",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "A2aw100",
+      "sharding_bits": 0,
+      "version": "S",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "po2pn",
+      "sharding_bits": 0,
+      "version": "V2412",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2b",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "c2b",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "a2P",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2P",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2P",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2P",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2P",
+      "sharding_bits": 5,
+      "version": "V2605",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2P",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2P",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2P",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "p2c",
+      "sharding_bits": 5,
+      "version": "V2605",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "p2c",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "bb2cf",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "h",
+        "cs3"
+      ]
+    },
+    {
+      "name": "bb2cf",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "h",
+        "cs3"
+      ]
+    },
+    {
+      "name": "b2fa",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "h",
+        "cs3"
+      ]
+    },
+    {
+      "name": "b2fa",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "h",
+        "cs3"
+      ]
+    },
+    {
+      "name": "b2A",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "A2f",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2p",
+      "sharding_bits": 5,
+      "version": "V2605",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2p",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2p",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2p",
+      "sharding_bits": 5,
+      "version": "V3",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2p",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2cc",
+      "sharding_bits": 5,
+      "version": "V2510",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "c2cc",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "c2pc",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "obb2cf",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "h",
+        "cs3"
+      ]
+    },
+    {
+      "name": "obb2cf",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "h",
+        "cs3"
+      ]
+    },
+    {
+      "name": "c2fbb",
+      "sharding_bits": 5,
+      "version": "V2412",
+      "dtypes": [
+        "h",
+        "cs3"
+      ]
+    },
+    {
+      "name": "a2fb",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "a2fb",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "a2f",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "a2f",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2dat",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "h",
+        "s"
+      ]
+    },
+    {
+      "name": "c2r",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "h",
+        "r"
+      ]
+    },
+    {
+      "name": "c2r",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "h",
+        "r"
+      ]
+    },
+    {
+      "name": "f2a",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2h",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "h",
+        "r"
+      ]
+    },
+    {
+      "name": "c2h",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "h",
+        "r"
+      ]
+    },
+    {
+      "name": "c2rhp",
+      "sharding_bits": 5,
+      "version": "U",
+      "dtypes": [
+        "h",
+        "hhwww"
+      ]
+    },
+    {
+      "name": "f2b",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "f2b",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "f2c",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "f2c",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "b2c",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "P2fb",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "s",
+        "h"
+      ]
+    },
+    {
+      "name": "b2tac",
+      "sharding_bits": 5,
+      "version": "V",
+      "dtypes": [
+        "h",
+        "cs3"
+      ]
+    },
+    {
+      "name": "t2c",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "c2f",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "h",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2ta",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "h",
+        "s"
+      ]
+    },
+    {
+      "name": "P2f",
+      "sharding_bits": 5,
+      "version": "T",
+      "dtypes": [
+        "s",
+        "cs"
+      ]
+    },
+    {
+      "name": "c2td",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "c2td",
+      "sharding_bits": 5,
+      "version": "R",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "b2tk",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "h",
+        "s"
+      ]
+    },
+    {
+      "name": "b2tk",
+      "sharding_bits": 5,
+      "version": "R",
+      "dtypes": [
+        "h",
+        "s"
+      ]
+    },
+    {
+      "name": "td2f",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "h",
+        "s"
+      ]
+    },
+    {
+      "name": "td2f",
+      "sharding_bits": 5,
+      "version": "R",
+      "dtypes": [
+        "h",
+        "s"
+      ]
+    },
+    {
+      "name": "td2c",
+      "sharding_bits": 5,
+      "version": "S",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "td2c",
+      "sharding_bits": 5,
+      "version": "R",
+      "dtypes": [
+        "h",
+        "h"
+      ]
+    },
+    {
+      "name": "c2aAcCt",
+      "sharding_bits": 5,
+      "version": "V2605",
+      "dtypes": [
+        "h",
+        "s"
+      ]
+    }
+  ]
+}

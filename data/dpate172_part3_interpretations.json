@@ -1,0 +1,1941 @@
+{
+  "projects": {
+    "ketch_nodepy": {
+      "gap": {
+        "start": "2023-10",
+        "end": "2024-08",
+        "length": 11
+      },
+      "post_author_comparison": {
+        "returning": [
+          "David Ketcheson <dketch@gmail.com>"
+        ],
+        "new": []
+      },
+      "pre": [
+        {
+          "commit_sha1": "bb3c774c9fcd4e390fa7b41225da9b2b9d55f77e",
+          "time": "1687453613",
+          "author": "Alexandru Fikl <alexfikl@gmail.com>",
+          "message": "docs: fix incorrectly escaped charaters\n",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/bb3c774c9fcd4e390fa7b41225da9b2b9d55f77e"
+        },
+        {
+          "commit_sha1": "053b14070c63744e1fb79cbd059c74a7742e3c3b",
+          "time": "1687454194",
+          "author": "Alexandru Fikl <alexfikl@gmail.com>",
+          "message": "docs: fix some issues found by sphinxlint\n",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/053b14070c63744e1fb79cbd059c74a7742e3c3b"
+        },
+        {
+          "commit_sha1": "7377b30b49308bd95da6973c9d06a28daa9390ad",
+          "time": "1687454194",
+          "author": "Alexandru Fikl <alexfikl@gmail.com>",
+          "message": "docs: fix some issues found by sphinxlint\n",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/7377b30b49308bd95da6973c9d06a28daa9390ad"
+        },
+        {
+          "commit_sha1": "0bc06110efa2f505335c2101ac4725b6fb1c4595",
+          "time": "1687454351",
+          "author": "Alexandru Fikl <alexfikl@gmail.com>",
+          "message": "docs: update some links found by linkcheck\n",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/0bc06110efa2f505335c2101ac4725b6fb1c4595"
+        },
+        {
+          "commit_sha1": "8833dc6c7cab91c864449ebff0ef12db527a914d",
+          "time": "1687454351",
+          "author": "Alexandru Fikl <alexfikl@gmail.com>",
+          "message": "docs: update some links found by linkcheck\n",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/8833dc6c7cab91c864449ebff0ef12db527a914d"
+        },
+        {
+          "commit_sha1": "8947eb594f34fcaa8d68f61342a3e5e34eb67abb",
+          "time": "1687455343",
+          "author": "Alexandru Fikl <alexfikl@gmail.com>",
+          "message": "docs: fix sphinx formatting in tutorials\n",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/8947eb594f34fcaa8d68f61342a3e5e34eb67abb"
+        },
+        {
+          "commit_sha1": "92abe8a0817ac460cec5b9222cffc6276361ebe5",
+          "time": "1687455343",
+          "author": "Alexandru Fikl <alexfikl@gmail.com>",
+          "message": "docs: fix sphinx formatting in tutorials\n",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/92abe8a0817ac460cec5b9222cffc6276361ebe5"
+        },
+        {
+          "commit_sha1": "693cd1d5ca776fc46f665d733fd965cd972bdd4e",
+          "time": "1687456941",
+          "author": "Alexandru Fikl <alexfikl@gmail.com>",
+          "message": "docs: fix doctests\n",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/693cd1d5ca776fc46f665d733fd965cd972bdd4e"
+        },
+        {
+          "commit_sha1": "a78dd5c5021a0dbf7952c3614996315dbed5a642",
+          "time": "1687456941",
+          "author": "Alexandru Fikl <alexfikl@gmail.com>",
+          "message": "docs: fix doctests\n",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/a78dd5c5021a0dbf7952c3614996315dbed5a642"
+        },
+        {
+          "commit_sha1": "147d0828c75dd52c54be0a8271846103c2a15409",
+          "time": "1693979164",
+          "author": "David Ketcheson <dketch@gmail.com>",
+          "message": "Update downloads badge in README.md",
+          "theme": "Documentation updates",
+          "reason": "Documentation fixes, links, doctests, or README badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/147d0828c75dd52c54be0a8271846103c2a15409"
+        }
+      ],
+      "post": [
+        {
+          "commit_sha1": "1ea45f786c297fbc1f73e8f4e531bf0d795dea6f",
+          "time": "1725434820",
+          "author": "David Ketcheson <dketch@gmail.com>",
+          "message": "Improved coefficients for SSP(5,4).\n",
+          "theme": "Bug fixes",
+          "reason": "Replaces low-precision SSP(5,4) coefficients; inspected diff confirms the accuracy correction.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/1ea45f786c297fbc1f73e8f4e531bf0d795dea6f"
+        },
+        {
+          "commit_sha1": "0f071ac7b9cf41bcd27dedb614ab814fb0a98007",
+          "time": "1725434842",
+          "author": "David Ketcheson <dketch@gmail.com>",
+          "message": "Merge branch 'master' of https://github.com/ketch/nodepy\n\n* 'master' of https://github.com/ketch/nodepy:\n  Update downloads badge in README.md\n",
+          "theme": "Documentation updates",
+          "reason": "Merge message explicitly lists the README downloads-badge update.",
+          "commit_url": "https://github.com/ketch/nodepy/commit/0f071ac7b9cf41bcd27dedb614ab814fb0a98007"
+        }
+      ],
+      "HypothesizedGapReason": "Likely occasional maintenance of an established research tool: all ten pre-gap messages concern documentation, ending with the README badge change [147d0828](https://github.com/ketch/nodepy/commit/147d0828c75dd52c54be0a8271846103c2a15409). The exact cause of the 11-month pause is not documented in the inspected evidence.",
+      "HasRecovered": "Partly: two commits on September 4, 2024; sustained recovery is not established.",
+      "WhyRecovered": "The visible trigger was a correction to SSP(5,4) coefficients ([1ea45f78](https://github.com/ketch/nodepy/commit/1ea45f786c297fbc1f73e8f4e531bf0d795dea6f)), followed by a README-related merge. Only these two post-gap records are available.",
+      "WhoRecovered": "David Ketcheson authored both post-gap commits and already appears before the gap, including [147d0828](https://github.com/ketch/nodepy/commit/147d0828c75dd52c54be0a8271846103c2a15409); no new raw author identity appears in this sample.",
+      "Notes": "NodePy has an 11-month gap after a run of documentation maintenance. David Ketcheson later corrected numerical coefficients, but only two post-gap commits are available. This supports a small return to maintenance, while the exact reason for the pause remains unclear.",
+      "reflection": "The 11-month gap follows documentation edits rather than a major feature change. The final pre-gap commit, [147d0828](https://github.com/ketch/nodepy/commit/147d0828c75dd52c54be0a8271846103c2a15409), changes a README badge, while the first return, [1ea45f78](https://github.com/ketch/nodepy/commit/1ea45f786c297fbc1f73e8f4e531bf0d795dea6f), improves numerical coefficients. That looks like occasional maintenance of a research tool, but it does not explain the maintainer's availability or priorities. The README at the boundary still invited contributions, and the inspected issue/PR searches did not identify an announcement explaining the pause. With only two later commits in Part 1, it would be too strong to call this a sustained recovery.",
+      "sources": [
+        {
+          "url": "https://github.com/ketch/nodepy/blob/147d0828c75dd52c54be0a8271846103c2a15409/README.md",
+          "title": "README before the gap",
+          "what_it_establishes": "Describes the research origins and invites contributions; it does not announce a shutdown."
+        },
+        {
+          "url": "https://github.com/ketch/nodepy/commit/1ea45f786c297fbc1f73e8f4e531bf0d795dea6f",
+          "title": "First post-gap change",
+          "what_it_establishes": "The diff increases SSP(5,4) coefficient precision."
+        }
+      ]
+    },
+    "mouseland_suite2p": {
+      "gap": {
+        "start": "2024-11",
+        "end": "2024-11",
+        "length": 1
+      },
+      "post_author_comparison": {
+        "returning": [
+          "Chris Ki <chriski777@berkeley.edu>",
+          "Chris Ki <cski@andrew.cmu.edu>",
+          "calebshibu <162204606+calebshibu@users.noreply.github.com>"
+        ],
+        "new": []
+      },
+      "pre": [
+        {
+          "commit_sha1": "d073f7c61d1335130db48facd38d344977a5fbc2",
+          "time": "1722517051",
+          "author": "unknown <carsen.stringer@gmail.com>",
+          "message": "fixing gui\n",
+          "theme": "Bug fixes",
+          "reason": "Repairs the GUI.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/d073f7c61d1335130db48facd38d344977a5fbc2"
+        },
+        {
+          "commit_sha1": "8679d1361a9e770ead1daad045ad734f695daddd",
+          "time": "1722524794",
+          "author": "carsen-stringer <carsen.stringer@gmail.com>",
+          "message": "fixing logging\n",
+          "theme": "Bug fixes",
+          "reason": "Repairs logging.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/8679d1361a9e770ead1daad045ad734f695daddd"
+        },
+        {
+          "commit_sha1": "8fc7f3f5f4342b00ebb9e0e5a463930d7dc666a7",
+          "time": "1722531439",
+          "author": "carsen-stringer <carsen.stringer@gmail.com>",
+          "message": "fixing rungui\n",
+          "theme": "Bug fixes",
+          "reason": "Repairs rungui.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/8fc7f3f5f4342b00ebb9e0e5a463930d7dc666a7"
+        },
+        {
+          "commit_sha1": "eb89266d78257f2b8c4b987d033c8b755c3e8d28",
+          "time": "1722531647",
+          "author": "Carsen Stringer <carsen.stringer@gmail.com>",
+          "message": "revert classifier keys\n",
+          "theme": "Bug fixes",
+          "reason": "Reverts classifier keys after surrounding GUI corrections.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/eb89266d78257f2b8c4b987d033c8b755c3e8d28"
+        },
+        {
+          "commit_sha1": "9837b8a738b650b4ef232ac5469e0d48cc7458bf",
+          "time": "1722532321",
+          "author": "carsen-stringer <carsen.stringer@gmail.com>",
+          "message": "add logger\n",
+          "theme": "Feature development",
+          "reason": "Adds a logger.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/9837b8a738b650b4ef232ac5469e0d48cc7458bf"
+        },
+        {
+          "commit_sha1": "c2620b7c7e9dd70859703293545b32a91c8a0b86",
+          "time": "1722537398",
+          "author": "Carsen Stringer <carsen.stringer@gmail.com>",
+          "message": "bug in preclassify\n",
+          "theme": "Bug fixes",
+          "reason": "Corrects preclassification.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/c2620b7c7e9dd70859703293545b32a91c8a0b86"
+        },
+        {
+          "commit_sha1": "69d5573feb7106bdc114e5cc55ff4f17f1bed2e0",
+          "time": "1722628352",
+          "author": "Ludovic Bellier <ludovic.bellier@gmail.com>",
+          "message": "fix frames_include\n",
+          "theme": "Bug fixes",
+          "reason": "Corrects frames_include.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/69d5573feb7106bdc114e5cc55ff4f17f1bed2e0"
+        },
+        {
+          "commit_sha1": "50f92df8be3b8a16a9dc5f2b9a2c71ea87614f3f",
+          "time": "1727289812",
+          "author": "Zach Ip <47134386+Zachary-Ip@users.noreply.github.com>",
+          "message": "Merge 69d5573feb7106bdc114e5cc55ff4f17f1bed2e0 into c88e1ba3aa2013fe379e64c7e45ae73a417eb4a7\n",
+          "theme": "Bug fixes",
+          "reason": "Merges the selected frames_include fix 69d5573f.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/50f92df8be3b8a16a9dc5f2b9a2c71ea87614f3f"
+        },
+        {
+          "commit_sha1": "7c8980dcae4de61cb7bc65380048260d444e8840",
+          "time": "1728703452",
+          "author": "ZL <lizm@ion.ac.cn>",
+          "message": "Fix file path handling when username contains spaces\n",
+          "theme": "Bug fixes",
+          "reason": "Corrects path handling for usernames containing spaces.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/7c8980dcae4de61cb7bc65380048260d444e8840"
+        },
+        {
+          "commit_sha1": "89701642946105ff6bb0f87deeb3a821ed1b1d47",
+          "time": "1728709971",
+          "author": "felixsmli <93766207+felixsmli@users.noreply.github.com>",
+          "message": "Merge 7c8980dcae4de61cb7bc65380048260d444e8840 into c88e1ba3aa2013fe379e64c7e45ae73a417eb4a7\n",
+          "theme": "Bug fixes",
+          "reason": "Merges the selected path-handling fix 7c8980dc.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/89701642946105ff6bb0f87deeb3a821ed1b1d47"
+        }
+      ],
+      "post": [
+        {
+          "commit_sha1": "7bb28c69e6c020c3c7ac963968563620045167af",
+          "time": "1735105177",
+          "author": "Chris Ki <cski@andrew.cmu.edu>",
+          "message": "Addresses #1144 to exclude user-specified bad frames from registration metric calculation\n",
+          "theme": "Bug fixes",
+          "reason": "Fixes bad-frame exclusion reported in issue #1144.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/7bb28c69e6c020c3c7ac963968563620045167af"
+        },
+        {
+          "commit_sha1": "cc576eb8bc182cbeb6c3cc5e64d7e8494d2c00cc",
+          "time": "1735106103",
+          "author": "Chris Ki <cski@andrew.cmu.edu>",
+          "message": "update print for registration_metric in pipeline function\n",
+          "theme": "Other",
+          "reason": "Adjusts diagnostic printing; the message does not establish a functional bug.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/cc576eb8bc182cbeb6c3cc5e64d7e8494d2c00cc"
+        },
+        {
+          "commit_sha1": "d9131eb3a3b69a451218160491ae4a45547ab9ac",
+          "time": "1735247444",
+          "author": "Chris Ki <chriski777@berkeley.edu>",
+          "message": "Update .gitignore to exclude data directories\n",
+          "theme": "Other",
+          "reason": "Changes .gitignore for local data directories.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/d9131eb3a3b69a451218160491ae4a45547ab9ac"
+        },
+        {
+          "commit_sha1": "2c4069586f5c84439124a3586a45488841417ef9",
+          "time": "1735249698",
+          "author": "Chris Ki <chriski777@berkeley.edu>",
+          "message": "Addresses #1149.\n",
+          "theme": "Bug fixes",
+          "reason": "Fixes HDF5 list handling described in issue #1149 and the maintainer reply.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/2c4069586f5c84439124a3586a45488841417ef9"
+        },
+        {
+          "commit_sha1": "0f72406c1b06b2ee5c4fa915518d3fc2bad905a4",
+          "time": "1735253628",
+          "author": "Chris Ki <chriski777@berkeley.edu>",
+          "message": "Update gui.rst to address #1021.\n",
+          "theme": "Documentation updates",
+          "reason": "Updates the GUI documentation.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/0f72406c1b06b2ee5c4fa915518d3fc2bad905a4"
+        },
+        {
+          "commit_sha1": "e0e4d6df3dd140af34c0af664b5e8c88fcb6eaa6",
+          "time": "1735510617",
+          "author": "Chris Ki <cski@andrew.cmu.edu>",
+          "message": "Update bug_report.yml",
+          "theme": "Documentation updates",
+          "reason": "Updates the bug-report template.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/e0e4d6df3dd140af34c0af664b5e8c88fcb6eaa6"
+        },
+        {
+          "commit_sha1": "9922f3bb5183c5c9569ef11a4131124ccd710858",
+          "time": "1735512563",
+          "author": "calebshibu <162204606+calebshibu@users.noreply.github.com>",
+          "message": "Merge 3e936d3d913acdfdd66f10367858d7c0fa3ccfdb into e0e4d6df3dd140af34c0af664b5e8c88fcb6eaa6\n",
+          "theme": "Other",
+          "reason": "Hash-only merge message gives no specific change category.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/9922f3bb5183c5c9569ef11a4131124ccd710858"
+        },
+        {
+          "commit_sha1": "ad7f77ce3edd508f420b8654366e090862c272d5",
+          "time": "1735780636",
+          "author": "Chris Ki <chriski777@berkeley.edu>",
+          "message": "Merge branch 'main' of https://github.com/MouseLand/suite2p into dev\n",
+          "theme": "Other",
+          "reason": "Generic main-to-dev branch merge.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/ad7f77ce3edd508f420b8654366e090862c272d5"
+        },
+        {
+          "commit_sha1": "b92b7fa24c9e153897ea50d9c5e6afdd124e7197",
+          "time": "1735780811",
+          "author": "Chris Ki <cski@andrew.cmu.edu>",
+          "message": "Update test_and_deploy.yml to debug macOS test issues",
+          "theme": "Bug fixes",
+          "reason": "Adjusts CI to debug macOS test problems.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/b92b7fa24c9e153897ea50d9c5e6afdd124e7197"
+        },
+        {
+          "commit_sha1": "e624e5e1bc51095e2393c116ca3d7ff9d51087c1",
+          "time": "1735780935",
+          "author": "Chris Ki <chriski777@berkeley.edu>",
+          "message": "Merge branch 'dev' of https://github.com/MouseLand/suite2p into dev\n",
+          "theme": "Other",
+          "reason": "Generic dev-branch merge.",
+          "commit_url": "https://github.com/MouseLand/suite2p/commit/e624e5e1bc51095e2393c116ca3d7ff9d51087c1"
+        }
+      ],
+      "HypothesizedGapReason": "A short maintenance lull is plausible because the only empty month is November 2024 and nearby commits repair GUI and input-handling problems. Issues #1144 and #1149 were open before the gap; they show pending work, but do not establish why committing paused.",
+      "HasRecovered": "Yes: commits resume in December 2024 and Part 1 contains 347 dated commits after the gap.",
+      "WhyRecovered": "The return addressed registration-metric issue #1144 ([7bb28c69](https://github.com/MouseLand/suite2p/commit/7bb28c69e6c020c3c7ac963968563620045167af)) and HDF5-input issue #1149 ([2c406958](https://github.com/MouseLand/suite2p/commit/2c4069586f5c84439124a3586a45488841417ef9)). Chris Ki confirmed those fixes in the linked issue discussions.",
+      "WhoRecovered": "Chris Ki wrote nine of the first ten post-gap commits using two existing email identities; calebshibu authored the other merge. All three raw author strings already occur in the full pre-gap history, although none is in the last-ten pre-gap sample.",
+      "Notes": "Suite2p has one empty month, followed by fixes to previously reported bugs. Chris Ki drives the immediate return, with the same raw identities already present earlier in the project. The issue discussions explain the work that resumed, but not why committing paused during November.",
+      "reflection": "The November 2024 gap is short, so it is hard to interpret it as abandonment. Most of the pre-gap sample fixes GUI, logging, and file-path problems. The first post-gap change ([7bb28c69](https://github.com/MouseLand/suite2p/commit/7bb28c69e6c020c3c7ac963968563620045167af)) fixes registration metrics, and another ([2c406958](https://github.com/MouseLand/suite2p/commit/2c4069586f5c84439124a3586a45488841417ef9)) handles lists of HDF5 files. [Issue #1144](https://github.com/MouseLand/suite2p/issues/1144) and [issue #1149](https://github.com/MouseLand/suite2p/issues/1149) were reported before the gap and closed when Chris Ki described the fixes in December. A temporary maintenance lull is a reasonable hypothesis; the discussions do not identify a staffing or funding cause. The 347 later dated records provide stronger evidence of continued work than the first ten commits alone.",
+      "sources": [
+        {
+          "url": "https://github.com/MouseLand/suite2p/issues/1144#issuecomment-2561634244",
+          "title": "Registration-metric fix",
+          "what_it_establishes": "On December 25, 2024 Chris Ki confirms the fix in dev and planned integration into main."
+        },
+        {
+          "url": "https://github.com/MouseLand/suite2p/issues/1149#issuecomment-2563121583",
+          "title": "HDF5-input fix",
+          "what_it_establishes": "On December 26, 2024 Chris Ki confirms the list/string input fix in dev."
+        }
+      ]
+    },
+    "esri_geoportal-server": {
+      "gap": {
+        "start": "2024-11",
+        "end": "2025-06",
+        "length": 8
+      },
+      "post_author_comparison": {
+        "returning": [
+          "Marten <mhogeweg@esri.com>"
+        ],
+        "new": []
+      },
+      "pre": [
+        {
+          "commit_sha1": "29a1c66ebfbcd8f44247fa73b96fed50f52aada1",
+          "time": "1686855036",
+          "author": "Jill Saligoe-Simmel <49758885+jsaligoe@users.noreply.github.com>",
+          "message": "Update README.md",
+          "theme": "Documentation updates",
+          "reason": "Updates README.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/29a1c66ebfbcd8f44247fa73b96fed50f52aada1"
+        },
+        {
+          "commit_sha1": "45e87dbee63941f8245f0b46ff17fa9d2f06680c",
+          "time": "1700004375",
+          "author": "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "message": "Bump org.json:json in /geoportal/maven/geoportal-jar\n\nBumps [org.json:json](https://github.com/douglascrockford/JSON-java) from 20230227 to 20231013.\n- [Release notes](https://github.com/douglascrockford/JSON-java/releases)\n- [Changelog](https://github.com/stleary/JSON-java/blob/master/docs/RELEASES.md)\n- [Commits](https://github.com/douglascrockford/JSON-java/commits)\n\n---\nupdated-dependencies:\n- dependency-name: org.json:json\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "theme": "Automated bot contributions",
+          "reason": "Dependabot authors the JSON dependency update.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/45e87dbee63941f8245f0b46ff17fa9d2f06680c"
+        },
+        {
+          "commit_sha1": "e0727d73fbd9730f9c3c8d023ec08b7ea9803ae5",
+          "time": "1700004671",
+          "author": "Marten <mhogeweg@esri.com>",
+          "message": "Merge pull request #342 from Esri/dependabot/maven/geoportal/maven/geoportal-jar/org.json-json-20231013\n\nBump org.json:json from 20230227 to 20231013 in /geoportal/maven/geoportal-jar",
+          "theme": "Dependency updates",
+          "reason": "Human merge of the JSON dependency update.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/e0727d73fbd9730f9c3c8d023ec08b7ea9803ae5"
+        },
+        {
+          "commit_sha1": "1a993b835114b35b11654c80c6bc2f482b10e116",
+          "time": "1708553658",
+          "author": "Marten Hogeweg <mhogeweg@esri.com>",
+          "message": "clean up old javadoc and fix 'current'\n",
+          "theme": "Documentation updates",
+          "reason": "Cleans up old Javadoc and its current link.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/1a993b835114b35b11654c80c6bc2f482b10e116"
+        },
+        {
+          "commit_sha1": "08219c463b02562464a23996474c7c703bc30ee0",
+          "time": "1708553913",
+          "author": "Marten Hogeweg <mhogeweg@esri.com>",
+          "message": "cleanup\n",
+          "theme": "Other",
+          "reason": "Only cleanup is stated; no specific feature or repair is identified.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/08219c463b02562464a23996474c7c703bc30ee0"
+        },
+        {
+          "commit_sha1": "a211f0bc8e0c3f5a8390048d30da2382f37eea3d",
+          "time": "1708554086",
+          "author": "Marten Hogeweg <mhogeweg@esri.com>",
+          "message": "fix && to ||\n",
+          "theme": "Bug fixes",
+          "reason": "Corrects the logical operator from AND to OR.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/a211f0bc8e0c3f5a8390048d30da2382f37eea3d"
+        },
+        {
+          "commit_sha1": "1f1c88dffed1875cedc28ce58b045d2c17f98fd8",
+          "time": "1709431803",
+          "author": "Aviv Keller <38299977+RedYetiDev@users.noreply.github.com>",
+          "message": "Prevent iFrame Injection",
+          "theme": "Security patches",
+          "reason": "Prevents iframe injection.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/1f1c88dffed1875cedc28ce58b045d2c17f98fd8"
+        },
+        {
+          "commit_sha1": "b135c8e7a8128163bd1862621b0a79520c4a7d3a",
+          "time": "1709431874",
+          "author": "Aviv Keller <38299977+RedYetiDev@users.noreply.github.com>",
+          "message": "Merge 1f1c88dffed1875cedc28ce58b045d2c17f98fd8 into a211f0bc8e0c3f5a8390048d30da2382f37eea3d\n",
+          "theme": "Security patches",
+          "reason": "Merges the selected iframe-injection fix 1f1c88df.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/b135c8e7a8128163bd1862621b0a79520c4a7d3a"
+        },
+        {
+          "commit_sha1": "ff88c6615e5acea1caf942a61791e97604302c1b",
+          "time": "1727981209",
+          "author": "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "message": "Bump commons-io:commons-io in /geoportal/maven/geoportal-jar\n\nBumps commons-io:commons-io from 2.7 to 2.14.0.\n\n---\nupdated-dependencies:\n- dependency-name: commons-io:commons-io\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "theme": "Automated bot contributions",
+          "reason": "Dependabot authors the commons-io update.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/ff88c6615e5acea1caf942a61791e97604302c1b"
+        },
+        {
+          "commit_sha1": "f65c9af9fec3891fe71ef55abb0a947f0505c266",
+          "time": "1727981211",
+          "author": "dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "message": "Merge ff88c6615e5acea1caf942a61791e97604302c1b into e0727d73fbd9730f9c3c8d023ec08b7ea9803ae5\n",
+          "theme": "Automated bot contributions",
+          "reason": "Dependabot authors the dependency-update merge.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/f65c9af9fec3891fe71ef55abb0a947f0505c266"
+        }
+      ],
+      "post": [
+        {
+          "commit_sha1": "cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+          "time": "1752006348",
+          "author": "Marten <mhogeweg@esri.com>",
+          "message": "Update README.md",
+          "theme": "Documentation updates",
+          "reason": "README reiterates retirement and points to successor projects.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b"
+        },
+        {
+          "commit_sha1": "3014a9ce2120bd33ddde44bd4dae139775ec3785",
+          "time": "1752367435",
+          "author": "Marten <mhogeweg@esri.com>",
+          "message": "Update index.html",
+          "theme": "Documentation updates",
+          "reason": "Inspected index.html diff changes project descriptions and badges, not application logic.",
+          "commit_url": "https://github.com/Esri/geoportal-server/commit/3014a9ce2120bd33ddde44bd4dae139775ec3785"
+        }
+      ],
+      "HypothesizedGapReason": "The repository is the retired Geoportal Server v1 archive. The README before and after the gap directs users to successor repositories and states that updates are not planned ([cd9bdd2f](https://github.com/Esri/geoportal-server/commit/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b)); this directly supports reduced development.",
+      "HasRecovered": "No sustained development recovery: only two documentation commits follow the gap in Part 1.",
+      "WhyRecovered": "Limited repository maintenance resumed: [cd9bdd2f](https://github.com/Esri/geoportal-server/commit/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b) revises retirement and successor information, and [3014a9ce](https://github.com/Esri/geoportal-server/commit/3014a9ce2120bd33ddde44bd4dae139775ec3785) adjusts the project website. Neither inspected diff adds application functionality.",
+      "WhoRecovered": "Marten Hogeweg, using the existing Marten <mhogeweg@esri.com> identity, authored both post-gap documentation commits. This identity also appears in the pre-gap JSON dependency merge e0727d73; the sample shows no new contributor taking over.",
+      "Notes": "Geoportal Server v1 is explicitly retired, which makes its eight-month gap easier to explain. The two later changes update the README and website instead of restarting application development. Its July 2025 README commit still qualifies it as Active under the assignment's six-month rule, showing the limit of that rule.",
+      "reflection": "The eight-month gap fits the repository's stated role as an archive. The [earlier README change](https://github.com/Esri/geoportal-server/commit/29a1c66ebfbcd8f44247fa73b96fed50f52aada1) already identifies v1 as retired. After the gap, [cd9bdd2f](https://github.com/Esri/geoportal-server/commit/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b) keeps that warning and points readers to successor projects, while [3014a9ce](https://github.com/Esri/geoportal-server/commit/3014a9ce2120bd33ddde44bd4dae139775ec3785) changes the website text and badges. This is easier to interpret than an unexplained pause: the maintainers have documented the move away from v1. The return is limited documentation maintenance by an existing contributor. The required date rule can still label this repository Active, so that label should not be read as proof that v1 feature development has restarted.",
+      "sources": [
+        {
+          "url": "https://github.com/Esri/geoportal-server/commit/29a1c66ebfbcd8f44247fa73b96fed50f52aada1",
+          "title": "README before the gap",
+          "what_it_establishes": "Already identifies version 1 as retired."
+        },
+        {
+          "url": "https://github.com/Esri/geoportal-server/commit/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+          "title": "README after the gap",
+          "what_it_establishes": "Reiterates archive status, no planned updates, and successor repositories."
+        },
+        {
+          "url": "https://github.com/Esri/geoportal-server/commit/3014a9ce2120bd33ddde44bd4dae139775ec3785",
+          "title": "Website update",
+          "what_it_establishes": "Changes descriptive text and badges rather than the application."
+        }
+      ]
+    },
+    "microsoft_fhir-server": {
+      "gap": {
+        "start": "",
+        "end": "",
+        "length": 0
+      },
+      "post_author_comparison": {
+        "returning": [],
+        "new": []
+      },
+      "pre": [],
+      "post": [],
+      "HypothesizedGapReason": "N/A active Project",
+      "HasRecovered": "N/A active Project",
+      "WhyRecovered": "N/A: all 88 observed months have dated commits, with at least 3 in each month.",
+      "WhoRecovered": "N/A: no gap separates a recovery cohort; no before/after authors are assigned.",
+      "Notes": "FHIR Server has commits in all 88 observed months, so there is no gap to explain or recovery to attribute. Activity is broadly steady across the main part of the timeline. The partial final month and 12 missing timestamps limit comparisons at the endpoint.",
+      "reflection": "Every one of the 88 observed months has at least 3 dated commits. FHIR Server has substantial activity throughout 2020\u20132024, with annual totals between 2,776 and 3,369. Its low final point is a partial November 2025 month, and 12 undated records are omitted. There is no longest gap to interpret, so before/after themes and recovery answers are not applicable. The recent GitHub sample is still useful for describing current work at the assignment cutoff. Monthly continuity only means that at least one commit was recorded in each month; it does not establish uninterrupted work every day.",
+      "sources": [
+        {
+          "url": "https://github.com/dhrumilp12/MiniProject2/blob/e935171d4f7592e9854ca8a75e59d05a53b69e4b/dpate172_commits_timeseries_microsoft_fhir-server.csv",
+          "title": "Part 2 monthly counts",
+          "what_it_establishes": "The saved monthly series has no zero-commit months."
+        }
+      ]
+    },
+    "rapidsai_cucim": {
+      "gap": {
+        "start": "",
+        "end": "",
+        "length": 0
+      },
+      "post_author_comparison": {
+        "returning": [],
+        "new": []
+      },
+      "pre": [],
+      "post": [],
+      "HypothesizedGapReason": "N/A active Project",
+      "HasRecovered": "N/A active Project",
+      "WhyRecovered": "N/A: all 63 observed months have dated commits, with at least 7 in each month.",
+      "WhoRecovered": "N/A: no gap separates a recovery cohort; no before/after authors are assigned.",
+      "Notes": "cuCIM has commits in all 63 observed months even though its yearly totals decline overall. Activity rises again in 2025, so lower volume does not mean the project became inactive. No gap or recovery cohort can be identified from this monthly series.",
+      "reflection": "Every one of the 63 observed months has at least 7 dated commits. cuCIM falls from 734 commits in 2022 to 488 in 2024, then rises to 555 in 2025. This supports a mild overall decline with a rebound, rather than an inactivity gap. There is no longest gap to interpret, so before/after themes and recovery answers are not applicable. The recent GitHub sample is still useful for describing current work at the assignment cutoff. Monthly continuity only means that at least one commit was recorded in each month; it does not establish uninterrupted work every day.",
+      "sources": [
+        {
+          "url": "https://github.com/dhrumilp12/MiniProject2/blob/e935171d4f7592e9854ca8a75e59d05a53b69e4b/dpate172_commits_timeseries_rapidsai_cucim.csv",
+          "title": "Part 2 monthly counts",
+          "what_it_establishes": "The saved monthly series has no zero-commit months."
+        }
+      ]
+    },
+    "hpparvi_pytransit": {
+      "gap": {
+        "start": "2015-06",
+        "end": "2015-12",
+        "length": 7
+      },
+      "pre": [
+        {
+          "commit_sha1": "4d3807a2ffc55ead7467eae289e95f951d047f97",
+          "time": "1430833915",
+          "author_date_utc": "2015-05-05T13:51:55Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Modified .travis.yml\n",
+          "theme": "Other",
+          "reason": "Human edits to Travis configuration; the message identifies CI maintenance, not an automated bot commit.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/4d3807a2ffc55ead7467eae289e95f951d047f97"
+        },
+        {
+          "commit_sha1": "90c3ae11c3a4aebb36d6cd40f227efca50915dc6",
+          "time": "1430833986",
+          "author_date_utc": "2015-05-05T13:53:06Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Modified .travis.yml\n",
+          "theme": "Other",
+          "reason": "Human edits to Travis configuration.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/90c3ae11c3a4aebb36d6cd40f227efca50915dc6"
+        },
+        {
+          "commit_sha1": "a2796335e346eb107c4add32d865d34e74b7697b",
+          "time": "1430834171",
+          "author_date_utc": "2015-05-05T13:56:11Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Modified .travis.yml\n",
+          "theme": "Other",
+          "reason": "Human edits to Travis configuration.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/a2796335e346eb107c4add32d865d34e74b7697b"
+        },
+        {
+          "commit_sha1": "fa4cf57ef535e6ed12e60cbdfe4abfa21e97c48d",
+          "time": "1430834855",
+          "author_date_utc": "2015-05-05T14:07:35Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Modified .travis.yml and README.md\n",
+          "theme": "Other",
+          "reason": "Mixed Travis and README maintenance; CI configuration is the principal named implementation change.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/fa4cf57ef535e6ed12e60cbdfe4abfa21e97c48d"
+        },
+        {
+          "commit_sha1": "9ce606ea33d735ad62c84c912e14c04eda4f3c13",
+          "time": "1430835620",
+          "author_date_utc": "2015-05-05T14:20:20Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Added a dummy .coveralls.yml file\n",
+          "theme": "Other",
+          "reason": "Adds a dummy coverage-service configuration file.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/9ce606ea33d735ad62c84c912e14c04eda4f3c13"
+        },
+        {
+          "commit_sha1": "f26c89adfb32771f319772449e79bbe144d975cb",
+          "time": "1430835798",
+          "author_date_utc": "2015-05-05T14:23:18Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Modified .travis.yml\n",
+          "theme": "Other",
+          "reason": "Human edits to Travis configuration.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/f26c89adfb32771f319772449e79bbe144d975cb"
+        },
+        {
+          "commit_sha1": "1e6aba5cecc668206865a1d21eb9e681ae9364f8",
+          "time": "1431688537",
+          "author_date_utc": "2015-05-15T11:15:37Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Update README.md",
+          "theme": "Documentation updates",
+          "reason": "Explicit README update.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/1e6aba5cecc668206865a1d21eb9e681ae9364f8"
+        },
+        {
+          "commit_sha1": "bc509c90494f5271846fbb2fb19f067e0be1eb51",
+          "time": "1432813439",
+          "author_date_utc": "2015-05-28T11:43:59Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Added GNU license headers to most of the source files.\n",
+          "theme": "Other",
+          "reason": "Adds license headers; licensing maintenance has no dedicated assignment theme.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/bc509c90494f5271846fbb2fb19f067e0be1eb51"
+        },
+        {
+          "commit_sha1": "796913a271dbc367dcd4debf5457b7aea6c6e6a1",
+          "time": "1432813456",
+          "author_date_utc": "2015-05-28T11:44:16Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Merge branch 'master' of https://github.com/hpparvi/PyTransit\n",
+          "theme": "Other",
+          "reason": "Generic branch merge without a stated feature or defect.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/796913a271dbc367dcd4debf5457b7aea6c6e6a1"
+        },
+        {
+          "commit_sha1": "5470c458647cdbe0e4a4ebddd2dd21853bee2b72",
+          "time": "1432815360",
+          "author_date_utc": "2015-05-28T12:16:00Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Update README.md",
+          "theme": "Documentation updates",
+          "reason": "Explicit README update.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/5470c458647cdbe0e4a4ebddd2dd21853bee2b72"
+        }
+      ],
+      "before_theme_counts": {
+        "Other": 8,
+        "Documentation updates": 2
+      },
+      "BeforeThemes": "Other:Documentation updates",
+      "post": [
+        {
+          "commit_sha1": "ba60c3080324344329fddbd0fbc114dd142465d9",
+          "time": "1452609794",
+          "author_date_utc": "2016-01-12T14:43:14Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "A simple fix for the bug occurring when z==k, needs to be improved.\n",
+          "theme": "Bug fixes",
+          "reason": "Explicitly fixes the z == k numerical case, matching issue 12.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/ba60c3080324344329fddbd0fbc114dd142465d9"
+        },
+        {
+          "commit_sha1": "3ae8da753f554733573303b04fcb45956304d608",
+          "time": "1452685147",
+          "author_date_utc": "2016-01-13T11:39:07Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Cleanup for the bugfix when z==k.\n",
+          "theme": "Bug fixes",
+          "reason": "Follow-up cleanup of the same z == k bug fix.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/3ae8da753f554733573303b04fcb45956304d608"
+        },
+        {
+          "commit_sha1": "18565a38f2b60a322bad4e32cac1c458f6e05d1c",
+          "time": "1452685188",
+          "author_date_utc": "2016-01-13T11:39:48Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Merge branch 'master' of https://github.com/hpparvi/PyTransit\n",
+          "theme": "Other",
+          "reason": "Generic master-branch merge without a stated feature or defect.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/18565a38f2b60a322bad4e32cac1c458f6e05d1c"
+        },
+        {
+          "commit_sha1": "fd6b3f8170e73b4e2f900986489f48e836eb55d6",
+          "time": "1452686763",
+          "author_date_utc": "2016-01-13T12:06:03Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Switched to use a faster routine for elliptic integrals.\n",
+          "theme": "Feature development",
+          "reason": "Introduces a faster elliptic-integral routine, a performance enhancement rather than a stated defect fix.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/fd6b3f8170e73b4e2f900986489f48e836eb55d6"
+        },
+        {
+          "commit_sha1": "45dd881c0ac6e6f5ab7a772c69eee3149edd833e",
+          "time": "1452688085",
+          "author_date_utc": "2016-01-13T12:28:05Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Minor cleanup and a proper attribution and references for the Bulirsch elliptical integral routine.\n",
+          "theme": "Documentation updates",
+          "reason": "Although the message mentions minor cleanup, its specific purpose is attribution and references for the numerical routine.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/45dd881c0ac6e6f5ab7a772c69eee3149edd833e"
+        },
+        {
+          "commit_sha1": "c1f3d2a7cd279cdbd0863e03275231d009f53a57",
+          "time": "1452688085",
+          "author_date_utc": "2016-01-13T12:28:05Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Minor cleanup and a proper attribution and references for the Bulirsch elliptical integral routine.\n",
+          "theme": "Documentation updates",
+          "reason": "Distinct SHA with the same attribution/reference message; retained and classified separately.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/c1f3d2a7cd279cdbd0863e03275231d009f53a57"
+        },
+        {
+          "commit_sha1": "264391de594ba7cb074989928484b420fcbf8868",
+          "time": "1452708644",
+          "author_date_utc": "2016-01-13T18:10:44Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Merge branch 'development' of https://github.com/hpparvi/PyTransit into development\n",
+          "theme": "Other",
+          "reason": "Generic development-branch merge.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/264391de594ba7cb074989928484b420fcbf8868"
+        },
+        {
+          "commit_sha1": "f386d3c3e568abbc9611f70fbd402478aa307fb3",
+          "time": "1452730679",
+          "author_date_utc": "2016-01-14T00:17:59Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Merge pull request #13 from OxES/master\n\nMerge pull request #2 from hpparvi/master",
+          "theme": "Other",
+          "reason": "Merge-only message; inspected PR 13 reports zero changed files.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/f386d3c3e568abbc9611f70fbd402478aa307fb3"
+        },
+        {
+          "commit_sha1": "f260e2a278b2706a0888083fd09a60810033200e",
+          "time": "1452730816",
+          "author_date_utc": "2016-01-14T00:20:16Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Merge pull request #3 from hpparvi/master\n\nblah",
+          "theme": "Other",
+          "reason": "Merge-only message with no identified functional purpose.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/f260e2a278b2706a0888083fd09a60810033200e"
+        },
+        {
+          "commit_sha1": "a56b9f646bb88a476450aecd15fe11f9ca6abb32",
+          "time": "1452857973",
+          "author_date_utc": "2016-01-15T11:39:33Z",
+          "author": "Hannu Parviainen <hpparvi@gmail.com>",
+          "message": "Corrected the version number in setup.py.\n",
+          "theme": "Release",
+          "reason": "Corrects the distributed version number in setup.py; release metadata maintenance.",
+          "commit_url": "https://github.com/hpparvi/PyTransit/commit/a56b9f646bb88a476450aecd15fe11f9ca6abb32"
+        }
+      ],
+      "after_theme_counts": {
+        "Other": 4,
+        "Bug fixes": 2,
+        "Documentation updates": 2,
+        "Feature development": 1,
+        "Release": 1
+      },
+      "AfterThemes": "Other:Bug fixes",
+      "post_author_comparison": {
+        "returning": [
+          "Hannu Parviainen <hpparvi@gmail.com>"
+        ],
+        "new": [],
+        "all_pre_gap_author_count": 1,
+        "post_sample_commits_by_author": {
+          "Hannu Parviainen <hpparvi@gmail.com>": 10
+        },
+        "comparison_rule": "Exact raw author string against every dated commit strictly before the gap; no person-level alias resolution."
+      },
+      "dated_commits_after_gap": 967,
+      "missing_timestamp_count": 0,
+      "HypothesizedGapReason": "Unknown. The last pre-gap commits handle CI, README text, and licensing; they do not explain the June\u2013December 2015 pause. A mature-package maintenance pause is plausible, but no inspected source documents the cause.",
+      "HasRecovered": "Yes",
+      "WhyRecovered": "The first two January 2016 commits fix the z == k defect recorded in GitHub issue 12; numerical performance and release metadata work follow. This identifies the work that resumed activity, not a proven explanation of the preceding pause.",
+      "WhoRecovered": "Returning author Hannu Parviainen <hpparvi@gmail.com> wrote all first 10 post-gap commits; no new raw author identity appears in that window.",
+      "Notes": "The seven-month gap is difficult to explain because the pre-gap messages do not announce a stop. Activity resumes with fixes for the z == k bug in issue 12, followed by other numerical maintenance. The same author supplies all ten sampled recovery commits, and the dataset contains 967 dated commits after the gap.",
+      "reflection": "PyTransit has a seven-month author-time gap from June through December 2015. Before it, eight sampled commits concern CI, licensing, or merges, and two update documentation. Neither those messages nor the [historical README](https://github.com/hpparvi/PyTransit/blob/5470c458647cdbe0e4a4ebddd2dd21853bee2b72/README.md) explains why work stopped, so a routine maintenance pause remains only a hypothesis. Recovery is easier to interpret: [issue 12](https://github.com/hpparvi/PyTransit/issues/12), opened during the gap, reports failure when z equals k; [the first post-gap commit](https://github.com/hpparvi/PyTransit/commit/ba60c3080324344329fddbd0fbc114dd142465d9) fixes that case, with a follow-up the next day. Hannu Parviainen wrote all ten sampled recovery commits and already appears before the gap. Other and Bug fixes are the leading post-gap themes after the stated tie-break. The 967 later dated commits show substantial continuation, although they do not reveal the personal or organizational cause of the original pause.",
+      "sources": [
+        {
+          "url": "https://github.com/hpparvi/PyTransit/issues/12",
+          "what_it_establishes": "Opened 2015-11-17 and closed 2016-01-13; reports the z == k defect addressed by the first post-gap commits.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/hpparvi/PyTransit/commit/ba60c3080324344329fddbd0fbc114dd142465d9",
+          "what_it_establishes": "First post-gap commit explicitly fixes the z == k case.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/hpparvi/PyTransit/pull/13",
+          "what_it_establishes": "Post-gap merge f386d3c belongs to PR 13, which reports zero changed files; supports a generic-merge classification.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/hpparvi/PyTransit/blob/5470c458647cdbe0e4a4ebddd2dd21853bee2b72/README.md",
+          "what_it_establishes": "Pre-gap README describes the package and installation; the inspected text contains no hiatus or retirement announcement.",
+          "inspected_date_utc": "2026-10-08"
+        }
+      ],
+      "caveats": [
+        "The absence of an announcement in inspected sources does not establish why the gap occurred.",
+        "Distinct SHAs sharing the same author time/message remain separate commits."
+      ],
+      "reflection_word_count": 124
+    },
+    "sundmanbo_opencalphad": {
+      "gap": {
+        "start": "2024-01",
+        "end": "2024-05",
+        "length": 5
+      },
+      "pre": [
+        {
+          "commit_sha1": "845ea243ab829a4c52d1a6303577f210f42210bf",
+          "time": "1678316505",
+          "author_date_utc": "2023-03-08T23:01:45Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "Minor fixes and start on a new CVM model\n",
+          "theme": "Feature development",
+          "reason": "Mixed minor fixes and the start of a new CVM model; new model development is the specific named purpose.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/845ea243ab829a4c52d1a6303577f210f42210bf"
+        },
+        {
+          "commit_sha1": "efda8a80e136588d95748c37ba175092fa5a5939",
+          "time": "1682358634",
+          "author_date_utc": "2023-04-24T17:50:34Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "updated the GEIN function and some more things\n",
+          "theme": "Feature development",
+          "reason": "Changes the GEIN model function; the inspected diff changes its argument convention and expands model handling.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/efda8a80e136588d95748c37ba175092fa5a5939"
+        },
+        {
+          "commit_sha1": "9c3bc9a8dd8863c835a059e1aa18744e3c9ad897",
+          "time": "1685196968",
+          "author_date_utc": "2023-05-27T14:16:08Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "Added command to calculate EET\n\nThe Equi-Entropy Criterion requires calculation of the T or composition a solid phase has the same entropy as the liquid.  This should be done automatically by the software to prevent solid to become stable when they are mechanically unstable but it can be nice to calculate this explicitly also\n",
+          "theme": "Feature development",
+          "reason": "Adds an explicit command to calculate the equi-entropy criterion.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/9c3bc9a8dd8863c835a059e1aa18744e3c9ad897"
+        },
+        {
+          "commit_sha1": "3fafa5809160276ca8907bb6f3413f345d3a6f2e",
+          "time": "1695044227",
+          "author_date_utc": "2023-09-18T13:37:07Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "First upload from new PC\n\nMacros steo-tzero and map19 updated and minor other changes\n",
+          "theme": "Other",
+          "reason": "General minor maintenance and an upload from a new computer, without one clear functional theme.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/3fafa5809160276ca8907bb6f3413f345d3a6f2e"
+        },
+        {
+          "commit_sha1": "9312c56e2895aa066d1a841fb9f4b8ebb152c382",
+          "time": "1696100005",
+          "author_date_utc": "2023-09-30T18:53:25Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "Added XML format output\n\nWith the new unary models and data the current TDB format is not suitable.  A new XML based format is discussed and has been added for testing.  Only output is available at present\n",
+          "theme": "Feature development",
+          "reason": "Introduces experimental XML database output.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/9312c56e2895aa066d1a841fb9f4b8ebb152c382"
+        },
+        {
+          "commit_sha1": "c6a23557240d4c4a4d8c2261f81c01648efd44fe",
+          "time": "1696163265",
+          "author_date_utc": "2023-10-01T12:27:45Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "Minor XML fix\n\nPrevent illegal XML characters\n",
+          "theme": "Bug fixes",
+          "reason": "Prevents illegal XML characters.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/c6a23557240d4c4a4d8c2261f81c01648efd44fe"
+        },
+        {
+          "commit_sha1": "ce6d922f031aa9243dde47498c24bb5d386bdf06",
+          "time": "1698164233",
+          "author_date_utc": "2023-10-24T16:17:13Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "fixed longtime bug for powers\n\nIn expressions T**-1 was wringly accepted as T**0 which can cause serious errors.  Now there is an error message and the TDB file must be manually corrected.\n",
+          "theme": "Bug fixes",
+          "reason": "Fixes incorrect interpretation of powers in thermodynamic expressions.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/ce6d922f031aa9243dde47498c24bb5d386bdf06"
+        },
+        {
+          "commit_sha1": "55f422c714e0d6577dff35757d83d44db18953e7",
+          "time": "1698573385",
+          "author_date_utc": "2023-10-29T09:56:25Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "Modified the AL-C example\n\nand a spelling error\n",
+          "theme": "Documentation updates",
+          "reason": "Updates the AL-C example and fixes a spelling error.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/55f422c714e0d6577dff35757d83d44db18953e7"
+        },
+        {
+          "commit_sha1": "7ad968aed26de7cd4bbd23cf5495686e97f84aa0",
+          "time": "1702730708",
+          "author_date_utc": "2023-12-16T12:45:08Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "Many minor updates\n\nPreparing for XML format\n",
+          "theme": "Feature development",
+          "reason": "Prepares XML-format implementation; the inspected diff adds a separate XML read/write include.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/7ad968aed26de7cd4bbd23cf5495686e97f84aa0"
+        },
+        {
+          "commit_sha1": "fc03e3e6b5ebc1fcf29d715f5065dd1f48dc3419",
+          "time": "1702730971",
+          "author_date_utc": "2023-12-16T12:49:31Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "Forgot liboctq.F90\n\nFix of a compilation error\n",
+          "theme": "Bug fixes",
+          "reason": "Explicitly fixes a compilation error caused by an omitted file.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/fc03e3e6b5ebc1fcf29d715f5065dd1f48dc3419"
+        }
+      ],
+      "before_theme_counts": {
+        "Feature development": 5,
+        "Bug fixes": 3,
+        "Documentation updates": 1,
+        "Other": 1
+      },
+      "BeforeThemes": "Feature development:Bug fixes",
+      "post": [
+        {
+          "commit_sha1": "bef99c408b9a59e75a5f374a88c2fbecff0456b8",
+          "time": "1718734985",
+          "author_date_utc": "2024-06-18T18:23:05Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "Start implementing multicomponent MQMQA\n\nAdded a gtp3XQ.F90 directory with all MQMQA routines\n",
+          "theme": "Feature development",
+          "reason": "Starts multicomponent MQMQA implementation and adds its routines.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/bef99c408b9a59e75a5f374a88c2fbecff0456b8"
+        },
+        {
+          "commit_sha1": "fc124e71a793fb5419ea2849ec02ddd56576ebd5",
+          "time": "1728232884",
+          "author_date_utc": "2024-10-06T16:41:24Z",
+          "author": "Bo Sundman <bo.sundman@gmail.com>",
+          "message": "Minor cleanup of old code, new example\n\nPreparation for major MQMQA implementation.  New example for prototype FCC ordering with SRO\n",
+          "theme": "Other",
+          "reason": "Mixed cleanup, routine reorganization, and an example while preparing a larger implementation; no single completed capability dominates the message.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/fc124e71a793fb5419ea2849ec02ddd56576ebd5"
+        },
+        {
+          "commit_sha1": "9d339d95d08227801f6007e5290b5b2ae5d9f4c6",
+          "time": "1728481365",
+          "author_date_utc": "2024-10-09T13:42:45Z",
+          "author": "zhongjingjogy <zhongjingjogy@gmail.com>",
+          "message": "update.\n",
+          "theme": "Other",
+          "reason": "The message only says update; there is insufficient evidence for a narrower theme.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/9d339d95d08227801f6007e5290b5b2ae5d9f4c6"
+        },
+        {
+          "commit_sha1": "39db22335dcd7933b41d9a2489cf718381132aad",
+          "time": "1728609317",
+          "author_date_utc": "2024-10-11T01:15:17Z",
+          "author": "zhongjingjogy <zhongjingjogy@gmail.com>",
+          "message": "compile success.\n",
+          "theme": "Other",
+          "reason": "Reports successful compilation, a build-maintenance result.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/39db22335dcd7933b41d9a2489cf718381132aad"
+        },
+        {
+          "commit_sha1": "4a7bec78b2142e5fe7cf9e3f031e1dadf3b38015",
+          "time": "1728611435",
+          "author_date_utc": "2024-10-11T01:50:35Z",
+          "author": "zhongjingjogy <zhongjingjogy@gmail.com>",
+          "message": "update: try add compile oc6p.\n",
+          "theme": "Other",
+          "reason": "Works on compiling oc6p, a build-maintenance change.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/4a7bec78b2142e5fe7cf9e3f031e1dadf3b38015"
+        },
+        {
+          "commit_sha1": "45883ec656031303765792c97334d101013deb3f",
+          "time": "1728611547",
+          "author_date_utc": "2024-10-11T01:52:27Z",
+          "author": "zhongjingjogy <zhongjingjogy@gmail.com>",
+          "message": "update.\n",
+          "theme": "Other",
+          "reason": "The message only says update; no narrower theme is justified.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/45883ec656031303765792c97334d101013deb3f"
+        },
+        {
+          "commit_sha1": "492c0c43ebf39fc612bb36d56ab6c7860c0ac467",
+          "time": "1728613450",
+          "author_date_utc": "2024-10-11T02:24:10Z",
+          "author": "zhongjingjogy <zhongjingjogy@gmail.com>",
+          "message": "update: test compile on linux.\n",
+          "theme": "Other",
+          "reason": "Tests compilation on Linux.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/492c0c43ebf39fc612bb36d56ab6c7860c0ac467"
+        },
+        {
+          "commit_sha1": "e5bcf20cb8b4a21f92a7407034dbd7c38b7b99ca",
+          "time": "1728616282",
+          "author_date_utc": "2024-10-11T03:11:22Z",
+          "author": "zhongjingjogy <zhongjingjogy@gmail.com>",
+          "message": "build oc by default.\n",
+          "theme": "Other",
+          "reason": "Changes the default build target.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/e5bcf20cb8b4a21f92a7407034dbd7c38b7b99ca"
+        },
+        {
+          "commit_sha1": "9f8e6c1934f3a46950bb620979f60e7bcae7f37c",
+          "time": "1728618661",
+          "author_date_utc": "2024-10-11T03:51:01Z",
+          "author": "zhongjingjogy <zhongjingjogy@gmail.com>",
+          "message": "enable github actions.\n",
+          "theme": "Other",
+          "reason": "A human enables GitHub Actions; configuring automation is not itself a bot contribution.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/9f8e6c1934f3a46950bb620979f60e7bcae7f37c"
+        },
+        {
+          "commit_sha1": "5405c9912169ef60974a952255db4933bde2c4c4",
+          "time": "1728622922",
+          "author_date_utc": "2024-10-11T05:02:02Z",
+          "author": "zhongjingjogy <zhongjingjogy@gmail.com>",
+          "message": "test.\n",
+          "theme": "Other",
+          "reason": "The message only says test; classified as unspecified test/maintenance work.",
+          "commit_url": "https://github.com/sundmanbo/opencalphad/commit/5405c9912169ef60974a952255db4933bde2c4c4"
+        }
+      ],
+      "after_theme_counts": {
+        "Other": 9,
+        "Feature development": 1
+      },
+      "AfterThemes": "Other:Feature development",
+      "post_author_comparison": {
+        "returning": [
+          "Bo Sundman <bo.sundman@gmail.com>"
+        ],
+        "new": [
+          "zhongjingjogy <zhongjingjogy@gmail.com>"
+        ],
+        "all_pre_gap_author_count": 16,
+        "post_sample_commits_by_author": {
+          "Bo Sundman <bo.sundman@gmail.com>": 2,
+          "zhongjingjogy <zhongjingjogy@gmail.com>": 8
+        },
+        "comparison_rule": "Exact raw author string against every dated commit strictly before the gap; no person-level alias resolution."
+      },
+      "dated_commits_after_gap": 59,
+      "missing_timestamp_count": 0,
+      "HypothesizedGapReason": "Limited maintainer time is a supported hypothesis, not a proven cause of the exact gap: the historical changes.txt describes slow development and part-time work during retirement in 2023, then acknowledges the long pause in its June 2024 entry.",
+      "HasRecovered": "Yes",
+      "WhyRecovered": "Commit bef99c4 and the June 18, 2024 changes.txt entry restart work on multicomponent MQMQA and Kohler\u2013Toop extrapolations. October commits then concentrate on compilation, tests, and CI; the first ten post-gap commits span June through October rather than continuous monthly activity.",
+      "WhoRecovered": "Bo Sundman <bo.sundman@gmail.com> returns for the first two post-gap commits. The remaining eight are by zhongjingjogy <zhongjingjogy@gmail.com>, a raw identity absent from all dated pre-gap history.",
+      "Notes": "The five-month gap is consistent with the maintainer\u2019s documented part-time development during retirement, although that does not prove the exact cause. Bo Sundman resumes model implementation in June 2024, and a new raw author identity later supplies build and CI work. Recovery is intermittent: the first ten post-gap commits extend into October.",
+      "reflection": "OpenCalphad has a five-month gap from January through May 2024 after model, XML-format, and bug-fix work. Its [historical change log](https://github.com/sundmanbo/opencalphad/blob/bef99c408b9a59e75a5f374a88c2fbecff0456b8/changes.txt) gives useful context: the maintainer described slow development and part-time work during retirement in 2023, then recorded renewed multicomponent MQMQA work in June 2024. Limited available time is therefore a reasonable hypothesis, but the log does not prove why each gap month was empty. Bo Sundman returns for two sampled commits; eight later commits come from the previously unseen raw identity zhongjingjogy and mostly address compilation, tests, and CI. This is intermittent recovery rather than an immediate steady stream. A [later comment about unsupported Python bindings](https://github.com/sundmanbo/opencalphad/issues/57#issuecomment-2395505367) also identifies competing tasks, but it was written in October and should not be treated as direct evidence of the earlier pause.",
+      "sources": [
+        {
+          "url": "https://github.com/sundmanbo/opencalphad/blob/bef99c408b9a59e75a5f374a88c2fbecff0456b8/changes.txt",
+          "what_it_establishes": "Entries describe slow/part-time development in 2023 and renewed MQMQA work on 2024-06-18; source of the limited-time hypothesis.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/sundmanbo/opencalphad/issues/57",
+          "what_it_establishes": "A May 29, 2024 question concerns the old Python interface; a same-day reply gives installation guidance, so issue discussion continued during the author-time gap.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/sundmanbo/opencalphad/issues/57#issuecomment-2395505367",
+          "what_it_establishes": "On October 6, Bo Sundman says Python support is unavailable because of other tasks; evidence of competing priorities after, not a direct explanation of, the gap.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/sundmanbo/opencalphad/commit/efda8a80e136588d95748c37ba175092fa5a5939",
+          "what_it_establishes": "Diff changes the GEIN argument convention and model handling, clarifying the vague pre-gap message.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/sundmanbo/opencalphad/commit/7ad968aed26de7cd4bbd23cf5495686e97f84aa0",
+          "what_it_establishes": "Diff separates XML routines into an included source file, supporting the XML development label.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/sundmanbo/opencalphad/commit/fc124e71a793fb5419ea2849ec02ddd56576ebd5",
+          "what_it_establishes": "Mixed routine reorganization, cleanup, and worked-example changes; supports a maintenance classification for this broad commit.",
+          "inspected_date_utc": "2026-10-08"
+        }
+      ],
+      "caveats": [
+        "Maintainer time constraints are a hypothesis for the exact January\u2013May gap, supported by nearby history rather than a statement naming those months.",
+        "First ten post-gap commits include a further lull between June and October."
+      ],
+      "reflection_word_count": 128
+    },
+    "stack-of-tasks_pinocchio": {
+      "gap": {
+        "start": "2014-12",
+        "end": "2014-12",
+        "length": 1
+      },
+      "pre": [
+        {
+          "commit_sha1": "0692a47dfcbe197c061ee12c73d2b8cb3dede139",
+          "time": "1415974483",
+          "author_date_utc": "2014-11-14T14:14:43Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Bullet-proofed the robotviewer client.\n",
+          "theme": "Bug fixes",
+          "reason": "Hardens the robotviewer client against failures.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/0692a47dfcbe197c061ee12c73d2b8cb3dede139"
+        },
+        {
+          "commit_sha1": "a92d06a9957de6cd593004a7896747bfba3f1c9b",
+          "time": "1415974483",
+          "author_date_utc": "2014-11-14T14:14:43Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Bullet-proofed the robotviewer client.\n",
+          "theme": "Bug fixes",
+          "reason": "Distinct SHA describing the same robotviewer robustness fix.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/a92d06a9957de6cd593004a7896747bfba3f1c9b"
+        },
+        {
+          "commit_sha1": "7f3c67f027c5ea717f8101adee467ae52c2d21f8",
+          "time": "1415974587",
+          "author_date_utc": "2014-11-14T14:16:27Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Models: IVIGIT Romeo properly sized model (for the lab).\n",
+          "theme": "Feature development",
+          "reason": "Adds the properly sized Romeo robot model; inspected diff adds model assets and configuration.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/7f3c67f027c5ea717f8101adee467ae52c2d21f8"
+        },
+        {
+          "commit_sha1": "a4ad1745bbd1bccb3ce256ba7783f6dc8e1ca084",
+          "time": "1415974587",
+          "author_date_utc": "2014-11-14T14:16:27Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Models: IVIGIT Romeo properly sized model (for the lab).\n",
+          "theme": "Feature development",
+          "reason": "Distinct SHA describing the same addition of a lab robot model.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/a4ad1745bbd1bccb3ce256ba7783f6dc8e1ca084"
+        },
+        {
+          "commit_sha1": "8bc49f19e287efbcdb1127da0610bdc446ee0a56",
+          "time": "1415977028",
+          "author_date_utc": "2014-11-14T14:57:08Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Corrected a major bug in the joint revolute (doubtlessly introduced by recent commit 941214).\n",
+          "theme": "Bug fixes",
+          "reason": "Explicit correction of a major revolute-joint bug.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/8bc49f19e287efbcdb1127da0610bdc446ee0a56"
+        },
+        {
+          "commit_sha1": "bfce9df8181bb4d904e6e42a50c58b59acce30bd",
+          "time": "1415977028",
+          "author_date_utc": "2014-11-14T14:57:08Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Corrected a major bug in the joint revolute (doubtlessly introduced by recent commit 941214).\n",
+          "theme": "Bug fixes",
+          "reason": "Distinct SHA describing the same explicit joint bug fix.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/bfce9df8181bb4d904e6e42a50c58b59acce30bd"
+        },
+        {
+          "commit_sha1": "0fb61c0ad766ed7ce15aa8e89c4e8b0cc384a2b5",
+          "time": "1415977104",
+          "author_date_utc": "2014-11-14T14:58:24Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Benchmark: repaired timings and introduce random reinit to comply with OS remarks.\nScores:\nRNEA = \t\t4.5206 us\nCRBA = \t\t5.29557 us\nCholesky = \t2.33944us\nJacobian = \t3.6358 us\nCOM+Jcom = \t3.95835 us\n",
+          "theme": "Bug fixes",
+          "reason": "Repairs benchmark timings and initialization.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/0fb61c0ad766ed7ce15aa8e89c4e8b0cc384a2b5"
+        },
+        {
+          "commit_sha1": "eba6c3f18721b165068151a382b299bdf1488103",
+          "time": "1415977104",
+          "author_date_utc": "2014-11-14T14:58:24Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Benchmark: repaired timings and introduce random reinit to comply with OS remarks.\nScores:\nRNEA = \t\t4.5206 us\nCRBA = \t\t5.29557 us\nCholesky = \t2.33944us\nJacobian = \t3.6358 us\nCOM+Jcom = \t3.95835 us\n",
+          "theme": "Bug fixes",
+          "reason": "Distinct SHA describing the same benchmark repair.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/eba6c3f18721b165068151a382b299bdf1488103"
+        },
+        {
+          "commit_sha1": "49c297d023e750ae6a786157d4f6d73e721be0d5",
+          "time": "1415997149",
+          "author_date_utc": "2014-11-14T20:32:29Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Revised the unitests, added some doc and created a \"check\" compilation rule. All unitests passed ok.\n",
+          "theme": "Other",
+          "reason": "Primarily unit-test and build-rule maintenance, with some documentation.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/49c297d023e750ae6a786157d4f6d73e721be0d5"
+        },
+        {
+          "commit_sha1": "5f423fbd95653e892cd894f5ff4d37284d5bb8e5",
+          "time": "1415997149",
+          "author_date_utc": "2014-11-14T20:32:29Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Revised the unitests, added some doc and created a \"check\" compilation rule. All unitests passed ok.\n",
+          "theme": "Other",
+          "reason": "Distinct SHA with the same unit-test/build-rule maintenance purpose.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/5f423fbd95653e892cd894f5ff4d37284d5bb8e5"
+        }
+      ],
+      "before_theme_counts": {
+        "Bug fixes": 6,
+        "Feature development": 2,
+        "Other": 2
+      },
+      "BeforeThemes": "Bug fixes:Feature development",
+      "post": [
+        {
+          "commit_sha1": "84c964d3285ce78a13b02c1a5745ed32ef42bd67",
+          "time": "1421009669",
+          "author_date_utc": "2015-01-11T20:54:29Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Lab: Modification for ISAE.\n",
+          "theme": "Documentation updates",
+          "reason": "Inspected diff changes teaching lab explanations and example solutions for ISAE.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/84c964d3285ce78a13b02c1a5745ed32ef42bd67"
+        },
+        {
+          "commit_sha1": "b432ae5fa46341247696ef77056b1a42127aa577",
+          "time": "1421009669",
+          "author_date_utc": "2015-01-11T20:54:29Z",
+          "author": "Mansard <nmansard@laas.fr>",
+          "message": "Lab: Modification for ISAE.\n",
+          "theme": "Documentation updates",
+          "reason": "Distinct SHA with the same teaching-lab update message and author time.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/b432ae5fa46341247696ef77056b1a42127aa577"
+        },
+        {
+          "commit_sha1": "6992790eb197f4101585940b9c26d7922b558c01",
+          "time": "1422290601",
+          "author_date_utc": "2015-01-26T16:43:21Z",
+          "author": "Justin Carpentier <justin.carpentier@laas.fr>",
+          "message": "Merge with upstream\n",
+          "theme": "Other",
+          "reason": "Generic upstream merge.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/6992790eb197f4101585940b9c26d7922b558c01"
+        },
+        {
+          "commit_sha1": "a9d4f005464729757802ed3f273b818d213582b5",
+          "time": "1422290609",
+          "author_date_utc": "2015-01-26T16:43:29Z",
+          "author": "Justin Carpentier <jcarpent@laas.fr>",
+          "message": "Merge 6992790eb197f4101585940b9c26d7922b558c01 into b432ae5fa46341247696ef77056b1a42127aa577\n",
+          "theme": "Other",
+          "reason": "Generic SHA-to-SHA merge without a stated feature or defect.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/a9d4f005464729757802ed3f273b818d213582b5"
+        },
+        {
+          "commit_sha1": "f4d2046c7bf01cb12f3993b507b5416324ed8e09",
+          "time": "1422304982",
+          "author_date_utc": "2015-01-26T20:43:02Z",
+          "author": "Justin Carpentier <justin.carpentier@laas.fr>",
+          "message": "[Minor] Cosmetic changes in CMakeLists: add categories for headers\n",
+          "theme": "Other",
+          "reason": "Cosmetic build-file organization.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/f4d2046c7bf01cb12f3993b507b5416324ed8e09"
+        },
+        {
+          "commit_sha1": "01676a727afa98397756e74a0ee2b8b549837ccb",
+          "time": "1422308885",
+          "author_date_utc": "2015-01-26T21:48:05Z",
+          "author": "Justin Carpentier <justin.carpentier@laas.fr>",
+          "message": "[Minor] Update preprocessor macro\n",
+          "theme": "Other",
+          "reason": "Preprocessor-macro maintenance without a stated new capability or defect.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/01676a727afa98397756e74a0ee2b8b549837ccb"
+        },
+        {
+          "commit_sha1": "cec43e7db525c85ed94e5f79c933c7c444bda909",
+          "time": "1422363914",
+          "author_date_utc": "2015-01-27T13:05:14Z",
+          "author": "Justin Carpentier <justin.carpentier@laas.fr>",
+          "message": "[Minor] Correct variable initialization\n",
+          "theme": "Bug fixes",
+          "reason": "Corrects variable initialization.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/cec43e7db525c85ed94e5f79c933c7c444bda909"
+        },
+        {
+          "commit_sha1": "a4766125de766c730026bac88d69babcfd4f6e4b",
+          "time": "1422441062",
+          "author_date_utc": "2015-01-28T10:31:02Z",
+          "author": "Justin Carpentier <justin.carpentier@laas.fr>",
+          "message": "[Debug] Correct contructor ConstraintTpl + add default constraint of dimension 3\n",
+          "theme": "Bug fixes",
+          "reason": "Primarily corrects the ConstraintTpl constructor; the added default constraint accompanies the fix.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/a4766125de766c730026bac88d69babcfd4f6e4b"
+        },
+        {
+          "commit_sha1": "d49b99b1a79c05ce97ad7f19a319c5e66ea9b90b",
+          "time": "1422441140",
+          "author_date_utc": "2015-01-28T10:32:20Z",
+          "author": "Justin Carpentier <justin.carpentier@laas.fr>",
+          "message": "[Minor] Update todo.txt\n\nConflicts:\n\ttodo.txt\n",
+          "theme": "Documentation updates",
+          "reason": "Updates the developer TODO document.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/d49b99b1a79c05ce97ad7f19a319c5e66ea9b90b"
+        },
+        {
+          "commit_sha1": "4799290010cb6af6df00de10b1340020c8c39ab0",
+          "time": "1422467421",
+          "author_date_utc": "2015-01-28T17:50:21Z",
+          "author": "Justin Carpentier <justin.carpentier@laas.fr>",
+          "message": "[Minor] Modify printing style\n",
+          "theme": "Other",
+          "reason": "Printing-style maintenance without a stated defect or new capability.",
+          "commit_url": "https://github.com/stack-of-tasks/pinocchio/commit/4799290010cb6af6df00de10b1340020c8c39ab0"
+        }
+      ],
+      "after_theme_counts": {
+        "Other": 5,
+        "Documentation updates": 3,
+        "Bug fixes": 2
+      },
+      "AfterThemes": "Other:Documentation updates",
+      "post_author_comparison": {
+        "returning": [
+          "Justin Carpentier <jcarpent@laas.fr>",
+          "Justin Carpentier <justin.carpentier@laas.fr>",
+          "Mansard <nmansard@laas.fr>"
+        ],
+        "new": [],
+        "all_pre_gap_author_count": 4,
+        "post_sample_commits_by_author": {
+          "Mansard <nmansard@laas.fr>": 2,
+          "Justin Carpentier <justin.carpentier@laas.fr>": 7,
+          "Justin Carpentier <jcarpent@laas.fr>": 1
+        },
+        "comparison_rule": "Exact raw author string against every dated commit strictly before the gap; no person-level alias resolution."
+      },
+      "dated_commits_after_gap": 11320,
+      "missing_timestamp_count": 0,
+      "HypothesizedGapReason": "Unknown brief pause. December 2014 is the only month in the longest zero run, shorter than the three-month threshold for counted inactivity gaps; inspected boundary messages and README do not identify a cause.",
+      "HasRecovered": "Yes",
+      "WhyRecovered": "The first January 2015 author-dated commits revise teaching labs for ISAE; subsequent commits handle upstream merges, build configuration, and initialization/constructor fixes. This is continuation of development, not evidence of a formally announced revival.",
+      "WhoRecovered": "All first-ten post-gap raw identities already occur before the gap: Mansard <nmansard@laas.fr> and Justin Carpentier using both <justin.carpentier@laas.fr> and <jcarpent@laas.fr>. No new raw identity appears in the sample.",
+      "Notes": "The longest zero run is only December 2014, so Pinocchio has no inactivity gap of at least three months. Returning contributors resume teaching-lab updates and routine development, but no inspected source explains the brief pause. The first selected commit has a January author date and March committer date, so the author-time plot is not an integration timeline.",
+      "reflection": "Pinocchio\u2019s longest zero run is December 2014, only one month, and it has no gap meeting the three-month inactivity threshold. The pre-gap sample emphasizes robustness fixes and a lab robot model; the post-gap sample emphasizes routine maintenance and teaching documentation. The [first selected post-gap change](https://github.com/stack-of-tasks/pinocchio/commit/84c964d3285ce78a13b02c1a5745ed32ef42bd67) revises ISAE lab material, while the [boundary README](https://github.com/stack-of-tasks/pinocchio/blob/84c964d3285ce78a13b02c1a5745ed32ef42bd67/README.md) gives no explanation for the pause. Calling it abandonment would overstate this evidence. Mansard and both sampled Justin Carpentier identities already occur in pre-gap history. A timing caveat matters: the first commit\u2019s author date is January 11, but its committer date is March 30, so author-time recovery is not necessarily the public integration date. The 11,320 later dated commits show extensive continuation, while the cause of that single empty month remains unknown.",
+      "sources": [
+        {
+          "url": "https://github.com/stack-of-tasks/pinocchio/commit/84c964d3285ce78a13b02c1a5745ed32ef42bd67",
+          "what_it_establishes": "Inspected diff revises lab/inverse-kinematics and lab/solution2 teaching material. Exact local Git object separately confirms different author and committer dates.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/stack-of-tasks/pinocchio/commit/7f3c67f027c5ea717f8101adee467ae52c2d21f8",
+          "what_it_establishes": "Inspected diff adds Romeo robot model assets and configuration.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/stack-of-tasks/pinocchio/blob/5f423fbd95653e892cd894f5ff4d37284d5bb8e5/README.md",
+          "what_it_establishes": "Pre-gap README provides setup/use information without a hiatus announcement.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/stack-of-tasks/pinocchio/blob/84c964d3285ce78a13b02c1a5745ed32ef42bd67/README.md",
+          "what_it_establishes": "Post-gap README has the same blob hash as the inspected pre-gap README; no explicit restart statement appears.",
+          "inspected_date_utc": "2026-10-08"
+        }
+      ],
+      "caveats": [
+        "The one-month zero run is below the assignment\u2019s three-month gap-count threshold.",
+        "Duplicate-looking messages at distinct SHAs are retained.",
+        "Commit 84c964d has author timestamp 1421009669 (2015-01-11T20:54:29Z) and committer timestamp 1427730821 (2015-03-30T15:53:41Z)."
+      ],
+      "reflection_word_count": 125
+    },
+    "agnwinds_python": {
+      "gap": {
+        "start": "2023-04",
+        "end": "2023-05",
+        "length": 2
+      },
+      "pre": [
+        {
+          "commit_sha1": "758f610f629c5aa0bfba81ad63415059ede62118",
+          "time": "1676407602",
+          "author_date_utc": "2023-02-14T20:46:42Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Small fix for a type\n",
+          "theme": "Bug fixes",
+          "reason": "The message explicitly reports a small fix; it does not identify a documentation-only change.",
+          "commit_url": "https://github.com/agnwinds/python/commit/758f610f629c5aa0bfba81ad63415059ede62118"
+        },
+        {
+          "commit_sha1": "e45c4ac85cf283329013cbdac2b521e2746638bf",
+          "time": "1677100143",
+          "author_date_utc": "2023-02-22T21:09:03Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "A small amount of cleanup.  One change would affect models\nwith vertically extended disks slightly.\n",
+          "theme": "Other",
+          "reason": "General cleanup with an unspecified slight model effect; no specific defect or feature is stated.",
+          "commit_url": "https://github.com/agnwinds/python/commit/e45c4ac85cf283329013cbdac2b521e2746638bf"
+        },
+        {
+          "commit_sha1": "ee13a3213c7d85558cc1eb15a4ec9785098a70bd",
+          "time": "1677444876",
+          "author_date_utc": "2023-02-26T20:54:36Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "A comment on limb darkening\n",
+          "theme": "Documentation updates",
+          "reason": "Adds or changes a comment explaining limb darkening.",
+          "commit_url": "https://github.com/agnwinds/python/commit/ee13a3213c7d85558cc1eb15a4ec9785098a70bd"
+        },
+        {
+          "commit_sha1": "9202f3251b68d7f3521310b67efe95d8b3d0e3f7",
+          "time": "1678126072",
+          "author_date_utc": "2023-03-06T18:07:52Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Modificaton to cdf.c to avoid failuures in cdf_get_rand due to round off errors\n",
+          "theme": "Bug fixes",
+          "reason": "Avoids cdf_get_rand failures caused by round-off errors.",
+          "commit_url": "https://github.com/agnwinds/python/commit/9202f3251b68d7f3521310b67efe95d8b3d0e3f7"
+        },
+        {
+          "commit_sha1": "60134899cceb0c0a82536134987c4f1e07b51bed",
+          "time": "1678463617",
+          "author_date_utc": "2023-03-10T15:53:37Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Merge branch 'dev' into xcompton\n",
+          "theme": "Other",
+          "reason": "Generic merge into the xcompton branch.",
+          "commit_url": "https://github.com/agnwinds/python/commit/60134899cceb0c0a82536134987c4f1e07b51bed"
+        },
+        {
+          "commit_sha1": "664c88535bb64551389c2b8d83e3ebd04b3292e4",
+          "time": "1678463749",
+          "author_date_utc": "2023-03-10T15:55:49Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Change minor version\n",
+          "theme": "Release",
+          "reason": "Changes the minor version number.",
+          "commit_url": "https://github.com/agnwinds/python/commit/664c88535bb64551389c2b8d83e3ebd04b3292e4"
+        },
+        {
+          "commit_sha1": "84aef802daa20bbeb7ca36bc879c83f842e0ca2c",
+          "time": "1678464158",
+          "author_date_utc": "2023-03-10T16:02:38Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Smaall merge problem\n",
+          "theme": "Bug fixes",
+          "reason": "Addresses an explicitly stated merge problem.",
+          "commit_url": "https://github.com/agnwinds/python/commit/84aef802daa20bbeb7ca36bc879c83f842e0ca2c"
+        },
+        {
+          "commit_sha1": "928d344e1162a464bc463a636fb70916906d746c",
+          "time": "1678464788",
+          "author_date_utc": "2023-03-10T16:13:08Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Xcompton (#998)\n\n* Move all of compton scattering into Compton.c\r\n\r\n* Adds the effect that accounts for the fact that a\r\nelectron scattered photons ends get more photons toward it\r\nthan going away\r\n\r\n* Add dipole scattering for compton scattering at low energies\r\n\r\n\r\n* Modification to cdf.c to avoid failures in cdf_get_rand due to round off errors associated with read-in arrays\r\n\r\n* Change minor version to 87a\r\n",
+          "theme": "Feature development",
+          "reason": "Primarily adds physical Compton/dipole-scattering behavior; the long message also lists fixes and a version change.",
+          "commit_url": "https://github.com/agnwinds/python/commit/928d344e1162a464bc463a636fb70916906d746c"
+        },
+        {
+          "commit_sha1": "4a89c0e3bf5b646e5de5c2cd40d2488dee001740",
+          "time": "1678735881",
+          "author_date_utc": "2023-03-13T19:31:21Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Initial cleanup of routines\n",
+          "theme": "Other",
+          "reason": "Initial cleanup of routines without a specific functional purpose.",
+          "commit_url": "https://github.com/agnwinds/python/commit/4a89c0e3bf5b646e5de5c2cd40d2488dee001740"
+        },
+        {
+          "commit_sha1": "635ec3f9de9c341f50bcce689306561a66e92c4b",
+          "time": "1678905395",
+          "author_date_utc": "2023-03-15T18:36:35Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Updates to rad_hydro_files to add columns\n",
+          "theme": "Feature development",
+          "reason": "Adds output columns to rad_hydro_files.",
+          "commit_url": "https://github.com/agnwinds/python/commit/635ec3f9de9c341f50bcce689306561a66e92c4b"
+        }
+      ],
+      "before_theme_counts": {
+        "Bug fixes": 3,
+        "Other": 3,
+        "Feature development": 2,
+        "Documentation updates": 1,
+        "Release": 1
+      },
+      "BeforeThemes": "Bug fixes:Other",
+      "post": [
+        {
+          "commit_sha1": "ff4cc84f5068454d2946235c5e75d9b1bc9ba5d3",
+          "time": "1685656538",
+          "author_date_utc": "2023-06-01T21:55:38Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Add some columnts to the heat.txt table\n\nThe heat.txt table contains J for each cell.\nThe columns addded print out J_direct and J_scatt\nin addition.\n",
+          "theme": "Feature development",
+          "reason": "Adds J_direct and J_scatt output columns to heat.txt.",
+          "commit_url": "https://github.com/agnwinds/python/commit/ff4cc84f5068454d2946235c5e75d9b1bc9ba5d3"
+        },
+        {
+          "commit_sha1": "7979715bc0982b399ad6f73f6a4a938ca93554a6",
+          "time": "1685657178",
+          "author_date_utc": "2023-06-01T22:06:18Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Small updated to comments\n",
+          "theme": "Documentation updates",
+          "reason": "Updates comments.",
+          "commit_url": "https://github.com/agnwinds/python/commit/7979715bc0982b399ad6f73f6a4a938ca93554a6"
+        },
+        {
+          "commit_sha1": "070deb9ae0cee06f199e932ac02ded4180863c8d",
+          "time": "1685796597",
+          "author_date_utc": "2023-06-03T12:49:57Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Add python scripts necessary to create rtheta import grids\nwith equal and unequal angle spacing.\n",
+          "theme": "Feature development",
+          "reason": "Adds scripts for equal- and unequal-angle rtheta import grids.",
+          "commit_url": "https://github.com/agnwinds/python/commit/070deb9ae0cee06f199e932ac02ded4180863c8d"
+        },
+        {
+          "commit_sha1": "a7337370f3eb66bc597a372d013281f18a50a289",
+          "time": "1687285141",
+          "author_date_utc": "2023-06-20T18:19:01Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Small change\n",
+          "theme": "Other",
+          "reason": "The message only says Small change; insufficient evidence for another theme.",
+          "commit_url": "https://github.com/agnwinds/python/commit/a7337370f3eb66bc597a372d013281f18a50a289"
+        },
+        {
+          "commit_sha1": "3174734fb835b053ea094f287b4b88b34ae5b7da",
+          "time": "1687328401",
+          "author_date_utc": "2023-06-21T06:20:01Z",
+          "author": "jhmatthews <matthews@ast.cam.ac.uk>",
+          "message": "tweaked wind model documentation structure\n",
+          "theme": "Documentation updates",
+          "reason": "Reorganizes wind-model documentation.",
+          "commit_url": "https://github.com/agnwinds/python/commit/3174734fb835b053ea094f287b4b88b34ae5b7da"
+        },
+        {
+          "commit_sha1": "74679f59afea0a300b6b416cf5bea89e52d9e4db",
+          "time": "1687447484",
+          "author_date_utc": "2023-06-22T15:24:44Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Pluto (#1002)\n\n\r\n* Updates to rad_hydro_files to add columns\r\n\r\n* Add some columns to the heat.txt table\r\n\r\nThe heat.txt table contains J for each cell.\r\nThe columns addded print out J_direct and J_scatt\r\nin addition.\r\n\r\n* Add python scripts necessary to create rtheta import grids\r\nwith equal and unequal angle spacing.\r\n",
+          "theme": "Feature development",
+          "reason": "PR 1002 combines new radiation-hydrodynamics output and grid-generation capabilities.",
+          "commit_url": "https://github.com/agnwinds/python/commit/74679f59afea0a300b6b416cf5bea89e52d9e4db"
+        },
+        {
+          "commit_sha1": "a5eea6ec47ebe8e4ab16b02f24d0fee52792ef93",
+          "time": "1687448601",
+          "author_date_utc": "2023-06-22T15:43:21Z",
+          "author": "Knox S. Long <long@stsci.edu>",
+          "message": "Merge pull request #1003 from agnwinds/dev\n\nDev into main ",
+          "theme": "Other",
+          "reason": "Generic dev-to-main integration with no specific feature or defect in the message.",
+          "commit_url": "https://github.com/agnwinds/python/commit/a5eea6ec47ebe8e4ab16b02f24d0fee52792ef93"
+        },
+        {
+          "commit_sha1": "52886ae24d4542555c9fb4853021c97f3aa9a4e8",
+          "time": "1687448747",
+          "author_date_utc": "2023-06-22T15:45:47Z",
+          "author": "jhmatthews <matthews@ast.cam.ac.uk>",
+          "message": "fix bug in diag IO, fixes #1004\n",
+          "theme": "Bug fixes",
+          "reason": "Explicit diagnostic-I/O bug fix referring to issue 1004.",
+          "commit_url": "https://github.com/agnwinds/python/commit/52886ae24d4542555c9fb4853021c97f3aa9a4e8"
+        },
+        {
+          "commit_sha1": "0b869003574d329431b972e505f9b85a1a279095",
+          "time": "1687878459",
+          "author_date_utc": "2023-06-27T15:07:39Z",
+          "author": "jhmatthews <matthews@ast.cam.ac.uk>",
+          "message": "fix for issue #1005\n",
+          "theme": "Bug fixes",
+          "reason": "Explicit fix referring to issue 1005.",
+          "commit_url": "https://github.com/agnwinds/python/commit/0b869003574d329431b972e505f9b85a1a279095"
+        },
+        {
+          "commit_sha1": "8484040bdf3186e0a8481a84eb2aadee93da4a3f",
+          "time": "1689600048",
+          "author_date_utc": "2023-07-17T13:20:48Z",
+          "author": "jhmatthews <matthews@ast.cam.ac.uk>",
+          "message": "some docs updates\n",
+          "theme": "Documentation updates",
+          "reason": "Explicit documentation updates.",
+          "commit_url": "https://github.com/agnwinds/python/commit/8484040bdf3186e0a8481a84eb2aadee93da4a3f"
+        }
+      ],
+      "after_theme_counts": {
+        "Feature development": 3,
+        "Documentation updates": 3,
+        "Bug fixes": 2,
+        "Other": 2
+      },
+      "AfterThemes": "Feature development:Documentation updates",
+      "post_author_comparison": {
+        "returning": [
+          "Knox S. Long <long@stsci.edu>",
+          "jhmatthews <matthews@ast.cam.ac.uk>"
+        ],
+        "new": [],
+        "all_pre_gap_author_count": 70,
+        "post_sample_commits_by_author": {
+          "Knox S. Long <long@stsci.edu>": 6,
+          "jhmatthews <matthews@ast.cam.ac.uk>": 4
+        },
+        "comparison_rule": "Exact raw author string against every dated commit strictly before the gap; no person-level alias resolution."
+      },
+      "dated_commits_after_gap": 634,
+      "missing_timestamp_count": 1,
+      "HypothesizedGapReason": "Unknown short pause: April\u2013May 2023 is below the three-month inactivity-gap threshold. Messages before and after it continue the same scientific-development work; the October 2024 rename to Sirocco happened later and does not explain this gap.",
+      "HasRecovered": "Yes",
+      "WhyRecovered": "June 2023 commits add radiation-hydrodynamics output columns and grid-generation scripts, followed by documentation and bug fixes. Preserved PR 1002 describes Knox\u2019s rad-hydro work and has the exact merge SHA 74679f5 present in the post-gap sample.",
+      "WhoRecovered": "Returning raw identities Knox S. Long <long@stsci.edu> and jhmatthews <matthews@ast.cam.ac.uk> supply the first ten post-gap commits; neither is new relative to all dated pre-gap history.",
+      "Notes": "The two-month zero run is below the three-month inactivity threshold, and its cause is undocumented. Returning contributors resume radiation-hydrodynamics features, documentation, and fixes; preserved PR 1002 confirms the feature work. One missing timestamp could change the measured gap, and the later Sirocco rename should not be mistaken for its cause.",
+      "reflection": "The agnwinds/python series has a two-month zero run in April\u2013May 2023, shorter than the three-month inactivity threshold. Before it, the sample combines fixes, cleanup, and scattering or output features; afterward, features and documentation lead. [PR 998](https://github.com/sirocco-rt/sirocco/pull/998) preserves the pre-gap scattering work, and [PR 1002](https://github.com/sirocco-rt/sirocco/pull/1002) describes Knox\u2019s radiation-hydrodynamics updates, matching the sampled June merge SHA. This supports continued research-driven development, but it does not explain why two months contain no dated commits. Knox S. Long and jhmatthews both appear before the gap, so the sampled recovery is by returning contributors. The [repository README](https://github.com/agnwinds/python/blob/main/README.md) explains the later October 2024 move to Sirocco; that change is not a cause of the 2023 gap. One commit lacks an author timestamp, so the measured empty run could change if its date becomes available.",
+      "sources": [
+        {
+          "url": "https://github.com/sirocco-rt/sirocco/pull/998",
+          "what_it_establishes": "Preserved March 2023 Xcompton PR has merge SHA 928d344, exactly matching the pre-gap sample.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/sirocco-rt/sirocco/pull/1002",
+          "what_it_establishes": "Preserved PR created and merged 2023-06-22 describes Knox\u2019s rad-hydro updates and has merge SHA 74679f5, exactly matching the post-gap sample.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/agnwinds/python/blob/main/README.md",
+          "what_it_establishes": "Explains that the project was renamed Sirocco in October 2024, old Python 88x releases remain archived, and development continues in the successor repository; this is later than the measured gap.",
+          "inspected_date_utc": "2026-10-08"
+        }
+      ],
+      "caveats": [
+        "One identifier-only commit has no timestamp and cannot be placed relative to the gap; recovering its timestamp could shorten or remove the gap.",
+        "The two-month zero run is below the assignment\u2019s three-month gap-count threshold.",
+        "Historical PRs are cited in the documented successor repository; exact merge SHA matches connect them to the assigned WoC project."
+      ],
+      "reflection_word_count": 128
+    },
+    "csgillespie_powerlaw": {
+      "gap": {
+        "start": "2021-12",
+        "end": "2023-12",
+        "length": 25
+      },
+      "pre": [
+        {
+          "commit_sha1": "85440609486dbb0a61b00c06a1003bc13341bd5e",
+          "time": "1587716257",
+          "author_date_utc": "2020-04-24T08:17:37Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Update .gitignore\n",
+          "theme": "Other",
+          "reason": "Repository ignore-file maintenance.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/85440609486dbb0a61b00c06a1003bc13341bd5e"
+        },
+        {
+          "commit_sha1": "5753e204e9603d225fefb20710203aee16920b8d",
+          "time": "1587716271",
+          "author_date_utc": "2020-04-24T08:17:51Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Update Rproj file\n",
+          "theme": "Other",
+          "reason": "R project configuration maintenance.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/5753e204e9603d225fefb20710203aee16920b8d"
+        },
+        {
+          "commit_sha1": "a9fa517dde741b569af5dde3e5813fcd14238bfc",
+          "time": "1587716278",
+          "author_date_utc": "2020-04-24T08:17:58Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Bump News\n",
+          "theme": "Release",
+          "reason": "Bumps NEWS as release preparation.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/a9fa517dde741b569af5dde3e5813fcd14238bfc"
+        },
+        {
+          "commit_sha1": "3bc6563010eb78d06e5923d2b1029e33a5f44be4",
+          "time": "1589921660",
+          "author_date_utc": "2020-05-19T20:54:20Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Docs: Spelling\n",
+          "theme": "Documentation updates",
+          "reason": "Corrects documentation spelling.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/3bc6563010eb78d06e5923d2b1029e33a5f44be4"
+        },
+        {
+          "commit_sha1": "90176e4aef53a31a4095f37321e0357b50e2e0ca",
+          "time": "1589923749",
+          "author_date_utc": "2020-05-19T21:29:09Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Code formatting.\n",
+          "theme": "Other",
+          "reason": "Code formatting maintenance.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/90176e4aef53a31a4095f37321e0357b50e2e0ca"
+        },
+        {
+          "commit_sha1": "90bb715f355446e80b6c5359657721dab220624c",
+          "time": "1589923942",
+          "author_date_utc": "2020-05-19T21:32:22Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "1. Catch extreme tail issues with lognornaml\n\n2. Minor performance optimisation\n---\nCloses #88\n",
+          "theme": "Bug fixes",
+          "reason": "Fixes extreme-tail lognormal failures; the message also notes a small optimization.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/90bb715f355446e80b6c5359657721dab220624c"
+        },
+        {
+          "commit_sha1": "97ad240628a3b97852bdceddb9e742a32c576982",
+          "time": "1589924006",
+          "author_date_utc": "2020-05-19T21:33:26Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Bump News/Description\n",
+          "theme": "Release",
+          "reason": "Bumps NEWS and DESCRIPTION release metadata.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/97ad240628a3b97852bdceddb9e742a32c576982"
+        },
+        {
+          "commit_sha1": "5fffab8e827fea9d385b8394721503770bd82a00",
+          "time": "1589924105",
+          "author_date_utc": "2020-05-19T21:35:05Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Merge pull request #90 from csgillespie/remoteerrors\n\nTail issues in the lognormal",
+          "theme": "Bug fixes",
+          "reason": "Merge explicitly addresses the lognormal tail defect from PR 90.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/5fffab8e827fea9d385b8394721503770bd82a00"
+        },
+        {
+          "commit_sha1": "f549d8cc682122090f9d1a3a6c8ba34e1ccbbcab",
+          "time": "1637408702",
+          "author_date_utc": "2021-11-20T11:45:02Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "(test): adding GitHub Actions\n",
+          "theme": "Other",
+          "reason": "A human adds a GitHub Actions test workflow; this is not a bot-authored update.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/f549d8cc682122090f9d1a3a6c8ba34e1ccbbcab"
+        },
+        {
+          "commit_sha1": "f42202c0860e20776a134a48ef19096a8d91e750",
+          "time": "1637425068",
+          "author_date_utc": "2021-11-20T16:17:48Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Merge f549d8cc682122090f9d1a3a6c8ba34e1ccbbcab into 5fffab8e827fea9d385b8394721503770bd82a00\n",
+          "theme": "Other",
+          "reason": "Generic integration of the Actions-testing commit.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/f42202c0860e20776a134a48ef19096a8d91e750"
+        }
+      ],
+      "before_theme_counts": {
+        "Other": 5,
+        "Bug fixes": 2,
+        "Release": 2,
+        "Documentation updates": 1
+      },
+      "BeforeThemes": "Other:Bug fixes",
+      "post": [
+        {
+          "commit_sha1": "ad80bcd3ef7da449f65482e5a636718df874d88d",
+          "time": "1706183030",
+          "author_date_utc": "2024-01-25T11:43:50Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "fix: Package engine in vignette\n",
+          "theme": "Bug fixes",
+          "reason": "Fixes the package engine used by a vignette.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/ad80bcd3ef7da449f65482e5a636718df874d88d"
+        },
+        {
+          "commit_sha1": "5dd00c70b0cc255040698d51a3acdbd78532238e",
+          "time": "1738507304",
+          "author_date_utc": "2025-02-02T14:41:44Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "chore: roxygen2 update\n",
+          "theme": "Dependency updates",
+          "reason": "Updates roxygen2 tooling; inspected DESCRIPTION changes RoxygenNote from 7.2.3 to 7.3.2 and regenerates its documentation.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/5dd00c70b0cc255040698d51a3acdbd78532238e"
+        },
+        {
+          "commit_sha1": "ce4d56827d91a5305afb9fc1f4293e977dc3f619",
+          "time": "1738507379",
+          "author_date_utc": "2025-02-02T14:42:59Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Remove temp file",
+          "theme": "Other",
+          "reason": "Removes a temporary file.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/ce4d56827d91a5305afb9fc1f4293e977dc3f619"
+        },
+        {
+          "commit_sha1": "fdca7becb138033370a2156f71c2b748d8b64e97",
+          "time": "1738507379",
+          "author_date_utc": "2025-02-02T14:42:59Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "Init orphan branch",
+          "theme": "Other",
+          "reason": "Initializes an orphan branch.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/fdca7becb138033370a2156f71c2b748d8b64e97"
+        },
+        {
+          "commit_sha1": "a55c901163e83180aad247b45569e27532855805",
+          "time": "1738507440",
+          "author_date_utc": "2025-02-02T14:44:00Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "feat: Adding pkgdown\n",
+          "theme": "Documentation updates",
+          "reason": "Adds the pkgdown documentation site despite the feat prefix.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/a55c901163e83180aad247b45569e27532855805"
+        },
+        {
+          "commit_sha1": "822ec9e64c524435e1619923d2a2b775be81cb65",
+          "time": "1738508674",
+          "author_date_utc": "2025-02-02T15:04:34Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "GA test\n",
+          "theme": "Other",
+          "reason": "Tests GitHub Actions.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/822ec9e64c524435e1619923d2a2b775be81cb65"
+        },
+        {
+          "commit_sha1": "73989c23bcb15706552c5735eac0aaa297479d52",
+          "time": "1738509224",
+          "author_date_utc": "2025-02-02T15:13:44Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "feat: Adding pkgdown\n",
+          "theme": "Documentation updates",
+          "reason": "Adds the pkgdown documentation site.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/73989c23bcb15706552c5735eac0aaa297479d52"
+        },
+        {
+          "commit_sha1": "495efe6a481270830b703b52d55cc2a8bfad2dd0",
+          "time": "1738510201",
+          "author_date_utc": "2025-02-02T15:30:01Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "fix: Package engine in vignette (#103)\n\n* fix: Package engine in vignette\r\n* chore: roxygen2 update\r\n* feat: Adding pkgdown\r\n",
+          "theme": "Bug fixes",
+          "reason": "The merged PR is primarily the vignette-engine fix; its message also includes tooling and site changes.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/495efe6a481270830b703b52d55cc2a8bfad2dd0"
+        },
+        {
+          "commit_sha1": "dece0d4544dca9aaec4e2d70832b67a19d4d51c9",
+          "time": "1738510370",
+          "author_date_utc": "2025-02-02T15:32:50Z",
+          "author": "csgillespie <csgillespie@gmail.com>",
+          "message": "Deploying to gh-pages from @ csgillespie/poweRlaw@495efe6a481270830b703b52d55cc2a8bfad2dd0 \ud83d\ude80\n",
+          "theme": "Automated bot contributions",
+          "reason": "Generated gh-pages deployment; inspected workflow uses github-pages-deploy-action and the commit contains generated pkgdown output, despite a human-looking author identity.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/dece0d4544dca9aaec4e2d70832b67a19d4d51c9"
+        },
+        {
+          "commit_sha1": "8021f68d7e0c3832a32b60414c3f65bf34ec86be",
+          "time": "1738512903",
+          "author_date_utc": "2025-02-02T16:15:03Z",
+          "author": "Colin Gillespie <csgillespie@gmail.com>",
+          "message": "docs: Improve lognormal doc\n",
+          "theme": "Documentation updates",
+          "reason": "Improves lognormal documentation.",
+          "commit_url": "https://github.com/csgillespie/poweRlaw/commit/8021f68d7e0c3832a32b60414c3f65bf34ec86be"
+        }
+      ],
+      "after_theme_counts": {
+        "Documentation updates": 3,
+        "Other": 3,
+        "Bug fixes": 2,
+        "Dependency updates": 1,
+        "Automated bot contributions": 1
+      },
+      "AfterThemes": "Documentation updates:Other",
+      "post_author_comparison": {
+        "returning": [
+          "Colin Gillespie <csgillespie@gmail.com>"
+        ],
+        "new": [
+          "csgillespie <csgillespie@gmail.com>"
+        ],
+        "all_pre_gap_author_count": 8,
+        "post_sample_commits_by_author": {
+          "Colin Gillespie <csgillespie@gmail.com>": 9,
+          "csgillespie <csgillespie@gmail.com>": 1
+        },
+        "comparison_rule": "Exact raw author string against every dated commit strictly before the gap; no person-level alias resolution."
+      },
+      "dated_commits_after_gap": 18,
+      "missing_timestamp_count": 0,
+      "HypothesizedGapReason": "Unknown. The long December 2021\u2013December 2023 author-time pause follows maintenance, CI setup, and a lognormal fix. A mature package receiving occasional maintenance is a plausible interpretation, but the inspected README and PR do not document a reason for the pause.",
+      "HasRecovered": "Yes",
+      "WhyRecovered": "A January 2024 author-dated vignette-engine fix is followed in February 2025 by documentation tooling, pkgdown setup, and PR 103. Activity returns, but the 18 later dated commits and another long interval do not establish continuous recovery.",
+      "WhoRecovered": "Colin Gillespie <csgillespie@gmail.com> returns. The only new raw string in the first-ten sample is csgillespie <csgillespie@gmail.com> on an automated gh-pages deployment; the matching email and inspected workflow give no evidence of a new human maintainer.",
+      "Notes": "The 25-month gap has no documented cause in the inspected sources, and recovery looks like occasional package and documentation maintenance. A vignette fix is author-dated January 2024, but its PR is merged in February 2025, illustrating the difference between author time and integration time. The apparent new author string belongs to an automated site deployment using the existing maintainer\u2019s email.",
+      "reflection": "poweRlaw\u2019s longest author-time gap spans December 2021 through December 2023, with eight zero runs of at least three months overall. Before the gap, maintenance and lognormal fixes dominate. The [boundary README](https://github.com/csgillespie/poweRlaw/blob/ad80bcd3ef7da449f65482e5a636718df874d88d/README.md) still presents an installable package, but it does not explain the pause. Occasional maintenance of a mature package is a plausible interpretation rather than a documented cause. Recovery concerns a vignette-engine fix and documentation tooling: [PR 103](https://github.com/csgillespie/poweRlaw/pull/103) was merged in February 2025 even though the first selected fix is author-dated January 2024. The 18 later dated commits therefore indicate a return of activity, not uninterrupted development. Colin Gillespie returns; the new raw author spelling on a generated site commit uses the same email, and the [deployment workflow](https://github.com/csgillespie/poweRlaw/blob/495efe6a481270830b703b52d55cc2a8bfad2dd0/.github/workflows/pkgdown.yaml) supports classifying it as automation rather than evidence of a new person.",
+      "sources": [
+        {
+          "url": "https://github.com/csgillespie/poweRlaw/pull/103",
+          "what_it_establishes": "Created and merged 2025-02-02; the vignette-engine PR merges commit 495efe6 after the first sampled fix\u2019s January 2024 author date.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/csgillespie/poweRlaw/blob/ad80bcd3ef7da449f65482e5a636718df874d88d/README.md",
+          "what_it_establishes": "README at the first post-gap SHA describes CRAN installation, use, and vignettes; no cause of the hiatus is stated.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/csgillespie/poweRlaw/commit/5dd00c70b0cc255040698d51a3acdbd78532238e",
+          "what_it_establishes": "Diff changes RoxygenNote from 7.2.3 to 7.3.2 and regenerates package documentation.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/csgillespie/poweRlaw/commit/dece0d4544dca9aaec4e2d70832b67a19d4d51c9",
+          "what_it_establishes": "Commit contains generated pkgdown site output and a gh-pages deployment message, despite a human-looking raw author identity.",
+          "inspected_date_utc": "2026-10-08"
+        },
+        {
+          "url": "https://github.com/csgillespie/poweRlaw/blob/495efe6a481270830b703b52d55cc2a8bfad2dd0/.github/workflows/pkgdown.yaml",
+          "what_it_establishes": "Workflow builds pkgdown pages and deploys them to gh-pages using github-pages-deploy-action, supporting the automated-contribution label.",
+          "inspected_date_utc": "2026-10-08"
+        }
+      ],
+      "caveats": [
+        "The January 2024 author-date return precedes February 2025 integration of PR 103; no assertion is made that this change reached the main branch in January 2024.",
+        "The two raw author strings share an email; identity comparison alone must not be read as proof of two people.",
+        "Only 18 dated commits occur after the gap in the collected WoC history."
+      ],
+      "reflection_word_count": 130
+    }
+  }
+}

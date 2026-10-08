@@ -1,0 +1,502 @@
+{
+  "purpose": "Saved primary-source evidence inspected for Part 3. Relevant excerpts are retained; links point to the original sources.",
+  "sources": {
+    "geo_readme": {
+      "url": "https://api.github.com/repos/Esri/geoportal-server/commits/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+      "html_url": "https://github.com/Esri/geoportal-server/commit/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+      "sha": "cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b",
+      "commit": {
+        "author": {
+          "name": "Marten",
+          "email": "mhogeweg@esri.com",
+          "date": "2025-07-08T20:25:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T20:25:48Z"
+        },
+        "message": "Update README.md"
+      },
+      "files": [
+        {
+          "filename": "README.md",
+          "patch": "@@ -1,7 +1,8 @@\n # IMPORTANT: This is the archive for Esri Geoportal Server v1.x (RETIRED)\n \n-# NOW AVAILABLE: Esri Geoportal Server v2\n-Visit Esri Geoportal Server 2 to explore the next generation metadata catalog and harvesting capabilities as separate modules. The repositories are located at [Esri Geoportal Server Catalog](https://github.com/Esri/geoportal-server-catalog) and [Esri Geoportal Server Harvester](https://github.com/ArcGIS/geoportal-server-harvester).\n+Instead, use the next generation Geoportal Server metadata catalog and harvesting capabilities. The repositories are located at:\n+[Esri Geoportal Server Catalog](https://github.com/Esri/geoportal-server-catalog) and \n+[Esri Geoportal Server Harvester](https://github.com/ArcGIS/geoportal-server-harvester).\n \n ## Esri Geoportal Server v1 - ARCHIVE\n This repository is maintained as an archive for those who are still actively using Esri Geoportal Server v1.\n@@ -10,67 +11,10 @@ We are not planning any updates to this repository.\n \n **Note**: Geoportal Server 1.x does not use Log4j and as such is not vulnerable to the recently identified issue with Log4j 2.\n \n-## Geoportal Server v1.x\n-\n-[![Coverage Status](https://img.shields.io/coveralls/Esri/geoportal-server.svg)](https://coveralls.io/r/Esri/geoportal-server) <a href=\"https://scan.coverity.com/projects/3614\">\n-  <img alt=\"Coverity Scan Build Status\"\n-       src=\"https://scan.coverity.com/projects/3614/badge.svg\"/>\n-</a>\n-\n-## Introduction to geoportal-server \n-\n-Geoportal Server is a standards-based, open source product that enables discovery and use of geospatial resources including data and services.\n-\n-Geoportal Server allows you to catalog the locations and descriptions of your organization's geospatial resources in a central repository called a geoportal, which you can publish to the Internet or your intranet. Visitors to the geoportal can search and access these resources to use with their projects. If you grant them permission, visitors can also register geospatial resources with the geoportal. Geoportals give you an enterprise-level view of your geospatial resources regardless of their type or location. Resources are registered with a geoportal using metadata, which describes the location, age, quality, and other characteristics of the resources. With access to this information about resources, an organization can make decisions based on the best resources available.\n-\n-With the Geoportal Server you can:\n-* Improve the efficiency and effectiveness of geospatial activities within your enterprise and across organizations.\n-* Support collaboration and cooperation among departments and organizations by facilitating the sharing of geospatial resources regardless of the GIS platform.\n-* Gain an enterprise-level awareness of disparate geospatial data, Web services, and activities.\n-* Leverage existing geospatial resources so your organization doesn't duplicate those resources or the effort to create them.\n-* Ensure the use of approved, high-quality datasets.\n-* Reduce the time users spend trying to find relevant, usable geospatial resources.\n-\n-Want to learn more? Try our [sandbox site](https://gptogc.esri.com/geoportal/catalog/main/home.page)!\n-\n-Want to get started right away? Download the [compiled distribution and installation files] (https://github.com/Esri/geoportal-server/releases/download/v1.2.8/geoportal-1.2.8.zip).\n-\n-## Releases and Downloads\n-- 1.2.9 - Released September 29, 2017, click [here](https://github.com/Esri/geoportal-server/wiki) for release information and downloads.\n-\n-## Features\n-\n-Please click [here](http://www.esri.com/software/arcgis/geoportal/key-features) for key features of Geoportal Server.\n-\n-## Requirements\n-\n-Please refer to [here](https://github.com/Esri/geoportal-server/wiki/Preinstallation) for system requirements.\n-\n-## Resources\n-\n-Geoportal Server documentation is broken down into three buckets: a wiki, Javadoc for server components, and JavaScript documentation for the Geoportal XML Editor.\n-\n-* The [wiki](https://github.com/Esri/geoportal-server/wiki) hosts topics for how to install, configure, customize, and use the Geoportal Server and its related components.</li>\n-* The [Javadoc](http://esri.github.com/geoportal-server/javadoc/current) describes the Java packages used in the Geoportal Server web application.</li>\n-* The [XML Editor JavaScript](http://esri.github.com/geoportal-server/gxe/xmldoc) documentation</a> explains its JavaScript classes and XML elements and configuration files.</li>\n-\n-\n-## Support or Contact\n-\n-Contact us at [portal@esri.com](mailto:portal@esri.com) for questions and we\u2019ll help you sort it out.\n-\n-\n-## Issues\n-\n-Find a bug or want to request a new feature?  Please let us know by submitting an issue.\n-\n-## Contributing\n-\n-Esri welcomes contributions from anyone and everyone. Please see our [guidelines for contributing](https://github.com/esri/contributing).\n \n ## Licensing\n \n-Copyright 2013 Esri\n+Copyright 2013-2025 Esri\n \n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License."
+        }
+      ]
+    },
+    "suite1144": {
+      "url": "https://api.github.com/repos/MouseLand/suite2p/issues/1144",
+      "html_url": "https://github.com/MouseLand/suite2p/issues/1144",
+      "number": 1144,
+      "title": "Registration metrics do not exclude bad frames",
+      "state": "closed",
+      "created_at": "2024-09-05T14:18:50Z",
+      "closed_at": "2024-12-25T05:48:02Z",
+      "body": "As far as I understand, the registration metrics do not exclude any of the 'bad frames' at the moment: the PCA is performed on an equally subsampled set of frames from the registered movie. This leads to really high metrics on sessions where there were artefacts e.g. the signal dropping suddenly (I've attached a screenshot from the GUI as an example). This approach makes sense for the automatically computed bad frames as you would otherwise underestimate potential registration errors, but surely it would be good to at least take into account the user-defined **bad_frames.npy** array for these metrics?\r\n\r\nIt seems that this would be relatively easy fix in this part of the main pipeline code...\r\nhttps://github.com/MouseLand/suite2p/blob/c88e1ba3aa2013fe379e64c7e45ae73a417eb4a7/suite2p/run_s2p.py#L148-L163"
+    },
+    "suite1149": {
+      "url": "https://api.github.com/repos/MouseLand/suite2p/issues/1149",
+      "html_url": "https://github.com/MouseLand/suite2p/issues/1149",
+      "number": 1149,
+      "title": "New s2p version cannot handle lists of h5 files",
+      "state": "closed",
+      "created_at": "2024-10-04T19:53:29Z",
+      "closed_at": "2024-12-26T21:51:31Z",
+      "body": "### Describe the issue:\r\n\r\nIf \"h5py\" in ops is a list, then the function find_files_open_binaries turns it into a list of lists when doing:\r\n\r\n`fs = [fs]`\r\n\r\n\r\nThis causes the following error: \r\n\r\n```\r\nTraceback (most recent call last):\r\n\r\n  Cell In[1], line 258\r\n    ops_out = suite2p.run_s2p(ops=ops_folder)\r\n\r\n  File ~\\miniforge3\\envs\\suite2p\\lib\\site-packages\\suite2p\\run_s2p.py:501 in run_s2p\r\n    ops0 = convert_funs[ops[\"input_format\"]](ops.copy())\r\n\r\n  File ~\\miniforge3\\envs\\suite2p\\lib\\site-packages\\suite2p\\io\\h5.py:54 in h5py_to_binary\r\n    with h5py.File(h5, \"r\") as f:\r\n\r\n  File ~\\miniforge3\\envs\\suite2p\\lib\\site-packages\\h5py\\_hl\\files.py:536 in __init__\r\n    name = filename_encode(name)\r\n\r\n  File ~\\miniforge3\\envs\\suite2p\\lib\\site-packages\\h5py\\_hl\\compat.py:19 in filename_encode\r\n    filename = fspath(filename)\r\n\r\nTypeError: expected str, bytes or os.PathLike object, not list\r\n```\r\n\r\n\r\nThe issue can be solved by replacing:\r\n\r\n`fs = [fs]`\r\n\r\nwith:\r\n\r\n```\r\nif not isinstance(fs, list):\r\n                fs = [fs]\r\n```\r\n\r\nI had not experienced this issue in the previous suite2p version\r\n\r\n\r\n### Reproduce the code example:\r\n\r\n```python\r\nops_out = suite2p.run_s2p(ops=ops_folder)\r\n```\r\n\r\n\r\n### Error message:\r\n\r\n_No response_\r\n\r\n### Version information:\r\n\r\nv0.14.4\r\n\r\n### Context for the issue:\r\n\r\n_No response_"
+    },
+    "node_post": {
+      "url": "https://api.github.com/repos/ketch/nodepy/commits/1ea45f786c297fbc1f73e8f4e531bf0d795dea6f",
+      "html_url": "https://github.com/ketch/nodepy/commit/1ea45f786c297fbc1f73e8f4e531bf0d795dea6f",
+      "sha": "1ea45f786c297fbc1f73e8f4e531bf0d795dea6f",
+      "commit": {
+        "author": {
+          "name": "David Ketcheson",
+          "email": "dketch@gmail.com",
+          "date": "2024-09-04T07:27:00Z"
+        },
+        "committer": {
+          "name": "David Ketcheson",
+          "email": "dketch@gmail.com",
+          "date": "2024-09-04T07:27:00Z"
+        },
+        "message": "Improved coefficients for SSP(5,4)."
+      },
+      "files": [
+        {
+          "filename": "nodepy/runge_kutta_method.py",
+          "patch": "@@ -3190,12 +3190,19 @@ def loadRKM(which='All'):\n                                          description='From Ruuth-Spiteri paper',\n                                          shortname='SSPRK95')\n     #================================================\n+    # The coefficients given here are not exactly those from the original paper.\n+    # They have been improved to be accurate to 30 digits; the original method\n+    # coefficients are accurate only to about 10 digits.\n     A = np.array([[0,0,0,0,0],\n-                  [0.39175222700392,0,0,0,0],\n-                  [0.21766909633821, 0.36841059262959, 0,0,0],\n-                  [0.08269208670950, 0.13995850206999, 0.25189177424738, 0,0],\n-                  [0.06796628370320, 0.11503469844438, 0.20703489864929, 0.54497475021237, 0]])\n-    b = np.array([0.14681187618661, 0.24848290924556, 0.10425883036650, 0.27443890091960, 0.22600748319395])\n+                  [0.391752226869253785640632115627,0,0,0,0],\n+                  [0.217669096357834985920253802915, 0.368410592709066783214662112772, 0,0,0],\n+                  [0.0826920866830935842609242437786, 0.139958502107426395108400626025, \\\n+                    0.251891774371960822884363746140, 0,0],\n+                  [0.0679662835740483884329695316049, 0.115034698453668419467815057942, \\\n+                    0.207034898772936576352392025561, 0.544974750295139481064416383368, 0]])\n+    b = np.array([0.146811876157875933686947006683, 0.248482909391317264243714136087, \\\n+                    0.104258830279481225354037031167, 0.274438901048480694917546480567, \\\n+                    0.226007483122844881797755345495])\n     RK['SSP54'] = ExplicitRungeKuttaMethod(A,b,name='SSP 54',\n                                            description='From Ruuth-Spiteri paper',\n                                            shortname='SSPRK54')"
+        }
+      ]
+    },
+    "suite1144_comments": {
+      "url": "https://api.github.com/repos/MouseLand/suite2p/issues/1144/comments",
+      "comments": [
+        {
+          "url": "https://github.com/MouseLand/suite2p/issues/1144#issuecomment-2331817613",
+          "body": "![reg_metrics_suite2p](https://github.com/user-attachments/assets/a91e1d5a-1b60-476c-9edc-81146e0670f2)\r\n",
+          "date": "2024-09-05T14:21:21Z",
+          "user": "samupicard"
+        },
+        {
+          "url": "https://github.com/MouseLand/suite2p/issues/1144#issuecomment-2561634244",
+          "body": "Thanks for raising this issue, @samupicard! That's a great point you make and we've added a functionality to only remove any user-specified `bad_frames` before computing the registration metrics. This change should be integrated soon to the `main` branch but if you'd like to try it out now, feel free to pull the latest changes from the `dev` branch. \r\n\r\nI'll close this issue for now but feel free to reopen if the issue persists.",
+          "date": "2024-12-25T05:48:02Z",
+          "user": "chriski777"
+        }
+      ]
+    },
+    "suite1149_comments": {
+      "url": "https://api.github.com/repos/MouseLand/suite2p/issues/1149/comments",
+      "comments": [
+        {
+          "url": "https://github.com/MouseLand/suite2p/issues/1149#issuecomment-2563121583",
+          "body": "@oterocoronel, thanks for bringing this to our attention! We've added a general fix that addresses this issue with `h5py`'s. I've checked this fix works with both lists of h5pys and a string corresponding to a single h5py. \r\n\r\nThis change is available in the `dev` branch and will soon be integrated into main. Feel free to re-open this issue if problems persist.",
+          "date": "2024-12-26T21:51:31Z",
+          "user": "chriski777"
+        }
+      ]
+    },
+    "node_prs": {
+      "url": "https://api.github.com/search/issues?q=repo:ketch/nodepy+is:pr+updated:2023-09-01..2024-10-01&per_page=30",
+      "total_count": 0,
+      "items": []
+    },
+    "geo_before": {
+      "url": "https://api.github.com/repos/Esri/geoportal-server/commits/29a1c66ebfbcd8f44247fa73b96fed50f52aada1",
+      "sha": "29a1c66ebfbcd8f44247fa73b96fed50f52aada1",
+      "commit": {
+        "author": {
+          "name": "Jill Saligoe-Simmel",
+          "email": "49758885+jsaligoe@users.noreply.github.com",
+          "date": "2023-06-15T18:50:36Z"
+        },
+        "message": "Update README.md"
+      },
+      "files": [
+        {
+          "filename": "README.md",
+          "patch": "@@ -1,7 +1,7 @@\n-# IMPORTANT: This repository is for Esri Geoportal Server v1.x (RETIRED).\n+# IMPORTANT: This is the archive for Esri Geoportal Server v1.x (RETIRED)\n \n-# The next generation Esri Geoportal Server v2 is now available!\n-Esri Geoportal Server 2 provides the metadata catalog and harvesting capabilities as separate modules. The repositories are located at [Esri Geoportal Server Catalog](https://github.com/Esri/geoportal-server-catalog) and [Esri Geoportal Server Harvester](https://github.com/ArcGIS/geoportal-server-harvester).\n+# NOW AVAILABLE: Esri Geoportal Server v2\n+Visit Esri Geoportal Server 2 to explore the next generation metadata catalog and harvesting capabilities as separate modules. The repositories are located at [Esri Geoportal Server Catalog](https://github.com/Esri/geoportal-server-catalog) and [Esri Geoportal Server Harvester](https://github.com/ArcGIS/geoportal-server-harvester).\n \n ## Esri Geoportal Server v1 - ARCHIVE\n This repository is maintained as an archive for those who are still actively using Esri Geoportal Server v1."
+        }
+      ]
+    },
+    "geo_after_index": {
+      "url": "https://api.github.com/repos/Esri/geoportal-server/commits/3014a9ce2120bd33ddde44bd4dae139775ec3785",
+      "sha": "3014a9ce2120bd33ddde44bd4dae139775ec3785",
+      "commit": {
+        "author": {
+          "name": "Marten",
+          "email": "mhogeweg@esri.com",
+          "date": "2025-07-13T00:43:55Z"
+        },
+        "message": "Update index.html"
+      },
+      "files": [
+        {
+          "filename": "index.html",
+          "patch": "@@ -31,19 +31,19 @@ <h1>Esri Geoportal Server</h1>\n         \n         <p class=\"view\">&nbsp;</p>\n         <p class=\"view\">\n-          <a href=\"https://www.ogc.org/resources/product-details/?pid=921\" target=\"_blank\">\n           <img src=\"images/Certified_OGC_Compliant_Logo_Web.gif\" />\n           <img src=\"images/badge.csw202.gif\" />\n           <img src=\"images/badge.cat202.gif\" />\n-          </a>\n+          <img src=\"https://stacspec.org/public/images-original/STAC-01.png\" />\n+\n         </p>\n       </header>\n       <section>\n         <h1>About Esri Geoportal Server</h1>\n \n <p>Esri Geoportal Server is a free, open-source stand-alone metadata catalog management app that enables discovery and use of geospatial resources such as datasets, raster data, & web services.</p>\n \n-<p>Geoportal Server consists of two standalone components -- Server and Harvester -- and complements ArcGIS for organizations managing, serving, and harvesting metadata. Learn more on <a href=\"https://www.esri.com/en-us/arcgis/products/geoportal-server/overview\">Esri.com</a>.</p>\n+<p>Geoportal Server consists of two standalone components -- Catalog and Harvester -- and complements ArcGIS for organizations managing, serving, and harvesting metadata. Learn more on <a href=\"https://www.esri.com/en-us/arcgis/products/geoportal-server/overview\">Esri.com</a>.</p>\n <p>With Geoportal Server, you can catalog your organization's geospatial resources in a central repository called a geoportal, which you can publish to the Internet or your intranet. Visitors to your geoportal can search and access these resources to use with their projects. If you grant them permission, visitors can also register geospatial resources with the geoportal using metadata that describes the location, age, quality, and other characteristics of the resources.\n </p>\n "
+        }
+      ]
+    },
+    "fhir_profile_locking": {
+      "url": "https://github.com/microsoft/fhir-server/pull/5168",
+      "title": "Change profile locking",
+      "body": "## Description\r\nChanges the way profiles are loaded by the validator to avoid long waits on locks when the cache isn't expired. \r\nA user reported long wait times on some creates, and we traced the waits to validation. These are happening randomly a small percentage of the time and we have been unable to trace the delay to an issue with the profiles or resources. This is another attempt to remove a possible cause of the latency.\r\n\r\n## Related issues\r\nAddresses [User Story 154657](https://microsofthealth.visualstudio.com/Health/_workitems/edit/154657)\r\n\r\n## Testing\r\nExisting E2E and Unit tests. User scenario has proven impossible to reproduce so it is unknown if this will fix the issue.\r\n\r\n## FHIR Team Checklist\r\n- **Update the title** of the PR to be succinct and less than 65 characters\r\n- **Add a milestone** to the PR for the sprint that it is merged (i.e. add S47)\r\n- Tag the PR with the type of update: **Bug**, **Build**, **Dependencies**, **Enhancement**, **New-Feature** or **Documentation**\r\n- Tag the PR with **Open source**, **Azure API for FHIR** (CosmosDB or common code) or **Azure Healthcare APIs** (SQL or common code) to specify where this change is intended to be released.\r\n- Tag the PR with **Schema Version backward compatible** or **Schema Version backward incompatible** or **Schema Version unchanged** if this adds or updates Sql script which is/is not backward compatible with the code.\r\n- When changing or adding behavior, if your code modifies the system design or changes design assumptions, please create and include an [ADR](https://github.com/microsoft/fhir-server/blob/main/docs/arch).\r\n- [ ] CI is green before merge [![Build Status](https://microsofthealthoss.visualstudio.com/FhirServer/_apis/build/status/CI%20Build%20%26%20Deploy?branchName=main)](https://microsofthealthoss.visualstudio.com/FhirServer/_build/latest?definitionId=27&branchName=main) \r\n- Review [squash-merge requirements](https://github.com/microsoft/fhir-server/blob/main/SquashMergeRequirements.md)\r\n\r\n### Semver Change ([docs](https://github.com/microsoft/fhir-server/blob/main/docs/Versioning.md))\r\nPatch\r\n"
+    },
+    "fhir_transaction_cancellation": {
+      "url": "https://github.com/microsoft/fhir-server/pull/5167",
+      "title": "[Bundle] Handling transaction cancellation",
+      "body": "## Description\r\nImproving Transactional bundles and returning HTTP408 in case of client cancellation, instead of HTTP500. \r\n\r\nChanges in this PR: \r\n* Identify client-side cancellations and handle those cancellations properly in transactional bundles.\r\n* Return HTTP408 for client-side cancellations. \r\n* Centralizing the 100 seconds max execution time of bundles in BundleConfiguration. \r\n* Adding to BundleHandlerRuntime a logic to identify client-side cancellations. \r\n* Adding new exception type called FhirTransactionCancelledException. \r\n* Handling FhirTransactionCancelledException on OperationOutcomeExceptionFilterAttribute.\r\n\r\nHere is an example of a cancelled request returning HTTP408 and logging the bundle as cancelled. \r\n\r\n<img width=\"821\" height=\"875\" alt=\"image\" src=\"https://github.com/user-attachments/assets/829acce5-1ced-4811-aedc-0695ea4d7ba0\" />\r\n\r\n## Related issues\r\nAddresses [AB#151668](https://microsofthealth.visualstudio.com/f8da5110-49b1-4e9f-9022-2f58b6124ff9/_workitems/edit/151668)\r\n\r\n## Testing\r\n- Tested through existing tests. \r\n- New tests. \r\n- Local manual validations. \r\n\r\n## FHIR Team Checklist\r\n- [ ] CI is green before merge [![Build Status](https://microsofthealthoss.visualstudio.com/FhirServer/_apis/build/status/CI%20Build%20%26%20Deploy?branchName=main)](https://microsofthealthoss.visualstudio.com/FhirServer/_build/latest?definitionId=27&branchName=main) \r\n- Review [squash-merge requirements](https://github.com/microsoft/fhir-server/blob/main/SquashMergeRequirements.md)\r\n\r\n### Semver Change ([docs](https://github.com/microsoft/fhir-server/blob/main/docs/Versioning.md))\r\nPatch|Skip|Feature|Breaking (reason)\r\n"
+    },
+    "node_before_readme": {
+      "url": "https://github.com/ketch/nodepy/blob/147d0828c75dd52c54be0a8271846103c2a15409/README.md",
+      "content": "# NodePy: A package for the analysis of numerical ODE solvers\n\n[![Build Status](https://app.travis-ci.com/ketch/nodepy.svg?branch=master)](https://app.travis-ci.com/ketch/nodepy)\n[![ketch](https://circleci.com/gh/ketch/nodepy.svg?style=svg)](https://github.com/ketch/nodepy)\n[![Coverage Status](https://coveralls.io/repos/github/ketch/nodepy/badge.svg?branch=master)](https://coveralls.io/github/ketch/nodepy?branch=master)\n[![codecov.io](https://codecov.io/github/ketch/nodepy/coverage.svg?branch=master)](https://codecov.io/github/ketch/nodepy?branch=master)\n[![](https://readthedocs.org/projects/nodepy/badge)](https://readthedocs.org/projects/nodepy/)\n\n<a href=\"https://pypi.org/project/nodepy/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/nodepy\"></a>\n[![Downloads](https://static.pepy.tech/badge/nodepy)](https://pepy.tech/project/nodepy)\n[![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-success.svg)](https://opensource.org/licenses/BSD-3-Clause)\n\n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4275157.svg)](https://doi.org/10.5281/zenodo.4275157)\n[![DOI](https://joss.theoj.org/papers/10.21105/joss.02515/status.svg)](https://doi.org/10.21105/joss.02515)\n\n\n# Installation\nNodePy requires Python 3.5 or later.  To install with pip, do:\n\n    pip install nodepy\n\nThis will automatically fetch dependencies also.  It will not fetch\noptional dependencies, which include networkx, cvxpy and scipy (that are used\nonly in a few specialized routines and/or examples).  The optional dependencies\ncan be installed with `pip`.\n\n# Overview\n\nNodePy (Numerical ODEs in Python) is a Python package for designing, analyzing,\nand testing numerical methods for initial value ODEs. Its development was\nmotivated by my own research in time integration methods for PDEs. I found that\nI was frequently repeating tasks that could be automated and integrated.\nInitially I developed a collection of MATLAB scripts, but this became unwieldy\ndue to the large number of files that were necessary and the more limited\ncapability for code reuse.\n\nNodePy represents an object-oriented approach, in which the basic object is a\nnumerical ODE solver. The idea is to design a laboratory for such methods in\nthe same sense that MATLAB is a laboratory for matrices.\n\nDocumentation can be found online at\n\nhttp://nodepy.readthedocs.org/en/latest/\n\nTo get started, you can also have a look at the `examples` folder,\nbeginning with an [introduction as Jupyter notebook](examples/Introduction%20to%20NodePy.ipynb).\n\nThe development version can be obtained from\n\nhttp://github.com/ketch/nodepy\n\n# Citation\n\nIf you use NodePy in a published work, please cite it as follows:\n\n    Ketcheson, D. I.  NodePy software version <version number>,\n    http://github.com/ketch/nodepy/.\n\nPlease insert the version number that you used.\n\n# Support\n\nIf you encounter an error or need help, please [raise an issue](https://github.com/ketch/nodepy/issues).\n\n# Contributing\n\nContributions of new features or other improvements are very welcome!  Please\n[submit a pull request](https://github.com/ketch/nodepy/pulls) or contact the authors.\n\n# License\n\nNodePy is distributed under the terms of the [modified Berkeley Software\nDistribution (BSD) license](LICENSE.txt).\n\n\n# Funding\n\nNodePy development has been supported by:\n\n* A U.S. Dept. of Energy Computational Science Graduate Fellowship\n* Grants from King Abdullah University of Science & Technology\n\n\n"
+    },
+    "node_issue_search": {
+      "url": "https://github.com/ketch/nodepy/issues?q=is%3Aissue+created%3A2023-09-01..2024-10-01",
+      "query": "repo:ketch/nodepy is:issue created:2023-09-01..2024-10-01",
+      "total_count": 0
+    },
+    "pytransit_pr13": {
+      "url": "https://github.com/hpparvi/PyTransit/pull/13",
+      "title": "Merge pull request #2 from hpparvi/master",
+      "body": "Merge pull request #2 from hpparvi/master\n",
+      "created_at": "2016-01-14T00:17:32Z",
+      "closed_at": "2016-01-14T00:17:59Z",
+      "merged_at": "2016-01-14T00:17:59Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "4c8810b34a56af4fcebe46de4a13cb3268bae7da",
+      "commits": 1,
+      "changed_files": 0,
+      "additions": 0,
+      "deletions": 0,
+      "author_login": "hpparvi"
+    },
+    "pytransit_issue12": {
+      "html_url": "https://github.com/hpparvi/PyTransit/issues/12",
+      "title": "MandelAgol breaks for z==k",
+      "body": "MandelAgol breaks when z == k. Doesn't happen that often, but must be fixed.\n",
+      "created_at": "2015-11-17T15:43:45Z",
+      "closed_at": "2016-01-13T14:06:08Z",
+      "updated_at": "2016-01-13T14:06:08Z",
+      "state": "closed",
+      "author_login": "hpparvi"
+    },
+    "pytransit_boundary_commit": {
+      "sha": "ba60c3080324344329fddbd0fbc114dd142465d9",
+      "message": "A simple fix for the bug occurring when z==k, needs to be improved.",
+      "html_url": "https://github.com/hpparvi/PyTransit/commit/ba60c3080324344329fddbd0fbc114dd142465d9",
+      "created_at": "2016-01-12T14:43:14Z",
+      "git_author_email": null,
+      "author_login": "hpparvi",
+      "committer_login": "hpparvi",
+      "changed_files_count": 1,
+      "selected_files": [
+        {
+          "filename": "src/mandelagol.f90",
+          "patch_excerpt": "@@ -31,11 +31,13 @@ module mandelagol\n   use omp_lib\n   implicit none\n \n+  integer, parameter :: dp=kind(0.d0)\n+  integer, parameter :: sp=kind(0.0 )\n+\n   real(8), parameter :: PI = acos(-1.d0)\n   real(8), parameter :: HALF_PI = 0.5d0*PI\n   real(8), parameter :: INV_PI = 1.d0/PI\n   integer, parameter :: MAXITER = 500\n-\n contains\n \n   subroutine eval_uniform(z0,k,c,nthr,nz,flux)\n@@ -87,7 +89,7 @@ subroutine eval_quad(z0,k,u,c,nthr,npt,npb,flux)\n     real(8) :: k,k2,z2,lam,x1,x2,x3,z,omega(npb),kap0,kap1,q,Kk,Ek,Pk,n,ed,le,ld\n     integer :: i,j,iu,iv\n \n-    if(abs(k-0.5) < 1.d-3) then \n+    if(abs(k-0.5) < 1.d-4) then \n        k=0.5\n     end if\n \n@@ -100,56 +102,56 @@ subroutine eval_quad(z0,k,u,c,nthr,npt,npb,flux)\n     !$omp parallel do default(none) shared(z0,flux,u,c,omega,k,k2,npt,npb) &\n     !$omp private(i,j,iu,iv,z,z2,lam,x1,x2,x3,kap0,kap1,q,Kk,Ek,Pk,n,ed,ld,le)\n     do i=1,npt\n-       if (z0(i) > 1.d0+k .or. z0(i)<0.d0) then\n+       z=z0(i)\n+\n+       if (abs(z-k) < 1d-4) then\n+          z = z+1d-4\n+       end if\n+\n+       !! The source is unocculted\n+       if (z > 1.d0+k .or. z < 0.d0) then\n           flux(i,:) = 1.d0\n           cycle\n+\n+       !! The source is completely occulted\n+       else if (k >= 1.d0 .and. z <= k-1.d0) then\n+          flux(i,:) = 0.d0\n+          cycle\n        end if\n \n-       z=z0(i)\n        z2=z**2\n        x1=(k-z)**2\n        x2=(k+z)**2\n        x3=k**2-z**2\n \n-       if(z < 0.0 .or. z > 1.0+k) then\n-          ld=0.0\n-          ed=0.0\n-          le=0.0\n-\n-       else if(k > 1.0 .and. z < k-1.0) then\n-          ld=1.0\n-          ed=1.0\n-          le=1.0\n-\n-       ! the source is partly occulted and the occulting object crosses the limb:\n-       ! Equation (26):\n-       else if(z > abs(1.0-k) .and. z < 1.0+k) then\n-          kap1=acos(min((1.0-k2+z2)/2.0/z,1.0))\n-          kap0=acos(min((k2+z2-1.0)/2.0/k/z,1.0))\n+       !! The source is partially occulted and the occulting object crosses the limb\n+       !! Equation (26):\n+       if(z >= abs(1.d0-k) .and. z <= 1.d0+k) then\n+          kap1 = acos(min((1.d0-k2+z2)/(2.d0*z),   1.d0))\n+          kap0 = acos(min((k2+z2-1.d0)/(2.d0*k*z), 1.d0))\n           le = k2*kap0+kap1\n-          le = (le-0.50*sqrt(max(4.0*z2-(1.0+z2-k2)**2,0.0)))*INV_PI\n+          le = (le-0.5d0*sqrt(max(4.d0*z2-(1.d0+z2-k2)**2,0.d0)))*INV_PI\n        end if\n \n        ! the occulting object transits the source star (but doesn't completely cover it):\n-       if(z < 1.0-k) then\n+       if(z <= 1.0-k) then\n           le=k2\n        end if\n \n        ! the edge of the occulting star lies at the origin- special expressions in this case:\n        if(abs(z-k) < 1.d-4*(z+k)) then\n           ! Table 3, Case V.:\n-          if(z > 0.50) then\n+          if (k == 0.5d0) then\t\n+             ld = 1.0/3.0 - 4.0*INV_PI/9.0\n+             ed = 3.0/32.0;\n+          else if(z > 0.5d0) then\n              lam=HALF_PI\n              q=0.50/k\n              Kk=ellk(q)\n              Ek=ellec(q)\n              ld= 1.0/3.0+16.0*k/9.0*INV_PI * (2.0*k2-1.0)*Ek-(32.0*k**4-20.0*k2+3.0)/9.0*INV_PI/k*Kk\n              ed= 1.0/2.0*INV_PI * (kap1+k2*(k2+2.0*z2)*kap0-(1.0+5.0*k2+z2)/4.0*sqrt((1.0-x1)*(x2-1.0)))\n-             if(k.eq.0.50)",
+          "patch_excerpted": true
+        }
+      ]
+    },
+    "pytransit_pre_readme": {
+      "url": "https://github.com/hpparvi/PyTransit/blob/5470c458647cdbe0e4a4ebddd2dd21853bee2b72/README.md",
+      "title": "README.md",
+      "blob_sha": "0379bc2b7dca7990057adbed9f8f160c0d0496c0",
+      "content_excerpt": "PyTransit\n=========\n\n[![Travis](http://img.shields.io/travis/hpparvi/PyTransit/development.svg?style=flat)](https://travis-ci.org/hpparvi/PyTransit)\n[![Licence](http://img.shields.io/badge/license-GPLv2-blue.svg?style=flat)](http://www.gnu.org/licenses/gpl-2.0.html)\n[![arXiv](http://img.shields.io/badge/arXiv-1504.07433-blue.svg?style=flat)](http://arxiv.org/abs/1504.07433)\n[![ASCL](https://img.shields.io/badge/ASCL-A1505.024-blue.svg?style=flat)](http://ascl.net/1505.024)\n\nFast and easy-to-use tools for exoplanet transit light curve modelling with Python. PyTransit implements the quadratic Mandel & Agol and the Gimen\u00e9z transit models with various optimisations, and offers both a simple interface for model evaluation and a lower-level access for fine-tuning the model.   \n\n```Python\nfrom pytransit import MandelAgol\nm = MandelAgol()\nf = m.evaluate(t, *pv)\n```\n\n![](notebooks/model_example_1.png)\n\n\nThe package is described in [Parviainen (2015)](http://arxiv.org/abs/1504.07433). Also, take a look at the [Bayesian parameter estimation tutorial](http://nbviewer.ipython.org/github/hpparvi/exo_tutorials/blob/master/01_broadband_parameter_estimation.ipynb) for an example on how to use the model in a basic exoplanet transit modelling situation.\n\nModules\n-------\n**Transit models**\n  - Series-expansion based transit model by [A. Gimenez (A&A 450, 1231--1237, 2006)](http://adsabs.harvard.edu/abs/2006A&A...450.1231G).\n  - Quadratic limb-darkening transit model by [Mandel & Agol (ApJ 580, L171\u2013L175, 2002)](http://adsabs.harvard.edu/abs/2002ApJ...580L.171M).\n \n  - Common features\n    - Optimized and parallelized Fortran implementations. \n    - Efficient model evaluation for multicolour observations and transmission spectroscopy.\n    - Built-in model interpolation for the modelling of large datasets.\n    - Built-in supersampling to account for extended exposure times.\n\n**Utilities**\n  - Routines to calculate the projected planet-to-star distance for circular and eccentric orbits.\n  - Routines to calculate transit durations, etc.\n\nInstallation\n------------\n\nFirst clone the repository from github\n\n    git clone https://github.com/hpparvi/PyTransit.git\n    cd PyTransit\n\nand then do the normal python package build & installation. \n\n#### Intel & AMD\n\n    python setup.py config_fc --fcompiler=gnu95 --opt=\"-Ofast\" --f90flags=\"-cpp -fopenmp -march=native\" build\n    python setup.py install --user\n\n#### Mac\n\n    python setup.py config_fc --fcompiler=gnu95 --opt=\"-Ofast\" --f90flags=\"-cpp -fopenmp -march=native -mno-avx\" build\n    python setup.py install --user\n\nThe code has been tested with gfortran and Intel compilers, but it should compile with others as well (if it doesn't, please let me know).\n\n\nNotes\n-----\n\n - The interpolated (quadratic) Mandel & Agol model offers the best performance at the moment, but needs to be initialised with the minimum and maximum allowed radius ratio.  \n - Please use the [Issue tracker](https://github.com/hpparvi/PyTransit/issues) to report bugs and ideas for improvement.\n\n\nExamples\n--------\n### Basics\nBasic usage is simple:\n\n```Python\nfrom pytransit import MandelAgol\n\nm = MandelAgol()\nf = m.evaluate(t, *pv)\n```\nor\n\n```Python\nfrom pytransit import MandelAgol\n\nm = MandelAgol(interpolate=True, klims=(0.10,0.13))\nf = m.evaluate(t, *pv)\n```\n\nor\n```Python\nfrom pytransit import Gimenez",
+      "content_excerpted": false,
+      "first_line": 1,
+      "last_line": 90
+    },
+    "opencalphad_changes": {
+      "url": "https://github.com/sundmanbo/opencalphad/blob/bef99c408b9a59e75a5f374a88c2fbecff0456b8/changes.txt",
+      "title": "changes.txt",
+      "blob_sha": "8a095190ede1c1d3083def55c744c429a1f43887",
+      "content_excerpt": "This file contains information on OpenCalphad (OC) version 6 and\nearlier.  This log started 2016-03-03.\n\nFor general information please read the intro-OC7.pdf and the\nmacros-OC7.pdf.\n\nThere is a precompiled installation of OC for Windows on the\nOpenCalphad web page.  It includes an introduction, on-line help and\nexamples with macro files and some small databases.  For graphics the\nfree GNUPLOT software must be installed separately from Sourceforge or\na similar website.\n\nOn Linux, MacOS and other OS the installation requires some general\nknowledge about compiling and linking of software.  There is an\ninstallation manual (and an old mainly redundant video on You Tube)\nbut if you are not familiar with such procedures please ask a local\nguru for help.  Installation problems depend on your local\nenvirionment and we who provide this software for free do not have the\ntime to answer such questions.\n\nIn the list below the most recent changes come first.\n\n2024.06.18 OC version 6.071: Long time no development.  Created a\ngtp3XQ.F90 so simplify work in the MQMQA model and handling\nmulticomponent Kohler-Toop extrapolations.\n\n2023.12.16 OC version 6.070: Many minor changes to prepare for the\nimplementation of TDB files using the XML markup language.\n\n2023.10.29 OC version 6.069: In the previous update I forgot to\nmention that the argument for the GEIN function has been changed to be\nthe actual Einstein THETA, not the logarithm.  See OC version 6.062.\nIn the LNTH parameter the logarithm of the THETA is used because it is\nphysically more reasonable to vary the logarithm of THETA with the\ncomposition.  But one can use the same numeric THETA value as in the\nGEIN function by using LN(THETA) for the parameter.\n\nLast update also included a macro to calculate the Al-C system with\nthe new unary.  But I forgot the explain how one can handle the Gibbs\nenergy for unaries with multiple Einstein THETA, for example C as\ngraphite.  In the database for the Al-C system you can see for example\nthe graphite phase, which has been assessed using 5 THETA, the\nparameters are:\n\n PARAMETER G(GRAPHITE,C)    10 +GHSERCC; 6000 N 20HE !\n PARAMETER LNTH(GRAPHITE,C) 10 LN(1953); 6000 N 20HE !\n\nwhere the function GHSERCC is split on several functions:\n\n FUNCTION GHSERCC   10 -17752.213 +GEGRACC +GTSERCC; 6000 N !\n FUNCTION GEGRACC 10 -0.5159523*GEIN(1953) +0.121519*GEIN(448)\n     +0.3496843*GEIN(947)+0.0388463*GEIN(193)+0.005840323*GEIN(64);  6000 N !\n FUNCTION GTSERCC   10 -2.9531332E-04*T**2-3.3998492E-16*T**5; 6000 N !\n\nThe sum of the coefficients for the GEIN functions in GEGRACC must be\nunity.  As one of the Einstein THETA, equal to 1953, is used also in\nthe LNTH parameter this represents a coefficient equal to unity.  Thus\nthe coefficient of the GEIN function for the same THETA, 1953, in\nGEGRACC must be negative.  Note that the GTSERCC has no linear T term\nand no T*LN(T) term as the heat capacity and entropy must be zero at\nT=0K.  A minor spelling error is also fixed.\n\n2023.10.27 OC version 6.068: A new example added using the new unary\nmodels.  The Al-C system assessed in 2021 by Zingtang He et al.  The\nnew usnary is implemented in the software but there is still no way to\nspecify these in the TDB file which is one of the reasons for the\nproject to develop a new XML based format.  Anyway I added an example\nshowing one can now calculate heat capacities down to a few K.\n\n2023.10.23 OC version 6.067: A rather serious bug in handling\nexpressions for TP functions and parameters has been discovered.  This\nis now fixed and illegal expressions which were previously accepted,\nfor example \"T**-1\", without parenthesis surrounding the power,\ni.e. \"T**(-1)\", will now give an explicit error message indicating the\nline on the databases which needs correction.  This error may occur\nalso with database you have used for a long time.\n\n2023.10.01 OC version 6.066: A fix to supress illegal XML characters\n(< > & and \") in bibliogaphic references.  The characters are replaced\nby [ ] | and ' to avoid increasing the length of the text.\n\n2023.09.30 OC version 6.065: A tentative XML format has been\nimplemented when saving databases.  The command is SAVE XTDB.  The\ncurrent TDB format has worked for 40 years but new models has made it\ncumbersome and different software has added various features which\nmakes it difficult to read a TDB file generated by one software by\nanother one.  The TDB file was developed for the 1991 unary and\nhopefully there will be a new XML standard developed for the new\ngeneration unary data.  There is still no way to read the XTDB format\nby OC as the different features are still discussed.\n\n2023.09.18 OC version 6.064: The first update using my new PC!  I am\nstill not working full time, there are reasons to enjoy the time as\nretired also.  I added a LIST WORKING_DIR making it easier to know\nwhere any plot files have disappeared if you do not find them.  The\nmacros STEP-TZERO and and MAP19 have some additional features also.\nNo major changes in the software.\n\n2023.05.27 OC version 6.063: The development is really slow, the only\nthing added is the command CALCULATE LIQUID_EET which calculates the T",
+      "content_excerpted": false,
+      "first_line": 1,
+      "last_line": 100
+    },
+    "opencalphad_issue57": {
+      "html_url": "https://github.com/sundmanbo/opencalphad/issues/57",
+      "title": "ModuleNotFoundError: No module named 'rawpyOC'",
+      "body": "hi there\uff0crunning the example in pyoc reports an error ModuleNotFoundError: No module named 'rawpyOC'\r\nhow to dissolve it.",
+      "created_at": "2024-05-29T06:53:34Z",
+      "closed_at": "2024-10-06T16:49:33Z",
+      "updated_at": "2024-10-06T16:49:33Z",
+      "state": "closed",
+      "author_login": "Arosyisagoodcivilizen"
+    },
+    "opencalphad_comments57": {
+      "comments": [
+        {
+          "html_url": "https://github.com/sundmanbo/opencalphad/issues/57#issuecomment-2395505367",
+          "created_at": "2024-10-06T16:49:33Z",
+          "updated_at": "2024-10-06T16:49:33Z",
+          "body": "There is currently no support for Python with OC.  Too many other things to do\r\n",
+          "author_login": "sundmanbo"
+        }
+      ]
+    },
+    "opencalphad_classify_0": {
+      "sha": "efda8a80e136588d95748c37ba175092fa5a5939",
+      "message": "updated the GEIN function and some more things",
+      "html_url": "https://github.com/sundmanbo/opencalphad/commit/efda8a80e136588d95748c37ba175092fa5a5939",
+      "created_at": "2023-04-24T17:50:34Z",
+      "git_author_email": null,
+      "author_login": "sundmanbo",
+      "committer_login": "sundmanbo",
+      "changed_files_count": 8,
+      "selected_files": [
+        {
+          "filename": "changes.txt",
+          "patch_excerpt": "@@ -4,11 +4,11 @@ earlier.  This log started 2016-03-03.\n For general information please read the intro-OC7.pdf and the\n macros-OC7.pdf.\n \n-There is a new precompiled installation of OC on Windows\n-on the OpenCalphad web page.  It includes an introduction, on-line\n-help and examples with macro files and some small databases.  For\n-graphics the free GNUPLOT software must be installed separately from\n-Sourceforge or a similar website.\n+There is a precompiled installation of OC for Windows on the\n+OpenCalphad web page.  It includes an introduction, on-line help and\n+examples with macro files and some small databases.  For graphics the\n+free GNUPLOT software must be installed separately from Sourceforge or\n+a similar website.\n \n On Linux, MacOS and other OS the installation requires some general\n knowledge about compiling and linking of software.  There is an\n@@ -20,10 +20,27 @@ time to answer such questions.\n \n In the list below the most recent changes come first.\n \n+2023.04.24 OC version 6.062: The example step-epz has been modified.\n+This macro calculates sections of an Fe-C alloy with small additions\n+of Mn and Si system in order to explain various transformations in\n+steels using full equlibrium, the para-equilibrium concept and the\n+T-zero line for diffusionless transformations (martensite!).\n+\n+The GEIN function to calculate the Einstein low T vibrational\n+contribution to the heat capacity has been modified to take the\n+logarithm of the Einstein THETA as argument.  This is to be compatible\n+with the LNTH parameter which calculates the composition dependent\n+Einstein function.  When an element has several THETA they are each\n+weighted with factors, sum of which must be unity.  When one of them\n+is selected as the LNTH parameter, which has the weight unity, the\n+weight factor for the corresponding GEIN function must be negative and\n+the same value of the Einsten T must be used for the LNTH and the GEIN\n+function.\n+\n 2023.03.08 OC version 6.061: Celebrating women day!  I have started\n implementing a model for SRO a la CVM for tetrahedron FCC.  This is\n still only for testing and a model also for CVM LRO is in the\n-pipeline.  A number of other minor improvementa and bugs fiand.\n+pipeline.  A number of other minor improvement added and bugs fixed.\n \n 2023.01.22 OC version 6.060: A long time without work, or rather too\n much to have time with the software.  I am still struggling with the\n@@ -764,7 +781,7 @@ link the Scheil program.  Probably a similar change is needed for\n Linux but I cannot test that.\n \n 2020.02.04 OC version 5.058: Finally some improvement of mapping but\n-as always some diagrams are worse.  There is many things still to fix.\n+as always some diagrams are worse.  There are many things still to fix.\n \n A stronger check of ambiguous phase names in TDB files has been\n introduced.  At present only as a warning but in a future version",
+          "patch_excerpted": false
+        },
+        {
+          "filename": "src/models/gtp3B.F90",
+          "patch_excerpt": "@@ -607,7 +607,7 @@ subroutine enter_phase(name,nsl,knr,const,sites,model,phtype,warning,emodel)\n    integer iph,kkk,lokph,ll,nk,jl,jk,mm,lokcs,nkk,nyfas,loksp,tuple,bothcharge\n    integer s1,mqm1(20),mqm2(20),s2,s3,s4,s5,minus,s8\n ! logicals for models later stored in phase record\n-   logical i2sl,QCE,uniquac,mqm,clusterr,nocations,cvmtfs\n+   logical i2sl,QCE,uniquac,mqm,clusterr,nocations,cvmtfs,cvmtfl\n ! csfree and highcs for finding phase_varres record\n    if(.not.allowenter(2)) then\n       gx%bmperr=4125\n@@ -624,6 +624,7 @@ subroutine enter_phase(name,nsl,knr,const,sites,model,phtype,warning,emodel)\n    uniquac=.FALSE.\n ! phase with tetrahedron CVM configurational entropy\n    cvmtfs=.FALSE.\n+   cvmtfl=.FALSE.\n ! this will be set to TRUE if no cations for the I2SL liquid.\n ! changes are needed also when calculating with such a liquid\n    nocations=.FALSE.\n@@ -703,7 +704,11 @@ subroutine enter_phase(name,nsl,knr,const,sites,model,phtype,warning,emodel)\n 7     format('3B With this model some of the following questions'&\n            ' are irrelevant'/'but kept for compatibility with other models')\n    elseif(model(1:7).eq.'CVMTFS ') then\n+! FCC tetrahedron model without LRO (ABBB, AABA, ABAA and BAAA same)\n       cvmtfs=.TRUE.\n+   elseif(model(1:7).eq.'CVMTFL ') then\n+! FCC tetrahedrom model with LRO (max 2 elements)\n+      cvmtfl=.TRUE.\n    endif\n    externalchargebalance=.false.\n ! CVMTFS creates its own set of constituents in a special subroutine\n@@ -979,6 +984,9 @@ subroutine enter_phase(name,nsl,knr,const,sites,model,phtype,warning,emodel)\n       if(model(1:7).eq.'CVMTFS ') then\n          phlista(nyfas)%status1=ibset(phlista(nyfas)%status1,PHSSRO)\n       endif\n+      if(model(1:7).eq.'CVMTFL ') then\n+         phlista(nyfas)%status1=ibset(phlista(nyfas)%status1,PHCVMTFL)\n+      endif\n    endif\n ! make sure status word and some other links are set\n    firsteq%phase_varres(lokcs)%status2=0\n@@ -1321,7 +1329,7 @@ subroutine enter_cvmtfs_phase(name,nsl,knr,const)\n       gx%bmperr=4399; goto 1000\n    endif\n    if(knr(1).le.1 .or. knr(1).gt.10) then\n-      write(*,*)'The CVMTFS phase to few or too many elements',knr(1)\n+      write(*,*)'The CVMTFS phase has too few or too many elements',knr(1)\n       gx%bmperr=4399; goto 1000\n    endif\n ! save names of elements and check they exist!",
+          "patch_excerpted": false
+        }
+      ]
+    },
+    "opencalphad_classify_1": {
+      "sha": "7ad968aed26de7cd4bbd23cf5495686e97f84aa0",
+      "message": "Many minor updates\n\nPreparing for XML format",
+      "html_url": "https://github.com/sundmanbo/opencalphad/commit/7ad968aed26de7cd4bbd23cf5495686e97f84aa0",
+      "created_at": "2023-12-16T12:45:08Z",
+      "git_author_email": null,
+      "author_login": "sundmanbo",
+      "committer_login": "sundmanbo",
+      "changed_files_count": 18,
+      "selected_files": [
+        {
+          "filename": "changes.txt",
+          "patch_excerpt": "@@ -20,7 +20,43 @@ time to answer such questions.\n \n In the list below the most recent changes come first.\n \n-2023.10.23 OC version 6.068: A new example added using the new unary\n+2023.12.16 OC version 6.070: Many minor changes to prepare for the\n+implementation of TDB files using the XML markup language.\n+\n+2023.10.29 OC version 6.069: In the previous update I forgot to\n+mention that the argument for the GEIN function has been changed to be\n+the actual Einstein THETA, not the logarithm.  See OC version 6.062.\n+In the LNTH parameter the logarithm of the THETA is used because it is\n+physically more reasonable to vary the logarithm of THETA with the\n+composition.  But one can use the same numeric THETA value as in the\n+GEIN function by using LN(THETA) for the parameter.\n+\n+Last update also included a macro to calculate the Al-C system with\n+the new unary.  But I forgot the explain how one can handle the Gibbs\n+energy for unaries with multiple Einstein THETA, for example C as\n+graphite.  In the database for the Al-C system you can see for example\n+the graphite phase, which has been assessed using 5 THETA, the\n+parameters are:\n+\n+ PARAMETER G(GRAPHITE,C)    10 +GHSERCC; 6000 N 20HE !\n+ PARAMETER LNTH(GRAPHITE,C) 10 LN(1953); 6000 N 20HE !\n+\n+where the function GHSERCC is split on several functions:\n+\n+ FUNCTION GHSERCC   10 -17752.213 +GEGRACC +GTSERCC; 6000 N !\n+ FUNCTION GEGRACC 10 -0.5159523*GEIN(1953) +0.121519*GEIN(448)\n+     +0.3496843*GEIN(947)+0.0388463*GEIN(193)+0.005840323*GEIN(64);  6000 N !\n+ FUNCTION GTSERCC   10 -2.9531332E-04*T**2-3.3998492E-16*T**5; 6000 N !\n+\n+The sum of the coefficients for the GEIN functions in GEGRACC must be\n+unity.  As one of the Einstein THETA, equal to 1953, is used also in\n+the LNTH parameter this represents a coefficient equal to unity.  Thus\n+the coefficient of the GEIN function for the same THETA, 1953, in\n+GEGRACC must be negative.  Note that the GTSERCC has no linear T term\n+and no T*LN(T) term as the heat capacity and entropy must be zero at\n+T=0K.  A minor spelling error is also fixed.\n+\n+2023.10.27 OC version 6.068: A new example added using the new unary\n models.  The Al-C system assessed in 2021 by Zingtang He et al.  The\n new usnary is implemented in the software but there is still no way to\n specify these in the TDB file which is one of the reasons for the\n@@ -32,12 +68,12 @@ expressions for TP functions and parameters has been discovered.  This\n is now fixed and illegal expressions which were previously accepted,\n for example \"T**-1\", without parenthesis surrounding the power,\n i.e. \"T**(-1)\", will now give an explicit error message indicating the\n-line on the databases which needs correction.  This may occur also\n-with database you have used for a long time.\n+line on the databases which needs correction.  This error may occur\n+also with database you have used for a long time.\n \n 2023.10.01 OC version 6.066: A fix to supress illegal XML characters\n-(< > & and \") in bibliogaphic notes.  Replaced by [ ] | and ' to avoid\n-increasing character length.\n+(< > & and \") in bibliogaphic references.  The characters are replaced\n+by [ ] | and ' to avoid increasing the length of the text.\n \n 2023.09.30 O",
+          "patch_excerpted": true
+        },
+        {
+          "filename": "src/models/gtp3.F90",
+          "patch_excerpt": "@@ -37,7 +37,7 @@ MODULE GENERAL_THERMODYNAMIC_PACKAGE\n   use ocparam\n !\n !! overall version number\n-  character (len=8), parameter :: version='  6.069 '\n+  character (len=8), parameter :: version='  6.070 '\n !\n !\n ! data structure for non-encrypted TP functions\n@@ -72,11 +72,15 @@ MODULE GENERAL_THERMODYNAMIC_PACKAGE\n !include \"gtp3D.F90\"\n #include \"gtp3D.F90\"\n \n-! 7: state variable manipulations\n+! 9A: Read/write TDB/UNFORMATTED\n !include \"gtp3E.F90\"\n #include \"gtp3E.F90\"\n \n-! 8-9: state variable functions, interactive things\n+! 9B: Read/write XML\n+!include \"gtp3EX.F90\"\n+#include \"gtp3EX.F90\"\n+\n+! 7-8: state variable functions, interactive things\n !include \"gtp3F.F90\"\n #include \"gtp3F.F90\"\n ",
+          "patch_excerpted": false
+        }
+      ]
+    },
+    "opencalphad_classify_2": {
+      "sha": "fc124e71a793fb5419ea2849ec02ddd56576ebd5",
+      "message": "Minor cleanup of old code, new example\n\nPreparation for major MQMQA implementation.  New example for prototype FCC ordering with SRO",
+      "html_url": "https://github.com/sundmanbo/opencalphad/commit/fc124e71a793fb5419ea2849ec02ddd56576ebd5",
+      "created_at": "2024-10-06T16:41:24Z",
+      "git_author_email": null,
+      "author_login": "sundmanbo",
+      "committer_login": "sundmanbo",
+      "changed_files_count": 20,
+      "selected_files": [
+        {
+          "filename": "changes.txt",
+          "patch_excerpt": "@@ -20,6 +20,19 @@ time to answer such questions.\n \n In the list below the most recent changes come first.\n \n+2024.01.04 Cleaned up some code in ges5E.F90.  Added an example\n+sro-cef.OVM to calculate the prototype FCC phase diagram.\n+\n+2024.06.30\n+The subroutine calc_toop moved to the gtp3XQ.F90 file as it is closely\n+associated with the MQMQA model even if Toop and Kohler ternary\n+extrapolation methods can be used in any phase.  I had forgotten this\n+subroutine evidently written in 2020.  It uses records of the TYPE\n+gtp_tooprec to identify a ternary with Toop or Kohler extrapolation.\n+Most probably the more elabore Toop/Kohler/Muggianu extrapolations\n+described in Peltion's paper from 2001 are not included.  The routine\n+has not been properly debugged.\n+\n 2024.06.18 OC version 6.071: Long time no development.  Created a\n gtp3XQ.F90 so simplify work in the MQMQA model and handling\n multicomponent Kohler-Toop extrapolations.",
+          "patch_excerpted": false
+        }
+      ]
+    },
+    "pinocchio_post_readme": {
+      "url": "https://github.com/stack-of-tasks/pinocchio/blob/84c964d3285ce78a13b02c1a5745ed32ef42bd67/README.md",
+      "title": "README.md",
+      "blob_sha": "23c183643f20e840fbcc1a9ff5f0df4424236bbf",
+      "content_excerpt": "Pinocchio\n===========\n\nSetup\n-----\n\nTo compile this package, it is recommended to create a separate build\ndirectory:\n\n    mkdir _build\n    cd _build\n    cmake [OPTIONS] ..\n    make install\n\nPlease note that CMake produces a `CMakeCache.txt` file which should\nbe deleted to reconfigure a package from scratch.\n\n\n### Dependencies\n\nThe Pinocchio software depends on several packages which\nhave to be available on your machine.\n\n - Libraries:\n   - eigen3 (version >= 3.0.5)\n   - urdfdom (version >= 0.3.0)\n - System tools:\n   - CMake (>=2.6)\n   - pkg-config\n   - usual compilation tools (GCC/G++, make, etc.)\n - Python 2.7\n - Boost python\n \n### Install standalone urdfdom\n\nIn order to read urdf files (see http://wiki.ros.org/urdf for the description), one haves to install the urdfdom package which can come either along ROS library or be installed as a standalone library. Next section describes the second procedure.\n\nurdfdom depends on both console_bridge and urdfdom_headers. The installation of both dependencies can be done with the following command lines in a terminal :\n  - git clone git://github.com/ros/console_bridge.git && cd console_bridge && mkdir build && cd build && cmake .. && make && sudo make install\n  - git clone git://github.com/ros/urdfdom_headers && cd urdfdom_headers && mkdir build && cd build && cmake .. && make && sudo make install\n    \nFinally, you just need to apply the following command line to install urdfdom library :\n  - git clone git://github.com/ros/urdfdom && cd urdfdom && mkdir build && cd build && cmake .. && make && sudo make install\n",
+      "content_excerpted": false,
+      "first_line": 1,
+      "last_line": 44
+    },
+    "pinocchio_pre_readme": {
+      "url": "https://github.com/stack-of-tasks/pinocchio/blob/5f423fbd95653e892cd894f5ff4d37284d5bb8e5/README.md",
+      "title": "README.md",
+      "blob_sha": "23c183643f20e840fbcc1a9ff5f0df4424236bbf",
+      "content_excerpt": "Pinocchio\n===========\n\nSetup\n-----\n\nTo compile this package, it is recommended to create a separate build\ndirectory:\n\n    mkdir _build\n    cd _build\n    cmake [OPTIONS] ..\n    make install\n\nPlease note that CMake produces a `CMakeCache.txt` file which should\nbe deleted to reconfigure a package from scratch.\n\n\n### Dependencies\n\nThe Pinocchio software depends on several packages which\nhave to be available on your machine.\n\n - Libraries:\n   - eigen3 (version >= 3.0.5)\n   - urdfdom (version >= 0.3.0)\n - System tools:\n   - CMake (>=2.6)\n   - pkg-config\n   - usual compilation tools (GCC/G++, make, etc.)\n - Python 2.7\n - Boost python\n \n### Install standalone urdfdom\n\nIn order to read urdf files (see http://wiki.ros.org/urdf for the description), one haves to install the urdfdom package which can come either along ROS library or be installed as a standalone library. Next section describes the second procedure.\n\nurdfdom depends on both console_bridge and urdfdom_headers. The installation of both dependencies can be done with the following command lines in a terminal :\n  - git clone git://github.com/ros/console_bridge.git && cd console_bridge && mkdir build && cd build && cmake .. && make && sudo make install\n  - git clone git://github.com/ros/urdfdom_headers && cd urdfdom_headers && mkdir build && cd build && cmake .. && make && sudo make install\n    \nFinally, you just need to apply the following command line to install urdfdom library :\n  - git clone git://github.com/ros/urdfdom && cd urdfdom && mkdir build && cd build && cmake .. && make && sudo make install\n",
+      "content_excerpted": false,
+      "first_line": 1,
+      "last_line": 44
+    },
+    "pinocchio_post_commit": {
+      "sha": "84c964d3285ce78a13b02c1a5745ed32ef42bd67",
+      "message": "Lab: Modification for ISAE.",
+      "html_url": "https://github.com/stack-of-tasks/pinocchio/commit/84c964d3285ce78a13b02c1a5745ed32ef42bd67",
+      "created_at": "2015-03-30T15:53:41Z",
+      "git_author_email": null,
+      "author_login": "nmansard",
+      "committer_login": "fvalenza",
+      "changed_files_count": 2,
+      "selected_files": [
+        {
+          "filename": "lab/inverse-kinematics",
+          "patch_excerpt": "@@ -36,29 +36,18 @@ student@student-virtualbox:~$\n ....\n \n \n-Robot kinematic tree\n-~~~~~~~~~~~~~~~~~~~~\n-\n-The kinematic tree is represented by two C\\++ objects called Model (which\n-contains the model constants: lengths, masses, names, etc) and Data (which\n-contains the working memory used by the model algorithms). Both C\\++ objects are\n-contained in a unique Python class called RobotWrapper.\n-\n-Import the class +RobotWrapper+ and create an instance of this class in the\n-python terminal. At initialization, RobotWrapper will read the model\n-description in the URDF file given as argument. In the following, we will use\n-the model of the Romeo robot, available in the directory \"models\" of Pinocchio.\n+Basic mathematical objects\n+~~~~~~~~~~~~~~~~~~~~~~~~~~\n \n+In the following, we will use numpy Matrix class to represent matrices and vectors. In numpy, vectors simply are matrices with one column. See the following example.\n [source, python]\n ----\n-from pinocchio.robot_wrapper import RobotWrapper\n-\n-robot = RobotWrapper('/home/student/src/pinocchio/models/romeo.urdf')\n+import numpy as np\n+A = np.matrix([ [1,2,3,4],[5,6,7,8]]) # Define a 6x4 matrix\n+b = np.zeros([4,1])   # Define a 4 vector (ie a 4x1 matrix) initialized to 0.\n+c = A*b               # Obtain c by multiplying A by b.\n ----\n \n-Utils functions\n-~~~~~~~~~~~~~~~\n-\n A bunch of useful functions are packages in the utils of pinocchio.\n \n [source,python]\n@@ -75,6 +64,57 @@ cross(rand(3),rand(3))    # Cross product of R^3\n rotate('x',0.4)           # Build a rotation matrix of 0.4rad around X.\n ----\n \n+Specific classes are defined to reprensent object of SE(3), se(3) and se(3)^*. Rigid displacement, elements of SE(3), are represented by the class SE3.\n+[source,python]\n+----\n+import pinocchio as se3\n+R = eye(3); p = zero(3)\n+M0 = se3.SE3(R,p)\n+M = se3.SE3.Random()\n+M.translation = p; M.rotation = R\n+----\n+\n+Spatial velocities, elements of se(3) = M^6, are represented by the class Motion.\n+[source,python]\n+\n+----\n+v = zero(3); w = zero(3)\n+nu0 = se3.Motion(v,w)\n+nu = se3.Motion.Random()\n+nu.linear = v; nu.angular = w\n+----\n+\n+Spatial forces, elements of se(3)^* = F^6, are represented by the class Force.\n+\n+[source,python]\n+----\n+f = zero(3); tau = zero(3)\n+phi0 = se3.Force(f,tau)\n+phi = se3.Force.Random()\n+phi.linear = f; phi.angular = tau\n+----\n+\n+Robot kinematic tree\n+~~~~~~~~~~~~~~~~~~~~\n+\n+The kinematic tree is represented by two C\\++ objects called Model (which\n+contains the model constants: lengths, masses, names, etc) and Data (which\n+contains the working memory used by the model algorithms). Both C\\++ objects are\n+contained in a unique Python class called RobotWrapper.\n+\n+Import the class +RobotWrapper+ and create an instance of this class in the\n+python terminal. At initialization, RobotWrapper will read the model\n+description in the URDF file given as argument. In the following, we will use\n+the model of the Romeo robot, available in the directory \"models\" of Pinocchio.\n+\n+[source, python]\n+----\n+from pinocchio.robot_wrapper import RobotWrapper\n+\n+robot = RobotWrapper('/home/student/src/pinocchio/models/romeo.urdf')\n+----\n+The code of the RobotWrapper class is in /home/student/src/pinocc",
+          "patch_excerpted": true
+        },
+        {
+          "filename": "lab/solution2",
+          "patch_excerpt": "@@ -33,12 +33,9 @@ xdes = np.matrix([3.0,1.0,2.0]).T\n \n for i in range(1000):\n     Mrh = robot.Mrh(q)\n-\n     e = Mrh.translation[0:3,0] - xdes\n     J = Mrh.rotation * robot.Jrh(q)[:3,:]\n-\n     qdot = -npl.pinv(J)*e\n-    \n     robot.increment(q,qdot*1e-2)\n     robot.display(q)\n ----",
+          "patch_excerpted": false
+        }
+      ],
+      "exact_git_object_dates": {
+        "author_unix": 1421009669,
+        "author_utc": "2015-01-11T20:54:29Z",
+        "committer_unix": 1427730821,
+        "committer_utc": "2015-03-30T15:53:41Z",
+        "provenance": "Inspected exact local bare Git commit object; SHA identifies content."
+      }
+    },
+    "pinocchio_model_commit": {
+      "sha": "7f3c67f027c5ea717f8101adee467ae52c2d21f8",
+      "message": "Models: IVIGIT Romeo properly sized model (for the lab).",
+      "html_url": "https://github.com/stack-of-tasks/pinocchio/commit/7f3c67f027c5ea717f8101adee467ae52c2d21f8",
+      "created_at": "2014-11-14T14:19:22Z",
+      "git_author_email": null,
+      "author_login": "nmansard",
+      "committer_login": "nmansard",
+      "changed_files_count": 32,
+      "selected_files": [
+        {
+          "filename": "models/wrl/HeadRoll.wrl",
+          "patch_excerpt": "",
+          "patch_excerpted": false
+        },
+        {
+          "filename": "models/wrl/LAnkleRoll.wrl",
+          "patch_excerpt": "",
+          "patch_excerpted": false
+        }
+      ]
+    },
+    "agnwinds_readme": {
+      "url": "https://github.com/agnwinds/python/blob/main/README.md",
+      "title": "README.md",
+      "blob_sha": "bf6dbb69182ecf70cb766739e94d489e8a08c970",
+      "content_excerpt": "# IMPORTANT NOTICE\n\nThis is the github site address for Python, the radiative transfer code developed over the years for modelling winds in accretion disk \nsystems.  As of 2024 October, we have renamed the code, Sirocco, to avoid the continuing confusion with the scripting language python.\n\nThis repository preserves the code state as Python 88x, just before Sirocco v0.1 was released.  As of this date, it exists entirely for \narchival purposes, and no further changes are contemplated.\n\nBoth new and continuing users should head to the up to date site: https://github.com/sirocco-rt/sirocco.   Although some of the names \nof various routines are changed, Sirocco will intially have exactly the same capabilites as Python 88x.\n\nAll updates to the code will occur on the Sirocco github site.\n\n\n# Python\n\nPython is a (confusingly named) Monte Carlo radiative transfer code which uses the Sobolev approximation. It has been developed by Knox Long, Christian Knigge, Stuart Sim, Nick Higginbottom, James Matthews, Sam Manghamm Edward Parkinson, Mandy Hewitt and Nico Scepi.The code has been used for a variety of research projects invovling the winds of cataclysmic variables, young stellar objects, X-ray binaries and AGN.\n\nThe code is under active development, but we are looking for beta users to test the code, and potentially use it for their own research. If you are interested in using Python please contact Knox Long via long[at]stsci[dot]edu. \n\nDocumentation is hosted on [ReadTheDocs](http://agnwinds.readthedocs.io/en/dev/).\n\n## CI \\& Docs Build Status\n\n[![C/C++ CI](https://github.com/agnwinds/python/actions/workflows/build.yml/badge.svg)](https://github.com/agnwinds/python/actions/workflows/build.yml)",
+      "content_excerpted": false,
+      "first_line": 1,
+      "last_line": 25
+    },
+    "sirocco_pr1002": {
+      "url": "https://github.com/sirocco-rt/sirocco/pull/1002",
+      "title": "Pluto",
+      "body": "Knox's various updates to Python while working on rad hydro",
+      "created_at": "2023-06-22T15:19:59Z",
+      "closed_at": "2023-06-22T15:24:44Z",
+      "merged_at": "2023-06-22T15:24:44Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "74679f59afea0a300b6b416cf5bea89e52d9e4db",
+      "commits": 6,
+      "changed_files": 7,
+      "additions": 677,
+      "deletions": 170,
+      "author_login": "kslong"
+    },
+    "sirocco_pr998": {
+      "url": "https://github.com/sirocco-rt/sirocco/pull/998",
+      "title": "Xcompton",
+      "body": null,
+      "created_at": "2023-03-10T16:04:53Z",
+      "closed_at": "2023-03-10T16:13:09Z",
+      "merged_at": "2023-03-10T16:13:09Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "928d344e1162a464bc463a636fb70916906d746c",
+      "commits": 14,
+      "changed_files": 17,
+      "additions": 358,
+      "deletions": 71,
+      "author_login": "kslong"
+    },
+    "powerlaw_pr103": {
+      "url": "https://github.com/csgillespie/poweRlaw/pull/103",
+      "title": "fix: Package engine in vignette",
+      "body": null,
+      "created_at": "2025-02-02T14:40:04Z",
+      "closed_at": "2025-02-02T15:30:01Z",
+      "merged_at": "2025-02-02T15:30:01Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "495efe6a481270830b703b52d55cc2a8bfad2dd0",
+      "commits": 5,
+      "changed_files": 61,
+      "additions": 562,
+      "deletions": 526,
+      "author_login": "csgillespie"
+    },
+    "powerlaw_roxygen": {
+      "sha": "5dd00c70b0cc255040698d51a3acdbd78532238e",
+      "message": "chore: roxygen2 update",
+      "html_url": "https://github.com/csgillespie/poweRlaw/commit/5dd00c70b0cc255040698d51a3acdbd78532238e",
+      "created_at": "2025-02-02T14:41:44Z",
+      "git_author_email": null,
+      "author_login": "csgillespie",
+      "committer_login": "csgillespie",
+      "changed_files_count": 4,
+      "selected_files": [
+        {
+          "filename": "DESCRIPTION",
+          "patch_excerpt": "@@ -3,17 +3,14 @@ Package: poweRlaw\n Title: Analysis of Heavy Tailed Distributions\n Version: 0.80.0\n Authors@R: \n-    person(given = \"Colin\",\n-           family = \"Gillespie\",\n-           role = c(\"aut\", \"cre\"),\n-           email = \"csgillespie@gmail.com\",\n+    person(\"Colin\", \"Gillespie\", , \"csgillespie@gmail.com\", role = c(\"aut\", \"cre\"),\n            comment = c(ORCID = \"0000-0003-1787-0275\"))\n Maintainer: Colin Gillespie <csgillespie@gmail.com>\n-Description: An implementation of maximum likelihood estimators\n-    for a variety of heavy tailed distributions, including both the\n-    discrete and continuous power law distributions. Additionally, a\n-    goodness-of-fit based approach is used to estimate the lower cut-off\n-    for the scaling region.\n+Description: An implementation of maximum likelihood estimators for a\n+    variety of heavy tailed distributions, including both the discrete and\n+    continuous power law distributions. Additionally, a goodness-of-fit\n+    based approach is used to estimate the lower cut-off for the scaling\n+    region.\n License: GPL-2 | GPL-3\n URL: https://github.com/csgillespie/poweRlaw\n BugReports: https://github.com/csgillespie/poweRlaw/issues\n@@ -33,6 +30,8 @@ VignetteBuilder:\n     knitr\n ByteCompile: true\n Encoding: UTF-8\n+Roxygen: list(markdown = TRUE)\n+RoxygenNote: 7.3.2\n Collate:\n     'aaa_all_classes.R'\n     'all_generics.R'\n@@ -63,5 +62,3 @@ Collate:\n     'powerlaw-package.R'\n     'show_methods.R'\n     'timer.R'\n-RoxygenNote: 7.2.3\n-Roxygen: list(markdown = TRUE)",
+          "patch_excerpted": false
+        },
+        {
+          "filename": "R/powerlaw-package.R",
+          "patch_excerpt": "@@ -10,7 +10,6 @@\n #' @references A. Clauset, C.R. Shalizi, and M.E.J. Newman,\n #' \"Power-law distributions in empirical data\" SIAM Review 51(4), 661-703 (2009).\n #' @aliases poweRlaw powerlaw powerlaw-package\n-#' @docType package\n #' @author \\email{colin.gillespie@@newcastle.ac.uk}\n #' @keywords package\n #' @seealso <https://github.com/csgillespie/poweRlaw>",
+          "patch_excerpted": false
+        },
+        {
+          "filename": "man/poweRlaw-package.Rd",
+          "patch_excerpt": "@@ -1,6 +1,5 @@\n % Generated by roxygen2: do not edit by hand\n % Please edit documentation in R/powerlaw-package.R\n-\\docType{package}\n \\name{poweRlaw-package}\n \\alias{poweRlaw-package}\n \\alias{poweRlaw}",
+          "patch_excerpted": false
+        },
+        {
+          "filename": "poweRlaw.Rproj",
+          "patch_excerpt": "@@ -1,4 +1,5 @@\n Version: 1.0\n+ProjectId: ca1af107-a4b0-4351-96f1-05f26ffac295\n \n RestoreWorkspace: Default\n SaveWorkspace: Default",
+          "patch_excerpted": false
+        }
+      ]
+    },
+    "powerlaw_deployment": {
+      "sha": "dece0d4544dca9aaec4e2d70832b67a19d4d51c9",
+      "message": "Deploying to gh-pages from @ csgillespie/poweRlaw@495efe6a481270830b703b52d55cc2a8bfad2dd0 \ud83d\ude80",
+      "html_url": "https://github.com/csgillespie/poweRlaw/commit/dece0d4544dca9aaec4e2d70832b67a19d4d51c9",
+      "created_at": "2025-02-02T15:32:50Z",
+      "git_author_email": null,
+      "author_login": "csgillespie",
+      "committer_login": "csgillespie",
+      "changed_files_count": 153,
+      "selected_files": [
+        {
+          "filename": ".nojekyll",
+          "patch_excerpt": "@@ -0,0 +1 @@\n+",
+          "patch_excerpted": false
+        },
+        {
+          "filename": "index.html",
+          "patch_excerpt": "@@ -0,0 +1,155 @@\n+<!DOCTYPE html>\n+<!-- Generated by pkgdown: do not edit by hand --><html lang=\"en\">\n+<head>\n+<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n+<meta charset=\"utf-8\">\n+<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n+<title>Analysis of Heavy Tailed Distributions \u2022 poweRlaw</title>\n+<script src=\"deps/jquery-3.6.0/jquery-3.6.0.min.js\"></script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n+<link href=\"deps/bootstrap-5.3.1/bootstrap.min.css\" rel=\"stylesheet\">\n+<script src=\"deps/bootstrap-5.3.1/bootstrap.bundle.min.js\"></script><link href=\"deps/font-awesome-6.5.2/css/all.min.css\" rel=\"stylesheet\">\n+<link href=\"deps/font-awesome-6.5.2/css/v4-shims.min.css\" rel=\"stylesheet\">\n+<script src=\"deps/headroom-0.11.0/headroom.min.js\"></script><script src=\"deps/headroom-0.11.0/jQuery.headroom.min.js\"></script><script src=\"deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js\"></script><script src=\"deps/clipboard.js-2.0.11/clipboard.min.js\"></script><script src=\"deps/search-1.0.0/autocomplete.jquery.min.js\"></script><script src=\"deps/search-1.0.0/fuse.min.js\"></script><script src=\"deps/search-1.0.0/mark.min.js\"></script><!-- pkgdown --><script src=\"pkgdown.js\"></script><meta property=\"og:title\" content=\"Analysis of Heavy Tailed Distributions\">\n+<meta name=\"description\" content=\"An implementation of maximum likelihood estimators for a variety of heavy tailed distributions, including both the discrete and continuous power law distributions. Additionally, a goodness-of-fit based approach is used to estimate the lower cut-off for the scaling region.\">\n+<meta property=\"og:description\" content=\"An implementation of maximum likelihood estimators for a variety of heavy tailed distributions, including both the discrete and continuous power law distributions. Additionally, a goodness-of-fit based approach is used to estimate the lower cut-off for the scaling region.\">\n+</head>\n+<body>\n+    <a href=\"#main\" class=\"visually-hidden-focusable\">Skip to contents</a>\n+\n+\n+    <nav class=\"navbar navbar-expand-lg fixed-top bg-light\" data-bs-theme=\"light\" aria-label=\"Site navigation\"><div class=\"container\">\n+\n+    <a class=\"navbar-brand me-2\" href=\"index.html\">poweRlaw</a>\n+\n+    <small class=\"nav-text text-muted me-auto\" data-bs-toggle=\"tooltip\" data-bs-placement=\"bottom\" title=\"\">0.80.0.9001</small>\n+\n+\n+    <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbar\" aria-controls=\"navbar\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n+      <span class=\"navbar-toggler-icon\"></span>\n+    </button>\n+\n+    <div id=\"navbar\" class=\"collapse navbar-collapse ms-3\">\n+      <ul class=\"navbar-nav me-auto\">\n+<li class=\"nav-item\"><a class=\"nav-link\" href=\"reference/index.html\">Reference</a></li>\n+<li class=\"nav-item\"><a class=\"nav-link\" href=\"news/index.html\">Changelog</a></li>\n+      </ul>\n+<ul class=\"navbar-nav\">\n+<li class=\"nav-item\"><form class=\"form-inline\" role=\"search\">\n+ <input class=\"form-control\" type=\"search\" name=\"search-input\" id=\"search-input\" autocomplete=\"off\" aria-la",
+          "patch_excerpted": true
+        }
+      ]
+    },
+    "powerlaw_post_readme": {
+      "url": "https://github.com/csgillespie/poweRlaw/blob/ad80bcd3ef7da449f65482e5a636718df874d88d/README.md",
+      "title": "README.md",
+      "blob_sha": "c2d9b641c9d62980e67d9ed1b3db48765492f4e6",
+      "content_excerpt": "\n<!-- README.md is generated from README.Rmd. Please edit that file -->\n\n# The poweRlaw package\n\n[![codecov.io](https://codecov.io/github/csgillespie/poweRlaw/coverage.svg?branch=master)](https://app.codecov.io/github/csgillespie/poweRlaw?branch=master)\n[![Downloads](https://cranlogs.r-pkg.org/badges/poweRlaw?color=brightgreen)](https://cran.r-project.org/package=poweRlaw)\n[![CRAN](https://www.r-pkg.org/badges/version/poweRlaw)](https://cran.r-project.org/package=poweRlaw)\n\nThis package implements both the discrete and continuous maximum\nlikelihood estimators for fitting the power-law distribution to data\nusing the methods described in [Clauset et al,\n2009](http://arxiv.org/abs/0706.1062). It also provides function to fit\nlog-normal and Poisson distributions. Additionally, a goodness-of-fit\nbased approach is used to estimate the lower cut-off for the scaling\nregion.\n\nThe code developed in this package was influenced from the python and R\ncode found at Aaron Clauset\u2019s website. In particular, the R code of\nLaurent Dubroca and Cosma Shalizi.\n\nTo cite this package in academic work, please use:\n\nGillespie, C. S. \u201c*Fitting heavy tailed distributions: the poweRlaw\npackage.*\u201d Journal of Statistical Software, 64(2) 2015.\n([pdf](https://doi.org/10.18637/jss.v064.i02)).\n\nFor a different way of handling powerlaw type distributions, see\n\nGillespie, C.S. \u201d *Estimating the number of casualties in the American\nIndian war: a Bayesian analysis using the power law distribution.*\u201d\nAnnals of Applied Statistics, 2017.\n([pdf](https://doi.org/10.1214/17-AOAS1082))\n\n## Installation\n\nThis package is hosted on\n[CRAN](https://cran.r-project.org/package=poweRlaw) and can be installed\nin the usual way:\n\n``` r\ninstall.packages(\"poweRlaw\")\n```\n\nAlternatively, the development version can be install from from github\nusing the devtools package:\n\n``` r\ninstall.packages(\"devtools\")\ndevtools::install_github(\"csgillespie/poweRlaw\")\n```\n\n## Getting Started\n\nTo get started, load the package\n\n``` r\nlibrary(\"poweRlaw\")\n```\n\nthen work through the four vignettes (links to the current CRAN\nversion):\n\n- [Getting\n  started](https://cran.r-project.org/package=poweRlaw/vignettes/a_introduction.pdf)\n- [Worked\n  examples](https://cran.r-project.org/package=poweRlaw/vignettes/b_powerlaw_examples.pdf)\n- [Comparing\n  distributions](https://cran.r-project.org/package=poweRlaw/vignettes/c_comparing_distributions.pdf)\n- [JSS\n  paper](https://cran.r-project.org/package=poweRlaw/vignettes/d_jss_paper.pdf)\n\nAlternatively, you can access the vignettes from within the package:\n\n``` r\nbrowseVignettes(\"poweRlaw\")\n```\n\nThe plots below show the line of best fit to the Moby Dick and blackout\ndata sets (from Clauset et al, 2009). ![Cumulative CDF of the Moby Dick\nand blackout data sets with line of best fit.](man/figures/figure1.png)\n\n## Other information\n\n- If you have any suggestions or find bugs, please use the github [issue\n  tracker](https://github.com/csgillespie/poweRlaw/issues)\n- Feel free to submit pull requests\n- Data was originally obtained from Arron Clausett\u2019s website. But this\n  site is no longer available.\n",
+      "content_excerpted": false,
+      "first_line": 1,
+      "last_line": 90
+    },
+    "powerlaw_workflow": {
+      "url": "https://github.com/csgillespie/poweRlaw/blob/495efe6a481270830b703b52d55cc2a8bfad2dd0/.github/workflows/pkgdown.yaml",
+      "title": "pkgdown.yaml",
+      "blob_sha": "bfc9f4db3044e4716a8e714482f61e6dfda572e5",
+      "content_excerpt": "# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples\n# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help\non:\n  push:\n    branches: [main, master]\n  pull_request:\n  release:\n    types: [published]\n  workflow_dispatch:\n\nname: pkgdown.yaml\n\npermissions: read-all\n\njobs:\n  pkgdown:\n    runs-on: ubuntu-latest\n    # Only restrict concurrency for non-PR jobs\n    concurrency:\n      group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n    permissions:\n      contents: write\n    steps:\n      - uses: actions/checkout@v4\n\n      - uses: r-lib/actions/setup-pandoc@v2\n\n      - uses: r-lib/actions/setup-r@v2\n        with:\n          use-public-rspm: true\n\n      - uses: r-lib/actions/setup-r-dependencies@v2\n        with:\n          extra-packages: any::pkgdown, local::.\n          needs: website\n\n      - name: Build site\n        run: pkgdown::build_site_github_pages(new_process = FALSE, install = FALSE)\n        shell: Rscript {0}\n\n      - name: Deploy to GitHub pages \ud83d\ude80\n        if: github.event_name != 'pull_request'\n        uses: JamesIves/github-pages-deploy-action@v4.5.0\n        with:\n          clean: false\n          branch: gh-pages\n          folder: docs\n",
+      "content_excerpted": false,
+      "first_line": 1,
+      "last_line": 50
+    }
+  }
+}

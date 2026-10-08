@@ -1,0 +1,450 @@
+project_wocid;commit_sha1;author;author_date;committer_date;commit message;commit_url;theme;theme_reason
+ketch_nodepy;0f071ac7b9cf41bcd27dedb614ab814fb0a98007;David Ketcheson <dketch@gmail.com>;2024-09-04T07:27:22Z;2024-09-04T07:27:22Z;"Merge branch 'master' of https://github.com/ketch/nodepy
+
+* 'master' of https://github.com/ketch/nodepy:
+  Update downloads badge in README.md
+";https://github.com/ketch/nodepy/commit/0f071ac7b9cf41bcd27dedb614ab814fb0a98007;Documentation updates;Merge message names the README downloads-badge update.
+ketch_nodepy;1ea45f786c297fbc1f73e8f4e531bf0d795dea6f;David Ketcheson <dketch@gmail.com>;2024-09-04T07:27:00Z;2024-09-04T07:27:00Z;"Improved coefficients for SSP(5,4).
+";https://github.com/ketch/nodepy/commit/1ea45f786c297fbc1f73e8f4e531bf0d795dea6f;Bug fixes;The inspected diff improves the precision of existing SSP(5,4) coefficients.
+ketch_nodepy;147d0828c75dd52c54be0a8271846103c2a15409;David Ketcheson <dketch@gmail.com>;2023-09-06T05:46:04Z;2023-09-06T05:46:04Z;Update downloads badge in README.md;https://github.com/ketch/nodepy/commit/147d0828c75dd52c54be0a8271846103c2a15409;Documentation updates;Changes the README badge.
+ketch_nodepy;0213db0f657f177cf7ca3a3f49d455204dfb7b11;Alexandru Fikl <alexfikl@gmail.com>;2023-06-22T17:01:18Z;2023-06-26T14:03:44Z;"docs: fix sphinx formatting in low_storage_rk
+";https://github.com/ketch/nodepy/commit/0213db0f657f177cf7ca3a3f49d455204dfb7b11;Documentation updates;Fixes Sphinx formatting in low_storage_rk.
+ketch_nodepy;053b14070c63744e1fb79cbd059c74a7742e3c3b;Alexandru Fikl <alexfikl@gmail.com>;2023-06-22T17:16:34Z;2023-06-26T14:03:44Z;"docs: fix some issues found by sphinxlint
+";https://github.com/ketch/nodepy/commit/053b14070c63744e1fb79cbd059c74a7742e3c3b;Documentation updates;Fixes documentation lint issues.
+ketch_nodepy;18eda38f761e62eef6a142baf047d321b9d212b4;Alexandru Fikl <alexfikl@gmail.com>;2023-06-22T16:31:49Z;2023-06-26T14:03:44Z;"docs: fix sphinx formatting in rooted_trees
+";https://github.com/ketch/nodepy/commit/18eda38f761e62eef6a142baf047d321b9d212b4;Documentation updates;Fixes Sphinx formatting in rooted_trees.
+ketch_nodepy;4b9929ea78405d3036a339686bb6ed5588f1a9bd;Alexandru Fikl <alexfikl@gmail.com>;2023-06-22T16:51:38Z;2023-06-26T14:03:44Z;"docs: fix sphinx formatting in linear_multistep_method
+";https://github.com/ketch/nodepy/commit/4b9929ea78405d3036a339686bb6ed5588f1a9bd;Documentation updates;Fixes Sphinx formatting in linear_multistep_method.
+ketch_nodepy;58fa51bc65d97f560c0458adb37a5654806e8798;Alexandru Fikl <alexfikl@gmail.com>;2023-06-22T12:57:30Z;2023-06-26T14:03:44Z;"docs: pass list to bibtex_bibfiles
+";https://github.com/ketch/nodepy/commit/58fa51bc65d97f560c0458adb37a5654806e8798;Documentation updates;Corrects the documentation bibliography configuration.
+ketch_nodepy;8833dc6c7cab91c864449ebff0ef12db527a914d;Alexandru Fikl <alexfikl@gmail.com>;2023-06-22T17:19:11Z;2023-06-26T14:03:44Z;"docs: update some links found by linkcheck
+";https://github.com/ketch/nodepy/commit/8833dc6c7cab91c864449ebff0ef12db527a914d;Documentation updates;Updates documentation links.
+ketch_nodepy;8947eb594f34fcaa8d68f61342a3e5e34eb67abb;Alexandru Fikl <alexfikl@gmail.com>;2023-06-22T17:35:43Z;2023-06-26T14:03:44Z;"docs: fix sphinx formatting in tutorials
+";https://github.com/ketch/nodepy/commit/8947eb594f34fcaa8d68f61342a3e5e34eb67abb;Documentation updates;Fixes tutorial formatting.
+mouseland_suite2p;dd98b4f2ecd9dc6e53250fbe90a4de493176fea6;Chris Ki <cski@andrew.cmu.edu>;2025-08-30T18:56:25Z;2025-08-30T18:56:25Z;"Merge pull request #1122 from calebshibu/py3.12-Caleb-Allen
+
+Bug fix for Python 3.11 and over.";https://github.com/MouseLand/suite2p/commit/dd98b4f2ecd9dc6e53250fbe90a4de493176fea6;Bug fixes;Merged PR explicitly fixes Python 3.11 and newer compatibility.
+mouseland_suite2p;cd6dc9d7d58823eae225616d9e0adca2b2594b8e;Chris Ki <chriski777@berkeley.edu>;2025-08-30T18:39:34Z;2025-08-30T18:39:34Z;"Update time step so it's casted to be an int. Fixes #1179.
+";https://github.com/MouseLand/suite2p/commit/cd6dc9d7d58823eae225616d9e0adca2b2594b8e;Bug fixes;Casts the time step to int to fix issue #1179.
+mouseland_suite2p;3472ced9b31ab83edf58fff53a0d080f27cea575;Chris Ki <chriski777@berkeley.edu>;2025-08-24T18:13:59Z;2025-08-24T18:13:59Z;"Fix default settings in GUI and docs to state cpsam instead of cyto.
+";https://github.com/MouseLand/suite2p/commit/3472ced9b31ab83edf58fff53a0d080f27cea575;Bug fixes;Corrects the default model in the GUI and documentation.
+mouseland_suite2p;c4a3ecbcff725cfa91517e2a5289261e28eae6e6;Chris Ki <cski@andrew.cmu.edu>;2025-08-24T18:12:46Z;2025-08-24T18:12:46Z;"Merge pull request #1184 from rishant3441/cellpose4-support
+
+Adds Cellpose-SAM Support. Verified that it fixes both #1180 and #1178.";https://github.com/MouseLand/suite2p/commit/c4a3ecbcff725cfa91517e2a5289261e28eae6e6;Feature development;"Adds support for Cellpose-SAM; bug resolutions are secondary to that new support."
+mouseland_suite2p;d2e3a9a4ed9b05f3ea9f70c7ce86bc85bd00cbe4;Chris Ki <chriski777@berkeley.edu>;2025-08-24T17:52:04Z;2025-08-24T17:52:04Z;"update default ops params in gui to be set to cpsam instead of cyto
+";https://github.com/MouseLand/suite2p/commit/d2e3a9a4ed9b05f3ea9f70c7ce86bc85bd00cbe4;Bug fixes;Corrects GUI default parameters for the selected model.
+mouseland_suite2p;39f4ec0225c72937295924090be0b5847b7a4086;Rishan Thangaraj <rishanthangaraj@gmail.com>;2025-07-02T18:45:50Z;2025-07-02T18:45:50Z;"properly print tracebacks to debug test issue
+";https://github.com/MouseLand/suite2p/commit/39f4ec0225c72937295924090be0b5847b7a4086;Bug fixes;Corrects traceback output to diagnose test failures.
+mouseland_suite2p;6b4e64c6f4299724447f65b7f221a79c54b0da69;Rishan Thangaraj <rishanthangaraj@gmail.com>;2025-07-02T18:09:06Z;2025-07-02T18:09:06Z;"Use GPU If available for Cellpose
+";https://github.com/MouseLand/suite2p/commit/6b4e64c6f4299724447f65b7f221a79c54b0da69;Feature development;Enables Cellpose GPU usage when available.
+mouseland_suite2p;ee83979a391761394a044b60322778bbdc808d24;Rishan Thangaraj <rishanthangaraj@gmail.com>;2025-07-02T17:45:47Z;2025-07-02T17:45:47Z;"Update README.md with notable pytorch GPU installation guides
+";https://github.com/MouseLand/suite2p/commit/ee83979a391761394a044b60322778bbdc808d24;Documentation updates;Adds PyTorch GPU installation guidance.
+mouseland_suite2p;73e532321a8e5c4a0fea35cb508a96df2bc63848;Rishan Thangaraj <rishanthangaraj@gmail.com>;2025-07-02T17:35:46Z;2025-07-02T17:35:46Z;"set model to cpsam, add default ops based on CPSAM docs
+";https://github.com/MouseLand/suite2p/commit/73e532321a8e5c4a0fea35cb508a96df2bc63848;Feature development;Configures CPSAM and its default options as part of new-model support.
+mouseland_suite2p;1860140982a8672f66dae1e976cfbe69ca610f6c;Rishan Thangaraj <rishanthangaraj@gmail.com>;2025-07-02T17:18:28Z;2025-07-02T17:18:28Z;"Switch out cellpose3 for Cellpose 4
+";https://github.com/MouseLand/suite2p/commit/1860140982a8672f66dae1e976cfbe69ca610f6c;Dependency updates;Replaces the Cellpose3 dependency with Cellpose4.
+esri_geoportal-server;cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b;Marten <mhogeweg@esri.com>;2025-07-08T20:25:48Z;2025-07-08T20:25:48Z;Update README.md;https://github.com/Esri/geoportal-server/commit/cd9bdd2fbd4ffa07e3d7b50813c9ff462fc6af2b;Documentation updates;Updates the retired-project README.
+esri_geoportal-server;e0727d73fbd9730f9c3c8d023ec08b7ea9803ae5;Marten <mhogeweg@esri.com>;2023-11-14T23:31:11Z;2023-11-14T23:31:11Z;"Merge pull request #342 from Esri/dependabot/maven/geoportal/maven/geoportal-jar/org.json-json-20231013
+
+Bump org.json:json from 20230227 to 20231013 in /geoportal/maven/geoportal-jar";https://github.com/Esri/geoportal-server/commit/e0727d73fbd9730f9c3c8d023ec08b7ea9803ae5;Dependency updates;Human merge of the JSON library version bump.
+esri_geoportal-server;45e87dbee63941f8245f0b46ff17fa9d2f06680c;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;2023-11-14T23:26:15Z;2023-11-14T23:26:15Z;"Bump org.json:json in /geoportal/maven/geoportal-jar
+
+Bumps [org.json:json](https://github.com/douglascrockford/JSON-java) from 20230227 to 20231013.
+- [Release notes](https://github.com/douglascrockford/JSON-java/releases)
+- [Changelog](https://github.com/stleary/JSON-java/blob/master/docs/RELEASES.md)
+- [Commits](https://github.com/douglascrockford/JSON-java/commits)
+
+---
+updated-dependencies:
+- dependency-name: org.json:json
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>";https://github.com/Esri/geoportal-server/commit/45e87dbee63941f8245f0b46ff17fa9d2f06680c;Automated bot contributions;Dependabot authors a JSON version bump.
+esri_geoportal-server;29a1c66ebfbcd8f44247fa73b96fed50f52aada1;Jill Saligoe-Simmel <49758885+jsaligoe@users.noreply.github.com>;2023-06-15T18:50:36Z;2023-06-15T18:50:36Z;Update README.md;https://github.com/Esri/geoportal-server/commit/29a1c66ebfbcd8f44247fa73b96fed50f52aada1;Documentation updates;Updates README.
+esri_geoportal-server;ede7422b7281ba1d8216c6a8c1874b1285425ef0;Jill Saligoe-Simmel <49758885+jsaligoe@users.noreply.github.com>;2023-04-26T13:12:25Z;2023-04-26T13:12:25Z;Update index.html;https://github.com/Esri/geoportal-server/commit/ede7422b7281ba1d8216c6a8c1874b1285425ef0;Documentation updates;Updates the project website index.
+esri_geoportal-server;3c090d3f192b185323dff53a4438d50b0595d06a;Marten <mhogeweg@esri.com>;2023-04-16T22:49:38Z;2023-04-16T22:49:38Z;"Merge pull request #341 from Esri/dependabot/maven/geoportal/maven/geoportal-jar/org.json-json-20230227
+
+Bump json from 20090211 to 20230227 in /geoportal/maven/geoportal-jar";https://github.com/Esri/geoportal-server/commit/3c090d3f192b185323dff53a4438d50b0595d06a;Dependency updates;Human merge of a JSON library upgrade.
+esri_geoportal-server;ab6608b54b86ce9de9ab11240eb1b445bac3524b;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;2023-04-14T17:05:52Z;2023-04-14T17:05:52Z;"Bump json from 20090211 to 20230227 in /geoportal/maven/geoportal-jar
+
+Bumps [json](https://github.com/douglascrockford/JSON-java) from 20090211 to 20230227.
+- [Release notes](https://github.com/douglascrockford/JSON-java/releases)
+- [Changelog](https://github.com/stleary/JSON-java/blob/master/docs/RELEASES.md)
+- [Commits](https://github.com/douglascrockford/JSON-java/commits)
+
+---
+updated-dependencies:
+- dependency-name: org.json:json
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>";https://github.com/Esri/geoportal-server/commit/ab6608b54b86ce9de9ab11240eb1b445bac3524b;Automated bot contributions;Dependabot authors the JSON upgrade.
+esri_geoportal-server;514a5e615fa7b34a1e40c832e9531867249893a0;Jill Saligoe-Simmel <49758885+jsaligoe@users.noreply.github.com>;2023-04-03T13:07:30Z;2023-04-03T13:07:30Z;Update README.md;https://github.com/Esri/geoportal-server/commit/514a5e615fa7b34a1e40c832e9531867249893a0;Documentation updates;Updates README.
+esri_geoportal-server;993095cb3bf3bb577a72ef9fb88ca9e19f7af130;Marten <mhogeweg@esri.com>;2023-03-28T23:54:41Z;2023-03-28T23:54:41Z;"Merge pull request #340 from Esri/dependabot/maven/geoportal/maven/geoportal-jar/commons-fileupload-commons-fileupload-1.5
+
+Bump commons-fileupload from 1.3.3 to 1.5 in /geoportal/maven/geoportal-jar";https://github.com/Esri/geoportal-server/commit/993095cb3bf3bb577a72ef9fb88ca9e19f7af130;Dependency updates;Human merge of the commons-fileupload version bump.
+esri_geoportal-server;5bf37e01fb02c0a1021d6e0db4a4efe9de24660b;Jill Saligoe-Simmel <49758885+jsaligoe@users.noreply.github.com>;2023-03-23T21:52:15Z;2023-03-23T21:52:15Z;Update README.md;https://github.com/Esri/geoportal-server/commit/5bf37e01fb02c0a1021d6e0db4a4efe9de24660b;Documentation updates;Updates README.
+hpparvi_pytransit;176937f878e41629b5728fb4edb649081d6c1927;Hannu Parviainen <hannu@iac.es>;2025-07-22T11:45:24Z;2025-07-22T11:45:24Z;"Edited changelog and bumped up the version number.
+";https://github.com/hpparvi/PyTransit/commit/176937f878e41629b5728fb4edb649081d6c1927;Release;Updates the changelog and increases the package version.
+hpparvi_pytransit;900ee53283b1830410e8918ff1c95749876c70af;Hannu Parviainen <hannu@iac.es>;2025-07-22T11:12:43Z;2025-07-22T11:12:43Z;"Improved TSModel accuracy.
+";https://github.com/hpparvi/PyTransit/commit/900ee53283b1830410e8918ff1c95749876c70af;Bug fixes;Improves TSModel numerical accuracy. The inspected model_trspec.py diff corrects the overlap-area approximation near the stellar limb.
+hpparvi_pytransit;55d22ce9282f622ceb06655da07883dd8f8693d4;Hannu Parviainen <hannu@iac.es>;2025-07-21T16:21:04Z;2025-07-21T16:21:04Z;"Added a simple example notebook visualising the TSModel errors.
+";https://github.com/hpparvi/PyTransit/commit/55d22ce9282f622ceb06655da07883dd8f8693d4;Documentation updates;Adds an example notebook explaining and visualizing TSModel errors.
+hpparvi_pytransit;9da4f864bffb70afded741291f1f304fba30fd27;Hannu Parviainen <hannu@iac.es>;2025-07-21T15:56:14Z;2025-07-21T15:56:14Z;"Added `slope_order` parameter for customizable RV slope modeling.
+";https://github.com/hpparvi/PyTransit/commit/9da4f864bffb70afded741291f1f304fba30fd27;Feature development;Adds a configurable slope_order parameter for radial-velocity slope modeling.
+hpparvi_pytransit;67e6f0e3c72ea3ceb77fdd5d585e7025e51c0d54;Hannu Parviainen <hannu@iac.es>;2025-07-17T12:56:27Z;2025-07-17T12:56:27Z;"Ensure spectra data type is explicitly set to double in `read_bt_settl_table` and `read_husser2013_table`.
+";https://github.com/hpparvi/PyTransit/commit/67e6f0e3c72ea3ceb77fdd5d585e7025e51c0d54;Bug fixes;Makes spectral-table readers explicitly return double-precision data, correcting their data-type handling.
+hpparvi_pytransit;b6dd3202e2a61a463edb4bc3dba9790075f2b235;Hannu Parviainen <hpparvi@gmail.com>;2025-04-07T08:10:53Z;2025-04-07T08:10:53Z;"Replace `fitc.ptp()` with `ptp(fitc)` for NumPy 2.0 compatibility and bumped the version from 2.6.13 to 2.6.14.
+";https://github.com/hpparvi/PyTransit/commit/b6dd3202e2a61a463edb4bc3dba9790075f2b235;Bug fixes;"Replaces an incompatible NumPy method call with ptp(fitc); the accompanying version bump is secondary to the compatibility repair."
+hpparvi_pytransit;9a39e7162b93e9f61f8a79409606b8c1649fc750;Hannu Parviainen <hpparvi@gmail.com>;2025-02-14T20:41:16Z;2025-02-14T20:41:16Z;"Updated installation docs.
+";https://github.com/hpparvi/PyTransit/commit/9a39e7162b93e9f61f8a79409606b8c1649fc750;Documentation updates;Updates installation documentation.
+hpparvi_pytransit;8ac00f0aaf6f5181d0e2336c34b59889bba9a241;Hannu Parviainen <hpparvi@gmail.com>;2025-02-14T20:40:58Z;2025-02-14T20:40:58Z;"Scipy 2.0 compatibility fix.
+";https://github.com/hpparvi/PyTransit/commit/8ac00f0aaf6f5181d0e2336c34b59889bba9a241;Bug fixes;The message explicitly describes a SciPy compatibility fix.
+hpparvi_pytransit;65d2706c05114777d0b073bca599e9590a99236f;Hannu Parviainen <hpparvi@gmail.com>;2025-02-14T20:40:35Z;2025-02-14T20:40:35Z;"Minor improvements to contamination tests.
+";https://github.com/hpparvi/PyTransit/commit/65d2706c05114777d0b073bca599e9590a99236f;Other;Improves contamination tests without describing a new user feature or a specific defect repair.
+hpparvi_pytransit;094655929481eab404c50896c7374f2663d1da10;Hannu Parviainen <hpparvi@gmail.com>;2024-11-26T14:30:38Z;2024-11-26T14:30:38Z;"Made pyrr into an optional dependency.
+";https://github.com/hpparvi/PyTransit/commit/094655929481eab404c50896c7374f2663d1da10;Dependency updates;Changes pyrr from a required dependency to an optional dependency.
+sundmanbo_opencalphad;e1f8cb75310b58e6fac152254cdcc5c8e6f15152;Bo Sundman <bo.sundman@gmail.com>;2025-05-13T09:11:01Z;2025-05-13T09:11:01Z;"Fixed a problem with example
+
+For some unknown reason the name of the ionic liquid phase was wrong in the map4 example,.
+";https://github.com/sundmanbo/opencalphad/commit/e1f8cb75310b58e6fac152254cdcc5c8e6f15152;Bug fixes;Corrects the wrong ionic-liquid phase name used by the map4 example.
+sundmanbo_opencalphad;44e12f50c8cbd2d0151f386e85aab9b84bd50b47;Bo Sundman <bo.sundman@gmail.com>;2025-05-13T00:49:56Z;2025-05-13T00:49:56Z;"First update on new Mac
+
+Not really any new things, just change of home computer.  Starting to learn using Makefiles
+";https://github.com/sundmanbo/opencalphad/commit/44e12f50c8cbd2d0151f386e85aab9b84bd50b47;Other;Describes moving to a new home computer and learning Makefiles, explicitly saying there are no real new changes.
+sundmanbo_opencalphad;10e952378fea74b47b088505d3617306906d3869;Bo Sundman <bo.sundman@gmail.com>;2025-05-04T18:09:22Z;2025-05-04T18:09:22Z;"Correcting date
+
+Deleted 2 redundant files
+";https://github.com/sundmanbo/opencalphad/commit/10e952378fea74b47b088505d3617306906d3869;Other;Corrects a date and deletes redundant files as repository housekeeping.
+sundmanbo_opencalphad;4ba3419291a968ba8c970a2137f7ba5245b6d57d;Bo Sundman <bo.sundman@gmail.com>;2025-05-04T18:02:46Z;2025-05-04T18:02:46Z;"Deleted 2 redundant excel files
+
+used for testing MQMQA
+";https://github.com/sundmanbo/opencalphad/commit/4ba3419291a968ba8c970a2137f7ba5245b6d57d;Other;Removes two redundant Excel files used in MQMQA testing.
+sundmanbo_opencalphad;21e2289d445529e72dc5ef8ae05f50eecf39c639;Bo Sundman <bo.sundman@gmail.com>;2025-05-04T17:57:18Z;2025-05-04T17:57:18Z;"testing uploading from new mac
+
+No changes in the code
+";https://github.com/sundmanbo/opencalphad/commit/21e2289d445529e72dc5ef8ae05f50eecf39c639;Other;Tests uploading from a new computer and explicitly reports no code changes.
+sundmanbo_opencalphad;cb5ea7911511900da1e9b3678607cf43adda98e3;Bo Sundman <bo.sundman@gmail.com>;2025-04-08T23:34:20Z;2025-04-08T23:34:20Z;"MQMQA update and PLOT feature
+
+The PLOT command has a new APPEND feature to overlay a calculated diagram with points from an excel csv file
+";https://github.com/sundmanbo/opencalphad/commit/cb5ea7911511900da1e9b3678607cf43adda98e3;Feature development;Adds a PLOT APPEND feature that overlays a calculated diagram with points from an Excel CSV file.
+sundmanbo_opencalphad;e408ea20867e1f939ca74cf77becc95128a7eb35;Bo Sundman <bo.sundman@gmail.com>;2025-02-06T19:55:33Z;2025-02-06T19:55:33Z;"Bugfix for MQMQA
+
+Excess parameter with multiple cations were not calculated correctly.  However, only a few of all possible excess parameters are implemented in OC.
+";https://github.com/sundmanbo/opencalphad/commit/e408ea20867e1f939ca74cf77becc95128a7eb35;Bug fixes;Corrects MQMQA excess-parameter calculations involving multiple cations.
+sundmanbo_opencalphad;cd8910af3b4b6598534ee1b398307554d246505c;Bo Sundman <bo.sundman@gmail.com>;2025-01-31T20:06:33Z;2025-01-31T20:06:33Z;"test of Linux installation script
+";https://github.com/sundmanbo/opencalphad/commit/cd8910af3b4b6598534ee1b398307554d246505c;Other;Tests the Linux installation script without identifying a specific defect or dependency change.
+sundmanbo_opencalphad;f91327e62c55820db62cbe474b597ef85c04eab9;Bo Sundman <bo.sundman@gmail.com>;2025-01-20T18:28:05Z;2025-01-20T18:28:05Z;"Preparations for XTDB format
+
+The XTDB format is necessary for developing new models and features of the Calphad software
+";https://github.com/sundmanbo/opencalphad/commit/f91327e62c55820db62cbe474b597ef85c04eab9;Feature development;Prepares XTDB format support to enable new Calphad models and features.
+sundmanbo_opencalphad;b16e979380d9358ff57a24e70c5199d2f604f062;Bo Sundman <bo.sundman@gmail.com>;2025-01-14T08:26:18Z;2025-01-14T08:26:18Z;"Minor correction
+
+Removed some debug information and fixed a problem with disordered fraction sets
+";https://github.com/sundmanbo/opencalphad/commit/b16e979380d9358ff57a24e70c5199d2f604f062;Bug fixes;Fixes a problem with disordered fraction sets and removes debug information.
+stack-of-tasks_pinocchio;dd81e6f046f6e342418e9a30920dc9a5ef23fb78;Joris Vaillant <joris.vaillant@inria.fr>;2025-09-29T07:08:59Z;2025-09-29T07:08:59Z;"Merge pull request #2774 from stack-of-tasks/dependabot/github_actions/devel/prefix-dev/setup-pixi-0.9.1
+
+build(deps): bump prefix-dev/setup-pixi from 0.9.0 to 0.9.1";https://github.com/stack-of-tasks/pinocchio/commit/dd81e6f046f6e342418e9a30920dc9a5ef23fb78;Dependency updates;A human-authored merge incorporates the prefix-dev/setup-pixi update from 0.9.0 to 0.9.1.
+stack-of-tasks_pinocchio;3560aa4f844afac5cd34f98b847166d35288526a;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;2025-09-29T00:03:03Z;2025-09-29T00:03:03Z;"build(deps): bump prefix-dev/setup-pixi from 0.9.0 to 0.9.1
+
+Bumps [prefix-dev/setup-pixi](https://github.com/prefix-dev/setup-pixi) from 0.9.0 to 0.9.1.
+- [Release notes](https://github.com/prefix-dev/setup-pixi/releases)
+- [Commits](https://github.com/prefix-dev/setup-pixi/compare/v0.9.0...v0.9.1)
+
+---
+updated-dependencies:
+- dependency-name: prefix-dev/setup-pixi
+  dependency-version: 0.9.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>";https://github.com/stack-of-tasks/pinocchio/commit/3560aa4f844afac5cd34f98b847166d35288526a;Automated bot contributions;Dependabot authors the setup-pixi dependency-version update.
+stack-of-tasks_pinocchio;268466cf7ebc5686201289b8951f260b46447802;Justin Carpentier <justin.carpentier@inria.fr>;2025-09-27T11:49:05Z;2025-09-27T11:49:05Z;"Merge pull request #2771 from nim65s/viser
+
+";https://github.com/stack-of-tasks/pinocchio/commit/268466cf7ebc5686201289b8951f260b46447802;Bug fixes;The otherwise sparse merge message identifies PR 2771, whose title is 'example-viser-viewer: fix erd path'. Source: https://github.com/stack-of-tasks/pinocchio/pull/2771
+stack-of-tasks_pinocchio;0e5a846c5a7479af4fe3cbde0891ba6ef4ff80e0;Guilhem Saurel <guilhem.saurel@laas.fr>;2025-09-27T08:34:10Z;2025-09-27T08:34:10Z;"add changelog entry
+";https://github.com/stack-of-tasks/pinocchio/commit/0e5a846c5a7479af4fe3cbde0891ba6ef4ff80e0;Documentation updates;Adds a changelog entry without stating a version bump or release operation.
+stack-of-tasks_pinocchio;1a233d838ef5b0eb51dc6022b96712d1fc2a3fef;Guilhem Saurel <guilhem.saurel@laas.fr>;2025-09-27T08:32:54Z;2025-09-27T08:32:54Z;"nix: add meshlab & viser
+";https://github.com/stack-of-tasks/pinocchio/commit/1a233d838ef5b0eb51dc6022b96712d1fc2a3fef;Dependency updates;Adds meshlab and viser to the Nix environment.
+stack-of-tasks_pinocchio;36a04bddb6980a7bcd28ebcc55d4e442f7920d87;Guilhem Saurel <guilhem.saurel@laas.fr>;2025-09-27T07:48:30Z;2025-09-27T08:30:59Z;"example-viser-viewer: fix erd path
+";https://github.com/stack-of-tasks/pinocchio/commit/36a04bddb6980a7bcd28ebcc55d4e442f7920d87;Bug fixes;Repairs the erd path used by the example Viser viewer.
+stack-of-tasks_pinocchio;fb6514a491e35487c116b4b9af9fa4b9ba76fa5b;Justin Carpentier <justin.carpentier@inria.fr>;2025-09-22T12:33:01Z;2025-09-22T12:33:01Z;"Merge pull request #2755 from stack-of-tasks/update_flake_lock_action
+
+flake.lock: Update";https://github.com/stack-of-tasks/pinocchio/commit/fb6514a491e35487c116b4b9af9fa4b9ba76fa5b;Dependency updates;A human-authored merge incorporates a flake.lock dependency-lock update.
+stack-of-tasks_pinocchio;b05695dd67f02283663d27d8f6a5f417b3a4b8c1;github-actions[bot] <github-actions[bot]@users.noreply.github.com>;2025-09-05T02:20:49Z;2025-09-22T08:59:50Z;"flake.lock: Update
+";https://github.com/stack-of-tasks/pinocchio/commit/b05695dd67f02283663d27d8f6a5f417b3a4b8c1;Automated bot contributions;The github-actions bot authors the flake.lock update.
+stack-of-tasks_pinocchio;833845c19af4a8dc6e9975c7fea3598c964318bd;Joris Vaillant <joris.vaillant@inria.fr>;2025-09-22T08:05:23Z;2025-09-22T08:05:23Z;"Merge pull request #2767 from stack-of-tasks/dependabot/github_actions/devel/actions/checkout-5
+
+build(deps): bump actions/checkout from 4 to 5";https://github.com/stack-of-tasks/pinocchio/commit/833845c19af4a8dc6e9975c7fea3598c964318bd;Dependency updates;A human-authored merge incorporates the actions/checkout update from version 4 to 5.
+stack-of-tasks_pinocchio;adbab4c78c21bb3999db16503ec31cf11dcb34e7;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;2025-09-22T00:03:04Z;2025-09-22T00:03:04Z;"build(deps): bump actions/checkout from 4 to 5
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4 to 5.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4...v5)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: '5'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>";https://github.com/stack-of-tasks/pinocchio/commit/adbab4c78c21bb3999db16503ec31cf11dcb34e7;Automated bot contributions;Dependabot authors the actions/checkout major-version update.
+microsoft_fhir-server;23e51ea657838d73aafae7f2458fc5ba8b03fa1d;Robert Johnson <rbrucej@gmail.com>;2025-09-30T15:35:55Z;2025-09-30T15:35:55Z;"Change profile locking (#5168)
+
+";https://github.com/microsoft/fhir-server/commit/23e51ea657838d73aafae7f2458fc5ba8b03fa1d;Bug fixes;PR #5168 describes an attempted fix for long validation lock waits: https://github.com/microsoft/fhir-server/pull/5168
+microsoft_fhir-server;17b590f76f444baeada0d14f27984bc5380b7949;Fernando Henrique Inocêncio Borba Ferreira <fernfe@microsoft.com>;2025-09-30T14:58:23Z;2025-09-30T14:58:23Z;"[Bundle] Handling transaction cancellation (#5167)
+
+* Handling bundle transaction cancellation
+
+* Returning HTTP408 when a customer cancels a transaction bundle.
+
+* Changes propagating the max exeution time of bundles.
+
+* Using statement.
+
+* Small formatting changes.";https://github.com/microsoft/fhir-server/commit/17b590f76f444baeada0d14f27984bc5380b7949;Bug fixes;PR #5167 corrects transaction-cancellation handling from HTTP500 to HTTP408: https://github.com/microsoft/fhir-server/pull/5167
+microsoft_fhir-server;311152d5f9b4883d2008b333b867fd77cf00a13d;apurvabhaleMS <86023331+apurvabhaleMS@users.noreply.github.com>;2025-09-30T07:00:53Z;2025-09-30T07:00:53Z;"Fix searches for include and revinclude for Smart (#5158)
+
+* Fix the include and revinclude logic for SMART searches
+
+* Unit tests
+
+* FIx revinclude wildcard search for cosmos db when Smart scopes are present
+
+* FIx revinclude wildcard search for cosmos db when Smart scopes are present
+
+* check for null AllowedResourceTypesByScope";https://github.com/microsoft/fhir-server/commit/311152d5f9b4883d2008b333b867fd77cf00a13d;Bug fixes;Corrects include/revinclude SMART search behavior.
+microsoft_fhir-server;6fd529d2d871865f07a38e3fe46baa223a3fe1a6;v-isyamauchi-gh <v-isyamauchi@microsoft.com>;2025-09-25T20:50:12Z;2025-09-25T20:50:12Z;"Fixing relative paths in projitems files. (#5165)
+
+";https://github.com/microsoft/fhir-server/commit/6fd529d2d871865f07a38e3fe46baa223a3fe1a6;Bug fixes;Corrects relative paths in project-item files.
+microsoft_fhir-server;06172b329e33ff82769ddc0b2f0455bf679142ae;v-isyamauchi-gh <v-isyamauchi@microsoft.com>;2025-09-25T18:10:45Z;2025-09-25T18:10:45Z;"Implementing $docref operation. (#5138)
+
+* Implementing $docref operation.
+
+* Implementing $docref operation + UT/E2E tests.
+
+* Removing a comment line.
+
+* Fixing logging a user-provided value.
+
+* Fixing comments by the bot.
+
+* Removing unnecessary namespaces.
+
+* Collecting test names.
+
+* Fixing Stu3 test failures.
+
+* Adding conversion of Coding to string.
+
+* Addressing reviewers comments.
+
+* Adding a missing case for DocRef.
+
+* Adding a check for invalid parameter values for start and end.
+
+* Addressing bot's comment.
+
+* Adding more null checks.
+
+* Fixing controller test validation.
+
+* Changing the test category to Conformance.
+
+* Fixing test validation.
+
+* Removing a docref method from FhirClient.
+
+* Fixing a typo RB pointed out.";https://github.com/microsoft/fhir-server/commit/06172b329e33ff82769ddc0b2f0455bf679142ae;Feature development;"Implements the new $docref operation; accompanying fixes are part of its implementation."
+microsoft_fhir-server;68b7e934aca9d1fbc0f5f45bd44104c9558b4a7f;Fernando Henrique Inocêncio Borba Ferreira <fernfe@microsoft.com>;2025-09-25T14:33:52Z;2025-09-25T14:33:52Z;"Bump actions (#5163)
+
+";https://github.com/microsoft/fhir-server/commit/68b7e934aca9d1fbc0f5f45bd44104c9558b4a7f;Dependency updates;Human-authored GitHub Actions version updates.
+microsoft_fhir-server;7d4f8b742eef234a4f16b5eaec6e5a2a17360e2d;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;2025-09-24T18:52:16Z;2025-09-24T18:52:16Z;"Bump actions/labeler from 5 to 6 (#5130)
+
+Bumps [actions/labeler](https://github.com/actions/labeler) from 5 to 6.
+- [Release notes](https://github.com/actions/labeler/releases)
+- [Commits](https://github.com/actions/labeler/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/labeler
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>";https://github.com/microsoft/fhir-server/commit/7d4f8b742eef234a4f16b5eaec6e5a2a17360e2d;Automated bot contributions;Dependabot authors the actions/labeler upgrade.
+microsoft_fhir-server;07cec398e71e203193d1691ad0c4128c69211bd0;Richa Bansal <57157506+rbans96@users.noreply.github.com>;2025-09-24T17:41:39Z;2025-09-24T17:41:39Z;"Bump healthcare shared package version to 10.0.68 (#5156)
+
+* Bump healthcare shared package version to 10.0.68
+
+* bump dependencies
+
+* mopre dependencies
+
+* Bump to 9.0.305
+
+* Fix build issues
+
+* Update test due to sdk update";https://github.com/microsoft/fhir-server/commit/07cec398e71e203193d1691ad0c4128c69211bd0;Dependency updates;Upgrades the healthcare shared package and related dependencies.
+microsoft_fhir-server;08c4b4b43a85b30ad022d6849412797e8629cb42;jestradaMS <167137767+jestradaMS@users.noreply.github.com>;2025-09-23T02:08:03Z;2025-09-23T02:08:03Z;"Migrate AzureAD PS modules to MS Graph modules (#5157)
+
+* Migrating legacy AzureAD PS cmdlets to new Microsoft.Graph cmdlets
+
+* Updates to sample scripts so they don't create conflicts
+
+* Fixes for duplicate modules conflicts
+Fixes for index out of range exception on Oauth2PermissionsScopes";https://github.com/microsoft/fhir-server/commit/08c4b4b43a85b30ad022d6849412797e8629cb42;Dependency updates;Migrates from legacy AzureAD PowerShell modules to Microsoft.Graph modules.
+microsoft_fhir-server;a4bfe652819f3ce5d921ae73ede847c006fb4c83;jestradaMS <167137767+jestradaMS@users.noreply.github.com>;2025-09-20T15:33:56Z;2025-09-20T15:33:56Z;"Adding SearchParameterCacheRefreshBackgroundService (#5150)
+
+* Adding SearchParameterCacheRefreshBackgroundService for handling cross pod synchronization of Search Parameter changes.
+
+* Updating SqlServerFhirModel initialization as it's causing unneeded updates causing other instances to refresh.";https://github.com/microsoft/fhir-server/commit/a4bfe652819f3ce5d921ae73ede847c006fb4c83;Feature development;Adds a background service for cross-pod search-parameter synchronization.
+rapidsai_cucim;5568d3dfb45042393f3d56eafc72c5385f51af12;gpuCI <38199262+GPUtester@users.noreply.github.com>;2025-09-24T15:40:04Z;2025-09-24T15:40:04Z;"Merge pull request #948 from rapidsai/branch-25.10
+
+Forward-merge branch-25.10 into branch-25.12";https://github.com/rapidsai/cucim/commit/5568d3dfb45042393f3d56eafc72c5385f51af12;Automated bot contributions;gpuCI performs a release-branch forward merge.
+rapidsai_cucim;6bc5b8fb55b976bb7ce87dbc98c2aa9a4e156c51;James Lamb <jaylamb20@gmail.com>;2025-09-24T15:39:59Z;2025-09-24T15:39:59Z;"remove unused RMM config and docs, update pre-commit hooks (#946)
+
+This project does not depend on RMM (since #175), but still has some CMake configuration for it.
+
+This PR proposes some cleanup:
+
+* removing RMM CMake configuration
+* removing RMM references from comments and docs
+* updating some pre-commit hooks to their latest versions (might as well while we're burning a CI run anyway)
+
+Authors:
+  - James Lamb (https://github.com/jameslamb)
+
+Approvers:
+  - Kyle Edwards (https://github.com/KyleFromNVIDIA)
+  - Bradley Dice (https://github.com/bdice)
+
+URL: https://github.com/rapidsai/cucim/pull/946";https://github.com/rapidsai/cucim/commit/6bc5b8fb55b976bb7ce87dbc98c2aa9a4e156c51;Other;"Primarily removes unused build configuration and references; hook updates are a secondary cleanup."
+rapidsai_cucim;e6f77ae0bccd5dca3ec2e2f787ef192faa30edc9;Mike Sarahan <msarahan@nvidia.com>;2025-09-23T20:57:27Z;2025-09-23T20:57:27Z;"Empty commit to trigger a build (#944)
+
+This is an empty commit to trigger a build. It is used when builds get
+stuck with an old ABI. Rebuilding updates them to the new one.";https://github.com/rapidsai/cucim/commit/e6f77ae0bccd5dca3ec2e2f787ef192faa30edc9;Other;An empty commit triggers an infrastructure rebuild rather than changing application code.
+rapidsai_cucim;cab2e744744295d53bfa04749407e7892d025933;gpuCI <38199262+GPUtester@users.noreply.github.com>;2025-09-22T14:09:25Z;2025-09-22T14:09:25Z;"Merge pull request #943 from rapidsai/branch-25.10
+
+Forward-merge branch-25.10 into branch-25.12";https://github.com/rapidsai/cucim/commit/cab2e744744295d53bfa04749407e7892d025933;Automated bot contributions;gpuCI performs a release-branch forward merge.
+rapidsai_cucim;3b38f06622f46291f040d120793487b2824b044c;Jake Awe <50372925+AyodeAwe@users.noreply.github.com>;2025-09-22T14:09:20Z;2025-09-22T14:09:20Z;"Configure repo for automatic release notes generation (#939)
+
+This PR configures this repo (adds a `.github/release.yml` file) for
+automatic release notes generation. See
+https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes.
+This will fix such issues as hotfix releases including wrong content
+(e.g [cugraph
+v25.04.01](https://github.com/rapidsai/cugraph/releases/tag/v25.04.01)
+contains 50+ PRs from the full v25.04.00 release when it should only
+contain the single hotfix PR (#5017).)
+
+Example auto-generated release notes:
+https://github.com/rapidsai/literate-octo-potato/releases/tag/v25.10.00a";https://github.com/rapidsai/cucim/commit/3b38f06622f46291f040d120793487b2824b044c;Release;Configures generation of release notes.
+rapidsai_cucim;2603aecb2890c6106fc05734b1c0b469ae54ec94;gpuCI <38199262+GPUtester@users.noreply.github.com>;2025-09-19T20:22:42Z;2025-09-19T20:22:42Z;"Merge pull request #942 from rapidsai/branch-25.10
+
+Forward-merge branch-25.10 into branch-25.12";https://github.com/rapidsai/cucim/commit/2603aecb2890c6106fc05734b1c0b469ae54ec94;Automated bot contributions;gpuCI performs a release-branch forward merge.
+rapidsai_cucim;9bbee2877c55c2fc087666312452c153a30fe3b5;jakirkham <jakirkham@gmail.com>;2025-09-19T20:22:38Z;2025-09-19T20:22:38Z;"Add `pip` to `cucim`'s `requirements/host` (#941)
+
+The `cucim` Python package builds with `pip`
+
+https://github.com/rapidsai/cucim/blob/42cf58f25b105dd2094cbd26c15ac2f498889211/conda/recipes/cucim/build.sh#L25
+
+However the `pip` dependency was not listed explicitly in `requirements/host`. This fixes that issue
+
+Authors:
+  - https://github.com/jakirkham
+
+Approvers:
+  - Kyle Edwards (https://github.com/KyleFromNVIDIA)
+
+URL: https://github.com/rapidsai/cucim/pull/941";https://github.com/rapidsai/cucim/commit/9bbee2877c55c2fc087666312452c153a30fe3b5;Dependency updates;Declares the missing pip host dependency.
+rapidsai_cucim;dcc10009e4662ae310322b0066c5f5830c1d0983;gpuCI <38199262+GPUtester@users.noreply.github.com>;2025-09-18T20:10:03Z;2025-09-18T20:10:03Z;"Merge pull request #940 from rapidsai/branch-25.10
+
+Forward-merge branch-25.10 into branch-25.12";https://github.com/rapidsai/cucim/commit/dcc10009e4662ae310322b0066c5f5830c1d0983;Automated bot contributions;gpuCI performs a release-branch forward merge.
+rapidsai_cucim;42cf58f25b105dd2094cbd26c15ac2f498889211;jakirkham <jakirkham@gmail.com>;2025-09-18T20:09:59Z;2025-09-18T20:09:59Z;"Relax `libcufile` dependency for old CTK 12 on ARM (#930)
+
+Following up on this thread: https://github.com/rapidsai/cucim/pull/905#discussion_r2292609197
+
+The CUDA Toolkit (CTK) added cuFile for ARM in CTK 12.2. As a result always requiring `libcufile` with `libcucim` can make it uninstallable on ARM with CTK 12.0 & 12.1.
+
+To fix this, build two variants of the `libcucim` package. One with `libcufile` and one without. Constrain `cuda-version` accordingly so that `libcufile` is installed whenever possible. Only when `libcufile` cannot be installed, fallback to the `libcucim` package where the `libcufile` dependency is left off.
+
+The `x86_64` CTK has had cuFile since the CTK 11.4. As RAPIDS now requires CUDA 12.0+, there is no issue always requiring `libcufile` on `x86_64`.
+
+This issue will not be present in CUDA 13+. So always require `libcufile` in that case.
+
+Authors:
+  - https://github.com/jakirkham
+  - James Lamb (https://github.com/jameslamb)
+  - Gregory Lee (https://github.com/grlee77)
+
+Approvers:
+  - James Lamb (https://github.com/jameslamb)
+  - Bradley Dice (https://github.com/bdice)
+
+URL: https://github.com/rapidsai/cucim/pull/930";https://github.com/rapidsai/cucim/commit/42cf58f25b105dd2094cbd26c15ac2f498889211;Dependency updates;Changes libcufile dependency constraints and package variants.
+rapidsai_cucim;d6886afe9aa145a8c6776dae27c969d8a45a9ed8;Jake Awe <jawe@nvidia.com>;2025-09-18T15:57:13Z;2025-09-18T15:57:13Z;"DOC v25.12 Updates [skip ci]
+";https://github.com/rapidsai/cucim/commit/d6886afe9aa145a8c6776dae27c969d8a45a9ed8;Documentation updates;Updates documentation for version 25.12.
+agnwinds_python;491e7981a7e0ae1f0ad6705dc0ed52ecef920b6b;Knox S. Long <long@stsci.edu>;2024-10-22T21:47:15Z;2024-10-22T21:47:15Z;"Provide a more complete README file
+";https://github.com/agnwinds/python/commit/491e7981a7e0ae1f0ad6705dc0ed52ecef920b6b;Documentation updates;Expands the README documentation.
+agnwinds_python;e5a801446354e02025db79482cf08ae6bbafc35d;James Matthews <matthews@ast.cam.ac.uk>;2024-10-18T13:03:56Z;2024-10-18T13:03:56Z;Update README.md;https://github.com/agnwinds/python/commit/e5a801446354e02025db79482cf08ae6bbafc35d;Documentation updates;Updates README.md.
+agnwinds_python;7b7f529b934290430497d37cc33688c4e33ff3d3;James Matthews <matthews@ast.cam.ac.uk>;2024-10-18T09:13:06Z;2024-10-18T09:13:06Z;"Merge pull request #1106 from agnwinds/dev
+
+Python 88x: merge into main";https://github.com/agnwinds/python/commit/7b7f529b934290430497d37cc33688c4e33ff3d3;Release;Merges the named Python 88x version into the main branch.
+agnwinds_python;771684477d5fe83424b1a9708f856097c0f387b8;James Matthews <matthews@ast.cam.ac.uk>;2024-10-18T08:47:14Z;2024-10-18T08:47:14Z;"Merge pull request #1105 from jhmatthews/dev
+
+Fix istat logic for bug #1093 ";https://github.com/agnwinds/python/commit/771684477d5fe83424b1a9708f856097c0f387b8;Bug fixes;Merges the identified istat-logic fix for bug 1093.
+agnwinds_python;8cfc8f3ca6f8dccb1516e08f172363cf487faf0b;jhmatthews <matthews@ast.cam.ac.uk>;2024-10-18T08:39:29Z;2024-10-18T08:39:29Z;"fixed docs conflict
+";https://github.com/agnwinds/python/commit/8cfc8f3ca6f8dccb1516e08f172363cf487faf0b;Documentation updates;Resolves a documentation conflict.
+agnwinds_python;3ca79288a5f224e3c3de46bf323afcebbe698b3f;jhmatthews <matthews@ast.cam.ac.uk>;2024-10-18T08:37:59Z;2024-10-18T08:37:59Z;"changed version to 88x before sirocco name change
+";https://github.com/agnwinds/python/commit/3ca79288a5f224e3c3de46bf323afcebbe698b3f;Release;Sets the version to 88x in preparation for the Sirocco name change.
+agnwinds_python;c96b6cdb952452fb40bcbe6f548b5ee61857c152;jhmatthews <matthews@ast.cam.ac.uk>;2024-10-18T07:59:26Z;2024-10-18T07:59:26Z;"fix istat logic in trans_phot for bug #1093
+";https://github.com/agnwinds/python/commit/c96b6cdb952452fb40bcbe6f548b5ee61857c152;Bug fixes;Fixes istat logic in trans_phot for the explicitly referenced bug 1093.
+agnwinds_python;a88de457ae72b50578549c2a1fff5e2eb59b299a;jhmatthews <matthews@ast.cam.ac.uk>;2024-10-18T07:55:46Z;2024-10-18T07:55:46Z;"Merge branch 'dev' of https://github.com/agnwinds/python into dev
+";https://github.com/agnwinds/python/commit/a88de457ae72b50578549c2a1fff5e2eb59b299a;Other;Generic development-branch synchronization merge with no stated substantive change.
+agnwinds_python;9a9cf310aadb4cdda4460254b30f11a0848c8513;James Matthews <matthews@ast.cam.ac.uk>;2024-10-17T15:06:08Z;2024-10-17T15:06:08Z;"Merge pull request #1104 from agnwinds/xband
+
+xband: windsave2fits, changes to radiation temperature and fixes to disk_diag file. ";https://github.com/agnwinds/python/commit/9a9cf310aadb4cdda4460254b30f11a0848c8513;Feature development;Adds source/windsave2fits.c in the inspected merge diff, alongside radiation-temperature changes and disk_diag fixes.
+agnwinds_python;8d3e35acc4407886044da25f55d218b1ce63fbbc;jhmatthews <matthews@ast.cam.ac.uk>;2024-10-17T14:17:19Z;2024-10-17T14:17:19Z;"corrected
+";https://github.com/agnwinds/python/commit/8d3e35acc4407886044da25f55d218b1ce63fbbc;Bug fixes;"The brief message says 'corrected'; the inspected estimators_simple.c diff restores assignment of the calculated radiation temperature to xplasma->t_r."
+csgillespie_powerlaw;46dd4a1769465f0e2447721d88b701c26844641e;Colin Gillespie <csgillespie@gmail.com>;2025-02-03T09:07:24Z;2025-02-03T09:07:24Z;"CRAN release (#104)
+
+* docs: Improve lognormal doc
+* chore: Spell check
+* Linting and version bumping
+* fix: Partial arg matching in tests
+";https://github.com/csgillespie/poweRlaw/commit/46dd4a1769465f0e2447721d88b701c26844641e;Release;Explicitly prepares a CRAN release, including version changes, documentation, linting, and test fixes.
+csgillespie_powerlaw;495efe6a481270830b703b52d55cc2a8bfad2dd0;Colin Gillespie <csgillespie@gmail.com>;2025-02-02T15:30:01Z;2025-02-02T15:30:01Z;"fix: Package engine in vignette (#103)
+
+* fix: Package engine in vignette
+* chore: roxygen2 update
+* feat: Adding pkgdown
+";https://github.com/csgillespie/poweRlaw/commit/495efe6a481270830b703b52d55cc2a8bfad2dd0;Bug fixes;"The main stated change repairs the package engine used for the vignette; documentation-tool updates accompany that fix."
+csgillespie_powerlaw;5fffab8e827fea9d385b8394721503770bd82a00;Colin Gillespie <csgillespie@gmail.com>;2020-05-19T21:35:05Z;2020-05-19T21:35:05Z;"Merge pull request #90 from csgillespie/remoteerrors
+
+Tail issues in the lognormal";https://github.com/csgillespie/poweRlaw/commit/5fffab8e827fea9d385b8394721503770bd82a00;Bug fixes;Merges the identified repair for lognormal tail issues.
+csgillespie_powerlaw;97ad240628a3b97852bdceddb9e742a32c576982;Colin Gillespie <csgillespie@gmail.com>;2020-05-19T21:33:26Z;2020-05-19T21:33:26Z;"Bump News/Description
+";https://github.com/csgillespie/poweRlaw/commit/97ad240628a3b97852bdceddb9e742a32c576982;Release;"Updates NEWS and DESCRIPTION; the inspected DESCRIPTION diff raises the package version from 0.70.6 to 0.70.6.9001."
+csgillespie_powerlaw;90bb715f355446e80b6c5359657721dab220624c;Colin Gillespie <csgillespie@gmail.com>;2020-05-19T21:32:22Z;2020-05-19T21:32:22Z;"1. Catch extreme tail issues with lognornaml
+
+2. Minor performance optimisation
+---
+Closes #88
+";https://github.com/csgillespie/poweRlaw/commit/90bb715f355446e80b6c5359657721dab220624c;Bug fixes;Handles extreme lognormal tails and closes issue 88, with a secondary performance optimization.
+csgillespie_powerlaw;90176e4aef53a31a4095f37321e0357b50e2e0ca;Colin Gillespie <csgillespie@gmail.com>;2020-05-19T21:29:09Z;2020-05-19T21:29:09Z;"Code formatting.
+";https://github.com/csgillespie/poweRlaw/commit/90176e4aef53a31a4095f37321e0357b50e2e0ca;Other;Formats code without identifying a behavior change.
+csgillespie_powerlaw;3bc6563010eb78d06e5923d2b1029e33a5f44be4;Colin Gillespie <csgillespie@gmail.com>;2020-05-19T20:54:20Z;2020-05-19T20:54:20Z;"Docs: Spelling
+";https://github.com/csgillespie/poweRlaw/commit/3bc6563010eb78d06e5923d2b1029e33a5f44be4;Documentation updates;Corrects spelling in documentation.
+csgillespie_powerlaw;a9fa517dde741b569af5dde3e5813fcd14238bfc;Colin Gillespie <csgillespie@gmail.com>;2020-04-24T08:17:58Z;2020-04-24T08:17:58Z;"Bump News
+";https://github.com/csgillespie/poweRlaw/commit/a9fa517dde741b569af5dde3e5813fcd14238bfc;Release;The inspected NEWS.md diff adds the Version 0.70.6 release-note section describing its packaging changes.
+csgillespie_powerlaw;5753e204e9603d225fefb20710203aee16920b8d;Colin Gillespie <csgillespie@gmail.com>;2020-04-24T08:17:51Z;2020-04-24T08:17:51Z;"Update Rproj file
+";https://github.com/csgillespie/poweRlaw/commit/5753e204e9603d225fefb20710203aee16920b8d;Other;Updates the RStudio project configuration without describing a feature, defect, or dependency update.
+csgillespie_powerlaw;85440609486dbb0a61b00c06a1003bc13341bd5e;Colin Gillespie <csgillespie@gmail.com>;2020-04-24T08:17:37Z;2020-04-24T08:17:37Z;"Update .gitignore
+";https://github.com/csgillespie/poweRlaw/commit/85440609486dbb0a61b00c06a1003bc13341bd5e;Other;Updates Git ignore rules as repository housekeeping.

@@ -1,0 +1,42 @@
+{
+  "ketch_nodepy": {
+    "ActivityPattern": "irregular",
+    "Interpretation": "Activity appears in separated bursts, including 57 commits in both April 2015 and July 2020. There are 18 gaps of at least three months. The longest lasts 11 months, from October 2023 through August 2024."
+  },
+  "mouseland_suite2p": {
+    "ActivityPattern": "declining",
+    "Interpretation": "Activity falls from 1,200 commits in 2020 to 166 in 2021 and 79 in 2024. It increases to 237 in 2025, but remains below the earlier level. There are no gaps of at least three months."
+  },
+  "esri_geoportal-server": {
+    "ActivityPattern": "declining",
+    "Interpretation": "Activity is strongest during 2013–2015, reaching 458 commits in 2015, then falls to 4 in 2021 and 7 in 2024. July 2013 is the busiest month with 127 commits. There are 10 gaps of at least three months, with the longest running from November 2024 through June 2025."
+  },
+  "hpparvi_pytransit": {
+    "ActivityPattern": "irregular",
+    "Interpretation": "Activity rises to 313 commits in 2020, falls to 40 in 2022, and rises again to 112 in 2024. There are 9 gaps of at least three months, with the longest lasting seven months during June–December 2015. The 67 commits recorded in January–March 2026 cover only part of that year."
+  },
+  "sundmanbo_opencalphad": {
+    "ActivityPattern": "declining",
+    "Interpretation": "Annual activity falls from 103 commits in 2015 to 11 in 2023. October 2024 has a spike of 41 commits, but this does not form a sustained upward trend. There are 5 gaps of at least three months, with the longest spanning January–May 2024."
+  },
+  "stack-of-tasks_pinocchio": {
+    "ActivityPattern": "irregular",
+    "Interpretation": "Activity moves through several high and low periods, with 1,714 commits in 2018, 668 in 2023, and 1,239 in 2024. The busiest month is August 2018 with 413 commits. There are no gaps of at least three months."
+  },
+  "microsoft_fhir-server": {
+    "ActivityPattern": "steady",
+    "Interpretation": "Activity stays substantial during 2020–2024, with annual totals between 2,776 and 3,369 commits and a monthly peak of 450 in April 2021. There are no observed gaps of at least three months. The final month ends at the last recorded commit on November 1, 2025, and 12 undated records are excluded, so the low ending point does not establish a decline."
+  },
+  "rapidsai_cucim": {
+    "ActivityPattern": "declining",
+    "Interpretation": "Annual counts decrease from 734 in 2022 to 488 in 2024, then increase to 555 in 2025, so the overall decline is mild. November 2022 is the busiest month with 126 commits. Every observed month has activity, so there are no gaps of at least three months."
+  },
+  "agnwinds_python": {
+    "ActivityPattern": "irregular",
+    "Interpretation": "Activity varies substantially, rising to 672 commits in 2018, dropping to 275 in 2022, and increasing to 355 in 2023. The busiest month is May 2020 with 134 commits, and there are no observed gaps of at least three months. One record lacks a timestamp, so the two-month longest observed gap and the monthly counts may change if its date becomes available."
+  },
+  "csgillespie_powerlaw": {
+    "ActivityPattern": "declining",
+    "Interpretation": "Activity drops from 231 commits in 2013 to 29 in 2020 and 2 in 2021. There are 8 gaps of at least three months, with the longest lasting 25 months from December 2021 through December 2023. The final observed month, February 2025, contains 17 commits."
+  }
+}

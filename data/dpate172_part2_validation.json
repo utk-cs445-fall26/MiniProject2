@@ -1,0 +1,898 @@
+{
+  "netid": "dpate172",
+  "checked_at_utc": "2026-10-08T16:44:33.328565+00:00",
+  "project_count": 10,
+  "source_rows": 48502,
+  "known_timestamp_commits": 48489,
+  "omitted_missing_timestamps": 13,
+  "source_summary_sha256": "6bfce082c1c22343e639948aad80aab57dab22ad330ec3d01ed469c6bb3a3b6b",
+  "source_summary_unchanged": true,
+  "part1_stats_columns_preserved": true,
+  "part1_stats_snapshot": "data/dpate172_part1_stats.csv",
+  "part1_stats_snapshot_sha256": "c1d4c12aa355d4e5da654c90a7edbb585f16c550362b8ed05f8f04a836561d79",
+  "month_timezone": "UTC",
+  "range": "First through last known author-timestamp month, inclusive.",
+  "longest_gap_rule": "Longest contiguous zero-month run of any length; earliest start wins ties.",
+  "gap_count_rule": "Count maximal zero-month runs lasting at least three months.",
+  "after_gap_rule": "Sum known-timestamp commits strictly after LongestGapEnd, not after the latest gap.",
+  "no_gap_convention": "Blank start/end, length 0, number of gaps 0, blank commits after gap (not applicable).",
+  "missing_timestamp_effect": "Undated identifiers cannot be assigned to months. Their unknown dates could alter the observed range, zero-month runs, gap lengths, gap counts, and commits after a gap.",
+  "partial_month_caveat": "The first and last observed months may be incomplete calendar months.",
+  "gap_and_utc_boundary_checks_passed": true,
+  "csv_roundtrip_passed": true,
+  "projects": {
+    "agnwinds_python": {
+      "source_rows": 5213,
+      "known_timestamp_commits": 5212,
+      "omitted_missing_timestamps": 1,
+      "missing_timestamp_sha1s": [
+        "beb9793b008235f918b9716421cd83a92ff4a9c1"
+      ],
+      "first_month": "2013-01",
+      "last_month": "2024-10",
+      "months": 142,
+      "first_author_timestamp_utc": "2013-01-17T14:29:57+00:00",
+      "last_author_timestamp_utc": "2024-10-22T21:47:15+00:00",
+      "LongestGapStart": "2023-04",
+      "LongestGapEnd": "2023-05",
+      "LongestGapLength": 2,
+      "NumCommitsAfterLastGap": 634,
+      "NumberOfGapsInTimeline": 0,
+      "zero_runs": [
+        {
+          "start": "2023-04",
+          "end": "2023-05",
+          "length": 2
+        },
+        {
+          "start": "2024-04",
+          "end": "2024-04",
+          "length": 1
+        }
+      ],
+      "csv": "dpate172_commits_timeseries_agnwinds_python.csv",
+      "png": "dpate172_timeseries_agnwinds_python.png",
+      "plot_dpi": 320,
+      "csv_sha256": "adec627fadd6ce79d6ba6b73286b6f72763b3a75e0a67255a7d88707b6791249",
+      "png_sha256": "b5b38de1add6c2cc68014805146d5eabca62fdec4ab5a51c4f4dee41934bbc81"
+    },
+    "csgillespie_powerlaw": {
+      "source_rows": 584,
+      "known_timestamp_commits": 584,
+      "omitted_missing_timestamps": 0,
+      "missing_timestamp_sha1s": [],
+      "first_month": "2012-12",
+      "last_month": "2025-02",
+      "months": 147,
+      "first_author_timestamp_utc": "2012-12-03T21:42:11+00:00",
+      "last_author_timestamp_utc": "2025-02-03T09:12:23+00:00",
+      "LongestGapStart": "2021-12",
+      "LongestGapEnd": "2023-12",
+      "LongestGapLength": 25,
+      "NumCommitsAfterLastGap": 18,
+      "NumberOfGapsInTimeline": 8,
+      "zero_runs": [
+        {
+          "start": "2013-07",
+          "end": "2013-07",
+          "length": 1
+        },
+        {
+          "start": "2013-09",
+          "end": "2013-10",
+          "length": 2
+        },
+        {
+          "start": "2014-01",
+          "end": "2014-01",
+          "length": 1
+        },
+        {
+          "start": "2014-04",
+          "end": "2014-04",
+          "length": 1
+        },
+        {
+          "start": "2014-09",
+          "end": "2014-09",
+          "length": 1
+        },
+        {
+          "start": "2014-12",
+          "end": "2015-01",
+          "length": 2
+        },
+        {
+          "start": "2015-09",
+          "end": "2015-12",
+          "length": 4
+        },
+        {
+          "start": "2016-05",
+          "end": "2016-08",
+          "length": 4
+        },
+        {
+          "start": "2016-10",
+          "end": "2016-10",
+          "length": 1
+        },
+        {
+          "start": "2017-01",
+          "end": "2017-07",
+          "length": 7
+        },
+        {
+          "start": "2017-09",
+          "end": "2017-10",
+          "length": 2
+        },
+        {
+          "start": "2017-12",
+          "end": "2017-12",
+          "length": 1
+        },
+        {
+          "start": "2018-02",
+          "end": "2018-03",
+          "length": 2
+        },
+        {
+          "start": "2018-05",
+          "end": "2018-06",
+          "length": 2
+        },
+        {
+          "start": "2018-08",
+          "end": "2018-11",
+          "length": 4
+        },
+        {
+          "start": "2019-04",
+          "end": "2019-05",
+          "length": 2
+        },
+        {
+          "start": "2019-07",
+          "end": "2019-07",
+          "length": 1
+        },
+        {
+          "start": "2019-10",
+          "end": "2019-12",
+          "length": 3
+        },
+        {
+          "start": "2020-03",
+          "end": "2020-03",
+          "length": 1
+        },
+        {
+          "start": "2020-06",
+          "end": "2021-10",
+          "length": 17
+        },
+        {
+          "start": "2021-12",
+          "end": "2023-12",
+          "length": 25
+        },
+        {
+          "start": "2024-02",
+          "end": "2025-01",
+          "length": 12
+        }
+      ],
+      "csv": "dpate172_commits_timeseries_csgillespie_powerlaw.csv",
+      "png": "dpate172_timeseries_csgillespie_powerlaw.png",
+      "plot_dpi": 320,
+      "csv_sha256": "71218076432690d2bce597ce62d5ce174789c91d40b3915af9afbd383beaf5d5",
+      "png_sha256": "6fe39c025798d531d586e3dcbaa5cf2d418fd54527df7c2c02fc3f95b24f2b6d"
+    },
+    "esri_geoportal-server": {
+      "source_rows": 1822,
+      "known_timestamp_commits": 1822,
+      "omitted_missing_timestamps": 0,
+      "missing_timestamp_sha1s": [],
+      "first_month": "2010-10",
+      "last_month": "2025-07",
+      "months": 178,
+      "first_author_timestamp_utc": "2010-10-22T20:20:32+00:00",
+      "last_author_timestamp_utc": "2025-07-13T00:43:55+00:00",
+      "LongestGapStart": "2024-11",
+      "LongestGapEnd": "2025-06",
+      "LongestGapLength": 8,
+      "NumCommitsAfterLastGap": 2,
+      "NumberOfGapsInTimeline": 10,
+      "zero_runs": [
+        {
+          "start": "2011-05",
+          "end": "2011-05",
+          "length": 1
+        },
+        {
+          "start": "2011-07",
+          "end": "2011-11",
+          "length": 5
+        },
+        {
+          "start": "2012-01",
+          "end": "2012-06",
+          "length": 6
+        },
+        {
+          "start": "2012-09",
+          "end": "2012-11",
+          "length": 3
+        },
+        {
+          "start": "2013-05",
+          "end": "2013-05",
+          "length": 1
+        },
+        {
+          "start": "2016-07",
+          "end": "2016-07",
+          "length": 1
+        },
+        {
+          "start": "2016-09",
+          "end": "2016-09",
+          "length": 1
+        },
+        {
+          "start": "2017-02",
+          "end": "2017-02",
+          "length": 1
+        },
+        {
+          "start": "2017-08",
+          "end": "2017-08",
+          "length": 1
+        },
+        {
+          "start": "2018-02",
+          "end": "2018-03",
+          "length": 2
+        },
+        {
+          "start": "2018-08",
+          "end": "2018-08",
+          "length": 1
+        },
+        {
+          "start": "2018-11",
+          "end": "2018-11",
+          "length": 1
+        },
+        {
+          "start": "2019-06",
+          "end": "2019-07",
+          "length": 2
+        },
+        {
+          "start": "2020-03",
+          "end": "2020-03",
+          "length": 1
+        },
+        {
+          "start": "2021-01",
+          "end": "2021-03",
+          "length": 3
+        },
+        {
+          "start": "2021-05",
+          "end": "2021-11",
+          "length": 7
+        },
+        {
+          "start": "2022-01",
+          "end": "2022-04",
+          "length": 4
+        },
+        {
+          "start": "2022-06",
+          "end": "2022-11",
+          "length": 6
+        },
+        {
+          "start": "2023-01",
+          "end": "2023-01",
+          "length": 1
+        },
+        {
+          "start": "2023-05",
+          "end": "2023-05",
+          "length": 1
+        },
+        {
+          "start": "2023-07",
+          "end": "2023-10",
+          "length": 4
+        },
+        {
+          "start": "2023-12",
+          "end": "2024-01",
+          "length": 2
+        },
+        {
+          "start": "2024-04",
+          "end": "2024-09",
+          "length": 6
+        },
+        {
+          "start": "2024-11",
+          "end": "2025-06",
+          "length": 8
+        }
+      ],
+      "csv": "dpate172_commits_timeseries_esri_geoportal-server.csv",
+      "png": "dpate172_timeseries_esri_geoportal-server.png",
+      "plot_dpi": 320,
+      "csv_sha256": "00d6fc1f7d56ba7b3c40480649fd5dadc93df4aec754adb5ca7cad843bba18e5",
+      "png_sha256": "e0e62655d6199775fb1e0bcf68265ec88b3ac99f1569b9a34920340ddb3519bb"
+    },
+    "hpparvi_pytransit": {
+      "source_rows": 1134,
+      "known_timestamp_commits": 1134,
+      "omitted_missing_timestamps": 0,
+      "missing_timestamp_sha1s": [],
+      "first_month": "2012-10",
+      "last_month": "2026-03",
+      "months": 162,
+      "first_author_timestamp_utc": "2012-10-23T15:47:59+00:00",
+      "last_author_timestamp_utc": "2026-03-18T19:09:15+00:00",
+      "LongestGapStart": "2015-06",
+      "LongestGapEnd": "2015-12",
+      "LongestGapLength": 7,
+      "NumCommitsAfterLastGap": 967,
+      "NumberOfGapsInTimeline": 9,
+      "zero_runs": [
+        {
+          "start": "2012-12",
+          "end": "2012-12",
+          "length": 1
+        },
+        {
+          "start": "2013-02",
+          "end": "2013-05",
+          "length": 4
+        },
+        {
+          "start": "2013-08",
+          "end": "2013-10",
+          "length": 3
+        },
+        {
+          "start": "2014-03",
+          "end": "2014-05",
+          "length": 3
+        },
+        {
+          "start": "2014-11",
+          "end": "2014-11",
+          "length": 1
+        },
+        {
+          "start": "2015-06",
+          "end": "2015-12",
+          "length": 7
+        },
+        {
+          "start": "2016-02",
+          "end": "2016-07",
+          "length": 6
+        },
+        {
+          "start": "2016-11",
+          "end": "2016-11",
+          "length": 1
+        },
+        {
+          "start": "2017-04",
+          "end": "2017-06",
+          "length": 3
+        },
+        {
+          "start": "2017-08",
+          "end": "2017-08",
+          "length": 1
+        },
+        {
+          "start": "2018-01",
+          "end": "2018-06",
+          "length": 6
+        },
+        {
+          "start": "2018-11",
+          "end": "2018-12",
+          "length": 2
+        },
+        {
+          "start": "2019-11",
+          "end": "2019-11",
+          "length": 1
+        },
+        {
+          "start": "2020-02",
+          "end": "2020-02",
+          "length": 1
+        },
+        {
+          "start": "2022-06",
+          "end": "2022-10",
+          "length": 5
+        },
+        {
+          "start": "2022-12",
+          "end": "2022-12",
+          "length": 1
+        },
+        {
+          "start": "2023-03",
+          "end": "2023-05",
+          "length": 3
+        },
+        {
+          "start": "2023-08",
+          "end": "2023-08",
+          "length": 1
+        },
+        {
+          "start": "2024-06",
+          "end": "2024-06",
+          "length": 1
+        },
+        {
+          "start": "2024-12",
+          "end": "2025-01",
+          "length": 2
+        },
+        {
+          "start": "2025-03",
+          "end": "2025-03",
+          "length": 1
+        },
+        {
+          "start": "2025-05",
+          "end": "2025-06",
+          "length": 2
+        },
+        {
+          "start": "2025-08",
+          "end": "2025-09",
+          "length": 2
+        },
+        {
+          "start": "2025-12",
+          "end": "2025-12",
+          "length": 1
+        }
+      ],
+      "csv": "dpate172_commits_timeseries_hpparvi_pytransit.csv",
+      "png": "dpate172_timeseries_hpparvi_pytransit.png",
+      "plot_dpi": 320,
+      "csv_sha256": "647cbbaa6e389850f9d7204f054c41ddd7f3af18c39bdc27edff651ffeb1e831",
+      "png_sha256": "92a6ed27c1c0500fc9b8fcf1ab7b04ee86b37fab561d1a2d4c9ab9cb775c0042"
+    },
+    "ketch_nodepy": {
+      "source_rows": 713,
+      "known_timestamp_commits": 713,
+      "omitted_missing_timestamps": 0,
+      "missing_timestamp_sha1s": [],
+      "first_month": "2009-03",
+      "last_month": "2024-09",
+      "months": 187,
+      "first_author_timestamp_utc": "2009-03-10T10:42:35+00:00",
+      "last_author_timestamp_utc": "2024-09-04T07:27:22+00:00",
+      "LongestGapStart": "2023-10",
+      "LongestGapEnd": "2024-08",
+      "LongestGapLength": 11,
+      "NumCommitsAfterLastGap": 2,
+      "NumberOfGapsInTimeline": 18,
+      "zero_runs": [
+        {
+          "start": "2009-04",
+          "end": "2009-11",
+          "length": 8
+        },
+        {
+          "start": "2010-01",
+          "end": "2010-04",
+          "length": 4
+        },
+        {
+          "start": "2010-06",
+          "end": "2010-07",
+          "length": 2
+        },
+        {
+          "start": "2011-03",
+          "end": "2011-03",
+          "length": 1
+        },
+        {
+          "start": "2011-06",
+          "end": "2011-11",
+          "length": 6
+        },
+        {
+          "start": "2012-01",
+          "end": "2012-03",
+          "length": 3
+        },
+        {
+          "start": "2012-06",
+          "end": "2012-06",
+          "length": 1
+        },
+        {
+          "start": "2013-07",
+          "end": "2013-09",
+          "length": 3
+        },
+        {
+          "start": "2013-12",
+          "end": "2014-01",
+          "length": 2
+        },
+        {
+          "start": "2014-04",
+          "end": "2014-06",
+          "length": 3
+        },
+        {
+          "start": "2014-08",
+          "end": "2014-09",
+          "length": 2
+        },
+        {
+          "start": "2014-11",
+          "end": "2014-11",
+          "length": 1
+        },
+        {
+          "start": "2015-01",
+          "end": "2015-01",
+          "length": 1
+        },
+        {
+          "start": "2015-06",
+          "end": "2015-10",
+          "length": 5
+        },
+        {
+          "start": "2015-12",
+          "end": "2015-12",
+          "length": 1
+        },
+        {
+          "start": "2016-02",
+          "end": "2016-02",
+          "length": 1
+        },
+        {
+          "start": "2016-04",
+          "end": "2016-04",
+          "length": 1
+        },
+        {
+          "start": "2016-06",
+          "end": "2016-08",
+          "length": 3
+        },
+        {
+          "start": "2016-10",
+          "end": "2016-10",
+          "length": 1
+        },
+        {
+          "start": "2016-12",
+          "end": "2017-01",
+          "length": 2
+        },
+        {
+          "start": "2017-03",
+          "end": "2017-08",
+          "length": 6
+        },
+        {
+          "start": "2017-11",
+          "end": "2018-03",
+          "length": 5
+        },
+        {
+          "start": "2018-08",
+          "end": "2018-09",
+          "length": 2
+        },
+        {
+          "start": "2018-11",
+          "end": "2018-11",
+          "length": 1
+        },
+        {
+          "start": "2019-01",
+          "end": "2019-04",
+          "length": 4
+        },
+        {
+          "start": "2019-06",
+          "end": "2019-06",
+          "length": 1
+        },
+        {
+          "start": "2019-08",
+          "end": "2019-09",
+          "length": 2
+        },
+        {
+          "start": "2020-01",
+          "end": "2020-04",
+          "length": 4
+        },
+        {
+          "start": "2020-09",
+          "end": "2020-09",
+          "length": 1
+        },
+        {
+          "start": "2020-12",
+          "end": "2021-02",
+          "length": 3
+        },
+        {
+          "start": "2021-05",
+          "end": "2021-08",
+          "length": 4
+        },
+        {
+          "start": "2021-10",
+          "end": "2022-04",
+          "length": 7
+        },
+        {
+          "start": "2022-07",
+          "end": "2022-11",
+          "length": 5
+        },
+        {
+          "start": "2023-02",
+          "end": "2023-05",
+          "length": 4
+        },
+        {
+          "start": "2023-07",
+          "end": "2023-08",
+          "length": 2
+        },
+        {
+          "start": "2023-10",
+          "end": "2024-08",
+          "length": 11
+        }
+      ],
+      "csv": "dpate172_commits_timeseries_ketch_nodepy.csv",
+      "png": "dpate172_timeseries_ketch_nodepy.png",
+      "plot_dpi": 320,
+      "csv_sha256": "db519b611c0a6769b13f1d66d5e0a602b8839174a547e501ce572afb06cef75f",
+      "png_sha256": "ca6a794d19d4a68e9aacaf579121176cd8863d434159571edd03f91f730e26ea"
+    },
+    "microsoft_fhir-server": {
+      "source_rows": 20582,
+      "known_timestamp_commits": 20570,
+      "omitted_missing_timestamps": 12,
+      "missing_timestamp_sha1s": [
+        "12be3a616fbd343db925ebe04f646fd4f5526772",
+        "3dbcc1390a70910b8bea5b825d04444f108bbe97",
+        "41b666a0517e8394a948411daedb489164da4fd2",
+        "448c3f246ccd0dcf5420a84228b15458c94a514c",
+        "5f40fa73bfac8a8e1854a43677378815df4d75f4",
+        "62e446e7c4b564641b479629ce1742a8437447ea",
+        "6dd0e2382331ddda944bdd4f6b7ed348ec576de7",
+        "6f02c878f9b90d2f6c8c6f98abf228385f82611e",
+        "88c247c5ab0aaf70994c1cf2755d9379ff8a1e23",
+        "d1d928cbbc704724f7af153548aebea0b10a4046",
+        "e618bd04b1dd2cc0adb1481890a0f388096caa93",
+        "fc9fbaef4ea29d4b3e3064ee8df0f519287d98f1"
+      ],
+      "first_month": "2018-08",
+      "last_month": "2025-11",
+      "months": 88,
+      "first_author_timestamp_utc": "2018-08-23T21:11:07+00:00",
+      "last_author_timestamp_utc": "2025-11-01T00:42:52+00:00",
+      "LongestGapStart": "",
+      "LongestGapEnd": "",
+      "LongestGapLength": 0,
+      "NumCommitsAfterLastGap": "",
+      "NumberOfGapsInTimeline": 0,
+      "zero_runs": [],
+      "csv": "dpate172_commits_timeseries_microsoft_fhir-server.csv",
+      "png": "dpate172_timeseries_microsoft_fhir-server.png",
+      "plot_dpi": 320,
+      "csv_sha256": "3f7c99989f8bc4607a9d5cd7533fb7ff7636f9f4ca5865700e215b2114ab64c6",
+      "png_sha256": "76be7feee56382e33f27c25d856c1b304d75971d3b33d447524aff84bc5aa2b5"
+    },
+    "mouseland_suite2p": {
+      "source_rows": 3297,
+      "known_timestamp_commits": 3297,
+      "omitted_missing_timestamps": 0,
+      "missing_timestamp_sha1s": [],
+      "first_month": "2018-07",
+      "last_month": "2026-04",
+      "months": 94,
+      "first_author_timestamp_utc": "2018-07-16T18:12:08+00:00",
+      "last_author_timestamp_utc": "2026-04-18T18:08:49+00:00",
+      "LongestGapStart": "2024-11",
+      "LongestGapEnd": "2024-11",
+      "LongestGapLength": 1,
+      "NumCommitsAfterLastGap": 347,
+      "NumberOfGapsInTimeline": 0,
+      "zero_runs": [
+        {
+          "start": "2024-11",
+          "end": "2024-11",
+          "length": 1
+        }
+      ],
+      "csv": "dpate172_commits_timeseries_mouseland_suite2p.csv",
+      "png": "dpate172_timeseries_mouseland_suite2p.png",
+      "plot_dpi": 320,
+      "csv_sha256": "5ef2b9f8ff059b72e2b340685aced37fd0c9d638478fd817ff31799901e6f300",
+      "png_sha256": "e3b9b4a07510ac89848ceeb8481d2eb4767914fbacd9c9618a0419b53e74868e"
+    },
+    "rapidsai_cucim": {
+      "source_rows": 3010,
+      "known_timestamp_commits": 3010,
+      "omitted_missing_timestamps": 0,
+      "missing_timestamp_sha1s": [],
+      "first_month": "2021-04",
+      "last_month": "2026-06",
+      "months": 63,
+      "first_author_timestamp_utc": "2021-04-09T17:55:44+00:00",
+      "last_author_timestamp_utc": "2026-06-11T14:39:10+00:00",
+      "LongestGapStart": "",
+      "LongestGapEnd": "",
+      "LongestGapLength": 0,
+      "NumCommitsAfterLastGap": "",
+      "NumberOfGapsInTimeline": 0,
+      "zero_runs": [],
+      "csv": "dpate172_commits_timeseries_rapidsai_cucim.csv",
+      "png": "dpate172_timeseries_rapidsai_cucim.png",
+      "plot_dpi": 320,
+      "csv_sha256": "03e298a7f10cbd8400e878d0d12c919c139117e9c9ad6b9a3aa17cec11b7065d",
+      "png_sha256": "ed61ea30e99a7eda0cc29a30f9fcff2609ff54486b0c6400626f9434655c9256"
+    },
+    "stack-of-tasks_pinocchio": {
+      "source_rows": 11597,
+      "known_timestamp_commits": 11597,
+      "omitted_missing_timestamps": 0,
+      "missing_timestamp_sha1s": [],
+      "first_month": "2014-08",
+      "last_month": "2025-11",
+      "months": 136,
+      "first_author_timestamp_utc": "2014-08-18T08:03:36+00:00",
+      "last_author_timestamp_utc": "2025-11-05T03:54:54+00:00",
+      "LongestGapStart": "2014-12",
+      "LongestGapEnd": "2014-12",
+      "LongestGapLength": 1,
+      "NumCommitsAfterLastGap": 11320,
+      "NumberOfGapsInTimeline": 0,
+      "zero_runs": [
+        {
+          "start": "2014-12",
+          "end": "2014-12",
+          "length": 1
+        },
+        {
+          "start": "2017-08",
+          "end": "2017-08",
+          "length": 1
+        }
+      ],
+      "csv": "dpate172_commits_timeseries_stack-of-tasks_pinocchio.csv",
+      "png": "dpate172_timeseries_stack-of-tasks_pinocchio.png",
+      "plot_dpi": 320,
+      "csv_sha256": "a164b548068f7142e4c25241e1fc732284fad3597eadebbbf0be91fee07733ee",
+      "png_sha256": "9a2eb979e917c93b4b4a4a47271d9af04ed8853fa24ed4edf5d95f2054205007"
+    },
+    "sundmanbo_opencalphad": {
+      "source_rows": 550,
+      "known_timestamp_commits": 550,
+      "omitted_missing_timestamps": 0,
+      "missing_timestamp_sha1s": [],
+      "first_month": "2014-07",
+      "last_month": "2025-05",
+      "months": 131,
+      "first_author_timestamp_utc": "2014-07-23T09:18:46+00:00",
+      "last_author_timestamp_utc": "2025-05-15T17:49:55+00:00",
+      "LongestGapStart": "2024-01",
+      "LongestGapEnd": "2024-05",
+      "LongestGapLength": 5,
+      "NumCommitsAfterLastGap": 59,
+      "NumberOfGapsInTimeline": 5,
+      "zero_runs": [
+        {
+          "start": "2014-11",
+          "end": "2014-11",
+          "length": 1
+        },
+        {
+          "start": "2015-04",
+          "end": "2015-04",
+          "length": 1
+        },
+        {
+          "start": "2016-05",
+          "end": "2016-05",
+          "length": 1
+        },
+        {
+          "start": "2018-11",
+          "end": "2018-11",
+          "length": 1
+        },
+        {
+          "start": "2020-07",
+          "end": "2020-07",
+          "length": 1
+        },
+        {
+          "start": "2021-05",
+          "end": "2021-07",
+          "length": 3
+        },
+        {
+          "start": "2021-09",
+          "end": "2021-09",
+          "length": 1
+        },
+        {
+          "start": "2022-01",
+          "end": "2022-01",
+          "length": 1
+        },
+        {
+          "start": "2022-10",
+          "end": "2022-12",
+          "length": 3
+        },
+        {
+          "start": "2023-02",
+          "end": "2023-02",
+          "length": 1
+        },
+        {
+          "start": "2023-06",
+          "end": "2023-08",
+          "length": 3
+        },
+        {
+          "start": "2023-11",
+          "end": "2023-11",
+          "length": 1
+        },
+        {
+          "start": "2024-01",
+          "end": "2024-05",
+          "length": 5
+        },
+        {
+          "start": "2024-07",
+          "end": "2024-09",
+          "length": 3
+        },
+        {
+          "start": "2025-03",
+          "end": "2025-03",
+          "length": 1
+        }
+      ],
+      "csv": "dpate172_commits_timeseries_sundmanbo_opencalphad.csv",
+      "png": "dpate172_timeseries_sundmanbo_opencalphad.png",
+      "plot_dpi": 320,
+      "csv_sha256": "d2223cd27215f2777b776158c6df1607ab11a5c5f0fa2427df95296998988935",
+      "png_sha256": "2da3b5455549ff8ab4c7e5afcf514dc8bab79fa9382d10373f3ff7a9a283940c"
+    }
+  }
+}

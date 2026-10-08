@@ -1,0 +1,411 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;ajdawson_windspharm;ba30655fa521955075feb31b9ff76e924ebc3f03;Andrew Dawson <ajdawson@acm.org>;1534847247;"Use tuple indexing for numpy arrays
+"
+pre;ajdawson_windspharm;940af958cfab4d5ebbae8e82a28c680d50c016dd;Andrew Dawson <ajdawson@acm.org>;1534847269;"Update the changelog for v1.7.0
+"
+pre;ajdawson_windspharm;2e3a387dc5ebbc2bdb7fbac5f97ca270fdc99577;Andrew Dawson <ajdawson@acm.org>;1534847877;"List version numbers with most recent first
+"
+pre;ajdawson_windspharm;fac40d7fad37f49c727472efb40a9ee548b865f8;Travis CI User <travis@example.org>;1534849039;"Update docs after building Travis build 344 of
+ajdawson/windspharm
+
+The docs were built from the tag 'v1.7.0rc1' against the commit
+940af958cfab4d5ebbae8e82a28c680d50c016dd.
+
+The Travis build that generated this commit is at
+https://travis-ci.org/ajdawson/windspharm/jobs/418639955.
+
+The doctr command that was run is
+
+    /home/travis/miniconda/envs/test/bin/doctr deploy --build-tags --command './update_links.py && git add latest' v1.7
+"
+pre;ajdawson_windspharm;aa6243c717ed3941b6bd4206cf04aaf466b8f842;Andrew Dawson <ajdawson@acm.org>;1534852776;"Remove pip install instructions
+
+pyspharm is no longer available to install via pip, so omit the
+instructions.
+"
+pre;ajdawson_windspharm;d25a5348245c08cfa4be93a329cebf334b0a2ea3;Andrew Dawson <ajdawson@acm.org>;1534853039;"Use the README as the package description
+"
+pre;ajdawson_windspharm;8524f73d852c49e0aa5a696dd06644e6908b7619;Travis CI User <travis@example.org>;1534853846;"Update docs after building Travis build 346 of
+ajdawson/windspharm
+
+The docs were built from the tag 'v1.7.0rc2' against the commit
+d25a5348245c08cfa4be93a329cebf334b0a2ea3.
+
+The Travis build that generated this commit is at
+https://travis-ci.org/ajdawson/windspharm/jobs/418665142.
+
+The doctr command that was run is
+
+    /home/travis/miniconda/envs/test/bin/doctr deploy --build-tags --command './update_links.py && git add latest' v1.7
+"
+pre;ajdawson_windspharm;a4a297216ca6faa63234fcd5deae5a3c28b1132b;Andrew Dawson <ajdawson@acm.org>;1534854474;"Merge remote-tracking branch 'origin/v1.7.x'
+"
+pre;ajdawson_windspharm;35b172498602061c2d99a0b56aa3278aca824b2c;Travis CI User <travis@example.org>;1534854888;"Update docs after building Travis build 347 of
+ajdawson/windspharm
+
+The docs were built from the tag 'v1.7.0' against the commit
+d25a5348245c08cfa4be93a329cebf334b0a2ea3.
+
+The Travis build that generated this commit is at
+https://travis-ci.org/ajdawson/windspharm/jobs/418674547.
+
+The doctr command that was run is
+
+    /home/travis/miniconda/envs/test/bin/doctr deploy --build-tags --command './update_links.py && git add latest' v1.7
+"
+pre;ajdawson_windspharm;75a186d04297a61caa1e715012265861f4d4eca3;Travis CI User <travis@example.org>;1534855541;"Update docs after building Travis build 348 of
+ajdawson/windspharm
+
+The docs were built from the branch 'master' against the commit
+a4a297216ca6faa63234fcd5deae5a3c28b1132b.
+
+The Travis build that generated this commit is at
+https://travis-ci.org/ajdawson/windspharm/jobs/418678513.
+
+The doctr command that was run is
+
+    /home/travis/miniconda/envs/test/bin/doctr deploy dev
+"
+post;ajdawson_windspharm;4ba3bc8d2c932e6cc34aecd6eeaa877080fb14ed;Alan Brammer <alan.brammer@colostate.edu>;1613429690;"Add new getuv methods for all data types
+"
+post;ajdawson_windspharm;9032451758ef9a89eb5cfa8b6851f75b0a33809a;Alan Brammer <alan.brammer@colostate.edu>;1613430419;"clean up things we dont need
+add doc strings to each class
+"
+post;ajdawson_windspharm;8f15dd403c5b92fb4061729d1f161f37a9afe7a7;Alan Brammer <alan.brammer@colostate.edu>;1613430533;"fix internal function naming
+"
+post;ajdawson_windspharm;5efe58a1b2af07b724059c24571d01cdcc9b71fe;Alan Brammer <alan.brammer@colostate.edu>;1613430700;"fix some empty line edits
+"
+post;ajdawson_windspharm;93f8d0fe328babcc934e26736c5d5b288a9e0644;Alan Brammer <alan.brammer@colostate.edu>;1613431985;"fix a couple of lost words in docstrings
+"
+post;ajdawson_windspharm;4677ff44567a6f1cba22867cdca160ae78948c7c;Alan Brammer <alan.brammer@colostate.edu>;1613433926;"fix inconsistent long name attributes
+"
+post;ajdawson_windspharm;9438e264aba1a4d3c2903c5b8768d0f8359ba673;Alan Brammer <a1brammer@gmail.com>;1613433939;"Merge 4677ff44567a6f1cba22867cdca160ae78948c7c into a4a297216ca6faa63234fcd5deae5a3c28b1132b
+"
+post;ajdawson_windspharm;50592fff92d61b4f11d06ae9e8389c22588f27f8;Andrew Williams <56925856+AndrewWilliams3142@users.noreply.github.com>;1613560502;Update xarray.py
+post;ajdawson_windspharm;db04bf219ef996eeab276cdd1feb2c8c13ebd36b;Andrew Williams <56925856+AndrewWilliams3142@users.noreply.github.com>;1613560580;"Merge 50592fff92d61b4f11d06ae9e8389c22588f27f8 into a4a297216ca6faa63234fcd5deae5a3c28b1132b
+"
+post;ajdawson_windspharm;df8713f8cf58264dac916e3a965be3957a66542d;Jon Seddon <jon.seddon@metoffice.gov.uk>;1673346457;"Fix for Numpy 1.24
+"
+pre;cselab_aphros;9fcec6b8474ae5e6f927203758cfce4dc7c6f141;Petr Karnakov <pkarnakov@gmail.com>;1706927436;"readme: upd links
+"
+pre;cselab_aphros;63673761f9019015c7458adac463cf6f86a03785;Petr Karnakov <pkarnakov@seas.harvard.edu>;1707318671;"func/init.cpp: add missing InitVfList
+
+This fixes the linker error for `t.advection`:
+
+in function `Advection<MeshCartesian<double, 3ul> >::Init(Suspender::Sem&)':
+func/init_u.h:145: undefined reference to `void InitVfList`
+"
+pre;cselab_aphros;6aef8819c0c5c825cd9635a59a32de101c3d6708;Petr Karnakov <pkarnakov@gmail.com>;1708723043;"videos: add meshtransport.mp4
+"
+pre;cselab_aphros;3d1a480927cb177bd92beadc48cf4d3ced4c3e9f;Petr Karnakov <pkarnakov@gmail.com>;1709989896;"examples: add 213_electrochem
+"
+pre;cselab_aphros;cf0b4b17065df7c2b93bced3c9079ce77ac0627f;Sergey Litvinov <slitvinov@gmail.com>;1720042272;"overlap: disable ENFORCE_EXACT_FPMATH_ATTR if not AVX
+"
+pre;cselab_aphros;23811b15da5fa66bf20acb777c90b76dae0bf7a7;Sergey Litvinov <slitvinov@gmail.com>;1720042430;"Makefile_legacy: parse/conv2py is a binary
+"
+pre;cselab_aphros;020715c856f2bb71990f017dcde485b1a050bd77;Sergey Litvinov <slitvinov@gmail.com>;1720042796;"cmake: add -DFIND_HDF=0 to error messages
+"
+pre;cselab_aphros;cefaf07b46c12bc97661e657a0b7d0f994e9f768;Sergey Litvinov <slitvinov@gmail.com>;1720181806;"src/overlap/CMakeLists.txt: add object_link_libraries
+"
+pre;cselab_aphros;03b7750819b00543a06c0a0b139510e2bb19e665;Petr Karnakov <pkarnakov@seas.harvard.edu>;1720184852;"test/commmap: fix build without openmp
+"
+pre;cselab_aphros;7fe7442219dd6d3c932bc1236260d761b1dcf3b7;Petr Karnakov <pkarnakov@seas.harvard.edu>;1720186468;"examples/202_coalescence: use backend native and linsolver conjugate
+"
+post;cselab_aphros;a34a17818b639c10f3556230af5924a0e7f58bee;Petr Karnakov <pkarnakov@gmail.com>;1745147466;"cmake: update minimum version to 3.10.2
+"
+post;cselab_aphros;b60ce3da52c19935fa24c778f62f02141eaf7f80;Petr Karnakov <pkarnakov@gmail.com>;1753041425;"examples: add 214_aps/wave
+"
+pre;epics-base_pva2pva;5c75fd7bfca83edbead521c3582aaab078bd270a;Michael Davidsaver <mdavidsaver@gmail.com>;1666796370;"disable testpvalink
+"
+pre;epics-base_pva2pva;ca3c5723f6189b987e0ac37f5d82a48dba09228d;Michael Davidsaver <mdavidsaver@gmail.com>;1667411600;"Allow ""meta"" at member top of array of struct
+"
+pre;epics-base_pva2pva;2a53ea7e478a343cf50b9a6dc8d87683a91f729b;Michael Davidsaver <mdavidsaver@gmail.com>;1667411600;"Allow ""meta"" at member top of array of struct
+"
+pre;epics-base_pva2pva;db5af06e07b726b17422413a8176201d3687bdf9;Michael Davidsaver <mdavidsaver@gmail.com>;1667492219;"fix dbLoadGroup
+"
+pre;epics-base_pva2pva;3b9990e3650fca2673eebfb83645193ac0e5297d;Michael Davidsaver <mdavidsaver@gmail.com>;1667494882;"add image.json example
+"
+pre;epics-base_pva2pva;0af5e972f3f3123293ff327ad2421b9882be5eba;Michael Davidsaver <mdavidsaver@gmail.com>;1668060848;"add DTYP=""QSRV Demo Replicate""
+"
+pre;epics-base_pva2pva;4cb3d4d696a761c619adfe34b53ecbe6dcb000c3;Michael Davidsaver <mdavidsaver@gmail.com>;1670865296;"oops
+"
+pre;epics-base_pva2pva;9e48b5f7afa2fa2f7fba3b6e68cf80412d5aae6d;mdavidsaver <mdavidsaver@gmail.com>;1671563727;"Merge aba9fa7c008f0d9d0f253ed187cbd34ff3933850 into 3b9990e3650fca2673eebfb83645193ac0e5297d
+"
+pre;epics-base_pva2pva;77d4e1ababaca3469b37801d604e865a499cd7c1;Evan Daykin <daykin@frib.msu.edu>;1678381420;"Fall back to EPICS_BASE/dbd/softIocPVA.dbd
+"
+pre;epics-base_pva2pva;3d5dff579c7f509a850b6d661c346806f534bfbd;Benjamin Bertrand <beenje@gmail.com>;1678887245;"Merge b054b6d51e0aca94a7d4feef606b61068894fcb4 into 3b9990e3650fca2673eebfb83645193ac0e5297d
+"
+post;epics-base_pva2pva;b88520c090d48ab07d8be32ca575bce853fc33ab;Evan Daykin <daykin@users.noreply.github.com>;1701391956;"Merge 77d4e1ababaca3469b37801d604e865a499cd7c1 into 4cb3d4d696a761c619adfe34b53ecbe6dcb000c3
+"
+post;epics-base_pva2pva;61682f72fe5ad42d47ce5fe15afd1b1c49b505f4;Andrew Johnson <anj@anl.gov>;1702507998;"Update release notes
+"
+post;epics-base_pva2pva;3a08da445b46e2e7029406d24425cdd3dfd7da24;Andrew Johnson <anj@anl.gov>;1702508144;"Set version numbers for release
+"
+post;epics-base_pva2pva;949b3f63c2387bb92c1c22ca2f80f8d320805117;Andrew Johnson <anj@anl.gov>;1702508359;"Set next development version
+"
+post;epics-base_pva2pva;6c4f9a7049c9a4a72ac26b1d2e5e4711dd6550b8;Andrew Johnson <anj@anl.gov>;1702934405;"1.4.1
+"
+post;epics-base_pva2pva;b7bfc246c963284dcb715b265d44bfb2916ddb2e;Evan Daykin <daykin@users.noreply.github.com>;1704941363;"Merge 77d4e1ababaca3469b37801d604e865a499cd7c1 into 949b3f63c2387bb92c1c22ca2f80f8d320805117
+"
+post;epics-base_pva2pva;06f31022dea701cc89674ef3bf94123b01e35d44;Andrew Johnson <anj@anl.gov>;1723045921;"Don't duplicate libs requested in PROD_LIBS
+"
+post;epics-base_pva2pva;36843709eae9fb53e07228fb8865cba4f5f9b269;Andrew Johnson <anj@anl.gov>;1723046960;"Clean up some picky clang-15 warnings
+
+The namespace changes resolve these messages:
+   warning: non-type template argument referring to function
+   'whatever' with internal linkage is a C++11 extension
+   [-Wc++11-extensions]
+"
+post;epics-base_pva2pva;541d3efd72de99f0ffb006ce8fa672df1cf72a14;Andrew Johnson <anj@anl.gov>;1723050616;"Disable deprecated compiler warnings on GCC & Clang
+
+Destroyable is deprecated but, here we're just testing it.
+"
+post;epics-base_pva2pva;8fa231352dac32c08734eb04cf4b12e76895a261;Ralph Lange <ralph.lange@gmx.de>;1734347197;"GHA: Update actions/upload-artifact to v4
+"
+pre;icbi-lab_luca;52aca9bfd121ec73fdee298ce19deec82b368b8b;nictru <nictru32@gmail.com>;1694597728;"Update sample sheets
+"
+pre;icbi-lab_luca;8e4d86314e5708d9a690c723c505bb514eac0673;nictru <nictru32@gmail.com>;1694608709;"Disable anntotation steps
+"
+pre;icbi-lab_luca;f5fca229c062adf8aedb84d335f5e4e74683c9e8;nictru <nictru32@gmail.com>;1694608754;"Disable sex column check
+"
+pre;icbi-lab_luca;070519ab5f67e172f4fb883db7f5799b0faf42e3;nictru <nictru32@gmail.com>;1694608811;"Implement harmony
+"
+pre;icbi-lab_luca;b002599b1dd5a8063aa9e10f58c179f616e7f4fa;nictru <nictru32@gmail.com>;1694608839;"Add BrCa run configuration
+"
+pre;icbi-lab_luca;db686196b708882ca803d0a1bc9a0c9e7a0d88f1;nictru <nictru32@gmail.com>;1694612912;"Remove problematic mnnpy dependencies
+"
+pre;icbi-lab_luca;505de98b3e48142465c64931967ee62c47bf2993;Nico Trummer <52698566+nictru@users.noreply.github.com>;1694613875;"Merge pull request #1 from Mye-InfoBank/harmony
+
+Harmony"
+pre;icbi-lab_luca;de7c9e3e9f745cc3a97c064f31daf9d7266eb3d2;Constantin Zackl <constantin.zackl@gmail.com>;1694616181;"added mnn integration
+"
+pre;icbi-lab_luca;f4afc9661afc688ba8dffc102701a68a40c972f8;Gregor Sturm <mail@gregor-sturm.de>;1699008215;Update README.md
+pre;icbi-lab_luca;5ffb0a4671e9c288b10e73de18d447ee176bef1d;Gregor Sturm <mail@gregor-sturm.de>;1699008238;"Merge pull request #15 from icbi-lab/grst-patch-1
+
+Specify nextflow version"
+post;icbi-lab_luca;40ba35acf003aa61a75ba6a14f6b346f8eba2f63;Gregor Sturm <mail@gregor-sturm.de>;1733949075;Update README.md
+post;icbi-lab_luca;4c1d8992644cdb93baba571c10cdf590b7bff050;Gregor Sturm <mail@gregor-sturm.de>;1733949086;"Merge pull request #20 from icbi-lab/grst-patch-2
+
+Update README.md"
+post;icbi-lab_luca;5b29ead9bc40a7c4dc3e3db4e8f04197ebef856f;Gregor Sturm <mail@gregor-sturm.de>;1733950091;"Fix EGFR mutation typo in patient metadata
+"
+post;icbi-lab_luca;00e347a6bf3218123356b3609d0b753b59fe89c2;Gregor Sturm <gregor.sturm@boehringer-ingelheim.com>;1734516252;"Fix EGFR mutation in exported atlas
+"
+post;icbi-lab_luca;a3c018451850fbb50b674bb606ea7348182420cb;Gregor Sturm <mail@gregor-sturm.de>;1737283318;"Merge pull request #22 from icbi-lab/fix-egfr-mutation
+
+Fix EGFR mutation in exported atlas"
+pre;knygren_glmbayes;c073d35eebd0c3207067c99430e1da9051237012;Nygren <Kjell.Nygren@sanofi.com>;1596822683;"Cleaned up more of standardized rindependent_Normal_Gamma function.
+"
+pre;knygren_glmbayes;50c426304c93deb3c55d798f515bff9edbb05f85;Nygren <Kjell.Nygren@sanofi.com>;1596828758;"Added code internal to standard code to main function.
+"
+pre;knygren_glmbayes;d86b075e82168a0809aacf1a9cdfba2b69cb8cc3;Nygren <Kjell.Nygren@sanofi.com>;1596857674;"Did away with need to call rindep_norm_gamma_reg_std_cpp function
+"
+pre;knygren_glmbayes;6fb99cf685668aa91ba4431ba43b384d0bd1fdb4;Nygren <Kjell.Nygren@sanofi.com>;1596919424;"Simplified part of rindep_norm_gamma_reg_cpp_std_v3.cpp
+"
+pre;knygren_glmbayes;acd223739cb3b61f4cab182fd4ef12dc97a2a737;Nygren <Kjell.Nygren@sanofi.com>;1596925283;"Modified parts of code to only require calculatons of LL for selected component in Grid.
+"
+pre;knygren_glmbayes;d16ae55032f0124c60b485a88346386e5b935989;Nygren <Kjell.Nygren@sanofi.com>;1596940534;"Updated rindependent_norm_gamma_reg functions so it avoids most un-necessary calculations.
+"
+pre;knygren_glmbayes;4218f750311d38d3bb2fd8813ed21fb24df662de;Nygren <Kjell.Nygren@sanofi.com>;1597278754;"Added new version of rindep_norm_gamma_reg_cpp that reverse order or candidate simulation
+"
+pre;knygren_glmbayes;bc96a829f0dc38edb8cd3d8a4ee8ee4cc2396c3d;Nygren <Kjell.Nygren@sanofi.com>;1597522031;"Creating function using average slope instead of slope derived from max_upp and Max_low
+"
+pre;knygren_glmbayes;6c68dd55d6cc83d3318cb82201d3126c90b53213;Nygren <Kjell.Nygren@sanofi.com>;1597527775;"Switch names of functions so that main function uses average slope instead of slope derived from max_low and max_upp.
+"
+pre;knygren_glmbayes;3c25c08c1f4ac71a0e67d47341fb0cf39497d5f8;Nygren <Kjell.Nygren@sanofi.com>;1598736248;"Started work to sample from different Gamma distributions
+"
+post;knygren_glmbayes;b000e610db7a3c0c07232b5321456658ed5fef05;knygren <kjell.a.nygren@gmail.com>;1752360186;"This commit uses a token and also makes changes to ensure package works with the latest version of R
+"
+post;knygren_glmbayes;7bb425b757ef0ecd87bfb7d20fb11e346766e0a1;knygren <kjell.a.nygren@gmail.com>;1752512895;"Clean CRAN-ready version with updated checks
+"
+post;knygren_glmbayes;28062eff089c040a4bf4e21dcd00bf2fc689063e;knygren <kjell.a.nygren@gmail.com>;1752519891;"Add NEWS.md
+"
+post;knygren_glmbayes;00489b17e85cab12b6a3624ed9ac3df8c202e1e1;knygren <kjell.a.nygren@gmail.com>;1752529616;"Add Initial News.MD for version tracking
+"
+post;knygren_glmbayes;a91d89c2b0715d854446b95be59384d882b2ab4f;knygren <kjell.a.nygren@gmail.com>;1752531195;"Add and update README.md with install instructions, usage example, and feature overview
+"
+post;knygren_glmbayes;f98b84a9ca45edd79584a165efa5b3000c8fabc1;knygren <kjell.a.nygren@gmail.com>;1752531195;"Add and update README.md with install instructions, usage example, and feature overview
+"
+post;knygren_glmbayes;3c39b841c71dcd0ecf72be8410a84e4220ce3d9c;knygren <kjell.a.nygren@gmail.com>;1752534095;"Finish merge with origin/main
+"
+post;knygren_glmbayes;ceece989568500e76cb629118efff4f4f2afcffa;knygren <kjell.a.nygren@gmail.com>;1752534586;"Readme Corrections
+"
+post;knygren_glmbayes;88285ed36a91b6502b5087c2aeb40a82375ec878;knygren <kjell.a.nygren@gmail.com>;1752621534;"Add basic RcppParallel setup and add docs from build_site.
+"
+post;knygren_glmbayes;3c46e096053d5e37248c5e05c34a924685557b5f;knygren <kjell.a.nygren@gmail.com>;1752797470;"RcppParallel Enablement
+"
+pre;learning-at-home_hivemind;b483f5f31c492750e9d8d66be51e1f1817a3d418;Max Ryabinin <mryabinin0@gmail.com>;1702272067;"Merge b70a65dfb14ede8e969ca072033b891a3ce3cbf6 into d20e81017481aa2028efc33217522248aabd7d95
+"
+pre;learning-at-home_hivemind;2974ee581bbfe0f9cff7045b54466a4dc2b59c13;Alexander Borzunov <hxrussia@gmail.com>;1702272067;"Merge 7aff06211262c2baa38fdc4ba5dad16ae2c1de3b into d20e81017481aa2028efc33217522248aabd7d95
+"
+pre;learning-at-home_hivemind;39100b555adfee9cdbaca7a505cdf9d0eb61e5e1;Alexander Borzunov <hxrussia@gmail.com>;1704298761;"Merge 83ff2693af8419915c94d55631feaa4356ab775f into d20e81017481aa2028efc33217522248aabd7d95
+"
+pre;learning-at-home_hivemind;41a38a649062be43aeb9226890aeb373fd480b65;foksly <38046175+foksly@users.noreply.github.com>;1704298779;"Merge 1eb7522b891ecaa53feb56adaa60d31906e9e9d1 into d20e81017481aa2028efc33217522248aabd7d95
+"
+pre;learning-at-home_hivemind;ffdb014882850278d04f8d2dc45b29a784e3ca78;cleong110 <122366389+cleong110@users.noreply.github.com>;1708702888;"Update README.md dead link to HivemindStrategy
+
+Readme link to HivemindStrategy in PyTorch Lightning docs was giving 404, as PyTorch Lighting updated their docs structure, shifting the relevant page from https://lightning.ai/docs/pytorch/stable/advanced/third_party/hivemind.html to https://lightning.ai/docs/pytorch/stable/integrations/strategies/Hivemind.html. Updated the link accordingly"
+pre;learning-at-home_hivemind;01d36ce3785dcc59fe654e91b53fba714cace557;cleong110 <122366389+cleong110@users.noreply.github.com>;1708702888;"Update README.md dead link to HivemindStrategy
+
+Readme link to HivemindStrategy in PyTorch Lightning docs was giving 404, as PyTorch Lighting updated their docs structure, shifting the relevant page from https://lightning.ai/docs/pytorch/stable/advanced/third_party/hivemind.html to https://lightning.ai/docs/pytorch/stable/integrations/strategies/Hivemind.html. Updated the link accordingly"
+pre;learning-at-home_hivemind;2e72394a888d7f281199156edd912e7a83afe0c7;cleong110 <122366389+cleong110@users.noreply.github.com>;1708702904;"Merge ffdb014882850278d04f8d2dc45b29a784e3ca78 into d20e81017481aa2028efc33217522248aabd7d95
+"
+pre;learning-at-home_hivemind;fbb525059be703425781967ce5992a1c76dc7b02;Brad Jones <pgawestjones@gmail.com>;1709956495;"Initial changes to get hivemind working navtively on windows
+"
+pre;learning-at-home_hivemind;e6bbd89eb046e1841fc9a224336b5008f234ca00;Ubuntu <ubuntu@t1v-n-1bc05951-w-0.europe-west4-a.c.trc-tpu-project.internal>;1711659614;"adding patched code
+"
+pre;learning-at-home_hivemind;3372e2bedb6ffcaa86498791a225aa1c0750b13c;Johannes Hagemann <johannes@primeintellect.ai>;1711920107;"fixed dependencies albert example
+
+fixed requirements for albert example
+
+fix dataset versions (#1)
+
+Revert ""fixed albert example""
+
+This reverts commit cccce0cc074cceb7f5760255ed2654d709373ef5.
+
+remove accelerate
+"
+post;learning-at-home_hivemind;1e1d4a04504d372e452f9259fb1d887ebed760c6;Sami Jaghouar <sami.jaghouar@hotmail.fr>;1715603498;"fix grad scaler import
+"
+post;learning-at-home_hivemind;e0a7638063553b2a88fcb35ec24251a28e9377cc;samsja <55492238+samsja@users.noreply.github.com>;1715603686;"Merge 1e1d4a04504d372e452f9259fb1d887ebed760c6 into d20e81017481aa2028efc33217522248aabd7d95
+"
+post;learning-at-home_hivemind;24aabf83dc295cbbb1ac030f8a765b6b04901f2b;Luciferian Ink <LuciferianInk@protonmail.com>;1717468052;"first pass at migration to pydantic > 2.0
+"
+post;learning-at-home_hivemind;050bb63980f12f65516038228047d57d41ba8914;Sami Jaghouar <sami.jaghouar@hotmail.fr>;1717584026;"add dowloading time to averager
+"
+post;learning-at-home_hivemind;62bd48972fbe3227518e4063276a40cc9efd44cf;Luciferian Ink <LuciferianInk@protonmail.com>;1717601021;"fix linting and tests
+"
+post;learning-at-home_hivemind;8801689f8ce3ecf5bc1b5e7b4c32700b5b493383;Luciferian Ink <LuciferianInk@protonmail.com>;1717752361;"migrate deprecated torch.cuda.amp imports to torch.amp
+"
+post;learning-at-home_hivemind;78cfaed4f030f323105fc5e713f00bcc74df4e40;Luciferian Ink <LuciferianInk@protonmail.com>;1717754292;"add if/else check to handle differences between torch versions
+"
+post;learning-at-home_hivemind;51542eda37da9adb6b64a060d0f72ea4892ccdb6;Luciferian Ink <LuciferianInk@protonmail.com>;1717755367;"fix linting
+"
+post;learning-at-home_hivemind;b254425147c3a8a91ea44afecd8bbc5552d4722f;Luciferian Ink <LuciferianInk@protonmail.com>;1717758688;"update wandb package, fixing docker build
+"
+post;learning-at-home_hivemind;945176a80751887aeb8aa8a8c8e115cadb4abbe1;Luciferian Ink <LuciferianInk@protonmail.com>;1717764730;"fix validators, and pass tests locally in Docker
+"
+pre;nfft_nfft;40450fbc48b078807f7f01bcdfc0f2a3b69a997a;Michael Quellmalz <michael.quellmalz@mathematik.tu-chemnitz.de>;1670761659;github-workflow: julia path
+pre;nfft_nfft;caa1746e8df7b536691b694bf0b8fef14ad9f6ef;Michael Quellmalz <michael.quellmalz@mathematik.tu-chemnitz.de>;1670762601;github-workflow: try to get right julia path
+pre;nfft_nfft;c9b2399c434a35ab8c305d3531c700a44f2c82ba;Michael Quellmalz <michael.quellmalz@mathematik.tu-chemnitz.de>;1670765025;github-workflow: julia should be installed already
+pre;nfft_nfft;97be77019c1065ffdeaa2e0fbd70a33c51766b3a;Michael Quellmalz <michael.quellmalz@mathematik.tu-chemnitz.de>;1670774898;Add required software in Readme #127
+pre;nfft_nfft;307593de5f0e14047c0d9cf152674fd427db6721;Michael Quellmalz <michael.quellmalz@mathematik.tu-chemnitz.de>;1670775258;github-workflow: install doxygen
+pre;nfft_nfft;281f59e930d61039411efad37e3da5f0c2ca6970;Franziska Nestler <franziska.nestler@mathematik.tu-chemnitz.de>;1676367098;"added kernel absx
+"
+pre;nfft_nfft;66d7cc71d807c84c41a2c9b36831d2fd86bdb4bc;Franziska Nestler <franziska.nestler@mathematik.tu-chemnitz.de>;1676368072;"repaired original setup in test_fastsum.m
+"
+pre;nfft_nfft;e928d6cc0b8f190b5a62fdaca5e8297bf8810265;Toni Volkmer <toni.volkmer@math.tu-chemnitz.de>;1677190567;"added Changelog entries for version 3.5.4
+"
+pre;nfft_nfft;d1238a7a4d30c8710b9dba3570bd597144b88ac8;Toni Volkmer <toni.volkmer@math.tu-chemnitz.de>;1677191234;"increased version number to 3.5.4
+"
+pre;nfft_nfft;266624d6e30122e7ae65f6efd8f7ce559307fe9c;Toni Volkmer <toni.volkmer@math.tu-chemnitz.de>;1677191303;"Merge branch 'develop' into release/3.5.4
+"
+post;nfft_nfft;e202f0cba948321acd7fef8554e3751511e37370;theresa <theresa.wagner@mathematik.tu-chemnitz.de>;1712756096;"added kernel der_laplacian_rbf
+"
+post;nfft_nfft;583def2e4d10cfc27238c7d4a472c51f3dda2f25;theresa <theresa.wagner@mathematik.tu-chemnitz.de>;1712757283;"adapted julia and matlab files for der_laplacian_kernel
+"
+post;nfft_nfft;e1ef14cccd39ef916eec88526c0c6d8b5a6a956b;theresa <theresa.wagner@mathematik.tu-chemnitz.de>;1713266100;"increased efficiency of computations
+"
+post;nfft_nfft;5098ca9593f4440b7c06708e6f3283e65363fe09;theresa <theresa.wagner@mathematik.tu-chemnitz.de>;1713267312;"fixed bug
+"
+post;nfft_nfft;8bec1eff72cb5d7b85944b04d260398b6c2ff846;passscoed <57286546+passscoed@users.noreply.github.com>;1713267834;"Merge pull request #138 from wagnertheresa/develop
+
+added kernel der_laplacian_rbf"
+post;nfft_nfft;e9a1352be9aaf1ad94aae30934fb30002c5b9f8d;Ralf Hielscher <ralf.hielscher@gmail.com>;1713955601;allow configure to run on ARM Mac
+post;nfft_nfft;11d3f894df76ac0ac4af144ea7310bf9f826a403;Ralf Hielscher <ralf.hielscher@gmail.com>;1713955601;allow configure to run on ARM Mac
+post;nfft_nfft;de2674afedb0c4ee684eefb23bc7243b0817007e;Pascal Schröter <passscoed@gmail.com>;1721403557;"fixed datatype
+"
+post;nfft_nfft;3843638dbff00de35213e58fb50db6343a186742;Pascal Schröter <passscoed@gmail.com>;1721403641;"Merge branch 'develop' of https://github.com/NFFT/nfft into develop
+"
+post;nfft_nfft;4e34bf1b76265815e6bc647293343f557a14815b;Pascal Schröter <passscoed@gmail.com>;1722262682;"fixed insecure parameter c
+"
+pre;rapidsai_cuxfilter;5fbb920eda8f531336f1d575daef3658bdbd36f2;Allan Enemark <aenemark@nvidia.com>;1542419004;"Merge branch 'updatedDockerfile' into 'master'
+
+Updated dockerfile
+
+See merge request RAPIDS/cuXfilter!9"
+pre;rapidsai_cuxfilter;e0d223f43d94684d9b47db43e1bc452f2d83688b;aenemark <aenemark@nvidia.com>;1542421614;"updated range slider interaction and fixed demo bugs.
+"
+pre;rapidsai_cuxfilter;3436dcf63862f1fe3d04c6cce7faf3fe57bc0416;Allan Enemark <aenemark@nvidia.com>;1544412452;"Merge branch 'session_support' into 'master'
+
+Fixed node server session related bugs, added support for multiple datasets per session per engine
+
+See merge request RAPIDS/cuXfilter!10"
+pre;rapidsai_cuxfilter;821d67778d4cf9aa31ddc0dc7258e1650e8a9f0c;Ajay Thorve <athorve@nvidia.com>;1544412452;"Fixed node server session related bugs, added support for multiple datasets per session per engine
+"
+pre;rapidsai_cuxfilter;3aa60d1231e62bbcbdc16d4a8a7864f418e02a27;Allan Enemark <aenemark@nvidia.com>;1544842099;"Merge branch 'sanic_server' into 'master'
+
+Added support for cudf 0.4.0
+
+See merge request RAPIDS/cuXfilter!11"
+pre;rapidsai_cuxfilter;7033360701a06a396e44b6bb7e49a50cc93b51f6;Ajay Thorve <athorve@nvidia.com>;1544842099;"Added support for cudf 0.4.0
+"
+pre;rapidsai_cuxfilter;d737fe3cb9b55460e6ae949c874f99ab93d1ef0a;Ajay Thorve <athorve@nvidia.com>;1545246060;"Jupyter notebook
+"
+pre;rapidsai_cuxfilter;93be478e6dda35dabc15da3dbe4e2cf8873a5b33;Allan Enemark <aenemark@nvidia.com>;1545246061;"Merge branch 'jupyter_notebook' into 'master'
+
+Jupyter notebook
+
+See merge request RAPIDS/cuXfilter!12"
+pre;rapidsai_cuxfilter;8eb1a6d7589193193e9bb84118da909b0d135680;aenemark <aenemark@nvidia.com>;1545278184;"updated readme.
+"
+pre;rapidsai_cuxfilter;a140bd9aa0e8ae3426a340a05cdb90e583c5c1f3;Allan Enemark <aenemark@nvidia.com>;1545278428;image source change
+post;rapidsai_cuxfilter;d11f959456f2760677b1820655bd253d7c4b4b86;ajay thorve <athorve@nvidia.com>;1550712368;"updated Dockerfile to support cudf=0.5.0
+"
+post;rapidsai_cuxfilter;2912633ade96d3abb82d0c6b0a83ebc4b8fa9ada;athorve <athorve@nvidia.com>;1552422795;"updated to remove port dependency and added service nginx start
+"
+post;rapidsai_cuxfilter;e715bb05d21404303e497716f63b539def740059;athorve <athorve@nvidia.com>;1552422831;"updated Dockerfile to support installation of nginx for reverse proxying
+"
+post;rapidsai_cuxfilter;67b72f0224907222c66770dc3ff27efc8c1497a8;athorve <athorve@nvidia.com>;1552422934;"updated files to remove support for ports, and added paths, updated README
+"
+post;rapidsai_cuxfilter;5b005e057377e1ff54b0eaa9e91af8d1b0931019;athorve <athorve@nvidia.com>;1552423208;"added environment variables file
+"
+post;rapidsai_cuxfilter;efee98fc77b091e2fc597d295c29e8c1c3f8551d;athorve <athorve@nvidia.com>;1552423269;"added default config for nginx reverse proxying
+"
+post;rapidsai_cuxfilter;ebf491d8443276147d255df6827510b2bcbe4e12;athorve <athorve@nvidia.com>;1552423625;"Revert ""added environment variables file""
+
+This reverts commit 5b005e057377e1ff54b0eaa9e91af8d1b0931019.
+"
+post;rapidsai_cuxfilter;779c0fd8704be0ee0590b2b96d76a70ac5266988;athorve <athorve@nvidia.com>;1552423687;"added environment variables file
+"
+post;rapidsai_cuxfilter;73188897d9e6ce4add14bf7a6375e4140e0473e3;athorve <athorve@nvidia.com>;1552443267;"added new README files and snapshots
+"
+post;rapidsai_cuxfilter;64b1119f318721c9b37e7851125d7929955f9622;athorve <athorve@nvidia.com>;1552443329;"added new README files and snapshots
+"
+pre;sonvt1710_deepface;fb683d768a4b2bae59d6510a0e7a23089591b004;Sefik Ilkin Serengil <serengil@gmail.com>;1600931302;analysis
+pre;sonvt1710_deepface;ac838923b71851ee8cdd2b2cb36eec865af41c7c;Sefik Ilkin Serengil <serengil@gmail.com>;1600931363;analysis sample code
+pre;sonvt1710_deepface;b8d874d501b7600c79ec638f3b2f6e7a1918745f;Sefik Ilkin Serengil <serengil@gmail.com>;1600931424;analysis
+pre;sonvt1710_deepface;e8a37f21cc75d2745dc00a7458615b09e18210ad;Sefik Ilkin Serengil <serengil@gmail.com>;1600931484;analysis
+pre;sonvt1710_deepface;016bfc3438fcd4782db91c8822e34cd41d9e5eb8;Sefik Ilkin Serengil <serengil@gmail.com>;1600931847;face detectors
+pre;sonvt1710_deepface;45e3d6a0c5ff33cd29d35c14ac4854128f7412df;Sefik Ilkin Serengil <serengil@gmail.com>;1600973989;typo
+pre;sonvt1710_deepface;f04cfbf689de81aaa473f9d968fb6901cfd33935;Sefik Ilkin Serengil <serengil@gmail.com>;1601023313;keras and tf
+pre;sonvt1710_deepface;e6da0839837f02580295108d7446b5586d09ca61;Şefik Serangil <sefik.serengil@softtech.com.tr>;1601187065;"issue 100 - if detected face has 0 in some dimension
+"
+pre;sonvt1710_deepface;aa25d178c4af371c9dbbed343f1f4262e711c3d3;serengil <sefik.serengil@softtech.com.tr>;1601381807;"mtcnn is a must
+"
+pre;sonvt1710_deepface;f36af9ffe74f4251e611d5f7bab692f43990ef92;serengil <sefik.serengil@softtech.com.tr>;1601381838;"new version
+"
+post;sonvt1710_deepface;3c05eac48160a757aa64f0f72f61c6c8a2c30f01;Sefik Ilkin Serengil <serengil@gmail.com>;1605701108;detector moved below
+post;sonvt1710_deepface;b8d98d255eaebf8447ede7b879cc0a43ec6a83a3;Sefik Ilkin Serengil <serengil@gmail.com>;1606028532;elearning and translations sections removed
+post;sonvt1710_deepface;048ea208f2d5068d7b46c28601a6aa12de956d47;Sefik Ilkin Serengil <serengil@gmail.com>;1606244550;citation
+post;sonvt1710_deepface;4dda4caee482ce9ee74319556954a11bf390303b;sugyan <sugi1982@gmail.com>;1606399835;"Fix preprocess_face for age prediction
+"
+post;sonvt1710_deepface;5d77c1ceff9e6ce88ed51e4651489cf3bb20e3d3;Sefik Ilkin Serengil <serengil@gmail.com>;1606400377;"Merge pull request #133 from sugyan/fix-preprocess_face
+
+Fix preprocess_face for age prediction"
+post;sonvt1710_deepface;328f57e84e618c676cf1694e1452898d4b8bdf5e;ma7555 <7144929+ma7555@users.noreply.github.com>;1606530490;"add lightgbm to requirments
+
+needed for ensemble model
+"
+post;sonvt1710_deepface;ad4b09b97b4cd610e2e02ffb72afe4f54927f734;Sefik Ilkin Serengil <serengil@gmail.com>;1606567445;"Merge pull request #134 from ma7555/master
+
+add lightgbm to requirments"
+post;sonvt1710_deepface;37e9260165e243e75cf41cfd950659ab486bd6a3;Sefik Ilkin Serengil <serengil@gmail.com>;1606567467;lgbm version
+post;sonvt1710_deepface;85235fdadbfed682dcce2f214e50fbe03b6454c3;ma7555 <7144929+ma7555@users.noreply.github.com>;1606569431;"Loads MTCNN once only + add better readibility
+
+This builds the MTCNN network only once for faster inference
+"
+post;sonvt1710_deepface;ba480a323b82613618ceff4c12cbe8cd14bbf62c;Sefik Ilkin Serengil <serengil@gmail.com>;1606641118;"Merge pull request #135 from ma7555/master
+
+Loads MTCNN once only + convert to RGB before inferenence + add better readibility"

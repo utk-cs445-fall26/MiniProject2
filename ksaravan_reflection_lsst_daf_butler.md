@@ -1,0 +1,3 @@
+## lsst_daf_butler
+
+It was fairly easy to predict the gap reason for this project as the gap was right in the beginning. Also, the github repo for this porject is well maintained with a lot of pull requests. After initial documentation, the project went into a period of long inactivity followed by feature updates after recovery by a new person. This tell us that after the initial steps, the existing contributor could have left the project due to lack or resources or other priorities, which taken over by a new contributor to add the basic features.

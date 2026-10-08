@@ -1,0 +1,3 @@
+## arm61_pylj
+
+Identifying the exact gap reason for this project was tough again as there are no pull requests and only one issue. The overal activity in this project is sharply declining as in 2018, many updates were made. But after that, negligible updates were made until 2024, where there was a sudden commit spike. I feel that the reason for inactivity could have been a quick release, and it resumed to keep up with the project and fix more bugs when new contributors joined the project.

@@ -1,0 +1,3 @@
+## PapenfussLab_gridss
+
+The project has been well maintained with constant issues. However, lack of issue during the brief pause before 2015 made it difficult to interpret the actual reasonings. The exact reason for inactivity is unknown, but it seems to be a normal development pause after a lot debugging and bug fixes. The recovery is to take the project as the project still seemed to be in the starting stages when the pause happened. Also, it seems to be a medical institute, so recovery would have been crucial for the lab.

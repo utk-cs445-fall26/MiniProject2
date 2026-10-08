@@ -1,0 +1,3 @@
+## delsuc_spike
+
+Finding out the reason for the longest gap was difficult for this project as there was not much information in the pull requests and issues. So, we had to completely rely on the commit message, and it seems to be more of a solo project as there seems to be one contributor who does most of the commits. The project has been fairly active in the beginning, but towards the end, it slowed and got so many gaps. The reason for inactivity seems to be the near completion of the project as it had a lot of documentation changes and bug fixes and it was towards the end of the timeline.

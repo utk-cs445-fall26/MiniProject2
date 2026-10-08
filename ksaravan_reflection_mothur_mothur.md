@@ -1,0 +1,3 @@
+## mothur_mothur
+
+This was a fairly difficult gap to analyze as the commit messages were not being completely useful. However, there were a lot of issues in this project that helped slightly other than analyzing the graph. From the graph it can inferred that the project had a lot of updates from the beginning and its intensity stopped after 2023. This tell us that the project might have come to a near end, with few corrections after the period.

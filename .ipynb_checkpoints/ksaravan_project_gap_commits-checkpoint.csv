@@ -1,0 +1,44 @@
+pre/post;project;commit;author;time;message
+pre;delsuc_spike;0a8c1aebbac1194a309343f83c61a9a8366b0660;Marc-André Delsuc <madelsuc@unistra.fr>;1692797609;"added projection creation in Show2D and corrected zoom bug in doing
+"
+pre;delsuc_spike;e77c1cf7e61fabce0a27e8d6f4a0c115fd7dbb2d;Marc-André Delsuc <madelsuc@unistra.fr>;1692803135;"corrected a logic bug in BrukerNMR importer which triggered when importing data with several expno
+"
+pre;delsuc_spike;e6d7cc699ccbbc27e33affcc505babd02aaf0236;Marc-André Delsuc <madelsuc@unistra.fr>;1695996379;"corrected for numpy deprecation and added warnings during tests
+"
+pre;delsuc_spike;951af6d4359443dff1753dc432c0211a8b01d514;Marc-André Delsuc <madelsuc@unistra.fr>;1695998187;"iadding info in the README
+"
+pre;delsuc_spike;f4b1a09e6c60026ca3b391b25b4caf47d193ae29;Marc-André Delsuc <madelsuc@unistra.fr>;1696017440;"Update README.md
+
+corrected install doc"
+pre;delsuc_spike;ed83934be8e762f4ed77022b06ab511e853aa607;Marc-André Delsuc <madelsuc@unistra.fr>;1697466001;"many small corrections due to warnings and deprecations in particular in numpy
+"
+pre;delsuc_spike;89c5feb56a0d9a7612c98d72b47e7a3b70af75b2;Marc-André Delsuc <madelsuc@unistra.fr>;1697466280;"Merge branch 'master' of https://github.com/spike-project/spike
+"
+pre;delsuc_spike;39cde263d21ad92ea46fe59186bc92f65b4c6224;Marc-André Delsuc <madelsuc@unistra.fr>;1697466358;"new 0.99.33 version
+"
+pre;delsuc_spike;99c36b930fcf567dd5bdf22becce80be0ed099a3;Marc-André Delsuc <madelsuc@unistra.fr>;1697554417;"further improvements in the README
+"
+pre;delsuc_spike;14c630ffa327eff527966876feb7f73b79db1100;Marc-André Delsuc <madelsuc@unistra.fr>;1697555473;"in README
+"
+post;delsuc_spike;14d3c533ea067aec73ab1bda54464cf86298dfb8;Marc-André Delsuc <madelsuc@unistra.fr>;1725383415;"added kilgour_sin apodisation
+"
+post;delsuc_spike;9280aa6c1cc2407ed526af8900636f7e1dac020e;Bogdan Popescu <68062990+bopopescu@users.noreply.github.com>;1727430898;"Merge 412538dbacfa317a5ca74c1c5085110a2fe54900 into 14d3c533ea067aec73ab1bda54464cf86298dfb8
+"
+post;delsuc_spike;260bc4861c3c96a5a08ab606c70169613c254bd4;Marc-André Delsuc <madelsuc@unistra.fr>;1753706700;"added linewidth to contour display
+minor bug correction in data arithmetics
+"
+post;delsuc_spike;7711df936e8fffd167b62dfd8ac261c0f0e9d7a4;Marc-André Delsuc <madelsuc@unistra.fr>;1754399368;"added a bunch of small corrections - long overdue !
+"
+post;delsuc_spike;568d5df32fbe50be12f390abe6c96b48618bead0;Marc-André Delsuc <madelsuc@unistra.fr>;1754399422;"added copying peaks and integrals to data.copy()
+"
+post;delsuc_spike;51bbc9923927929def757db703a783eefddd388f;Marc-André Delsuc <madelsuc@unistra.fr>;1755698610;"initial commit for Fista algo - used for NUS processing
+"
+post;delsuc_spike;e2c4baab76477cb95f8fbf50df4daafbb59d1af3;Marc-André Delsuc <madelsuc@unistra.fr>;1755698773;"utility for Fista
+"
+post;delsuc_spike;0bee012318fa05e603b4fc39e1c1dfed974b8773;Marc-André Delsuc <madelsuc@unistra.fr>;1755795403;"corrected a bug when exporting empty data to Bruker format - thank you
+Laura for pointing out
+"
+post;delsuc_spike;7c4bedc4a7914811a86ae4624113bd21bb7310c3;Marc-André Delsuc <madelsuc@unistra.fr>;1758038206;"correction in comments
+"
+post;delsuc_spike;69e4c6c050e1e28c748639a87107014da465a1f0;Marc-André Delsuc <madelsuc@unistra.fr>;1762186964;"correction in import/export Bruker SMX files to follow numpy changes
+"

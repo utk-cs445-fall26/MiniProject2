@@ -1,0 +1,451 @@
+pre/post;project;commit;author;time;message
+pre;delsuc_spike;0a8c1aebbac1194a309343f83c61a9a8366b0660;Marc-André Delsuc <madelsuc@unistra.fr>;1692797609;"added projection creation in Show2D and corrected zoom bug in doing
+"
+pre;delsuc_spike;e77c1cf7e61fabce0a27e8d6f4a0c115fd7dbb2d;Marc-André Delsuc <madelsuc@unistra.fr>;1692803135;"corrected a logic bug in BrukerNMR importer which triggered when importing data with several expno
+"
+pre;delsuc_spike;e6d7cc699ccbbc27e33affcc505babd02aaf0236;Marc-André Delsuc <madelsuc@unistra.fr>;1695996379;"corrected for numpy deprecation and added warnings during tests
+"
+pre;delsuc_spike;951af6d4359443dff1753dc432c0211a8b01d514;Marc-André Delsuc <madelsuc@unistra.fr>;1695998187;"iadding info in the README
+"
+pre;delsuc_spike;f4b1a09e6c60026ca3b391b25b4caf47d193ae29;Marc-André Delsuc <madelsuc@unistra.fr>;1696017440;"Update README.md
+
+corrected install doc"
+pre;delsuc_spike;ed83934be8e762f4ed77022b06ab511e853aa607;Marc-André Delsuc <madelsuc@unistra.fr>;1697466001;"many small corrections due to warnings and deprecations in particular in numpy
+"
+pre;delsuc_spike;89c5feb56a0d9a7612c98d72b47e7a3b70af75b2;Marc-André Delsuc <madelsuc@unistra.fr>;1697466280;"Merge branch 'master' of https://github.com/spike-project/spike
+"
+pre;delsuc_spike;39cde263d21ad92ea46fe59186bc92f65b4c6224;Marc-André Delsuc <madelsuc@unistra.fr>;1697466358;"new 0.99.33 version
+"
+pre;delsuc_spike;99c36b930fcf567dd5bdf22becce80be0ed099a3;Marc-André Delsuc <madelsuc@unistra.fr>;1697554417;"further improvements in the README
+"
+pre;delsuc_spike;14c630ffa327eff527966876feb7f73b79db1100;Marc-André Delsuc <madelsuc@unistra.fr>;1697555473;"in README
+"
+post;delsuc_spike;14d3c533ea067aec73ab1bda54464cf86298dfb8;Marc-André Delsuc <madelsuc@unistra.fr>;1725383415;"added kilgour_sin apodisation
+"
+post;delsuc_spike;9280aa6c1cc2407ed526af8900636f7e1dac020e;Bogdan Popescu <68062990+bopopescu@users.noreply.github.com>;1727430898;"Merge 412538dbacfa317a5ca74c1c5085110a2fe54900 into 14d3c533ea067aec73ab1bda54464cf86298dfb8
+"
+post;delsuc_spike;260bc4861c3c96a5a08ab606c70169613c254bd4;Marc-André Delsuc <madelsuc@unistra.fr>;1753706700;"added linewidth to contour display
+minor bug correction in data arithmetics
+"
+post;delsuc_spike;7711df936e8fffd167b62dfd8ac261c0f0e9d7a4;Marc-André Delsuc <madelsuc@unistra.fr>;1754399368;"added a bunch of small corrections - long overdue !
+"
+post;delsuc_spike;568d5df32fbe50be12f390abe6c96b48618bead0;Marc-André Delsuc <madelsuc@unistra.fr>;1754399422;"added copying peaks and integrals to data.copy()
+"
+post;delsuc_spike;51bbc9923927929def757db703a783eefddd388f;Marc-André Delsuc <madelsuc@unistra.fr>;1755698610;"initial commit for Fista algo - used for NUS processing
+"
+post;delsuc_spike;e2c4baab76477cb95f8fbf50df4daafbb59d1af3;Marc-André Delsuc <madelsuc@unistra.fr>;1755698773;"utility for Fista
+"
+post;delsuc_spike;0bee012318fa05e603b4fc39e1c1dfed974b8773;Marc-André Delsuc <madelsuc@unistra.fr>;1755795403;"corrected a bug when exporting empty data to Bruker format - thank you
+Laura for pointing out
+"
+post;delsuc_spike;7c4bedc4a7914811a86ae4624113bd21bb7310c3;Marc-André Delsuc <madelsuc@unistra.fr>;1758038206;"correction in comments
+"
+post;delsuc_spike;69e4c6c050e1e28c748639a87107014da465a1f0;Marc-André Delsuc <madelsuc@unistra.fr>;1762186964;"correction in import/export Bruker SMX files to follow numpy changes
+"
+pre;arm61_pylj;661ed3d5f4c24a3940597f65c1b2fd96692a0066;Andrew McCluskey <andrew.mccluskey@diamond.ac.uk>;1601396197;"version number bump
+"
+pre;arm61_pylj;7ffabcbb60be8e92de5171e36b9f5022c3496182;Andrew McCluskey <andrew.mccluskey@diamond.ac.uk>;1601453539;"remove c dependency and bump version number
+"
+pre;arm61_pylj;e3f2ac3d03de26c907fd5e17540d195f1abe6854;Andrew McCluskey <andrew.mccluskey@diamond.ac.uk>;1601453952;"change python versions
+"
+pre;arm61_pylj;5b96d30e7ca487313353b0dabbe271416d37bbb7;Andrew McCluskey <andrew.mccluskey@diamond.ac.uk>;1601454395;"remove mpl dep
+"
+pre;arm61_pylj;aa539277eae7ee7a35cc68a8cdb5835e9a917070;Andrew McCluskey <andrew.mccluskey@diamond.ac.uk>;1601454663;"version number bump
+"
+pre;arm61_pylj;700bdf41284fa9454bc715a56fa411c044f6836d;Fabian Wermelinger <fabianw@mavt.ethz.ch>;1613472894;"Fix examples notebooks
+
+Remove previously used `comp` extensions from jupyter notebooks.
+
+Closes #51
+"
+pre;arm61_pylj;1a6b12cd3d781a8dcfcd77037e6ab32e49f21d9c;Fabian Wermelinger <fabianw@mavt.ethz.ch>;1613487538;"Add docker container config
+"
+pre;arm61_pylj;33e5c0810ce09d8dabe2a6266aa28ee8d217bc43;Andrew McCluskey <andrew@mccluskey.scot>;1613563074;"Merge pull request #52 from fab4100/docker
+
+Fixing examples Jupyter notebooks and adding Dockerfile"
+pre;arm61_pylj;939c537b0935a1b391997a20f3effb503f8d5629;Andrew McCluskey <andrew.mccluskey@ess.eu>;1613563931;"version number bump
+"
+pre;arm61_pylj;b489d381e4a522b7c49ac0a4671ae66ae9cc6351;Andrew McCluskey <andrew@mccluskey.scot>;1617877334;Update requirements.txt
+post;arm61_pylj;4f9a7526b3beae4228719f504e3e8f43426c0c99;maxdolan <maxdolan@eduroam-141-105.nomadic.bris.ac.uk>;1717411204;"changed jit to njit
+"
+post;arm61_pylj;eaf20ce7898c35afeb10c8668c18af44cf8e493d;Max Dolan <147044155+maximillian-dolan@users.noreply.github.com>;1717413739;Delete pylj/.ipynb_checkpoints directory
+post;arm61_pylj;322ccbc035d708846829117b0d4ee021abf96634;Max Dolan <147044155+maximillian-dolan@users.noreply.github.com>;1717413751;Delete pylj/.DS_Store
+post;arm61_pylj;bad51233a1197ce8fbb069251333eead19231adc;Andrew McCluskey <andrew@mccluskey.scot>;1717420623;"Merge pull request #59 from maximillian-dolan/master
+
+"
+post;arm61_pylj;82d7e15ee11c7e50d66c9bbba81e2e5d3a7d30d9;maxdolan <maxdolan@MacBook-Pro-106.local>;1717517175;"adjusted into setup and update scripts so plt widget works
+"
+post;arm61_pylj;7019b38d1545c6d560e42ca4835b549defe0ec1c;maxdolan <maxdolan@eduroam-145-236.nomadic.bris.ac.uk>;1717666633;"njit change in seperation function
+"
+post;arm61_pylj;1505e47b5ddd44269af11bc75f590f7b03011a67;maxdolan <maxdolan@eduroam-145-236.nomadic.bris.ac.uk>;1717676304;"commented out problematic jit flags
+"
+post;arm61_pylj;59bbba5d3e8d93168d3613d90f35ef7ecbddda23;maxdolan <maxdolan@MacBook-Pro-106.local>;1717694499;"animated plotting now works in example notebooks
+"
+post;arm61_pylj;57ed04cb8ef9ea57e8bfa56a353fd5c1cb89c887;maxdolan <maxdolan@MacBook-Pro-106.local>;1717774982;"changing commented out @njit to more descriptive comment
+"
+post;arm61_pylj;adc8fdb1457a78e350d306408fc9c8b9fa9eb55f;Andrew McCluskey <andrew@mccluskey.scot>;1717776235;"Merge pull request #60 from maximillian-dolan/master
+
+adjusted into setup and update scripts so plt widget works"
+pre;dswah_pygam;ea99a87653e8e639682dade34387758b0641c6db;Zach <20629897+craymichael@users.noreply.github.com>;1610015696;Fix typo (LogitLink --> LogLink)
+pre;dswah_pygam;d604eb2b4ecdbb0cd81455af247fe7d060e73e26;Zach <20629897+craymichael@users.noreply.github.com>;1610015739;"Merge ea99a87653e8e639682dade34387758b0641c6db into b57b4cf8783a90976031e1857e748ca3e6ec650b
+"
+pre;dswah_pygam;5e3f2e1aa356fed16cd0f292c7d3221b13782c80;Zach <20629897+craymichael@users.noreply.github.com>;1610178925;"Fix error with data ownership in cholesky
+
+Require that the fill-reducing permutation P of Cholesky factorizer owns its data before use. Fixes #271"
+pre;dswah_pygam;ff7c5217a2c9fc41c0581d3e59b97ef9d9489131;Zach <20629897+craymichael@users.noreply.github.com>;1610179125;"Merge 5e3f2e1aa356fed16cd0f292c7d3221b13782c80 into b57b4cf8783a90976031e1857e748ca3e6ec650b
+"
+pre;dswah_pygam;1326b99c38f5f2be8a83990fb46039ab50073afb;dani serven <dserven@gmail.com>;1618005443;"empty sparse matrices dont need np.zeros
+"
+pre;dswah_pygam;1a9359a781626a6dfc511edb962043ae3429294c;daniel servén <dserven@gmail.com>;1618006004;"Merge 1326b99c38f5f2be8a83990fb46039ab50073afb into b57b4cf8783a90976031e1857e748ca3e6ec650b
+"
+pre;dswah_pygam;a9d896c271f40a83be906fbdb94f11650956a1f7;Jonathan Taylor <jonathan.taylor@stanford.edu>;1631578384;"allow modelmatrices with invalid categorical variables when necessary
+"
+pre;dswah_pygam;8bf17ad5b3af39864a15540d422fa1fbabd4886b;Jonathan Taylor <jonathan.taylor@stanford.edu>;1631598903;"instead of checking categorical, made a private method to create an X with constant rows instead of 0s
+"
+pre;dswah_pygam;0ed182f0f61a5cb29935fb69fafa2d033c3aea88;Jonathan Taylor <jonathan.taylor@stanford.edu>;1631737183;"undoing centering
+"
+pre;dswah_pygam;e55228d76f4887a983acb5e7226fb2fe7ce9e163;Jonathan Taylor <jonathan.taylor@stanford.edu>;1631737212;"Merge 0ed182f0f61a5cb29935fb69fafa2d033c3aea88 into b57b4cf8783a90976031e1857e748ca3e6ec650b
+"
+post;dswah_pygam;4a99ef40e3d19760b7dc9182fa41082895d5ec68;Miguel FMC <miguelfm95@gmail.com>;1659935232;"Pass callbacks argument to LinearGAM super init - fixes #291 (cloning LinearGAM)
+"
+post;dswah_pygam;6d4b3af5c5557a9876cea7574381c7748c421a1f;miguelfmc <44291704+miguelfmc@users.noreply.github.com>;1659935586;"Merge 4a99ef40e3d19760b7dc9182fa41082895d5ec68 into b57b4cf8783a90976031e1857e748ca3e6ec650b
+"
+post;dswah_pygam;e2ab5c1593645f2abac0f789e6ad4172eb724330;Chandan Singh <chandan_singh@berkeley.edu>;1660573600;fix deprecation warnings for np.int
+post;dswah_pygam;0bc4452e7d432a64ddff7f4251c3bbe3249433e7;Chandan Singh <csinva@yahoo.com>;1660573607;"Merge e2ab5c1593645f2abac0f789e6ad4172eb724330 into b57b4cf8783a90976031e1857e748ca3e6ec650b
+"
+post;dswah_pygam;6a7270a703ee3d33524a47ec4df8548e2437644e;Shishin Mo <maoson0307@gmail.com>;1668490454;"Fixed the document of GAM classes
+
+According to https://github.com/dswah/pyGAM/blob/master/pygam/pygam.py#L290, intercept will be added at the end of self.coef_"
+post;dswah_pygam;8aebd7eb6aba872b7ae21ffaf1cfb872446e9337;Peter Gedeck <peter.gedeck@gmail.com>;1674422840;"Compatibility with  numpy 1.24
+"
+post;dswah_pygam;5a640dea7ccb4c806ec5fa6c1def7ff268e741ac;Justin Mahlik <justin.mahlik.rm13@statefarm.com>;1676055737;"feat: add python 3.11 support, fix installation and ci
+
+BREAKING CHANGE: drop python 2 support, minimul required python is 3.8+
+"
+post;dswah_pygam;888bd6b0dcbc74f23fc3290730c1cd40c90d3fd9;Justin <justinm088@hotmail.com>;1676298460;"Merge 5a640dea7ccb4c806ec5fa6c1def7ff268e741ac into b57b4cf8783a90976031e1857e748ca3e6ec650b
+"
+post;dswah_pygam;90619a57d885638de575938d0bf319d75b042102;Peter Gedeck <peter.gedeck@gmail.com>;1678296743;"Change np.int_ to int
+"
+post;dswah_pygam;811574f9be6f5c8620de3260662472b28ec49c7a;Peter Gedeck <peter.gedeck@gmail.com>;1678296779;"also in commented code
+"
+pre;gyyang_neurogym;919f2eb6103a0f6064dd76be6edabd1b5eb076da;nacloos <cloosnathan@gmail.com>;1655139757;"Update python-package.yml
+"
+pre;gyyang_neurogym;423434cdd76a42031ba5a282180f41797ba805ba;nacloos <cloosnathan@gmail.com>;1655139894;"Update python-package.yml
+"
+pre;gyyang_neurogym;d938271a73aeddd23d2fb5c2e19db17258fbc5e2;nacloos <cloosnathan@gmail.com>;1655140712;"Disable gym env checker in ngym.make and in test_envs
+"
+pre;gyyang_neurogym;fe75060f6b340a96d341e5759d8713bb6abab06b;nacloos <cloosnathan@gmail.com>;1655140986;"Update test_reset_step.py
+"
+pre;gyyang_neurogym;95f4a7a12333e6a2d75a4000fcbe52e0e62c44ba;nacloos <cloosnathan@gmail.com>;1656083939;"Remove duplicate code
+"
+pre;gyyang_neurogym;9ed0003d2e688348753e1fd9a770264fabcb9174;gyyang <gyyang@users.noreply.github.com>;1658499700;"Merge pull request #41 from neurogym/fix-gym-compatibility
+
+Fix gym compatibility"
+pre;gyyang_neurogym;d2d89af2d62541b461252cd5f881fa567acec8ea;nacloos <cloosnathan@gmail.com>;1667294526;"Replace deprecated registry.all() by registry.values()
+"
+pre;gyyang_neurogym;811911de556901d5ec99356798985838fb2cb90f;nacloos <cloosnathan@gmail.com>;1667294966;"Add backward compatibility
+"
+pre;gyyang_neurogym;02bd610a33ecaec343f00d89b8f11fd9cb466a73;nacloos <cloosnathan@gmail.com>;1667295500;"Remove python 3.7 from tests
+"
+pre;gyyang_neurogym;8e4bb67cc175a9e5b7a6f3581b3638fd36c44246;manuelmolano <manuelmolanomazon@gmail.com>;1667904372;"Merge pull request #45 from neurogym/fix-gym-compatibility
+
+Replace deprecated registry.all() by registry.values()"
+post;gyyang_neurogym;aeea94cfedbfaedb6d720509c1dd5dd1ea325b38;nacloos <cloosnathan@gmail.com>;1702673248;"Add missing __init__ files
+"
+post;gyyang_neurogym;de735a34ef8d0b13fe0f1fcea97a44d18c01f8e1;nacloos <cloosnathan@gmail.com>;1702673771;"Update python-package.yml
+"
+post;gyyang_neurogym;89e71881426e547c10cffc96205aecda158a64b7;nacloos <cloosnathan@gmail.com>;1703759047;"Merge pull request #47 from neurogym/add-missing-init-files
+
+Add missing __init__ files"
+post;gyyang_neurogym;2f6e311296b2f1515e5d99c5804bb0aacfd613de;nacloos <cloosnathan@gmail.com>;1707927910;"Update core.py
+"
+post;gyyang_neurogym;19921e818a9eab79e23f4816506c147673b01fc4;nacloos <cloosnathan@gmail.com>;1707929005;"Indicate supported gym versions
+"
+post;gyyang_neurogym;17b7025d261cc5437e606f01b636d46a98eeba44;nacloos <cloosnathan@gmail.com>;1707950166;"Remove test files in utils because of redundancy with tests
+"
+post;gyyang_neurogym;f9db6bfae06d90716c87b77f8d3f7c0c3982df96;nacloos <cloosnathan@gmail.com>;1707950231;"Fix numpy deprecation issues
+"
+post;gyyang_neurogym;192a789aa666e036e8af52a83b7ab563e88efb7e;nacloos <cloosnathan@gmail.com>;1707950245;"Add test plot_env
+"
+post;gyyang_neurogym;5de0f49569553b8624d7c7d56a7b634e2c2ca759;nacloos <cloosnathan@gmail.com>;1707950321;"Update python-package.yml
+"
+post;gyyang_neurogym;3f5c9001148d27259df62d08b00f413b3482d7ef;nacloos <cloosnathan@gmail.com>;1707950553;"Update python-package.yml
+"
+pre;jbytecode_linregoutliers;e247d0122a07f5ddea985db8efe28f5e49a4b1f1;jbytecode <mhsatman@gmail.com>;1609838415;"update version
+"
+pre;jbytecode_linregoutliers;cb53e5cca3a63daa941e17e6ea92c1b5cde4288a;Mehmet Hakan Satman <mhsatman@gmail.com>;1609848767;Update README.md
+pre;jbytecode_linregoutliers;3810415bb653942e2cd1d4fe7ecfc9f9e6495118;Mehmet Hakan Satman <mhsatman@gmail.com>;1610908723;add citation in README.md
+pre;jbytecode_linregoutliers;4603d2206bbc203a1afa1c3124b4434f36e32545;Mehmet Hakan Satman <mhsatman@gmail.com>;1611648044;Update cm97.jl
+pre;jbytecode_linregoutliers;01be92ec48ce3ad12e0cde6dd824fe3c63b44b8c;hako <mhsatman@gmail.com>;1612177892;"v0.8.6
+"
+pre;jbytecode_linregoutliers;dec337b5c136e40a4cdfe42df437fcf9a0a75b27;Mehmet Hakan Satman <mhsatman@gmail.com>;1612179755;Update Project.toml
+pre;jbytecode_linregoutliers;87762cc2b30e75c5a57cb13f429e3561eb9b364e;Mehmet Hakan Satman <mhsatman@gmail.com>;1612976810;Update Project.toml
+pre;jbytecode_linregoutliers;f3b1bd239be3df86ff6905e1b5cf0fa4c43fed2b;Mehmet Hakan Satman <mhsatman@gmail.com>;1612976874;Update Project.toml
+pre;jbytecode_linregoutliers;ae53bce7c414144dac329eed0490c16f1e057c9b;Mehmet Hakan Satman <mhsatman@gmail.com>;1612977707;Update Project.toml
+pre;jbytecode_linregoutliers;44e69ac4663a1ee6736d685c1842a06c4938dc88;Mehmet Hakan Satman <mhsatman@gmail.com>;1612977938;Update Project.toml
+post;jbytecode_linregoutliers;d60888df4212d8820fe7118b6b70be68678ffa4f;Mehmet Hakan Satman <mhsatman@gmail.com>;1627565689;Create CITATION.cff
+post;jbytecode_linregoutliers;c0a611df0fd4af7caf4e105fb6deacd09da6f43b;Mehmet Hakan Satman <mhsatman@gmail.com>;1627565900;Delete CITATION.cff
+post;jbytecode_linregoutliers;bf94d29e1e5919544f5e92646e880ef8fd8afdf5;jbytecode <mhsatman@gmail.com>;1631985458;"Dependencies upgraded
+"
+post;jbytecode_linregoutliers;8f456483476c84895d95daaf77be1fbcc1aef1d6;jbytecode <mhsatman@gmail.com>;1631985514;"Julia version upgraded in CI
+"
+post;jbytecode_linregoutliers;46b50550e3a57ace09123d4c0142cb7c29e68752;jbytecode <mhsatman@gmail.com>;1631986701;"resolved juliahub issues
+"
+post;jbytecode_linregoutliers;f2d6a63d99958aca7f27fe36a2b8557b91b2f378;jbytecode <mhsatman@gmail.com>;1631987648;"v0.8.7
+"
+post;jbytecode_linregoutliers;1e3172d61bd7323918754970ff28264b4f92bf4c;Mehmet Hakan Satman <mhsatman@gmail.com>;1635236473;Update main.yml
+post;jbytecode_linregoutliers;3fe8806fa64d2aa0deef71c2c76f19bc22d24c04;Mehmet Hakan Satman <mhsatman@gmail.com>;1637002736;return types in ols.jl
+post;jbytecode_linregoutliers;e69ab6731f2c041f16f51f6f5f7896798c0d77a4;Mehmet Hakan Satman <mhsatman@gmail.com>;1637003977;return types of some functions
+post;jbytecode_linregoutliers;b2c3ad92fe255c063fa87d2741e3c8c80e34435c;Mehmet Hakan Satman <mhsatman@gmail.com>;1637869017;Update main.yml
+pre;lsst_daf_butler;a925aced73df66350acc80e24b8a2ed78486380b;Kian-Tat Lim <ktl@slac.stanford.edu>;1414015987;"Start documenting methods.
+"
+pre;lsst_daf_butler;585748c6fcc557e57182af480915c591e8e2c1a6;Kian-Tat Lim <ktl@slac.stanford.edu>;1422498053;"WIP
+"
+pre;lsst_daf_butler;e9248c3cd97e8c6bdb404ab90d224c070ea5e3ca;Kian-Tat Lim <ktl@slac.stanford.edu>;1438612868;"Initial documentation and design notes.
+"
+pre;lsst_daf_butler;46ec419d624d29a336e1f3004c76cde86114bb76;ktlim <ktl@slac.stanford.edu>;1438640458;Added diagram.
+pre;lsst_daf_butler;08f921421a9a3189dd370575eab46d3196b861af;Nate Pease <npease@slac.stanford.edu>;1448931403;"adds doc for registry free butler
+"
+pre;lsst_daf_butler;99470244f1d43373b2bc6976c5eea131c2f8057e;Nate Pease <npease@slac.stanford.edu>;1449519725;"reformat architecture doc from markdown to ReST
+"
+pre;lsst_daf_butler;484644147c13e921e185691ed87fbc113b6cd956;Nate Pease <npease@slac.stanford.edu>;1449617033;"Change README to ReST from markdown
+"
+pre;lsst_daf_butler;64df23df1d8ddda572a3446b5d71db0659396e5e;Nate Pease <npease@slac.stanford.edu>;1450310899;Rename architecture.txt to architecture.rst
+pre;lsst_daf_butler;5dd2a4a66afe0f6db0bc7ff581ced7215f5e7098;Nate Pease <npease@slac.stanford.edu>;1450311064;Rename README.txt to README.rst
+pre;lsst_daf_butler;5078745043d38aa14d1dbbabf5c1cd5bee67205d;Nate Pease <npease@slac.stanford.edu>;1450312516;fix embedded image link
+post;lsst_daf_butler;87a7391a49bd8b70fdf3a882f85ec58a6613daed;Pim Schellart <P.Schellart@princeton.edu>;1507928605;Initial commit
+post;lsst_daf_butler;3a40bc106967d201c2f08bdcf45513be0dcc8f67;Pim Schellart <P.Schellart@princeton.edu>;1507929198;"Initial import
+"
+post;lsst_daf_butler;5995f3c6239dc5e36cdf4ac718a175f81f8900d1;Pim Schellart <P.Schellart@princeton.edu>;1508170695;"Add ORM schema for all no-join tables
+"
+post;lsst_daf_butler;386606c0612e777c348e4688931e35c2c87d17c2;Pim Schellart <P.Schellart@princeton.edu>;1508179065;"Add DataUnit joins
+"
+post;lsst_daf_butler;09532754980a380a743c8b92e42cb2bfb80fc012;Pim Schellart <P.Schellart@princeton.edu>;1508184162;"Add all dataset join tables
+"
+post;lsst_daf_butler;d03ee4c64d6afcf43ae795521710c39b195d1ee9;Pim Schellart <P.Schellart@princeton.edu>;1508428390;"Fix ORM layer and implement all relations
+"
+post;lsst_daf_butler;94b6a49b3b50fac9e1d5832ac5d9dcde0e2e94bf;Pim Schellart <P.Schellart@princeton.edu>;1508428407;"Add intial test
+"
+post;lsst_daf_butler;4e805e139bfcc61f68b361a07cc2d0c95f12a24d;Pim Schellart <P.Schellart@princeton.edu>;1508430447;"Refactor tests, we need a Run in all of them
+"
+post;lsst_daf_butler;5046881d0d11f63c92e81d822c0384f5ee9a9097;Pim Schellart <P.Schellart@princeton.edu>;1508437584;"Add basic test for Quantum
+"
+post;lsst_daf_butler;eb9fc272bc33601a894056b92fbfeb54e289a927;Jim Bosch <jbosch@astro.princeton.edu>;1508465022;"Add numpy save files with ci_hsc registry test dataset
+"
+pre;mothur_mothur;5fa2c357941d2d8cdc4116300446b5cfca7659f2;Sarah Westcott <mothur.westcott@gmail.com>;1652815245;"Fixes bug with make.sra for single-end reads
+
+#812
+"
+pre;mothur_mothur;a7406551f8731c50903b6f083d0c4a5046d8ad50;Sarah Westcott <mothur.westcott@gmail.com>;1652891256;"Fixes while testing
+
+#812
+"
+pre;mothur_mothur;9265d2c84c3e7b1f2be80c29fc97fb2e1e311cea;Sarah Westcott <mothur.westcott@gmail.com>;1660506234;"Fixes bug with get.oturep invalid cutoff
+
+#829
+"
+pre;mothur_mothur;c292848672df15a15040648b3e94914170e2dabc;Sarah Westcott <mothur.westcott@gmail.com>;1662585579;"Fixes segfault with pcr.seqs when all seqs are bad and keepdots=f
+
+#829
+"
+pre;mothur_mothur;e8e567ddb412d28accd7238929547ca0b1e9a8e1;Sarah Westcott <mothur.westcott@gmail.com>;1662672536;"Fixes ability to escape '-' characters in parameters
+
+#829
+"
+pre;mothur_mothur;a9f3da367e4c500992eae96d42bfb0bf3c8b147f;Sarah Westcott <mothur.westcott@gmail.com>;1664733800;"Adds fasta type to make.file
+
+#827 #829
+"
+pre;mothur_mothur;17226d8b5c2bc7068dfd8a381e063c0aaca0b673;Sarah Westcott <mothur.westcott@gmail.com>;1665331738;"Adds file option to make.count
+
+#828 #829
+"
+pre;mothur_mothur;ac265cae0a6255cf95ac0e520dd16b9a3b53409d;Sarah Westcott <mothur.westcott@gmail.com>;1669077129;"Fixes bug with compression flag for name / group
+
+count.seqs command
+
+#829
+"
+pre;mothur_mothur;07af0ce07e0b7c1ffe849c648da98c93d5080ccb;Sarah Westcott <mothur.westcott@gmail.com>;1670085507;"Fixes bug with set.current missing constaxonomy and contigsreport in readCurrent function
+
+#829
+"
+pre;mothur_mothur;2d570488e4b5bb60383602e30856c00e33918d90;Sarah Westcott <mothur.westcott@gmail.com>;1670086033;"Fixes .cons.taxonomy extension for sub.sample command
+
+#829
+"
+post;mothur_mothur;e75034687c1ba832fb051d35f8f15130b9898fb6;Guangyu Li <gl343@cornell.edu>;1705534143;"fix pre.cluster empty output bug
+"
+post;mothur_mothur;fa8866a42c13548b26943062b12ea73b6bc897c8;Pat Schloss <pschloss@umich.edu>;1711052707;"Merge pull request #847 from lguangyu/master
+
+fix pre.cluster empty output bug"
+post;mothur_mothur;9c0e075a2bf824887e591cdb8f70e3d67a095eb6;Sarah Westcott <mothur.westcott@gmail.com>;1711639641;"Fixes bug in fastq.info when using checkorient with barcodes. The barcodes were ignored.
+"
+post;mothur_mothur;1c6a0e0263ebe42b0d34adea51c1bb001f251cf9;Sarah Westcott <mothur.westcott@gmail.com>;1711653474;"Merge pull request #851 from mothur/master
+
+Merge master changes into 1.48.1"
+post;mothur_mothur;edc2df7a4ef6de813cf7b1ce7f244880db18004e;Simon Symeonidis <lethaljellybean@gmail.com>;1713928016;"Add ./source as include directory
+
+When attempting to build, I got error messages like so from gcc:
+
+        $ make
+        g++ -O3 -std=c++11 -pthread -DVERSION=""\""1.48.0\"""" -DRELEASE_DATE=""\""5/20/22\"""" clearcut/
+        -I source/commands/  -I source/communitytype/  -I
+        source/datastructurculators/accuracy.o source/calculators/accuracy.cpp
+        In file included from source/datastructures/sabundvector.hpp:4,
+                         from source/calculators/calculator.h:5,
+                         from source/calculators/accuracy.hpp:12,
+                         from source/calculators/accuracy.cpp:9:
+        source/datastructures/datavector.hpp:4:10: fatal error: mothurout.h: No such fil
+            4 | #include ""mothurout.h""
+              |          ^~~~~~~~~~~~~
+
+This should stop complaints from gcc when attempting to build on Linux.
+"
+post;mothur_mothur;6f5778131d5fbbed487505ca8f57624b94a23dae;Simon Symeonidis <lethaljellybean@gmail.com>;1714005774;"Fix makefile compilation steps for Linux
+
+There were certain issues when trying to compile on my Linux machine
+like so:
+
+        $ make
+        ...
+        /usr/bin/ld: source/commands/unifracweightedcommand.o: warning: relocation against `_ZTV10ColumnFile' in read-only section `.text.unlikely'
+        /usr/bin/ld: /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o: in function `_start':
+        (.text+0x1b): undefined reference to `main'
+        /usr/bin/ld: source/calculators/ace.o: in function `Ace::getValues(SAbundVector*)':
+        ace.cpp:(.text+0x164): undefined reference to `Utils::isEqual(double, double)'
+        /usr/bin/ld: ace.cpp:(.text+0x192): undefined reference to `Utils::isEqual(double, double)'
+        /usr/bin/ld: ace.cpp:(.text+0xa6a): undefined reference to `Utils::isEqual(double, double)'
+        /usr/bin/ld: ace.cpp:(.text+0x103a): undefined reference to `Utils::isEqual(double, double)'
+        /usr/bin/ld: source/calculators/ace.o: in function `Ace::getValues(SAbundVector*) [clone .cold]':
+        ...
+
+For some reason the top level sources were not being built, and linked
+against.  This commit adds the root sources into the include dir, and
+link dir.
+
+This fix takes some parts of the patch posted by Owen Williams
+(@OwenUoL) in this Github issue:
+
+        https://github.com/mothur/mothur/issues/843#issuecomment-1746864732
+
+Co-authored-by: Owen Williams
+"
+post;mothur_mothur;59368a88aa4769e1ca08d158855a4e86c57b5774;psyomn <lethaljellybean@gmail.com>;1714008743;"Merge 6f5778131d5fbbed487505ca8f57624b94a23dae into fa8866a42c13548b26943062b12ea73b6bc897c8
+"
+post;mothur_mothur;75a3ea2a322d2604f0b7131e88f83ee22b59bfa2;Sarah Westcott <mothur.westcott@gmail.com>;1715779558;"Fixes bug in sequence that flagged 'U' as ambiguous 
+
+Bug was introduced in 1.48.0 7fbaa86bd67df37188bdf40d6e5ae3e1bf825965"
+post;mothur_mothur;e648adf5cd76b44b38f465b15d21039199f94660;Sarah Westcott <mothur.westcott@gmail.com>;1715780394;"Merge pull request #855 from mothur/1.48.1
+
+1.48.1"
+post;mothur_mothur;744dfbb420ba784b216f0d466e3f5479e6dab390;Sarah Westcott <mothur.westcott@gmail.com>;1715804588;Update Makefile for 1.48.1
+pre;nasa_ccdd;935dc1ff3096983abd6cd7405ddcfdc82011af56;Bryan Willis <bryan.willis@uky.edu>;1605281698;"Updated the tutorial.
+"
+pre;nasa_ccdd;a9b9fcad1b1a668d0410a9421de3ccaf17999985;Bryan Willis <bryan.willis@uky.edu>;1606173842;"Adding recent CCDD changes to the public repo. Many of these changes are related to improving import/export functionality for CCDD/JSON files, addressing issues with data access methods and fixing small issues that were found while updating the tutorial.
+"
+pre;nasa_ccdd;18b71d0e0e21dc6ef6d7feb91f56efce9238de58;Bryan Willis <bryan.willis@uky.edu>;1611616112;"Updating CCDD to 2.0.25
+"
+pre;nasa_ccdd;3970b195d9706c75534fd7641ad59cbe5b7af550;Bryan Willis <bryan.willis@uky.edu>;1611883383;"Updating documents and the jar file after fixing a few more issues.
+"
+pre;nasa_ccdd;79685a3db1f72bcb4a870b6e8e692018f942c5d3;bawillisJSC <77999883+bawillisJSC@users.noreply.github.com>;1611884125;Update README.md
+pre;nasa_ccdd;8c2ba8760e9f85df3721ae704e9e96d30da24380;Bryan Willis <bryan.willis@uky.edu>;1612814630;"Addressed a few small bugs within version 2.0.25 and updated the required documents.
+"
+pre;nasa_ccdd;dbbfcd95bbbc8012ae7d39ebd4dcad9ebbfe25f8;Bryan Willis <bryan.willis@uky.edu>;1614115753;"Updates for version 2.0.25 of CCDD.
+"
+pre;nasa_ccdd;d2ff948dbef214a8a84df7c1ff17ea2a8924de67;Bryan Willis <bryan.willis@uky.edu>;1617812514;"Addressing build warnings.
+"
+pre;nasa_ccdd;b75ed7ceb41a8d6c07bf16f78f132d262eaa34d5;Bryan Willis <bryan.willis@uky.edu>;1619012425;"Updating CCDD v2.0.25.
+"
+pre;nasa_ccdd;49be65d423b2b0c3e8071a227e8ce27ce7c82c07;Bryan Willis <bryan.willis@uky.edu>;1623950372;"Updating CCDD to version 2.0.26
+"
+post;nasa_ccdd;68c7f826a079d360c302c3a48e824e2e9d5632ba;Bryan Willis <bryan.willis@uky.edu>;1633113923;"Quick fix for 2.0.27
+"
+post;nasa_ccdd;6488053afe7f051100f9027dfe18bc751a2236b0;Bryan Willis <bryan.willis@uky.edu>;1636471808;"Data types not being populated correctly.
+"
+post;nasa_ccdd;9892cfc3216cff8245c2ca40288f2b8a87fbf481;Kevin McCluney <rmcclune@nasa.gov>;1644945369;"Corrected missing prototype issue in JSON/CSV exports. Changed JSON/CSV
+exports to use the 'Overwrite existing file(s)' checkbox."
+post;nasa_ccdd;b2827a8419c6099dd8ce8d65f66418642853e9fe;Kevin McCluney <rmcclune@nasa.gov>;1645197838;"t add
+:q
+"
+post;nasa_ccdd;40096a643a6381255a4e2ebed21a573bbf930db0;Kevin McCluney <rmcclune@nasa.gov>;1645538586;Reformatted. Corrected JSON/CSV import/export bugs.
+post;nasa_ccdd;b46dea22beccdbc5f110d3bc76f9d58410fed64e;Kevin McCluney <rmcclune@nasa.gov>;1645543020;Added ja-in-jar-loader.zip so that Ant build works.
+post;nasa_ccdd;aeb7f21951276f5e05d455c5ff4f64b286ae6e9b;Kevin McCluney <rmcclune@nasa.gov>;1645637754;"CCDD version 2.00.29. Corrected import/export/restore issues.
+Reformatted source code."
+post;nasa_ccdd;f58e1f4b6ce12d2d2e4c6e9276a7a2a2591a1266;Kevin McCluney <rmcclune@nasa.gov>;1645719277;"Version 2.0.29.  Added back Halt dialog to script execution, but with
+option to run script(s) in foreground to improve performance."
+post;nasa_ccdd;825085853a8d5c27d4a9b2e1a205b9d8d5fb7fbd;Kevin McCluney <rmcclune@nasa.gov>;1648482284;"Version 2.0.30: Corrected JSON and CSV single/multiple file import and
+export bugs."
+post;nasa_ccdd;bbd29b99e7a45ad8d7146be48702a9139cf63883;Kevin McCluney <rmcclune@nasa.gov>;1649943938;Updated README.md. Reformatted code.
+pre;papenfusslab_gridss;a777c1e239a9b8f49d20f50f3ff7001decdcd0a7;jibsch <schroeder.jan.schroeder@gmail.com>;1383726042;"changed class name to filtering
+"
+pre;papenfusslab_gridss;2471802b1063aed1c2576a049717001e0a968fe1;Geoff Macintyre <gmaci@watson>;1383736362;"filtering now works to add anchor insert sizes and spanning read depth
+"
+pre;papenfusslab_gridss;ac50ac1ba7ff603f30a3f288ff371937e9984626;Geoff Macintyre <gmaci@watson>;1383737166;"updated filter function to output to file
+"
+pre;papenfusslab_gridss;c9e19ce2c539eb450923a5d6dae0d77c91ff755e;jibsch <schroeder.jan.schroeder@gmail.com>;1383794184;"removed swp file
+"
+pre;papenfusslab_gridss;8b4fb67236931a7da13319822c9b36d8bd258036;jibsch <schroeder.jan.schroeder@gmail.com>;1383800635;"extra functionality for Addfilterinfo: counting of reference allele support. only count long overlaps for breakpoint and reference.
+"
+pre;papenfusslab_gridss;ec442a609ef015e4111ab65c0b214e9077c0825e;Geoff Macintyre <gmaci@watson>;1383806918;"Added functionality to output SV frequency and anchor insert sizes
+"
+pre;papenfusslab_gridss;04a79fb90d4353661d19ede5b7dc84632bf08aef;Geoff Macintyre <gmaci@watson>;1383812018;"Fixed bug in allele frequency calculation
+"
+pre;papenfusslab_gridss;9e61251f2125706aac12e77652a93f80822b8e3c;Geoff Macintyre <gmaci@watson>;1383883141;"Fixed annotate issue with Socarates script and fixed normal depth
+estimate for filterInfo addition
+"
+pre;papenfusslab_gridss;43d0b540981256b059c84027cadaf01fb616b0db;jibsch <schroeder.jan.schroeder@gmail.com>;1383886330;"Changed AnnotatePairedClusters to thread through and extend the column names of the output file
+"
+pre;papenfusslab_gridss;9de761cbe5c7a921ea999aea8977035b6e90ea8a;jibsch <schroeder.jan.schroeder@gmail.com>;1383886650;"small fix of debug output
+"
+post;papenfusslab_gridss;10064d762d16ea4eb556ceab30ac169c950bec66;Daniel Cameron <cameron.d@wehi.edu.au>;1394932569;"Corrected java namespace to au.edu.wehi
+"
+post;papenfusslab_gridss;e51d7193d8c7667c95e0578d1e7946194ec55062;Daniel Cameron <cameron.d@wehi.edu.au>;1394958558;"Initial command-line definition of overhaul
+"
+post;papenfusslab_gridss;38a6a2cf93837169e77f50a990ef92018b3d70e2;Daniel Cameron <cameron.d@wehi.edu.au>;1395109166;"Updated to latest picard SDK version
+"
+post;papenfusslab_gridss;bc2bffbc8ebb33604b8ca5ef1c136ab7ebb25a60;Daniel Cameron <cameron.d@wehi.edu.au>;1395124713;"Initial implementation of ExtractEvidence (to partially replace StratifyBAM)
+"
+post;papenfusslab_gridss;91e5b8816c402ceac8a1b826af6c07d06d628e9e;Daniel Cameron <cameron.d@wehi.edu.au>;1395210625;"Seperating code to make changes more easily recognised
+"
+post;papenfusslab_gridss;9f798232b76581b4ce9efc5291ee7fb3cc9ed2f2;Daniel Cameron <cameron.d@wehi.edu.au>;1395314273;"Started design for GenerateDirectedBreakpoints
+"
+post;papenfusslab_gridss;28f9b5adb1bee8be6a6eda58fee7e0a174e79790;Daniel Cameron <cameron.d@wehi.edu.au>;1397029439;"More GenerateDirectedBreakpoints code completed.
+"
+post;papenfusslab_gridss;da1247dce134ab7fb7db3413fa8e9597d3be842a;d-cameron <cameron.d@wehi.edu.au>;1397904262;"Added test dir; further implementation
+"
+post;papenfusslab_gridss;ff102b0edfe6b33708d6dc0187d4ebfc5599c262;d-cameron <cameron.d@wehi.edu.au>;1397904443;"Ignoring class files
+"
+post;papenfusslab_gridss;37a934f59fe5f50570034893be7ddbe403d8804c;d-cameron <cameron.d@wehi.edu.au>;1398056344;"Initial (untested) version of GenerateDirectedBreakpoints
+"
+pre;stephenslab_mashr;ab97afff765d13cb9b85c6645aa6ae71affc4f4e;Jason Willwerscheid <willwerscheid@uchicago.edu>;1692196718;"remove `var_type` variable from call to `cov_flash()`
+"
+pre;stephenslab_mashr;0bd763b6744554d4d2600c5639ce66ad32244b28;Peter Carbonetto <peter.carbonetto@gmail.com>;1692207778;"Merge pull request #120 from stephenslab/flashier-updates
+
+Flashier updates."
+pre;stephenslab_mashr;dde5e3276de50d51eb773aa78165ad586b1fc4e5;Peter Carbonetto <peter.carbonetto@gmail.com>;1692213064;"Updated pkgdown site.
+"
+pre;stephenslab_mashr;4150851abc821e4180d1124d357cb97b0e888732;Yuxin Zou <yuxin.zou.stat@gmail.com>;1695844818;"fix bug
+"
+pre;stephenslab_mashr;3a582dfcc9a71fa62695c5231710f13a30dd3da5;Peter Carbonetto <peter.carbonetto@gmail.com>;1697577545;"Updated citation; removed flashier drat repository.
+"
+pre;stephenslab_mashr;e5dd69902c0e406fe38929c763eb4101eda2006f;Peter Carbonetto <peter.carbonetto@gmail.com>;1697579821;"Small update to Imports in DESCRIPTION.
+"
+pre;stephenslab_mashr;f125991835678d0f0074577c8f8b379824a0caab;Peter Carbonetto <peter.carbonetto@gmail.com>;1697581167;"Fixed a couple syntax issues in the roxygen2 docs.
+"
+pre;stephenslab_mashr;444ce032aaf943f55d4374240bc14da3d27b9b78;Peter Carbonetto <peter.carbonetto@gmail.com>;1697581575;"Removed long-running examples (or added \dontrun).
+"
+pre;stephenslab_mashr;67fd5985ef1168372ad4aa7af70c66b67cda6af9;Peter Carbonetto <peter.carbonetto@gmail.com>;1697632025;"Bumped up version.
+"
+pre;stephenslab_mashr;cbf046294caeecb3f84d3c588c14bb29ca3f8f39;Peter Carbonetto <peter.carbonetto@gmail.com>;1697634167;"Removed C++11 requirement.
+"
+post;stephenslab_mashr;66d27aaef5f38d2b806d1323340a000f96f88a96;Peter Carbonetto <peter.carbonetto@gmail.com>;1730913280;"Bumped up version.
+"
+post;stephenslab_mashr;896d0ad1a15409024a6668248db01722a20ed11f;Peter Carbonetto <peter.carbonetto@gmail.com>;1730914709;"Added function get_posterior_condition_wise_summary() developed by Yunqi.
+"
+post;stephenslab_mashr;d62e0e5829d9245a9069c2202e2180b9b2f34512;Peter Carbonetto <peter.carbonetto@gmail.com>;1730927091;"Improved get_posterior_condition_wise_summary() and added example.
+"
+post;stephenslab_mashr;c9ff2e1a8ef7b6b4ea4e2f2a0d3fc87f85fad06b;Peter Carbonetto <peter.carbonetto@gmail.com>;1730927111;"Removed cond_wise_summary.Rmd.
+"
+post;stephenslab_mashr;cd086f7eaa3271f18317eb34b37561b4d1b929b1;Peter Carbonetto <peter.carbonetto@gmail.com>;1730994282;"Update pkgdown function reference.
+"

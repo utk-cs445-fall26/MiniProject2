@@ -1,0 +1,3 @@
+## gyyang_neurogym
+
+The project was well organzied with issues and pull requests, but it is still hard to confirm the reasoning for the gap period. This is because there was only one main contributor before and after the gap. The most likely reason for the gap could be so many issues regarding compatibility issues. Also, there is a new contributor exactly before the gap, indicating that despite several efforts, the issue was not exactly solved at that point of time, so it needed a small break.

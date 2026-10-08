@@ -1,0 +1,167 @@
+pre/post;project;commit;author;time;message
+pre;ericproffitt_topicmodelsvb.jl;828c662fd737a0d7773c2c2c02d0ce723d6fa7bf;Eric Proffitt <erproff@icloud.com>;1673500134;add docstrings and fix gpu macro bug
+pre;ericproffitt_topicmodelsvb.jl;d3d51d1e118bf6a409c80c3f6d40866eb885a0fe;Eric Proffitt <erproff@icloud.com>;1673574278;fixed documentation for Corpus.jl
+pre;ericproffitt_topicmodelsvb.jl;bf7b20b105085d16801847ea48ebe9003d74c5f4;Eric Proffitt <erproff@icloud.com>;1673648870;fixed corp syntax error
+pre;ericproffitt_topicmodelsvb.jl;a0c4f7f01627c9068a18ab7a735b23dddec51785;Eric Proffitt <erproff@icloud.com>;1673986311;update
+pre;ericproffitt_topicmodelsvb.jl;aa6ca7c436c58a685aeec2612b3ed7b26a77c5e6;Eric Proffitt <erproff@icloud.com>;1673986349;Update README.md
+pre;ericproffitt_topicmodelsvb.jl;07f6e84912813f185a5a3481a54152d504c8fe02;Eric Proffitt <erproff@icloud.com>;1673986433;Update README.md
+pre;ericproffitt_topicmodelsvb.jl;157e419fcef7f4f309bccb3aa1317947000389e5;Eric Proffitt <erproff@icloud.com>;1673986723;up
+pre;ericproffitt_topicmodelsvb.jl;6a759274b876367f1face2a738cfd8790cd12542;Eric Proffitt <erproff@icloud.com>;1674008615;Update README.md
+pre;ericproffitt_topicmodelsvb.jl;e4cf035a0d45e935ad7a41a6093cb17836498ecd;Eric Proffitt <erproff@icloud.com>;1676913922;update
+pre;ericproffitt_topicmodelsvb.jl;9e97a52ccce60de7206b6dc0093cece41e3848fa;Eric Proffitt <erproff@icloud.com>;1676914650;Update CTM.jl
+post;ericproffitt_topicmodelsvb.jl;fae1bd7b3f19cfc48c9b9752c93d37466bb2e5eb;Eric Proffitt <erproff@icloud.com>;1739089797;Update README.md
+post;ericproffitt_topicmodelsvb.jl;a91ae62af7fac40d27eb4776be8c79c59bac96b7;Eric Proffitt <erproff@icloud.com>;1739089823;Update README.md
+post;ericproffitt_topicmodelsvb.jl;77f06c87782023aa51088cb68c4904d4617b192a;Micah Rufsvold <86363075+mrufsvold@users.noreply.github.com>;1741617121;Merge d2be5c524c76ee08e0526531bf808ae1de4848c4 into a91ae62af7fac40d27eb4776be8c79c59bac96b7
+pre;esa-philab_opensartoolkit;cc5b3a9db989a0b16e34625eb4dbd2f4eb8d2aad;BuddyVolly <andreasvollrath@gmx.de>;1651174968;replace all df appends with pd concat (deprecetation warning)
+pre;esa-philab_opensartoolkit;6380d986887ef94b6e1ba85add629d8588ddd65b;BuddyVolly <andreasvollrath@gmx.de>;1651175760;add copernicus dem predownload for parallel processing
+pre;esa-philab_opensartoolkit;6cd9ddad4b22d709b95a53e5827569e65699481a;alexisahedo <101141143+alexisahedo@users.noreply.github.com>;1651176885;Fix error in download_size( ), MB transformation Hello everyone, I’ll like to propose the following changes to the method download_size( ) in Proyect.py to fix the error when the image weight is in MB. I’ll be happy to receive any feedback. Thanks for everyone help. Saludos. Alexis A
+pre;esa-philab_opensartoolkit;ea6fa250597e1317a1b0ba05add456e7863d57a3;BuddyVolly <andreasvollrath@gmx.de>;1651177278;copdem tiles were missing
+pre;esa-philab_opensartoolkit;87189736e3941a8436a8446467a9d36b90669ced;BuddyVolly <andreasvollrath@gmx.de>;1651178486;resolve mb download size issue
+pre;esa-philab_opensartoolkit;dd2d064c5c611ce096c52879d2d7c34dd7f8c3e6;BuddyVolly <andreasvollrath@gmx.de>;1651220309;re-formatting
+pre;esa-philab_opensartoolkit;5e5f809df17e761ede15bea74b3058cdd65bf189;BuddyVolly <andreasvollrath@gmx.de>;1651307737;replace append with pandas concat in refine inventory
+pre;esa-philab_opensartoolkit;0d35c6fef4a21616583eda6d1153e8ad752f4f78;BuddyVolly <andreasvollrath@gmx.de>;1651320423;replace append with pandas concat in refine inventory
+pre;esa-philab_opensartoolkit;c9d200e7e6392ab77adfdf4fa918bb40c4c7935b;12rambau <pierrick.rambaud49@gmail.com>;1651833007;change black line length to 110
+pre;esa-philab_opensartoolkit;ecf7327638c5207f37ffc3240d13392bce2f3bdb;BuddyVolly <andreasvollrath@gmx.de>;1651833888;Merge pull request #89 from 12rambau/main change black line length to 110
+post;esa-philab_opensartoolkit;30aa984553725acc2ec536200c195ced6feb59dc;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1688684215;build(deps): bump scipy from 1.7.3 to 1.10.0 in /docs Bumps [scipy](https://github.com/scipy/scipy) from 1.7.3 to 1.10.0. - [Release notes](https://github.com/scipy/scipy/releases) - [Commits](https://github.com/scipy/scipy/compare/v1.7.3...v1.10.0) --- updated-dependencies: - dependency-name: scipy   dependency-type: direct:production ... Signed-off-by: dependabot[bot] <support@github.com>
+post;esa-philab_opensartoolkit;c82ab809706d422aae9241ec19bf5545a3056f21;Vincent Plannthin <vincent@plannthin.net>;1694808801;Support more locations for gpt.exe on Windows
+post;esa-philab_opensartoolkit;2568a0853b3475c83ee88389c73e6bb3bdc0ae1f;evan-atlas <evan@atlasai.us>;1699996883;adjust setup.py and Dockerfile to work
+post;esa-philab_opensartoolkit;2232edec4ccfe6fc4a433cc013f6954481682c8d;evan-atlas <evan@atlasai.us>;1699996981;upgrade numpy
+post;esa-philab_opensartoolkit;49661bc17704a4aeb68ba6e41a2e711179b86cc9;evan-atlas <102073240+evan-atlas@users.noreply.github.com>;1699997121;Merge pull request #1 from AtlasAIPBC/docker-mod Docker mod
+post;esa-philab_opensartoolkit;7559e671eb98d4ff0af3169446ae41ef76cdf834;Bborie Park <dustymugs@gmail.com>;1700261697;start work on updating env
+post;esa-philab_opensartoolkit;12c8ebac67f63f4b0fbe03ff9e485f51be7c3aaf;Bborie Park <dustymugs@gmail.com>;1700337135;upgrade to python 3.11 and use a more recent gdal
+post;esa-philab_opensartoolkit;89cc33ab19151499a9ea77da1014b3706df8d86a;Bborie Park <dustymugs@gmail.com>;1700427224;add build script... mostly for the tag and push
+post;esa-philab_opensartoolkit;11245a1d11f15a91e20b68e01ecd6e066f9dbf5c;Bborie Park <dustymugs@gmail.com>;1700429570;use ost
+post;esa-philab_opensartoolkit;1ea9c811bb098d2a92b20def02e9fed81adafadd;Bborie Park <dustymugs@gmail.com>;1700432629;cleanup. dedupe requiremnts
+pre;geofranzi_geoportal;e4154073455fd00b26cfff67fb873fe689b4ce6d;Franzi <franzi82@gmx.de>;1640861099;Cleanup split import and initial fill #6 #14
+pre;geofranzi_geoportal;6e887f857947ab544db1b59fbd29cdf41a11be3a;Franzi <franzi82@gmx.de>;1640861186;Cleanup view Inspire #6
+pre;geofranzi_geoportal;fe3917471c9014e178f2e21d8fd7bdfdaaaa991d;Franzi <franzi82@gmx.de>;1640888228;Add on_delete to ForeignKey #4
+pre;geofranzi_geoportal;480a52f1bbf6637fd26361fabd4cbcbcc1d83b1d;Franzi <franzi82@gmx.de>;1640888228;Add on_delete to ForeignKey #4
+pre;geofranzi_geoportal;71c7035b1f1232418de8aa0e556836339130965f;Franzi <franzi82@gmx.de>;1640896326;Format map and inspire files #6 #20
+pre;geofranzi_geoportal;9d43442e126afe6144dd4be5d8771245f5957330;Franzi <franzi82@gmx.de>;1640896459;Format map and inspire files #6 #20
+pre;geofranzi_geoportal;4f1666d6e8caf0aee6248d93602ca6ce5a39581b;Franzi <franzi82@gmx.de>;1644610820;Change print #3
+pre;geofranzi_geoportal;3f6c4e3e23d35192184b6bee1512946b19809e66;Franzi <franzi82@gmx.de>;1644611064;Update requirements.txt #4
+pre;geofranzi_geoportal;7807c6c97ebe30b4eb6dc6d8c0783202c21c1d86;Franzi <franzi82@gmx.de>;1644611548;Django 3 & 4 changes #4
+pre;geofranzi_geoportal;e533a781d197518264a9d93c2a20626eb345b793;Franzi <franzi82@gmx.de>;1644612112;Settings changes for windows & Django 3 & 4 changes #4
+post;geofranzi_geoportal;21a7cbbb3d106959c387e3f2cf74547287a0509f;Franzi <franzi82@gmx.de>;1696279385;Add missing apps.py to all modules closes #23
+post;geofranzi_geoportal;c56600c9faf22f0638ce179c60f68cd649da3af0;Franzi <franzi82@gmx.de>;1696281374;Add missing apps.py to all modules closes #23
+post;geofranzi_geoportal;ae42e835c2781bdcd23982ce488154f98624e130;Franzi <franzi82@gmx.de>;1696282186;Fix migration error with empty database #24
+post;geofranzi_geoportal;7a54e56545129b8f3d3b9f4fec706f297d9a3305;Franzi <franzi82@gmx.de>;1696282749;Add status to inspire overview #25
+post;geofranzi_geoportal;4b0d7f55c5583f93fb98bba7b0060da438bfb5d8;Franzi <franzi82@gmx.de>;1696326826;Replace Django-thumbs with other lib, remove temporary #28
+post;geofranzi_geoportal;ba2306f0bc4269eb1dc2d8931b2737e3d0ff90b2;Franzi <franzi82@gmx.de>;1696327242;Update python 3.8 to 3.10 and requirements #27
+post;geofranzi_geoportal;004ff9ed20b568c84895e37957813b8aa5a232f1;Franziska Zander <franzi82@gmx.de>;1696337593;Create django.yml
+post;geofranzi_geoportal;4fc3eaed2aa3a911d37de46121272b0e7560e524;Franziska Zander <franzi82@gmx.de>;1696337709;Update django.yml
+post;geofranzi_geoportal;a5899bf6220248fe8b211b200e1d0f779cab48d8;Franziska Zander <franzi82@gmx.de>;1696337814;Update django.yml
+post;geofranzi_geoportal;f66cd01d6058b62e72110093d741d0cb6cdb14c9;Franziska Zander <franzi82@gmx.de>;1696337980;Update django.yml
+pre;hbctraining_scrna-seq_online;1e2bd6657b9b6b8664227e1e32eac1b38ec07d67;Mary Piper <mary.piper@gmail.com>;1514765279;diting marker identification
+post;hbctraining_scrna-seq_online;0565183154c1418cae93eb83896be28e2533c074;marypiper <marypiper@users.noreply.github.com>;1554816050;Initial commit
+post;hbctraining_scrna-seq_online;502ce35df61da7c8fcf620b85494d4dad992f491;Mary Piper <mary.piper@gmail.com>;1554816548;added all materials for scRNA-seq workshop from long course
+post;hbctraining_scrna-seq_online;432b8e15974a52d81d896de1b2da651ed5221adc;marypiper <marypiper@users.noreply.github.com>;1554817782;Update SC_quality_control_analysis.md
+post;hbctraining_scrna-seq_online;2edc926701b8bff6903cd09e2dc702d451365b7e;marypiper <marypiper@users.noreply.github.com>;1554819077;Update SC_quality_control_analysis.md
+post;hbctraining_scrna-seq_online;cde71445b102a1e0ed42faec49bbfb38da1b78e3;marypiper <marypiper@users.noreply.github.com>;1554819186;Update SC_quality_control_analysis.md
+post;hbctraining_scrna-seq_online;607dca761e1125e84878d21e8b587a350fc84d46;Mary Piper <mary.piper@gmail.com>;1558712455;Adding 10X specific functions and for loops and data from WIB meeting
+post;hbctraining_scrna-seq_online;bea53841c09837d5e073bfb8b3302aae7a1c1f91;Mary Piper <mary.piper@gmail.com>;1559161282;updated scRNA-seq QC with new sample images
+post;hbctraining_scrna-seq_online;ecf0ab94e6975ca27ce2ef0536dc42214182c9cb;Mary Piper <mary.piper@gmail.com>;1559241417;Finished altering the code for updates in dataset and Seurat version 3
+post;hbctraining_scrna-seq_online;eaad54a7c2bfdef71bfaaf6d0bfe4acaa6772d7a;marypiper <marypiper@users.noreply.github.com>;1559241744;Update SC_quality_control_analysis.md
+post;hbctraining_scrna-seq_online;9f89aeaade2a9737361d932e026ff75f1b4298ba;marypiper <marypiper@users.noreply.github.com>;1559241783;Update SC_quality_control_analysis.md
+pre;mariohsouto_proxsdp.jl;0434830e41d8e78dc04e3b119b4aa8860126c5ee;joaquim <joaquimgarcia@psr-inc.com>;1646192088;cleanup moi tests
+pre;mariohsouto_proxsdp.jl;b87373f8e454c37d0d9a3648ee942c9bbc8fd77c;joaquim <joaquimgarcia@psr-inc.com>;1646192164;Merge branch 'jg/moi1' into jg/moi1-origin
+pre;mariohsouto_proxsdp.jl;3927cd6646d080222311af87e387e8f3e3e2869e;joaquim <joaquimgarcia@psr-inc.com>;1646192564;fix version
+pre;mariohsouto_proxsdp.jl;2fe2da5a8d2a15392e610f51f79a5fb2eb4ceac6;joaquim <joaquimgarcia@psr-inc.com>;1646194995;cleanup
+pre;mariohsouto_proxsdp.jl;b37314e8fdf7e18fe099bf76fe269f7265fa0134;joaquim <joaquimgarcia@psr-inc.com>;1646197786;more cleanup
+pre;mariohsouto_proxsdp.jl;6be7424b2942acaf43492ed94ba494796b343f4d;joaquim <joaquimgarcia@psr-inc.com>;1646207742;fix time limit test
+pre;mariohsouto_proxsdp.jl;e3e7a80b74493aceebed72cb9af3ec666dcd02a3;joaquim <joaquimgarcia@psr-inc.com>;1646208309;test eigsolvers
+pre;mariohsouto_proxsdp.jl;897c333371c92167fc53e2a87c137c237fa23deb;joaquim <joaquimgarcia@psr-inc.com>;1646209552;more time limit
+pre;mariohsouto_proxsdp.jl;aabdf9084bb2b1c1cc2dc450acbd5904385f06f5;joaquim <joaquimgarcia@psr-inc.com>;1646210392;inf fail
+pre;mariohsouto_proxsdp.jl;73a843e63cf60d5ffa67e0d1d664721947327800;Joaquim Dias Garcia <joaquimdgarcia@gmail.com>;1646211901;Merge pull request #91 from mariohsouto/jg/moi1 MOI 1.0
+post;mariohsouto_proxsdp.jl;f038a68471ff161e0c31a09131897db51ee39c05;Oscar Dowson <odow@users.noreply.github.com>;1675571775;Update README example
+post;mariohsouto_proxsdp.jl;a60f3da79466681b8510724b1561fae5c93ab9cc;Joaquim Dias Garcia <joaquimdgarcia@gmail.com>;1675620681;Merge pull request #92 from odow/patch-1 Update README example
+post;mariohsouto_proxsdp.jl;458130a01fbc1765b117ba642a1b8a16f51de230;mariohsouto <mariohsouto@gmail.com>;1675732465;Improving print to use scientific formatting
+post;mariohsouto_proxsdp.jl;e395878a3956a9509cbe4a73324cf4eafb8b1852;Mario Souto <mariohsouto@gmail.com>;1675734345;Merge pull request #93 from mariohsouto/improve_print Improving print to use scientific formatting
+post;mariohsouto_proxsdp.jl;67359b0d44a28941d8cc42572b92c7d5bc5247c9;mariohsouto <mariohsouto@gmail.com>;1675747929;Adding LinearAlgebra to runbench
+post;mariohsouto_proxsdp.jl;8f72dbd91b15d36a47f9a6a1ca77b532b063e899;Mario Souto <mariohsouto@gmail.com>;1675749276;Merge pull request #94 from mariohsouto/improve_print Adding LinearAlgebra to runbench
+post;mariohsouto_proxsdp.jl;5beee1982b16f2f8e437b2d4de5e9713c0715ce4;Mario Souto <mariohsouto@gmail.com>;1675749324;Update Project.toml
+post;mariohsouto_proxsdp.jl;ae82e10fae2250f26fe7f4b985428a8c58062e23;mariohsouto <mariohsouto@gmail.com>;1675751114;Fix MOI wrapper solver version
+post;mariohsouto_proxsdp.jl;5523da31229babcda049ba946bf67e90abf964f1;Mario Souto <mariohsouto@gmail.com>;1675751268;Update Project.toml
+post;mariohsouto_proxsdp.jl;17eda4d97aae4ab8ceb5b70dbf82113766941728;Mario Souto <mariohsouto@gmail.com>;1682906969;Adding PrecompileTools.jl
+pre;pecanproject_pecan;f061e0923c9385f02283371c00e7f9cd3eecfc50;Alexey Shiklomanov <alexey.shiklomanov@gmail.com>;1776455396;continue runs to end of year
+pre;pecanproject_pecan;6554a6b06340e3081d1f1053226b02ff4f00f5f6;Alexey Shiklomanov <alexey.shiklomanov@gmail.com>;1776455796;!(length > 0) --> length == 0
+pre;pecanproject_pecan;d5c359e264fa4aa84accb8269b45bfd3d25cbaaa;Alexey Shiklomanov <alexey.shiklomanov@gmail.com>;1776456001;run in whole-year chunks start jan 1 of first planting year end dec 31 of last harvest year
+pre;pecanproject_pecan;96a82271089683213ff48be93c3636df011e76a6;Chris Black <chris@ckblack.org>;1776456661;Merge cd5f8fb9f824d359d6a79448ddf6d24cb55ffef4 into 7834146cd20ca6ae4b460d9617468cebd0f1e546
+pre;pecanproject_pecan;e93ea8e910603c1333f7c05b1c4d8020410ffa33;Chris Black <chris@ckblack.org>;1776456725;Merge 2f69964ac33b32f41f4f6954861175d558ea91f3 into 7834146cd20ca6ae4b460d9617468cebd0f1e546
+pre;pecanproject_pecan;453fc3b769048cd9c7ed085e97e3dcf397ba4c43;Alexey Shiklomanov <alexey.shiklomanov@gmail.com>;1776456909;generate dependencies (unrelated - data.atmosphere)
+pre;pecanproject_pecan;77022811302c14f63557e90f61634f344bddd0af;Alexey Shiklomanov <alexey.shiklomanov@gmail.com>;1776457238;remove warning for duplicate harvest/planting https://github.com/PecanProject/pecan/pull/3919#discussion_r3102871967
+pre;pecanproject_pecan;a5dae4867828ae26b97383fe78fcd0fc59861a3d;Alexey Shiklomanov <alexey.shiklomanov@gmail.com>;1776458348;Revert temp changes to data.atmosphere DESCRIPTION This reverts commit 67e055dabf938f23441b805be9c7ec6397ffe0b4.
+pre;pecanproject_pecan;81e49dc5a0af79c72c1d3d5111cb4ac5ff81722e;Alexey Shiklomanov <alexey.shiklomanov@gmail.com>;1776459299;.data predicate in crop cycle starts
+pre;pecanproject_pecan;ab65715c2f7ac9dd6b5131b720c4cf330c9a11ea;Alexey Shiklomanov <alexey.shiklomanov@gmail.com>;1776459632;Merge 81e49dc5a0af79c72c1d3d5111cb4ac5ff81722e into 7834146cd20ca6ae4b460d9617468cebd0f1e546
+pre;qiskit_qiskit-experiments;b07645f05b977886ee6fcda41889badd5bcba11f;Helena Zhang <Helena.Zhang@ibm.com>;1717696000;Update version string in stable docs deploy CI (#1462) This PR replaces the buggy `git describe` command, which doesn't register the updated version when doing a release, with the version in `VERSION.txt`. We should test that this works by re-running the stable docs deploy on `main` afterwards. Edit: maybe not since this would build to `stable/0.8` right now after the version bump.
+pre;qiskit_qiskit-experiments;ce207ab1127478718f31431a3771a68eeec428d2;Will Shanks <wshaos@posteo.net>;1717696547;Merge 662f19b5b23a678af83add163eb221691efc2c13 into b07645f05b977886ee6fcda41889badd5bcba11f
+pre;qiskit_qiskit-experiments;fcdafc549b463412f6e0d1189d532fc65866416c;github-merge-queue[bot] <github-merge-queue[bot]@users.noreply.github.com>;1717697385;Deploying to gh-pages from @ Qiskit-Extensions/qiskit-experiments@b07645f05b977886ee6fcda41889badd5bcba11f 🚀
+pre;qiskit_qiskit-experiments;188eb5c8f18f042486c2cd98282dfdc9f1598271;Naoki Kanazawa <nkanazawa1989@gmail.com>;1718809916;remove parameter table handling in custom transpile
+pre;qiskit_qiskit-experiments;f372eb3efd474457f4b8959cd36d9c2d9ad175be;Naoki Kanazawa <nkanazawa1989@gmail.com>;1718812176;address deprecation and property change in fake backends
+pre;qiskit_qiskit-experiments;ba2bdce9dabf7e4328abd179b303a177203b88fd;Naoki Kanazawa <nkanazawa1989@gmail.com>;1718816704;remove circuit data comparison and use monkey patch
+pre;qiskit_qiskit-experiments;b21775bb45299e1bb1eefba832b491eaf0eb5c0e;Naoki Kanazawa <nkanazawa1989@gmail.com>;1718816880;lint
+pre;qiskit_qiskit-experiments;d08c8b75bed241394249d017da587644136bace0;Naoki Kanazawa <nkanazawa1989@gmail.com>;1718817699;add release note
+pre;qiskit_qiskit-experiments;83feccea334792119a13668ed3f297f86835db0b;Naoki Kanazawa <nkanazawa1989@gmail.com>;1718819089;readd parameter table management
+pre;qiskit_qiskit-experiments;4ded5fe1a6b73c6c26508aba31c8686aa9c6fe1e;Naoki Kanazawa <nkanazawa1989@gmail.com>;1718853261;remove V1 from documentaion
+post;qiskit_qiskit-experiments;dec3461f25b5654496efbe872b0c52fa43257d97;Helena Zhang <helena.zhang@ibm.com>;1723571470;update repo url
+post;qiskit_qiskit-experiments;48ffd3ba1d3b57337966e771d9b998313e679d67;Naoki Kanazawa <nkanazawa1989@gmail.com>;1723572298;Fix broken codes (#1465) ### Summary There were several changes in dependent packages that broke unit test of this package. This PR fixes broken code. ### Details and comments 188eb5c8f18f042486c2cd98282dfdc9f1598271, 83feccea334792119a13668ed3f297f86835db0b After Qiskit >= 1.2, a protected member `_parameter_table` of the QuantumCircuit is managed in the Rust domain as a part of `CircuitData` and we cannot directly touch this object from Python, though we should continue to support <= 1.1. These commits add attribute check before copying the table. (edit) f372eb3efd474457f4b8959cd36d9c2d9ad175be qiskit-ibm-runtime 0.24 was released and deprecation for V1 backends were added. We should switch to V2 backends. Also some property value has been changed in one of our reference backends. ba2bdce9dabf7e4328abd179b303a177203b88fd Again, due to the data model update of QuantumCircuit in Qiskit core, a custom circuit equality function used in a unit test was broken. This commit changes approach of the test so that it doesn't need to rely on the custom function.
+post;qiskit_qiskit-experiments;80b3553c152498a42e61633d10128b535705db3a;Naoki Kanazawa <nkanazawa1989@gmail.com>;1723572298;Fix broken codes (#1465) ### Summary There were several changes in dependent packages that broke unit test of this package. This PR fixes broken code. ### Details and comments 188eb5c8f18f042486c2cd98282dfdc9f1598271, 83feccea334792119a13668ed3f297f86835db0b After Qiskit >= 1.2, a protected member `_parameter_table` of the QuantumCircuit is managed in the Rust domain as a part of `CircuitData` and we cannot directly touch this object from Python, though we should continue to support <= 1.1. These commits add attribute check before copying the table. (edit) f372eb3efd474457f4b8959cd36d9c2d9ad175be qiskit-ibm-runtime 0.24 was released and deprecation for V1 backends were added. We should switch to V2 backends. Also some property value has been changed in one of our reference backends. ba2bdce9dabf7e4328abd179b303a177203b88fd Again, due to the data model update of QuantumCircuit in Qiskit core, a custom circuit equality function used in a unit test was broken. This commit changes approach of the test so that it doesn't need to rely on the custom function.
+post;qiskit_qiskit-experiments;7a0924c24549ab4f38819a86c0ac49214d819ba2;Helena Zhang <Helena.Zhang@ibm.com>;1723572473;Update repo url (#1467) This should be merged after the repo is moved to Qiskit-Community.
+post;qiskit_qiskit-experiments;319f904675ba54bde5b731af1c12de33889660bc;Helena Zhang <Helena.Zhang@ibm.com>;1723572473;Update repo url (#1467) This should be merged after the repo is moved to Qiskit-Community.
+post;qiskit_qiskit-experiments;9763a7a697ecf9cee252c8f498f6510513e35bc4;github-merge-queue[bot] <github-merge-queue[bot]@users.noreply.github.com>;1723573366;Deploying to gh-pages from @ qiskit-community/qiskit-experiments@7a0924c24549ab4f38819a86c0ac49214d819ba2 🚀
+post;qiskit_qiskit-experiments;d888bdc05ec90950bb60f686f91dfeac6b4c9886;mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>;1723573998;Update version string in stable docs deploy CI (backport #1462) (#1463) This PR replaces the buggy `git describe` command, which doesn't register the updated version when doing a release, with the version in `VERSION.txt`. We should test that this works by re-running the stable docs deploy on `main` afterwards. Edit: maybe not since this would build to `stable/0.8` right now after the version bump.<hr>This is an automatic backport of pull request #1462 done by [Mergify](https://mergify.com). Co-authored-by: Helena Zhang <Helena.Zhang@ibm.com>
+post;qiskit_qiskit-experiments;6837e4cf36c98c54222cd29b8dd7843096831303;Helena Zhang <Helena.Zhang@ibm.com>;1723575136;Cherry pick #1465 and #1467 (#1468) Co-authored-by: Naoki Kanazawa <nkanazawa1989@gmail.com>
+post;qiskit_qiskit-experiments;69ae69876d388ffa9072ef0058204ed7fccc9dec;coruscating <coruscating@users.noreply.github.com>;1723577156;Deploying to gh-pages from @ qiskit-community/qiskit-experiments@6837e4cf36c98c54222cd29b8dd7843096831303 🚀
+post;qiskit_qiskit-experiments;e85326a2259f9edc88e5f95aa13bb13afe068e39;Christopher J. Wood <christopherjwood+github@gmail.com>;1724682311;Merge 6fe345edd930ea6e0e280114910f3548fc2dac1e into 7a0924c24549ab4f38819a86c0ac49214d819ba2
+pre;smileipic_smilei;1ab62eb24c642eeb7b417ee37f46e41e7bbb2baa;Julien Derouillat <jderouil@mdlslx24.extra.cea.fr>;1364546318;First SMILEI release
+pre;smileipic_smilei;082351d0f540f9bcba6ef3174a9051c0abf538cf;tommaso <tommaso.vinci@polytechnique.edu>;1364553264;renamed spice int smilei
+post;smileipic_smilei;2d2f22e4940e21d2601d33f89dd5808432073715;grech <mickael.grech@gmail.com>;1367528730;Here is a new version with more comments and a first attempt to use Esirkepov's method for projecting the currents. While the version compiles and runs, it does not give correct results. There must be a bug in the Projection which I have not yet found.
+post;smileipic_smilei;b704c9030bf96b9e60b44da29c88b454c5670e75;Julien Derouillat <jderouil@mdlslx24.extra.cea.fr>;1367567482;Normalisation of ElectroMagn
+post;smileipic_smilei;cc330282c27f0e921319f6d515758b55c489155e;grech <mickael.grech@gmail.com>;1368465057;Corrected Esirkepov projector. Modified dump for ElectroMagn. All things seem to work.
+post;smileipic_smilei;00b1cbff13d0e9ce744eced8ff5c3f5def2f3714;grech <mickael.grech@gmail.com>;1368465086;Idem.
+post;smileipic_smilei;223a870995cceba001397b6819629197ecaced18;Julien Derouillat <jderouil@mdlslx24.extra.cea.fr>;1368533452;MPI Integrated
+post;smileipic_smilei;92d101d56d500a831a1296b86174244ee5a8b5bd;Julien Derouillat <jderouil@mdlslx24.extra.cea.fr>;1368538025;MPI Integrated
+post;smileipic_smilei;9276c67f93dca8d3360d48edd6128c0be4a8da5a;Julien Derouillat <jderouil@mdlslx24.extra.cea.fr>;1368714957;Correct some parallelisation bug
+post;smileipic_smilei;16a075e5dcc3b1407da242f1139142ace38e341f;Julien Derouillat <jderouil@mdlslx24.extra.cea.fr>;1369124676;Corrected bug in writeField
+post;smileipic_smilei;111cd12d07fc9056b2fc3921a202c791b5a13fa9;grech <mickael.grech@gmail.com>;1369142523;Fixed bug in the projector and additional comments
+post;smileipic_smilei;69af6ee54299da6da00a315a8271ebf7ec6bb7fc;grech <mickael.grech@gmail.com>;1369143037;Merge remote-tracking branch 'origin/master'
+pre;stolllab_easyspin;828b64d7d384ba80c0163c4281e10baf33a1a1da;Stefan Stoll <sstoll@ucdavis.edu>;1331503890;mulitcomponent code unified
+pre;stolllab_easyspin;8596fc2b02927adcce93a766b678316d1b380408;Stefan Stoll <sstoll@ucdavis.edu>;1331536870;garlic transition intensity aligned with pepper
+pre;stolllab_easyspin;f3e0e4a2a7f97ab8f21baa05100fdd6bb2631ba4;Stefan Stoll <sstoll@ucdavis.edu>;1331618814;CODATA 2010 update
+pre;stolllab_easyspin;632e0d33fa4936bb1b6e7211496ba96b2b5c2f3a;Stefan Stoll <sstoll@ucdavis.edu>;1332099730;eprload: EMX 2D data
+pre;stolllab_easyspin;8b0748ab550ec96e62d53fc7c68d557e0d81754f;Stefan Stoll <sstoll@ucdavis.edu>;1332214844;strcmp(...)->find(strcmp(...))
+pre;stolllab_easyspin;b1e9807e1b96a19b2786d565778071ffe42d4ee0;Stefan Stoll <sstoll@ucdavis.edu>;1332214896;bitand->bitget
+pre;stolllab_easyspin;8fe506a34b97dfe445fa814926f2c83019a6cb35;Stefan Stoll <sstoll@ucdavis.edu>;1333261692;rework of fit_simplex
+pre;stolllab_easyspin;317d769b68552a2020861d13fd731e7b855833f4;Stefan Stoll <sstoll@ucdavis.edu>;1333327333;added fit_particleswarm
+pre;stolllab_easyspin;620e64f5886b53bfcaf6dcfab36690c6041fb541;Stefan Stoll <sstoll@ucdavis.edu>;1333327375;small things
+pre;stolllab_easyspin;4123d7a9705cbf166645e9a578ed1e12bd1a1482;Stefan Stoll <sstoll@ucdavis.edu>;1333921640;g- and A-strain support for Opt.Method='perturb'
+post;stolllab_easyspin;9b09d2a99abce7a36e854328179c95f8a934a960;Stefan Stoll <sstoll@ucdavis.edu>;1341196248;eprsave can save microwave frequency
+post;stolllab_easyspin;85e50b09fa09f2329a9f633e50f8d04cda7aa32a;Stefan Stoll <sstoll@ucdavis.edu>;1341196661;small things
+post;stolllab_easyspin;6411c9e20259a75a8089ec62b6dfcf75e1c38cdf;Stefan Stoll <sstoll@ucdavis.edu>;1344234684;chili: support for 2 nuclei added
+post;stolllab_easyspin;814be23ec625896f613f1ecb3e31508efbcea9d6;Stefan Stoll <sstoll@ucdavis.edu>;1347347479;added ewrls
+post;stolllab_easyspin;ed9518bd6ec61b139a28415e42aa805d2c0313a3;Stefan Stoll <sstoll@ucdavis.edu>;1349065249;endorfrq_perturb, salt: bug fixes
+post;stolllab_easyspin;69fd913dc31b125688e36cfa198a2fba98de479e;Stefan Stoll <sstoll@ucdavis.edu>;1349065361;small things
+post;stolllab_easyspin;c1de827ae2c8a5cf3c767b95fcdc4d4198f3da49;Stefan Stoll <sstoll@ucdavis.edu>;1349065429;small things
+post;stolllab_easyspin;2b552cfb866500ebbda5b2d4b3062b94360b50bb;Stefan Stoll <sstoll@ucdavis.edu>;1351756709;addnoise rewrite, 1/f noise
+post;stolllab_easyspin;bc60041a393b62385efff1228ea5a95fc44d06f0;Stefan Stoll <sstoll@ucdavis.edu>;1353287253;eprload: power scaling for 2D power sweeps
+post;stolllab_easyspin;f4ac3edfa62ab708bc590246abcbaf6cb835d781;Stefan Stoll <sstoll@ucdavis.edu>;1353974428;consistent handling of Exp.Orientations
+pre;vcityteam_ud-reproducibility;b0837ff343caefa44045633c0ab76087daebda36;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1670929262;add mappings for berliet dataset + documentation
+pre;vcityteam_ud-reproducibility;ff7ed9b9fdf0359cf211aa5d02d2510b787ac464;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1670929667;Update Readme.md
+pre;vcityteam_ud-reproducibility;41afc7f23ea535f7eefbdc773686bc76615ea89c;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1670929985;Update Readme.md
+pre;vcityteam_ud-reproducibility;5a9dd1ae0c0f6514ca327b3218d54ed04c603f6f;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1671215306;Merge branch 'master' of https://github.com/VCityTeam/UD-Reproducibility into CityGMLXMLToRDF
+pre;vcityteam_ud-reproducibility;845f1c84f1b8298a9a6d17ae4e84cb975b6b53a1;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1671215495;update readme
+pre;vcityteam_ud-reproducibility;515ad69dbe5815d8467a734e2b700447492b6cf5;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1673022579;Update Readme.md
+pre;vcityteam_ud-reproducibility;186e6b915d3de1eb93faa3d6cf5a8da7b9ad63e4;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1675859000;init doc and script
+pre;vcityteam_ud-reproducibility;607750819fb42cca931618bb59c081f963fd5231;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1675871441;update scripts
+pre;vcityteam_ud-reproducibility;29bd3a089494d99ba036c666c2f752fbc029a6fe;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1676998566;update second scenario doc
+pre;vcityteam_ud-reproducibility;a80931934c43e7220c5ec43ce28e142bb2c554f6;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1677002422;update doc and docker compose
+post;vcityteam_ud-reproducibility;b4b7a7913f84d288947e34d69bd7361aa4b9d3e2;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1687424344;ignore env
+post;vcityteam_ud-reproducibility;8620de7bb4488a7c23e82d57ed470c41c307c33f;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1687425071;update doc
+post;vcityteam_ud-reproducibility;1918213e4cdc1f9ef1c43dce667c3699e6f79b00;Diego Vinasco-Alvarez <diego.vinasco@protonmail.com>;1687426536;update gratte ciel rdf documentation
+post;vcityteam_ud-reproducibility;6f4e122a49dcda97d6713a7aa19d4fa7d4f46381;Diego Vinasco-Alvarez <diego.vinasco-alvarez@univ-lyon2.fr>;1687426577;Merge pull request #40 from VCityTeam/gratteciel-workspace Gratteciel workspace
+post;vcityteam_ud-reproducibility;a9114538a93dafbf3ef96a73ec3a8c71c16205ae;Diego Vinasco-Alvarez <diego.vinasco-alvarez@univ-lyon2.fr>;1687426870;Merge pull request #41 from VCityTeam/CityGMLXMLToRDF Citygml (xml) to rdf dockerized model-driven transformation workflow
+post;vcityteam_ud-reproducibility;78d2c3ad2eec0f8b24509c26b7163094add038ba;Diego Vinasco-Alvarez <diego.vinasco-alvarez@univ-lyon2.fr>;1694703185;Update yarrrml.yaml
+post;vcityteam_ud-reproducibility;9921ad97d556c8d2908c7a271c0c279c2ecb4b3a;EricBoix <eric.boix@insa-lyon.fr>;1704471205;Added an Elaphes cave computationnal docker pipeline.
+post;vcityteam_ud-reproducibility;5018a5e6e1f5e5d159403f3d6d8e902b2fee1e6b;EricBoix <eric.boix@insa-lyon.fr>;1704881874;Documentation en patch adjustement.
+post;vcityteam_ud-reproducibility;366080c500bc72e04a5f83df54773c880fc56f48;EricBoix <eric.boix@insa-lyon.fr>;1705331139;UPdated Readme for Computations/Elaphes-cave
+post;vcityteam_ud-reproducibility;e291c6b56e42566f8e62398b5cefe157898c30a5;EricBoix <eric.boix@insa-lyon.fr>;1705331684;Update of Computations/Elaphes

@@ -1,0 +1,409 @@
+pre/post;project;commit;author;time;message
+pre;arviz-devs_arviz;92271667f7314bf5d9c3247f45809da634019c8b;Ari Hartikainen <ahartikainen@users.noreply.github.com>;1483743997;.format to correct place
+pre;arviz-devs_arviz;70642c2326df17be86016ee080c625bbe479f7d0;Ari Hartikainen <ahartikainen@users.noreply.github.com>;1483744297;"Update plot_post.py
+
+unnecessary newline"
+pre;arviz-devs_arviz;d7570ea6c023feca9753091ba5393a4afbee2ffe;Ari Hartikainen <ahartikainen@users.noreply.github.com>;1483744461;"Update plot_post.py
+
+shift lines"
+pre;arviz-devs_arviz;29b816d5a9b7800d5c15b94bf1e3e5e760d58b50;Ari Hartikainen <ahartikainen@users.noreply.github.com>;1489788486;"Update plot_post.py
+
+fix problems with `{:.Ng}` --> `""{:g}"".format(round(x, N))`. This forces N digits after decimal point."
+pre;arviz-devs_arviz;ced24cc4af10e914d2cbd176be179543e6366d05;Ari Hartikainen <ahartikainen@users.noreply.github.com>;1489788999;"Update plot_post.py
+
+remove roundto argument from hpdgrid"
+pre;arviz-devs_arviz;41ad693ffe8442c7e3fa95b51f7f4b7b5ddedcc3;Ari Hartikainen <ahartikainen@users.noreply.github.com>;1489790603;import .hpd
+pre;arviz-devs_arviz;ea2e7a26904fa17d314d92329e76a494ec479072;Ari Hartikainen <ahartikainen@users.noreply.github.com>;1489790657;import .stats
+pre;arviz-devs_arviz;af73fca27ea88b0e5ddc099320a5135ef9fa1026;Osvaldo Martin <aloctavodia@gmail.com>;1489842945;"Merge pull request #9 from ahartikainen/feature/round_to_string_formatting
+
+Feature/round to string formatting"
+pre;arviz-devs_arviz;ba4ac8eaf29281ce70cc159ee54ccef646a5be36;Osvaldo Martin <aloctavodia@gmail.com>;1489842959;"Merge pull request #11 from ahartikainen/issue-10-local_imports
+
+Issue 10 local imports"
+pre;arviz-devs_arviz;9a371179dd675fec5f25499a5fe9c761af6d163d;aloctavodia <aloctavodia@gmail.com>;1489845982;"update to pymc3's plots stats and diagnostics
+"
+post;arviz-devs_arviz;057a7f4396c0705034a1aa36f2ea359e29b57363;aloctavodia <aloctavodia@gmail.com>;1520350336;"begin pymc3-independence process
+"
+post;arviz-devs_arviz;37fdabe1b2b1ae7deee0746ad34e0ce73c62ce09;Osvaldo Martin <aloctavodia@gmail.com>;1520357725;"Merge pull request #13 from aloctavodia/master
+
+begin pymc3-independence process"
+post;arviz-devs_arviz;2611d7c5a55ca34b49249dff036100adfebcc6f9;aloctavodia <aloctavodia@gmail.com>;1520424192;"add tests
+"
+post;arviz-devs_arviz;632b80c9c39bd81127bef21ca5ecfff50c86ae04;Osvaldo Martin <aloctavodia@gmail.com>;1520424543;"Merge pull request #14 from aloctavodia/tests
+
+add tests"
+post;arviz-devs_arviz;f54ad8851b4d05a120743d637de9b5bee4b077a6;aloctavodia <aloctavodia@gmail.com>;1520425148;"import order?
+"
+post;arviz-devs_arviz;020e5311aa781dbea6642bebc1e2dc0807e3c63c;Osvaldo Martin <aloctavodia@gmail.com>;1520426100;"Merge pull request #15 from aloctavodia/test
+
+import order?"
+post;arviz-devs_arviz;e3c97d327f43671b35c544349116be64dda390fc;aloctavodia <aloctavodia@gmail.com>;1520428119;"fix display error?
+"
+post;arviz-devs_arviz;2e86cb9ba9e132ef6b0c16a89adbadae43ed048d;aloctavodia <aloctavodia@gmail.com>;1520431052;"add traceplot and helper functions
+"
+post;arviz-devs_arviz;a3657ac4794fbb5ad4085e69b587a3f86295ea78;Osvaldo Martin <aloctavodia@gmail.com>;1520431117;"Merge pull request #17 from aloctavodia/traceplot
+
+Traceplot"
+post;arviz-devs_arviz;5c75c78c2e1afe675b1c4cb72c533b650c987946;aloctavodia <aloctavodia@gmail.com>;1520442985;"emulate display
+"
+pre;clindatsci_dicomweb-python-client;c58601c6d432b64ca7bf2b77edc3216a40366269;Chris Bridge <chrisbridge44@googlemail.com>;1729362622;"Mypy fixes
+"
+pre;clindatsci_dicomweb-python-client;a0f22754e4e87b4dfae3bddb331bb871a0ca1fc2;Chris Bridge <chrisbridge44@googlemail.com>;1729362825;"docstring fix
+"
+pre;clindatsci_dicomweb-python-client;1371496dd416557f4e8de0b1f07d9a366eeef02f;Chris Bridge <chrisbridge44@googlemail.com>;1729377679;"Move to pyproject.toml, add support for 3.11, 3.12, 3.13
+"
+pre;clindatsci_dicomweb-python-client;4d694cfaccd18ec780e8c459ca01e2ea72a8d365;Chris Bridge <chrisbridge44@googlemail.com>;1729385318;"Bump pytest-flake8 version
+"
+pre;clindatsci_dicomweb-python-client;5d7f42123b0ac3225dafdb993d9d7b2bceb2b82d;Chris Bridge <chrisbridge44@googlemail.com>;1729385626;"Downgrade pytest-flake8 again to support older python
+"
+pre;clindatsci_dicomweb-python-client;bc268778856b78cf3f51c5b50262f294520cd378;Steve Pieper <pieper@isomics.com>;1729434890;"Merge pull request #102 from ImagingDataCommons/move_to_pyproject_toml
+
+Modernize packaging, add support for new python versions, prepare for 0.59.2 release"
+pre;clindatsci_dicomweb-python-client;1546347d689744b0ca153256a180bd79ceeb6468;Chris Bridge <chrisbridge44@googlemail.com>;1729510592;"Revert CLI name from dicomweb-client to dicomweb_client
+"
+pre;clindatsci_dicomweb-python-client;ffe6f5bb36d623f30cdc72975e5d6b3884f13176;Steve Pieper <pieper@isomics.com>;1729517695;"Merge pull request #104 from ImagingDataCommons/bug/revert_cli_name
+
+Revert CLI name from dicomweb-client to dicomweb_client"
+pre;clindatsci_dicomweb-python-client;da0595646d1c98e4406cca3327c3c30a5a176e62;Chris Bridge <chrisbridge44@googlemail.com>;1729519959;"Fix --token to --bearer-token in documentation
+"
+pre;clindatsci_dicomweb-python-client;99aa011b428249febdaca1f4ab959453754be961;Chris Bridge <chrisbridge44@googlemail.com>;1729560123;"Version bump for release
+"
+post;clindatsci_dicomweb-python-client;45e4466cc9788eff67ab5a32c2f634b73b4c22ff;Sumantra Sharma <sumantra94@gmail.com>;1745856819;"adding optional params to search and retrieve functions
+"
+post;clindatsci_dicomweb-python-client;01f7d08ffa7e310c900c79145c53adf0c844366c;Sumantra Sharma <sumantra94@gmail.com>;1745857261;"adding optional params to search and retrieve functions
+"
+post;clindatsci_dicomweb-python-client;1f637ccf454a2faf926660271324e5e7ce838499;Sumantra Sharma <sumantra94@gmail.com>;1745859800;"Revert ""adding optional params to search and retrieve functions""
+
+This reverts commit 45e4466cc9788eff67ab5a32c2f634b73b4c22ff.
+"
+post;clindatsci_dicomweb-python-client;3d55233aa699c203b1789bfcb07516fcc547c37b;Sumantra Sharma <sumantra94@gmail.com>;1745929905;"Added tests and additional params to more methods
+"
+post;clindatsci_dicomweb-python-client;ff10780c9394cbd1ebaa455920633e8beafc2c75;Sumantra Sharma <sumantra94@gmail.com>;1745932779;"adding params to retrieve_instance_frames
+"
+post;clindatsci_dicomweb-python-client;e80f54ca0038da49c66423382ab8363aa8313c6e;Kai Schlamp <kai.schlamp@gmail.com>;1745958129;"Remove unsupported Python version from CI
+"
+post;clindatsci_dicomweb-python-client;6867cd686e8d7b770f7382ca57a81a56fda448cc;Kai Schlamp <kai.schlamp@gmail.com>;1745958361;"Merge pull request #2 from openradx/remove_unsupported_py_version
+
+Remove unsupported Python version from CI"
+post;clindatsci_dicomweb-python-client;315ff4168911945c5f21b295f6feaec05ed44f93;Sumantra Sharma <sumantra94@gmail.com>;1746013034;"fixing broken tests
+"
+post;clindatsci_dicomweb-python-client;823564dcd9d16b7b51f3a7a6cd2aa21cab3a1342;Sumantra Sharma <30983116+chinacat567@users.noreply.github.com>;1746016787;"Merge pull request #3 from openradx/additional_get_params
+
+Additional get params"
+post;clindatsci_dicomweb-python-client;68ddd1c65080c08c39398ec0bc7e0740b704ca0e;LachlanNewman <lachnewman007@gmail.com>;1746234231;"add test for retrieve study metadata
+"
+pre;peal_vole;9c858f2264beb46885a6c6dd4bd60a4061f9e052;Max Horn <max@quendi.de>;1395418492;"Squash of all gh-pages history up to 2021-07-30
+"
+post;peal_vole;323da60a56a85dbaec6ec78918860394fd4e8565;Chris Jefferson <caj21@st-andrews.ac.uk>;1573752322;"Initial commit
+"
+post;peal_vole;92034247e6ac033ccda1a4e3d91a57a7104a4f3b;Chris Jefferson <caj21@st-andrews.ac.uk>;1574174808;"Updates
+"
+post;peal_vole;8af0063e06c1afd547278a4b9f02e932f7901052;Chris Jefferson <caj21@st-andrews.ac.uk>;1574174860;"Move code around
+"
+post;peal_vole;f22f3818a08e64b5b2fa31d8e1ca1566e1a50fa4;Chris Jefferson <caj21@st-andrews.ac.uk>;1574343832;"Updates
+"
+post;peal_vole;82508e75f011d218126fec1fb2f43726f73c1635;Chris Jefferson <caj21@st-andrews.ac.uk>;1575031856;"updates
+"
+post;peal_vole;dcd5ed0caff695b582fb552ec0d8ae35ef735f9b;Chris Jefferson <caj21@st-andrews.ac.uk>;1575042714;"Updates
+"
+post;peal_vole;8b6fd9242fcda665e1d0a9924ed6e301c838467c;Chris Jefferson <caj21@st-andrews.ac.uk>;1575042890;"Remove 'Split'
+"
+post;peal_vole;5527d2b3c432ebb93fe7939e02b22790996ca349;Chris Jefferson <caj21@st-andrews.ac.uk>;1575044860;"Updates
+"
+post;peal_vole;38fa91072cc445b6e5776f3d04ff0517c7fd7096;Chris Jefferson <caj21@st-andrews.ac.uk>;1575134200;"Updates
+"
+post;peal_vole;951deaf81123825077c8870fffbb54858d41af0b;Chris Jefferson <caj21@st-andrews.ac.uk>;1575299302;"Updates
+"
+pre;nbara_python-meegkit;142be751fc125f8f13fef0bdb5638467ff1282d3;Pedro Alcocer <pealco@gmail.com>;1228586780;"Adding files.
+"
+pre;nbara_python-meegkit;2a991afb87144574e5c2a8b4f11a5334b37969e2;Pedro Alcocer <pealco@gmail.com>;1228587074;"Moved code into appropriate files.
+"
+pre;nbara_python-meegkit;f8ceab6cb9c3890cf838da516b8b7a63a2bed265;Pedro Alcocer <pealco@gmail.com>;1228587137;"Renamed main -> denoise
+"
+pre;nbara_python-meegkit;37b7d578688b895de83d3ac6c713a08b6bea458d;Pedro Alcocer <pealco@gmail.com>;1228588384;"Modularized functions
+"
+pre;nbara_python-meegkit;b6d7429fc985db63d617ce9995ab85c2a8e1aaa5;Pedro Alcocer <pealco@gmail.com>;1228588423;"Modularized functions
+"
+pre;nbara_python-meegkit;278632199966caba5beac2c890088a8f01d9d093;Pedro Alcocer <pealco@gmail.com>;1228937166;"TSPCA and SNS both work with shifts again
+"
+pre;nbara_python-meegkit;5079ecff8d8ac3606da0d32cf4e5ee296d07d5ac;Pedro Alcocer <pealco@gmail.com>;1228943640;"Correcting TSR against matlab TSR
+"
+pre;nbara_python-meegkit;924c7d56744bd5138c0fce0179314fff35222e12;Pedro Alcocer <pealco@gmail.com>;1229052547;"TSPCA output seems correct. SNS makes everything zero.
+"
+pre;nbara_python-meegkit;581346dfc27082937ef3c160e37a5fa462503229;Pedro Alcocer <pealco@gmail.com>;1229197741;"SNS out is not longer zero. I'm not sure if it is accurate though.
+"
+pre;nbara_python-meegkit;c344642f3e71db9e480f29b3c2033a469a89282c;Pedro Alcocer <pealco@gmail.com>;1229996571;"DSS works!
+"
+post;nbara_python-meegkit;9b499bda46ede35e776808e664ecf4c7f1488221;nbara <nbara@users.noreply.github.com>;1481837816;Create README.md
+post;nbara_python-meegkit;b0893f44044af97137997c88db13d98d90ab80ef;nbara <nbara@users.noreply.github.com>;1481838131;Update README.md
+post;nbara_python-meegkit;e8eee3b556e44ff763f3e6c8712b6ec4508cf423;nbara <nicolas.baspam@icloud.com>;1481838820;"cleanup + gitignore
+"
+post;nbara_python-meegkit;a98387664a194cf95418046edc66e4772f92998a;nbara <nbara@users.noreply.github.com>;1504881424;"Some cleanup.
+
+Still loads todo.
+"
+post;nbara_python-meegkit;2b0e6cd629af192e6bbce7e75beee208c43c5fb0;nbara <nbara@users.noreply.github.com>;1504881857;"More cleanup
+"
+post;nbara_python-meegkit;d7e14d956ccc8d5609d8676a650016f3cb79f912;Nicolas Barascud <nbara@users.noreply.github.com>;1504882555;"Refactor code
+
+- Update README.md
+- python 2->3 conversion
+- add travis, makefile, setup, cleanup folder structure and imports
+- make package installable
+"
+post;nbara_python-meegkit;1fc6b46804d91a529ef166b95fe76eaf493fb6b0;nbara <nicolas.barascud@ens.fr>;1515939660;"DSS and SNS both run, nosetests run locally
+
+need tests
+add nose to travis
+fixes for python 3
+disable travis email notifications
+"
+post;nbara_python-meegkit;c388f35ff651854932731239cc0dfca7a1eba185;nbara <nbara@users.noreply.github.com>;1516023620;"fixed a bug in PCA computation, added DSS unit test
+"
+post;nbara_python-meegkit;346e586516c5a35a7b5583cde713ca9b505efdfc;nbara <nbara@users.noreply.github.com>;1516031301;"simplify dss computation and clean up docstring
+"
+post;nbara_python-meegkit;a98ab0798a86e8c5308d378567ffbc0054e9f928;nbara <nbara@users.noreply.github.com>;1516095809;"clean up SNS and add some stats
+
+few fixes to SNS but test not great
+"
+pre;flyaflya_causact;b9551cfb45e45d86770aaf9f72795ddec558dc6b;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1658880563;"Minor edits to example description.
+"
+pre;flyaflya_causact;507c1595a000ab589c3c1902bee90de506bc6e42;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1658880961;"fix typo mispelling causact
+"
+pre;flyaflya_causact;c79a68c7edca406fae3d2dfe93922be7d803efaf;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1658881189;"typo fix
+"
+pre;flyaflya_causact;e8eb4da729bdeb589bb0ad4985c5e429e5cc92aa;flyaflya <ajf@udel.edu>;1659365272;"Fix Figure 3 miscaptioning for JOSS release.
+"
+pre;flyaflya_causact;ccf8c5364a4b6219dc8d89b178b4e6f74840d66a;flyaflya <ajf@udel.edu>;1659365669;"Figure 3 tweaks for publication.
+"
+pre;flyaflya_causact;ff6bad8d0184c9838e8ec088bfa548f8cbd1ff55;flyaflya <ajf@udel.edu>;1659366888;"citation fix.
+"
+pre;flyaflya_causact;2641cfca83610064ed579d2c2241224135e0ef3f;flyaflya <ajf@udel.edu>;1659367395;"update figure 3
+"
+pre;flyaflya_causact;65c3ae2f7357e07f0acbe427daf016e67e998518;flyaflya <ajf@udel.edu>;1659367848;"fix Figure 3
+"
+pre;flyaflya_causact;6e96f6f667e9e5f792ed14ae3c060255098a891c;flyaflya <ajf@udel.edu>;1659368417;"final tweak to fig3
+"
+pre;flyaflya_causact;b7d886a0f253f5b6540b0687f7da0f47e39ce191;flyaflya <ajf@udel.edu>;1660592905;"Add JOSS badge to readme.
+"
+post;flyaflya_causact;864285fe79328a3c70187d33b228ea7c53eaa4a9;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1690822525;"changes that will not screw up greta.  might end up screwing things up with next batch of commits that tries to bring in numpyro capabilities.
+"
+post;flyaflya_causact;2654a38f1647c3ecd5bd2fe9263e4c9e98065b67;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1690998975;"pre-removal of python 3.11 requirement
+"
+post;flyaflya_causact;0bc835a736aa8316c456d06fdcd92fc2639ecc40;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1691164013;"got numpyro and install issues working.  still need to use xarray to extract the proper dataframe.
+"
+post;flyaflya_causact;1fc5bc523ccee592a30c3ab626e278091bc4ef96;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1691176798;"get rid of summarise() warning message
+"
+post;flyaflya_causact;a0d4f6e111cea34e9f8116ab0a4c0fe7ed4633ea;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1691277736;"basics are working! and exchanging greta for numpyro in examples.
+"
+post;flyaflya_causact;d09c26ea845d991142849326d5da60470ce9e1ae;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1691423811;"prior to making potential breaking plateDimDF node name changes
+"
+post;flyaflya_causact;edf7d35de6152ab327c0e1914a99fc65a97b13a5;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1691439951;"lots of stuff working.  getting rid of .data$id warnings next
+"
+post;flyaflya_causact;1ac0162051da306a1eb5bffeefdcba65e7ef2525;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1691507590;"Everything is working well after cleaning up with test and build.  Going to commence trying to avoid the creating of variables in the global environment next.
+"
+post;flyaflya_causact;f191445908a134237d16f403764936010688ccc2;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1691533126;"Updated vignette and readme.
+"
+post;flyaflya_causact;413db7995bf5109166728be9510d375d09e54db0;Adam Fleischhacker <ajf@BUEC-0F00TVX.win.udel.edu>;1691533860;"update readme
+"
+pre;genouest_biomaj-download;0fe49195b9459078cdcf0f304fc0e8999c75391b;Olivier Sallou <olivier.sallou@irisa.fr>;1618500947;"remove some tests as we do not fully check for cond now
+"
+pre;genouest_biomaj-download;f1f04e6ffa9bb845ba3bcd592eab1e88e7ab145e;Olivier Sallou <olivier.sallou@irisa.fr>;1618501342;"linting
+"
+pre;genouest_biomaj-download;243e3b3b2efd49d8527fcae840a96570728a271b;Olivier Sallou <olivier.sallou@irisa.fr>;1652250685;"update deps and pyyaml setup
+"
+pre;genouest_biomaj-download;30d3e676917d24df71eadf6a0babc8d393899280;Brice Raffestin <46330590+braffes@users.noreply.github.com>;1657033822;"Add PWD answer code
+
+When trying to do directftp, we got the following error : 
+```
+2022-07-05 15:40:02,575 ERROR [root][MainThread] Error while listing ftp://xxxxx:xxxxx@dbnsfp.softgenetics.com/ - 257
+2022-07-05 15:40:02,575 ERROR [root][MainThread] Error while listing ftp://xxxxx:xxxxx@dbnsfp.softgenetics.com/ - Error while listing ftp://dbnsfp:xxxxx@dbnsfp.softgenetics.com/ - 257                                                                                                                                                          
+2022-07-05 15:40:02,575 INFO  [root][MainThread] Workflow:DownloadService:CleanSession
+2022-07-05 15:40:02,575 ERROR [root][MainThread] Workflow:wf_release:Exception:Error while listing ftp://xxxxx:xxxxx@dbnsfp.softgenetics.com/ - 257
+Traceback (most recent call last):
+  File ""/opt/biomaj/lib/python3.8/site-packages/biomaj/workflow.py"", line 742, in wf_release
+    (file_list, dir_list) = release_downloader.list()
+  File ""/opt/biomaj/lib/python3.8/site-packages/biomaj_download/download/direct.py"", line 126, in list
+    raise e
+  File ""/opt/biomaj/lib/python3.8/site-packages/biomaj_download/download/direct.py"", line 122, in list
+    raise Exception(msg)
+Exception: Error while listing ftp://xxxx:xxxxxx@dbnsfp.softgenetics.com/ - 257
+```
+We add 257 as a good return code to permit listing and download."
+pre;genouest_biomaj-download;7eb13c58ddc37bc47ad481aaf472b22350b5c329;Brice Raffestin <46330590+braffes@users.noreply.github.com>;1657043017;"Add PWD answer code (#42)
+
+When trying to do directftp, we got the following error : 
+```
+2022-07-05 15:40:02,575 ERROR [root][MainThread] Error while listing ftp://xxxxx:xxxxx@dbnsfp.softgenetics.com/ - 257
+2022-07-05 15:40:02,575 ERROR [root][MainThread] Error while listing ftp://xxxxx:xxxxx@dbnsfp.softgenetics.com/ - Error while listing ftp://dbnsfp:xxxxx@dbnsfp.softgenetics.com/ - 257                                                                                                                                                          
+2022-07-05 15:40:02,575 INFO  [root][MainThread] Workflow:DownloadService:CleanSession
+2022-07-05 15:40:02,575 ERROR [root][MainThread] Workflow:wf_release:Exception:Error while listing ftp://xxxxx:xxxxx@dbnsfp.softgenetics.com/ - 257
+Traceback (most recent call last):
+  File ""/opt/biomaj/lib/python3.8/site-packages/biomaj/workflow.py"", line 742, in wf_release
+    (file_list, dir_list) = release_downloader.list()
+  File ""/opt/biomaj/lib/python3.8/site-packages/biomaj_download/download/direct.py"", line 126, in list
+    raise e
+  File ""/opt/biomaj/lib/python3.8/site-packages/biomaj_download/download/direct.py"", line 122, in list
+    raise Exception(msg)
+Exception: Error while listing ftp://xxxx:xxxxxx@dbnsfp.softgenetics.com/ - 257
+```
+We add 257 as a good return code to permit listing and download."
+pre;genouest_biomaj-download;f86f7a40f7b4487ec4e121e8f5528894c1dfb44c;Olivier Sallou <olivier.sallou@irisa.fr>;1657088013;"release 3.2.8
+"
+pre;genouest_biomaj-download;54a60f3268e8f60d35f1e23395921265dbf931c7;Olivier Sallou <olivier.sallou@irisa.fr>;1661771983;"replace nose by pytest for unit testing
+"
+pre;genouest_biomaj-download;9ebdc2b82b9ae24107952e8effd257e5f13aca50;Olivier Sallou <olivier.sallou@irisa.fr>;1661777783;"regenerate proto message
+"
+pre;genouest_biomaj-download;81e8b09886778bb21fe9ee9625ea96edfda6b8bc;Olivier Sallou <olivier.sallou@irisa.fr>;1661777846;"release with proto regeneration
+"
+pre;genouest_biomaj-download;709da84d9dbf42c31ddedec39ba34f079a6bb768;Olivier Sallou <olivier.sallou@irisa.fr>;1668693225;"fix direct handler for plugin usage
+"
+post;genouest_biomaj-download;b140ad8e074f368e3e371fb144821637d79c1f45;Remy Siminel <95074810+rsiminel@users.noreply.github.com>;1713517238;update setup.py
+post;genouest_biomaj-download;bb3fa9b58a0a9acbe4cac02966c0451c03fa0b4b;Remy Siminel <95074810+rsiminel@users.noreply.github.com>;1713517944;update requirements.txt
+post;genouest_biomaj-download;97e1f3d3bc6a0c72c33c05ce54f425c3f4262b9d;Anthony Bretaudeau <anthony.bretaudeau@irisa.fr>;1713541932;"Merge pull request #43 from rsiminel/master
+
+fix requirement"
+post;genouest_biomaj-download;5c95e7a369ebca0d280707f87a719db3ad7705d7;mboudet <mateo.boudet@gmail.com>;1714144184;"Fix
+"
+post;genouest_biomaj-download;cc6b469da91117cbb36b3957bc9a9f0a02f96175;Alexandre Detiste <alexandre.detiste@gmail.com>;1717597576;"remove dependency on old Mock
+"
+post;genouest_biomaj-download;dd71561b93fe6b4d8c31e8615950af2d3a4cf2af;Alexandre Detiste <alexandre.detiste@gmail.com>;1717597629;"Merge cc6b469da91117cbb36b3957bc9a9f0a02f96175 into 97e1f3d3bc6a0c72c33c05ce54f425c3f4262b9d
+"
+post;genouest_biomaj-download;2ebd74653ad1481ba31081607b99d8e45db6346e;Remy Siminel <95074810+rsiminel@users.noreply.github.com>;1718034221;pin protobuf dep
+post;genouest_biomaj-download;c3d066aae7ce10f4513bd2d81c715e1924605d27;Remy Siminel <95074810+rsiminel@users.noreply.github.com>;1718101796;"Merge 2ebd74653ad1481ba31081607b99d8e45db6346e into 97e1f3d3bc6a0c72c33c05ce54f425c3f4262b9d
+"
+post;genouest_biomaj-download;cad3068a00db98bb94486c3334ac2a4a1ecc3eac;mboudet <mateo.boudet@gmail.com>;1721654685;"Merge pull request #45 from rsiminel/fix-deps
+
+pin protobuf dep"
+post;genouest_biomaj-download;c33f96bd819c4a693edafa4d0351e182b182d50c;mboudet <mateo.boudet@gmail.com>;1721654713;"Merge pull request #44 from a-detiste/master
+
+remove dependency on old Mock"
+pre;pressio_pressio;fcf865c98c2111836da348bb7e09ffc2ceda9a59;Francesco Rizzi <fnrizzi@sandia.gov>;1619601465;"rebuild website
+"
+pre;pressio_pressio;9276dffa1e21eee74dc979931056f90b05024d95;Francesco Rizzi <fnrizzi@sandia.gov>;1619601510;"Merge branch 'main' into develop
+"
+pre;pressio_pressio;01bec402bf4f1e575275313084777e1f8af1bda9;Francesco Rizzi <fnrizzi@sandia.gov>;1619605787;"fixing cmake and code structure #274
+"
+pre;pressio_pressio;9c9df10d7e47598ff31461bcf3a5762adb08fffa;Francesco Rizzi <fnrizzi@sandia.gov>;1619607271;"update website
+"
+pre;pressio_pressio;846cf5ae746db73fc386108b8186c5577075a251;Francesco Rizzi <fnrizzi@sandia.gov>;1619621448;"ci: remove code coverage
+"
+pre;pressio_pressio;65698de6e9fef7c0130784f22fec0ed7f4e9f9cd;Francesco Rizzi <fnrizzi@sandia.gov>;1619621491;"test: remove unused alias
+"
+pre;pressio_pressio;073365e9d65624e80fa0cdbc71983a4d5a0d944d;Francesco Rizzi <fnrizzi@sandia.gov>;1619621506;"tests: rename rank-local
+"
+pre;pressio_pressio;ebe5553816e54f0f96fec0a9891d17e760057fd0;Francesco Rizzi <fnrizzi@sandia.gov>;1619621554;"test: forgot to update cmakelist
+"
+pre;pressio_pressio;f98b921615d5c3bfeea79c79b680657cc38e4d2c;Francesco Rizzi <fnrizzi@sandia.gov>;1619684410;"rom: fix solve functions for pressio4py
+"
+pre;pressio_pressio;2ae94d68bf585cb67d3deeba11a3b45a0795a59a;Francesco Rizzi <fnrizzi@sandia.gov>;1619684783;"cmake: update version
+"
+post;pressio_pressio;39c62187106eddf49e43bd82a0d2e87828b9fe8c;Francesco Rizzi <fnrizzi@sandia.gov>;1624370585;"update website
+"
+post;pressio_pressio;1cfc8031fb82607829d18810a2d944269da91c63;Francesco Rizzi <fnrizzi@sandia.gov>;1625755399;"extent is a free function #297
+"
+post;pressio_pressio;bf845e77975bb358c2f7b101c2ab5b44c0d56dd3;Francesco Rizzi <fnrizzi@sandia.gov>;1625842565;"move extentLocal to free function
+"
+post;pressio_pressio;9dcfa71df562218df451fb274a4f67f720bbcccc;Francesco Rizzi <fnrizzi@sandia.gov>;1625895929;"solvers: remove unused files
+"
+post;pressio_pressio;cebc39f1a8d5c50f886334a99d5f141faa103a99;Mikołaj Zuzek <mikolaj.zuzek@ng-analytics.com>;1626247325;"clang-format style deduced from pressio source code #116
+"
+post;pressio_pressio;5e9a69420a1f95f7492e722253b71ca9e0e19b98;Mikołaj Zuzek <mikolaj.zuzek@ng-analytics.com>;1626247369;"style formatting utilities #116
+"
+post;pressio_pressio;85301b563df17d007fe70150532af78154b885d0;Mikołaj Zuzek <mikolaj.zuzek@ng-analytics.com>;1626247449;"whole source code reformatted according to initial .clang-format style #116
+"
+post;pressio_pressio;07bcddd4ba0c3f680e3f138f7899b6b0900afef5;Mikołaj Zuzek <mikolaj.zuzek@ng-analytics.com>;1626255323;"move code formatting scripts to helper_scripts folder #116
+"
+post;pressio_pressio;a4b334e76a9a46105cac0ac12a0d5cf3a5a51e15;Francesco Rizzi <fnrizzi@sandia.gov>;1626446975;"wip: refactor for #298
+"
+post;pressio_pressio;26b8dd8fe13b13e59bfa9c9b18c32818b975655a;Francesco Rizzi <fnrizzi@sandia.gov>;1626447510;"WIP: sharedmem CI ony for now
+"
+pre;kkondo1981_aglm;669e275ff7e35c234c789c544a200b491652fbd2;Kenji Kondo <kkondo1981@users.noreply.github.com>;1625886663;"Refactored before implementing the multinomial case.
+"
+pre;kkondo1981_aglm;22363999110e195dccdd6e99b8d31d9037d42664;Kenji Kondo <kkondo1981@users.noreply.github.com>;1625886821;"Removed looops for `class`.
+"
+pre;kkondo1981_aglm;04e3cd5bc100f1be6a33a93d3dd5ffc0e8fb7412;Kenji Kondo <kkondo1981@users.noreply.github.com>;1625895578;"- Modified to draw multiple lines corresponding to all classes in one plot in multinomial cases.
+- Added `use_legend` and `margin` for `plot.AccurateGLM()` for adjusting (mainly) improving plotting for multinomial cases.
+"
+pre;kkondo1981_aglm;eba08eadeee05e22a1a4828dae3d3cccef29bc11;Kenji Kondo <kkondo1981@users.noreply.github.com>;1625968992;"Modified to:
+- apply margins for barplot case too,
+- use legends in multinomial cases for barplot,
+- add the `color` parameter which works in all the cases of `lines`, `barplot`, `boxplot`.
+"
+pre;kkondo1981_aglm;249c5d43b0b62c6a89ed13dbe2e25f5a9850bc15;Kenji Kondo <kkondo1981@users.noreply.github.com>;1625973746;"Modified to apply margins for boxplot.
+"
+pre;kkondo1981_aglm;d45a31cb366c6228dd4a33494e48bfee4be28288;Kenji Kondo <kkondo1981@users.noreply.github.com>;1625974654;"Added `resid_col`, `smooth_col`, and `rug_col` to `plot.AccurateGLM()` for changing colors of graphic components.
+"
+pre;kkondo1981_aglm;b1785e2b699089f54e8ca66f991be07e03b16f61;Kenji Kondo <kkondo1981@users.noreply.github.com>;1625975338;"Forbidded to use residuals in multinomial cases.
+"
+pre;kkondo1981_aglm;7e82be442ccb34ac23c0f13befd763b4f18f3d25;Kenji Kondo <kkondo1981@users.noreply.github.com>;1625975350;"Merge b1785e2b699089f54e8ca66f991be07e03b16f61 into 194964f905d92e43f09ad98c111e21098fbce57b
+"
+pre;kkondo1981_aglm;e0a95204f606d521b34568b020e9b91c0a815d6b;Kenji Kondo <kkondo.odnokk@gmail.com>;1641151315;"Small fixes and reran all demos on the new environment.
+"
+pre;kkondo1981_aglm;8a326a20dca48e2cf101e6a6c22cb0c7b4ea4126;Kenji Kondo <kkondo1981@users.noreply.github.com>;1660922943;"Merge e0a95204f606d521b34568b020e9b91c0a815d6b into 194964f905d92e43f09ad98c111e21098fbce57b
+"
+post;kkondo1981_aglm;606dbe8d54ebf8b9cf13b90c3a68b2376cf7c6ed;Kenji Kondo <kkondo.odnokk@gmail.com>;1746944786;"ignore missing package anchors NOTEs in CRAN build.
+"
+post;kkondo1981_aglm;b6a96135b1f6e929fd44727fa2bfcfac84075f67;Kenji Kondo <kkondo.odnokk@gmail.com>;1746952628;"small fixes and increment the version.
+"
+post;kkondo1981_aglm;1e0c919ceab66cca12a057b1596f5717cd176e53;Kenji Kondo <kkondo.odnokk@gmail.com>;1746952795;"added the rhub action.
+"
+post;kkondo1981_aglm;b0c219acc488b37a54973ca8f5ead599724093a4;Kenji Kondo <kkondo1981@users.noreply.github.com>;1746952941;"Merge pull request #67 from kkondo1981/fix-cran-202505
+
+Fix cran 202505"
+post;kkondo1981_aglm;92912575407292a9ca0d90b47d85eac3c2c8ae95;Kenji Kondo <kkondo.odnokk@gmail.com>;1746968743;"Added an import directive to avoid NOTEs in check().
+"
+post;kkondo1981_aglm;31f099655d278d25735b6f6570b453628eee372d;Kenji Kondo <kkondo.odnokk@gmail.com>;1746972120;"Added new cran-comments.md.
+"
+post;kkondo1981_aglm;ac3334a93e243ad6c4fd5546ee15aebb98b9a2ff;Kenji Kondo <kkondo.odnokk@gmail.com>;1746973179;"small fix
+"
+post;kkondo1981_aglm;f817bce00bffaa40c964ebb57d0138f0eb5ec8a3;Kenji Kondo <kkondo.odnokk@gmail.com>;1746973179;"small fix
+"
+post;kkondo1981_aglm;23f2d13c1c09baabc28ed07bc738f41a88a23617;Kenji Kondo <kkondo1981@users.noreply.github.com>;1746978437;"Merge pull request #68 from kkondo1981/fix-cran-202505
+
+Fix cran 202505 - 2"
+post;kkondo1981_aglm;f92ffd3999fd94f9029e1623a824f3686f9450c7;Kenji Kondo <kkondo.odnokk@gmail.com>;1746978563;"Merge branch 'fix-cran-202505' of https://github.com/kkondo1981/aglm into fix-cran-202505
+"
+pre;winvector_vtreat;af30d1f4433563fc6a93a611e7e11f0e31a2fd79;John Mount <jmount@win-vector.com>;1604172475;"re run and save predictions
+"
+pre;winvector_vtreat;61f32ce7296f2df19d0e739ad875d2fb8555c106;John Mount <jmount@win-vector.com>;1604173626;"save better data
+"
+pre;winvector_vtreat;9d10cb21fe6cf104d6a97a55fff6bc22c85bb5c4;John Mount <jmount@win-vector.com>;1604181589;"remove replotting,
+it has moved to Examples/density_shapes/PredPlot.Rmd
+"
+pre;winvector_vtreat;07bd653045346e10509afc527c2af6b2e3bd9ccd;John Mount <jmount@win-vector.com>;1619023054;"fix links
+"
+pre;winvector_vtreat;7874185347b3cb74f2a4690d1bd182311d794c8c;John Mount <jmount@win-vector.com>;1619023948;"fix some links, rebuild, recheck
+"
+pre;winvector_vtreat;ca67f56d4c975e3c4bfb6a89faafde6510d83bc1;John Mount <jmount@win-vector.com>;1623418601;"remacs LazyData decl
+"
+pre;winvector_vtreat;86777b87cb8597f7b166b4a3cc8c4a4b6f7ee7fa;John Mount <jmount@win-vector.com>;1623421901;"CRAN release
+"
+pre;winvector_vtreat;84c28442bf2ea0441eb161c1119f79a2edb07be9;John Mount <jmount@win-vector.com>;1635180933;"add note
+
+TODO: show better quality of fit from a draw of variables.
+"
+pre;winvector_vtreat;81f8128b745f5beddf49b4a2eaede9f137288c03;John Mount <jmount@win-vector.com>;1635220828;"edit indicator name for clarity
+"
+pre;winvector_vtreat;59c36629badd5866c8ce5af781649e70d0717836;John Mount <jmount@win-vector.com>;1643213599;"edit
+"
+post;winvector_vtreat;00dae9e1b7a09f90aaa5dee9935165fbb94de901;John Mount <jmount@win-vector.com>;1692472177;"rebuild and recheck
+"
+post;winvector_vtreat;7ee77dcef3082a9e791aa8f0d764d8910b12b326;John Mount <jmount@win-vector.com>;1692472321;"ignore more
+"
+post;winvector_vtreat;eaba23d094e9ac2edeb439fb30a6f179a4aca20a;John Mount <jmount@win-vector.com>;1718202829;"re-run older examples
+"
+post;winvector_vtreat;74757ccb71054f3b2646f81a0b0b40b264502860;John Mount <jmount@win-vector.com>;1718206782;"work on thinning package
+"
+post;winvector_vtreat;7635228a1941573fda62fbfc06b117a0737c5c98;John Mount <jmount@win-vector.com>;1718207439;"check
+"
+post;winvector_vtreat;13305bd26d1cd3e8c7b57583513d0ea99528b0c2;John Mount <jmount@win-vector.com>;1718229040;"add example of using heuristic
+"
+post;winvector_vtreat;9e28ee2eae4fa93db6b7bdc67b02dfcdc021ce61;John Mount <jmount@win-vector.com>;1718297889;"re-render (figure was not appearing on Github)
+"
+post;winvector_vtreat;00a672f1d23eaae05023214829e1d80e2e5e95f0;Nina Zumel <nzumel@win-vector.com>;1736373897;"Example of Custom Level Coding
+"
+post;winvector_vtreat;c5b5a90e0a353282592748d8020dac03a21cb4cb;Nina Zumel <nzumel@win-vector.com>;1736374030;"moved to github document
+"
+post;winvector_vtreat;6fa2eb97db74b1bfbde90cb0cfa8e2715fb20842;Nina Zumel <nzumel@win-vector.com>;1736461287;"added crosslink
+"

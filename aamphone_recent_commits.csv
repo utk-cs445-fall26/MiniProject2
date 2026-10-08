@@ -1,0 +1,1747 @@
+project;commit;author;time;message;theme
+arviz-devs_arviz;d96624e7853595f4a583b5bd839d5dc118e785b7;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1788962607;"Bump the actions group with 3 updates (#2613)
+
+Bumps the actions group with 3 updates: [hynek/build-and-inspect-python-package](https://github.com/hynek/build-and-inspect-python-package), [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) and [actions/setup-python](https://github.com/actions/setup-python).
+
+
+Updates `hynek/build-and-inspect-python-package` from 2.18.0 to 3.0.1
+- [Release notes](https://github.com/hynek/build-and-inspect-python-package/releases)
+- [Changelog](https://github.com/hynek/build-and-inspect-python-package/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/hynek/build-and-inspect-python-package/compare/d44ca7d91762de7a7d5436ddae667c6da6d1c3df...2abe76da66d0a6a4a227101f9348ee855797cfa5)
+
+Updates `pypa/gh-action-pypi-publish` from 1.14.0 to 1.14.2
+- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)
+- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/cef221092ed1bacb1cc03d23a2d87d1d172e277b...dc37677b2e1c63e2034f94d8a5b11f265b73ba33)
+
+Updates `actions/setup-python` from 6.3.0 to 7.0.0
+- [Release notes](https://github.com/actions/setup-python/releases)
+- [Commits](https://github.com/actions/setup-python/compare/ece7cb06caefa5fff74198d8649806c4678c61a1...5fda3b95a4ea91299a34e894583c3862153e4b97)
+
+---
+updated-dependencies:
+- dependency-name: hynek/build-and-inspect-python-package
+  dependency-version: 3.0.1
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: actions
+- dependency-name: pypa/gh-action-pypi-publish
+  dependency-version: 1.14.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: actions
+- dependency-name: actions/setup-python
+  dependency-version: 7.0.0
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+  dependency-group: actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>";Automated bot contributions
+arviz-devs_arviz;d5e42b1d51134195d6b29542dcfc13fdf20726ef;Oriol Abril-Pla <oriol.abril.pla@gmail.com>;1788959251;Preserve explicit link from error to hdi section (#2615);Documentation updates
+arviz-devs_arviz;2de05e6fc29b0d26f8d12cba046516e0e5f95621;Jordan Deklerk <jordan.deklerk@gmail.com>;1788545638;Better placement of HDI change (#2614);Documentation updates
+arviz-devs_arviz;dbd191cf4813e869aaa84c19b5d5485a6c7d223f;Karthik  Vidyasager Laishetti <laishettikarthik@gmail.com>;1786983786;"docs: fix label guide DataTree examples for arviz 1.0 (#2593)
+
+Co-authored-by: Oriol Abril-Pla <oriol.abril.pla@gmail.com>";Documentation updates
+arviz-devs_arviz;ad133eaf3ad364cded7280aa1c03567d3866bd38;Osvaldo A Martin <aloctavodia@gmail.com>;1786449089;fix linter (#2606);Other
+arviz-devs_arviz;e7d25ac5e66bb37ea65d892f666c71fd601f6e62;Osvaldo A Martin <aloctavodia@gmail.com>;1786447332;fix image and url (#2605);Documentation updates
+arviz-devs_arviz;b70e71c47eb7821efe28127663dbfcac2f912893;Osvaldo A Martin <aloctavodia@gmail.com>;1786444465;"Add social card (#2604)
+
+* Add social card
+
+* Add social card
+
+* clean conf
+
+* change img";Documentation updates
+arviz-devs_arviz;bd8695f0a8cdee3d063c1dad68263781fce35439;Osvaldo A Martin <aloctavodia@gmail.com>;1786436060;prepare release (#2603);Release
+arviz-devs_arviz;4712be4bfb00756d88f8d802a0bb3eb350bee124;sheikhayaan <sheikhayaan408@gmail.com>;1786383239;"Add hdi_prob to prob migration section in migration guide (#2601)
+
+* docs: add hdi_prob to prob migration section in migration guide
+
+* docs: remove TypeError reference from hdi section per review";Documentation updates
+arviz-devs_arviz;654510db8eafe3d6ad3d01342000040291982146;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1786351166;"Bump the actions group with 2 updates (#2600)
+
+Bumps the actions group with 2 updates: [actions/checkout](https://github.com/actions/checkout) and [actions/setup-python](https://github.com/actions/setup-python).
+
+
+Updates `actions/checkout` from 7.0.0 to 7.0.1
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0...3d3c42e5aac5ba805825da76410c181273ba90b1)
+
+Updates `actions/setup-python` from 6.2.0 to 6.3.0
+- [Release notes](https://github.com/actions/setup-python/releases)
+- [Commits](https://github.com/actions/setup-python/compare/a309ff8b426b58ec0e2a45f0f869d46889d02405...ece7cb06caefa5fff74198d8649806c4678c61a1)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: 7.0.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+  dependency-group: actions
+- dependency-name: actions/setup-python
+  dependency-version: 6.3.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+  dependency-group: actions
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>";Automated bot contributions
+clindatsci_dicomweb-python-client;056ccd026465710273ad8b8de466b0edc0607a18;Steve Pieper <pieper@isomics.com>;1786990316;"Merge pull request #128 from thiromi/bugfix/streaming-multipart-on2
+
+Make streaming multipart decode O(n)";Bug fixes
+clindatsci_dicomweb-python-client;f50060575cc261d9835e4cfdbf2e5db5db2f9e76;Thiago Hiromi Santana <thiago.santana@deephealth.com>;1786642682;"test: cover delimiters that straddle chunks
+
+Keep only 20/40MB timing cases; smaller sizes are timer noise.
+Trim the buffer in place and assert a split delimiter still
+decodes.
+
+Co-authored-by: Cursor <cursoragent@cursor.com>";Bug fixes
+clindatsci_dicomweb-python-client;5cc7ed2f697d4ac32ae2e53ef94cc41921535b9c;Thiago Hiromi Santana <thiago.santana@deephealth.com>;1786630326;"fix: make streaming multipart decode O(n)
+
+Resume find() across chunks instead of rescanning and copying the
+whole buffer on every iter_content chunk.
+
+Refs #127
+
+Co-authored-by: Cursor <cursoragent@cursor.com>";Bug fixes
+clindatsci_dicomweb-python-client;d577defb734395708394f079356d688d6e051d74;Thiago Hiromi Santana <thiago.santana@deephealth.com>;1786625941;"test: fail until streaming decode is O(n)
+
+iter_series stream=True rescans the whole buffer on every chunk
+when a series is one large part. This test requires streaming to
+stay within a small factor of buffered decode.
+
+Co-authored-by: Cursor <cursoragent@cursor.com>";Bug fixes
+clindatsci_dicomweb-python-client;4a2f52d3334808efaed89efd16f1ea479ff29fc5;Chris Bridge <chrisbridge44@googlemail.com>;1785247896;"Merge pull request #126 from ImagingDataCommons/bug/sonar_cloud_suggestions
+
+Fix sonar cloud suggestions from PR #125";Bug fixes
+clindatsci_dicomweb-python-client;46e38d3ccb9d5772f2a4df578879f15da217a9e1;Chris Bridge <chrisbridge44@googlemail.com>;1785244516;"Merge pull request #125 from erikogabrielsson/bugfix/close-fp
+
+Close file pointer in finally clause";Bug fixes
+clindatsci_dicomweb-python-client;2e6c3ef6b5ee93f54b6ac43df84184a10f89b2dc;Chris Bridge <chrisbridge44@googlemail.com>;1785244330;Fix sonar cloud suggestions from PR #125;Bug fixes
+clindatsci_dicomweb-python-client;6ac26a3797972edc5f3766ea5cf6cd773f566687;Erik O Gabrielsson <erik.o.gabrielsson@sectra.com>;1783750915;Close file pointer in finally clause;Bug fixes
+clindatsci_dicomweb-python-client;f48e5ca22391c1e0e2477b174898e88db834d6e6;Chris Bridge <chrisbridge44@googlemail.com>;1776807830;"Merge pull request #124 from ImagingDataCommons/feature/timeout
+
+Add timeout to all requests";Feature development
+clindatsci_dicomweb-python-client;975e4dd583d37b8e1bf68a3bdf2ce04a0d8b124c;Chris Bridge <chrisbridge44@googlemail.com>;1774297516;"Merge pull request #120 from jamesobutler/pydicom-deprecation-replace
+
+Replace pydicom deprecated usage of get_frame_offsets";Dependency updates
+peal_vole;37df59049f4e40ce9b1dde3ca4a0544984dba2dc;Christopher Jefferson <chris@bubblescope.net>;1782909267;Update tst;Other
+peal_vole;1f077c5a84987da5b341558859b248cd4d1a7165;Christopher Jefferson <chris@bubblescope.net>;1782905455;"docs: wire in the bettercanonical performance note
+
+The bettercanonical chunk (the ""you may get better performance with custom
+refiners, see VoleFind.Canonical and the Refiners chapter"" note) was defined
+but never inserted, so the canonical wrapper functions silently lacked the
+note that every other Vole.* function carries, and AutoDoc warned that the
+chunk was defined but never used. Insert it into the Vole.CanonicalPerm and
+Vole.CanonicalImage groups, matching the betterX notes on the other functions.";Documentation updates
+peal_vole;7d197c3f167841cd53033fdf5ce9d8022102c11a;Christopher Jefferson <chris@bubblescope.net>;1782894044;Update internal copies of dependencies;Dependency updates
+peal_vole;631f6d8125d8952da6711cfce9954cd16aa4f9a7;Christopher Jefferson <chris@bubblescope.net>;1782893659;"Test daemon mode: StopDaemon lifecycle and crash recovery
+
+- StopDaemon: a search caches a live daemon; StopDaemon clears it (and any
+  in-flight pipe), is idempotent, and a later search respawns cleanly.
+- Recovery: a GAP refiner callback that errors mid-search leaves the vole
+  process parked (inflight set); the next search warns, reaps it, forks
+  afresh, and still answers correctly. This mirrors a user hitting an error
+  inside vole and quitting the break loop.";Other
+peal_vole;37e7b6164fd5e5f0b6b3796deb3b518e7d197fcc;Christopher Jefferson <chris@bubblescope.net>;1782893653;"Reuse the vole process across searches (daemon mode)
+
+Keep the forked vole process alive between searches and reuse it, instead
+of forking afresh every time. This amortises the process-spawn cost, which
+dominates wall-clock for small problems (~24x faster on a batch of tiny
+searches). Set _Vole.UseDaemon := false to fork afresh per search.
+
+- vole now serves problems in a loop until GAP closes the pipe (EOF), then
+  shuts down cleanly; every per-problem object is rebuilt inside the loop,
+  so nothing leaks between problems.
+- Each problem carries a nonce that vole echoes back in its 'end' result,
+  so a desynchronised daemon stream is detected and refused, not trusted.
+- _Vole.inflight tracks the in-progress pipe, so a call that escapes mid-
+  search -- an error here or in a GAP callback, or a break loop that was
+  quit -- is reaped on the next call (with an Info warning) rather than
+  wedging the session.
+- release_images() drops canonical GapRef images before the end/goodbye
+  handshake, so dropGapRef traffic is serviced while GAP is still in its
+  read loop; a late drop would block a reused daemon.
+- vole exits cleanly when a GAP request hits EOF mid-conversation (GAP has
+  gone away, e.g. reaping a parked process), instead of panicking.
+- Fixed an IO_close -> IO_Close typo carried into the new ClosePipe helper.";Feature development
+peal_vole;1bcf6c28a60682ee4325f97e6a8aa2e03fd4b871;Christopher Jefferson <chris@bubblescope.net>;1781169472;"Combinators: add MultisetOf/TupleOf, a worked example, and benchmarks
+
+VoleRefiner.MultisetOf (SortedList) and VoleRefiner.TupleOf join SetOf;
+SetOf now rejects duplicate members with an error pointing at MultisetOf.
+The combinators are made type-aware (a set member is never identified
+with a tuple member describing the same GAP list) via explicit type tags.
+
+Documentation (refiners.gd) gains a section on the three combinators and
+a worked example: classifying unordered pairs of transformations up to
+simultaneous conjugacy with SetOf over GB_Con.TransformationConjugacy.
+It uses the ""one member canonical"" fact to cut |M|^2 to |singles|*|M|,
+and explains why canonicalising both members in advance would miss
+classes (the pair-canonicaliser need not canonise either member alone).
+
+Benchmarks (tst/benchmarks/):
+  * pairs-one-canonical.g -- the worked example as a runnable benchmark,
+    GAP Orbits cross-check at n <= 4;
+  * setof-pairs.g         -- brute single/ordered/unordered enumeration
+    via SetOf/TupleOf/MultisetOf, checked against a published table;
+  * orderly-transformations.g -- orderly generation of transformations up
+    to conjugacy through partial transformations, self-checking reps =
+    A126285(n) and totals = A001372(n); reaches n=13 in ~5 min.
+
+canonical-pairs.tst validates the SetOf/TupleOf/MultisetOf pair counts
+against GAP's Orbits and the partition/A001372 anchors.";Feature development
+peal_vole;eb64ebe9d86ca25fa0f9e4b12802d22d58650be8;Christopher Jefferson <chris@bubblescope.net>;1781169458;"Bundle conjugacy refiners; dispatch OnPoints conjugacy of (partial) maps
+
+Re-sync the bundled GraphBacktracking copy with the new
+Transformation/PartialPerm conjugacy refiners and the unified PermConjugacy.
+
+VoleRefiner.FromConstraint now turns Constraint.Stabilise/Transport with
+OnPoints on a transformation or partial permutation into the matching
+GB_Con conjugacy refiner, so Vole.Stabilizer(G, t, OnPoints) and
+Vole.RepresentativeAction(G, t1, t2, OnPoints) work directly on these
+objects (previously only perms were handled). Tested in wrapper.tst.";Feature development
+peal_vole;4ed737e286308331a87e7b8a73f0bd38d0104b97;Christopher Jefferson <chris@bubblescope.net>;1780922318;"Add VoleRefiner.SetOf: a generic ""set of refiners"" refiner
+
+VoleRefiner.SetOf([r1, ..., rk]) is a combinator over other refiners: it
+constrains a permutation to map the set of objects the members describe onto
+another such set (members may be reordered). With normaliser/conjugacy members
+this gives the setwise stabiliser (and, via Vole.CanonicalImage, canonical form)
+of a set of groups under conjugation.
+
+It reads each member's graphs through the member's own refine hooks and its
+action/objects through the member's constraint, combines the per-member graphs
+into a set-of-graphs widget (shared real points + per-member anchor; each graph
+a member emits becomes its own private copy block, so multi-record members do
+not collide), and checks/canonicalises via each member's action.
+
+- Type-aware: images are tagged by action, since GAP represents a set {3,4} and
+  a tuple [2,4] by the same list; a set is never identified with a tuple.
+- Per-node recall: initialise/fixed/changed/rBaseFinished are forwarded to the
+  members, so members that emit graphs during search (orbital normalisers) prune
+  beyond the root. Static members stay initialise-only.
+- Members are stateful, so SetOf is its own type IsVoleSetOfRefiner whose
+  SaveState/RestoreState delegate to the members (the engine only saves the
+  outer refiner's state).
+
+Members must be BacktrackKit/GraphBacktracking refiners (they expose a GAP
+graph); native Vole refiners build their graph in Rust and cannot be members.
+
+tst/onset.tst covers sets/tuples/digraphs, heterogeneous families, transporter,
+canonical image, and sets of groups under conjugation (simple and orbital
+members), checked against GAP and brute force.";Feature development
+peal_vole;67a2b476acce79c8c53d632ebe5984a3b1caf21f;Christopher Jefferson <chris@bubblescope.net>;1780411037;"Re-sync bundled deps; prefer external BacktrackKit/GraphBacktracking 1.1.0
+
+BacktrackKit and GraphBacktracking are now listed as suggested packages
+(>= 1.1.0). When a compatible copy is installed, GAP loads it and Vole
+defers to it; only when none is available (or it is too old) does Vole
+read its bundled copy under dependencies/. This is gated per package via
+TestPackageAvailability(name, ""1.1.0"") in init.g/read.g, which also stops
+the BacktrackKit -> images -> Vole load cycle from racing in the bundled
+copy.
+
+- dependencies/: re-imported from the 1.1.0 siblings (orbital normaliser
+  refiners, shared helpers, DummyRefiner warning), keeping the bundle a
+  byte-for-byte code mirror of the external packages.
+- gap/normaliser-cross.g: the experimental RegularOrbit3 cross-orbit
+  propagation refiners, kept in Vole (not upstream) and wired in through
+  GraphBacktracking's extraRegOrbitDeduction hook.
+- import.sh: also strip tmp/ when vendoring.";Dependency updates
+peal_vole;42e69408734b127690d25bf821a13f23180db1f4;Christopher Jefferson <chris@bubblescope.net>;1780357735;"Test canonical form of a set of groups under conjugation
+
+VoleFind.CanonicalPerm(G, Constraint.Stabilize(s, OnSets)) with s a set of
+*groups* canonises the unordered set under simultaneous conjugation. This
+is outside the documented object/action table (OnSets there is for sets of
+points), so the test verifies it against the true G-orbit equivalence:
+Vole's canonical-equality holds iff the two sets are G-conjugate, exhaustive
+over all pairs of 2-element sets from a subgroup pool in A5, plus a
+3-element conjugacy-invariance check. Ground truth uses permutation-only
+keys (a group as its sorted element set) to avoid GAP's non-total '<' on
+groups.";Other
+nbara_python-meegkit;7f1b3e0cdce57d7e987106a42f505d13064c3339;Daniel Pavlov <56317099+pvlov@users.noreply.github.com>;1787314721;"[FIX] Replace statsmodels.robust.scale.mad with scipy.stats.median_abs_deviation to avoid enabling the GIL (#126)
+
+Hi! Since this is a small diff and I couldn't find a `CONTRIBUTING.md`,
+I went ahead and opened a PR. I hope you don't mind!
+
+I wanted to use `meegkit` in a project that uses a [free-threaded Python
+interpreter](https://docs.python.org/3/howto/free-threading-python.html),
+but I ran into the following warning:
+
+```bash
+<frozen importlib._bootstrap>:491: RuntimeWarning: 
+The global interpreter lock (GIL) has been enabled to load module 'statsmodels.robust._qn', 
+which has not declared that it can run safely without the GIL. 
+To override this behavior and keep the GIL disabled (at your own risk), run with PYTHON_GIL=0 or -Xgil=0.
+```
+
+You can replicate this warning (using [uv](https://docs.astral.sh/uv/))
+with this command:
+
+```bash
+uv run --no-project --python 3.14t --with statsmodels python -c ""import statsmodels.robust.scale""
+```
+
+I checked where/how `statsmodels` is used and found only one occurrence:
+[`statsmodels.robust.scale.mad`](https://www.statsmodels.org/stable/generated/statsmodels.robust.scale.mad.html#statsmodels-robust-scale-mad).
+This PR replaces it with the equivalent
+[`scipy.stats.median_abs_deviation`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.median_abs_deviation.html#median-abs-deviation).
+This makes the package usable in free-threaded contexts while also
+dropping the `statsmodels` dependency entirely.
+
+Additionally, I added a test using the [built-in `sys._is_gil_enabled`
+check](https://docs.python.org/3/library/sys.html#sys._is_gil_enabled)
+to confirm the GIL stays disabled, and added `3.14` and `3.14t` to the
+CI python matrix. Let me know if you want to keep this or if I should
+drop this.";Bug fixes
+nbara_python-meegkit;6b6c1d7f5bb90bedb9d9591097906e0684a14e0b;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1785584485;"[MAINT] Bump the actions group with 3 updates (#125)
+
+Bumps the actions group with 3 updates:
+[actions/checkout](https://github.com/actions/checkout),
+[actions/setup-python](https://github.com/actions/setup-python) and
+[codecov/codecov-action](https://github.com/codecov/codecov-action).
+
+Updates `actions/checkout` from 6 to 7
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href=""https://github.com/actions/checkout/releases"">actions/checkout's
+releases</a>.</em></p>
+<blockquote>
+<h2>v7.0.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>block checking out fork pr for pull_request_target and workflow_run
+by <a href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2454"">actions/checkout#2454</a></li>
+<li>Bump actions/publish-immutable-action from 0.0.3 to 0.0.4 in the
+minor-actions-dependencies group across 1 directory by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2458"">actions/checkout#2458</a></li>
+<li>Bump flatted from 3.3.1 to 3.4.2 by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2460"">actions/checkout#2460</a></li>
+<li>Bump js-yaml from 4.1.0 to 4.2.0 by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2461"">actions/checkout#2461</a></li>
+<li>Bump <code>@​actions/core</code> and
+<code>@​actions/tool-cache</code> and Remove uuid by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2459"">actions/checkout#2459</a></li>
+<li>upgrade module to esm and update dependencies by <a
+href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2463"">actions/checkout#2463</a></li>
+<li>Bump the minor-npm-dependencies group across 1 directory with 3
+updates by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2462"">actions/checkout#2462</a></li>
+<li>getting ready for checkout v7 release by <a
+href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2464"">actions/checkout#2464</a></li>
+<li>update error wording by <a
+href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2467"">actions/checkout#2467</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> made
+their first contribution in <a
+href=""https://redirect.github.com/actions/checkout/pull/2454"">actions/checkout#2454</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/actions/checkout/compare/v6.0.3...v7.0.0"">https://github.com/actions/checkout/compare/v6.0.3...v7.0.0</a></p>
+<h2>v6.1.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li><strong>[BREAKING]</strong> backport
+<code>allow-unsafe-pr-checkout</code> to v6 by <a
+href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2500"">actions/checkout#2500</a></li>
+<li>backport fixes to releases-v6 by <a
+href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2527"">actions/checkout#2527</a></li>
+</ul>
+<p><a
+href=""https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout/"">https://github.blog/changelog/2026-06-18-safer-pull_request_target-defaults-for-github-actions-checkout/</a>
+for more details about this breaking change</p>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/actions/checkout/compare/v6.0.3...v6.1.0"">https://github.com/actions/checkout/compare/v6.0.3...v6.1.0</a></p>
+<h2>v6.0.3</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Update changelog by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2357"">actions/checkout#2357</a></li>
+<li>fix: expand merge commit SHA regex and add SHA-256 test cases by <a
+href=""https://github.com/yaananth""><code>@​yaananth</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2414"">actions/checkout#2414</a></li>
+<li>Fix checkout init for SHA-256 repositories by <a
+href=""https://github.com/yaananth""><code>@​yaananth</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2439"">actions/checkout#2439</a></li>
+<li>Update changelog for v6.0.3 by <a
+href=""https://github.com/yaananth""><code>@​yaananth</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2446"">actions/checkout#2446</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/yaananth""><code>@​yaananth</code></a>
+made their first contribution in <a
+href=""https://redirect.github.com/actions/checkout/pull/2414"">actions/checkout#2414</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/actions/checkout/compare/v6...v6.0.3"">https://github.com/actions/checkout/compare/v6...v6.0.3</a></p>
+<h2>v6.0.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Add orchestration_id to git user-agent when ACTIONS_ORCHESTRATION_ID
+is set by <a
+href=""https://github.com/TingluoHuang""><code>@​TingluoHuang</code></a>
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2355"">actions/checkout#2355</a></li>
+<li>Fix tag handling: preserve annotations and explicit fetch-tags by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2356"">actions/checkout#2356</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/actions/checkout/compare/v6.0.1...v6.0.2"">https://github.com/actions/checkout/compare/v6.0.1...v6.0.2</a></p>
+<h2>v6.0.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Update all references from v5 and v4 to v6 by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2314"">actions/checkout#2314</a></li>
+<li>Add worktree support for persist-credentials includeIf by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2327"">actions/checkout#2327</a></li>
+<li>Clarify v6 README by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2328"">actions/checkout#2328</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a
+href=""https://github.com/actions/checkout/blob/main/CHANGELOG.md"">actions/checkout's
+changelog</a>.</em></p>
+<blockquote>
+<h1>Changelog</h1>
+<h2>v7.0.1</h2>
+<ul>
+<li>Skip running unsafe pr check if input is default by <a
+href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2518"">actions/checkout#2518</a></li>
+<li>Trim only ascii whitespace for branch by <a
+href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2521"">actions/checkout#2521</a></li>
+<li>Escape values passed to --unset by <a
+href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2530"">actions/checkout#2530</a></li>
+<li>Various dependency updates</li>
+</ul>
+<h2>v7.0.0</h2>
+<ul>
+<li>Block checking out fork PR for pull_request_target and workflow_run
+by <a href=""https://github.com/aiqiaoy""><code>@​aiqiaoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2454"">actions/checkout#2454</a></li>
+<li>Various dependency updates</li>
+</ul>
+<h2>v6.0.3</h2>
+<ul>
+<li>Fix checkout init for SHA-256 repositories by <a
+href=""https://github.com/yaananth""><code>@​yaananth</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2439"">actions/checkout#2439</a></li>
+<li>fix: expand merge commit SHA regex and add SHA-256 test cases by <a
+href=""https://github.com/yaananth""><code>@​yaananth</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2414"">actions/checkout#2414</a></li>
+</ul>
+<h2>v6.0.2</h2>
+<ul>
+<li>Fix tag handling: preserve annotations and explicit fetch-tags by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2356"">actions/checkout#2356</a></li>
+</ul>
+<h2>v6.0.1</h2>
+<ul>
+<li>Add worktree support for persist-credentials includeIf by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2327"">actions/checkout#2327</a></li>
+</ul>
+<h2>v6.0.0</h2>
+<ul>
+<li>Persist creds to a separate file by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2286"">actions/checkout#2286</a></li>
+<li>Update README to include Node.js 24 support details and requirements
+by <a href=""https://github.com/salmanmkc""><code>@​salmanmkc</code></a>
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2248"">actions/checkout#2248</a></li>
+</ul>
+<h2>v5.0.1</h2>
+<ul>
+<li>Port v6 cleanup to v5 by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2301"">actions/checkout#2301</a></li>
+</ul>
+<h2>v5.0.0</h2>
+<ul>
+<li>Update actions checkout to use node 24 by <a
+href=""https://github.com/salmanmkc""><code>@​salmanmkc</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2226"">actions/checkout#2226</a></li>
+</ul>
+<h2>v4.3.1</h2>
+<ul>
+<li>Port v6 cleanup to v4 by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2305"">actions/checkout#2305</a></li>
+</ul>
+<h2>v4.3.0</h2>
+<ul>
+<li>docs: update README.md by <a
+href=""https://github.com/motss""><code>@​motss</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1971"">actions/checkout#1971</a></li>
+<li>Add internal repos for checking out multiple repositories by <a
+href=""https://github.com/mouismail""><code>@​mouismail</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1977"">actions/checkout#1977</a></li>
+<li>Documentation update - add recommended permissions to Readme by <a
+href=""https://github.com/benwells""><code>@​benwells</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2043"">actions/checkout#2043</a></li>
+<li>Adjust positioning of user email note and permissions heading by <a
+href=""https://github.com/joshmgross""><code>@​joshmgross</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2044"">actions/checkout#2044</a></li>
+<li>Update README.md by <a
+href=""https://github.com/nebuk89""><code>@​nebuk89</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2194"">actions/checkout#2194</a></li>
+<li>Update CODEOWNERS for actions by <a
+href=""https://github.com/TingluoHuang""><code>@​TingluoHuang</code></a>
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2224"">actions/checkout#2224</a></li>
+<li>Update package dependencies by <a
+href=""https://github.com/salmanmkc""><code>@​salmanmkc</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2236"">actions/checkout#2236</a></li>
+</ul>
+<h2>v4.2.2</h2>
+<ul>
+<li><code>url-helper.ts</code> now leverages well-known environment
+variables by <a href=""https://github.com/jww3""><code>@​jww3</code></a>
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/1941"">actions/checkout#1941</a></li>
+<li>Expand unit test coverage for <code>isGhes</code> by <a
+href=""https://github.com/jww3""><code>@​jww3</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1946"">actions/checkout#1946</a></li>
+</ul>
+<h2>v4.2.1</h2>
+<ul>
+<li>Check out other refs/* by commit if provided, fall back to ref by <a
+href=""https://github.com/orhantoy""><code>@​orhantoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1924"">actions/checkout#1924</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href=""https://github.com/actions/checkout/commit/3d3c42e5aac5ba805825da76410c181273ba90b1""><code>3d3c42e</code></a>
+prep v7.0.1 release (<a
+href=""https://redirect.github.com/actions/checkout/issues/2531"">#2531</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/28802689a136bfcdb721715abd713740beecbe07""><code>2880268</code></a>
+escape values passed to --unset (<a
+href=""https://redirect.github.com/actions/checkout/issues/2530"">#2530</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/12cd2235efa0937479335606d7c3ac9f6c0973b1""><code>12cd223</code></a>
+trim only ascii whitespace for branch (<a
+href=""https://redirect.github.com/actions/checkout/issues/2521"">#2521</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/62661c4e71a304b2823ed026347b8d34c3eac541""><code>62661c4</code></a>
+skip running unsafe pr check if input is default (<a
+href=""https://redirect.github.com/actions/checkout/issues/2518"">#2518</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/e8d4307400f9427dba7cb98e488d6ab85f1cec5f""><code>e8d4307</code></a>
+Bump the minor-actions-dependencies group with 2 updates (<a
+href=""https://redirect.github.com/actions/checkout/issues/2499"">#2499</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/631c942040754b6e095e929c1677c07e10ed4f87""><code>631c942</code></a>
+eslint 9 (<a
+href=""https://redirect.github.com/actions/checkout/issues/2474"">#2474</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/4f1f4aec02e41874fa0262ea8ff5172d7978ad1e""><code>4f1f4ae</code></a>
+Bump actions/upload-artifact from 4 to 7 (<a
+href=""https://redirect.github.com/actions/checkout/issues/2476"">#2476</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/ba097532fb203f7e88c9c3c0b899b49469908a92""><code>ba09753</code></a>
+Bump actions/checkout from 6 to 7 (<a
+href=""https://redirect.github.com/actions/checkout/issues/2488"">#2488</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/b9e0990d219a03df7633c93f6f005a8fecbcab22""><code>b9e0990</code></a>
+Bump docker/login-action from 3.3.0 to 4.2.0 (<a
+href=""https://redirect.github.com/actions/checkout/issues/2479"">#2479</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/e8cb398be4a550817e382abf69e4c12c76fce1f2""><code>e8cb398</code></a>
+Bump docker/build-push-action from 6.5.0 to 7.2.0 (<a
+href=""https://redirect.github.com/actions/checkout/issues/2478"">#2478</a>)</li>
+<li>Additional commits viewable in <a
+href=""https://github.com/actions/checkout/compare/v6...v7"">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `actions/setup-python` from 6 to 7
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href=""https://github.com/actions/setup-python/releases"">actions/setup-python's
+releases</a>.</em></p>
+<blockquote>
+<h2>v7.0.0</h2>
+<h2>What's Changed</h2>
+<h3>Enhancements</h3>
+<ul>
+<li>Migrate to ESM and upgrade dependencies by <a
+href=""https://github.com/priyagupta108""><code>@​priyagupta108</code></a>
+in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1330"">actions/setup-python#1330</a></li>
+<li>Pin SHA commits and update docs with latest versions by <a
+href=""https://github.com/HarithaVattikuti""><code>@​HarithaVattikuti</code></a>
+in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1338"">actions/setup-python#1338</a></li>
+<li>Remove the pip-install input by <a
+href=""https://github.com/gowridurgad""><code>@​gowridurgad</code></a> in
+<a
+href=""https://redirect.github.com/actions/setup-python/pull/1336"">actions/setup-python#1336</a></li>
+</ul>
+<h3>Bug Fix</h3>
+<ul>
+<li>Fix to Classify stderr warning messages as warnings instead of
+errors in annotations by <a
+href=""https://github.com/lmvysakh""><code>@​lmvysakh</code></a> in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1335"">actions/setup-python#1335</a></li>
+<li>Validate and retry manifest fetch to prevent silent failures by <a
+href=""https://github.com/priyagupta108""><code>@​priyagupta108</code></a>
+in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1332"">actions/setup-python#1332</a></li>
+</ul>
+<h3>Dependency Upgrade</h3>
+<ul>
+<li>Bump certifi from 2020.6.20 to 2024.7.4 in
+/<strong>tests</strong>/data by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1328"">actions/setup-python#1328</a></li>
+<li>Remove EOL Python versions and Bumps numpy text fixture by <a
+href=""https://github.com/priya-kinthali""><code>@​priya-kinthali</code></a>
+in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1333"">actions/setup-python#1333</a></li>
+<li>Upgrade <code>@​actions/cache</code> to 6.2.0 by <a
+href=""https://github.com/philip-gai""><code>@​philip-gai</code></a> in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1337"">actions/setup-python#1337</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a href=""https://github.com/lmvysakh""><code>@​lmvysakh</code></a>
+made their first contribution in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1335"">actions/setup-python#1335</a></li>
+<li><a
+href=""https://github.com/philip-gai""><code>@​philip-gai</code></a> made
+their first contribution in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1337"">actions/setup-python#1337</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/actions/setup-python/compare/v6...v7.0.0"">https://github.com/actions/setup-python/compare/v6...v7.0.0</a></p>
+<h2>v6.3.0</h2>
+<h2>What's Changed</h2>
+<h3>Enhancement</h3>
+<ul>
+<li>Add RHEL support and include Linux distro in cache keys by <a
+href=""https://github.com/priyagupta108""><code>@​priyagupta108</code></a>
+in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1323"">actions/setup-python#1323</a></li>
+<li>Fix pip cache error handling on Windows by <a
+href=""https://github.com/priyagupta108""><code>@​priyagupta108</code></a>
+in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1040"">actions/setup-python#1040</a></li>
+</ul>
+<h3>Dependency update</h3>
+<ul>
+<li>Upgrade minimatch from 3.1.2 to 3.1.5 by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1281"">actions/setup-python#1281</a></li>
+<li>Upgrade actions dependencies by <a
+href=""https://github.com/gowridurgad""><code>@​gowridurgad</code></a>
+with <a href=""https://github.com/Copilot""><code>@​Copilot</code></a> in
+<a
+href=""https://redirect.github.com/actions/setup-python/pull/1303"">actions/setup-python#1303</a></li>
+<li>Upgrade <code>@​actions/cache</code> to 5.1.0, log cache write
+denied by <a
+href=""https://github.com/jasongin""><code>@​jasongin</code></a> in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1324"">actions/setup-python#1324</a></li>
+<li>Upgrade dependency versions and test workflow configuration by <a
+href=""https://github.com/HarithaVattikuti""><code>@​HarithaVattikuti</code></a>
+in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1322"">actions/setup-python#1322</a></li>
+</ul>
+<h3>Documentation</h3>
+<ul>
+<li>Update advanced-usage.md by <a
+href=""https://github.com/Dunky-Z""><code>@​Dunky-Z</code></a> in <a
+href=""https://redirect.github.com/actions/setup-python/pull/811"">actions/setup-python#811</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a
+href=""https://github.com/gowridurgad""><code>@​gowridurgad</code></a>
+with <a href=""https://github.com/Copilot""><code>@​Copilot</code></a>
+made their first contribution in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1303"">actions/setup-python#1303</a></li>
+<li><a href=""https://github.com/jasongin""><code>@​jasongin</code></a>
+made their first contribution in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1324"">actions/setup-python#1324</a></li>
+<li><a href=""https://github.com/Dunky-Z""><code>@​Dunky-Z</code></a> made
+their first contribution in <a
+href=""https://redirect.github.com/actions/setup-python/pull/811"">actions/setup-python#811</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/actions/setup-python/compare/v6.2.0...v6.3.0"">https://github.com/actions/setup-python/compare/v6.2.0...v6.3.0</a></p>
+<h2>v6.2.0</h2>
+<h2>What's Changed</h2>
+<h3>Dependency Upgrades</h3>
+<ul>
+<li>Upgrade dependencies to Node 24 compatible versions by <a
+href=""https://github.com/salmanmkc""><code>@​salmanmkc</code></a> in <a
+href=""https://redirect.github.com/actions/setup-python/pull/1259"">actions/setup-python#1259</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href=""https://github.com/actions/setup-python/commit/5fda3b95a4ea91299a34e894583c3862153e4b97""><code>5fda3b9</code></a>
+Pin SHA commits and update docs with latest versions (<a
+href=""https://redirect.github.com/actions/setup-python/issues/1338"">#1338</a>)</li>
+<li><a
+href=""https://github.com/actions/setup-python/commit/4ab7e95f05e168b4356aebde89dd84f59c283d8e""><code>4ab7e95</code></a>
+Merge pull request <a
+href=""https://redirect.github.com/actions/setup-python/issues/1337"">#1337</a>
+from actions/philip-gai/bump-actions-cache-6-2-0</li>
+<li><a
+href=""https://github.com/actions/setup-python/commit/0f3a009f475dbea83c0371cd85d099690fee8c5c""><code>0f3a009</code></a>
+Remove the pip-install input (<a
+href=""https://redirect.github.com/actions/setup-python/issues/1336"">#1336</a>)</li>
+<li><a
+href=""https://github.com/actions/setup-python/commit/f8cf4291c8b8e273ddd26e569454615c7315d932""><code>f8cf429</code></a>
+Migrate to ESM and upgrade dependencies (<a
+href=""https://redirect.github.com/actions/setup-python/issues/1330"">#1330</a>)</li>
+<li><a
+href=""https://github.com/actions/setup-python/commit/54baeea5b34417d10a7479663a23cca53ea209b5""><code>54baeea</code></a>
+Validate and retry manifest fetch to prevent silent failures (<a
+href=""https://redirect.github.com/actions/setup-python/issues/1332"">#1332</a>)</li>
+<li><a
+href=""https://github.com/actions/setup-python/commit/c7092773a316760f4ecfe498e4af668a4dafeac5""><code>c709277</code></a>
+Annotation code fix (<a
+href=""https://redirect.github.com/actions/setup-python/issues/1335"">#1335</a>)</li>
+<li><a
+href=""https://github.com/actions/setup-python/commit/6849080452e69b330395e8a6d23cf90f56d76a1a""><code>6849080</code></a>
+remove EOL Python versions and Bumps numpy text fixture (<a
+href=""https://redirect.github.com/actions/setup-python/issues/1333"">#1333</a>)</li>
+<li><a
+href=""https://github.com/actions/setup-python/commit/0903b469fbf4441aadfe4f4b249dc5b1fba3a73e""><code>0903b46</code></a>
+Bump certifi from 2020.6.20 to 2024.7.4 in /<strong>tests</strong>/data
+(<a
+href=""https://redirect.github.com/actions/setup-python/issues/1328"">#1328</a>)</li>
+<li>See full diff in <a
+href=""https://github.com/actions/setup-python/compare/v6...v7"">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `codecov/codecov-action` from 6 to 7
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href=""https://github.com/codecov/codecov-action/releases"">codecov/codecov-action's
+releases</a>.</em></p>
+<blockquote>
+<h2>v7.0.0</h2>
+<p>⚠️ Due to migration issues with keybase, we are unable to update our
+keys under the <code>codecovsecurity</code> account. We have deleted the
+account and are using <code>codecovsecops</code> with the original gpg
+key</p>
+<h2>What's Changed</h2>
+<ul>
+<li>ci: remove Enforce License Compliance workflow by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1950"">codecov/codecov-action#1950</a></li>
+<li>chore(release): 7.0.0 by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1957"">codecov/codecov-action#1957</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v6.0.1...v7.0.0"">https://github.com/codecov/codecov-action/compare/v6.0.1...v7.0.0</a></p>
+<h2>v6.0.2</h2>
+<p>This is a copy of the <code>v7.0.0</code> release to make updates
+easier</p>
+<h2>What's Changed</h2>
+<ul>
+<li>ci: remove Enforce License Compliance workflow by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1950"">codecov/codecov-action#1950</a></li>
+<li>chore(release): 7.0.0 by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1957"">codecov/codecov-action#1957</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v6.0.1...v6.0.2"">https://github.com/codecov/codecov-action/compare/v6.0.1...v6.0.2</a></p>
+<h2>v6.0.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>fix: prevent template injection in run: steps (VULN-1652) by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1947"">codecov/codecov-action#1947</a></li>
+<li>chore(release): 6.0.1 by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1949"">codecov/codecov-action#1949</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v6.0.0...v6.0.1"">https://github.com/codecov/codecov-action/compare/v6.0.0...v6.0.1</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a
+href=""https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md"">codecov/codecov-action's
+changelog</a>.</em></p>
+<blockquote>
+<h2>v5.5.2</h2>
+<h3>What's Changed</h3>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.5.1..v5.5.2"">https://github.com/codecov/codecov-action/compare/v5.5.1..v5.5.2</a></p>
+<h2>v5.5.1</h2>
+<h3>What's Changed</h3>
+<ul>
+<li>fix: overwrite pr number on fork by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1871"">codecov/codecov-action#1871</a></li>
+<li>build(deps): bump actions/checkout from 4.2.2 to 5.0.0 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1868"">codecov/codecov-action#1868</a></li>
+<li>build(deps): bump github/codeql-action from 3.29.9 to 3.29.11 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1867"">codecov/codecov-action#1867</a></li>
+<li>fix: update to use local app/ dir by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1872"">codecov/codecov-action#1872</a></li>
+<li>docs: fix typo in README by <a
+href=""https://github.com/datalater""><code>@​datalater</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1866"">codecov/codecov-action#1866</a></li>
+<li>Document a <code>codecov-cli</code> version reference example by <a
+href=""https://github.com/webknjaz""><code>@​webknjaz</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1774"">codecov/codecov-action#1774</a></li>
+<li>build(deps): bump github/codeql-action from 3.28.18 to 3.29.9 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1861"">codecov/codecov-action#1861</a></li>
+<li>build(deps): bump ossf/scorecard-action from 2.4.1 to 2.4.2 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1833"">codecov/codecov-action#1833</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.5.0..v5.5.1"">https://github.com/codecov/codecov-action/compare/v5.5.0..v5.5.1</a></p>
+<h2>v5.5.0</h2>
+<h3>What's Changed</h3>
+<ul>
+<li>feat: upgrade wrapper to 0.2.4 by <a
+href=""https://github.com/jviall""><code>@​jviall</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1864"">codecov/codecov-action#1864</a></li>
+<li>Pin actions/github-script by Git SHA by <a
+href=""https://github.com/martincostello""><code>@​martincostello</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1859"">codecov/codecov-action#1859</a></li>
+<li>fix: check reqs exist by <a
+href=""https://github.com/joseph-sentry""><code>@​joseph-sentry</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1835"">codecov/codecov-action#1835</a></li>
+<li>fix: Typo in README by <a
+href=""https://github.com/spalmurray""><code>@​spalmurray</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1838"">codecov/codecov-action#1838</a></li>
+<li>docs: Refine OIDC docs by <a
+href=""https://github.com/spalmurray""><code>@​spalmurray</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1837"">codecov/codecov-action#1837</a></li>
+<li>build(deps): bump github/codeql-action from 3.28.17 to 3.28.18 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1829"">codecov/codecov-action#1829</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.4.3..v5.5.0"">https://github.com/codecov/codecov-action/compare/v5.4.3..v5.5.0</a></p>
+<h2>v5.4.3</h2>
+<h3>What's Changed</h3>
+<ul>
+<li>build(deps): bump github/codeql-action from 3.28.13 to 3.28.17 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1822"">codecov/codecov-action#1822</a></li>
+<li>fix: OIDC on forks by <a
+href=""https://github.com/joseph-sentry""><code>@​joseph-sentry</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1823"">codecov/codecov-action#1823</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.4.2..v5.4.3"">https://github.com/codecov/codecov-action/compare/v5.4.2..v5.4.3</a></p>
+<h2>v5.4.2</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li>See full diff in <a
+href=""https://github.com/codecov/codecov-action/compare/v6...v7"">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't
+alter it yourself. You can also trigger a rebase manually by commenting
+`@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits
+that have been made to it
+- `@dependabot show <dependency name> ignore conditions` will show all
+of the ignore conditions of the specified dependency
+- `@dependabot ignore <dependency name> major version` will close this
+group update PR and stop Dependabot creating any more for the specific
+dependency's major version (unless you unignore this specific
+dependency's major version or upgrade to it yourself)
+- `@dependabot ignore <dependency name> minor version` will close this
+group update PR and stop Dependabot creating any more for the specific
+dependency's minor version (unless you unignore this specific
+dependency's minor version or upgrade to it yourself)
+- `@dependabot ignore <dependency name>` will close this group update PR
+and stop Dependabot creating any more for the specific dependency
+(unless you unignore this specific dependency or upgrade to it yourself)
+- `@dependabot unignore <dependency name>` will remove all of the ignore
+conditions of the specified dependency
+- `@dependabot unignore <dependency name> <ignore condition>` will
+remove the ignore condition of the specified dependency and ignore
+conditions
+
+
+</details>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>";Automated bot contributions
+nbara_python-meegkit;8c9d44963e88140931ab8287e71611a6a010fb67;Nicolas Barascud <10333715+nbara@users.noreply.github.com>;1784568891;"[DOC] Improve example quality and API doc clarity (#124)
+
+## Summary
+
+This PR improves the documentation quality of the package in two ways:
+
+- rewrites and extends several example scripts to make them more
+didactic
+- tightens public API docstrings so parameters/returns are clearer and
+more consistent with the code
+
+## What changed
+
+- improved the teaching narrative of the example gallery, with clearer
+goals, interpretation hints, and simple quantitative checks
+- added a new ASR example focused on calibration sensitivity
+- regenerated the corresponding example notebooks
+- cleaned up docstrings across core public utilities and methods";Documentation updates
+nbara_python-meegkit;2c09b8ff7479a826e4443389c7211461b8e3956a;nbara <10333715+nbara@users.noreply.github.com>;1784558421;[MAINT] Bump version to 0.2.0;Release
+nbara_python-meegkit;380556c5ea097510047007128e16dc2560c0e3a9;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1784558047;"[MAINT] Bump the actions group across 1 directory with 2 updates (#98)
+
+Bumps the actions group with 2 updates in the / directory:
+[actions/checkout](https://github.com/actions/checkout) and
+[codecov/codecov-action](https://github.com/codecov/codecov-action).
+
+Updates `actions/checkout` from 5 to 6
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href=""https://github.com/actions/checkout/releases"">actions/checkout's
+releases</a>.</em></p>
+<blockquote>
+<h2>v6.0.0</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Update README to include Node.js 24 support details and requirements
+by <a href=""https://github.com/salmanmkc""><code>@​salmanmkc</code></a>
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2248"">actions/checkout#2248</a></li>
+<li>Persist creds to a separate file by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2286"">actions/checkout#2286</a></li>
+<li>v6-beta by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2298"">actions/checkout#2298</a></li>
+<li>update readme/changelog for v6 by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2311"">actions/checkout#2311</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/actions/checkout/compare/v5.0.0...v6.0.0"">https://github.com/actions/checkout/compare/v5.0.0...v6.0.0</a></p>
+<h2>v6-beta</h2>
+<h2>What's Changed</h2>
+<p>Updated persist-credentials to store the credentials under
+<code>$RUNNER_TEMP</code> instead of directly in the local git
+config.</p>
+<p>This requires a minimum Actions Runner version of <a
+href=""https://github.com/actions/runner/releases/tag/v2.329.0"">v2.329.0</a>
+to access the persisted credentials for <a
+href=""https://docs.github.com/en/actions/tutorials/use-containerized-services/create-a-docker-container-action"">Docker
+container action</a> scenarios.</p>
+<h2>v5.0.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Port v6 cleanup to v5 by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2301"">actions/checkout#2301</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/actions/checkout/compare/v5...v5.0.1"">https://github.com/actions/checkout/compare/v5...v5.0.1</a></p>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a
+href=""https://github.com/actions/checkout/blob/main/CHANGELOG.md"">actions/checkout's
+changelog</a>.</em></p>
+<blockquote>
+<h1>Changelog</h1>
+<h2>v6.0.2</h2>
+<ul>
+<li>Fix tag handling: preserve annotations and explicit fetch-tags by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2356"">actions/checkout#2356</a></li>
+</ul>
+<h2>v6.0.1</h2>
+<ul>
+<li>Add worktree support for persist-credentials includeIf by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2327"">actions/checkout#2327</a></li>
+</ul>
+<h2>v6.0.0</h2>
+<ul>
+<li>Persist creds to a separate file by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2286"">actions/checkout#2286</a></li>
+<li>Update README to include Node.js 24 support details and requirements
+by <a href=""https://github.com/salmanmkc""><code>@​salmanmkc</code></a>
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2248"">actions/checkout#2248</a></li>
+</ul>
+<h2>v5.0.1</h2>
+<ul>
+<li>Port v6 cleanup to v5 by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2301"">actions/checkout#2301</a></li>
+</ul>
+<h2>v5.0.0</h2>
+<ul>
+<li>Update actions checkout to use node 24 by <a
+href=""https://github.com/salmanmkc""><code>@​salmanmkc</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2226"">actions/checkout#2226</a></li>
+</ul>
+<h2>v4.3.1</h2>
+<ul>
+<li>Port v6 cleanup to v4 by <a
+href=""https://github.com/ericsciple""><code>@​ericsciple</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2305"">actions/checkout#2305</a></li>
+</ul>
+<h2>v4.3.0</h2>
+<ul>
+<li>docs: update README.md by <a
+href=""https://github.com/motss""><code>@​motss</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1971"">actions/checkout#1971</a></li>
+<li>Add internal repos for checking out multiple repositories by <a
+href=""https://github.com/mouismail""><code>@​mouismail</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1977"">actions/checkout#1977</a></li>
+<li>Documentation update - add recommended permissions to Readme by <a
+href=""https://github.com/benwells""><code>@​benwells</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2043"">actions/checkout#2043</a></li>
+<li>Adjust positioning of user email note and permissions heading by <a
+href=""https://github.com/joshmgross""><code>@​joshmgross</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2044"">actions/checkout#2044</a></li>
+<li>Update README.md by <a
+href=""https://github.com/nebuk89""><code>@​nebuk89</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2194"">actions/checkout#2194</a></li>
+<li>Update CODEOWNERS for actions by <a
+href=""https://github.com/TingluoHuang""><code>@​TingluoHuang</code></a>
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/2224"">actions/checkout#2224</a></li>
+<li>Update package dependencies by <a
+href=""https://github.com/salmanmkc""><code>@​salmanmkc</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/2236"">actions/checkout#2236</a></li>
+</ul>
+<h2>v4.2.2</h2>
+<ul>
+<li><code>url-helper.ts</code> now leverages well-known environment
+variables by <a href=""https://github.com/jww3""><code>@​jww3</code></a>
+in <a
+href=""https://redirect.github.com/actions/checkout/pull/1941"">actions/checkout#1941</a></li>
+<li>Expand unit test coverage for <code>isGhes</code> by <a
+href=""https://github.com/jww3""><code>@​jww3</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1946"">actions/checkout#1946</a></li>
+</ul>
+<h2>v4.2.1</h2>
+<ul>
+<li>Check out other refs/* by commit if provided, fall back to ref by <a
+href=""https://github.com/orhantoy""><code>@​orhantoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1924"">actions/checkout#1924</a></li>
+</ul>
+<h2>v4.2.0</h2>
+<ul>
+<li>Add Ref and Commit outputs by <a
+href=""https://github.com/lucacome""><code>@​lucacome</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1180"">actions/checkout#1180</a></li>
+<li>Dependency updates by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>- <a
+href=""https://redirect.github.com/actions/checkout/pull/1777"">actions/checkout#1777</a>,
+<a
+href=""https://redirect.github.com/actions/checkout/pull/1872"">actions/checkout#1872</a></li>
+</ul>
+<h2>v4.1.7</h2>
+<ul>
+<li>Bump the minor-npm-dependencies group across 1 directory with 4
+updates by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1739"">actions/checkout#1739</a></li>
+<li>Bump actions/checkout from 3 to 4 by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1697"">actions/checkout#1697</a></li>
+<li>Check out other refs/* by commit by <a
+href=""https://github.com/orhantoy""><code>@​orhantoy</code></a> in <a
+href=""https://redirect.github.com/actions/checkout/pull/1774"">actions/checkout#1774</a></li>
+<li>Pin actions/checkout's own workflows to a known, good, stable
+version. by <a href=""https://github.com/jww3""><code>@​jww3</code></a> in
+<a
+href=""https://redirect.github.com/actions/checkout/pull/1776"">actions/checkout#1776</a></li>
+</ul>
+<h2>v4.1.6</h2>
+<ul>
+<li>Check platform to set archive extension appropriately by <a
+href=""https://github.com/cory-miller""><code>@​cory-miller</code></a> in
+<a
+href=""https://redirect.github.com/actions/checkout/pull/1732"">actions/checkout#1732</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href=""https://github.com/actions/checkout/commit/de0fac2e4500dabe0009e67214ff5f5447ce83dd""><code>de0fac2</code></a>
+Fix tag handling: preserve annotations and explicit fetch-tags (<a
+href=""https://redirect.github.com/actions/checkout/issues/2356"">#2356</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/064fe7f3312418007dea2b49a19844a9ee378f49""><code>064fe7f</code></a>
+Add orchestration_id to git user-agent when ACTIONS_ORCHESTRATION_ID is
+set (...</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/8e8c483db84b4bee98b60c0593521ed34d9990e8""><code>8e8c483</code></a>
+Clarify v6 README (<a
+href=""https://redirect.github.com/actions/checkout/issues/2328"">#2328</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/033fa0dc0b82693d8986f1016a0ec2c5e7d9cbb1""><code>033fa0d</code></a>
+Add worktree support for persist-credentials includeIf (<a
+href=""https://redirect.github.com/actions/checkout/issues/2327"">#2327</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/c2d88d3ecc89a9ef08eebf45d9637801dcee7eb5""><code>c2d88d3</code></a>
+Update all references from v5 and v4 to v6 (<a
+href=""https://redirect.github.com/actions/checkout/issues/2314"">#2314</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/1af3b93b6815bc44a9784bd300feb67ff0d1eeb3""><code>1af3b93</code></a>
+update readme/changelog for v6 (<a
+href=""https://redirect.github.com/actions/checkout/issues/2311"">#2311</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/71cf2267d89c5cb81562390fa70a37fa40b1305e""><code>71cf226</code></a>
+v6-beta (<a
+href=""https://redirect.github.com/actions/checkout/issues/2298"">#2298</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/069c6959146423d11cd0184e6accf28f9d45f06e""><code>069c695</code></a>
+Persist creds to a separate file (<a
+href=""https://redirect.github.com/actions/checkout/issues/2286"">#2286</a>)</li>
+<li><a
+href=""https://github.com/actions/checkout/commit/ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493""><code>ff7abcd</code></a>
+Update README to include Node.js 24 support details and requirements (<a
+href=""https://redirect.github.com/actions/checkout/issues/2248"">#2248</a>)</li>
+<li>See full diff in <a
+href=""https://github.com/actions/checkout/compare/v5...v6"">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+Updates `codecov/codecov-action` from 5 to 6
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a
+href=""https://github.com/codecov/codecov-action/releases"">codecov/codecov-action's
+releases</a>.</em></p>
+<blockquote>
+<h2>v6.0.0</h2>
+<h2>⚠️ This version introduces support for node24 which make cause
+breaking changes for systems that do not currently support node24.
+⚠️</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>Revert &quot;Revert &quot;build(deps): bump actions/github-script
+from 7.0.1 to 8.0.0&quot;&quot; by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1929"">codecov/codecov-action#1929</a></li>
+<li>Th/6.0.0 by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1928"">codecov/codecov-action#1928</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.5.4...v6.0.0"">https://github.com/codecov/codecov-action/compare/v5.5.4...v6.0.0</a></p>
+<h2>v5.5.4</h2>
+<p>This is a mirror of <code>v5.5.2</code>. <code>v6</code> will be
+released which requires <code>node24</code></p>
+<h2>What's Changed</h2>
+<ul>
+<li>Revert &quot;build(deps): bump actions/github-script from 7.0.1 to
+8.0.0&quot; by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1926"">codecov/codecov-action#1926</a></li>
+<li>chore(release): 5.5.4 by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1927"">codecov/codecov-action#1927</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.5.3...v5.5.4"">https://github.com/codecov/codecov-action/compare/v5.5.3...v5.5.4</a></p>
+<h2>v5.5.3</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>build(deps): bump actions/github-script from 7.0.1 to 8.0.0 by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1874"">codecov/codecov-action#1874</a></li>
+<li>chore(release): bump to 5.5.3 by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1922"">codecov/codecov-action#1922</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.5.2...v5.5.3"">https://github.com/codecov/codecov-action/compare/v5.5.2...v5.5.3</a></p>
+<h2>v5.5.2</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>check gpg only when skip-validation = false by <a
+href=""https://github.com/maxweng-sentry""><code>@​maxweng-sentry</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1894"">codecov/codecov-action#1894</a></li>
+<li>chore: <code>disable_search</code> alignment by <a
+href=""https://github.com/freemanzMrojo""><code>@​freemanzMrojo</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1881"">codecov/codecov-action#1881</a></li>
+<li>chore(release): 5.5.2 by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1902"">codecov/codecov-action#1902</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li><a
+href=""https://github.com/maxweng-sentry""><code>@​maxweng-sentry</code></a>
+made their first contribution in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1894"">codecov/codecov-action#1894</a></li>
+<li><a
+href=""https://github.com/freemanzMrojo""><code>@​freemanzMrojo</code></a>
+made their first contribution in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1881"">codecov/codecov-action#1881</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.5.1...v5.5.2"">https://github.com/codecov/codecov-action/compare/v5.5.1...v5.5.2</a></p>
+<h2>v5.5.1</h2>
+<h2>What's Changed</h2>
+<ul>
+<li>build(deps): bump ossf/scorecard-action from 2.4.1 to 2.4.2 by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1833"">codecov/codecov-action#1833</a></li>
+<li>build(deps): bump github/codeql-action from 3.28.18 to 3.29.9 by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1861"">codecov/codecov-action#1861</a></li>
+<li>Document a <code>codecov-cli</code> version reference example by <a
+href=""https://github.com/webknjaz""><code>@​webknjaz</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1774"">codecov/codecov-action#1774</a></li>
+<li>docs: fix typo in README by <a
+href=""https://github.com/datalater""><code>@​datalater</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1866"">codecov/codecov-action#1866</a></li>
+<li>fix: update to use local app/ dir by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1872"">codecov/codecov-action#1872</a></li>
+<li>build(deps): bump github/codeql-action from 3.29.9 to 3.29.11 by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1867"">codecov/codecov-action#1867</a></li>
+<li>build(deps): bump actions/checkout from 4.2.2 to 5.0.0 by <a
+href=""https://github.com/dependabot""><code>@​dependabot</code></a>[bot]
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1868"">codecov/codecov-action#1868</a></li>
+<li>fix: overwrite pr number on fork by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1871"">codecov/codecov-action#1871</a></li>
+</ul>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a
+href=""https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md"">codecov/codecov-action's
+changelog</a>.</em></p>
+<blockquote>
+<h2>v5.5.2</h2>
+<h3>What's Changed</h3>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.5.1..v5.5.2"">https://github.com/codecov/codecov-action/compare/v5.5.1..v5.5.2</a></p>
+<h2>v5.5.1</h2>
+<h3>What's Changed</h3>
+<ul>
+<li>fix: overwrite pr number on fork by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1871"">codecov/codecov-action#1871</a></li>
+<li>build(deps): bump actions/checkout from 4.2.2 to 5.0.0 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1868"">codecov/codecov-action#1868</a></li>
+<li>build(deps): bump github/codeql-action from 3.29.9 to 3.29.11 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1867"">codecov/codecov-action#1867</a></li>
+<li>fix: update to use local app/ dir by <a
+href=""https://github.com/thomasrockhu-codecov""><code>@​thomasrockhu-codecov</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1872"">codecov/codecov-action#1872</a></li>
+<li>docs: fix typo in README by <a
+href=""https://github.com/datalater""><code>@​datalater</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1866"">codecov/codecov-action#1866</a></li>
+<li>Document a <code>codecov-cli</code> version reference example by <a
+href=""https://github.com/webknjaz""><code>@​webknjaz</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1774"">codecov/codecov-action#1774</a></li>
+<li>build(deps): bump github/codeql-action from 3.28.18 to 3.29.9 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1861"">codecov/codecov-action#1861</a></li>
+<li>build(deps): bump ossf/scorecard-action from 2.4.1 to 2.4.2 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1833"">codecov/codecov-action#1833</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.5.0..v5.5.1"">https://github.com/codecov/codecov-action/compare/v5.5.0..v5.5.1</a></p>
+<h2>v5.5.0</h2>
+<h3>What's Changed</h3>
+<ul>
+<li>feat: upgrade wrapper to 0.2.4 by <a
+href=""https://github.com/jviall""><code>@​jviall</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1864"">codecov/codecov-action#1864</a></li>
+<li>Pin actions/github-script by Git SHA by <a
+href=""https://github.com/martincostello""><code>@​martincostello</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1859"">codecov/codecov-action#1859</a></li>
+<li>fix: check reqs exist by <a
+href=""https://github.com/joseph-sentry""><code>@​joseph-sentry</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1835"">codecov/codecov-action#1835</a></li>
+<li>fix: Typo in README by <a
+href=""https://github.com/spalmurray""><code>@​spalmurray</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1838"">codecov/codecov-action#1838</a></li>
+<li>docs: Refine OIDC docs by <a
+href=""https://github.com/spalmurray""><code>@​spalmurray</code></a> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1837"">codecov/codecov-action#1837</a></li>
+<li>build(deps): bump github/codeql-action from 3.28.17 to 3.28.18 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1829"">codecov/codecov-action#1829</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.4.3..v5.5.0"">https://github.com/codecov/codecov-action/compare/v5.4.3..v5.5.0</a></p>
+<h2>v5.4.3</h2>
+<h3>What's Changed</h3>
+<ul>
+<li>build(deps): bump github/codeql-action from 3.28.13 to 3.28.17 by
+<code>@​app/dependabot</code> in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1822"">codecov/codecov-action#1822</a></li>
+<li>fix: OIDC on forks by <a
+href=""https://github.com/joseph-sentry""><code>@​joseph-sentry</code></a>
+in <a
+href=""https://redirect.github.com/codecov/codecov-action/pull/1823"">codecov/codecov-action#1823</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a
+href=""https://github.com/codecov/codecov-action/compare/v5.4.2..v5.4.3"">https://github.com/codecov/codecov-action/compare/v5.4.2..v5.4.3</a></p>
+<h2>v5.4.2</h2>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a
+href=""https://github.com/codecov/codecov-action/commit/57e3a136b779b570ffcdbf80b3bdc90e7fab3de2""><code>57e3a13</code></a>
+Th/6.0.0 (<a
+href=""https://redirect.github.com/codecov/codecov-action/issues/1928"">#1928</a>)</li>
+<li><a
+href=""https://github.com/codecov/codecov-action/commit/f67d33dda8a42b51c42a8318a1f66468119e898b""><code>f67d33d</code></a>
+Revert &quot;Revert &quot;build(deps): bump actions/github-script from
+7.0.1 to 8.0.0&quot;&quot;...</li>
+<li>See full diff in <a
+href=""https://github.com/codecov/codecov-action/compare/v5...v6"">compare
+view</a></li>
+</ul>
+</details>
+<br />
+
+
+Dependabot will resolve any conflicts with this PR as long as you don't
+alter it yourself. You can also trigger a rebase manually by commenting
+`@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits
+that have been made to it
+- `@dependabot show <dependency name> ignore conditions` will show all
+of the ignore conditions of the specified dependency
+- `@dependabot ignore <dependency name> major version` will close this
+group update PR and stop Dependabot creating any more for the specific
+dependency's major version (unless you unignore this specific
+dependency's major version or upgrade to it yourself)
+- `@dependabot ignore <dependency name> minor version` will close this
+group update PR and stop Dependabot creating any more for the specific
+dependency's minor version (unless you unignore this specific
+dependency's minor version or upgrade to it yourself)
+- `@dependabot ignore <dependency name>` will close this group update PR
+and stop Dependabot creating any more for the specific dependency
+(unless you unignore this specific dependency or upgrade to it yourself)
+- `@dependabot unignore <dependency name>` will remove all of the ignore
+conditions of the specified dependency
+- `@dependabot unignore <dependency name> <ignore condition>` will
+remove the ignore condition of the specified dependency and ignore
+conditions
+
+
+</details>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>";Automated bot contributions
+nbara_python-meegkit;5f507e6e63d82cdd8b53c6c7aad56f2888ea33ef;Nicolas Barascud <10333715+nbara@users.noreply.github.com>;1784557762;"[FIX] riemann ASR eigpair mismatch in nonlinear_eigenspace (#100)
+
+## Summary
+- fix issue #99 by returning eigenvalues consistent with optimized
+eigenvectors in nonlinear_eigenspace
+- compute eigenvalues from Rayleigh quotients of the optimized basis
+(diag(X.T @ L @ X))
+- add regression test to ensure returned eigenvalues match returned
+eigenvectors
+
+## Why
+The previous implementation returned eigenvalues from a
+random-initialization matrix (S0) but eigenvectors from the optimizer
+solution (Xsol.point), producing mismatched eigpairs and unstable
+component ordering in riemann ASR.
+
+## Validation
+- reproduced issue behavior before fix (riemann selecting clean
+channels)
+- after fix, reproduced expected behavior (no inverted channel
+selection)
+- tests run:
+  - tests/test_cov.py::test_nonlinear_eigenspace_consistent_eigpairs
+  - tests/test_asr.py with riemann-focused selection
+
+Closes #99";Bug fixes
+nbara_python-meegkit;72054a4d7323f31867cd679453b8631ae1cee047;Stefan Appelhoff <stefan.appelhoff@mailbox.org>;1784557162;"[FIX] ASR: tolerate flat/degenerate segments in fit_eeg_distribution (#120)
+
+`fit_eeg_distribution`'s vectorized grid-search histogram divides by a
+per-column baseline-relative value that is **zero** when a run of
+samples is tied (e.g. a flatlined / disconnected electrode): `cols =
+nbins / newX[mcurr]` → `inf`, then `H = newX[:m] * cols` → `nan`
+(0·inf). Casting `nan` to int yields `INT64_MIN`, and `np.bincount` then
+raises `ValueError: 'list' argument must have no negative elements`.
+
+A flat segment is exactly the dropout case `max_dropout_fraction` is
+meant to tolerate, so the fit should degrade gracefully rather than
+crash. This makes the histogram binning ignore non-finite entries (count
+them in no bin), so a degenerate grid column just yields a poor — but
+finite — objective and the grid search continues. Results on finite
+input are unchanged.
+
+The crash is reachable through the primary public entry point:
+`ASR().fit(X)` with a single dead channel currently raises `ValueError`.
+
+### Testing
+Adds three tests: the direct `fit_eeg_distribution` crash on a tied/flat
+vector; `ASR().fit()` with a dead channel; and a guard that the result
+on clean data is numerically identical (same `mu, sig, alpha, beta`).
+Full `tests/test_asr.py` + `tests/test_cov.py` pass; `ruff` clean.
+
+---
+**Note:** includes the `nonlinear_eigenspace` reproducibility fix from
+#118 so the riemann CI test (`test_asr_class[*-riemann]`) is stable
+regardless of what this PR changes. Once #118 merges first, that commit
+drops out on rebase.";Bug fixes
+nbara_python-meegkit;1ae2321fbdc767bed113ebb87357855f5615d0a6;Stefan Appelhoff <stefan.appelhoff@mailbox.org>;1784556830;"[FIX] ASR: round half away from zero for window/bad-chan counts (#116)
+
+numpy's `np.round` (banker's rounding, round-half-to-even) and Python's
+`int()` truncation diverge from MATLAB's round-half-away-from-zero at
+exact-half inputs, giving ±1 counts for the bad-channel count and window
+length `N` in `clean_windows` and `asr_calibrate`. Add a
+`_round_half_away` helper and apply it at those sites.
+
+Reachability is narrow (ties need specific channel counts or odd-integer
+`sfreq` with `win_len=0.5`; common rates never trigger), so this mainly
+hardens the edge cases.
+
+### Testing
+Added a helper unit test covering ties (`2.5→3`, `128.5→129`,
+`-2.5→-3`), divergence from `np.round`, array input, and `int()`
+exactness. Full `tests/test_asr.py` passes; `ruff` clean.";Bug fixes
+nbara_python-meegkit;cbc8943fe99d0fbee37ae69acbc900bc8901a572;Stefan Appelhoff <stefan.appelhoff@mailbox.org>;1784556586;"[FIX] ASR: use a real PSD square root in asr_calibrate (#114)
+
+`asr_calibrate` computed `M = linalg.sqrtm(np.real(Uavg))`, which only
+strips a pre-existing imaginary part but does not make `Uavg`
+positive-semidefinite. If the robust average covariance `Uavg` has even
+a tiny negative eigenvalue (realistic for average-referenced /
+rank-deficient EEG covariance means), `scipy.linalg.sqrtm` of the
+resulting indefinite symmetric matrix returns a complex `M`, which then
+silently propagates through `eigh(M)` into `V` and the threshold matrix
+`T`. `asr_process` already guards against this by taking `np.real()` of
+its eigen-quantities, but `asr_calibrate` did not.
+
+Add `_psd_sqrtm()`, a real symmetric PSD square root that symmetrizes
+its input and clamps numerically-negative eigenvalues to zero before
+taking the root, and use it in `asr_calibrate`. For a genuinely PSD
+`Uavg` (the normal case) this is the same principal square root `sqrtm`
+would return, so calibration is numerically unchanged.
+
+### Testing
+Added a regression test showing `_psd_sqrtm` stays real on a slightly
+indefinite matrix where `sqrtm` returns complex. Full
+`tests/test_asr.py` passes; `ruff` clean.";Bug fixes
+nbara_python-meegkit;f71758db5137702f4a9121acb38a5a474e7a2b32;Stefan Appelhoff <stefan.appelhoff@mailbox.org>;1784556288;"[FIX] ASR: apply online recency weights on the euclid path (weighted geometric median) (#112)
+
+Two coupled fixes to the online covariance weighting in
+`ASR.transform()`:
+
+- **The euclid path discarded its recency weights.** `transform()`
+builds an exponential recency weight vector and passes it to
+`asr_process(sample_weight=...)`, but on the default `method=""euclid""`
+path `asr_process` called `geometric_median()` with no weights (and the
+function had no weight parameter), so the weights were computed and
+silently dropped — only the riemann branch ever used them. Generalize
+`geometric_median()` to an optional `sample_weight` using the weighted
+Vardi-Zhang iteration; with `sample_weight=None` (or all ones) it
+reduces exactly to the previous unweighted algorithm, so `asr_calibrate`
+(which calls it unweighted) is numerically unchanged. Pass
+`sample_weight` through the euclid branch of `asr_process`.
+- **The recency weight vector used prefix sums instead of suffix sums.**
+A block's recency is the number of more-recent samples that follow it,
+i.e. the suffix sum of the per-block sample counts; the previous
+prefix-sum index mis-weighted interior blocks whenever chunk sizes
+differed. Add a `_recency_weights` helper that accumulates the suffix
+sample count newest→oldest.
+
+### Testing
+Adds regression tests for the weighted median (uniform == unweighted),
+the euclid wiring, and the suffix-sum weights. Full `tests/test_asr.py`
+passes; `ruff` clean.";Bug fixes
+flyaflya_causact;d50610e3d923a4f805e8d16dcde3c6db01c6f019;flyaflya <ajf@udel.edu>;1757705466;release 0.6.0;Release
+flyaflya_causact;c9cfa4cfcc929b5626bc875a8a963eb667b7071f;flyaflya <ajf@udel.edu>;1757703012;completed arviz replacement;Dependency updates
+flyaflya_causact;6c2b714c9cbfe3c9277f58713adfe67e74c6dee0;flyaflya <ajf@udel.edu>;1757629078;The latest JAX release introduced breaking changes for older NumPyro versions, and ArviZ currently has an issue with a function I was relying on.;Dependency updates
+flyaflya_causact;c181b2972c82841383b8b8a506bc5288dfb57528;Adam Fleischhacker <ajfly1@gmail.com>;1755885954;Increment version number to 0.5.8.9000;Release
+flyaflya_causact;f67c54da39b53428a05ab462c5b91d85cfa13ca7;Adam Fleischhacker <ajfly1@gmail.com>;1755884374;Increment version number to 0.5.8;Release
+flyaflya_causact;5a846258ee8627044c5cedc2cd8f1183ac75568c;Adam Fleischhacker <ajfly1@gmail.com>;1755884251;updates for CRAN release;Release
+flyaflya_causact;63e47d1c26deed817b5b0f696ef496515496d71b;Adam Fleischhacker <ajfly1@gmail.com>;1754426889;use correct object name for type test.;Bug fixes
+flyaflya_causact;fac02cbdeccf205385e893cd81a0f6723368c0b2;Adam Fleischhacker <ajfly1@gmail.com>;1754426079;add library name;Bug fixes
+flyaflya_causact;4ff92bf37d214f24f1d31aa453f3637aca24ff8a;Adam Fleischhacker <ajfly1@gmail.com>;1754423722;fix ggplot testing issue: Testing ggplot class #67;Bug fixes
+flyaflya_causact;c6e82f759465395374655235d079549e79bea889;Adam Fleischhacker <ajfly1@gmail.com>;1753714043;upgarde for ggplot2;Dependency updates
+geolytix_xyz;6d3dacc44dad5504f6ad416099de920e3ec35a66;Rob Hurst <robert.hurst@geolytix.co.uk>;1790931979;Update v5.0.6 release notes;Release
+geolytix_xyz;dcd03630e1c901d8d3dfd449f1fefdd848f95ad3;Rob Hurst <robert.hurst@geolytix.co.uk>;1790931786;Merge branch 'patch' into patch-release-notes;Release
+geolytix_xyz;d5633e4928381d20d19790829818a3c085afb559;Dennis Bauszus <dennis.bauszus@geolytix.co.uk>;1790857559;"Do not execute locationCount query if unnecessary (#2963)
+
+* Do not execute locationCount query if unnecessary
+
+* rebuild merged ui library
+
+* Check for layer.queryparams.viewport too as locationCount.mjs does
+
+* link viewport conditions
+
+* Rebuild
+
+* rebuilt libraries after conflict resolution.
+
+* rebuild merged lib
+
+---------
+
+Co-authored-by: Simon Leech <56163132+simon-leech@users.noreply.github.com>";Bug fixes
+geolytix_xyz;2d9cb040d03d2069f715fea00f42a5873b857cb9;Dennis Bauszus <dennis.bauszus@geolytix.co.uk>;1790853173;"Add input guard for the dropdown (#2966)
+
+* Add input guard for the dropdown
+
+* rebuild merged ui lib
+
+* add guard for key select without dropdown_search
+
+* rebuild merged ui library
+
+---------
+
+Co-authored-by: Rob Hurst <43169158+RobAndrewHurst@users.noreply.github.com>";Bug fixes
+geolytix_xyz;4b0da66bda7f032cf9388720d0966af9bf626567;Dennis Bauszus <dennis.bauszus@geolytix.co.uk>;1790840586;"On demand icon loading (#2961)
+
+* Add drawLegend module method
+
+* ensure that legend is redrawn for location entry layers.
+
+* fix issue in regards to replaceChildren being applied twice
+
+* Conditional Icon load
+
+* rebuild merged library
+
+* resolve redraw issue on theme change.";Feature development
+geolytix_xyz;32dcc0d7aed09ec7dca8320ffebfaeaad3382699;Dennis Bauszus <dennis.bauszus@geolytix.co.uk>;1790775948;"Review release of dbs clients, logging, and add tests (#2967)
+
+* statement_timeout default and param
+
+* keepAlive connection
+
+* add retry logging";Bug fixes
+geolytix_xyz;0167067aa7bea79e35c04ceab4fa961d23140884;Dennis Bauszus <dennis.bauszus@geolytix.co.uk>;1790773911;"Test parse SVG templates fetched in the svgTemplates module (#2964)
+
+* Parse fetched svgTemplates src
+
+* update documentation
+
+* add note in regards to the encoding
+
+* rebuild merged mapp library
+
+---------
+
+Co-authored-by: Agata Brok <cityremade@users.noreply.github.com>";Other
+geolytix_xyz;57f7ff56207598e80f2b79e87b4d491bfc5a7a3a;Rob Hurst <robert.hurst@geolytix.co.uk>;1790767367;Bump version to v5.0.6;Release
+geolytix_xyz;44a2604f46d1583ac3605f4c5c001d944846e34a;Rob Hurst <43169158+RobAndrewHurst@users.noreply.github.com>;1790767028;"Accept an inline PEM private key in SECRET_KEY [ENG-377] (#2968)
+
+Co-authored-by: Rob Hurst <roberthurstsa@gmail.com>
+Co-authored-by: Dennis Bauszus <dennis.bauszus@geolytix.co.uk>";Feature development
+geolytix_xyz;2443b7d43d27c56434f1af054eff50c17c2b54e3;Dennis Bauszus <dennis.bauszus@geolytix.co.uk>;1790747317;The cloudinary input should be visible on mobile display (#2962);Bug fixes
+genouest_biomaj-download;3b393f1cda023e561451099e676fd25b20155178;mboudet <mateo.boudet@gmail.com>;1747747880;"Merge pull request #54 from braffes/master
+
+Issue when only http.group.file.name is set";Bug fixes
+genouest_biomaj-download;3de17b8b0e97d75f038e9e818eaefc6090201503;Brice  RAFFESTIN <brice.raffestin@pasteur.fr>;1744389543;refractor and fix tuple type at the start of loop;Bug fixes
+genouest_biomaj-download;97bb9777185464ce9b37bfdda5eb13f022237036;Brice  RAFFESTIN <brice.raffestin@pasteur.fr>;1739556227;fix typo;Bug fixes
+genouest_biomaj-download;cc65f245c133311f089aa98c20c8c8c3b72eee0d;Brice  RAFFESTIN <brice.raffestin@pasteur.fr>;1739555982;fix issue when only http_parse.file_name is used;Bug fixes
+genouest_biomaj-download;b23668c6e474f7eb0428f827ec80e72aa80c63fd;mboudet <mateo.boudet@gmail.com>;1725978481;"Merge pull request #49 from genouest/ci_upgrade
+
+Upgrade ci";Other
+genouest_biomaj-download;a362bc69a3a4967af4b0ca8d1640591ed07dbe5d;mboudet <mateo.boudet@gmail.com>;1724680927;"Merge pull request #51 from mboudet/master
+
+Trying some stuff..";Feature development
+genouest_biomaj-download;bf7f4f4601f57bcc54e45447f5c09991c6d65425;mboudet <mateo.boudet@gmail.com>;1724425271;Manage proxies & auth just in case;Feature development
+genouest_biomaj-download;744f1964ca3a3725ca1e50054cb325c89bd2c2d3;mboudet <mateo.boudet@gmail.com>;1724421557;use requests instead;Feature development
+genouest_biomaj-download;94431559580ca00f340946bae36caf057670eece;mboudet <mateo.boudet@gmail.com>;1724420579;Trying some stuff..;Other
+genouest_biomaj-download;0cd068d7bb792bf8b2071aafbf371c6db4cc2a3e;Anthony Bretaudeau <anthony.bretaudeau@inria.fr>;1724329988;damn;Other
+pressio_pressio;4382daa9ccd4792b96dd634c2e1890431c965999;Caleb Schilly <132086024+cwschilly@users.noreply.github.com>;1757513009;"Merge pull request #787 from Pressio/fix_clang_error
+
+fix apple clang error for template function";Bug fixes
+pressio_pressio;002b121477eb60e584d38cd0c84f9c02f0a1bc58;Francesco Rizzi <francesco.rizzi@ng-analytics.com>;1757489481;fix;Bug fixes
+pressio_pressio;e4fbd3453c31e613665f99fd12a91362bcd8323e;Francesco Rizzi <fnrizzi@sandia.gov>;1757347681;"Merge pull request #784 from Pressio/783-fix-header-guards-and-licenses
+
+#783: Fix header guards and licenses";Other
+pressio_pressio;314cfb2bfe340b11da67d3f313ba917f2ff4e655;Caleb Schilly <cwschilly@gmail.com>;1757346871;"#783: run header and license check scripts; fix license template to avoid brackets";Other
+pressio_pressio;70d65513b0f4659a05a7c04f51aefa0fa7a3779b;Francesco Rizzi <fnrizzi@sandia.gov>;1756890756;"Merge pull request #782 from Pressio/781-bump-version-number-to-0170
+
+#781: Bump version number to 0.17.0";Release
+pressio_pressio;2707cd69ff0b418b2a8b98425a567b055bebb304;Caleb Schilly <cwschilly@gmail.com>;1756831183;"#781: bump version number; correct line numbers";Release
+pressio_pressio;c3e5913203283eacce3e647454b6232a6ed60bb7;Francesco Rizzi <fnrizzi@sandia.gov>;1756370087;"Merge pull request #778 from Pressio/add_trilinos_16-1-0_ci
+
+rom: add trilinos 16-1 to ci ";Dependency updates
+pressio_pressio;ecf09b268a81e7cfdf51f0a8a6fad47986070f6e;Francesco Rizzi <francesco.rizzi@ng-analytics.com>;1756361733;add;Dependency updates
+pressio_pressio;3617fcc394bf5e5bbeb137396f84391cb46dd6a8;Francesco Rizzi <fnrizzi@sandia.gov>;1756219616;"Merge pull request #777 from Pressio/use_new_pressio_value_macro
+
+use new pressio value macro";Other
+pressio_pressio;a6dd77c1da84462eedd1e29d563d576dfa7d95e0;Francesco Rizzi <francesco.rizzi@ng-analytics.com>;1756213349;simplify;Other
+kkondo1981_aglm;5f25d77f627a1d498cea77744a93f71bb6045de9;Kenji Kondo <kkondo.odnokk@gmail.com>;1746979099;Submitted to CRAN.;Release
+kkondo1981_aglm;dc5c3b58e6da86f54ede86a1260df933f579a85d;Kenji Kondo <kkondo1981@users.noreply.github.com>;1746978608;"Merge pull request #69 from kkondo1981/fix-cran-202505
+
+Fix cran 202505 - 3";Bug fixes
+kkondo1981_aglm;f92ffd3999fd94f9029e1623a824f3686f9450c7;Kenji Kondo <kkondo.odnokk@gmail.com>;1746978563;Merge branch 'fix-cran-202505' of https://github.com/kkondo1981/aglm into fix-cran-202505;Bug fixes
+kkondo1981_aglm;23f2d13c1c09baabc28ed07bc738f41a88a23617;Kenji Kondo <kkondo1981@users.noreply.github.com>;1746978437;"Merge pull request #68 from kkondo1981/fix-cran-202505
+
+Fix cran 202505 - 2";Bug fixes
+kkondo1981_aglm;ac3334a93e243ad6c4fd5546ee15aebb98b9a2ff;Kenji Kondo <kkondo.odnokk@gmail.com>;1746978348;small fix;Bug fixes
+kkondo1981_aglm;f817bce00bffaa40c964ebb57d0138f0eb5ec8a3;Kenji Kondo <kkondo.odnokk@gmail.com>;1746973179;small fix;Bug fixes
+kkondo1981_aglm;31f099655d278d25735b6f6570b453628eee372d;Kenji Kondo <kkondo.odnokk@gmail.com>;1746972120;Added new cran-comments.md.;Release
+kkondo1981_aglm;92912575407292a9ca0d90b47d85eac3c2c8ae95;Kenji Kondo <kkondo.odnokk@gmail.com>;1746968743;Added an import directive to avoid NOTEs in check().;Bug fixes
+kkondo1981_aglm;b0c219acc488b37a54973ca8f5ead599724093a4;Kenji Kondo <kkondo1981@users.noreply.github.com>;1746952941;"Merge pull request #67 from kkondo1981/fix-cran-202505
+
+Fix cran 202505";Bug fixes
+kkondo1981_aglm;1e0c919ceab66cca12a057b1596f5717cd176e53;Kenji Kondo <kkondo.odnokk@gmail.com>;1746952795;added the rhub action.;Other
+winvector_vtreat;6fa2eb97db74b1bfbde90cb0cfa8e2715fb20842;Nina Zumel <nzumel@win-vector.com>;1736461287;added crosslink;Documentation updates
+winvector_vtreat;c5b5a90e0a353282592748d8020dac03a21cb4cb;Nina Zumel <nzumel@win-vector.com>;1736374030;moved to github document;Documentation updates
+winvector_vtreat;00a672f1d23eaae05023214829e1d80e2e5e95f0;Nina Zumel <nzumel@win-vector.com>;1736373897;Example of Custom Level Coding;Documentation updates
+winvector_vtreat;9e28ee2eae4fa93db6b7bdc67b02dfcdc021ce61;John Mount <jmount@win-vector.com>;1718297889;re-render (figure was not appearing on Github);Documentation updates
+winvector_vtreat;13305bd26d1cd3e8c7b57583513d0ea99528b0c2;John Mount <jmount@win-vector.com>;1718229040;add example of using heuristic;Documentation updates
+winvector_vtreat;7635228a1941573fda62fbfc06b117a0737c5c98;John Mount <jmount@win-vector.com>;1718207439;check;Release
+winvector_vtreat;74757ccb71054f3b2646f81a0b0b40b264502860;John Mount <jmount@win-vector.com>;1718206782;work on thinning package;Dependency updates
+winvector_vtreat;eaba23d094e9ac2edeb439fb30a6f179a4aca20a;John Mount <jmount@win-vector.com>;1718202829;re-run older examples;Documentation updates
+winvector_vtreat;7ee77dcef3082a9e791aa8f0d764d8910b12b326;John Mount <jmount@win-vector.com>;1692472321;ignore more;Release
+winvector_vtreat;00dae9e1b7a09f90aaa5dee9935165fbb94de901;John Mount <jmount@win-vector.com>;1692472177;rebuild and recheck;Release

@@ -1,0 +1,3 @@
+# NCAR/wrf-python
+
+The 13-month gap from mid-2019 to mid-2020 is clear in the history, but the commits do not state why development paused. The return is easier to explain: [issue #122](https://github.com/NCAR/wrf-python/issues/122) requested T2 diagnostics, and the post-gap commit [added T2 support and closed the issue](https://github.com/NCAR/wrf-python/commit/f01f615788d7ee6aeee99b874a4a945f91780d4b); a later PR corrected an `interplevel` example. Kevin Hallock appears in the pre-gap merge and Isaac Rowe authored the first post-gap fix, followed by work from other contributors. Recent activity includes documentation maintenance and automated dependency updates.

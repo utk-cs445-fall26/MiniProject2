@@ -1,0 +1,3 @@
+# google/jax-md
+
+The project has no gaps of three months or longer; the recorded maximum inactivity is only one month, so there is no meaningful abandonment period to explain. A short 2025 lull was followed by a [README update](https://github.com/jax-md/jax-md/commit/07029df5ff55acedb375b76910705eefef5aca3b) and maintenance work including [PR #347](https://github.com/jax-md/jax-md/pull/347), while nearby issues concerned simulation behavior and import/version compatibility. These records indicate continuing maintenance and feature development rather than a distinct recovery, and do not establish why a one-month gap occurred. Activity patterns make the longest gap difficult to interpret as inactivity because it is brief relative to the project's continuing history.

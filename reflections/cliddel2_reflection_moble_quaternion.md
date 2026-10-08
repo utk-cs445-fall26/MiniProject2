@@ -1,0 +1,3 @@
+# moble/quaternion
+
+The approximately 32-month gap from 2011 to 2014 is easy to identify but hard to explain: issue and pull-request searches found no nearby records, and the available README history did not clarify the period. The first post-gap change, [“Fix for double scalar conversion error”](https://github.com/moble/quaternion/commit/98625caeb37c74494aeda0191108d071d5250538), indicates a concrete bug fix at the return of activity, followed by a long history of continued maintenance. Martin Ling authored the cited pre-gap fix while James McFlan authored the first post-gap fix, suggesting a change in contributors rather than a documented recovery plan. More recent work centers on Python compatibility and build/release maintenance.

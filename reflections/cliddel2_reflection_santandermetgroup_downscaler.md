@@ -1,0 +1,3 @@
+# SantanderMetGroup/downscaleR
+
+The nine-month gap in 2024 is apparent, but neither the commit messages nor nearby README history establishes why work slowed; four issues and [PR #106](https://github.com/SantanderMetGroup/downscaleR/pull/106) were recorded during the interval. Activity returned with a change to dqm and qdm that harmonized `n.quantiles`, followed in March 2025 by a change allowing a specified `n.quantiles` value. These commit subjects suggest quantile-related maintenance as the focus of the return, not a proven cause of the earlier gap. Ana Casanueva authored the first post-gap change while Antonio S. Cofiño appears on the pre-gap merge, and the last commit before the requested cutoff was Mar 11, 2025.

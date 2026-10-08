@@ -1,0 +1,3 @@
+# leakec/tfc
+
+The roughly five-month gap between the April and September 2024 commits is clearly visible, although no issues or pull requests were opened during it and the README only records version/year updates around its boundaries. The return commit says tolerances were bumped because of numerical jitter from a new JAX version, giving a concrete reason for that particular maintenance change but not for the preceding quiet period. The same maintainer, leakec, authored work on both sides of the gap, which is more consistent with a pause in maintenance than a documented change of ownership. Later commits continue to address dependency and release upkeep.

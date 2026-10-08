@@ -1,0 +1,468 @@
+pre/post;project;commit;author;time;message
+pre;bids-apps_mrtrix3_connectome;ee8761a9077813f3ae2e94781dc92785f9a0f028;Robert Smith <robert.smith@florey.edu.au>;1693487421;"Downgrade complex data rescale warning
+"
+pre;bids-apps_mrtrix3_connectome;034c5059440067e0f0e1c4910c848d9a7aad26fd;Robert Smith <robert.smith@florey.edu.au>;1693487594;"Make DWI import robust to additional dots in filesystem path
+"
+pre;bids-apps_mrtrix3_connectome;d4b25b38095c3177e8e65f865721a056c03bd6a5;Robert Smith <robert.smith@florey.edu.au>;1693723731;"Incorporate dwicat
+
+- Make use of MRtrix3 dwicat command, which means that multiple input DWI series will have their intensities balanced based on their relative b=0 intensities.
+In addition, if the input DWIs have different voxel grids, they will be conformed onto the same voxel grid prior to running dwifslpreproc; this will be done using rigid-body transformation if possible.
+- In addition, if contents of the fmap/ directory are to be used, they will be explicitly aligned to the DWI voxel grid for construction of the SE-EPI image to be used as input to dwifslpreproc, avoiding interpolation if possible.
+"
+pre;bids-apps_mrtrix3_connectome;7f4dd708faa10f7cd43bf5da275c158ff94b3a14;Robert Smith <robert.smith@florey.edu.au>;1693723760;"Version increment to 0.6.0
+"
+pre;bids-apps_mrtrix3_connectome;f17f59c863dd911c6213bf4569bfc985d778b64c;Remi Gau <remi_gau@hotmail.com>;1693742640;"Merge ae3ea40ff06bc4ec7174c6322832fc10d9dc6bd8 into c937eeb9b504dc9e40a798e3b3776893e9af01c9
+"
+pre;bids-apps_mrtrix3_connectome;a24ee8a578f887993abc1eef7e0b3597710472db;Robert Smith <robert.smith@florey.edu.au>;1695784624;"dwifslpreproc: Use --data_is_shelled on unknown failure
+
+An instance was discovered where FSL eddy fails due to judging the DWI data to not be a shelled acquisition, but the contents that it writes to stdout is some form of binary data rather than the expected error meswsage.
+With this change, if eddy fails due to an unknwon reason, but it has not yet been attempted with this option included, that second attempt will be made, even though the corresponding error message has not yet been encountered.
+"
+pre;bids-apps_mrtrix3_connectome;4016ecffecb243b5d726bc5bcf6656b42321c1e8;Robert Smith <robert.smith@florey.edu.au>;1695784651;"Fix exception catch on mrinfo shell detection failure
+"
+pre;bids-apps_mrtrix3_connectome;2fadc596f3e480aef05bbb434ce262d989f8e97a;Robert Smith <robert.smith@florey.edu.au>;1695784839;"Change MRtrix3 version for dwicat update
+
+In d4b25b38095c3177e8e65f865721a056c03bd6a5, the version of MRtrix3 was updated to introduce a feature addition to dwicat. However, this involved changing that dependency to the development branch of MRtrix3, which contains changes over and above just the enhancement of dwicat.
+With this commit, the version of MRtrix3 installed is genuinely 3.0.4, with some additional unrelated hotfixes since that tag, plus the cherry-picked enhancement to dwicat, such that no other major changes to MRtrix3 are introduced.
+"
+pre;bids-apps_mrtrix3_connectome;d4e4d2e242cbfbc9ce3eb3c427d0f3c90b848c38;Robert Smith <robert.smith@florey.edu.au>;1695784847;"Merge 2fadc596f3e480aef05bbb434ce262d989f8e97a into c937eeb9b504dc9e40a798e3b3776893e9af01c9
+"
+pre;bids-apps_mrtrix3_connectome;f6ba724b031e5ee04210c78ae50dd0eb771bd0e3;Robert Smith <robert.smith@florey.edu.au>;1697258350;"Merge 178ba551e36a57bbef783180ef4f0d3740b7948a into c937eeb9b504dc9e40a798e3b3776893e9af01c9
+"
+post;bids-apps_mrtrix3_connectome;59a03ae92066d844a4f037a35b21d19484a87ade;Robert Smith <robert.smith@florey.edu.au>;1750217570;"Update MRtrix3 version
+
+New version is 3.0.5 but with two additional changes:
+- Hotfix for -export_grad_fsl (https://github.com/MRtrix3/mrtrix3/pull/3112).
+- Enhancements to dwicat back-ported from development brain to 3.0.x (https://github.com/MRtrix3/mrtrix3/pull/2702).
+"
+post;bids-apps_mrtrix3_connectome;04d873139df8a13ae267f2dcaea88266190b689c;Robert Smith <robert.smith@florey.edu.au>;1750217669;"Merge 5603476a4033e97fe4f79c63cbb1fe3277fbdf53 into c937eeb9b504dc9e40a798e3b3776893e9af01c9
+"
+post;bids-apps_mrtrix3_connectome;ab632062dffc1cd4949ed6383d31b32330bce662;Robert Smith <robert.smith@florey.edu.au>;1750309868;"Fixes to container recipes for 0.6.0
+"
+post;bids-apps_mrtrix3_connectome;21c1e58ad5679fcff36fe2b9d7cf0ce21543a20d;Robert Smith <robert.smith@florey.edu.au>;1750311293;"Merge pull request #126 from bids-apps/dev
+
+Upgrade to 0.6.0"
+post;bids-apps_mrtrix3_connectome;5bf3ac978658c82e3cb93887fb8fedca6cbfb5f1;Remi Gau <remi_gau@hotmail.com>;1750318690;"Merge ae3ea40ff06bc4ec7174c6322832fc10d9dc6bd8 into 21c1e58ad5679fcff36fe2b9d7cf0ce21543a20d
+"
+post;bids-apps_mrtrix3_connectome;025c9e88da8b55a057d97794f0d4199bd92cd13e;Robert Smith <robert.smith@florey.edu.au>;1761691205;"Major refactoring to match future MRtrix 3.1.0
+
+- Divide the code across multiple source files.
+- Move source files to new location according to MRtrix 3.1.0 filesystem arrangement.
+- Build against development branch of MRtrix3 (future version 3.1.0). This includes incorporation of multiple upstream features, such as metadata handling fixes and dwicat dealing with subtle differences in voxel grids.
+- Make use of dwidenoise2.
+- Perform gradient non-linearity distortion correction if the requisite deformation field is made available.
+"
+post;bids-apps_mrtrix3_connectome;296da43432fdeadae7b62bc72ca4584e8350ad80;Robert Smith <robert.smith@florey.edu.au>;1761694033;"Remove branch with manual implementation of dwibiasnormmask contents
+"
+post;bids-apps_mrtrix3_connectome;08fc89c0274da8a32bf5ccea2a3c1db3184815ff;Robert Smith <robert.smith@florey.edu.au>;1761696310;"Add preprepco-level options -eddy_cubicflm, -eddy_mbs
+"
+post;bids-apps_mrtrix3_connectome;208426bb3f3895778d4ebe7b68b5833f2d351ca4;Robert Smith <robert.smith@florey.edu.au>;1762214407;"Preproc: Fix refactoring of ""concat_denoise""
+"
+post;bids-apps_mrtrix3_connectome;613411a0108910e37135881bfb7a01e35a9c5ce6;Robert Smith <robert.smith@florey.edu.au>;1762214417;"Merge 208426bb3f3895778d4ebe7b68b5833f2d351ca4 into 21c1e58ad5679fcff36fe2b9d7cf0ce21543a20d
+"
+pre;google_jax-md;9a0b228f2f04b4fc0e365261e8752588f4ccccfc;sschoenholz <schsam@google.com>;1560792600;"Merge branch 'notebook' of https://github.com/google/jax-md into notebook
+"
+pre;google_jax-md;ac318aaaf31f0d2213583551ddd8ff9c34ac8d1a;sschoenholz <schsam@google.com>;1560792684;"Merge pull request #26 from google/notebook
+
+Added basic support for bonded potentials."
+pre;google_jax-md;641d6a58e4ce3bf507f8c5e38db6ab2883e2f981;sschoenholz <schsam@google.com>;1560793091;"Small fix to internal build for EAM test.
+"
+pre;google_jax-md;f0776f7858ec3af1a9ad1149e129a5a028119f4e;sschoenholz <schsam@google.com>;1560793160;"Merge pull request #27 from google/notebook
+
+Small fix to internal build for EAM test."
+pre;google_jax-md;a77d2038e4571b949c74a2a1dbd7f6d505987892;sschoenholz <schsam@google.com>;1560793413;"Moved errant minimization.ipynb back to notebooks.
+"
+pre;google_jax-md;fedb7548ab76931f4b2b2850cc6f0e35e66afe52;sschoenholz <schsam@google.com>;1560793676;Small fix to pairwise distance calculation.
+pre;google_jax-md;a69eaca2c9f8742f60d6807739f413614d0f8f22;sschoenholz <schsam@google.com>;1560793753;"Merge pull request #28 from google/notebook
+
+Fixed up a few issues with minimization.ipynb."
+pre;google_jax-md;0bd344ec37d4cf8e5868cfbf54cefe37e71707c5;sschoenholz <schsam@google.com>;1560796501;"Small fix to call simple_spring instead of spring.
+"
+pre;google_jax-md;f561eb5acc9d8a634e1bb5d21b26dbc452eb7c5b;sschoenholz <schsam@google.com>;1560796546;"Merge branch 'notebook' of https://github.com/google/jax-md into notebook
+"
+pre;google_jax-md;3dcbeb0a45f554a64fe03b8c441e6ad7a930d749;sschoenholz <schsam@google.com>;1560796602;"Merge pull request #29 from google/notebook
+
+Small fix to call simple_spring instead of spring."
+post;google_jax-md;8bc195e3761f78c84ffb1d980909e3577f85f9d8;Sam Schoenholz <schsam@google.com>;1565112289;"Fixed issue caused by JAX #912 where vmap does not work over kwargs.
+"
+post;google_jax-md;7a5cf3b1e6ebb024aad9db8470bbc539c5654215;sschoenholz <schsam@google.com>;1565112355;"Merge pull request #31 from google/batching_fix
+
+Fixed issue caused by JAX #912 where vmap does not work over kwargs."
+post;google_jax-md;285b476fcf248c9fcc6b50eeffaeef442bfa6260;sschoenholz <schsam@google.com>;1565634007;"Bringing branch up to master.
+
+"
+post;google_jax-md;8d4a44536b28cec4af735f15f714010eea2cc34e;sschoenholz <schsam@google.com>;1565634400;"Merge branch 'master' into notebook
+"
+post;google_jax-md;60ea60bf1661307347beb641baf92489fe349047;sschoenholz <schsam@google.com>;1565635253;Updated jaxlib version.
+post;google_jax-md;c5316601cda1c7cd42db776822edc37a33cab7e5;sschoenholz <schsam@google.com>;1565635889;Updated jaxlib link.
+post;google_jax-md;c1cdee5af73cfc20b9d4819fba0758fa0ba93ce4;sschoenholz <schsam@google.com>;1565636085;Updated jaxlib path.
+post;google_jax-md;faaf0aa1d7df20e3350f94d85d824d6697b66ceb;sschoenholz <schsam@google.com>;1565636153;"Updated jaxlib path in notebooks. (#35)
+
+
+"
+post;google_jax-md;007972b9adbeb02d1ae462f03dcb6ba7f073bb93;sschoenholz <schsam@google.com>;1566006891;"Refactor of cell lists along with updated tests.
+"
+post;google_jax-md;799b54d2d626c1e74345a509df0fc5877ed6c085;Sam Schoenholz <schsam@google.com>;1566424845;"Improved handling of dynamic potential parameters.
+"
+pre;juliaintervals_intervalarithmetic.jl;e5ff3ee18e22bd340df25810e668913d8d92c53d;David P. Sanders <dpsanders@gmail.com>;1415110402;"Added specific promotion rule for intersect. I don't know why this is necessary
+"
+pre;juliaintervals_intervalarithmetic.jl;bab6d487920fdcadde5183228d0cfd61a64f378b;David P. Sanders <dpsanders@gmail.com>;1415110432;"Added specific promotion rule for intersect. I don't know why this is necessary
+"
+pre;juliaintervals_intervalarithmetic.jl;2b3d2fb3dcbc5a716a3cc77ca2f0c83915a6e976;David P. Sanders <dpsanders@gmail.com>;1415110566;"Changed empty_interval -> emptyinterval and moved it back to Float64
+"
+pre;juliaintervals_intervalarithmetic.jl;00187b32e654950953336bfc25339dfbb539d1df;David P. Sanders <dpsanders@gmail.com>;1415110833;"Moved isthin to interval_arithmetic
+"
+pre;juliaintervals_intervalarithmetic.jl;60c921bc719a6057cf261ab5b8b527d84cecad26;David P. Sanders <dpsanders@gmail.com>;1415133999;"Corrected find_roots->findroots
+"
+pre;juliaintervals_intervalarithmetic.jl;f4220629f29cadf8b27c82936b8cd776ffffb50c;David P. Sanders <dpsanders@gmail.com>;1415134830;"Added level counter to Newton so that can return a list of the empty interval if there are no roots, for type stability
+"
+pre;juliaintervals_intervalarithmetic.jl;2d33d3b8ca0baf8104efd214376247774be9099e;David P. Sanders <dpsanders@gmail.com>;1415134934;"Removed printing from Newton
+"
+pre;juliaintervals_intervalarithmetic.jl;7796ace9a873b99810cd21c8a669bfeac9114fd0;David P. Sanders <dpsanders@gmail.com>;1415137701;"Version of newton which always returns an array of type Any[]
+"
+pre;juliaintervals_intervalarithmetic.jl;1272b9dc6012a85997cf44543171120b5098c698;David P. Sanders <dpsanders@gmail.com>;1415250101;"Krawczyk and Newtoon return Array{Any, 1}. Added optional method argument to findroots
+"
+pre;juliaintervals_intervalarithmetic.jl;54a050b5e8cd3305ef6e21563d22e5713d862cc5;Luis Benet <lbenet@users.noreply.github.com>;1415251356;"Merge pull request #7 from dpsanders/parametrised_intervals
+
+Parametrized intervals and root-finding routines
+
+Extension to have parametrized intervals, root-finding routines (so far, newton.jl was reviewed, but krawczyk.jl yields consistent results), definition for an empty_interval, and lots of other minor corrections. Test pass :-)"
+post;juliaintervals_intervalarithmetic.jl;49ae22510c942f2e29ea0430ea9a919e4b2741fd;David P. Sanders <dpsanders@gmail.com>;1428167912;"Modified changelog to reflect changes for 0.0.3.
+"
+post;juliaintervals_intervalarithmetic.jl;5a0c429a2f0ee24db12f986cb77b7a6437ad4ebc;David P. Sanders <dpsanders@gmail.com>;1428209670;"Modify README for v0.0.3
+
+Intervals no longer contain just BigFloats."
+post;juliaintervals_intervalarithmetic.jl;2394e1f1358847e58753458e80ee12008278ef46;David P. Sanders <dpsanders@gmail.com>;1428422430;"Macros now work correctly. Changed conversion so that raw numbers are converted to intervals. Added REQUIRE
+"
+post;juliaintervals_intervalarithmetic.jl;bc20b9a237e4bd264d5131ff5349052aeff26191;David P. Sanders <dpsanders@gmail.com>;1428422430;"Macros now work correctly. Changed conversion so that raw numbers are converted to intervals. Added REQUIRE
+"
+post;juliaintervals_intervalarithmetic.jl;37582e14c05ac047ac8caa4480c7954213959663;David P. Sanders <dpsanders@gmail.com>;1428428023;"Added vacuous rounding definitions for version 0.4; tests now pass. Started to use @doc for documentation; added conditional import of Docile for version 0.3
+"
+post;juliaintervals_intervalarithmetic.jl;f38fac3482562718694bc332a90bf9c849a501ee;David P. Sanders <dpsanders@gmail.com>;1428428023;"Added vacuous rounding definitions for version 0.4; tests now pass. Started to use @doc for documentation; added conditional import of Docile for version 0.3
+"
+post;juliaintervals_intervalarithmetic.jl;9c853a44d37bc13336232687fb6a768aabcbb8a5;David P. Sanders <dpsanders@gmail.com>;1428428093;"Updated .travis.yml to new, simpler version
+"
+post;juliaintervals_intervalarithmetic.jl;086697f105c59242328fb24a4eae5f46155b960b;David P. Sanders <dpsanders@gmail.com>;1428428288;"Doc for the floatinterval macro.
+"
+post;juliaintervals_intervalarithmetic.jl;0b9f4a2d4e59a2e35f94dc110d4d0293fb19833b;David P. Sanders <dpsanders@gmail.com>;1428428288;"Doc for the  macro.
+"
+post;juliaintervals_intervalarithmetic.jl;4e82b2bdd99bd0db9741d7573d883e38576122b6;David P. Sanders <dpsanders@gmail.com>;1428428288;"Doc for the  macro.
+"
+pre;leakec_tfc;9d306703253c62ccae8745f85e208ec06b7b4a0a;leake <carl.leake@jpl.nasa.gov>;1701786877;"Updating to get rid of warnings.
+"
+pre;leakec_tfc;b0c714ba82892fb279cf14a54815803949ae516d;leake <carl.leake@jpl.nasa.gov>;1701786900;"Updating version.
+"
+pre;leakec_tfc;9c11cf38c17eeb20faeb00e9ff34187fdb795200;leake <carl.leake@jpl.nasa.gov>;1707262970;"Updating to use newer version of actions.
+"
+pre;leakec_tfc;80744727921c9f1057a0fe5dfc6f05870be3d67a;Carl Leake <46822212+leakec@users.noreply.github.com>;1709922212;Fixing typo.
+pre;leakec_tfc;b9abab77048210937208f5ce8291980c253d98ce;leake <carl.leake@jpl.nasa.gov>;1712185537;"Fixing deprecations as of JAX 0.4.26.
+"
+pre;leakec_tfc;3466dbe9fc57b4aa636a8180287dadf9eb394ccf;leake <carl.leake@jpl.nasa.gov>;1712185575;"Removing build on clean. This ensures we re-compile if needed.
+"
+pre;leakec_tfc;966e189a370c514004f91156619280974ee49d75;leake <carl.leake@jpl.nasa.gov>;1712185632;"Bumping the version and year.
+"
+pre;leakec_tfc;394ba3c5b61e6b95633d59ba467e73752935cd1d;leake <carl.leake@jpl.nasa.gov>;1712185665;"Merge branch 'main' of https://github.com/leakec/tfc
+"
+pre;leakec_tfc;c625dfb7bd28c14390d8a115b1a39d40e1275648;leake <carl.leake@jpl.nasa.gov>;1712185978;"Removing requirement on old version of jinja.
+"
+pre;leakec_tfc;9b02e3c865aa93496a8a15c6d7940a6eb193b3ac;leake <carl.leake@jpl.nasa.gov>;1712187209;"Updating to latest actions.
+"
+post;leakec_tfc;842648f3bab4f2efb9278441db0082df2060f5b2;leake <carl.leake@jpl.nasa.gov>;1726152395;"Bumping tolerances. Numerical jitter due to new JAX version.
+"
+post;leakec_tfc;6b63ee568d9c85649f9d631403adbbc4094d17c9;leake <carl.leake@jpl.nasa.gov>;1726158842;"Updating to work with newer versions of scipy.
+"
+post;leakec_tfc;e37a5339a4b177f787715e81c448b6492cfb830c;leake <carl.leake@jpl.nasa.gov>;1726236468;"Minor changes to keep tests running.
+"
+post;leakec_tfc;3ff87858ce3fa709cb298a2aaa7511e7aa668856;leake <carl.leake@jpl.nasa.gov>;1726241747;"Bumping the version.
+"
+post;leakec_tfc;548c7786b820c7affac0607de1723c73100bd8cd;leakec <leakec57@gmail.com>;1726358918;"Removing Python 3.9, since jaxlib doesn't support it anymore.
+* Trying to build jaxlib for MacOS from source in the GitHub action to
+  fix AVX instruction issue.
+"
+post;leakec_tfc;d94bc864a58f02682aeb4a81f3c8f7a0e36833ab;leakec <leakec57@gmail.com>;1726359536;"Fixing typo.
+"
+post;leakec_tfc;f55234e7a449219a7ddd6fbb75665505bea0e59e;leakec <leakec57@gmail.com>;1726360842;"Adding macos-13 to try and get a native ARM runner.
+"
+post;leakec_tfc;c78514ab65a580e8f3984d21c2766226ddfd3900;leakec <leakec57@gmail.com>;1726361385;"Trying auto as the architecture for macos.
+"
+post;leakec_tfc;dbca2da1cc69626e7b393d5501c9bb26429b7eb9;leakec <leakec57@gmail.com>;1726361640;"Adding macos-13, a x86_64 macos runner, for building the x86_64 wheels.
+This fixes the AVX instruction issue.
+"
+post;leakec_tfc;c6ebdb47e2d17d2f50280a3c454698fdd3480225;leakec <leakec57@gmail.com>;1726412176;"Dropping testing of macos arm for now, since numeric tolerances are much
+larger.
+"
+pre;magazino_move_base_flex;8bd6ac743ff5dcae70cd5d08e8bff36d22507cac;Remco Roozendaal <rroozendaal90@gmail.com>;1646843605;"Update mbf_abstract_nav/src/move_base_action.cpp
+
+Co-authored-by: Jorge Santos Simón <jsantossimon@gmail.com>"
+pre;magazino_move_base_flex;040e33ae2d477f3204e7d9b4f59fc3cea00358a1;Rainer Kuemmerle <kuemmerle@magazino.eu>;1646899606;"Fix race condition between finishing and updating a goal
+
+AbstractActionBase sets slot.in_use to false after having left runImpl.
+This means that a check based on slot.in_use might still see a thread as
+running despite the goal got assigned a terminal state.
+Hence, we also check that the goal is still active to consume an update.
+
+Fix #295
+"
+pre;magazino_move_base_flex;8ccf0ed1407a3012b9ee7b50eb47cf6f24e07868;Rainer Kuemmerle <kuemmerle@magazino.eu>;1646899606;"Fix race condition between finishing and updating a goal
+
+AbstractActionBase sets slot.in_use to false after having left runImpl.
+This means that a check based on slot.in_use might still see a thread as
+running despite the goal got assigned a terminal state.
+Hence, we also check that the goal is still active to consume an update.
+
+Fix #295
+"
+pre;magazino_move_base_flex;f8ecc809d20aadd9ad169863bf94c195013ff387;Remco Roozendaal <rroozendaalninety@gmail.com>;1646909887;"implemented stop_when_replan_fails parameter
+"
+pre;magazino_move_base_flex;b5a7bb9d1b0d6be6419b7384bdb464700e78c963;corot <jsantossimon@gmail.com>;1647182624;"Coopt OdometryHelper so we can drop dependency on base_local_planner
+"
+pre;magazino_move_base_flex;7ceeea34938094665cc6c3049443eb8accefe5d5;corot <jsantossimon@gmail.com>;1647414852;"Move stop_when_replan_fails to common abastract config
+"
+pre;magazino_move_base_flex;1020181385f44c21690441dd72a2183c5bbd0181;corot <jsantossimon@gmail.com>;1650002856;"Address PR reviews' comments
+"
+pre;magazino_move_base_flex;2f293b87cc9545e5e8bc56ecfdcb010582343b81;Jorge Santos Simón <jsantossimon@gmail.com>;1650468889;"Implement getRobotVelocity on RobotInformation and use on executions instead of tf (#293)
+
+* Pass a reference to RobotInformation to executions instead of tf listener, so we can provide the current velocity to the controllers
+* We have coopted OdometryHelper (with minimum changes), so we don't need to depend on base_local_planner"
+pre;magazino_move_base_flex;12d9c9954ecd7feb08dae903552a8316b3510b60;corot <jsantossimon@gmail.com>;1653874138;"Provide a valid msg on wrapper_local_planner success
+"
+pre;magazino_move_base_flex;a1536b62f8269a34a82d2d1d63226c98a7d5c85b;corot <jsantossimon@gmail.com>;1653874138;"Provide a valid msg on wrapper_local_planner success
+"
+post;magazino_move_base_flex;045829737bee303864aacb66bd71e09c6d9affbc;corot <jorge.santos@rapyuta-robotics.com>;1662692657;"Add error ranges for all four actions
+"
+post;magazino_move_base_flex;618f726cb213bf77eec7e0f967256abceb0219d1;corot <jorge.santos@rapyuta-robotics.com>;1662692657;"Add error ranges for all four actions
+"
+post;magazino_move_base_flex;875a313508e9a2b7c2e573f42b7d5a460fc482e6;corot <jorge.santos@rapyuta-robotics.com>;1668522581;"Add a function that returns a descriptive string for each possible MBF action outcome
+"
+post;magazino_move_base_flex;8b498ae63ca300d5ed9e1d3f77c41c2cd0c85bd5;corot <jorge.santos@rapyuta-robotics.com>;1668522581;"Add a function that returns a descriptive string for each possible MBF action outcome
+"
+post;magazino_move_base_flex;b4f91ebddf3c90fd7783ebf2a3b8ecc4c2d22054;corot <jorge.santos@rapyuta-robotics.com>;1670234107;"Add parameter force_stop_on_retry that avoids zero vel commands on recoverable errors
+This allows gracefully slowing down while retrying calls to the controller
+"
+post;magazino_move_base_flex;f57f988e5841fc67b5db76cc3449401202d1450b;corot <jorge.santos@rapyuta-robotics.com>;1670234107;"Add parameter force_stop_on_retry that avoids zero vel commands on recoverable errors
+This allows gracefully slowing down while retrying calls to the controller
+"
+post;magazino_move_base_flex;0424e49c8a6ebcc9790409a16ae7f3e1db836887;corot <jorge.santos@rapyuta-robotics.com>;1670235067;"Send just zero velocity commands when safety check doesn't pass
+"
+post;magazino_move_base_flex;4ce176f03c048ff798ba1643f01be0c043dbd9d3;corot <jorge.santos@rapyuta-robotics.com>;1670235067;"Send just zero velocity commands when safety check doesn't pass
+"
+post;magazino_move_base_flex;b015d74c27a014e4906949b97d83b5a960ba4aec;corot <jorge.santos@rapyuta-robotics.com>;1670467978;"Remove Kinetic workflow from CI
+"
+post;magazino_move_base_flex;be812633d5ea57c342c2e234b8c94e06729b9eb7;corot <jorge.santos@rapyuta-robotics.com>;1670486181;"Remove Kinetic build from README
+"
+pre;moble_quaternion;d2529284c0e8016f471aee593f34c1535bf3d8ab;Martin Ling <martin-github@earth.li>;1310767115;"Initial commit.
+"
+pre;moble_quaternion;1617966c60c1dc297b1bce898f9cc23c5cadd6ce;Martin Ling <martin-github@earth.li>;1310774346;"Cleanup and add additional ufunc implementations.
+"
+pre;moble_quaternion;9b782f77642935286a0e1ba1294559981ce8dfd8;Martin Ling <martin-github@earth.li>;1311178475;"Add attributes for components and for real and imaginary parts.
+"
+pre;moble_quaternion;cc3764a4dc7e224a135e10e3b6395c07456a569f;Martin Ling <martin-github@earth.li>;1312118446;"Correct description of isfinite behaviour.
+"
+post;moble_quaternion;98625caeb37c74494aeda0191108d071d5250538;mcflan <james@mcflan.org>;1396308692;"Fix for double scalar conversion error.
+"
+post;moble_quaternion;a5b9ec7d492dccd8447bd4ae3a5f92dcb1756d15;Michael Boyle <michael.oliver.boyle@gmail.com>;1413302235;"Add optimization to compilation arguments
+"
+post;moble_quaternion;000b639bd1ea6b6996653c8dcc2d5700f73986c3;Michael Boyle <michael.oliver.boyle@gmail.com>;1413385267;"A little whitespace cleanup
+"
+post;moble_quaternion;920dfbb2100cc14e4d9b000def9b207138192c8c;Michael Boyle <michael.oliver.boyle@gmail.com>;1413386040;"Correct complex conversions
+"
+post;moble_quaternion;59bb29552f84396cf3bd2f6f7b1abbc62b79c322;Michael Boyle <michael.oliver.boyle@gmail.com>;1413412634;"Show 15 digits in standard output
+"
+post;moble_quaternion;1475025dd51b4773b3749767b5e4e5d6b03ba7cd;Michael Boyle <michael.oliver.boyle@gmail.com>;1413425132;"Whitespace cleanup
+"
+post;moble_quaternion;5ebc2ed8fe23061c7cf7008cb1c368e9d1a08643;Michael Boyle <michael.oliver.boyle@gmail.com>;1413437896;"Comment the various sections in numpy_quaternion.c
+"
+post;moble_quaternion;86faf0f55c869a93800d95037ab663e81aa826e7;Michael Boyle <michael.oliver.boyle@gmail.com>;1413465880;"Prepare tests in cfg
+"
+post;moble_quaternion;896238f8ee026de43eb5a6ffc08c064ca150a5c3;Michael Boyle <michael.oliver.boyle@gmail.com>;1413465909;"Make sure numpy headers are easy to find
+"
+post;moble_quaternion;884498de0ca14a682d4aa827a6c26014ebe1253a;Michael Boyle <michael.oliver.boyle@gmail.com>;1413475542;"Start sorting out the tests a bit more
+"
+pre;ncar_wrf-python;a1b97c2ed19567d245fadeafb7f6bf932617d166;Bill Ladwig <ladwig@ucar.edu>;1554328780;Create CONTRIBUTING.md
+pre;ncar_wrf-python;82801d996872edc2bb2af0456a70db1570b49b9f;Kevin Hallock <hallock@ucar.edu>;1560373009;"Add 2019 WRF workshop page
+"
+pre;ncar_wrf-python;904abc46e75026512f1834640ced62f5acddc420;Kevin Hallock <hallock@ucar.edu>;1560373742;"Merge branch 'hotfix/1.3.2.2'
+"
+pre;ncar_wrf-python;d5a0140f356ffb64a88217c40139c071f4dd759d;Kevin Hallock <hallock@ucar.edu>;1560373839;"Merge tag '1.3.2.2' into develop
+
+Doc update to add 2019 WRF workshop info
+"
+pre;ncar_wrf-python;750bb110a163af0af986bacda459a441c759aa5a;Kevin Hallock <hallock@ucar.edu>;1560377774;"Fix conda install instructions for 2019 workshop
+"
+pre;ncar_wrf-python;b6311a40d378df2e843fd80ddf2a9e752a70070c;Kevin Hallock <hallock@ucar.edu>;1560377842;"Merge branch 'hotfix/1.3.2.3'
+"
+pre;ncar_wrf-python;aa665823685cdde62f8b0ccf7bd2d0e47155cbfd;Kevin Hallock <hallock@ucar.edu>;1560377869;"Merge tag '1.3.2.3' into develop
+
+Fix conda install instructions for 2019 workshop
+"
+pre;ncar_wrf-python;6b4d7042983ca5a0f269ec388d5d2b3ee46830fc;Kevin Hallock <hallock@ucar.edu>;1560384261;"Update 2019 WRF workshop setup instructions
+"
+pre;ncar_wrf-python;8b289abd9d84ebd674fdcf0f1c2e13b88b91512f;Kevin Hallock <hallock@ucar.edu>;1560384330;"Merge branch 'hotfix/1.3.2.4'
+"
+pre;ncar_wrf-python;bd1107c605f7f51c712d3a1d22cf359bfcbad874;Kevin Hallock <hallock@ucar.edu>;1560384345;"Merge tag '1.3.2.4' into develop
+
+Update 2019 WRF workshop setup instructions
+"
+post;ncar_wrf-python;f01f615788d7ee6aeee99b874a4a945f91780d4b;Isaac Rowe <irowe.bbn@gmail.com>;1596819752;"Added T2 to list of diagnostics supported by getvar. Closes #122
+"
+post;ncar_wrf-python;5860f611be366c10e93c590e47ce66254cc7d735;Isaac Rowe <irowe.bbn@gmail.com>;1598386904;"Move T2 to correct location in table
+"
+post;ncar_wrf-python;9b043bd9b76c0c6cadba10fa8951774ba6ba4673;Pedro Gámez <pgamez@meteosim.com>;1598422710;"Correction of the 2nd example in 'interplevel' docstring
+"
+post;ncar_wrf-python;959c0cd036349ec0584744debd1bd70d77a01d10;Michaela Sizemore <43652875+michaelavs@users.noreply.github.com>;1598456572;"Merge pull request #123 from irowebbn/develop
+
+Add T2 to list of diagnostics supported by getvar. "
+post;ncar_wrf-python;77b81c4aaa1794ca08d7271bb5426c40c40f1954;Pedro Gámez <pgamez@meteosim.com>;1598509983;"Correction of the 2nd example in 'interplevel' docstring. Using diag variable 'height_agl'
+"
+post;ncar_wrf-python;92596e27efd1fa44d3496c7be216816c08f3c69d;Michaela Sizemore <43652875+michaelavs@users.noreply.github.com>;1598995294;"Merge pull request #125 from pgamez/develop
+
+Correction of the 2nd example in 'interplevel' docstring"
+post;ncar_wrf-python;fa15fac24c84493cff1ad6676d10224d6a19d557;muchojp <61620767+muchojp@users.noreply.github.com>;1602202836;"Update constants.py
+
+Replace from numpy.asscalar to item() because numpy.asscalar causes FutureWarning.
+Deprecated since numpy version 1.16: Deprecated, use numpy.ndarray.item() instead."
+post;ncar_wrf-python;9402254bb42da4dd89064328e5ce160d7262408e;muchojp <61620767+muchojp@users.noreply.github.com>;1602203160;"Update decorators.py
+
+Because of the change in the structure of the ""collections"" module, I change a bit."
+post;ncar_wrf-python;c1aa5facaf6973cfa544b425cd21982500a68dfa;muchojp <61620767+muchojp@users.noreply.github.com>;1602203317;"Update latlonutils.py
+
+To avoid FutureWarning, Function ""Iterable"" should import from collections.abc."
+post;ncar_wrf-python;c263d7cbc71389906e4ea9b9afc6e2db85080d46;muchojp <61620767+muchojp@users.noreply.github.com>;1602203492;"Update util.py
+
+To avoid FutureWarning, function ""Iterable"" and ""Mapping"" should be imported from collections.abc."
+pre;rajeshrinet_pyross;ddc53f7cb1344ed6e11dd6b4564151901a9982b6;Rajesh Singh <rajeshrinet@gmail.com>;1651561302;"minor
+"
+pre;rajeshrinet_pyross;c58de22fb1f74fe0be27d00d441508669f229848;removedporn <86824510+removedporn@users.noreply.github.com>;1675685808;Delete .githooks directory
+pre;rajeshrinet_pyross;d4e1ffaedf8aec68cca290080916b7f7c0d3d6c3;Johann Fredrik Jadebeck <j.jadebeck@fz-juelich.de>;1678882869;"Update deterministic.rst
+
+Update link to SIR model in docs"
+pre;rajeshrinet_pyross;34e211700ba6b3de5aa026d320213e69dbcbaa8a;Johann Fredrik Jadebeck <fredrik.jadebeck@gmail.com>;1678883862;"Update deterministic.rst (#46)
+
+Update link to SIR model in docs"
+pre;rajeshrinet_pyross;9fb75aab69c776c6764ee2df1d9b7c2f271ede97;Rajesh Singh <rajeshrinet@gmail.com>;1689078718;"np.float -> np.float64 #47
+"
+pre;rajeshrinet_pyross;b9c6b8049963c96c2db3aca6eec856dab6f0b993;Rajesh Singh <rajeshrinet@gmail.com>;1689087904;"minor
+"
+pre;rajeshrinet_pyross;3f9c6256a5ee9656ec0446943e8849b15bae2227;Rajesh Singh <rajeshrinet@gmail.com>;1689088671;"minor
+"
+pre;rajeshrinet_pyross;123c6dff5532ae75e22b9aa336aa1e71df2018a6;Rajesh Singh <rajeshrinet@gmail.com>;1689089194;"minor
+"
+pre;rajeshrinet_pyross;53eb6ddc04731b496a7af6fedf1ba5ea6d193f42;Rajesh Singh <rajeshrinet@gmail.com>;1689090310;"v2.2.1
+"
+pre;rajeshrinet_pyross;cb29a535ac5817ea7ccf1e3da4e74fdb42e0910c;Rajesh Singh <rajeshrinet@gmail.com>;1689090602;"minor
+"
+post;rajeshrinet_pyross;a4c248d997e280e0fff59309cf960dbce081eccc;Michael Klots <mikeklolts@gmail.com>;1724007066;"typo fix
+"
+post;rajeshrinet_pyross;84ca38eec2269cc2b7570ca5e67ac37302ab7085;Michael Klots <mikeklolts@gmail.com>;1724008726;"typo fix
+"
+post;rajeshrinet_pyross;3de70485f8d655d57ed9047e9e92c59cf981218a;Michael Klots <mikeklolts@gmail.com>;1724011465;"SIR model typo fix
+"
+post;rajeshrinet_pyross;38573a7e51881b4cb3340fca2b7d556b0c018fd2;Michael Klots <mikeklots@gmail.com>;1725114086;"SIR typo fix 2 (#51)
+
+* typo fix
+
+* SIR model typo fix
+
+---------
+
+Co-authored-by: Michael Klots <mikeklolts@gmail.com>"
+post;rajeshrinet_pyross;919d199350dfb5e0ac2c8cca35e241f8ca7aec49;Rajesh Singh <rajeshrinet@gmail.com>;1725115406;"updated examples directory
+"
+post;rajeshrinet_pyross;a0dd6e7195c297001378d36643c50202663111dc;Rajesh Singh <rajeshrinet@gmail.com>;1725115770;"minor changes
+"
+pre;santandermetgroup_downscaler;0799f77e2310e4d0ab1bafa212e8cba287aabc18;David LeBauer <dlebauer@arizona.edu>;1670887148;"update downscale.train
+
+to new function name downscaleTrain per https://github.com/SantanderMetGroup/downscaleR/blob/67f40511c399082e0f604b6f7d51a14568e5512a/NEWS#L49"
+pre;santandermetgroup_downscaler;f992408df17ba5bb122a653aaebd2c0fdb90c976;David LeBauer <dlebauer@arizona.edu>;1670887338;install visualizeR
+pre;santandermetgroup_downscaler;7f770854b35f440e7127e9f566e3ce295f1ce7cf;David LeBauer <dlebauer@arizona.edu>;1670887381;Update README.md
+pre;santandermetgroup_downscaler;feba95e1a6905ce4a5a412b157060e12e615a91f;miturbide <maibide@gmail.com>;1687521669;"add
+"
+pre;santandermetgroup_downscaler;df674bf24451842d87d854c3e99ea4bfe87a8f74;miturbide <maibide@gmail.com>;1687521679;"update
+"
+pre;santandermetgroup_downscaler;f2d6fa92bb62dad1f39d4f0821c4ea0ea1d4e890;miturbide <maibide@gmail.com>;1687521688;"documentation update
+"
+pre;santandermetgroup_downscaler;42e2acbf8f7e0ad37af35632ccc806b9f1c37a1b;miturbide <maibide@gmail.com>;1687521700;"minor
+"
+pre;santandermetgroup_downscaler;b1ab4811ce8c81e2788059776970d0b7c909799b;David LeBauer <dlebauer@arizona.edu>;1688542086;"Merge 7f770854b35f440e7127e9f566e3ce295f1ce7cf into 42e2acbf8f7e0ad37af35632ccc806b9f1c37a1b
+"
+pre;santandermetgroup_downscaler;b89b11cc0ff6117a86203edb1ce67c6717675e1c;Antonio S. Cofiño <cofinoa@gmail.com>;1704812134;"Adding python dependencies
+"
+pre;santandermetgroup_downscaler;2919ab29b548d27fe1ec111594e69145c349e3ab;Antonio S. Cofiño <cofinoa@gmail.com>;1704812285;"Merge b89b11cc0ff6117a86203edb1ce67c6717675e1c into 42e2acbf8f7e0ad37af35632ccc806b9f1c37a1b
+"
+post;santandermetgroup_downscaler;82e47253fc478900742cea81ba5d054ce5b32c15;Ana Casanueva <anacv@users.noreply.github.com>;1731603777;"Update dqm and qdm in biasCorrection.R
+
+Minor change to homogenize n.quantiles argument among BC methods"
+post;santandermetgroup_downscaler;6e8f2002c35b13d59ca22c512f507b9c2f3fe94e;anacv <anacasanueva12@gmail.com>;1741721805;"Change dqm method to allow working with specified n.quantiles (e.g. 100)
+"
+post;santandermetgroup_downscaler;546be44a7f6842bc67231d92d120ded44e67c202;David LeBauer <dlebauer@gmail.com>;1742278785;"Merge 7f770854b35f440e7127e9f566e3ce295f1ce7cf into 6e8f2002c35b13d59ca22c512f507b9c2f3fe94e
+"
+post;santandermetgroup_downscaler;ff2d678fb020e9db7a554d6d4125faf00bbe8ce6;Antonio S. Cofiño <cofinoa@gmail.com>;1742771983;"Merge b89b11cc0ff6117a86203edb1ce67c6717675e1c into 6e8f2002c35b13d59ca22c512f507b9c2f3fe94e
+"
+pre;voutcn_megahit;2e1fe7200ece06d9da27db66ec3117de61f1e2a2;voutcn <voutcn+github@gmail.com>;1570863675;"remove an incorrect assert in UnitigGraph::Refresh
+"
+pre;voutcn_megahit;920bbbc44e7c82353488f638c78645d9eecf1ab4;voutcn <voutcn+github@gmail.com>;1570864632;"add partial assembly to azure pipelines
+"
+pre;voutcn_megahit;8c322ae61a2ca835db89a27ea93e7ff1ce11edb5;voutcn <voutcn+github@gmail.com>;1571001975;"add codecov report to azure pipeline
+"
+pre;voutcn_megahit;b63c5c2986cbd36ec695526e5a642b2f985f5a65;voutcn <voutcn+github@gmail.com>;1571033840;"add more tests and update codecov setting
+"
+pre;voutcn_megahit;bbb70f25cc1401c289f3a6e0c4068f5856ac6d3b;voutcn <voutcn+github@gmail.com>;1571034847;"release 1.2.9
+"
+pre;voutcn_megahit;36f5d4543bddc887b26e6bd42d722c9aaefac10b;Dinghua Li <voutcn@users.noreply.github.com>;1571039271;"Set up CI with Azure Pipelines (#246)
+
+* Set up CI with Azure Pipelines
+
+[skip ci]
+
+* Update azure-pipelines.yml for Azure Pipelines
+
+* Update azure-pipelines.yml for Azure Pipelines
+
+* fix for azure-pipeline
+
+* polish azure-pipelines
+
+* try assembly on real data with azure pipelines
+
+* fix segmentation fault when there exits length-0 sequences
+
+* remove an incorrect assert in UnitigGraph::Refresh
+
+* add partial assembly to azure pipelines
+
+* add codecov report to azure pipeline
+
+* add more tests and update codecov setting
+
+* release 1.2.9
+"
+pre;voutcn_megahit;d729cca1e201ca16749b67f750b0bc5465c9a990;Dinghua Li <voutcn@users.noreply.github.com>;1571107863;Update README.md
+pre;voutcn_megahit;7dde1cae4dfa8ced0a9bd524894df36e9cd4185b;voutcn <voutcn+github@gmail.com>;1571121531;"keep docker image small
+"
+pre;voutcn_megahit;870889a4ff368b9314c56a8cdca18a179ef389d6;Jay R Bolton <jayrbolton@gmail.com>;1576264616;"Fix the documented default value for k-step
+"
+pre;voutcn_megahit;d4b491226d0164ba19d2c04631d923daf4be1570;Jay R Bolton <jayrbolton@gmail.com>;1576264710;"Merge 870889a4ff368b9314c56a8cdca18a179ef389d6 into 7dde1cae4dfa8ced0a9bd524894df36e9cd4185b
+"
+post;voutcn_megahit;723bf8b1718fce88a6abed569a0e148d4060ef4e;accopeland <accopeland@lbl.gov>;1648666025;"Minimum changes to compile on graviton2 (no bmi2, no popcnt)
+"
+post;voutcn_megahit;f8afe5dc565ca79dabb61e4f822135ef4926baac;Ruibang Luo <aquaskyline@gmail.com>;1648708084;"Merge pull request #256 from jayrbolton/fix-kstep-default-doc
+
+Fix the documented default value for k-step"
+post;voutcn_megahit;31ecedb0237b911f25295ba854ede53837d8c3ef;Alex Copeland <accopeland@lbl.gov>;1649110135;"CMakeLists.txt changes to enable/disable bmi2 and popcount at config time
+"
+post;voutcn_megahit;a410d48f1a84dc9af78a2ff7171f1bf36534c785;accopeland <accopeland@lbl.gov>;1649111186;"In CMakeLists.txt, report aarch64/graviton2 case of missing bmi2 and popcount
+"
+post;voutcn_megahit;3ec40583563074fbb8b6d9956b446732214d05e0;accopeland <accopeland@lbl.gov>;1649115684;"In CMakeLists.txt, report aarch64/graviton2 case of missing bmi2 and popcount
+"
+post;voutcn_megahit;0abdd48f6670a91a3cc3fc4238e2812971d428bb;accopeland <accopeland@lbl.gov>;1649115747;"Merge branch 'cmake-tweaks' into graviton2
+"
+post;voutcn_megahit;6d0928b11353494e21a181c65353440ed1fcb142;rekado <ricardo.wurmus@mdc-berlin.de>;1664985630;"Update README.md
+
+As of Guix commit fd6cd9de8682c7ddf96bf8deb637b1ca6cdbd205 Megahit can be installed through GNU Guix."
+post;voutcn_megahit;769cfa23faa492949a2664c05d6e2b3aea805c3a;Ruibang Luo <aquaskyline@gmail.com>;1665019891;"Merge pull request #342 from rekado/patch-1
+
+Update README.md"
+post;voutcn_megahit;9777fe6ac9eb13fcb9dd584955f34564b852df46;Eric  DEVEAUD <edeveaud@pasteur.fr>;1674752062;"port to python3
+"
+post;voutcn_megahit;8270e2dc4b8f755d771036f563cd39b41971c912;Eric  DEVEAUD <edeveaud@pasteur.fr>;1674752098;"use available procs for process
+"

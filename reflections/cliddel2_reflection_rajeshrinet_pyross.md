@@ -1,0 +1,3 @@
+# rajeshrinet/pyross
+
+The year-long gap is easy to identify but difficult to interpret because many commit subjects are terse and do not name a reason for the pause. [Issue #48](https://github.com/SoftMatterGroupCambridge/pyross/issues/48) about convoluted code remained open in the retrieved record, while typo-related PRs #49–#51 appeared near the end of the gap; those facts show outstanding maintenance work but do not prove why commits stopped. Activity resumed with a typo fix by Michael Klots and later example updates by Rajesh Singh, so new participation joined a previous contributor's return. The last commit is dated Aug 31, 2024, which makes the project inactive.

@@ -1,0 +1,410 @@
+pre/post;project_wocid;commit_sha1;author;time;commit message
+pre;vibansal_hapcut2;717c934c82fc6f66f44e1304f0700a206db78b9d;Vikas Bansal <vikas115@gmail.com>;1643910404;"adding code for extracting haplotype-informative alleles (extracthairs) using freebayes
+"
+pre;vibansal_hapcut2;65771565f29aa61f1fa7e8319a39c8a65cc19824;snehring <snehring@iastate.edu>;1651076915;"fixing build errors with newer gcc versions
+"
+pre;vibansal_hapcut2;96f924e18d70add1841fe5b11c60e8d8d2a872b2;snehring <snehring@iastate.edu>;1651076947;"Makefile changes
+"
+pre;vibansal_hapcut2;32b0547f4ca8061a9cd992e0748fe1e24abc4659;Vikas Bansal <vikas115@gmail.com>;1651774725;"Merge branch 'snehring-feature/newer-gcc-compat'
+"
+pre;vibansal_hapcut2;b2744f31a2b3ff2e5ee6f427ad2c5d84dfbdde05;Seongmin Choi <soymintc@gmail.com>;1665664524;"docs fix: add --ref for extractHAIRS, fix --ea 1 to --ep 1 for HAPCUT2
+"
+pre;vibansal_hapcut2;d12c7eca71507f2a10d28fd8c57b680019c66f45;Simon Blanchoud <simon.blanchoud@unifr.ch>;1665776062;"Prevent a segfault error heuristically
+"
+pre;vibansal_hapcut2;da74c8852c641ff2a6fa50ff393d17b96f69facd;Vikas Bansal <vikas115@gmail.com>;1665783737;"minor changes to readme
+"
+pre;vibansal_hapcut2;0fa74155482e2b1539242beba8be3c98a23de00d;Vikas Bansal <vikas115@gmail.com>;1665783891;"minor fix
+"
+pre;vibansal_hapcut2;0eb7075424afbb40259ced6b5b1cbd95d0cedf55;Vikas Bansal <vikas115@gmail.com>;1665784221;"more changes to readme
+"
+pre;vibansal_hapcut2;38ff1e6a5787ba72ae3d9f6a43b97485d6664b84;Simon Blanchoud <pintomollo@users.noreply.github.com>;1666195847;"Merge d12c7eca71507f2a10d28fd8c57b680019c66f45 into 0eb7075424afbb40259ced6b5b1cbd95d0cedf55
+"
+post;vibansal_hapcut2;d71aa89101274aed58a29279b99245339a477acc;J.Chen <jl_chen1@outlook.com>;1723529521;Update Makefile
+post;vibansal_hapcut2;cf12d6df14eda475553670e29fd562a4fcef9c12;J.Chen <jl_chen1@outlook.com>;1723529583;"Merge d71aa89101274aed58a29279b99245339a477acc into 0eb7075424afbb40259ced6b5b1cbd95d0cedf55
+"
+post;vibansal_hapcut2;9a10aba2a6782cd46327faf6a2271d41002c81b3;vbansal <vibansal@gmail.com>;1739074712;"update extracthairs.c to parse cram files
+"
+post;vibansal_hapcut2;c695a400487f34b968dbc442bcc8ff142d22cffd;J.Chen <jl_chen1@outlook.com>;1741919122;"Merge d71aa89101274aed58a29279b99245339a477acc into 9a10aba2a6782cd46327faf6a2271d41002c81b3
+"
+post;vibansal_hapcut2;7681a0fc7c1aba7d2e09f799a9721d6be115e7d7;Simon Blanchoud <pintomollo@users.noreply.github.com>;1741933800;"Merge d12c7eca71507f2a10d28fd8c57b680019c66f45 into 9a10aba2a6782cd46327faf6a2271d41002c81b3
+"
+pre;friendly_heplots;8c30090011f152b5ad3c26ac3cbce29ba8e00f95;stefan7th <stefan7th@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1173790214;"README changed
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@1 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+pre;friendly_heplots;67f4726a32d391752f27cee0fab6784df188fe2b;jfox <jfox@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1175953101;"Initial population of svn archive with version 0.8-0 of package.
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@2 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+pre;friendly_heplots;c3ade355d1692cedda4a3ea9189588785b1b583a;jfox <jfox@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1179949799;"Mike's changes to return xlim and ylim from heplot(), and to pass ... to calls to text() and points() in heplot(). John.
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@3 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;f9c5f2e2af0f20834e1eddd5675686479593eaea;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1225765501;"updates to 0.8-2: MF
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@4 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;bfb43f0ea349424356d5747b1b47360a5997b573;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1225765548;"updates to 0.8-2: MF
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@5 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;77fd9a0d9f12c02e5812ad7dfaa1461588ef55dd;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1225765670;"updates to 0.8-2: MF
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@6 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;bd206ba89792e88965c72d6a01c0e14784e6413a;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1225766098;"updates to 0.8-2: MF
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@7 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;e47322b989cca66ea783c7055cebc5c477a26812;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1225766172;"updates to 0.8-2: MF
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@8 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;5ff1afe41daf9f34b5d0c6232f80455e718190de;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1225837681;"Updates to heplot3d.mlm.R etc for v. 0.8-2: MF
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@9 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;0c23baf08a052eb66dc18c5ffae6158b117a88b9;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1226001276;"update to heplot3d.mlm - add xlim, ylim, zlim: MF
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@10 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;d310bdf0176230c76841dc8edd60ed9aec4ea5dc;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1226671690;"Minor documentation edit
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@11 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;a5dea34712789d3d751bc4557dd5ece305e6696f;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1226950626;"V 0.8-4: documentation changes + CITATION
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@12 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;friendly_heplots;695aba26a30a74e7b1271f727889884a6c63b2ee;friendly <friendly@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1233002815;"MF now maintainer; minor doc edits for Rdoc 2
+
+git-svn-id: svn+ssh://svn.r-forge.r-project.org/svnroot/heplots/pkg@13 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+pre;elki-project_elki;11826c4d1be300d501affc2c10f8de711a176771;Andreas Lang <andreas.lang@tu-dortmund.de>;1698402987;"update documentation
+"
+pre;elki-project_elki;48126df71f327d2ae5b8896a48c92f0762a08628;Andreas Lang <andreas.lang@tu-dortmund.de>;1698402987;"update documentation
+"
+pre;elki-project_elki;75e8f0b008629b2e58efc549660ce98f3214ba34;Andreas Lang <andreas.lang@tu-dortmund.de>;1698656257;"documentation covertree k-means
+"
+pre;elki-project_elki;d2b7d14df6d13e2eb0d585fce3939cf38a58cf45;Andreas Lang <andreas.lang@tu-dortmund.de>;1698656257;"documentation covertree k-means
+"
+pre;elki-project_elki;1cccc17b347e47dd694c22edf0ed673df07490f8;Andreas Lang <andreas.lang@tu-dortmund.de>;1698660925;"Hybrid Hamerly Dokumentation
+"
+pre;elki-project_elki;5e58ab1ba74355e594803946494d06444d49f3a3;Andreas Lang <andreas.lang@tu-dortmund.de>;1698660925;"Hybrid Hamerly Dokumentation
+"
+pre;elki-project_elki;c9b33add161960189aa4873b3ae94bb84e68f4e5;Andreas Lang <andreas.lang@tu-dortmund.de>;1698661338;"Hybrid Exponion
+"
+pre;elki-project_elki;f90a982ebc9396269e86a540b8657fd47d9d8c14;Andreas Lang <andreas.lang@tu-dortmund.de>;1698661338;"Hybrid Exponion
+"
+pre;elki-project_elki;48eea61b47188f2d36ea2d9148e42e1865cab084;Andreas Lang <andreas.lang@tu-dortmund.de>;1698661918;"Shallot documentation
+"
+pre;elki-project_elki;a8eda51c06270e209a4b3207bca5c286f44b3e5a;Andreas Lang <andreas.lang@tu-dortmund.de>;1698661918;"Shallot documentation
+"
+post;elki-project_elki;6afc2bd6243b1ae10956039b5e59798b4872d5c5;Erich Schubert <erich.schubert@tu-dortmund.de>;1708192821;Reduce FastMath/JaFaMa usage.
+post;elki-project_elki;6e50897b79c4feeb9bf3519fb5cc058edef799e6;Erich Schubert <erich.schubert@tu-dortmund.de>;1708192821;Reduce FastMath/JaFaMa usage.
+post;elki-project_elki;2c11055a6c8e5c98723469b0f5a1c362b1bff55c;Erich Schubert <erich.schubert@tu-dortmund.de>;1708193804;Minor code cleanups
+post;elki-project_elki;5fe7e3ca5f537975c77821d3b8e73dddb5ff9304;Erich Schubert <erich.schubert@tu-dortmund.de>;1708193804;Minor code cleanups
+post;elki-project_elki;262b4ef018cf7df314a743c4ab5a47c9c7406612;Erich Schubert <erich.schubert@tu-dortmund.de>;1708208851;"Slight code quality improvements.
+"
+post;elki-project_elki;f1927faaa652136ee7abfa334a7511f8629edc8f;Erich Schubert <erich.schubert@tu-dortmund.de>;1708208851;"Slight code quality improvements.
+"
+post;elki-project_elki;b344c9c5a0a37b955a544ad3706d4977a933e9e9;Erich Schubert <erich.schubert@tu-dortmund.de>;1708621081;"unused imports, minor cleanups
+"
+post;elki-project_elki;c9fe872d72fec63a9ab300f12b5d78564536a714;Erich Schubert <erich.schubert@tu-dortmund.de>;1708621081;"unused imports, minor cleanups
+"
+post;elki-project_elki;c4a7afa6d139c4d3d38dd19ce1fe6b036a9579ad;Erich Schubert <erich.schubert@tu-dortmund.de>;1708938728;Prepare for merge: code style, tests
+post;elki-project_elki;e8d77d39d237318083551cdff637b11003f1126d;Erich Schubert <erich.schubert@tu-dortmund.de>;1708938728;Prepare for merge: code style, tests
+pre;neuroml_neuroml2;a87a80f88334aa937deb935c4397d247b16e7bd9;Padraig Gleeson <p.gleeson@gmail.com>;1695225479;"Update GHA versions
+"
+pre;neuroml_neuroml2;7c8a5f57398a0b55f8660969d60f506af5bc3aca;Padraig Gleeson <p.gleeson@gmail.com>;1695225929;"Specify java distribution
+"
+pre;neuroml_neuroml2;ee41b766be739ca7fdba4c943de02a4e942f9d4a;Padraig Gleeson <p.gleeson@gmail.com>;1695226912;"Merge pull request #218 from NeuroML/experimental
+
+To v1.9.1"
+pre;neuroml_neuroml2;d072b3282978693f9f52cef7d0d7363784ca6452;Padraig Gleeson <p.gleeson@gmail.com>;1695233910;"Merge pull request #206 from NeuroML/development
+
+Updates for NMLv2.3"
+pre;neuroml_neuroml2;19a908f07c2e91e70f4e9199f15df19dbe8dce13;Padraig Gleeson <p.gleeson@gmail.com>;1695235273;"Updated History info
+"
+pre;neuroml_neuroml2;452b442b1b13d184e641fbb75d3f57615f03777e;Padraig Gleeson <p.gleeson@gmail.com>;1695240107;"More updates in history
+"
+pre;neuroml_neuroml2;33454c49f923dc213793de0170694914fd261301;Padraig Gleeson <p.gleeson@gmail.com>;1695285467;"More info in history file
+"
+pre;neuroml_neuroml2;a7b3624420e9d699f8b238048655747d764134ba;Ankur Sinha <sanjay.ankur@gmail.com>;1695286450;"Update editors page link
+
+Points to new docs page now."
+pre;neuroml_neuroml2;352244cff605cb1ba24fa7c11757dc818fe90fd2;Ankur Sinha <sanjay.ankur@gmail.com>;1695287571;"Merge pull request #219 from NeuroML/sanjayankur31-patch-1
+
+Update editors page link"
+pre;neuroml_neuroml2;4af9426acc02ba11574e552dcc4a2059a050949d;Padraig Gleeson <p.gleeson@gmail.com>;1695400776;"To v1.10.0 with NMLv2.3.1 schema
+"
+post;neuroml_neuroml2;225e953f4bda7f9ed9b53d56a77749bdc74d03ff;Ankur Sinha (Ankur Sinha Gmail) <sanjay.ankur@gmail.com>;1713346626;"feat: make `spikeThresh` required in `membraneProperties`
+
+fixes #220
+
+TODO: update libNeuroML/NeuroMLC++ and so on.
+"
+post;neuroml_neuroml2;80629aac000376774d962bbd0092ee18c64c5f3b;Padraig Gleeson <p.gleeson@gmail.com>;1713453770;"Merge pull request #222 from NeuroML/fix/issue-220
+
+feat: make `spikeThresh` required in `membraneProperties`"
+post;neuroml_neuroml2;16a13104442b84b46d07d31dd482e62c829ebee6;pgleeson <p.gleeson@gmail.com>;1713454951;"Ensuring at least one <spikeThresh> on all <membraneProperties> elements
+"
+post;neuroml_neuroml2;9ff64acb72efbbaa26d4a9908e6afbd6e0a8b285;pgleeson <p.gleeson@gmail.com>;1713518627;"Update eden spike times to 0.2.3 behaviour
+"
+post;neuroml_neuroml2;2bb29502e93b280cbf4621bd34bdfec8c2462dd2;Ankur Sinha (Ankur Sinha Gmail) <sanjay.ankur@gmail.com>;1713803752;"chore: add spikeThresh
+"
+post;neuroml_neuroml2;e4b8f71eff2eaa55ca01f292c5e291af45b981ae;Ankur Sinha (Ankur Sinha Gmail) <sanjay.ankur@gmail.com>;1713803975;"chore: add spikeThresh
+"
+post;neuroml_neuroml2;1a7f1e62d798daac914e9d0f52167bbc644dc130;pgleeson <p.gleeson@gmail.com>;1713964695;"Merge branch 'development' into experimental
+"
+post;neuroml_neuroml2;5c2e0d930916d872758b100d93d074ae6d9d5df1;pgleeson <p.gleeson@gmail.com>;1713964935;"Update GHA versions
+"
+post;neuroml_neuroml2;be6f68ce21e639c841186e8bc377d41e29d84277;Padraig Gleeson <p.gleeson@gmail.com>;1713965388;"Merge 5c2e0d930916d872758b100d93d074ae6d9d5df1 into e4b8f71eff2eaa55ca01f292c5e291af45b981ae
+"
+post;neuroml_neuroml2;8c5b64433c93da478da083d9fe428aefa311d7c2;Ankur Sinha (Ankur Sinha Gmail) <sanjay.ankur@gmail.com>;1714397931;"feat(core-types): add annotation component types
+
+Fixes #224
+"
+pre;ropensci_gsodr;3307bfeeea251a9cd7204eae349f77f2aedc563c;Adam H. Sparks <adamhsparks@gmail.com>;1427328449;Update README.md
+pre;ropensci_gsodr;bf073c01bafa76f87c3bab60dc630aa4d18c3f2c;Adam H. Sparks <adamhsparks@gmail.com>;1427328466;Update README.md
+pre;ropensci_gsodr;fca1be727779967eb4d7e8ded4019bfd7769665d;Adam H. Sparks <adamhsparks@gmail.com>;1427328523;Update README.md
+pre;ropensci_gsodr;69cf0696c6cab8a35bd732c931c41402d6e963a7;Adam H. Sparks <adamhsparks@gmail.com>;1427329532;Update README.md
+pre;ropensci_gsodr;2f09c2af460c9d803f4297426efcf5ed77328e46;Adam H. Sparks <adamhsparks@gmail.com>;1427329574;"Rename package
+"
+pre;ropensci_gsodr;8ab51cdf7d0e204b76953cf8c90eaa84789a3af2;Adam H. Sparks <adamhsparks@gmail.com>;1427330291;"Updates to README.md
+
+Add additional information to README.md for usage.
+"
+pre;ropensci_gsodr;636831b88555f00fb8deacf3f93bbe597d85cd29;Adam H. Sparks <adamhsparks@gmail.com>;1427345906;Update README.md
+pre;ropensci_gsodr;240809965adb048d3debe3b9d64db6fa6a48e04b;adamhsparks <adamhsparks@gmail.com>;1427360389;"Add feedback about processing
+"
+pre;ropensci_gsodr;0bafeaf2c04fec5babeeaeb8a3903a659c0e055f;Adam H Sparks <adamhsparks@gmail.com>;1427378775;"Clean up directory
+
+Individual .gz files for weather stations now deleted in respective
+year folder.
+"
+pre;ropensci_gsodr;e00db87ed9120c9814e9a61e6ceee4e29de4762e;Adam H. Sparks <adamhsparks@gmail.com>;1436755756;"Add citation file
+
+Added citation file for package.
+"
+post;ropensci_gsodr;def440c2d4921a729b552fd8ea5acfacdae6b6f6;Adam H. Sparks <adamhsparks@gmail.com>;1453864165;"Update FTP URL for file fetching
+"
+post;ropensci_gsodr;2aa45a5027de59a71b250e91a712103f1f2410a4;Adam H. Sparks <adamhsparks@gmail.com>;1453869502;"Revert ""Update FTP URL for file fetching""
+
+This reverts commit def440c2d4921a729b552fd8ea5acfacdae6b6f6.
+"
+post;ropensci_gsodr;e19ca0b20bab1f8c3bdc6205d47887a0ee5483ba;Adam H. Sparks <adamhsparks@gmail.com>;1453869732;"Correct ftp URL for isd-history.csv file
+"
+post;ropensci_gsodr;47ecadf3e94355b6d266d10feae3ec65794e6938;Adam H. Sparks <adamhsparks@gmail.com>;1453869826;"correct item name, changed ""."" to ""_""
+"
+post;ropensci_gsodr;3fa76e5989c769d8fa759e83164407553733013a;Adam H. Sparks <adamhsparks@gmail.com>;1453885796;"Update script to clean up isd-history.csv
+"
+post;ropensci_gsodr;d9c332d91484395b7722b1a83e12a00b1166a4df;Adam H. Sparks <adamhsparks@gmail.com>;1453928857;"Bug fix and renaming objects
+"
+post;ropensci_gsodr;52a15eda94511929080e606301b1d5b27a98025c;Adam H. Sparks <adamhsparks@gmail.com>;1453954336;"Updates
+
+Update style
+
+Update function usage from other packages
+
+Use stringr and readr for quicker runtime
+
+Other misc. cleaning and tidying.
+"
+post;ropensci_gsodr;5cf701dc2a368364670ad99e4b3ebe3036c7ac81;Adam H. Sparks <adamhsparks@gmail.com>;1454309823;"This is embarrassing
+
+My e-mail address was wrong in the description file!
+
+This corrects that huge error.
+"
+post;ropensci_gsodr;57be2151f9cfbc7e95bc207be6cdcef888621537;Adam H. Sparks <adamhsparks@gmail.com>;1459211070;"Merge branch 'geo'
+
+Bring master up to date with “geo” branch for version 2.0 release.
+
+This brings the capability to select weather data for only a specific
+country, all stations globally, only stations between 60/-60 lat for
+agroclimatology, and Travis for build checking. Other improvements
+include faster processing and clearer code.
+"
+post;ropensci_gsodr;6df11b26726f61dc28b4fbe802593d441c598a29;Adam H. Sparks <adamhsparks@gmail.com>;1459217472;"Update README.md
+
+Update to reflect changes in package name and functionality"
+pre;modelica_modelica_linearsystems2;69b5413563e44fd5acfac155635d4b483c214498;tobolar <jakub.tobolar@dlr.de>;1644241241;"Unify description of state space matrices
+"
+pre;modelica_modelica_linearsystems2;ac916b195d1fb8f1b3c5ac3292443dda6fc28a8f;tobolar <jakub.tobolar@dlr.de>;1644244184;"Add description of state space matrices
+"
+pre;modelica_modelica_linearsystems2;25ff991478b74247029bb7290b6b0a0773e536d4;tobolar <jakub.tobolar@dlr.de>;1644244695;"Fix typo
+"
+pre;modelica_modelica_linearsystems2;07bc696b7f3a1f8b9675997d0603efff58aba888;tobolar <jakub.tobolar@dlr.de>;1644244880;"Describe outputs of state space functions
+"
+pre;modelica_modelica_linearsystems2;bff0062c92b98d5359e19eee29b6c6cd27c84100;tobolar <tobolar@users.noreply.github.com>;1644254383;"Merge pull request #152 from modelica/fixTextAttributes
+
+Fix deprecated attributes of text primitive"
+pre;modelica_modelica_linearsystems2;3fa2ad2b4725ea76ffde336bda829acbdf5ae70c;tobolar <jakub.tobolar@dlr.de>;1644316016;"Add description of inputs/outputs of state space functions
+"
+pre;modelica_modelica_linearsystems2;f6eb9530f1f32842a29cc96bc7cf049fe8c4c21f;tobolar <jakub.tobolar@dlr.de>;1644316121;"Documentation: fix typo
+"
+pre;modelica_modelica_linearsystems2;504cd2d2a19d078594515cc18d2cec7dd9313363;tobolar <jakub.tobolar@dlr.de>;1644316134;"Merge branch 'master' of https://github.com/modelica/Modelica_LinearSystems2
+"
+pre;modelica_modelica_linearsystems2;d6afbe8d16a658080b547bcd6990b722a4dc7da0;tobolar <tobolar@users.noreply.github.com>;1644317026;"Merge pull request #148 from modelica/initABDC
+
+Set initial value of matrix ABCD"
+pre;modelica_modelica_linearsystems2;a69999dce541c419d341c6dff069bf5d6db6ed55;tobolar <tobolar@users.noreply.github.com>;1644317446;"Merge pull request #154 from modelica/deleteObsoleteWIP
+
+Delete record WorkInProgress.StateSpace2 since it exists in Internal"
+post;modelica_modelica_linearsystems2;cf486a8404a3941623fdf9bb613026d8919baa37;tobolar <jakub.tobolar@dlr.de>;1686832402;"Remove byte-order-mark (BOM)
+"
+post;modelica_modelica_linearsystems2;8cef5c4fdb97d2c55b20713940cbb5f0b8f8b51f;tobolar <tobolar@users.noreply.github.com>;1686832791;"Remove byte-order-mark (BOM)
+
+"
+post;modelica_modelica_linearsystems2;6128d2bd084646722f28f78c2a9763e6727eb614;tobolar <tobolar@users.noreply.github.com>;1687434431;"Improve description of inputs and outputs
+
+"
+post;modelica_modelica_linearsystems2;287bfcc6b32eb3b8ea3519cc968333172eff404b;HOS <Hans.Olsson@3ds.com>;1693297026;"Fix crash when running Inverse Pendulum by having place for output.
+"
+post;modelica_modelica_linearsystems2;fd179c04cca07d1b6357a42fe30792fc1142ecbb;HOS <Hans.Olsson@3ds.com>;1693297026;"Fix crash when running Inverse Pendulum by having place for output.
+"
+post;modelica_modelica_linearsystems2;fc189fa223a760ccccad36a8604a095612ae108e;HOS <Hans.Olsson@3ds.com>;1693299343;"Update dateModified.
+"
+post;modelica_modelica_linearsystems2;ba985fc0315e75bd96cfca097f5ccd7db342237a;HOS <Hans.Olsson@3ds.com>;1693299535;"Update dateModified
+"
+post;modelica_modelica_linearsystems2;9e8ab87f2536d3b9e16e319822369ffe9326f957;tobolar <jakub.tobolar@dlr.de>;1693826506;"Define obsolete LAPACK functions as alias to MSL
+"
+post;modelica_modelica_linearsystems2;ebe50009ca426a871034c5803843189983b6ef91;tobolar <jakub.tobolar@dlr.de>;1693826506;"Define obsolete LAPACK functions as alias to MSL
+"
+post;modelica_modelica_linearsystems2;a5cc1ce9d1ea28a269792edea32242f49a37136f;tobolar <jakub.tobolar@dlr.de>;1693839799;"Mark functions obsolete
+"
+pre;wangbolun300_fast-envelope;dad1b199eaa8bb949a73e5a1cab26360ea52ae35;Teseo Schneider <teseo@bluewin.ch>;1640210692;"updating ipred
+"
+pre;wangbolun300_fast-envelope;97e0f552df152469222e0abbdb841013661667cf;Teseo Schneider <teseo@bluewin.ch>;1640211187;"fixing include
+"
+pre;wangbolun300_fast-envelope;b344f135f867f3e0c73facb40a98436169a6b57c;Teseo Schneider <teseo@bluewin.ch>;1640211619;"includes
+"
+pre;wangbolun300_fast-envelope;8a3441778655fc6b0140964548508d4e5a32289d;Teseo Schneider <teseo@bluewin.ch>;1640211750;"missing include
+"
+pre;wangbolun300_fast-envelope;5d5d5ac99b14400b2757e043fbc1bd9eacd0cced;Teseo Schneider <teseo@bluewin.ch>;1640975606;"updated geogram
+"
+pre;wangbolun300_fast-envelope;cfd51c6f2e29d31387fbddba80b1fbaff32af52c;Bolun Wang <wangbolun@buaa.edu.cn>;1658650222;fix is_two_facets_neighbouring
+pre;wangbolun300_fast-envelope;a576628dbd7decffa2d302400256bd3c7e714c96;Bolun Wang <wangbolun@buaa.edu.cn>;1688220358;Update README.md
+pre;wangbolun300_fast-envelope;4f23b2866380a01c7183cf37e26eac97d5a9324f;Bolun Wang <wangbolun@buaa.edu.cn>;1688232023;Update continuous.yml
+pre;wangbolun300_fast-envelope;e2c5e076f12e1684f0aff26f257799b85052a5a7;Teseo Schneider <teseo@bluewin.ch>;1704672435;"removed igl from main lib
+"
+pre;wangbolun300_fast-envelope;38b2cfbbf0f78ced8b4c5981168e8ded809ac654;Teseo Schneider <teseo@bluewin.ch>;1705014248;"added temaplate to max/min
+"
+post;wangbolun300_fast-envelope;d51d265d210022757fbca62a8bcea7a7bf35220c;Daniel Zint <daniel.zint@mail.de>;1743172098;Update Warnings.cmake
+post;wangbolun300_fast-envelope;8b246ba44963631aa33483cc96bc63816aaf0cf0;Bolun Wang <wangbolun@buaa.edu.cn>;1743959940;"Merge pull request #10 from daniel-zint/patch-1
+
+Update Warnings.cmake"
+post;wangbolun300_fast-envelope;1dcee91232ce78db9fce3bf25690bc48aa27ae85;Daniel Zint <daniel.zint@mail.de>;1751033522;"Make predicates private within FastEnvelope
+"
+post;wangbolun300_fast-envelope;69287cd640959f7a53855a2533f91d8064bb0c96;Daniel Zint <daniel.zint@mail.de>;1751033536;"Add clang-format file.
+"
+post;wangbolun300_fast-envelope;9fbb2134c472cb7d9650772c203c69dde29815c1;Bolun Wang1 <bwang1@veil.informatik.rwth-aachen.de>;1751037905;"update workflow
+"
+post;wangbolun300_fast-envelope;92063eee0b1987d9d5511e305b3dcf9a63d789fe;Bolun Wang1 <bwang1@veil.informatik.rwth-aachen.de>;1751271156;"update tbb version
+"
+post;wangbolun300_fast-envelope;d62ddf7ee2b1e726e9731217502b5780c9744c11;Bolun Wang <wangbolun@buaa.edu.cn>;1751272354;Create cmake-multi-platform.yml
+post;wangbolun300_fast-envelope;6f4f8ae712cfa1e2c0bec457e4985667ba47ee3d;Bolun Wang <wangbolun@buaa.edu.cn>;1751272703;Update cmake-multi-platform.yml
+post;wangbolun300_fast-envelope;e7e50b5926797ef90b2ad616ccca6921ac2a6f53;Bolun Wang <wangbolun@buaa.edu.cn>;1751273939;Update CMakeLists.txt
+post;wangbolun300_fast-envelope;b1cad4036fca00c0eb8b3769f3bdc665ce95cc8b;Bolun Wang <wangbolun@buaa.edu.cn>;1751274986;Update FastEnvelopeDownloadExternal.cmake
+pre;antvis_g6;0bfe92393252688afb373acab94e4245670e3c31;有田 <huangtong.ht@alipay.com>;1491905768;"format
+"
+pre;antvis_g6;1c2760e88b101ad68a3dd13341b61b37f57b7187;Yellowthrough <418466938@qq.com>;1491905768;"format
+"
+pre;antvis_g6;2a1aa86427ee053022604ec732a79b79e0cbcab0;Yellowthrough <418466938@qq.com>;1491905930;"english grammar check
+"
+pre;antvis_g6;68c1262b2a443771a92b4dca3c22a38506367194;有田 <huangtong.ht@alipay.com>;1491905930;"english grammar check
+"
+pre;antvis_g6;5aec435b9b764d4a41e0cbd6f5ca153da4c372d7;Yellowthrough <418466938@qq.com>;1491906070;"readme correction
+"
+pre;antvis_g6;6b06d0f2a64d7286216e9916ca1dd0533af820f0;有田 <huangtong.ht@alipay.com>;1491906070;"readme correction
+"
+pre;antvis_g6;853b646214ceaa2adb01b14125d0509cab576151;Yellowthrough <418466938@qq.com>;1491906375;"readme check
+"
+pre;antvis_g6;f02ac73c18f237441df9d271374dd81a97092540;有田 <huangtong.ht@alipay.com>;1491906375;"readme check
+"
+pre;antvis_g6;28f308a7349faf1bdb46f08d03bd3a3bfba9068f;Yellowthrough <418466938@qq.com>;1491906672;"modi packjson
+"
+pre;antvis_g6;398520ab40d6d2fdcf2dd61f8f701f983ce1d116;有田 <huangtong.ht@alipay.com>;1491906672;"modi packjson
+"
+post;antvis_g6;79dc5d886546b0d3bd56fdee0c1c332432c4c144;有田 <huangtong.ht@alipay.com>;1500535726;"update version to 1.1.1
+"
+post;antvis_g6;9ffa5c25d3f7b1de682d272bb174ff3e128a75c9;Yellowthrough <418466938@qq.com>;1500535726;"update version to 1.1.1
+"
+post;antvis_g6;864545f0d520258560660a084a1503aaf07af485;Yellowthrough <418466938@qq.com>;1500535818;"upgrade version package
+"
+post;antvis_g6;e096a5017a5443eba2cc96df2dbf19420d3ceefc;有田 <huangtong.ht@alipay.com>;1500535818;"upgrade version package
+"
+post;antvis_g6;128a25f2987f362993c732557ab6bba554a39583;有田 <huangtong.ht@alipay.com>;1509095189;"publish 1.2.0
+"
+post;antvis_g6;eb7a24c24a848946960224fbedef2649f95efc9c;Yellowthrough <418466938@qq.com>;1509095189;"publish 1.2.0
+"
+post;antvis_g6;44fa518b6c153d5155bc1b89bf07a6af2c84c31a;Yellowthrough <418466938@qq.com>;1511420128;Update README.md
+post;antvis_g6;10759fdf10228f254a1ea1b8c3dfd8ba8c85ab93;Yellowthrough <418466938@qq.com>;1511420266;Update README-zh_CN.md
+post;antvis_g6;b412e2d3ab869ee890e9a5575f45480e75cfdf17;有田 <huangtong.ht@alipay.com>;1512116255;"publish
+"
+post;antvis_g6;b21a535f798d1d6addd9b4fda32ee69fbbcb6912;有田 <huangtong.ht@alipay.com>;1512116469;"fix confilct
+"
+pre;dsavransky_exosims;2c6948da14fd458a2aeb6a385e6f91f456f9668b;Christian <christian.delacroix@gmail.com>;1475611967;"SurveySimulation.update_occulter_mass()
+
+update and bugfixes
+"
+pre;dsavransky_exosims;b927b382af55292a19f28db6269bcdd9eaf71459;Christian <christian.delacroix@gmail.com>;1475613666;"bugfix Observatory.distForces
+"
+pre;dsavransky_exosims;1544db4bb7bd36273cbf83a4aa8d4a29deb0b633;Christian <christian.delacroix@gmail.com>;1475683131;"SureveySimulation DRM fixes
+"
+pre;dsavransky_exosims;1525daaa6c7309b6c6fe9b4a46583741a8741615;Dmitry Savransky <dsavransky@gmail.com>;1475683522;"full documentation and ICD update
+"
+pre;dsavransky_exosims;ff94aaa9f11a925505c60a52d8c1049a368eae80;Dmitry Savransky <dsavransky@gmail.com>;1475683629;added rawgit docs link
+pre;dsavransky_exosims;493fdc798b2e28970fa12857462d9cd10e530e5e;Dmitry Savransky <dsavransky@gmail.com>;1475683683;added icd rawgit link
+pre;dsavransky_exosims;dc51d550003f7d11fb2bf30061cb486c8d42c500;Christian <christian.delacroix@gmail.com>;1475782579;"Bugfixes to SurveySimulation and WFIRSTObservatory modules
+"
+pre;dsavransky_exosims;980a6a3cf64123b70901766abc18d79643b14056;Christian <christian.delacroix@gmail.com>;1475789420;"Bugfix to BrownCompleteness
+"
+pre;dsavransky_exosims;e13e8a62f1d29d4b784298c11d9d6bba51c63304;Christian <christian.delacroix@gmail.com>;1476906348;"added 'Revision' to MissionSim.genOutSpec()
+
+to check revision, use MissionSim.genOutSpec()[‘Revision’]
+"
+pre;dsavransky_exosims;a0b4838d6c313e88433c147e7e9062923afe17c4;Christian <christian.delacroix@gmail.com>;1476906551;"removed prints
+"
+post;dsavransky_exosims;f83b5c071d3c27b9e2b84714b47d42dca2ca04b6;Christian <christian.delacroix@gmail.com>;1484860098;"Various bugfixes
+
+- SurveySimulation: now checks if target is observable wrt IWA-OWA from
+the current observing mode, instead of global mission IWA-OWA.
+- OpticalSystem: now properly adjusts the core_mean_intensity values to
+the real platescale value
+- PostProcessing: added SNRmin (threshold for detection) to det_occur
+- L2 position corrected, and L2_halo_orbit_six_month updated
+- BrownCompleteness: visits array disabled
+"
+post;dsavransky_exosims;9b73a40e06f17ddf1c00a8c43e79654ce7772439;Christian <christian.delacroix@gmail.com>;1484860691;"documentation and ICD update
+"
+post;dsavransky_exosims;105b515418e0e01502b09ca46eb67bfd1c670b31;Christian <christian.delacroix@gmail.com>;1484861514;"updated sampleScript_coron.json
+"
+post;dsavransky_exosims;a9136ea94b3a9293f837054d2af4a91964cb3cb2;Christian <christian.delacroix@gmail.com>;1484863562;"ICD update
+"
+post;dsavransky_exosims;dda11ab493f836b9344ef7ea4b5cd7ecda9adb21;Christian <christian.delacroix@gmail.com>;1484946084;"Bugfix at Observatory static ephemerides
+
+In solarSystem_body_position, reshaped r_body to (currentTime.size,3)
+"
+post;dsavransky_exosims;74d8b656a110fdc896762f7bc797235ba7c418f7;Christian <christian.delacroix@gmail.com>;1486133095;"Bugfix
+
+- Runtime errors: divide-by-zero errors avoided in OpticalSystem and
+SurveySimulation modules
+- BrownCompleteness: updates array was disabled because causing an
+error in some cases, and is now fixed and used again
+"
+post;dsavransky_exosims;e789c6d0df692a18c87dc10534d1a4f960967dfe;Dmitry Savransky <dsavransky@gmail.com>;1486150538;"adding jpl unit tests
+"
+post;dsavransky_exosims;5e104e0e5f9546c20742e394b4c818c556373907;Christian <christian.delacroix@gmail.com>;1486152543;"Forecaster update
+
+- Now, user needs to download only the fitting_parameters.h5 file from
+the FORECASTER GitHub repository at
+https://github.com/chenjj2/forecaster and add it to the
+PlanetPhysicalModel directory. No need to rename it.
+- Documentation (install requirements) updated
+"
+post;dsavransky_exosims;1b6c34e33cdf78d7af83aedcf211e6868fafa6b3;Dmitry Savransky <dsavransky@gmail.com>;1486153765;"adding EXOSIMS nonpublic defs to gitignore
+"
+post;dsavransky_exosims;d10a51e77872d16dca965fafaab560e5f8ceed63;jmassarani <julianma95@gmail.com>;1486333830;"upload for merge
+"

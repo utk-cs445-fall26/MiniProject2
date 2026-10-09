@@ -1,0 +1,5 @@
+.part1_cache/
+.part1_repos/
+.woc_pkg/
+__pycache__/
+*.py[cod]

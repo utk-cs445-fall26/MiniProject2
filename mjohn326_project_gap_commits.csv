@@ -1,0 +1,370 @@
+pre/post;project;author;commit;time;message
+pre;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;7d6031695fecb6ba8ae68bf44551002c41022ec7;1517081455;"improving doc, improving plot
+"
+pre;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;ee9ae1d1c4fc6ca38df282cc5ceb453be80d2ca2;1517093700;"fixed doc for fit
+"
+pre;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;f3b255cca8f0f9ee08b54ded6c3e417c1ddb9393;1517167496;"fixed B_eq
+"
+pre;andreatramacere_jetset;Andrea TRAMACERE <andrea.tramacere@unige.ch>;72ac74822370ada87a128c3245a15965f8d3a4d8;1523046489;"pre 2/3 branch
+"
+pre;andreatramacere_jetset;Andrea TRAMACERE <andrea.tramacere@unige.ch>;d433afea15ad45724072c7771805de9865993845;1523314599;"py23 done, added iminuit
+"
+pre;andreatramacere_jetset;Andrea TRAMACERE <andrea.tramacere@unige.ch>;19a68ab4af23e8c91e35e4d463d6d9143870d483;1523374878;"improved minuit, fixed py23 issues
+"
+pre;andreatramacere_jetset;Andrea TRAMACERE <andrea.tramacere@unige.ch>;cff9b5451d973ab22de9231f06e5793407d32215;1523375289;"improved minuit, fixed py23 issues
+"
+pre;andreatramacere_jetset;Andrea TRAMACERE <andrea.tramacere@unige.ch>;e4834d3d7fae064ae94a1baf3fbb0c36e501630d;1523518766;"added class method to laoda jetmodel
+"
+pre;andreatramacere_jetset;Andrea TRAMACERE <andrea.tramacere@unige.ch>;6edfcaefbd1facf0458f49377d157b813f76e038;1523539535;"fixed max_ev
+"
+pre;andreatramacere_jetset;Andrea TRAMACERE <andrea.tramacere@unige.ch>;08e5ebee184add44273b027fef0e8ac48d833364;1524413418;"created general class for minimizer
+"
+post;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;004217aa73562f4d2a7860cb4555fd862d5e564f;1541509307;"enabled temp ev, improved plot
+"
+post;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;c7354dd9aaf050eb6b6800db956818ec5ff638e6;1541511782;"fix bug in Jet.model_plot
+"
+post;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;65963466d03e12d83575127662926520eab8282b;1541515972;"patch for nan in SSC array
+"
+post;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;4837cc69f83b153e44363313ac0375f2a4ff4076;1541577459;"all the spectral components tacken from grid
+"
+post;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;37986376b074d26fe12dca8aaf4a2441a20b74ea;1541582965;"removed empty indices from otuput .npy
+"
+post;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;f402d9eaa7919ae237169adf3e700dfac2437a0d;1541669458;"refine sed_shape
+"
+post;andreatramacere_jetset;andrea tramacere <andrea.tramacere@gmail.com>;9a13c07badd22002fc790a044e54aad423c870af;1541755731;"improved shape analysis, fixed .npy in save
+"
+post;andreatramacere_jetset;andrea tramacere <orion@MacBook-Pro-3.local>;44325f7701bb146fa9a4ef6508f08afcbf160ee6;1543967280;"improved minimizer and dataloader
+"
+post;andreatramacere_jetset;andrea tramacere <orion@MacBook-Pro-3.local>;5288a350a5c6b5165ec00839dc5c07e7fab87cd9;1544441629;"fixing doc
+"
+post;andreatramacere_jetset;andrea tramacere <orion@MacBook-Pro-3.local>;40e8c47adc4ccce64aae99d15944c710513b0760;1545130044;"unpdated setup.py to overcome swig problem, updating doc
+"
+pre;elfi-dev_elfi;Bart Pelssers <pelssers@users.noreply.github.com>;5c6eb7e21e33b8eafddcd086f824062b5153deab;1556980571;"Merge ea69a3bb138175d8b5420fcfa2bcf18f66b2eb57 into 8ba3b6273323a3b93aec6b81732c117c7e0b0abc
+"
+pre;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;e0eeb8762ce7e5e5e4f74502f4988d100b6bd02e;1557923579;"Initial commit
+"
+pre;elfi-dev_elfi;Henri Pesonen <33959025+hpesonen@users.noreply.github.com>;36dfd09c79eacf7c03a0431b07da44ede946e0e8;1557924316;"Merge e0eeb8762ce7e5e5e4f74502f4988d100b6bd02e into 8ba3b6273323a3b93aec6b81732c117c7e0b0abc
+"
+pre;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;427d6d027cf8a29b71f3d7164da8f7855c714e3a;1557924537;"Merge branch 'dev' into Modify_DCC_model
+
+Update the branch from newer 'dev'
+"
+pre;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;5f637ad0fb899f0e297e6f7ea6865c2319b139dc;1557924682;"Modified CHANGELOG
+"
+pre;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;45b6b512fe8020fb4c03e349d076987d54b9d4cd;1557925846;"Fix lint
+"
+pre;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;71600a41e5c12617345476e52870cfab26699576;1557928256;"Added log-transformed discrepancy node logd to the model
+"
+pre;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;9ebec145e9130793fb081508c370e5df50545cf8;1557929108;"removed redundant commented line
+"
+pre;elfi-dev_elfi;Henri Pesonen <33959025+hpesonen@users.noreply.github.com>;69b3b39c2e5fef7eefe53258fa93f1b60f22f300;1557929127;"Merge 9ebec145e9130793fb081508c370e5df50545cf8 into 8ba3b6273323a3b93aec6b81732c117c7e0b0abc
+"
+pre;elfi-dev_elfi;Mehti Musayev <mehty.musaev@gmail.com>;bfef91a6df25c4c625dd2ec9a294c28e5158217d;1558478896;"Merge 47a39e52c4a02e4040518f0f0216558859733b21 into 8ba3b6273323a3b93aec6b81732c117c7e0b0abc
+"
+post;elfi-dev_elfi;Henri Pesonen <33959025+hpesonen@users.noreply.github.com>;077f144d48acba90c8c4f85fa226977edbab61e4;1573811824;Merge branch 'dev' into exponential-likelihood
+post;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;e417a17749134a86a243c48da517a962650c0797;1573849988;"Enabling BOLFI-fit using only initial evidence points.
+"
+post;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;367bdaf3faba054d3ca63190b3826627a699c1ca;1573850661;"Modified CHANGELOG.rst.
+"
+post;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;e577c27a52b585c84bc7e2a5ffec63a501aa5d93;1574007993;"Test if Travis is failing due to multiprocessing.
+"
+post;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;b17edca36af9d00a92a5168cb35320dcabff8603;1574112654;"Fix a bug causing a deterministic random seed
+"
+post;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;e85d8b8a0f572008472dce941f5342f4c5ed1fea;1574112992;"Fix a bug causing a deterministic random seed
+"
+post;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;c944dc0f4176c8db178e6bb3827a9fe8a4e8610e;1574343161;"Update requirements-dev.txt
+"
+post;elfi-dev_elfi;hpesonen <henri.e.pesonen@gmail.com>;b5fc42a01120f5ed96a2820a72759d02b561ff55;1574352304;"Modified CHANGELOG.rst with the new features
+"
+post;elfi-dev_elfi;Henri Pesonen <33959025+hpesonen@users.noreply.github.com>;f55f778a38bbc640cbea6dc4dee624263af74e08;1574418512;"Enable BOLFI-fit using only initial evidence points. (#309)
+
+* Enabling BOLFI-fit using only initial evidence points.
+
+* Modified CHANGELOG.rst.
+
+* Test if Travis is failing due to multiprocessing.
+
+* Fix a bug causing a deterministic random seed
+
+* Fix a bug causing a deterministic random seed
+
+* Update requirements-dev.txt
+
+* Modified CHANGELOG.rst with the new features
+"
+post;elfi-dev_elfi;Waldir Leoncio <waldir.leoncio@gmail.com>;cad7f078ef0df87dc0a5d092001530f761dbb1dd;1574425685;Merge branch 'dev' into Modify_DCC_model
+pre;falkonml_falkon;gmeanti <giacomo.meanti@gmail.com>;373c03bf98915915388c608fc521524d070d8475;1713472750;"[WIP] Factor models into multiple functions
+
+This is to make it easier to extend the models using X which is not a Tensor
+"
+pre;falkonml_falkon;gmeanti <giacomo.meanti@gmail.com>;8cf5c2aa468b9ad19c141715eafe5ca2a340ba5f;1713472804;"Delete special case for when precomputed-kernel is provided
+"
+pre;falkonml_falkon;gmeanti <giacomo.meanti@gmail.com>;0c5388ccd56e2bdc3e56740028ad1aa8cc76a449;1713473179;"Fix test-bugs on CUDA
+"
+pre;falkonml_falkon;giacomo m <giacomo.meanti@gmail.com>;b0853d69c835c725864826733d0d0d906ecd7934;1713474270;"Fix same test bug
+"
+pre;falkonml_falkon;gmeanti <giacomo.meanti@gmail.com>;645e8f13966b2b32836373ce9e654371017f9ef9;1713515376;"Fix import to be more specific (avoid circular init problems)
+"
+pre;falkonml_falkon;gmeanti <giacomo.meanti@gmail.com>;fe672ec56128a6c9b6bc9360337001e0bbe99e6c;1713515379;"Merge branch 'master' of github.com:FalkonML/falkon
+"
+pre;falkonml_falkon;giacomo m <giacomo.meanti@gmail.com>;4bf276d395479146a1ba7bffe9f06a99f54d3fbe;1713700949;"Don't enter inference mode in solver. It's redundant with falkon.fit
+"
+pre;falkonml_falkon;gmeanti <giacomo.meanti@gmail.com>;51d0885e0eb3e5a99d0b1868e9cb19517b0bf816;1714591080;"More lenient in accepting errors of different types
+"
+pre;falkonml_falkon;gmeanti <giacomo.meanti@gmail.com>;b4c78145683713b2ad6fa07373c33fa11ba09d9d;1714591231;"Merge branch 'master' of github.com:FalkonML/falkon
+"
+pre;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;5559fd6716a2b1b98f480f5c456a6a7b86ff72a3;1721160907;"Some random type hints
+"
+post;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;b6bf75a9ebe541d58e2e2f71b75195b7506f82cc;1752652034;"Fix attribute error with newer keops
+"
+post;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;c3f32957f38bf4da44c268e23830bf6e0fc3f46e;1752652383;"lint
+"
+post;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;ee38f4409937b6a62e9ab5ca1e411000671f32d2;1752652408;"Update workflow versions
+"
+post;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;c49b50a67fc00a71d7118536799d33ee6a2dbff1;1752652720;"Update docs for install instructions
+"
+post;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;c71c79473204a5a7b07863dcd9fd5c8fd1c76e3c;1752652740;"bump version
+"
+post;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;f2057c528dab0902c4823e5418e6b386531596dd;1752658471;"Update runner
+"
+post;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;cb0b8c1b315ae806d70ad6e2d3e0bcc6caae0630;1752668427;"Fix tests and warnings
+"
+post;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;5127a3b884bb4abd9894ce5949e6f84b3345ac7e;1752668449;"Lint
+"
+post;falkonml_falkon;Giacomo Meanti <gmeanti@inria.fr>;44c3fff34e2f4ed9611b2b9d5b46291a0cb9b1a2;1752672200;"Update linters
+"
+post;falkonml_falkon;Giodiro <Giodiro@users.noreply.github.com>;7e252f13863469a72793da05e3a4e168a0e72422;1752675229;"deploy: 44c3fff34e2f4ed9611b2b9d5b46291a0cb9b1a2
+"
+pre;henriqueslab_zerocostdl4mic;IvanHCenalmor <47150974+IvanHCenalmor@users.noreply.github.com>;ec4a6794c0fc57b02110f208090963393d9a45a0;1740461899;"GitHub Action - Update manifest with DL4MicEverywhere information
+"
+pre;henriqueslab_zerocostdl4mic;mariana-gferreira <mariana.g.ferreira@itqb.unl.pt>;2c94214400f8f67d803772b8ca9b5b85450441d3;1740752771;"update legacy bmz id to nickname id
+"
+pre;henriqueslab_zerocostdl4mic;mariana-gferreira <mariana.g.ferreira@itqb.unl.pt>;8a6f30553fa04ba91d03973cb05b61203530b83b;1740752827;"add Diffusion model for SMLM notebook to manifest
+"
+pre;henriqueslab_zerocostdl4mic;mariana-gferreira <mariana.g.ferreira@itqb.unl.pt>;e21ede6021f2b7c7332f13ba7bd0c2b58f466680;1741189177;"update legacy id with bmz nickname
+"
+pre;henriqueslab_zerocostdl4mic;Mariana G Ferreira <94363644+mariana-gferreira@users.noreply.github.com>;77329c7ba4e16812ad8252350688d3fbc5869b21;1741191542;Merge branch 'master' into bioimageio_manifest_id_update
+pre;henriqueslab_zerocostdl4mic;mariana-gferreira <mariana.g.ferreira@itqb.unl.pt>;b7de817779ae3a74b57a92634d3c35e173047a6f;1741195371;"export_bmz_notebook revert
+"
+pre;henriqueslab_zerocostdl4mic;Mariana G Ferreira <94363644+mariana-gferreira@users.noreply.github.com>;a669c2e227289e8fcb0ede336a89637ef0b417e4;1741195380;"Merge b7de817779ae3a74b57a92634d3c35e173047a6f into ec4a6794c0fc57b02110f208090963393d9a45a0
+"
+pre;henriqueslab_zerocostdl4mic;Anthony Bilodeau <34163910+antho214@users.noreply.github.com>;709c5b17ae6e0490af50bafc0ce24fc1570ed94a;1741865646;"Merge f4bfb8368fd8d065ae88267473ef5c3d13f1e0b8 into ec4a6794c0fc57b02110f208090963393d9a45a0
+"
+pre;henriqueslab_zerocostdl4mic;leonor-morgado <100152251+leonor-morgado@users.noreply.github.com>;6775bc354f87451ea5971934193e923a013430fe;1741865670;"Merge e9a1814f7ef6c02c276ab58772f8a0db14b4bd54 into ec4a6794c0fc57b02110f208090963393d9a45a0
+"
+pre;henriqueslab_zerocostdl4mic;mariana-gferreira <mariana.g.ferreira@itqb.unl.pt>;ca5d62d10306c05256d008a796ac7f0248dabe49;1744122976;"replace deprecated tifffile.imsave with imwrite
+"
+post;henriqueslab_zerocostdl4mic;Joanna Pylvänäinen <Joanna.pylvanainen@gmail.com>;f69675be6ed2950266a5b6d1d47e7f0ae1c54512;1750793864;"some bugs fixed
+
+at least the prediction part works for in this notebook - training part has not been tested. Please merge if feels appropriate
+"
+post;henriqueslab_zerocostdl4mic;Estibaliz Gómez-de-Mariscal <43643518+esgomezm@users.noreply.github.com>;efdf9839ba0912d27808c9157dcdba8abc07cdda;1755622645;Update DeepSTORM_requirements_simple.txt
+post;henriqueslab_zerocostdl4mic;Estibaliz Gómez-de-Mariscal <43643518+esgomezm@users.noreply.github.com>;6ba24d2df7b81c1139d1efca4844aa546fda3829;1755622678;updated deepstorm
+post;henriqueslab_zerocostdl4mic;Estibaliz Gómez-de-Mariscal <43643518+esgomezm@users.noreply.github.com>;b9cdb4523131d596b2b21293f895d6fcf4a2c5da;1755622709;Update Latest_Notebook_versions.csv
+post;henriqueslab_zerocostdl4mic;Estibaliz Gómez-de-Mariscal <43643518+esgomezm@users.noreply.github.com>;e4c563dfdc68d4f25dcde02b7a193d04d53528cd;1755622758;Update manifest.bioimage.io.yaml
+post;henriqueslab_zerocostdl4mic;Estibaliz Gómez-de-Mariscal <43643518+esgomezm@users.noreply.github.com>;ec86526033884354d88baaecb4645da5e908ee01;1755695257;Update manifest.bioimage.io.yaml deepstorm
+post;henriqueslab_zerocostdl4mic;Estibaliz Gómez-de-Mariscal <43643518+esgomezm@users.noreply.github.com>;66cef3f121959c0a02df5cabf4443d02036f7e3e;1755700182;Update manifest.bioimage.io.yaml
+post;henriqueslab_zerocostdl4mic;Iván Hidalgo <47150974+IvanHCenalmor@users.noreply.github.com>;662a40c24db9c168a90e07eb813317ae3ad2d48e;1755700469;Make the Stack and Big prediction frame-by-frame
+post;henriqueslab_zerocostdl4mic;Estibaliz Gómez-de-Mariscal <43643518+esgomezm@users.noreply.github.com>;083357329fccef6559516efc40ac9b488b94baed;1755708066;correct section removing deepstorm
+post;henriqueslab_zerocostdl4mic;IvanHCenalmor <47150974+IvanHCenalmor@users.noreply.github.com>;0bbcd7f2752907b889fc0fdd27ebce9da0f458ec;1755754933;"GitHub Action - Update manifest with DL4MicEverywhere information
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;72d921e0585c701f24a6a87468fa9983fba520b7;1499332212;"introduces own files for proximal maps and simple algorithms llike median, mean and variance.
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;651e3489d353ddd95e2dff6c1c7b49fa8f0b0d05;1499332280;"renames the main file to manopt.
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;a1db48d3d6ac936b962eb92b5a5b919e74682efa;1499332373;"unifies exports and introduces the first function for SymPosDef (affine).
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;448d0ec78a0b304fecf5f1081ca20d74c8e0bc1c;1499361285;"unifies the base point check to read checkbase and adds a test for SymmetricPositiveDefinite exponential map.
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;5e8106d243e551ea40fa652d52ba29537878961e;1499418900;"fixes a bug in exp, unifies the signature and adds the SPD logarithm.
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;946e1a6e67d1c548adca400b9f8f806e508bb436;1499529347;"implements dot, dist and inner product for SymmetricPositiveDefinite.jl.
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;57ac46169e64fd56bc6abf64f1db48ade474b12d;1499755634;"updates imports, exports and introduces shorter operator definitions as well as unitary operators for MTVector.
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;491d6db90f5f40ebbcee8416cafe8e5a5614afd8;1499755682;"adds parallelTransport on Sn including its test, shortens a few functions.
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;d736872972a672d183363322a6fe246af21ba096;1499760023;"Fixes two bugs in SPD: log & parallelTransport, shortens a few functions.
+"
+pre;juliamanifolds_manopt.jl;Ronny Bergmann <mail@rbergmann.info>;c1afaff2fa9e2a59b9e0f57df2f4195cd0f8191d;1500886046;"adds a first idea of a gradient descent.
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;ecbcf54cc1ecd09fab45b0baed3725768dad35b2;1529949165;"A few small bug fixes and updates for Julia 0.6 – though Union{T,Arra{T,N} } seems to have stopped working; starts a Tutorial Jupyter.
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;51103c522166026875b6fa092fe47efa497dacb3;1529999198;"Refactors Manopt.jl to not use implicit vectorization, introduces Product and Power manifold for these cases. Finishes the first gradient descent Tutorial.
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;cba438045c781ab2869e810efe48e2b84bcd87c4;1530000022;"Updates documentation.
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;2b4f5e6dc61c1caf85d58de66c895ec3aaacc7ad;1530000875;"Updates documentation, unifies export/import in the single manifold files.
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;45f4a06ee0d514ece7b09519572c6b6085dabc83;1530025812;"Fixes the geodesic on manifolds and introduces a first idea to plot signals on the sphere using PyPlot.
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;9a16f2123a402db77e9704dfcc431428a6479b2e;1530082390;"Introduces a first idea of how to do debug.
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;605c9eb5abd990eef207fbc81d9f9f8187ef1c23;1530169346;"Fixes a bug in Sphere, adds a first test for gradDesc.
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;2e818a551c0a2d0916a8055e1c10ce6165f5c7e4;1530169398;"moves documentation to /docs/src to start a Documenter.jl based documentation – though it does not fully work for private repos.
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;95724c14b9aaa8e3e1ee23befd279ecc7393f898;1530246638;"A short note on function interface dfesign in the documentation (that tries to match the Documentation.jl stlye but is not yet tested to work, willdo that when going public).
+"
+post;juliamanifolds_manopt.jl;Ronny Bergmann <git@ronnybergmann.net>;10c694869f0b94e5dda7adce32dd647817c7aadb;1530605889;"rewrites the debug Functions to be more modular for future debug functions.
+"
+pre;mattjj_pyhsmm;EC2 Default User <ec2-user@ip-172-31-34-239.us-east-2.compute.internal>;74f6ac8434230980eb938a0915b2a6f60bd0e432;1601322904;"added deps folder to repo
+"
+pre;mattjj_pyhsmm;EC2 Default User <ec2-user@ip-172-31-34-239.us-east-2.compute.internal>;505a64d377b1a31a38e1ee577108ae06f69f61a0;1601323452;"actually added deps folder
+"
+pre;mattjj_pyhsmm;Max Margenot <max.margenot@gmail.com>;6367a24229f46e99e3ff761555b308a5765ea17d;1601323469;"Merge 505a64d377b1a31a38e1ee577108ae06f69f61a0 into e6cfde5acb98401c2e727ca59a49ee0bfe86cf9d
+"
+pre;mattjj_pyhsmm;EC2 Default User <ec2-user@ip-172-31-46-213.us-east-2.compute.internal>;840c76c50892d1a7d46fe65e6adce99c79f8d61a;1601413093;"got rid of code that downloaded the deps folder
+"
+pre;mattjj_pyhsmm;Ameya Daigavane <ameya.d.98@gmail.com>;e9b94a0472a009412c296f1fdfe6dd34fa4b9568;1605062183;"Merge 41f43f0b3659b07f87d521b6db9a25f616ae830a into e6cfde5acb98401c2e727ca59a49ee0bfe86cf9d
+"
+pre;mattjj_pyhsmm;Nick Hoernle <nicholas.hoernle@gmail.com>;bff5776eee1c0cc83aadf30f3da3de9116130240;1605062183;"Merge 155fb49065f4296800c479760dd5196cdb691cde into e6cfde5acb98401c2e727ca59a49ee0bfe86cf9d
+"
+pre;mattjj_pyhsmm;audiracmichelle <audiracmichelle@gmail.com>;f444dc6ce8c1bed13129eab21ae9b81e426d8656;1649621179;"removed import from six.moves
+
+for compatibility with python 3.9. Tested on M1 Mac."
+pre;mattjj_pyhsmm;audiracmichelle <audiracmichelle@gmail.com>;9a2a2df954dec012bb0f5cb1999456e84c365b45;1649621889;"Merge f444dc6ce8c1bed13129eab21ae9b81e426d8656 into e6cfde5acb98401c2e727ca59a49ee0bfe86cf9d
+"
+pre;mattjj_pyhsmm;TrellixVulnTeam <charles.mcfarland@trellix.com>;68183f4fa3e463a82e2dca8b03fb568d02ebfe53;1666773475;"Adding tarfile member sanitization to extractall()
+"
+pre;mattjj_pyhsmm;TrellixVulnTeam <112716341+TrellixVulnTeam@users.noreply.github.com>;223ba828889574737f9abb99a07e25a6c87a0b3a;1666773478;"Merge 68183f4fa3e463a82e2dca8b03fb568d02ebfe53 into e6cfde5acb98401c2e727ca59a49ee0bfe86cf9d
+"
+post;mattjj_pyhsmm;Andrea Pierré <6053592+kir0ul@users.noreply.github.com>;612a81ec5240fe354cbed8fb322b90955c68bcde;1737652915;docs: add warning message in the README
+post;mattjj_pyhsmm;Matthew Johnson <mattjj@csail.mit.edu>;4e739166746f92bfc968d281f2c1d31e3471409f;1737783647;"Merge pull request #121 from kir0ul/patch-1
+
+Add warning message in the README"
+post;mattjj_pyhsmm;audiracmichelle <audiracmichelle@gmail.com>;da697e5c75c1f55885639cb288b6bb0dcb37a9d1;1739056090;"Merge f444dc6ce8c1bed13129eab21ae9b81e426d8656 into 4e739166746f92bfc968d281f2c1d31e3471409f
+"
+post;mattjj_pyhsmm;Nick Hoernle <nicholas.hoernle@gmail.com>;f10359fc9683567526665500c06c23093a5a48f5;1739056091;"Merge 155fb49065f4296800c479760dd5196cdb691cde into 4e739166746f92bfc968d281f2c1d31e3471409f
+"
+post;mattjj_pyhsmm;TrellixVulnTeam <112716341+TrellixVulnTeam@users.noreply.github.com>;3492474a30c9feb700d677a56143ba7ed2f43912;1739056092;"Merge 68183f4fa3e463a82e2dca8b03fb568d02ebfe53 into 4e739166746f92bfc968d281f2c1d31e3471409f
+"
+post;mattjj_pyhsmm;Bruno Abreu Calfa <bacalfa@gmail.com>;55abb66022b22ea81c7cad1afce60fadf2b78654;1739056093;"Merge d6e04232989afde6c7c4b059a901f1862bd8b8ff into 4e739166746f92bfc968d281f2c1d31e3471409f
+"
+post;mattjj_pyhsmm;Bruno Abreu Calfa <bacalfa@gmail.com>;b7a6bdab7826a4fc1b193e79e769492af927199e;1739056094;"Merge cf77fc907fa8314f674c1e473678d37c1a712c7f into 4e739166746f92bfc968d281f2c1d31e3471409f
+"
+post;mattjj_pyhsmm;Ameya Daigavane <ameya.d.98@gmail.com>;56762a265504a2de65996dfb3a713381b3058105;1739056097;"Merge 41f43f0b3659b07f87d521b6db9a25f616ae830a into 4e739166746f92bfc968d281f2c1d31e3471409f
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;81f9fba87cc1033ba01eaaf63a66bbabd2dae70b;1626743211;"Update template for new raster options
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;587134470bdd258657e29689a61c91ecf080d125;1626748897;"Include proper SRS data in aux.xml file
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;776c96dbb872455df194fa4e392cdc5aae98b4a6;1627743438;"Improve raster treatment of elevation data
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;448b8c36c4f083de5f9182cd218f9253ec8e9943;1627776545;"Improve raster treatment of elevation data
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;9534363802fb3aed5ee5bcf9b78c1f5a76f778f7;1627788179;"Issue #77 TriangleCollector visited triangles twice
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;eafb33ac4726bdfa8fce7ed5d9b5741317798fae;1627846239;"Release 2.1.7
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;0127931c2ecb248c643d2baa85766098ad5d0a74;1627846673;"Release 2.1.7
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;a32ad7cd3379a89bc5946a3556a1aa2f637f69de;1630227658;"Begin release 2.1.8
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;569dca624383b39fdb6d6c0a1b91a02dc30a0863;1630228224;"Fix for domain rectangle computation
+"
+pre;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;975745cf92b7351a6302cb9b5e220e199b97d748;1631576482;"Issue-79 Better document for triangle collector
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;b8407d911d864bcf5ab28f3861082e2d65170012;1651777301;"Issue 84: Describe how to expedite processing in Javadoc
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;19f781df264345cbaae2f08389676faaf0786021;1655974651;"Address issues from static code analysis
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;476ae7e6942f156a83a10636813d1ce08fd3ea5b;1656959987;"Issue 86: clarify Javadoc for IQuadEdge pinwheel operation
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;45ff99cfdde5c65667ca1992e315f65e8d2b2b0a;1661227005;"Added getSibsonCoordinates method
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;707a3b3715e84220067fff4f505b0b37b927db0c;1665707565;"Issue 90: Read LAS format version 1.4 files
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;6814979ad63c878316427f08ca72142642746cf1;1666136629;"Issue 89: Read laszip files with LAS format 1.4
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;bdfebe1e9d5ab5a457cdc0ce3aa5c7b5effae8b2;1669854928;"Issue 96: additional access to Natural Neighbors
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;27602a854cbf7405d16a68fc7d4ec0040d520234;1670459425;"Issue 96: additional access to Natural Neighbors
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;b42da783dd7b8e1ab0352f7bf9918fd4706168bd;1675149740;"Correct shapefile z value transformation
+"
+post;micycle1_tinfour;gwlucastrig <contact.tinfour@gmail.com>;7fcc8691064c7de38432647fc820456c99ad676b;1676302511;"Issue 96: bug fix for geometry in ShapefileWriter
+"
+pre;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;f8109556cdcff5b110f09b4eb72654b2482a51b2;1470827717;"Better cleaning up after parallel jobs
+"
+pre;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;fb246c0b597e683c9298db2ac07064a53756511b;1470911991;"Merge pull request #33 from RokasSt/master
+
+Thanks!"
+pre;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;441226f54166788d56cb953d0e2b2ad5afcdad66;1470931158;"Improved ability of pynml-povray to visualise connections between multicomp cells
+
+Use options: -conns -conn_points
+Cc @RokasSt
+"
+pre;neuroml_pyneuroml;Richard C Gerkin <rgerkin@asu.edu>;df9e11566f1a0aadf47ed4a8e9e4cb9c5abff6c8;1470950610;"Removed dynamically updated .mod files from version control
+"
+pre;neuroml_pyneuroml;Richard C Gerkin <rgerkin@asu.edu>;c0508de797bf5d09a731fe857d1027db9496be38;1470950720;"Better verbosity control and PEP-8 cleanup
+"
+pre;neuroml_pyneuroml;Richard C Gerkin <rgerkin@asu.edu>;562baca9a3a9955f78a2def618ff9f158ccab635;1470950756;"Fixed camelCase bug, plotting keyword bug, and PEP-8 cleanup
+"
+pre;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;cdf96acfcad9d84a02dceed3dd36081151b739d9;1471876210;"Latest jnml jar
+"
+pre;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;5fc8b4ce1add159508ba311de967fe58cc4567eb;1471951335;"Minor change to saving of files in generate_lems_file_for_neuroml()
+"
+pre;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;11a34b737df46ea68afa9c4a10b97f0736c12117;1472720611;"Latest jnml jar & updated to v0.2.2
+"
+pre;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;1bf7910f375f4d67e9f16c67d0af72b8378d7ebc;1474583700;"Initial version of mod file -> NML file converter...
+"
+post;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;c3ff2c02ad5e2e7a1cccb96b06946db3266646de;1480956787;"Adding ability to reload events from files
+"
+post;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;077e3821e043004a43e5eeab8755eb929157f1d5;1481542202;"Ignoring some more...
+"
+post;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;32518eb36678859f80bd07ffd106ccf67284444d;1481833335;"Script for installing java locally
+"
+post;neuroml_pyneuroml;Richard C Gerkin <rgerkin@asu.edu>;a10a637ba7f01f17d5879b6437897a8b8e854436;1481844979;"Merged
+"
+post;neuroml_pyneuroml;Richard C Gerkin <rgerkin@asu.edu>;a379f31bd5e2b4fcb79cae3af4baa842e0797ed4;1481845584;"Updated version
+"
+post;neuroml_pyneuroml;Richard C Gerkin <rick1@gerkin.org>;1ea0e080c84881ed6b45581db8c599f8c5b251de;1481869410;Added ability to use keyword arguments for plot_iv_curve
+post;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;467c9d46e376cb8dd0d28709cb5a0a01a5658190;1483463781;"Adding example to create a new LEMS file from scratch for running a NML2 model
+"
+post;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;be9dad126c7cf5a1adac8cf524eef82afa9f3741;1483468593;"Adding option to LEMS generator class: gen_spike_saves_for_all_somas
+"
+post;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;cdde0ceaeff10606150b0ea84cfab2428c2803a6;1483535951;"Adding latest jnml jar & updating to v0.2.3
+"
+post;neuroml_pyneuroml;Padraig Gleeson <p.gleeson@gmail.com>;7996bbb985a762c98bb55ec94c44edf89c71460c;1483546340;"Adding readme
+"
+pre;vinecopulib_pyvinecopulib;sarabas <sarabas@chathamfinancial.eu>;90120a740407285a5ca4f5beb18f189d52cc6239;1506084057;"vinecop arg count corrections in test names
+"
+pre;vinecopulib_pyvinecopulib;sarabas <sarabas@chathamfinancial.eu>;a9f88d00174256781ca249ca181b20f15c757bf1;1506333556;"trying to workaroung brew/numpy issue on travis
+"
+pre;vinecopulib_pyvinecopulib;sarabas <sarabas@chathamfinancial.eu>;7bd67278b9707d59c05a4238f232d45fc4721c74;1506341477;"trying to workaroung brew/numpy issue on travis +1
+"
+pre;vinecopulib_pyvinecopulib;sarabas <sarabas@chathamfinancial.eu>;f049001cce02980c1ba453ad25b754b1cd36406a;1506342587;"trying to workaroung brew/numpy issue on travis +2
+"
+pre;vinecopulib_pyvinecopulib;sarabas <sarabas@chathamfinancial.eu>;501c1827bfb585116695ab324d47f951ae654cc1;1506344947;"trying to rely on system numpy
+"
+pre;vinecopulib_pyvinecopulib;sarabas <sarabas@chathamfinancial.eu>;b58f099d7d5cb6b3e27aee2c2df6f239f88731c6;1506348188;"trying to rely on system numpy
+"
+pre;vinecopulib_pyvinecopulib;sarabas <sarabas@chathamfinancial.eu>;6d1a3874da5b5258b623ffcd69d39f5b94ab1ff1;1506502881;"moving two failing tests to todo folder
+"
+pre;vinecopulib_pyvinecopulib;sarabas <sarabas@chathamfinancial.eu>;7e3505f1cdff5b21a6137a7143383b48a88d4351;1506506213;"trying to fix compatibility with boost >1.56 (based on patch to igfuw/libcloudphxx by Piotr Dziekan - thanks!)
+"
+pre;vinecopulib_pyvinecopulib;Sylwester Arabas <slayoo@staszic.waw.pl>;ca455f783cb87e2af94d4ec0d507044dc5a04c13;1506506219;"Merge 7e3505f1cdff5b21a6137a7143383b48a88d4351 into 141300566c12844dce473c4388def5d9a4deff68
+"
+pre;vinecopulib_pyvinecopulib;Sylwester Arabas <slayoo@staszic.waw.pl>;fbe216ef5933c924f5099f1fa4342ec3dffa4e6e;1526677606;"Merge 7e3505f1cdff5b21a6137a7143383b48a88d4351 into 141300566c12844dce473c4388def5d9a4deff68
+"
+post;vinecopulib_pyvinecopulib;Thibault Vatter <thibault.vatter@gmail.com>;3f75d6f2e249d72fcd1c065e81a2444493513e72;1563195595;"initial commit
+"
+post;vinecopulib_pyvinecopulib;Thibault Vatter <thibault.vatter@gmail.com>;9f12f6d5a7b1371be0c5ed87b6f625146c6c8097;1563195823;"Updating badges
+"
+post;vinecopulib_pyvinecopulib;Thibault Vatter <thibault.vatter@gmail.com>;f8f4bf39241fd585640eeddf0cf005f2c4115c81;1563197290;"Remove useless things
+"
+post;vinecopulib_pyvinecopulib;Thibault Vatter <thibault.vatter@gmail.com>;fdba8475945d628a615c35bee6ba9ef4b46c0810;1563198367;"Remove more useless stuff
+"
+post;vinecopulib_pyvinecopulib;Thibault Vatter <thibault.vatter@gmail.com>;70b108cd3d8343b023ced8cd06400e1ebfc4f68a;1563198730;"Comment missing file
+"
+post;vinecopulib_pyvinecopulib;Thibault Vatter <thibault.vatter@gmail.com>;2fc09583b0973991c911e3dbf2efc1780e7e86de;1563198940;"Moooore removals
+"
+post;vinecopulib_pyvinecopulib;Thibault Vatter <thibault.vatter@gmail.com>;8f08ed95927a729f3621f3caaab30051ecbfbbfa;1563199827;"...
+"
+post;vinecopulib_pyvinecopulib;Thibault Vatter <thibault.vatter@gmail.com>;d075496fd062e395081a52462390081b1a6d3646;1563202514;"reinitialize
+"
+post;vinecopulib_pyvinecopulib;Thibault Vatter <thibault.vatter@gmail.com>;7da4815e3b81e52f871bf5cc3f6bcc756c5d6273;1563203218;"reinitialize again
+"
+post;vinecopulib_pyvinecopulib;tnagler <thomas.nagler@tum.de>;8552b7629eaff5e55227c70e85a018180988602d;1563203369;"replace LICENSE
+"

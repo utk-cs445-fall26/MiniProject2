@@ -1,0 +1,747 @@
+mmorise_world,00144f85329256bf24124729a0554f76fda95877,mmorise <mmorise@yamanashi.ac.jp>,1492872352,"DC component is removed
+"
+mmorise_world,001cffd6e178dce0cb9dc56a1c38e0a4aa6edb8a,mmorise <masanori.morise@gmail.com>,1457054604,"Merge pull request #10 from giuliopaci/master
+
+Complete the move of headers into a ""world"" directory"
+mmorise_world,03dde19b57276a300f74812092fe1c84578dc997,mmorise <masanori.morise@gmail.com>,1482051912,minor warning was fixed
+mmorise_world,04052de2ffa16c006a494a4e514b6190cc0beb3b,3628800 <49071618+3628800@users.noreply.github.com>,1582845773,"Merge 87841e01fd08a9993f380fdd1714be18d40a5ef1 into f3667c46f6c147c29fa1425c1a6cf9bdfd7a0882
+"
+mmorise_world,04bdec30a91ed01834c14bef061cff3453276ec9,mmorise <masanori.morise@gmail.com>,1483342949,Update common.cpp
+mmorise_world,04d7d3beb54d07a7acf83d8d1e4cf32b4949651a,mmorise <masanori.morise@gmail.com>,1456797138,"Merge pull request #8 from giuliopaci/master
+
+Small changes about static and const keywords"
+mmorise_world,04de8a94fc947fe0caebabd9335495a7f258b2fa,mmorise <masanori.morise@gmail.com>,1503514197,References were updated.
+mmorise_world,061b2bc76985703e712e3a52db2eccdf7a6ca743,Giulio Paci <giuliopaci@gmail.com>,1454028049,"Added ctest.c.
+"
+mmorise_world,06bda6187200156e8866e2599ebcde21aed63de8,mmorise <masanori.morise@gmail.com>,1483338919,Update README.md
+mmorise_world,07325aed6c710174fff77240df0ed7a1a0e7118c,Giulio Paci <giuliopaci@gmail.com>,1456821144,"Remove relative paths from common.h.
+"
+mmorise_world,0776c74479f91b754203192ae673fe9f5dc60f75,mmorise <masanori.morise@gmail.com>,1536809483,"Merge pull request #69 from vlee78/master
+
+fix decimate bug"
+mmorise_world,085ff9a9c845b0cc62d6a226177de1afc035d635,mmorise <mmorise@yamanashi.ac.jp>,1485956776,"Copyright message was simplified
+"
+mmorise_world,099efb887680091f9f634cb5f334cb8b5586f23a,Theo <lamcilaktheo@outlook.fr>,1599840780,"Updated the CMakeLists.txt to add the headers to project files and the install target
+"
+mmorise_world,0b530e0aab4fb7ba1b31074a45302b906c6cc1c3,mmorise <masanori.morise@gmail.com>,1477391951,Update synthesis.cpp
+mmorise_world,0b709a81db5cee7faebc7b5724673d98758dca43,dingzeyu li <lidingzeyu@gmail.com>,1497048532,"corrected typos and added comments on FFT computation
+"
+mmorise_world,0b9ad152655571c00e1c2ce8b6288d5e085837a2,mmorise <masanori.morise@gmail.com>,1477391931,Update analysis.cpp
+mmorise_world,0bd6e51f2bbec5971cd4e281a5e6ad037ce93357,mmorise <masanori.morise@gmail.com>,1461067638,"Merge pull request #11 from yamachu/fix/struct_cast
+
+Convert explicitly Struct-WorldSynthesizer's member"
+mmorise_world,0c42cf66cff7f06ba6e284b50b4e68db1662fdad,Giulio Paci <giuliopaci@gmail.com>,1454028020,"Make order in build directory and enable ctest.c in makefile.
+"
+mmorise_world,0d2667511691fc75fd65433f8abe800e7531582e,mmorise <masanori.morise@gmail.com>,1485529915,A bug was fixed
+mmorise_world,0d8e4afb060470ff01df63df4cccf94f331bd9a1,mmorise <masanori.morise@gmail.com>,1453952209,"Merge pull request #2 from giuliopaci/master
+
+Exposing C interface in the library, instead of C++ interface"
+mmorise_world,0d9b27b7f1f6a66bcafb8065125527ae37ff19ca,mmorise <masanori.morise@gmail.com>,1496935526,Create README.md
+mmorise_world,0dbc2e2975ddb7d25e413c42e91feb6ae7885529,Masanori Morise <masanori.morise@gmail.com>,1453094245,"Updated for vs2015
+"
+mmorise_world,0dd60c2d94fb902b33bf0c4043bdcb7e3c870e26,Giulio Paci <giuliopaci@gmail.com>,1453464168,"Updated synthesis.cpp to use MyMin<Type> and MyMax<Type>.
+"
+mmorise_world,0ea128efa4fce2561dec12eec0488faec6a81b0f,mmorise <masanori.morise@gmail.com>,1482848226,debug code was removed
+mmorise_world,0f39268c8bb3e5ff85fa3d22389d03adb346a223,Ryuichi Yamamoto <zryuichi@gmail.com>,1592217960,"address review feedback
+"
+mmorise_world,0f450dfa222cbea5ad83c2edf1269903b089665c,Ryuichi Yamamoto <zryuichi@gmail.com>,1499070550,"Fix memory leak in Harvest
+
+Found by clang address sanitizer
+
+```
+build/test arctic_a0030.wav
+
+File information
+Sampling : 16000 Hz 16 Bit
+Length 23601 [sample]
+Length 1.475062 [sec]
+
+Analysis
+Harvest: 1696 [msec]
+CheapTrick: 77 [msec]
+D4C: 240 [msec]
+
+Synthesis 1 (conventional algorithm)
+    WORLD: 126 [msec]
+
+    Synthesis 2 (All frames are added at the same time)
+    WORLD: 126 [msec]
+
+    Synthesis 3 (Ring buffer is efficiently used.)
+    WORLD: 130 [msec]
+    complete.
+
+    =================================================================
+    ==4695==ERROR: LeakSanitizer: detected memory leaks
+
+    Direct leak of 8 byte(s) in 1 object(s) allocated from:
+        #0 0x50cd40 in operator new[](unsigned long)
+    /home/ryuichi/llvm/projects/compiler-rt/lib/asan/asan_new_delete.cc:84
+        #1 0x55183b in (anonymous namespace)::SmoothF0Contour(double
+                const*, int, double*)
+        /home/ryuichi/sp/world-cmake/src/harvest.cpp:1094:31
+            #2 0x550383 in (anonymous
+                    namespace)::HarvestGeneralBody(double const*, int,
+                        int, int, double, double, double, int, double*,
+                        double*)
+    /home/ryuichi/sp/world-cmake/src/harvest.cpp:1200:3
+        #3 0x54f9b8 in Harvest
+    /home/ryuichi/sp/world-cmake/src/harvest.cpp:1239:3
+        #4 0x51531d in (anonymous
+                namespace)::F0EstimationHarvest(double*, int,
+                    WorldParameters*)
+    /home/ryuichi/sp/world-cmake/test/test.cpp:155:3
+        #5 0x514237 in main
+    /home/ryuichi/sp/world-cmake/test/test.cpp:394:3
+        #6 0x7f8ac5d8382f in __libc_start_main
+    /build/glibc-bfm8X4/glibc-2.23/csu/../csu/libc-start.c:291
+
+```
+"
+mmorise_world,0f667c284177562e66bf8aee6fd12f3cdba2f3ef,Masanori Morise <masanori.morise@gmail.com>,1447593554,"2015/11/15
+"
+mmorise_world,101f75c57d8b575d9cde81c9f01cf37f95846349,Masanori Morise <masanori.morise@gmail.com>,1447577474,"2015/11/15
+"
+mmorise_world,1062a4c7015f2740e5e7b8ff08a452a8a25e34c9,wuaalb <merlijn.blaauw@gmail.com>,1496762279,"Fix phase continuation
+"
+mmorise_world,10ea3ca866222833a511a4787a4b4f7d3f7f663d,malyasova <malyasova.viktoriya@yandex.ru>,1606881164,"Save some memory by not storing s array in interp1
+"
+mmorise_world,10f14a00d976bfb7e23ce07f5e9f92517b422a91,vlee78 <vlee78@gmail.com>,1536772835,"modify to conform to the google code style
+"
+mmorise_world,11a4886d4d5ea93ed296693cb91b9f57daf57420,mmorise <mmorise@yamanashi.ac.jp>,1482998340,"simple refactoring for compatibility with MATLAB
+"
+mmorise_world,1302a4d77e2bd7d7faa1e05aeaead8838458ba82,mmorise <masanori.morise@gmail.com>,1685954202,Update README.md
+mmorise_world,13afdd6df75efb85c0c90ab15a3e65014fffd04c,mmorise <mmorise@yamanashi.ac.jp>,1576662509,"VS project was renamed
+"
+mmorise_world,13d96fc7da25da5fb808844d88337317e9fa0d76,mmorise <masanori.morise@gmail.com>,1645370150,"Merge pull request #137 from wtrh/master
+
+Remove unused variable `tmp_spectrum`"
+mmorise_world,146c22623adfde1d197fc1b6755de9a5e1ed33f9,Shinya Kitaoka <skitaoka@gmail.com>,1644173423,Update codec.cpp
+mmorise_world,147ea09c8addfdc19a1c8d0aa2e2cdd308d9e19a,mmorise <mmorise@yamanashi.ac.jp>,1520601038,"minor modification
+"
+mmorise_world,14b937a07cde6768c905669b9edb2198b69da332,mmorise <masanori.morise@gmail.com>,1464258224,Update README.md
+mmorise_world,17fd80d49b1370535495b8413e36fdfc0f235e3a,mmorise <mmorise@yamanashi.ac.jp>,1544593505,"A minor bug was fixed
+"
+mmorise_world,191f8b7e2d06a0643556a92fd1677372ebe99449,Masanori Morise <masanori.morise@gmail.com>,1447575641,"test
+"
+mmorise_world,19d45278e70cc6c5169cb3a19600dfd0e35f3605,mmorise <masanori.morise@gmail.com>,1447809692,"Merge pull request #1 from Sleepwalking/master
+
+Add makefile and fix a memory overflow bug.
+Thank you very much for your kind suggestions.
+The file structure in platform will also modified soon."
+mmorise_world,1a1bfb001e6ab16adac0faea46d971d6af7ebb33,mmorise <mmorise@yamanashi.ac.jp>,1483171419,"minor bugs were fixed
+"
+mmorise_world,1ac4b7f7a7319afa4cecda7d3f90cb5d0eb54382,Sebastien Le Maguer <slemaguer@coli.uni-saarland.de>,1477033063,"adding gitignore + example + minor reorg.
+"
+mmorise_world,1c6aaea023f1c629602267ea6e6f8c336af9056e,Oscar Gomez <42280574+oscarg933@users.noreply.github.com>,1546368666,Create Busterblader77@msn.com
+mmorise_world,1ce42c397c7733d9199a8c4eb013090d9535ae97,Masanori Morise <masanori.morise@gmail.com>,1447810499,"File structure is modified
+"
+mmorise_world,1d0b71a1693781ad25fcbaf66de79008cd1e3a8e,kantahuckle <70446187+kantahuckle@users.noreply.github.com>,1622775160,Create first
+mmorise_world,1eb6602a7780f14c9a42fe9c82c444edb14157b8,mmorise <masanori.morise@gmail.com>,1726199659,The value of the safeguard is changed.
+mmorise_world,1f8815f7a85e344ea9f98ca6b1383578a161d4e2,mmorise <masanori.morise@gmail.com>,1594995645,"Merge pull request #101 from sukumo28/fix-comment
+
+fix comment"
+mmorise_world,1f99fc40c4aa390e6a0e1fd2af5da91dde443dca,wuaalb <merlijn.blaauw@gmail.com>,1492536781,"expose CheapTrick lower f0 limit
+"
+mmorise_world,2059862a581376a4f2d8ef14636b3718c68ea164,mmorise <masanori.morise@gmail.com>,1491135677,"Merge pull request #25 from brunexgeek/master
+
+Fix makefile for 'analysis_synthesis' example"
+mmorise_world,20b6c2e50fca3a197e84a818ad037e7a8740d2c1,wuaalb <merlijn.blaauw@gmail.com>,1496762377,"Fix minor memory leak in aperiodicity codec
+"
+mmorise_world,21c16a74a796a5a14eaa4e62ec9cf0822ec20a35,mmorise <masanori.morise@gmail.com>,1599984945,"Merge pull request #104 from SeleDreams/cmakelists
+
+Updated the cmake to add the headers to project files + install target"
+mmorise_world,2214d3cf3804f31a15aa2031fb22f32243cae8b0,Giulio Paci <giuliopaci@gmail.com>,1456821144,"Remove relative paths from cheaptrick.h.
+"
+mmorise_world,25dfe9b829da7437c5c487831a05ae023a0a2d51,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved dio.h into world/dio.h.
+"
+mmorise_world,2600d04a4b14b5efe61385e5c79d551cdc65cfd8,mmorise <masanori.morise@gmail.com>,1458189871,Update README.md
+mmorise_world,26896c08080592d5db2f18f6b8faa9d841c64a96,Giulio Paci <giuliopaci@gmail.com>,1456821144,"Remove relative paths from d4c.h.
+"
+mmorise_world,27530ac8c0f0e792e5b9da50cbe8775980189143,mmorise <masanori.morise@gmail.com>,1454426507,"Merge pull request #6 from giuliopaci/master
+
+Use static linkage in addition to anonymous namespace"
+mmorise_world,28c655e36e427cac453b148b61f6911f5b01650e,Martin Jansche <mjansche@google.com>,1501498790,"Fix -Wunused-result warnings.
+"
+mmorise_world,28cbe2bd7a10a8edb1b70aa7a8fa5f2ca70867ed,mmorise <masanori.morise@gmail.com>,1614521581,"Merge pull request #113 from kaiidams/kaiidams/dev
+
+Build error with VisualStudio 2019 Debug|x64"
+mmorise_world,2a1f7b2c773acba65c4b8ba62fcf6e86266772fd,abylouw <22814737+abylouw@users.noreply.github.com>,1537056954,fixed determination of output file name length
+mmorise_world,2a5959f47ce0340957b5d18d6e545f6266341773,Shintaro Takemura <shintaro.takemura@dena.com>,1595925343,"feat: add controllable harvest parameters to HarvestOption
+"
+mmorise_world,2bb515f684316b40173925a1e86eda286132744e,mmorise <masanori.morise@gmail.com>,1729562784,"Merge pull request #148 from sabonerune/fix/cmake
+
+fix: support `add_subdirectory`"
+mmorise_world,2c9d3030bf04516bdc19c0afa1ea5571eaaa2c59,mmorise <masanori.morise@gmail.com>,1625730300,"Merge pull request #121 from YuzukiTsuru/master
+
+Add new features in CMake"
+mmorise_world,2ca2c3dd32efc6cb28b420bfd4ec1ed26d769459,Giulio Paci <giuliopaci@gmail.com>,1454417444,"Added static keyword to functions in anonymous namespace in cheaptrick.cpp.
+"
+mmorise_world,2da91dd2f5870ff38599cdc75a71c2cc558e3819,柚木鉉 <740291272@qq.com>,1624184517,"fix CMake Warning in macOS:
+ CMake Warning (dev):
+      Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run ""cmake
+      --help-policy CMP0042"" for policy details.  Use the cmake_policy command to
+      set the policy and suppress this warning.
+
+      MACOSX_RPATH is not specified for the following targets:
+
+       WORLD
+"
+mmorise_world,2dafb708c0ccae1300c8ecb7c4b295f1d262426d,Masanori Morise <masanori.morise@gmail.com>,1454294478,"Modify the format and test script. A controllable parameter is added
+"
+mmorise_world,2dfda44113cad95186f9334d2089991fb3941560,Giulio Paci <giuliopaci@gmail.com>,1456821245,"Include headers with world/ prefix in d4c.cpp.
+"
+mmorise_world,2e23c801897e817d72eacd2140fb0fcedf958077,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved stonemask.h into world/stonemask.h.
+"
+mmorise_world,2e449b1e17eb2186c3e2e2ca49d6880b31d62819,Giulio Paci <giuliopaci@gmail.com>,1456821245,"Include headers with world/ prefix in synthesis.cpp.
+"
+mmorise_world,2f81414b7aa0474958b9ce6143fe57a9b301f531,Masanori Morise <masanori.morise@gmail.com>,1461050641,"project file is modified.
+"
+mmorise_world,30c95a8a8072687b3e01d6c961159ec3490611de,mmorise <masanori.morise@gmail.com>,1499071320,"Merge pull request #41 from r9y9/fix-memory-leak
+
+Fix memory leak in Harvest"
+mmorise_world,30d52ab4e0a49d2ab8fb34a3d4376f5fb1d8ede4,mmorise <masanori.morise@gmail.com>,1491137625,Update synthesis.cpp
+mmorise_world,31a1b1958751c8b8dd5c0d06730b4f4aa6f1856d,mmorise <masanori.morise@gmail.com>,1623577682,"Merge pull request #120 from YuzukiTsuru/master
+
+fix CMake Deprecation Warning and more"
+mmorise_world,33159af1e3e7d7c5b626fb34a7d675c74193a624,Ryuichi Yamamoto <zryuichi@gmail.com>,1592130090,"Fix non-initialized memory access in RemoveUnreliableCandidates
+
+Edges of tmp_f0_candidates were not initialized but they were used in
+the function `RemoveUnreliableCandidatesSub` by tmp_f0_candidates[i + 1]
+and tmp_f0_candidates[i - 1] where i equals to 0 and f0_length - 1.
+"
+mmorise_world,337730b6756e32213d351c3eab60443c451ef9a3,mmorise <masanori.morise@gmail.com>,1477491007,README.md was modified
+mmorise_world,35b438851d7801351b7dbbba83b7243188e7bf57,mmorise <masanori.morise@gmail.com>,1607013471,"Merge pull request #109 from malyasova/master
+
+Save some memory by not storing s array in interp1"
+mmorise_world,362bea69f3007dce66a5779d03f8564eb189795f,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved matlabfunctions.h into world/matlabfunctions.h.
+"
+mmorise_world,36ed78b27f9a8328f690bdcf04be6366072856b6,wuaalb <merlijn.blaauw@gmail.com>,1488560993,"Small inconsistency declaration Harvest()
+"
+mmorise_world,37ca57f58ad9588723c84fa2d7c4a7fb82066545,mmorise <masanori.morise@gmail.com>,1489329111,Delete analysis.cpp
+mmorise_world,3a2825bb1a834e58d123ff5dc978488b98b47157,Ryuichi Yamamoto <zryuichi@gmail.com>,1493643599,"Try travis
+"
+mmorise_world,3b2a1a7d2c3222016fde7c2f1635200ce49ae963,Masanori Morise <masanori.morise@gmail.com>,1447592493,"2015/11/15
+"
+mmorise_world,3b86de9a7571e984f47061304487295348c7544a,abylouw <22814737+abylouw@users.noreply.github.com>,1537057027,fixed determination of output file name length
+mmorise_world,3c450c40c6ad8076ff9bdf812081e92f37433300,sleepwalking <2657202503@qq.com>,1447688025,"Add makefile
+"
+mmorise_world,3c6cbbb40cdaf99fde1fbd2749241fb17bbad123,Giulio Paci <giuliopaci@gmail.com>,1457021622,"Added world/ prefix to included headers in cheaptrick.h.
+"
+mmorise_world,3dd286f0afe209b0c5c9346a3090284402e7adb0,Masanori Morise <masanori.morise@gmail.com>,1452084265,"stonemask.cpp was modified
+"
+mmorise_world,3e65619ae1075a889bd3064db06d884622929d74,Giulio Paci <giuliopaci@gmail.com>,1457000454,"Added default and test to .PHONY pseudo-target.
+"
+mmorise_world,3e6cd5b8c265c1cc6320d5699af0af59c27af00f,Giulio Paci <giuliopaci@gmail.com>,1457021622,"Added world/ prefix to included headers in matlabfunctions.h.
+"
+mmorise_world,3f010dc35139d7f8bbc2e0d8db2953562739bec3,mmorise <masanori.morise@gmail.com>,1489329128,Delete synthesis.cpp
+mmorise_world,3f7e7acb71ea8d0a8defb5804d9797656a29bab4,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved cheaptrick.h into world/cheaptrick.h.
+"
+mmorise_world,3f942338639edef2628abd1496d36a27f4edd984,mmorise <masanori.morise@gmail.com>,1489329532,Update README.md
+mmorise_world,3fa9059e58441ede5a3c36bc54b3836444259e27,GloomyGhost <gloomyghost@foxmail.com>,1634050455,"add build option WORLD_BUILD_TESTS to build test
+"
+mmorise_world,4031229d69309de7453309be4270d57b7b3e16f5,Giulio Paci <giuliopaci@gmail.com>,1454405242,"Do not use const for methods that destroy objects in dio.cpp.
+"
+mmorise_world,40ad3165bcb489f0ed236977bf48cfef5f65aca3,mmorise <masanori.morise@gmail.com>,1590126266,"Merge pull request #96 from malyasova/master
+
+Removed unused variable p from function interp1"
+mmorise_world,4106300cc14dfc917ebcb1d8daaca997201efb67,mmorise <masanori.morise@gmail.com>,1488638711,"Merge pull request #22 from wuaalb/working
+
+Fixed const correctness Synthesis()"
+mmorise_world,4133ccb90c9c6bd095d06b93f70529e0b86c2d5e,Giulio Paci <giuliopaci@gmail.com>,1454026748,"Fix headers dependency in makefile.
+"
+mmorise_world,414daa6d004bef53863b6cf25ae7a5bb9c9f2dc8,mmorise <masanori.morise@gmail.com>,1490023076,A typo was fixed.
+mmorise_world,431e548928dbe10c84a4fc6597585cb801adf5ff,Giulio Paci <giuliopaci@gmail.com>,1456821144,"Remove relative paths from matlabfunctions.h.
+"
+mmorise_world,45e239c96bed623195be3d9bae17768772cf2e44,mmorise <masanori.morise@gmail.com>,1520599738,"Merge pull request #63 from gillesdegottex/master
+
+CheapTrick does not reproduce the exact same numerical value for each run"
+mmorise_world,4610c461c2aff558ad65a27729bf6f6fadd00196,mmorise <masanori.morise@gmail.com>,1457016866,"Merge pull request #9 from giuliopaci/master
+
+Move world headers in a ""world"" directory"
+mmorise_world,46a6d6df3a15628a7de5f00df7fa0f5f3f86ac11,mmorise <mmorise@yamanashi.ac.jp>,1482847770,"D4C was modified (Love Train was added)
+"
+mmorise_world,47747a0544727109e59e8b43f427746790f85d2f,Giulio Paci <giuliopaci@gmail.com>,1454417444,"Added static keyword to functions in anonymous namespace in matlabfunctions.cpp.
+"
+mmorise_world,47a9910e4a88735b569c64f7daf92083fc0d0434,mmorise <masanori.morise@gmail.com>,1485957830,Update synthesisrealtime.cpp
+mmorise_world,4864223b28c8cc12f218990740b6327137b464c7,Giulio Paci <giuliopaci@gmail.com>,1456494486,"Add const keyword on input vector to Dio() in dio.cpp.
+"
+mmorise_world,4962378dd9eb099c8109fbfd0ba1b7981a7d02bc,Katsuya Iida <katsuya.iida@gmail.com>,1614429389,"Build error with VisualStudio 2019 Debug|x64
+"
+mmorise_world,4a284f0403042a834a93dbb07952ff29ea125b46,Giulio Paci <giuliopaci@gmail.com>,1457021570,"Added -Isrc option to world library compilation in makefile.
+"
+mmorise_world,4b93345e629e3c6427f2a719b389aef5d3acd38c,Masanori Morise <masanori.morise@gmail.com>,1454343094,"Modification (test.cpp) for more safe implementation
+"
+mmorise_world,4c353abb92a6f0e986bb7476d895be1f388b87a9,Giulio Paci <giuliopaci@gmail.com>,1453464134,"Added *C_DECLS to stonemask.h.
+"
+mmorise_world,4cb248ae04d36f7a035befd187dfa31b7409ea2f,mmorise <masanori.morise@gmail.com>,1477383901,Fix a minor bug
+mmorise_world,4d777bf55fc2a9ba73987708fc53195e971e89f8,mmorise <masanori.morise@gmail.com>,1454410021,"Merge pull request #5 from giuliopaci/master
+
+Changes in comments and const usage"
+mmorise_world,4da32d89cdcb7951aabe9c2caf20d67d32fda09f,mmorise <masanori.morise@gmail.com>,1477383830,"Merge pull request #12 from seblemaguer/adding_programs
+
+Refactoring the code to be more flexible"
+mmorise_world,4edc2fe63bb5ddb3ec4b719fd55a42bac6f1b0e3,mmorise <mmorise@yamanashi.ac.jp>,1493624439,"Several bugs were fixed
+"
+mmorise_world,4ff9d09470f02ec664f4a53de8bc1d3916739e93,mmorise <masanori.morise@gmail.com>,1626688127,"Merge pull request #123 from kaiidams/dev
+
+Update .gitignore for VS 2015 and 2019."
+mmorise_world,503953c9ba9fd14309ec23115c6776c573f96eb9,mmorise <masanori.morise@gmail.com>,1475390600,References section was added.
+mmorise_world,5048be9fd720d40ea1d89390e5ed26d5e6a0080b,Giulio Paci <giuliopaci@gmail.com>,1454405986,"Fixed fast_fftfilt prototype in matlabfunctions.cpp.
+"
+mmorise_world,5052ce1157fe93b89caf617718332e47615567cf,Boyuan Deng <contact@boyuandeng.me>,1479286424,"Minor fix for examples' Makefile
+"
+mmorise_world,520efd808a70b6a40299a571f8a3ffc8b85cf4cc,Kanru Hua <k.hua.kanru@ieee.org>,1519424014,"Use explicit int sizes.
+"
+mmorise_world,526dc85a39472bc2f940389da9f4cc0b200f4410,Giulio Paci <giuliopaci@gmail.com>,1454368628,"Made use of C99 explicit in makefile.
+"
+mmorise_world,5641e1285e57210e8558e154212ab6ada0fd3bea,Kanru Hua <k.hua.kanru@ieee.org>,1519423673,"Fix a bug in the random number generator.
+"
+mmorise_world,565bc6ca8d119af15694495024483645b90bb20e,mmorise <masanori.morise@gmail.com>,1482202635,minor bug was fixed
+mmorise_world,5784901b819c2e07772518546265099398c02497,mmorise <masanori.morise@gmail.com>,1491137600,Update analysis.cpp
+mmorise_world,5909a863daf3b15f968c4ae3f03669b4321b9aa7,mmorise <masanori.morise@gmail.com>,1477391077,fix the appearance
+mmorise_world,59a6c03347ffb5709c48b734f623540941cf04ff,Giulio Paci <giuliopaci@gmail.com>,1456821245,"Include headers with world/ prefix in dio.cpp.
+"
+mmorise_world,5a42a77678500da62f4e1c3e8e8c84ad74b5a591,mmorise <masanori.morise@gmail.com>,1522499876,add a link to world-class that is a C++ library
+mmorise_world,5b839b2e0e6b3210badc4979b1c332380f6f628d,mmorise <mmorise@yamanashi.ac.jp>,1520604990,"minor bug was fixed
+"
+mmorise_world,5bb6562a21dbf5d7ac7bd7d197bfcd87ef13e293,Masanori Morise <masanori.morise@gmail.com>,1453978447,"Audio I/O functions were moved from matlabfunctions
+"
+mmorise_world,5e15a5a9c47aca2296bbe7f0c0d5e27063fa46db,mmorise <mmorise@yamanashi.ac.jp>,1495291643,"Codec and CheapTrick were modified.
+"
+mmorise_world,5e330acf1098f5a84232f9b272adda9fb63a2a70,sabonerune <102559104+sabonerune@users.noreply.github.com>,1729071269,"feat: randn without the global variables.
+"
+mmorise_world,5e3359cf00dca12ddfc4c1d94a77e3e8a393ba05,Giulio Paci <giuliopaci@gmail.com>,1454417444,"Added static keyword to functions in anonymous namespace in common.cpp.
+"
+mmorise_world,5e5569be2984e266b24190efbee4503181746f7a,mmorise <masanori.morise@gmail.com>,1525584955,Update README.md
+mmorise_world,5f99860e6883f51e4649d8788d6282e45556764e,mmorise <masanori.morise@gmail.com>,1454343178,Update README.md
+mmorise_world,5fcb769167ac8696d5d21225b8a47617979bdd47,mmorise <mmorise@yamanashi.ac.jp>,1490194510,"Functions for aperiodicity codec were added.
+"
+mmorise_world,603b4fde77850daf2a7390e6a8a7cd8903523802,Masanori Morise <masanori.morise@gmail.com>,1461050843,"project file is modified.
+"
+mmorise_world,6190216ab8a35544623cf3e2f0cd02ceb330a56c,Giulio Paci <giuliopaci@gmail.com>,1456821314,"Fix include directives in ctest.c.
+"
+mmorise_world,643c65ca5961db32c97bb8680f00cb7978bbba2d,mmorise <masanori.morise@gmail.com>,1477445958,Add header information
+mmorise_world,65f724f333635ca0d5869a0a2c52df599ef4ba7a,Giulio Paci <giuliopaci@gmail.com>,1456821245,"Include headers with world/ prefix in stonemask.cpp.
+"
+mmorise_world,66b2599e8079b72487706cf8185ea30c54701b9d,Giulio Paci <giuliopaci@gmail.com>,1453480454,"Added *C_DECLS to cheaptrick.h.
+"
+mmorise_world,66d1d4103aed870daf17a986a1167a6350f7f000,Giulio Paci <giuliopaci@gmail.com>,1454026647,"Improve variables usage in makefile.
+"
+mmorise_world,66e5dcdfcd368f21429d815ad6bf9b14aa9d46a8,Ryuichi Yamamoto <zryuichi@gmail.com>,1592129807,"Fix FixStep2: use of un-initialiazed value
+
+f0_step[i] (i.e. tmp_f0_contour2[i]) was not initialized if f0_base[i] = 0,
+resulting occasional undefined behavior/seg faults.
+Fixed by initializing them to zeros.
+"
+mmorise_world,68ac32067c12261b499ff1fa26987b1a44fac5bf,mmorise <masanori.morise@gmail.com>,1477387655,Create README.md
+mmorise_world,695ddfee3dd7005f8dd53f0479662eb3bdfe3ddc,Masanori Morise <masanori.morise@gmail.com>,1449027704,"A unnecessary file was removed
+"
+mmorise_world,6979fa04f05b453cead623de9352a6f4bbd6c6a3,mmorise <mmorise@yamanashi.ac.jp>,1496934832,"Refactoring
+"
+mmorise_world,698975830d728d50e1004f9186b36a8225cb604a,mmorise <mmorise@yamanashi.ac.jp>,1544694632,"Synthesis functions were refactored
+"
+mmorise_world,69b13cfc36856153a302590789a0741a9ba49100,mmorise <masanori.morise@gmail.com>,1635130317,"Merge pull request #130 from YuzukiTsuru/master
+
+Added some compilation options"
+mmorise_world,69f46890e5ee40c4c5829529e374d344a6d58e4c,Giulio Paci <giuliopaci@gmail.com>,1453462513,"Added macrodefinitions.h.
+"
+mmorise_world,6bd04a4c7363f586b7630b1c634eaf3ce6a451c7,Giulio Paci <giuliopaci@gmail.com>,1453464220,"Report error codes on errors in test.cpp.
+"
+mmorise_world,6bdaf937a560e7e25c4b8791c50ca3b32304c163,Masanori Morise <masanori.morise@gmail.com>,1453978591,"Update for the latest version
+"
+mmorise_world,6c182bdd1097493eb8b817ed675ef81a1d3b18aa,Giulio Paci <giuliopaci@gmail.com>,1456821245,"Include headers with world/ prefix in common.cpp.
+"
+mmorise_world,6dc8dc60e666caa354040799c08a4ebc9569c012,but80 <mersenne.sister@gmail.com>,1568982594,"Resolve build errors on MinGW
+"
+mmorise_world,6e3b51d5407cb443a14ec8d02510f2a4963e0c7a,mmorise <masanori.morise@gmail.com>,1516623204,Bug fix in calculating instantaneous frequency.
+mmorise_world,6ea44b7316ad5d69c654f4cc15464302de270a7a,mmorise <masanori.morise@gmail.com>,1496936015,Fix a typo
+mmorise_world,6ea4955205cddf0ef0fa3668cf0e439b27c67855,mmorise <masanori.morise@gmail.com>,1569141689,"Merge pull request #89 from but80/mingw
+
+Resolve build errors on MinGW"
+mmorise_world,6eff6831a53f75c1837f5fed742ac35079b48e3f,mmorise <mmorise@yamanashi.ac.jp>,1489328908,"minor debug
+"
+mmorise_world,6fcc5e93a43fd7c9f439b3d22546aa4268a3d3ea,mmorise <masanori.morise@gmail.com>,1483344039,Update analysis.cpp
+mmorise_world,71713fa058ea584c786c442a411b14cd2efd0db2,mmorise <mmorise@yamanashi.ac.jp>,1520601248,"random seed is fixed in D4C() and synthesis()
+"
+mmorise_world,73f2527232d00f0c17b8920434a77fb666aa1909,YuzukiTsuru <740291272@qq.com>,1634134092,"forgot the foreach
+"
+mmorise_world,74a32ec3ee6ab72000f238ae114d2d876518ae2b,mmorise <masanori.morise@gmail.com>,1454321869,Update styleguide.txt
+mmorise_world,74e1ab74ca6eff530a6ef1ccf17b8aa4307cba2a,Giulio Paci <giuliopaci@gmail.com>,1454029108,"Fix dependencies in makefile.
+"
+mmorise_world,77f624989ab5e81e27a05d71d135fdbec7bf6db9,Giulio Paci <giuliopaci@gmail.com>,1453464134,"Added *C_DECLS to fft.h.
+"
+mmorise_world,795c4690471dbee817f2dd04c879dcb6e8e86920,mmorise <masanori.morise@gmail.com>,1576662012,Add files via upload
+mmorise_world,7973de66ee92cbc9723b0c0bf613ba44fc590311,yamachu <yamachu.co@gmail.com>,1461066247,"remove redundant initializer
+"
+mmorise_world,7a474fa47ff313238ea2685e7c8aaa237ed59af7,mmorise <mmorise@yamanashi.ac.jp>,1516539222,"FFT functions were modified
+"
+mmorise_world,7a50c8996cd314828144cf8feb9d7bf971bd1168,Ryuichi Yamamoto <zryuichi@gmail.com>,1493642904,"Initial support for cmake
+"
+mmorise_world,7b8f50fc28894ed62d23a3142977486ea1288db0,mmorise <masanori.morise@gmail.com>,1489370418,"Merge pull request #23 from yamachu/fix/typo_apanalysis
+
+Fix typo apanalysis"
+mmorise_world,7e51e7141a2f6719027caa76b922528a18b35e9d,zhangyongchao <zhangyongchao@meituan.com>,1590650683,"Fix two bugs. 1. maybe divided by zero. 2.Index of power_spectrum beyond limit (It happens for some wav)
+"
+mmorise_world,7e5442c7fe777032693b0abf75b7f65c198d0641,wuaalb <merlijn.blaauw@gmail.com>,1488561454,"Fixed const correctness Synthesis()
+
+Was mutable array of mutable arrays, as constant pointer; now constant
+array of constant arrays, as mutable pointer.
+"
+mmorise_world,7e7854ae368256c0c04a362bd92e0c1dd1f25672,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved fft.h into world/fft.h.
+"
+mmorise_world,7f40082b1a2f37f52789944c9f9e301f47864802,Yusuke Yamada <yamachu.dev@gmail.com>,1496944437,"Merge 897e8950e366c2c48f08943d5d7b6db7fd2b381d into 6ea44b7316ad5d69c654f4cc15464302de270a7a
+"
+mmorise_world,8273535f13b65e6919de0a308bfa83e6f9fa7b3f,mmorise <mmorise@yamanashi.ac.jp>,1519716037,"safeguard was added
+"
+mmorise_world,832d701d006764bc8cd8a46958231d9053925d81,mmorise <mmorise@yamanashi.ac.jp>,1489328484,"minor debug
+"
+mmorise_world,8392d6be3310f91c31ee02e66eccf9846b5a76e6,Masanori Morise <masanori.morise@gmail.com>,1453979331,"Update for the latest version
+"
+mmorise_world,846ead44cb674cfc5e27fe7f1eedb5952248759c,mmorise <masanori.morise@gmail.com>,1608714147,References were updated
+mmorise_world,84c77a2271e28b0ffc8262383d44f279cce4ba32,Masanori Morise <masanori.morise@gmail.com>,1449047850,"A minor bug was fixed
+"
+mmorise_world,84ea28cc9dda1cbc010caa7832af910b4a34e70e,Giulio Paci <giuliopaci@gmail.com>,1454405217,"Do not use const for methods that destroy objects in common.cpp.
+"
+mmorise_world,84faa745ef0bc15ce27aafa8d31c6898622449ef,Giulio Paci <giuliopaci@gmail.com>,1457021622,"Added world/ prefix to included headers in stonemask.h.
+"
+mmorise_world,8580144b3e2353b570ea32991e9943602ff6f1a9,柚木鉉 <740291272@qq.com>,1625625229,"fix CMake Warning in macOS, delete compile to shared library due to makefile not provide, update install script, add support for cmake submodule and find feature.
+"
+mmorise_world,860eac347ffec769a7efae59a11349197ae0a818,Giulio Paci <giuliopaci@gmail.com>,1454405453,"Added a missing comment to common.cpp.
+"
+mmorise_world,866578a79f59afb0e69982a9248d8306cdc4affe,Giulio Paci <giuliopaci@gmail.com>,1454417444,"Added static keyword to functions in anonymous namespace in d4c.cpp.
+"
+mmorise_world,87841e01fd08a9993f380fdd1714be18d40a5ef1,3628800fr <3628800fr@gmail.com>,1582845677,"Add check for NaN in the accumulated power spectrum. In such cases, `1 - kMySafeGuardMinimum` is returned.
+
+NaN is sometimes introduced in the coarse aperiodicity estimation and then
+propagated during interpolation; this tends to occur when the input signal
+contains a strong single frequency in a band(s) of interest (for example,
+a pure 440Hz sine wave in part of the recording).
+"
+mmorise_world,87cdd19bf6ce273529023d52fa0e37484295c523,Giulio Paci <giuliopaci@gmail.com>,1456821144,"Remove relative paths from dio.h.
+"
+mmorise_world,886322ebcae4e0e4210d9814e46234f8530a98dc,Masanori Morise <masanori.morise@gmail.com>,1457017904,"Compile option in win.sln was added.
+"
+mmorise_world,897e8950e366c2c48f08943d5d7b6db7fd2b381d,Yusuke Yamada <yusuke.yamada.t1@dc.tohoku.ac.jp>,1482282590,"add include cstdlib
+"
+mmorise_world,8a561d9675d06651c5bbf4d0e0c671feb8b1c76b,Shintaro Takemura <shintaro.takemura@dena.com>,1596020460,"feat: make HarvestGeneralBody adjusted_f0 controllable
+"
+mmorise_world,8a69b0e9c041aeaeaddc577df3bf362ac6e930bd,mmorise <masanori.morise@gmail.com>,1495291874,Update README.md
+mmorise_world,8c02c1b1eb7debeee75426bc31c490b017d971f6,Giulio Paci <giuliopaci@gmail.com>,1453464134,"Added *C_DECLS to d4c.h.
+"
+mmorise_world,8cdebf53a206c4fd692b25b99aa712e4f2c42c78,mmorise <masanori.morise@gmail.com>,1458990657,Update README.md
+mmorise_world,8d79b88b7dd92e8a132996cf74080b2d6f881b98,mmorise <masanori.morise@gmail.com>,1729696092,"Merge pull request #149 from sabonerune/feat/non-global-static-randn
+
+feat: randn without the global variables."
+mmorise_world,8db0a645571fa13ea7c5b63bbf6997ff85d21161,Masanori Morise <masanori.morise@gmail.com>,1461050525,"project file is modified.
+"
+mmorise_world,8e16f6ba861f13947002ec037ae8b1275a26ef65,Bruno Ribeiro <brunexgeek@users.noreply.github.com>,1491076099,"Change 'analysis_synthesis' example to save 'fs' and 'frame_period'
+"
+mmorise_world,8ed8a2d2f66b770f860d50792ec2b27e290d8694,Katsuya Iida <katsuya.iida@gmail.com>,1626664806,"Update .gitignore for VS 2015 and 2019.
+"
+mmorise_world,8f2422df6d02863095b7d49cbd29427ec6dd68b1,Rene Schallner <rene@rocks.ai>,1566161573,"Added isnan() check for tentative_f0 in GetTentativeF0, thus rejecting
+nan/-nan tentative_f0 values. Got these on large (50s) WAVs of
+synthesized speech.
+"
+mmorise_world,8fa338102f83040c0c262632ffbfb8fe8279bf37,mmorise <masanori.morise@gmail.com>,1454321577,Update README.md
+mmorise_world,908de6bfbe801a0e053d01a82c6578766084ee02,mmorise <masanori.morise@gmail.com>,1454321544,Update README.md
+mmorise_world,90c75c6b00bec51db4371bee844f4aa19832490a,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved common.h into world/common.h.
+"
+mmorise_world,90fee16e1a774e7965e3ed2cd15a0cf1daa23f5a,mmorise <mmorise@yamanashi.ac.jp>,1485956909,"Copyright message was simplified
+"
+mmorise_world,93645b6cd0ed1629c2164f6ba3913b4eff79a37c,mmorise <masanori.morise@gmail.com>,1461051176,Update README.md
+mmorise_world,9433540b1a2b8ae3f64bf0de8f3f3c8de3250c42,mmorise <masanori.morise@gmail.com>,1565336403,Update README.md
+mmorise_world,949fa249627d0252ad89906633ac5b45eb73e77c,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved d4c.h into world/d4c.h.
+"
+mmorise_world,95066d4a190148a30445b809bb71898eee8e90bf,mmorise <masanori.morise@gmail.com>,1644321271,"Merge pull request #136 from skitaoka/master
+
+fix `frequency_axis` in `GetParametersForCoding()`"
+mmorise_world,953a4f470246f6ea02c7265ae381d7c424f30299,mmorise <masanori.morise@gmail.com>,1460703133,Update README.md
+mmorise_world,9721584a583af897e6b0c68653ebacb06289280b,mmorise@meiji.ac.jp <mmorise@meiji.ac.jp>,1591692842,"Test for VS (no modification in the source code)
+"
+mmorise_world,9750c79a84d6e35243ab846e73c74d868047318a,lixian <shysian@gmail.com>,1512463546,"multi-thread works
+"
+mmorise_world,9762f3795f3077c82558373d8f9bc15207e9eff0,mmorise <masanori.morise@gmail.com>,1488681898,Update synthesis.cpp
+mmorise_world,979ac087a22f7e1ce444518fa81a2a38f5127f28,Masanori Morise <masanori.morise@gmail.com>,1448789614,"Several minor changes and a bug fix
+"
+mmorise_world,97e64fce706139f2e13029ce11b223cbad77226f,mmorise <masanori.morise@gmail.com>,1599824308,"Merge pull request #103 from SeleDreams/cmakelists
+
+Added cmake file to make building on multiple OSes and IDEs easier"
+mmorise_world,97edd2eb9bf8dbf3b4d36584d00ba69beab24280,Masanori Morise <masanori.morise@gmail.com>,1461050299,"Real-time synthesizer is added, and minor bug fix.
+"
+mmorise_world,9829493a3527acee9f83988d201502abe2d1cb1f,mmorise <masanori.morise@gmail.com>,1479290809,"Merge pull request #13 from bryandeng/make-fix
+
+Minor fix for examples' Makefile"
+mmorise_world,9a0532b49f9badcef2e3856f96e6aae6917736cd,mmorise <mmorise@yamanashi.ac.jp>,1482051715,"Harvest() was added
+"
+mmorise_world,9a26692aff144db923daa7e6c75404ea6c9d9cbd,Gilles Degottex <gilles.degottex@gmail.com>,1520502825,"reseed the pseudo-random number generator each time CheapTrick is called otherwise the results are not repeatable.
+"
+mmorise_world,9a6902ebbff09b1a0ed2138490a887853df3ffa4,Masanori Morise <masanori.morise@gmail.com>,1452083794,"stonemask.cpp was modified
+"
+mmorise_world,9b06a08ac6e131d22ce0d87468c2050a06f6c97c,mmorise <mmorise@yamanashi.ac.jp>,1519716086,"rand() was modified
+"
+mmorise_world,9b58a0e5259017f6eba55c1ddfe7057123be95cd,Giulio Paci <giuliopaci@gmail.com>,1457021622,"Added world/ prefix to included headers in fft.h.
+"
+mmorise_world,9cfc36b5b8a99c7771d4bda2c51d3efa76196f39,sleepwalking <2657202503@qq.com>,1447688103,"Fix invalid memory access
+"
+mmorise_world,9d7a58f3e53b2f901da7bdc535ceee43bc93b3a5,Masanori Morise <masanori.morise@gmail.com>,1473369032,"A minor bug in stonemask.cpp was fixed
+"
+mmorise_world,9d99e743aa9a6d2a58653e6cc4fdee54f3642e44,Masanori Morise <masanori.morise@gmail.com>,1477384899,"update for the latest version
+"
+mmorise_world,9e8722bb55d7708fe95b55c2cbb59e429d696150,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved synthesis.h into world/synthesis.h.
+"
+mmorise_world,a041d8a6eadfd3e490790162cf7d6a6690b99196,mmorise <masanori.morise@gmail.com>,1489372031,Create README.md
+mmorise_world,a11d5338f2c0a91ea2168f0f45d0970bfaaac5b1,mmorise <masanori.morise@gmail.com>,1490195881,Update README.md
+mmorise_world,a1403aa440c5b52585459c1f0acee514cc1e3299,Masanori Morise <masanori.morise@gmail.com>,1447593760,"2015/11/15
+"
+mmorise_world,a3282b028ee57f13da324f19ce35b5b5f7031e3f,Masanori Morise <masanori.morise@gmail.com>,1453954255,"Adjustment of appearance
+"
+mmorise_world,a3a47eb44907135c1736f61e9aea5f9d2cddc12a,Martin Jansche <mjansche@users.noreply.github.com>,1503514948,"Merge 28c655e36e427cac453b148b61f6911f5b01650e into 04de8a94fc947fe0caebabd9335495a7f258b2fa
+"
+mmorise_world,a3b27e8e240de7f3d556cc7f2535f5fc0f059738,mmorise <masanori.morise@gmail.com>,1477387054,Update README.md
+mmorise_world,a3cf075d9eb70a376f67a5732e053c27f38db952,mmorise <masanori.morise@gmail.com>,1576661941,URL was modified.
+mmorise_world,a453db6ffafb59aef29451337d08305669984152,mmorise <masanori.morise@gmail.com>,1522253793,"Merge pull request #64 from wuaalb/fix-phase2
+
+fix GetSpectrumWithFractionalTimeShift() for FFT sign change"
+mmorise_world,a50db5c6ab8779c411b1766dcf228d270e0842f9,abylouw <22814737+abylouw@users.noreply.github.com>,1537057007,fixed determination of output file name length
+mmorise_world,a540c78fdc4a7c53d03b4fff18ec46484c56caca,mmorise <masanori.morise@gmail.com>,1719928261,Broken URLs regarding Harvest have been corrected.
+mmorise_world,a677687e8caa30892b5e95f242670d116fd2b19e,mmorise <mmorise@yamanashi.ac.jp>,1485955506,"a bug was fixed
+"
+mmorise_world,a6824b8117af1cc24bf424b172848b97055fb84c,mmorise <mmorise@yamanashi.ac.jp>,1483171691,"common.h was updated
+"
+mmorise_world,a728135629d7404153308dd48fba049ffe09076e,Nao <Na0Halmi@gmail.com>,1567093423,"no message
+"
+mmorise_world,a80bba99a1d8c5b8b1fd1542a95ce0cfc4fab10a,LiXian <shysian@gmail.com>,1512324002,"wip:multi_thread
+"
+mmorise_world,a825684625ddfa7722a82d2aa5739d473e9ce0b9,mmorise <mmorise@yamanashi.ac.jp>,1613381853,"Formal release version
+"
+mmorise_world,a9191e221e0c66795817d56a89f42c74edc021b3,joealato <edloginova@yandex.ru>,1590086808,"Removed unused variable p from function interp1
+"
+mmorise_world,aa8c4e6d55520818a186f04ee6e08bce1d820ae2,mmorise <masanori.morise@gmail.com>,1512913617,Comment was modified because it was confusing
+mmorise_world,ab2374ade007a4177b8a9c06102c9339a5ca37ff,mmorise <masanori.morise@gmail.com>,1477390381,Create README.md
+mmorise_world,ac2784dd1039608ed2ce985a3f8b71c0d1fb8489,mmorise <masanori.morise@gmail.com>,1592220777,"Merge pull request #100 from r9y9/harvest-memory-fixes
+
+Harvest: two memory fixes that may have caused undefined behavior or segfaults"
+mmorise_world,ad36c5cbe373a760498b201befbd2b924528adcc,Ryuichi Yamamoto <zryuichi@gmail.com>,1496944437,"Merge 3a2825bb1a834e58d123ff5dc978488b98b47157 into 6ea44b7316ad5d69c654f4cc15464302de270a7a
+"
+mmorise_world,ad770cc00c45ef1f00a8c1ed2c1d2dce8d26bada,mmorise <masanori.morise@gmail.com>,1569831202,Update README.md
+mmorise_world,ad99ff3ef5ba55b67f616569ec814c82a236a5b8,mmorise <mmorise@yamanashi.ac.jp>,1477490368,"makefile is modified
+"
+mmorise_world,af7d8cb012cca53f1a11ac92e13f2dd5fbddf6e2,Oscar Gomez <42280574+oscarg933@users.noreply.github.com>,1546368678,"Merge 1c6aaea023f1c629602267ea6e6f8c336af9056e into 698975830d728d50e1004f9186b36a8225cb604a
+"
+mmorise_world,b0a397781125a7e9856359d932e8411966014db9,mmorise <mmorise@yamanashi.ac.jp>,1488640507,"Fixed const correctness in several files
+"
+mmorise_world,b12274e601902968cfc0e03ec963614ea78508d6,Giulio Paci <giuliopaci@gmail.com>,1456821245,"Include headers with world/ prefix in fft.cpp.
+"
+mmorise_world,b2e9007e319cb8859e5b3dd7af8d333c9b57868b,GloomyGhost <gloomyghost@foxmail.com>,1634052460,"add build option for EXAMPLES
+"
+mmorise_world,b42f9383d5b9c8b1e9b78775ee00289630c8573c,Giulio Paci <giuliopaci@gmail.com>,1453464134,"Added *C_DECLS to dio.h.
+"
+mmorise_world,b4375f3f7a03693b0fbdb3f44b1ab9c720a9aeef,mmorise <masanori.morise@gmail.com>,1590718752,"Merge pull request #97 from SuperEver/master
+
+Fix two bugs in refine_f0"
+mmorise_world,b4cfe3d4484dee6ac1c2f7c4eb9f000a1c4633b7,mmorise <mmorise@yamanashi.ac.jp>,1494339678,"DC removal in the real-time synthesis was modified
+"
+mmorise_world,b53ef0ce38cfe29863a2a58ee656a65e06393748,Bruno Ribeiro <brunexgeek@users.noreply.github.com>,1491072574,"Fix makefile for 'analysis_synthesis' example
+"
+mmorise_world,b72a169ab0388e00d422ef9603fce69cd1ec862e,abylouw <22814737+abylouw@users.noreply.github.com>,1537056907,fixed determination of output file name length
+mmorise_world,b88763cfe52b3c35ee23cfbbc5a6025894ecffaf,zhangyongchao <zhangyongchao@meituan.com>,1590650683,"Fix two bugs. 1. maybe divided by zero. 2.Index of power_spectrum beyond limit (It happens for some wav)
+
+Modify the code according to author's advise.
+"
+mmorise_world,b95081c8973f5642745532f752d9c8ff6d49e68f,wuaalb <merlijn.blaauw@gmail.com>,1522248937,"fix GetSpectrumWithFractionalTimeShift() for FFT sign change
+"
+mmorise_world,ba5d36f05276eef7fe79d3e37ed80f8ccbebb50a,Giulio Paci <giuliopaci@gmail.com>,1456821729,"Updated makefile.
+"
+mmorise_world,bafa41a9165f4ba90675e29c541ba728d5afc0ae,zhangyongchao <zhangyongchao@meituan.com>,1590715074,"Modify the code according to author's advise.
+"
+mmorise_world,bb785e586c6f7c7eb3b2b08841aa390d73abc8d8,Masanori Morise <masanori.morise@gmail.com>,1457017858,"Compile option in win.sln was added.
+"
+mmorise_world,bbd4db6a0ed9554d28bf127747b97c60564cd396,Li Xian <shysian@gmail.com>,1512463649,"Merge 9750c79a84d6e35243ab846e73c74d868047318a into 04de8a94fc947fe0caebabd9335495a7f258b2fa
+"
+mmorise_world,bc2d7cbe6177d92c833d596c536b337d6d6f9ea9,mmorise <mmorise@yamanashi.ac.jp>,1544678594,"synthesisrealtime.cpp was refactored
+"
+mmorise_world,bcf47a9c593aed1d9b95d2a1b7a54d3fddb474cb,mmorise <mmorise@yamanashi.ac.jp>,1493474856,"codec functions for spectral envelope were added
+"
+mmorise_world,bd521e8a536a2cd049e796ab6d69baa79aed8436,mmorise <mmorise@yamanashi.ac.jp>,1482460674,"minor bug was fixed in Harvest()
+"
+mmorise_world,bf551e885d0673203e9741761883f16479101350,Giulio Paci <giuliopaci@gmail.com>,1453464168,"Updated matlabfunctions.cpp to use MyMin<Type> and MyMax<Type>.
+"
+mmorise_world,bfc26d89fdd703e0ad95a9018c2f3b4230d14f5e,mmorise <masanori.morise@gmail.com>,1576661832,"Merge pull request #91 from zuoanqh/feature-update-target-version
+
+update target version to work out-of-the-box with latest VS Community"
+mmorise_world,c087e64347182275b6216505868642cef3ea3874,sabonerune <102559104+sabonerune@users.noreply.github.com>,1729159686,"fix: support `add_subdirectory`
+
+And support Cmake 3.30
+"
+mmorise_world,c1db8af8b7e6825012507e9303c9850e2a397637,mmorise <masanori.morise@gmail.com>,1585277448,Update README.md
+mmorise_world,c2f950b92fb71c599786fa2e2a0bfc2ee61c7b08,Theo <lamcilaktheo@outlook.fr>,1599577878,"Added cmake file to make building on multiple OSes and IDEs easier
+"
+mmorise_world,c41e580c24c8d360f322ba6e2092ad4785d2d5b9,mmorise <mmorise@yamanashi.ac.jp>,1522822388,"a minor bug was fixed
+"
+mmorise_world,c4286d76790395c22684f5c5269ffbd7cdd72830,mmorise <mmorise@yamanashi.ac.jp>,1482854479,"modification for compatibility with MATLAB
+"
+mmorise_world,c65a30a1a43613bcacafb8e49a7b67e1d697df0a,mmorise <mmorise@yamanashi.ac.jp>,1483338602,"fft_size in CheapTrick() is controllable.
+"
+mmorise_world,c77e7b0c91dad02da5b656b3c70d95f311bacfa7,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved constantnumbers.h into world/constantnumbers.h.
+"
+mmorise_world,c7dd2767f1aa4192b1817a663f6abedc89e70c65,wuaalb <merlijn.blaauw@gmail.com>,1496832841,"Simplified integer pulse position calculation
+"
+mmorise_world,c80d74a6c5a817621f636fffb5f54a98e7f5f796,mmorise <masanori.morise@gmail.com>,1491144873,"Merge pull request #28 from brunexgeek/init_fix
+
+Fix initialization at 'GetTemporalParametersForTimeBase' function"
+mmorise_world,c859b759c108ed4c20a09d1a01f8f38becfbbabd,wtrh <99009888+wtrh@users.noreply.github.com>,1645261777,"Remove unused variable `tmp_spectrum`
+"
+mmorise_world,ca07bd3572f4509249a97bc0836588b7b609af5d,mmorise <masanori.morise@gmail.com>,1495442085,References were updated
+mmorise_world,ca827c051e208786f63c5b84898d5f62d759fd7c,mmorise <mmorise@yamanashi.ac.jp>,1520600812,"bug in Dio() was fixed
+"
+mmorise_world,ca8622de973ff5fa2e129afcc4f4706aecd83245,Shiyin Kang <kangshiyin@gmail.com>,1496636093,"delete unused assignments
+"
+mmorise_world,cb49f4f2901423b6f9a7941dcc922f3534b3d194,mmorise <masanori.morise@gmail.com>,1496926721,"Merge pull request #37 from wuaalb/fix-phase
+
+Fix phase continuation"
+mmorise_world,cc95d655c00ce1943cf70f39e229b6e633158542,mmorise <masanori.morise@gmail.com>,1454321915,Update LICENSE.txt
+mmorise_world,ccd3489d9a4804a5519925cf206fd0c4eb6e636c,mmorise <masanori.morise@gmail.com>,1454404778,"Merge pull request #4 from giuliopaci/master
+
+Add ctest example and several improvements in makefile"
+mmorise_world,cdbf5de706cceb2f06db0c0d4cdaf4ec948a4321,Yusuke Yamada <yusuke.yamada.t1@dc.tohoku.ac.jp>,1489346919,"Fix typo
+"
+mmorise_world,cddd369a24c6814e33c6044a6a7dc633f2d4f862,Masanori Morise <masanori.morise@gmail.com>,1449022305,"A safeguard was added
+"
+mmorise_world,cef76bd1d6fa180568f23f134bc9fd67c3e42b7d,Giulio Paci <giuliopaci@gmail.com>,1453464134,"Added *C_DECLS to synthesis.h.
+"
+mmorise_world,cf089dfbbff160c11d308cf47fd808f208caa5d4,Masanori Morise <masanori.morise@gmail.com>,1447593227,"2015/11/15_1
+"
+mmorise_world,cf8ac551c358a8e0f2ea43da92253b0d363514db,mmorise <masanori.morise@gmail.com>,1482999287,Update test.cpp
+mmorise_world,cf9be54fb886f67748e2350f422411ab9ed61ec7,mmorise <mmorise@yamanashi.ac.jp>,1482568195,"a safeguard was added in synthesis functions
+"
+mmorise_world,cfb73d366bb66f3c82077172a79974c5a280dc07,Giulio Paci <giuliopaci@gmail.com>,1456821144,"Remove relative paths from stonemask.h.
+"
+mmorise_world,cfc64686bb1715b609aa48c9db8f0305e4814421,mmorise <masanori.morise@gmail.com>,1519708022,"Merge pull request #60 from Sleepwalking/master
+
+Fix a bug in the random number generator."
+mmorise_world,cfd08f3c54e101b4c997eb5139d8615d4dec269b,mmorise <mmorise@yamanashi.ac.jp>,1520700133,"a minor bug was fixed in Harvest()
+"
+mmorise_world,d10012bd0856f91d89f4995169b56febb1412db1,mmorise <masanori.morise@gmail.com>,1491137569,"Merge pull request #26 from brunexgeek/example_fix
+
+Change 'analysis_synthesis' example to save 'fs' and 'frame_period'"
+mmorise_world,d1caa89ad2af931bf5dca173b011e651c6c850d9,mmorise <masanori.morise@gmail.com>,1485958071,Update dev_env.txt
+mmorise_world,d2ff2b9e5210f2c898f470749fc34d96e071372b,Masanori Morise <masanori.morise@gmail.com>,1457017987,"win.sln is modified for the latest version.
+"
+mmorise_world,d49906443f7ce6117460fd589b9bee348b174032,Giulio Paci <giuliopaci@gmail.com>,1456821245,"Include headers with world/ prefix in cheaptrick.cpp.
+"
+mmorise_world,d60b2d55b8b49944c70ee1a3e431e8ec45b17d68,Giulio Paci <giuliopaci@gmail.com>,1456821144,"Remove relative paths from fft.h.
+"
+mmorise_world,d6f8c56a7e2c3701b5ac468dc9fcd3d3928d1ce1,mmorise <mmorise@yamanashi.ac.jp>,1482148502,"frame period in Harvest() became controllable.
+"
+mmorise_world,d76e8aab39d7d5753fc9aeb9bd21187841a46ee5,mmorise <mmorise@yamanashi.ac.jp>,1494240319,"DC removal was modified in the synthesis.
+"
+mmorise_world,d7c03432d572c5a162edba9c611b3c8e367069a9,mmorise <masanori.morise@gmail.com>,1537163662,"Merge pull request #71 from abylouw/master
+
+Output file name length in parameter io examples"
+mmorise_world,d8a1b1b9da5f7eab26f699f76f59f333eba90f3c,Giulio Paci <giuliopaci@gmail.com>,1457021622,"Added world/ prefix to included headers in synthesis.h.
+"
+mmorise_world,d982f47b66b789f21712cf488d527c2f8c8f12da,Giulio Paci <giuliopaci@gmail.com>,1453464168,"Updated d4c.cpp to use MyMin<Type> and MyMax<Type>.
+"
+mmorise_world,dac5e44b72d505bcc280ac20040b694a268c174b,mmorise <mmorise@yamanashi.ac.jp>,1554955067,"minor bug in Dio() was fixed
+"
+mmorise_world,dae3e86c844c319164e4074ae3e3b0bb22b715b7,Giulio Paci <giuliopaci@gmail.com>,1453462478,"Dropped binary file from repository.
+"
+mmorise_world,dbdbafbe49729b74d7a24cc9c8fb2f59fb68a1a6,mmorise <masanori.morise@gmail.com>,1497095348,"Merge pull request #38 from dingzeyuli/master
+
+corrected typos and added comments on FFT computation"
+mmorise_world,dc05cc526bddcedde01ed075ac4ba705e55fa7d3,mmorise <masanori.morise@gmail.com>,1489329119,Delete makefile
+mmorise_world,dc377c585e28469556ca4cbfb478a76358cac1e1,Giulio Paci <giuliopaci@gmail.com>,1453464134,"Added *C_DECLS to matlabfunctions.h.
+"
+mmorise_world,dcc1c6ee3cd100fc1f7187353f7df0a7c0e50649,mmorise <masanori.morise@gmail.com>,1477387025,README.md was added
+mmorise_world,dd24fab2b77c94749ba84513721444cecca91a76,Giulio Paci <giuliopaci@gmail.com>,1453464076,"Replace MyMin and MyMax with C-style functions in common.h
+"
+mmorise_world,dd6f1006573f39614d1c9eb79865bcebd9987fb8,mmorise <masanori.morise@gmail.com>,1516540064,Update README.md
+mmorise_world,df294a15215a81a9ae889d55fd4b643d39888a34,mmorise <mmorise@yamanashi.ac.jp>,1482285383,"abs() is replaced with an original function
+"
+mmorise_world,e0127e1a796d1d59babd5bd700b41877a66cde4d,Giulio Paci <giuliopaci@gmail.com>,1456494456,"Add const keyword on input vector to Dio() in dio.h.
+"
+mmorise_world,e0fdcce87b462a385af0d9c4cf6010673df8f4ee,Ryuichi Yamamoto <zryuichi@gmail.com>,1493642925,"Add GetWORLDVersion
+"
+mmorise_world,e14658daeab6728afe70f2ee479bfe05abefa9e2,柚木鉉 <740291272@qq.com>,1622990652,"Add gitignore for jetbrains IDE, fix CMake Deprecation Warning, add option to build static library
+"
+mmorise_world,e1f25e5295e616ff0174864641fb6c021b4b649f,wuaalb <merlijn.blaauw@gmail.com>,1492536524,"fix .gitignore and vs project
+"
+mmorise_world,e29cd90abc306a26817d6c081cbad0a1779d7162,mmorise <masanori.morise@gmail.com>,1726199787,A new safeguard is added for D4C().
+mmorise_world,e2d11aece45d3a2a54b883624eaa00b4b502f539,Giulio Paci <giuliopaci@gmail.com>,1457021622,"Added world/ prefix to included headers in dio.h.
+"
+mmorise_world,e300da1cf7dee0dc9397abce48e0296e934b6569,Giulio Paci <giuliopaci@gmail.com>,1453464168,"Updated dio.cpp to use MyMin<Type> and MyMax<Type>.
+"
+mmorise_world,e461708609620b31c3e14851ee9791299afb5041,mmorise <mmorise@yamanashi.ac.jp>,1497948623,"A bug in buffer overrun was fixed
+"
+mmorise_world,e4c2efdbc7ffe79c38c7de59a1b22590ccaf1b51,Giulio Paci <giuliopaci@gmail.com>,1456821245,"Include headers with world/ prefix in matlabfunctions.cpp.
+"
+mmorise_world,e50531a8aaf5b915bcdb65dcb1e032db00179c6d,Giulio Paci <giuliopaci@gmail.com>,1454405227,"Do not use const for methods that destroy objects in common.h.
+"
+mmorise_world,e52120868bdf2534af5dbf9cf8734899b631fa83,mmorise <masanori.morise@gmail.com>,1493475268,Update README.md
+mmorise_world,e54e5578e767bbf14b26dd950dd26784e22cbcfb,mmorise <masanori.morise@gmail.com>,1460096911,Update README.md
+mmorise_world,e54e9394466f64da815d2edcad3a497118361773,Giulio Paci <giuliopaci@gmail.com>,1456817452,"Moved macrodefinitions.h into world/macrodefinitions.h.
+"
+mmorise_world,e5572d6ba1a43db7547406a5a6d9dd77b8a49782,Bruno Ribeiro <brunexgeek@users.noreply.github.com>,1491143497,"Fix initialization at 'GetTemporalParametersForTimeBase' function
+
+The last position of 'coarse_time_axis' array wasn't being initialized
+and its value is used in a conditional. This fix ensures the array is
+properly initialized.
+"
+mmorise_world,e714fe9219faa509b281720acaa1c8143e473bec,mmorise <masanori.morise@gmail.com>,1477445486,Add header information
+mmorise_world,e7625f1970f0fd8fb6305c4779b801e88e3766e8,mmorise <masanori.morise@gmail.com>,1496709914,"Merge pull request #34 from kangshiyin/unused-assignment
+
+Delete unused assignments"
+mmorise_world,e908302e7687be021ec6d939e87e8ed83f909233,Giulio Paci <giuliopaci@gmail.com>,1456821144,"Remove relative paths from synthesis.h.
+"
+mmorise_world,e9c8819f3d96354c8cf635c4c5d3f648e963f373,YuzukiTsuru <740291272@qq.com>,1634133618,"add build option for EXAMPLES binary
+"
+mmorise_world,eb20d0ec87b00718f2e0bb32d71872c3833c0d76,zuoanqh <zuoanqh@hotmail.com>,1575989575,"update target version to work out-of-the-box with latest VS Community
+"
+mmorise_world,eb95d28463495e58dee45c259fd2c2834f87a55e,Giulio Paci <giuliopaci@gmail.com>,1456821314,"Fix include directives in test.cpp.
+"
+mmorise_world,ece4aaf2e2f04046b5baa3861ef5ff0b39039d7a,mmorise <mmorise@yamanashi.ac.jp>,1495292817,"Synthesis function was modified
+"
+mmorise_world,eef716690a26ce31bbe2ebfab06f9e572744eab1,mmorise <mmorise@yamanashi.ac.jp>,1494341569,"A bug in codec.cpp was fixed.
+"
+mmorise_world,ef9f78c8d66a51ff89dee69a3bc4c98618c26e6f,Giulio Paci <giuliopaci@gmail.com>,1457021622,"Added world/ prefix to included headers in common.h.
+"
+mmorise_world,efcd7bb307ec6c163c836a080746fa663750dff0,GloomyGhost <gloomyghost@foxmail.com>,1634049535,"add visualstudio2022 build
+"
+mmorise_world,eff3ba3ac944d37da903701518a68b5cbb03a5ca,Giulio Paci <giuliopaci@gmail.com>,1454417444,"Added static keyword to functions in anonymous namespace in stonemask.cpp.
+"
+mmorise_world,f049f5fd826b2df9a99f58b49751f0095ad09a86,mmorise <masanori.morise@gmail.com>,1613381928,Formal release version
+mmorise_world,f0fd67bb93957365f1ad6b2363fb2bcbe69565a2,Giulio Paci <giuliopaci@gmail.com>,1453464168,"Updated cheaptrick.cpp to use MyMin<Type> and MyMax<Type>.
+"
+mmorise_world,f12b952aa53cdf0ebb8a6421c9dab71616e2f7e2,Giulio Paci <giuliopaci@gmail.com>,1454417444,"Added static keyword to functions in anonymous namespace in synthesis.cpp.
+"
+mmorise_world,f254d1c0a5e9e80b9f7e8d3b4709b9e93d52f618,mmorise <masanori.morise@gmail.com>,1492849324,"Merge pull request #30 from wuaalb/working2
+
+Expose lower F0 limit for CheapTrick"
+mmorise_world,f3474cc4528b6536d48568d06a8a767339d28111,mmorise <mmorise@yamanashi.ac.jp>,1489327546,"parameter I/O tool is added
+"
+mmorise_world,f3667c46f6c147c29fa1425c1a6cf9bdfd7a0882,mmorise <masanori.morise@gmail.com>,1581605438,Update README.md
+mmorise_world,f58724f7148a2be501b163f4561733daefb40889,mmorise <masanori.morise@gmail.com>,1460703108,Update README.md
+mmorise_world,f718c18beb91813bbb5f617c22a60bc33263b845,Giulio Paci <giuliopaci@gmail.com>,1454417444,"Added static keyword to functions in anonymous namespace in dio.cpp.
+"
+mmorise_world,f81ab080685e6e908cd44deb976cc60850eba4b3,yamachu <yamachu.co@gmail.com>,1461053072,"Convert explicitly Struct-WorldSynthesizer's member
+"
+mmorise_world,f88cfa7e761cc9119a5a2498b2e46fa110672a44,mmorise <masanori.morise@gmail.com>,1483344233,Update README.md
+mmorise_world,f8c7a9e3d219a4bccef2e228f39f4d9400e7efe2,Giulio Paci <giuliopaci@gmail.com>,1456821314,"Fix include directives in audioio.cpp.
+"
+mmorise_world,f8dd5fb289db6a7f7f704497752bf32b258f9151,mmorise <masanori.morise@gmail.com>,1685954232,Update README.md
+mmorise_world,f9286f264f45b11435445cbd4e169ffac42e1667,Giulio Paci <giuliopaci@gmail.com>,1453464168,"Updated stonemask.cpp to use MyMin<Type> and MyMax<Type>.
+"
+mmorise_world,f957d4328a65692f8b28584acd09a06cf2f670bf,mmorise <masanori.morise@gmail.com>,1447574109,"Initial commit
+"
+mmorise_world,fb558e19110f66e3bd5fd7176b39eed88f7a997b,Giulio Paci <giuliopaci@gmail.com>,1456483625,"Added static keyword to functions in anonymous namespace in audioio.cpp.
+"
+mmorise_world,fb66373eb1f8d5a0d968b1bf0c2ac90d1583b9f9,Giulio Paci <giuliopaci@gmail.com>,1457021622,"Added world/ prefix to included headers in d4c.h.
+"
+mmorise_world,fddaba28e6c2c7ef2f0c4f43c3c42a3e35e6e3d0,mmorise <masanori.morise@gmail.com>,1475390896,Typos were fixed.
+mmorise_world,fe5a2fdaad68fcecb043b49842bdd992692d097e,vlee78 <vlee78@gmail.com>,1536598570,"fix decimate bug
+"
+mmorise_world,fefe759250a2c64fc36bcde955aba899b7f137b8,sukumo28 <sawalemontea@gmail.com>,1594820770,"fix comment
+"
+mmorise_world,ff031b927b34b33344f63bc0e456eb13668055fb,Giulio Paci <giuliopaci@gmail.com>,1454417444,"Added static keyword to functions in anonymous namespace in fft.cpp.
+"

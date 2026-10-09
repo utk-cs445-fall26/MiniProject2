@@ -1,0 +1,506 @@
+pre/post;prj;commit;author;time;message
+pre;exascaleinfolab_vadetis;499f18ed38eee698b7a0d07e555b5b9380b6154e;Mourad Khayati <mkhayati@exascale.info>;1614251326;Update README.md
+pre;exascaleinfolab_vadetis;7ed210f140f517e1c25e97d1cdbe50956f9a3643;Andre Ryser <andre.ryser@unifr.ch>;1626217492;"Split up requirements.txt
+"
+pre;exascaleinfolab_vadetis;b7abb4799142da12314f6edba284c2acd880dadc;Abdelouahab Khelifati <abdel@exascale.info>;1626355965;Update README.md
+pre;exascaleinfolab_vadetis;94752e82d05b1dc1d7cdd5fee1446a58628bcaf2;Andre Ryser <andre.ryser@unifr.ch>;1626441612;"Use docker-compose for deployment
+"
+pre;exascaleinfolab_vadetis;8c3131835c400b2145355874f361660524aa4cfb;Mourad Khayati <mkhayati@exascale.info>;1626444020;Update README.md
+pre;exascaleinfolab_vadetis;76f3eeace4cc7c39da5d6cb3164ed643d311b2a0;Mourad Khayati <mkhayati@exascale.info>;1626444031;Update README.md
+pre;exascaleinfolab_vadetis;6fb43a94c9e7554ff91cceece4769965f6e0a469;Andre Ryser <andre.ryser@unifr.ch>;1626444849;"Fix typos
+"
+pre;exascaleinfolab_vadetis;83b2d9f9d8cce750c2a6cc3501029fe86ebc336c;Mourad Khayati <mkhayati@exascale.info>;1626447342;Update README.md
+pre;exascaleinfolab_vadetis;5c0a107fb1d0f8bd71d80fd1799d810efb8b810a;Mourad Khayati <mkhayati@exascale.info>;1626702676;"original install script reverted
+"
+pre;exascaleinfolab_vadetis;e13e692f8558a8993fa8a0506d105e68e9f4ec64;Mourad Khayati <mkhayati@exascale.info>;1626706387;Update README.md
+post;exascaleinfolab_vadetis;a6600a0f33e9c26fac6fc1cbf3f3a47f64216a21;Abdel Khelifati <abdel@exascale.info>;1735923323;Update README.md
+post;exascaleinfolab_vadetis;05bb8fd68aae5ba3e7455f3dfd65d4ee1d4a142f;Abdel Khelifati <abdel@exascale.info>;1735923336;Update README.md
+pre;facebookresearch_faiss;bf0b91952f6f228cdb4d58737a9fab40389f272a;Lucas Hosseini <hoss@fb.com>;1561128917;"Add -mavx2 -mf16c to CPUFLAGS.
+"
+pre;facebookresearch_faiss;fc9856a25efefa1c5e3eaa5d941d4c174329db1d;chck <deadline.is.today@gmail.com>;1561139033;"Fix gpu compilation with cuda 10.1 related to #751 (#865)
+
+"
+pre;facebookresearch_faiss;1cbc999610b21e2742f54a9ed7e4f727af26042b;Lucas Hosseini <hoss@fb.com>;1561375738;"Add -mavx2 -mf16c to CPUFLAGS. (#871)
+
+"
+pre;facebookresearch_faiss;828dcea4001acc2c1d88a67f3685e636928b2b7b;Eduardo Pinho <enet4mikeenet@gmail.com>;1561375778;"[C API] June 2019 update (#869)
+
+* [c_api] use all relevant flags in compilation
+
+* [c_api] Remove redundant IndexIVFFlat declarations
+
+- From IndexIVF_c.h, already declared in IndexIVFFlat_c.h
+
+* [c_api] type changes
+
+- replace `long` with a more suitable type
+- provide definitions for `faiss_component_t` and `faiss_distance_t`
+
+* [c_api] Define CFLAGS and CUDACFLAGS
+"
+pre;facebookresearch_faiss;0ca46ee474590dbadb7571e9ae0d301997d00428;Lucas Hosseini <hoss@fb.com>;1561395060;Update README.md
+pre;facebookresearch_faiss;70f5b04206519ede0f1967d4144d9e5a18a96495;Matthijs Douze <matthijs@fb.com>;1561476443;Update CONTRIBUTING.md
+pre;facebookresearch_faiss;0a74cc780e2af10950364c6e7373777a7ccaab43;Lucas Hosseini <hoss@fb.com>;1561628230;"Install scipy via pip rather than homebrew in OSX.
+"
+pre;facebookresearch_faiss;aecfc2ed1b798ca966219c882f2f6a6a4073cc2f;Lucas Hosseini <hoss@fb.com>;1561629430;"Dynamically detect AVX2 capability.
+"
+pre;facebookresearch_faiss;dad24e38c67c5daa806aaceb7e03b86b41c01571;Lucas Hosseini <hoss@fb.com>;1561637024;"Simplify build on TravisCI.
+"
+pre;facebookresearch_faiss;656368b5eda4d376177a3355673d217fa95000b6;Lucas Hosseini <hoss@fb.com>;1561722646;"Dynamically detect avx2 capabilities (#877)
+
+* Install scipy via pip rather than system package manager
+
+* Dynamically detect AVX2 capability
+
+* Simplify build on TravisCI
+"
+post;facebookresearch_faiss;fb4b101c8c337f523d3cccb7d506d034e9c1f1a4;Sandeep Subramanian <sandeepsubramanian94@gmail.com>;1564664598;"Fix depend include in Makefile
+"
+post;facebookresearch_faiss;f2b5bd86c0061b022b389947aa5d4000b2489b72;Dmitry Yutkin <d.yutkin@corp.vk.com>;1566044030;"Replace Python2 on Python3 in Dockerfile
+"
+post;facebookresearch_faiss;0775f2e114ca7a90326e097e41afd82f26883ecb;Dmitry Yutkin <d.yutkin@corp.vk.com>;1566044034;"Replace Python2 prints in test_build_blocks.py
+"
+post;facebookresearch_faiss;89b7fcf22cd95d088deaa05380939997f0eae21b;Scaled Dragon <53454313+Scaled-Vision@users.noreply.github.com>;1566069724;Fix spelling error
+post;facebookresearch_faiss;3b36ad86fbd3de5353e2cc45e0c03fdc417d6f3a;Matthijs Douze <matthijs@fb.com>;1566826076;"distributed working locally
+"
+post;facebookresearch_faiss;2fb4bfd703ba22bbf8378bc724dcbcb409fdd55c;Matthijs Douze <matthijs@fb.com>;1566827324;"simplify RPC code
+"
+post;facebookresearch_faiss;15f61feadcd7a5bc4dce704283af2be9407dc80b;Matthijs Douze <matthijs@fb.com>;1566830628;"works with SLURM
+"
+post;facebookresearch_faiss;aa4eeb96c397dd486912fee91a6b10eab8ba6dd0;Matthijs Douze <matthijs@fb.com>;1566831931;Create README.md
+post;facebookresearch_faiss;e1e5c224a914ffdf1889691e3ceef6befbd52dbf;Matthijs Douze <matthijs@fb.com>;1566832603;Update README.md
+post;facebookresearch_faiss;4cea2665a789b807330a6cd4b579d8659977af0a;Matthijs Douze <matthijs@fb.com>;1566836454;Update README.md
+pre;gboeing_pynamical;74c298add8dce67efb9cb964452158583a08b411;Geoff Boeing <gboeing@users.noreply.github.com>;1618544444;Update README.md
+pre;gboeing_pynamical;259b7ec0c25354807a89b1193c160bf4032dc161;Geoff Boeing <boeing@usc.edu>;1653343370;"update for release
+"
+pre;gboeing_pynamical;2b85c60a959ce7f1936d14f76f4a01e807ac45e4;Geoff Boeing <boeing@usc.edu>;1653343643;"black
+"
+pre;gboeing_pynamical;592db5aa840fe0697ac768e04fecccbcce5ac74a;Geoff Boeing <boeing@usc.edu>;1653344039;"dependency versions
+"
+pre;gboeing_pynamical;1711ebfd27ac677d90a2595279771c497eae2d07;Geoff Boeing <boeing@usc.edu>;1653345669;"test environment
+"
+pre;gboeing_pynamical;9990675c3999de7d3b1186e9421b8da150505dc2;Geoff Boeing <boeing@usc.edu>;1653345846;"update notebooks
+"
+pre;gboeing_pynamical;c8d6259e570831e39681915f5473bda22bdddcc4;Geoff Boeing <boeing@usc.edu>;1653348361;"update reqs
+"
+pre;gboeing_pynamical;2d8161a34dc92095d918eb3a51bece7e0a02ba80;Geoff Boeing <gboeing@users.noreply.github.com>;1653348939;"Merge pull request #6 from gboeing/release
+
+update for release v0.3.2"
+pre;gboeing_pynamical;dee6d4056f651f12ddd7695bef1d6e39724f3ea5;Geoff Boeing <boeing@usc.edu>;1653356359;"update env for v0.3.2
+"
+pre;gboeing_pynamical;39478f13c98d86f5fafc23875e68c99dd15fc879;Geoff Boeing <gboeing@users.noreply.github.com>;1653356402;"Merge pull request #7 from gboeing/release
+
+update env for v0.3.2"
+post;gboeing_pynamical;87d69eb6a6323dc1ad78e886091b875d35822cc0;Geoff Boeing <boeing@usc.edu>;1744746647;"update date
+"
+post;gboeing_pynamical;f0f14bb823251af51eca96b38c8fd8f876e2bbc4;Geoff Boeing <boeing@usc.edu>;1744746692;"updates for v0.3.3
+"
+post;gboeing_pynamical;1fd4cc40a8cbbf6ac52788d6da8a358a56dda02f;Geoff Boeing <boeing@usc.edu>;1744746895;"config
+"
+post;gboeing_pynamical;5392dfdc21eb0d78d0a512258e8865bb8b8c89c7;Geoff Boeing <boeing@usc.edu>;1744747288;"update tests
+"
+post;gboeing_pynamical;15ef20675ae4fb5b37614f0a756c0fb5b4cc10dc;Geoff Boeing <boeing@usc.edu>;1744747544;"update env
+"
+post;gboeing_pynamical;15e455bda936c94638a5d59d9427d66cfa0312d9;Geoff Boeing <boeing@usc.edu>;1744747792;"fix lint
+"
+post;gboeing_pynamical;1ed1cc880d8b3f6ed92f96af8bd21c57edd3557d;Geoff Boeing <boeing@usc.edu>;1744747950;"update changelog
+"
+post;gboeing_pynamical;a806ce19e2340f3e160e8cef4aafa17dce9eb1b1;Geoff Boeing <gboeing@users.noreply.github.com>;1744748018;"Merge pull request #9 from gboeing/update
+
+Update to v0.3.3"
+post;gboeing_pynamical;156ee0be28802cfdad656312067fe624935e5612;Geoff Boeing <gboeing@users.noreply.github.com>;1744748232;Update setup.py
+post;gboeing_pynamical;429386b51cb73bdf0619f3f8676b45ecb488bd5a;Geoff Boeing <gboeing@users.noreply.github.com>;1744748408;Update README.md
+pre;gems-uff_noworkflow;14694bec135041f2b684b8adc060e4dbcb0c3cc8;Vynicius Pontes <pontes.vynicius@gmail.com>;1528168466;"Fix item indexing to tree
+
+"
+pre;gems-uff_noworkflow;55149726b68b170d3013cf0f3a13ad08fad2bc80;Ruslan Guerra <ruslan.guerra88@gmail.com>;1528393937;"Add command to export versioned-prov
+"
+pre;gems-uff_noworkflow;cea33688b3bc60e35c2efc845716e7ee0d77d09c;Ruslan Guerra <ruslan.guerra88@gmail.com>;1528393988;"Merge branch '2.0-alpha' of https://github.com/ruslangm88/noworkflow into 2.0-alpha
+"
+pre;gems-uff_noworkflow;53ad1be0f904e5a68bb28f0ef206a69855761265;Ruslan Guerra <ruslan.guerra88@gmail.com>;1528482616;"Add command to export versioned-prov
+"
+pre;gems-uff_noworkflow;bc3e85ffdda57e114908458fdaf47cb0ff034312;Ruslan Guerra <ruslan.guerra88@gmail.com>;1528484516;"Add command to export versioned-prov
+"
+pre;gems-uff_noworkflow;f17cfe2e9c893a4dc01acda06f9d69fe6e11a530;Vynicius Pontes <pontes.vynicius@gmail.com>;1528837822;"fixing standard content database engine usage
+
+"
+pre;gems-uff_noworkflow;df6c40499d6bddec59f0a4676960178ca38ebe15;Vynicius Pontes <pontes.vynicius@gmail.com>;1529001965;"Adding name counter to multiple file put during trial
+"
+pre;gems-uff_noworkflow;4ce6c2578c83abc6fda075f639f1b4d8c4fd2354;Vynicius Pontes <pontes.vynicius@gmail.com>;1529334626;"Adding dulwich content database
+
+"
+pre;gems-uff_noworkflow;526a8bf687aa2ecb28c4368a6d12269d9274d57a;João Felipe N. Pimentel <joaofelipenp@gmail.com>;1531213038;"Merge pull request #121 from ruslangm88/2.0-alpha
+
+Export provenance to Versioned-PROV"
+pre;gems-uff_noworkflow;93284169b4e195fce87597b74f0646e7ad596959;João Felipe Pimentel <joaofelipenp@gmail.com>;1531403753;"start to use clusterizer to export PROV graph
+"
+post;gems-uff_noworkflow;79eff6d4d8719493df0d7b469cf2e6d94f1e662d;Eduardo Jandre <eduardojandre@gmail.com>;1555271769;"Add command to import content database
+"
+post;gems-uff_noworkflow;f839af3bb500b0a9be6ee6966c1f5947c771a26b;Eduardo Jandre <eduardojandre@gmail.com>;1555295236;"Add initial version import relational
+"
+post;gems-uff_noworkflow;58615ed64a23aa059526c4370cecc48551ec4f21;Eduardo Jandre <eduardojandre@gmail.com>;1557884581;"Uuid as id
+"
+post;gems-uff_noworkflow;f42734a90b62444ce3b8eac6bd44652e74db41bf;Joao Felipe Pimentel <joaofelipenp@gmail.com>;1558905807;"Fix if code component collection
+"
+post;gems-uff_noworkflow;9501245bea89ae23e2180eb0aa8b6c20f7f6b267;Eduardo Jandre <eduardojandre@gmail.com>;1559445258;"Add outras tabelas
+"
+post;gems-uff_noworkflow;d22e340beb2fa3be1e1bdc634ed1a5278673dfd3;Eduardo Jandre <eduardojandre@gmail.com>;1559528709;"Add sequence key e tag
+"
+post;gems-uff_noworkflow;53e47b7db907b41ae50fc9edc5fef3383fd07282;Eduardo Jandre <eduardojandre@gmail.com>;1559616196;"namespace_match
+"
+post;gems-uff_noworkflow;b3cea7d7fa1d47f7da75a3e94c15510603af2f46;Eduardo Jandre <eduardojandre@gmail.com>;1559707060;"Add endpoints collab
+"
+post;gems-uff_noworkflow;ef76697d25d232194056db8b4c98c1a71b6a5cc9;Joao Felipe Pimentel <joaofelipenp@gmail.com>;1559838705;"Define code component names and dependency types
+"
+post;gems-uff_noworkflow;155d71d00bcea7ed2b07fd411eb7916c0a289ca9;Joao Felipe Pimentel <joaofelipenp@gmail.com>;1559851823;"Define code component names and dependency types for expr transformer
+"
+pre;mjwoods_rnetcdf;e52c2a1ca739dc2f044fb6a0ee795595e8ff42d5;stefan7th <stefan7th@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1316100369;"small themeroot fix
+
+git-svn-id: svn+ssh://r-forge.r-project.org/svnroot/rnetcdf/pkg@1 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+pre;mjwoods_rnetcdf;646a73ffd20d8b58eacf6aa7ac8d3ea206701c74;stefan7th <stefan7th@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1316100369;"small themeroot fix
+
+git-svn-id: svn://r-forge.r-project.org/svnroot/rnetcdf@1 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;20ecef9e9a19f1c4f856914ff1c4224dc60f9b53;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420885808;"RNetCDF release 1.0-3
+
+
+git-svn-id: svn+ssh://r-forge.r-project.org/svnroot/rnetcdf/pkg@2 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;7dd3e2e5d3c16933fbb44feb4372d5a01959ac8a;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420885808;"RNetCDF release 1.0-3
+
+
+git-svn-id: svn://r-forge.r-project.org/svnroot/rnetcdf@2 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;c21c92d87ba0b65c4211d1699e4926bbfff03f2e;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420886047;"RNetCDF release 1.0-4
+
+
+git-svn-id: svn://r-forge.r-project.org/svnroot/rnetcdf@3 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;1cadad537b0c9e4bd4fce3afb85895a8036400b6;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420886047;"RNetCDF release 1.0-4
+
+
+git-svn-id: svn+ssh://r-forge.r-project.org/svnroot/rnetcdf/pkg@3 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;6fdb9410018ad6afd442a9b41aa44eb7b8bef431;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420886157;"RNetCDF release 1.1-1
+
+
+git-svn-id: svn://r-forge.r-project.org/svnroot/rnetcdf@4 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;3ed18646c69f0acb5bab4b6802d825a17e65001a;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420886157;"RNetCDF release 1.1-1
+
+
+git-svn-id: svn+ssh://r-forge.r-project.org/svnroot/rnetcdf/pkg@4 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;f1e3eb5c446755d85f3c2b5c9dac32fa97d29818;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420886278;"RNetCDF release 1.1-2
+
+
+git-svn-id: svn+ssh://r-forge.r-project.org/svnroot/rnetcdf/pkg@5 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;67235516d4f85c03ee842b590898e53790135c44;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420886278;"RNetCDF release 1.1-2
+
+
+git-svn-id: svn://r-forge.r-project.org/svnroot/rnetcdf@5 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;f70fb3bf61db90e477534d714ee52d1f587e5d70;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420886417;"RNetCDF release 1.1-3
+
+
+git-svn-id: svn://r-forge.r-project.org/svnroot/rnetcdf@6 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+post;mjwoods_rnetcdf;a74f3c23925135a7f7a640371c7d988b8a811c50;mwoods <mwoods@edb9625f-4e0d-4859-8d74-9fd3b1da38cb>;1420886417;"RNetCDF release 1.1-3
+
+
+git-svn-id: svn+ssh://r-forge.r-project.org/svnroot/rnetcdf/pkg@6 edb9625f-4e0d-4859-8d74-9fd3b1da38cb
+"
+pre;pnnl_isicle;c7a5652bb0847fcd76e8fc8b41112ed1e0c5b5da;Sean Colby <seanmcolby@gmail.com>;1580491550;"namespace additions
+"
+pre;pnnl_isicle;b0578b594dae00ce90f14260e68acd6e52d058e6;Sean Colby <seanmcolby@gmail.com>;1580491853;"pybel compatibility
+"
+pre;pnnl_isicle;2f3b819c1a9b6c4f95b69679cadba108dad400ae;Sean Colby <seanmcolby@gmail.com>;1580494345;"quotes for tautomerize
+"
+pre;pnnl_isicle;43b38c324ada564443e12c66f35226f5f63e4268;Sean Colby <seanmcolby@gmail.com>;1580495330;"fault tolerance for smiles processing
+"
+pre;pnnl_isicle;92217f0e89a804f60db55af6570596d4e13b7915;Felicity Nielson <felicity.nielson@gmail.com>;1581025088;"update to obabel 3.0 import syntax
+"
+pre;pnnl_isicle;d69b7e12e079dc2588d9b45e7b338e4b23dcfece;Felicity Nielson <felicity.nielson@gmail.com>;1581025405;"Merge branch 'master' of https://github.com/smcolby/isicle
+"
+pre;pnnl_isicle;bfb4ce608e3616e5f3736bb5e841bb16bcbf58c4;Felicity Nielson <felicity.nielson@gmail.com>;1581094132;"import syntax for openbabel 3.0
+"
+pre;pnnl_isicle;265c381ea283adb10f8dcc7b5789ab79c32e7dfc;Felicity Nielson <felicity.nielson@gmail.com>;1581105537;"openbabel 3.0 roll back to 2.1
+"
+pre;pnnl_isicle;b6655917df645a955456d6ea9b22fb9d68e717d0;Sean Colby <seanmcolby@gmail.com>;1584653069;"updates dependency install
+"
+pre;pnnl_isicle;226712a2839f17202ad948997e67ec78f92cc557;Sean Colby <seanmcolby@gmail.com>;1586359764;"conform to latest snakemake api
+"
+post;pnnl_isicle;b3c26cdc2e4b3fcaff07c0f2bd4efc1da608b441;Sean Colby <seanmcolby@gmail.com>;1602788625;"Prepares repository for v2.0 refactor
+Removes legacy code and establishes initial package layout to accommodate interfaces, testing, and other software development improvements.
+"
+post;pnnl_isicle;f394bbb9e316ed5b6b7a1faa775619b94b489306;Sean Colby <seanmcolby@gmail.com>;1602805216;"Implements file parser abstract base class
+Interface will be used to conform all file parser subclasses to ensure consistency across parsers.
+"
+post;pnnl_isicle;c271cda6527b1e1ab3fba31e823f6325cc649a74;Sean Colby <seanmcolby@gmail.com>;1602808252;"Includes parse module in namespace
+"
+post;pnnl_isicle;d141cf4a1db1e91ba5dba89e300e1b9323b4f017;Sean Colby <seanmcolby@gmail.com>;1602808343;"Adds parse module
+Includes classes to parse relevant input files used by isicle, including NWChem, Impact, MOBCAL (and its SHM variant), and Sander. More will be added as development progresses.
+"
+post;pnnl_isicle;7a157d5d6e979f200266847fc91decf978f5694d;jessbade <jessicabade01@gmail.com>;1603206871;"Merge branch 'develop' of https://github.com/smcolby/isicle into develop
+"
+post;pnnl_isicle;cc6784981f9e933108a7cbd438bbaac350bfa114;Sean Colby <seanmcolby@gmail.com>;1603753301;"Implements MobcalParser and corresponding tests
+"
+post;pnnl_isicle;2ab8f4d01b2d6971fdfafd5cd82a3f0b6386d918;Jamie Nunez <jdunn70@gtech.edu>;1604449435;"Implements ImpactParser
+"
+post;pnnl_isicle;16d57b51a75d257f48137557534231049c8d936b;Jamie Nunez <jdunn70@gtech.edu>;1604611704;"Implements tests for ImpactParser
+Also slightly modification to ImpactParser to store results as dict rather than a DataFrame
+"
+post;pnnl_isicle;c1665a89c34fc0c6be750fdf6a116cd6f580d836;Jamie Nunez <jamie.nunez@pnnl.gov>;1604679444;"Started addition of NWChemResult
+Stores information from NWChemParser
+"
+post;pnnl_isicle;09d4d68689bec0cb8e37e4bc812b6b52c37cd975;Jamie Nunez <jamie.nunez@pnnl.gov>;1604948354;"Start the NWChem class development
+"
+pre;r-spatial_spdep;7798f06912c0b93179f884e69857bfbd749967db;Roger Bivand <Roger.Bivand@nhh.no>;1560775721;"use st_cast to unify polygons
+"
+pre;r-spatial_spdep;3f84c935f81a0446e34b9c3ce77ca3e99fc9a886;Roger Bivand <Roger.Bivand@nhh.no>;1560776081;"use st_cast to unify polygons
+"
+pre;r-spatial_spdep;bea11ee1ae0c11db445dd159491bcf88bb46f836;Roger Bivand <Roger.Bivand@nhh.no>;1560776436;"use st_cast to unify polygons
+"
+pre;r-spatial_spdep;133c12c9023e0158b2a46f54a4ef87f5bc9e93ac;Roger Bivand <Roger.Bivand@nhh.no>;1560938508;"tidy
+"
+pre;r-spatial_spdep;2baafe99f60f095151853b9ed51242e4e40b0464;Roger Bivand <Roger.Bivand@nhh.no>;1560940296;"tidy
+"
+pre;r-spatial_spdep;4b901424f0588f5b9747428002dbcaa11956f02a;Roger Bivand <roger.bivand@nhh.no>;1565254771;"block edit.nb() from RStudio
+"
+pre;r-spatial_spdep;9f58152516bb2837b756f09041f249fc980c7588;Roger Bivand <roger.bivand@nhh.no>;1565255462;"block edit.nb() from RStudio
+"
+pre;r-spatial_spdep;cfc37f897321f9efc88e21bdccad74be2aaf6145;Roger Bivand <Roger.Bivand@nhh.no>;1568791946;"adapting to spData xyz -> go_xyz lazy load mess
+"
+pre;r-spatial_spdep;76dc82a31cd8aee1b0329347e9f86493b392bf28;Roger Bivand <Roger.Bivand@nhh.no>;1568793944;"adapting to spData xyz -> go_xyz lazy load mess
+"
+pre;r-spatial_spdep;c62e4524919721c25eccced787a2bc07db2eb52d;Mathias Moser <matmoser@wu.ac.at>;1571999372;"subset.nb: Also subset IDs in names attribute
+
+When using IDs in an nb object subsetting leads to an error
+
+> names attribute [old length] must be same length as vector [new length]
+
+This is because subset.nb uses temporary IDs throughout and at the end
+overwrites these with the IDs chosen by the user (if set). These are
+however not subsetted an therefore we try to overwrite the 'names' attr
+of [new length] with user IDs of [old length].
+
+Commit adds an if-clause to the attribute setting that subsets the IDs.
+"
+post;r-spatial_spdep;33f69f9849d88d093c90e26d5aba7c0583870160;Roger Bivand <Roger.Bivand@nhh.no>;1581778630;"updated urls
+"
+post;r-spatial_spdep;a857809b0ee5a6405efcd0d6f060c615a36dfe22;Roger Bivand <roger.bivand@nhh.no>;1581783049;"fixes https://github.com/r-spatial/spdep/issues/38
+"
+post;r-spatial_spdep;007b0381758bdd23bca3b5592a32a2c52ecf986e;Roger Bivand <rsbivand@users.noreply.github.com>;1586768040;"fixes #39
+
+edit `region.id` description"
+post;r-spatial_spdep;3f515262cdd4f8c65ea64750eb760c0d0223ea9c;Roger Bivand <roger.bivand@nhh.no>;1588698176;"fixes #40 sf output from nb2lines
+"
+post;r-spatial_spdep;8c83f1c0b2cb4370676e90a4f0eadb9f0a53e23a;Roger Bivand <roger.bivand@nhh.no>;1588698227;"tidy
+"
+post;r-spatial_spdep;4ff5a6a403189a0bec737ede08554acafc74d50b;Roger Bivand <roger.bivand@nhh.no>;1588698534;"update docs
+"
+post;r-spatial_spdep;ffa14053d5466e38bdec7aa66804628527a9bd81;Roger Bivand <roger.bivand@nhh.no>;1588698749;"update docs
+"
+post;r-spatial_spdep;cd5a9fc9266ddedbc9a32478672ff2165c9ec125;Roger Bivand <roger.bivand@nhh.no>;1588698874;"update docs
+"
+post;r-spatial_spdep;781d17493864f5a98f40303dc6a8fcc4cdfe5a48;Roger Bivand <roger.bivand@nhh.no>;1588698991;"update docs
+"
+post;r-spatial_spdep;e50911f4fc6dbeaf04bce450efbae15d9c6b1036;Roger Bivand <roger.bivand@nhh.no>;1588699059;"update docs
+"
+pre;ropensci_datapackager;efb6866d03a56933d35b1e5d3ae2dca8bea647e7;Miguel Rodo <rdxmig002@myuct.ac.za>;1641410329;"Miguel working (#71)
+
+* Add details to package_build manual to advise debugging
+
+It may happen that an .Rmd document runs successfully when run manually using `rmarkdown::render`, but
+that same document may throw an error when run internally using `package_build`. A note under the Details section of the `package_build` manual advises users to run `options(error = function(){ sink(); recover})`
+when seeking to debug such an error. This code enables examination of active function calls at the time of the error, with output printed to the console rather than `knitr`'s default sink. See section ""22.5.3 RMarkdown"" at https://adv-r.hadley.nz/debugging.html for more details.
+
+On branch miguel_working
+Changes to be committed:
+	modified:   R/build.R
+	modified:   man/package_build.Rd
+
+* Ensure that functions in R folder are sourced before building data-raw Rmd files
+
+Previously the functions in R folder were not sourced before compiling data-raw Rmd files using `package_build`.
+This meant that if any data-raw Rmd files depended on these functions, they would either throw an error
+or the package would have to be installed before running package_build, which is inconvenient.
+
+The functions in the R folder are now sourced before compiling data-raw Rmd files using `package_build`. Tests were written to ensure that this functionality is both required and that when it is used it runs successfully.
+
+ On branch miguel_working
+ Changes to be committed:
+	modified:   ../../R/processData.R
+	new file:   test-source_r_folder_functions.R
+
+* fix test paths to be *nix compatible
+
+Co-authored-by: Jason Taylor <jmtaylor@fredhutch.org>"
+pre;ropensci_datapackager;ad63f89ea492f6470118c0f723e32316ddbe8351;Jason Taylor <jmtaylor@fredhutch.org>;1643157581;"fix list subsetting, update tests
+"
+pre;ropensci_datapackager;e22d0ca75eb940c05461aef99f463c48fe003d7d;Jason Taylor <jmtaylor@fredhutch.org>;1643216290;"add back deleted dataversion.R
+"
+pre;ropensci_datapackager;1bfcf63692ff723cbbc204412cf0c8e97465024c;Marie Vendettuoli <mariecv26@gmail.com>;1649182026;"Fix compare digests (#95)
+
+* Author changes in description file
+
+* Dev version bump
+
+* update compare for same number of dataobjects
+
+* Update CONTRIBUTING.md with Git workflow guidlines and CI reminder. (#87)
+
+Co-authored-by: Jason Taylor jmtaylor@fredhutch.org
+
+* Vignette edits (#92)
+
+* text edits to vignettes
+* match casing for vignette names
+* rm non-rmd files in vignettes, add .gitignore to vignettes
+* add style pointers for vignettes to contributing
+
+* alter valid name expression to allow for different names in each set
+
+* add tests for .compare_digests
+
+* Usethis patch (#74)
+
+* Patch to address #73
+* bump version, update travis, test locally, rerun codemeta. #73
+* imports for withr for #73
+* update news. #73
+
+* refactor logic of .compare_digests, fix typo package_build help
+
+* add test for .compare_digests refactor
+
+* Add maintainer email and role.
+
+* improve test coverage
+
+* new_digest zero length check in .check_digests not needed, removed
+
+* specify serialization for backward compatibility (#94)
+
+* specify serialization for backward compatibility
+
+* removed whitespace edits
+
+Co-authored-by: Jason Taylor <jmtaylor@fredhutch.org>
+
+* add condition for checking for removed data in digest
+
+* fix list subsetting, update tests
+
+* add back deleted dataversion.R
+
+Co-authored-by: William Fulp <wfulp@fredhutch.org>
+Co-authored-by: jmtaylor-fhcrc <42221209+jmtaylor-fhcrc@users.noreply.github.com>
+Co-authored-by: Jason Taylor <jmtaylor@fredhutch.org>
+Co-authored-by: Greg Finak <greg.finak@gmail.com>
+Co-authored-by: Jimmy Fulp <WilliamJFulp@gmail.com>"
+pre;ropensci_datapackager;db2a040b064fd1b3fb835796aacb8ff83cf1a0ef;Marie Vendettuoli <mvendett@scharp.org>;1652223910;"update author contact
+"
+pre;ropensci_datapackager;5fd283fc79723a4ec268f5030001d51c17b2613b;Marie Vendettuoli <mvendett@scharp.org>;1652820432;"update author contact (#99)
+
+"
+pre;ropensci_datapackager;334cd4bfa5dbef9108d00418018a0141911a4c96;Marie Vendettuoli <mvendett@scharp.org>;1655248358;"fix links
+"
+pre;ropensci_datapackager;bdd362c6ac74241567bb828f0371a34c2cdf2e0f;Marie Vendettuoli <mvendett@scharp.org>;1655324337;"fixes #98
+"
+pre;ropensci_datapackager;67dd6c564184d59f32308f906950079c485163d0;Jason Taylor <jmtaylor@fredhutch.org>;1655399160;"reduce example processing time for CRAN
+"
+pre;ropensci_datapackager;600b9dc518d4ba28d1a6be30a40cccfa6236f590;Marie Vendettuoli <mvendett@scharp.org>;1657656093;"prep for release
+"
+post;ropensci_datapackager;517198fee9832ad6e9325deb2982a51fec0b09d9;Dave Slager <slager@users.noreply.github.com>;1711496098;"roxygen2 pkg doc fix, see r-lib/roxygen2#1491
+"
+post;ropensci_datapackager;95957a0ea3881bf88c0524fc25d74ef49e9eed68;Dave Slager <slager@users.noreply.github.com>;1711496780;"update DPRs own pkg doc, see r-lib/roxygen2#1491
+"
+post;ropensci_datapackager;85f441d7fdba6836591a953c55ee9fc54bbd86ba;Dave Slager <slager@users.noreply.github.com>;1711499882;"fix broken test, test outcome, not console msg
+"
+post;ropensci_datapackager;877c9b1a4019ae40998d5d547e5aaba5f9c857dc;Dave Slager <slager@users.noreply.github.com>;1711502826;"try fixing GitHub Actions CI
+"
+post;ropensci_datapackager;9be7d9f123ad878adee35d15abaad491a229f91a;Dave Slager <slager@users.noreply.github.com>;1711503440;"install tinytex on GitHub Actions CI
+"
+post;ropensci_datapackager;d0f0b631f9fb45402eb3b4b149fa533d4697fdfb;Dave Slager <slager@users.noreply.github.com>;1711772447;"Merge pull request #103 from slager/pkg_doc_fix
+
+Fix deprecated roxygen2 pkg-level documentation in pkg and template"
+post;ropensci_datapackager;465ad077ec354eb33df7e0b186a3d0882ee18cc6;Dave Slager <slager@users.noreply.github.com>;1711773227;"Merge branch 'main' into develop
+"
+post;ropensci_datapackager;33c6ed95eae2dd4f19066dd906f187660411b757;Dave Slager <slager@users.noreply.github.com>;1711775434;"Merge branch 'develop' into cran-release-prep
+"
+post;ropensci_datapackager;0c9084ecc9bece535da1f19e1ee7b8d6a6e2f58b;Dave Slager <slager@users.noreply.github.com>;1711776450;"Merge branch 'cran-release-prep' into cran-release-prep-reduce-example-time
+"
+post;ropensci_datapackager;af004af5e33dccc0c68de0ca1d77bf5800a72e49;Dave Slager <slager@users.noreply.github.com>;1711776509;"Merge pull request #102 from ropensci/cran-release-prep-reduce-example-time
+
+Reduce example processing time for CRAN requirement."
+pre;sasview_sasview;431896cf6981e4c9f72c0083c7b2903b5eeae8b9;Jae Cho <jhjcho@gmail.com>;1367245516;"removed maxsize on mac/linux
+"
+pre;sasview_sasview;0cb3d13875eb9dd8d05b511dfdc5da6b541f27bf;Jae Cho <jhjcho@gmail.com>;1367248902;"trying if this works on maxsize of main frame on MAC
+"
+pre;sasview_sasview;16240114a0815e0f609f8758f24bb94484ad49c6;Jae Cho <jhjcho@gmail.com>;1367250039;"best main frame size on mac
+"
+pre;sasview_sasview;20bb9002df8a6d0be9d73c6b38ef36096832d421;Jae Cho <jhjcho@gmail.com>;1367252538;"removed a pdf file not in use
+"
+pre;sasview_sasview;d1f645e294fcfa400bd311916c96b62e54c2efed;Jae Cho <jhjcho@gmail.com>;1367252807;"deleted dated useless docs
+"
+pre;sasview_sasview;d73a274571dca4caa2a33187a99cce66e65a758c;Jae Cho <jhjcho@gmail.com>;1367333318;"taking version no. from __init__
+"
+pre;sasview_sasview;80b93da0562adf021d7d78f74e4294069b9971f1;Jae Cho <jhjcho@gmail.com>;1367333373;"automatically regenerate installer.iss by setup_exe
+"
+pre;sasview_sasview;53f9e408f170c34898d70a62e43598c20e0647bc;Jae Cho <jhjcho@gmail.com>;1367350983;" controlpanel frame size is added in start-configuration.
+"
+pre;sasview_sasview;3704e338f360f31aa9a474d19d9188d8ea580ea1;Jae Cho <jhjcho@gmail.com>;1367353922;"a little bit of cleanups
+"
+pre;sasview_sasview;6d4df13e0addb20ea0b25ffa0feb9904a84a327e;Jae Cho <jhjcho@gmail.com>;1367354354;"minor change : remove raise on full_drawing
+"
+post;sasview_sasview;51e5a876b7703864a284a1e4964c803f3dc4572b;Mathieu Doucet <doucetm@ornl.gov>;1377613755;"Add project settings
+"
+post;sasview_sasview;358f1a811af4b4eaf17a21d950d8de2759a5ad93;Mathieu Doucet <doucetm@ornl.gov>;1377613932;"Branch to investigate code reorg
+"
+post;sasview_sasview;5ea34ec8f1fa92c4864e5a46f8c254c2eb061961;Andrew Jackson <andrew.jackson@esss.se>;1377617395;"Fix to gui_manager to account for lack of CONTROL_HEIGHT and CONTROL_WIDTH in old sasview config files that prevented startup.
+"
+post;sasview_sasview;5777106e8a4a0a62fe2ee0fbaf7c0aa19c0bb92b;Mathieu Doucet <doucetm@ornl.gov>;1377629256;"Moving things around. Will definitely not build.
+"
+post;sasview_sasview;b8a8e4e983fdaf932bc8c355fc18731031e85366;Mathieu Doucet <doucetm@ornl.gov>;1377630375;"Checkpoint
+"
+post;sasview_sasview;75c44dce56c0c243ebcb8ddd44f835bfbf608a36;Mathieu Doucet <doucetm@ornl.gov>;1377718209;"Remove docs dirs we won't be using
+"
+post;sasview_sasview;9b64dcaeb9cc7cea9c27d0a16d48241feae3ea14;Mathieu Doucet <doucetm@ornl.gov>;1377718393;"Move model docs
+"
+post;sasview_sasview;9cbc25cc7bb57e28b7e28f47e228f9770d4c136d;Mathieu Doucet <doucetm@ornl.gov>;1377718432;"Remove docs dirs we won't be using
+"
+post;sasview_sasview;9f68f7ceb7a5d3649a4992e48f3972d89665322b;Mathieu Doucet <doucetm@ornl.gov>;1377718487;"New and improved sphinx docs generation
+"
+post;sasview_sasview;aa639ea269b76d78cd120b41705f70280ef4e03e;Mathieu Doucet <doucetm@ornl.gov>;1377718553;"Move simulation code (unused)
+"
+pre;svalorzen_ai-toolbox;581816cbde59d6852a06718fddf5aacb476729b7;Svalorzen <svalorzen@gmail.com>;1682426834;"CMakeLists: fixed comment
+"
+pre;svalorzen_ai-toolbox;9314b92b50eaac47c17da5b08b00144b70e51747;Svalorzen <svalorzen@gmail.com>;1683899519;"README fix
+"
+pre;svalorzen_ai-toolbox;d3851293c14f095bda4d6e9d50b7a2d33e8c214b;Divya Tiwari <divyatiwari1112@gmail.com>;1684117421;"Updated for compilation with multiple g++ and C++20 while resolving error in MARMaxPolicy.cpp for ranges_ array
+"
+pre;svalorzen_ai-toolbox;d54bad38f16aea3a1f3b12312eeb4c3fae189841;Divya Tiwari <33062730+dt1729@users.noreply.github.com>;1684117569;"Merge d3851293c14f095bda4d6e9d50b7a2d33e8c214b into 9314b92b50eaac47c17da5b08b00144b70e51747
+"
+pre;svalorzen_ai-toolbox;acba372d55b981c3e308551f9d25865260bec3a1;Prateek Bhustali <61668356+omniscientoctopus@users.noreply.github.com>;1703686430;"Add Dockerfile for AI-Toolbox with required dependencies
+"
+pre;svalorzen_ai-toolbox;fade8a7375d38f72ff2ba2c0eeb3a05989a13ad4;Prateek Bhustali <61668356+omniscientoctopus@users.noreply.github.com>;1704486993;"Merge pull request #2 from omniscientoctopus/MARMaxPolicy-fix
+
+Error in MARMaxPolicy.cpp"
+pre;svalorzen_ai-toolbox;f9481a05df789eb0497a4402b85333d4169a9376;Prateek Bhustali <61668356+omniscientoctopus@users.noreply.github.com>;1704499986;"Update Dockerfile with full build
+
+ctest not passing, hence disabling it for now
+"
+pre;svalorzen_ai-toolbox;c853dd2a703246f23a743c2271b4f7d8833e0b1b;Prateek Bhustali <61668356+omniscientoctopus@users.noreply.github.com>;1704500003;"Add GitHub Actions workflow to build Docker image
+"
+pre;svalorzen_ai-toolbox;e0aedb44e2342c6a55bf34006e00ea54273930fe;Prateek Bhustali <61668356+omniscientoctopus@users.noreply.github.com>;1704656921;Update CMakeLists.txt
+pre;svalorzen_ai-toolbox;4d16eadb5ac48d1830e355938a19e061478cffd0;Prateek Bhustali <61668356+omniscientoctopus@users.noreply.github.com>;1704656923;"Merge e0aedb44e2342c6a55bf34006e00ea54273930fe into 9314b92b50eaac47c17da5b08b00144b70e51747
+"
+post;svalorzen_ai-toolbox;05c935cc470353f307e182f318f53045d5ce1c7e;Svalorzen <svalorzen@gmail.com>;1742310600;"fix: remove now unsupported python 2 from GH Actions
+"
+post;svalorzen_ai-toolbox;00e8191aa9d75009f7e994e8e12c72d23ae2ab74;Divya Tiwari <33062730+dt1729@users.noreply.github.com>;1742311302;"Merge d3851293c14f095bda4d6e9d50b7a2d33e8c214b into 05c935cc470353f307e182f318f53045d5ce1c7e
+"
+post;svalorzen_ai-toolbox;8cc1a16d2421bb2dcc75cf8da1f44845041a66f5;Prateek Bhustali <61668356+omniscientoctopus@users.noreply.github.com>;1742777074;"Merge e0aedb44e2342c6a55bf34006e00ea54273930fe into 05c935cc470353f307e182f318f53045d5ce1c7e
+"

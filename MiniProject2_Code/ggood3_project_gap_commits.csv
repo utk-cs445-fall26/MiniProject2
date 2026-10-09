@@ -1,0 +1,661 @@
+pre;vida-nyu_reprozip;2ae8fd928242e890554e1a44c0e1de49caedeb1a;Remi Rampin <remi@rampin.org>;1732644984;"CI: Run Ubuntu 20.04 test in container
+"
+pre;vida-nyu_reprozip;0ddc884a32b6883d559241ddf6cb15fc924cfa83;Remi Rampin <remi@rampin.org>;1732645751;"tests: Use HEAD but ignore 501 from vagrantup.com
+
+Sending many GET requests runs into rate limit.
+"
+pre;vida-nyu_reprozip;e1ae2848f9296fa9f2c7548f5013be7030b458d6;Remi Rampin <remi@rampin.org>;1732645920;"tests: More logging during image checks
+"
+pre;vida-nyu_reprozip;64c743651d13e28006c3598e661adf7207eaa5d3;Remi Rampin <remi@rampin.org>;1732646010;"Merge branch 'test-vagrant-images' into '1.x'
+"
+pre;vida-nyu_reprozip;fa5e2507de596c544a3fafadce09c6ac0294d78c;Remi Rampin <remi@rampin.org>;1732846843;"Initialize buffer to empty
+"
+pre;vida-nyu_reprozip;686c235c303bbb0f47a59887790e68b82aaebe00;Remi Rampin <remi@rampin.org>;1733175404;"Merge pull request #396 from VIDA-NYU/proc-path-buffer
+
+Grow the path buffer when reading /proc/.../maps"
+pre;vida-nyu_reprozip;bdd6546964f4bf1b56d59955c5cdaa78e84c1935;Remi Rampin <remi@rampin.org>;1733175880;"docs: Fix intersphinx conf
+"
+pre;vida-nyu_reprozip;49b1bb04463e952883ff3e57910847dc3ceed3c4;Brian Hoffman <brianjhoffman@gmail.com>;1737981784;"Merge 991ffac69501dda00972e59ccd30d4afaa6a5dd2 into bdd6546964f4bf1b56d59955c5cdaa78e84c1935
+"
+pre;vida-nyu_reprozip;cf85c1ad523c78adb204ac918901e0a7eecdbe1e;Remi Rampin <remi@rampin.org>;1737981796;"Merge ad75c23d005bddf6a9672daff82e39a8b59ece30 into bdd6546964f4bf1b56d59955c5cdaa78e84c1935
+"
+pre;vida-nyu_reprozip;0d41913a61ecc9208f81fc0429cec646978b20fb;Remi Rampin <remi@rampin.org>;1737981810;"Merge 0edec88ab63cb1b724af291579a74a654d0bbe07 into bdd6546964f4bf1b56d59955c5cdaa78e84c1935
+"
+post;vida-nyu_reprozip;4fa2646ce2c7279f6f174c5d20e543cccb71b0f3;Remi Rampin <remi@rampin.org>;1765228113;"Bump version to 1.3.1
+"
+post;vida-nyu_reprozip;44687ce73efe7a889bf7a1ea982258e2d965c766;Remi Rampin <remi@rampin.org>;1768777201;"Bump version to 1.3.2
+"
+post;vida-nyu_reprozip;13564f4ff92bc3e6437d75c3aaf6ba940ca31ceb;Remi Rampin <remi@rampin.org>;1769025402;"Merge 0edec88ab63cb1b724af291579a74a654d0bbe07 into 44687ce73efe7a889bf7a1ea982258e2d965c766
+"
+post;vida-nyu_reprozip;9c11a08e481565262516441e230e276496834ef1;Remi Rampin <remi@rampin.org>;1769026752;"Merge ad75c23d005bddf6a9672daff82e39a8b59ece30 into 44687ce73efe7a889bf7a1ea982258e2d965c766
+"
+post;vida-nyu_reprozip;749d90515d3b2ecbcaf962e4b728bfb4d7c0d585;Brian Hoffman <bhoffman@loc.gov>;1769036133;"Merge 991ffac69501dda00972e59ccd30d4afaa6a5dd2 into 44687ce73efe7a889bf7a1ea982258e2d965c766
+"
+post;vida-nyu_reprozip;af0f16b6a25de360eb22d951e14b735c10f141a2;Alexandre Detiste <alexandre.detiste@gmail.com>;1769111883;"drop Python2 support which is effectively broken by recent usage of importlib_metadata
+
+importlib_metadata is a backport of a Python 3.x module
+and is not compatible with Python 2
+"
+post;vida-nyu_reprozip;21c7873d0b37935bd9915216930ccc8abbe18ec7;Alexandre Detiste <alexandre.detiste@gmail.com>;1769111954;"Merge af0f16b6a25de360eb22d951e14b735c10f141a2 into 44687ce73efe7a889bf7a1ea982258e2d965c766
+"
+post;vida-nyu_reprozip;1583fe7ff47dd3605a14c8f458ea7641ce92ce0c;Remi Rampin <remi@rampin.org>;1770177813;"Add .well-known/security.txt
+"
+post;vida-nyu_reprozip;811f5c3f7a35c68bb1e0d1871ca6c578f9ad4ffb;Remi Rampin <remi@rampin.org>;1770178021;"Add .nojekyll
+"
+pre;llnl_mgmol;2f4edbead75452da14191f9a90097d637fc570a8;Jean-Luc Fattebert <fattebertj@ornl.gov>;1640017615;"Bug fix in LBFGS restart (#195)
+
+Includes some clean up"
+pre;llnl_mgmol;efd3dfbaf4a719e0e00893471789e93e18b5bbdf;Jean-Luc Fattebert <fattebertj@ornl.gov>;1640191060;"Add test for FIRE algorithm
+
+Also fix/clean up a few things in FIRE implementation
+"
+pre;llnl_mgmol;0cf475d3c59ee215c04dd06d5aa97730ce7000cd;Jean-Luc Fattebert <fattebertj@ornl.gov>;1640364235;"Add test for FIRE algorithm (#197)
+
+Also fix/clean up a few things in FIRE implementation"
+pre;llnl_mgmol;ffa39009c63ab21f3230569cc9337392b9922bcd;Jean-Luc Fattebert <fattebertj@ornl.gov>;1640632678;"Change mass used in FIRE algorithm
+
+Fix some details in FIRE implementation too
+"
+pre;llnl_mgmol;5d82d12ab4cadaad90e3259da1d85fee02d9fa28;Jean-Luc Fattebert <fattebertj@ornl.gov>;1640699367;"Fix taum in FIRE algorithm
+
+Needs to be a reference to external vector that gets updated
+when parallel distribution is changed
+"
+pre;llnl_mgmol;1d376998d44f041e72717cd517448e048b4ec966;Jean-Luc Fattebert <fattebertj@ornl.gov>;1640807593;"Fix FIRE algorithm (#198)
+
+* Change mass used in FIRE algorithm
+* Fix some details in implementation
+* Fix taum: Needs to be a reference to external vector that gets updated
+when parallel distribution is changed"
+pre;llnl_mgmol;931856cafafb1e67f7702a7b69094a8e92240dac;Jean-Luc Fattebert <fattebertj@ornl.gov>;1641160441;"Add orthonormalization in Davidson
+
+Initial orthonormalization seems required to keep solver stable
+over large number of calls (MD or geometry optimization iterations)
+"
+pre;llnl_mgmol;d791c1ea32093556f1f4323fb3125513e7b9ec8a;Jean-Luc Fattebert <fattebertj@ornl.gov>;1641218556;"Add orthonormalization in Davidson (#199)
+
+Initial orthonormalization seems required to keep solver stable
+over large number of calls (MD or geometry optimization iterations)"
+pre;llnl_mgmol;c120dda7a677d43f18da93ae45832effc6731efa;Jean-Luc Fattebert <fattebertj@ornl.gov>;1643899583;"New FIRE implementation
+"
+pre;llnl_mgmol;f04a0ee3c19b46d91e4868faff298a066eaa6cf6;Jean-Luc Fattebert <fattebertj@ornl.gov>;1643938862;"New FIRE implementation (#200)
+
+"
+post;llnl_mgmol;098e14200913a9b19dce08682da8e403f2cabd6a;Jean-Luc Fattebert <fattebertj@ornl.gov>;1675440496;"Fix a few lines to enable mixed-precision build
+"
+post;llnl_mgmol;63d5aa59580dd5a33316db9f0fe31ac7cd810626;Jean-Luc Fattebert <fattebertj@ornl.gov>;1675515994;"Fix a few lines to enable mixed-precision build (#201)
+
+"
+post;llnl_mgmol;7be3a05a35cdd2ced11478b583a44f80e8e780bb;Jean-Luc Fattebert <fattebertj@ornl.gov>;1675823351;"Fix mixed-precision run
+"
+post;llnl_mgmol;8231cdbfe65714816619843de491719193438d57;Jean-Luc Fattebert <fattebertj@ornl.gov>;1675913427;"Fix mixed-precision run (#202)
+
+"
+post;llnl_mgmol;8e10f13ab455aea8b7667ee69d88c74c9eea7116;Jean-Luc Fattebert <fattebertj@ornl.gov>;1677168815;"Fix script to compare timings between two runs
+"
+post;llnl_mgmol;dbe231d7177cc7f309a263f42bacb7a12c17291d;Jean-Luc Fattebert <fattebertj@ornl.gov>;1677180850;"Clean up use of 2nd order FD on coarse level
+"
+post;llnl_mgmol;8ca59d6adb580fa0fa9e23d160759a5daacaadf1;Jean-Luc Fattebert <fattebertj@ornl.gov>;1677252229;"Clean up use of 2nd order FD on coarse level (#203)
+
+"
+post;llnl_mgmol;0cdb289a7fe8e0a9c752de294b7ab863607287c4;Jean-Luc Fattebert <fattebertj@ornl.gov>;1677259737;"Fix script getTriatomicAngle for python3
+"
+post;llnl_mgmol;82dc1944553cbaad4a2ec9175d4f0234bde6ceb1;Jean-Luc Fattebert <fattebertj@ornl.gov>;1677877846;"Fix LBFGS solver
+
+Restart from scratch when fail
+Fix error messages
+Fix script to generate initial coords with constraint
+"
+post;llnl_mgmol;84ed87c7cfcbf61f32c9d41eb80a11015a9813ea;Jean-Luc Fattebert <fattebertj@ornl.gov>;1677934366;"Fix LBFGS solver (#204)
+
+Restart from scratch when fail
+Fix error messages
+Fix script to generate initial coords with constraint"
+pre;scifio_scifio-imageio;250dbde3d2aecfc5c8ca54428b759cf0af309aa7;Mathew Seng <mathewseng@gmail.com>;1605114072;"ENH: Disable azure-pipelines.yml for new GitHub Actions
+This also updates the README.md
+"
+pre;scifio_scifio-imageio;b2194bf6d1ed3df9518b7af55d118279b18bdf83;Mathew Seng <mathewseng@gmail.com>;1605114828;"BUG: ITK runtime directory in PATH for Windows not specified
+"
+pre;scifio_scifio-imageio;7f4355bc5301c9eeaef03fd07b0d1fab10fa9354;Mark Hiner <hinerm@gmail.com>;1605728460;"Merge pull request #69 from mseng10/update-github-actions
+
+ENH: Update GitHub actions"
+pre;scifio_scifio-imageio;549c7176c3faa65c6fd1bcd66cf7c6f9298a3208;Mathew Seng <mathewseng@gmail.com>;1610399069;"COMP: Update GitHub Actions from ITKModuleTemplate
+"
+pre;scifio_scifio-imageio;fea74f7899d9c265c7b937292c984bb92df6c312;Matt McCormick <matt.mccormick@kitware.com>;1610729224;"Merge pull request #70 from mseng10/update-ci
+
+COMP: Update GitHub Actions from ITKModuleTemplate"
+pre;scifio_scifio-imageio;ac0060f3d296beab6e1e82886bf0d1c61aaab65e;Hans Johnson <hans-johnson@uiowa.edu>;1639785988;"COMP: Modules need updated version of ITK
+
+Removal of .h includes from same named .hxx files
+requires removal of outdated rule that is no longer
+relevant.
+
+This PR will update the version of ITK that is
+used for the remove modules.""
+
+BRANCH_NAME=update-reference-itk-version
+for remdir_script in *.remote.cmake; do
+
+  remdir=""${remdir_script//*.remote.cmake/}""
+  if [ ! -d ""${remdir}"" ] ;then
+    echo ""Missing directory ${remdir}""
+    continue
+  fi
+  pushd ""${remdir}"" || exit
+  echo ""=============== $(pwd) =========""
+  git checkout master
+  git fetch origin
+  git rebase origin/master
+  git checkout -b ${BRANCH_NAME}
+  sed 's/itk-git-tag : .*/itk-git-tag: ""a89145bccda6a36f42cfdd45d3a6b27234ff54fe""/g' $( fgrep -Rl ""itk-git-tag:"" |fgrep yml )
+
+  git status
+  diff_line_no=$(git diff |wc -l )
+  if [ ""${diff_line_no}"" -ne 0 ]; then
+    git add -p
+    git commit -F /tmp/update_itk_msg
+
+    gh pr create -a ""@me"" -F /tmp/update_itk_msg
+  else
+    echo ""Skipping changes $(pwd)""
+  fi
+  git fetch
+  git rebase origin/master
+  git push origin -f ${BRANCH_NAME}:${BRANCH_NAME}
+
+  popd || exit
+done
+"
+pre;scifio_scifio-imageio;42b30ee7d50ef6c91e0d3153f400b62bc114b2f7;Hans Johnson <hans-johnson@uiowa.edu>;1639792650;"COMP: Modules need updated version of ITK
+
+Removal of .h includes from same named .hxx files
+requires removal of outdated rule that is no longer
+relevant.
+
+This PR will update the version of ITK that is
+used for the remove modules.""
+
+BRANCH_NAME=update-reference-itk-version
+for remdir_script in *.remote.cmake; do
+
+  remdir=""${remdir_script//*.remote.cmake/}""
+  if [ ! -d ""${remdir}"" ] ;then
+    echo ""Missing directory ${remdir}""
+    continue
+  fi
+  pushd ""${remdir}"" || exit
+  echo ""=============== $(pwd) =========""
+  git checkout master
+  git fetch origin
+  git rebase origin/master
+  git checkout -b ${BRANCH_NAME}
+  sed 's/itk-git-tag : .*/itk-git-tag: ""a89145bccda6a36f42cfdd45d3a6b27234ff54fe""/g' $( fgrep -Rl ""itk-git-tag:"" |fgrep yml )
+
+  git status
+  diff_line_no=$(git diff |wc -l )
+  if [ ""${diff_line_no}"" -ne 0 ]; then
+    git add -p
+    git commit -F /tmp/update_itk_msg
+
+    gh pr create -a ""@me"" -F /tmp/update_itk_msg
+  else
+    echo ""Skipping changes $(pwd)""
+  fi
+  git fetch
+  git rebase origin/master
+  git push origin -f ${BRANCH_NAME}:${BRANCH_NAME}
+
+  popd || exit
+done
+"
+pre;scifio_scifio-imageio;f6916932ec283a94782aef6ff5af5ed80d3c5833;Hans Johnson <hans-johnson@uiowa.edu>;1639792650;"COMP: Modules need updated version of ITK
+
+Removal of .h includes from same named .hxx files
+requires removal of outdated rule that is no longer
+relevant.
+
+This PR will update the version of ITK that is
+used for the remove modules.""
+
+BRANCH_NAME=update-reference-itk-version
+for remdir_script in *.remote.cmake; do
+
+  remdir=""${remdir_script//*.remote.cmake/}""
+  if [ ! -d ""${remdir}"" ] ;then
+    echo ""Missing directory ${remdir}""
+    continue
+  fi
+  pushd ""${remdir}"" || exit
+  echo ""=============== $(pwd) =========""
+  git checkout master
+  git fetch origin
+  git rebase origin/master
+  git checkout -b ${BRANCH_NAME}
+  sed 's/itk-git-tag : .*/itk-git-tag: ""a89145bccda6a36f42cfdd45d3a6b27234ff54fe""/g' $( fgrep -Rl ""itk-git-tag:"" |fgrep yml )
+
+  git status
+  diff_line_no=$(git diff |wc -l )
+  if [ ""${diff_line_no}"" -ne 0 ]; then
+    git add -p
+    git commit -F /tmp/update_itk_msg
+
+    gh pr create -a ""@me"" -F /tmp/update_itk_msg
+  else
+    echo ""Skipping changes $(pwd)""
+  fi
+  git fetch
+  git rebase origin/master
+  git push origin -f ${BRANCH_NAME}:${BRANCH_NAME}
+
+  popd || exit
+done
+"
+pre;scifio_scifio-imageio;1054ece893ee072bdb8124c45ce207de00af280f;Tom Birdsong <tom.birdsong@kitware.com>;1654012552;"ENH: Bump ITK and replace http with https using script
+"
+pre;scifio_scifio-imageio;76e1d922d3128e3ac351348f8af83a05b7e3db3e;Tom Birdsong <tom.birdsong@kitware.com>;1654012552;"ENH: Bump ITK and replace http with https using script
+"
+post;scifio_scifio-imageio;850ef484464844c010e08fa822149439dc79687a;Matt McCormick <matt.mccormick@kitware.com>;1718766282;"ENH: Upgrade CI for ITK 5.4.0
+
+Upgrade CI testing to use the latest ITK 5.4.0 version and CI configuration.
+
+Committed via https://github.com/asottile/all-repos
+"
+post;scifio_scifio-imageio;6ce7630ea6bb4ef7588b12a3da4b9c53570f6c84;Matt McCormick <matt.mccormick@kitware.com>;1718768503;"ENH: Upgrade CI for ITK 5.4.0
+
+Upgrade CI testing to use the latest ITK 5.4.0 version and CI configuration.
+
+Committed via https://github.com/asottile/all-repos
+"
+post;scifio_scifio-imageio;f361073559d74bdbece157acf62f6253af016e2d;Hans Johnson <hans-johnson@uiowa.edu>;1737903680;"STYLE: Add itkVirtualGetNameOfClassMacro + itkOverrideGetNameOfClassMacro
+
+Added two new macro's, intended to replace the old 'itkTypeMacro' and
+'itkTypeMacroNoParent'.
+
+The main aim is to be clearer about what those macro's do: add a virtual
+'GetNameOfClass()' member function and override it. Unlike 'itkTypeMacro',
+'itkOverrideGetNameOfClassMacro' does not have a 'superclass' parameter, as it
+was not used anyway.
+
+Note that originally 'itkTypeMacro' did not use its 'superclass' parameter
+either, looking at commit 699b66cb04d410e555656828e8892107add38ccb, Will
+Schroeder, June 27, 2001:
+https://github.com/InsightSoftwareConsortium/ITK/blob/699b66cb04d410e555656828e8892107add38ccb/Code/Common/itkMacro.h#L331-L337
+"
+post;scifio_scifio-imageio;52c4f224299d1fcffec69c9cac4003e81ab0158e;Hans Johnson <hans-johnson@uiowa.edu>;1737903680;"STYLE: Add itkVirtualGetNameOfClassMacro + itkOverrideGetNameOfClassMacro
+
+Added two new macro's, intended to replace the old 'itkTypeMacro' and
+'itkTypeMacroNoParent'.
+
+The main aim is to be clearer about what those macro's do: add a virtual
+'GetNameOfClass()' member function and override it. Unlike 'itkTypeMacro',
+'itkOverrideGetNameOfClassMacro' does not have a 'superclass' parameter, as it
+was not used anyway.
+
+Note that originally 'itkTypeMacro' did not use its 'superclass' parameter
+either, looking at commit 699b66cb04d410e555656828e8892107add38ccb, Will
+Schroeder, June 27, 2001:
+https://github.com/InsightSoftwareConsortium/ITK/blob/699b66cb04d410e555656828e8892107add38ccb/Code/Common/itkMacro.h#L331-L337
+"
+post;scifio_scifio-imageio;8177fd4b8328b066e6654af2756863873c86123d;Hans Johnson <hans-johnson@uiowa.edu>;1738022044;"STYLE: Update to match clang-format-19 from ITK
+"
+post;scifio_scifio-imageio;0395fe3bd56cb8e67fec3a47f664c750bac234f1;Hans Johnson <hans-johnson@uiowa.edu>;1738022044;"STYLE: Update to match clang-format-19 from ITK
+"
+post;scifio_scifio-imageio;9750d13c1b62675f7f368d670f5076fdd5b29d24;Hans Johnson <hans-johnson@uiowa.edu>;1738034344;"ENH: Update to support the clang-format-linter CI
+"
+post;scifio_scifio-imageio;8533deebf417f1ef720f3b0e5d8e7c128b99889b;Hans Johnson <hans-johnson@uiowa.edu>;1738034344;"ENH: Update to support the clang-format-linter CI
+"
+post;scifio_scifio-imageio;299358464280d729052a33eccd887456335b44ab;Hans Johnson <hans-johnson@uiowa.edu>;1741531315;"ENH: Use latest actions, do not pin to latest version
+
+The convention of only specifying the MAJOR version
+is the indicator that the latest version in that
+series should be used.
+
+By not specifying the MINOR and PATCH, the exact versions
+is not pinned, but the latest in that series is chosen.
+(i.e. the v5 tag is updated every time a new MINOR or PATCH
+tag is generated).
+
+This allows benefiting from minor patch fixes without needing
+to update workflows.
+"
+post;scifio_scifio-imageio;651d653b5252196f5ebd9e518d9e298736ac7860;Hans Johnson <hans-johnson@uiowa.edu>;1741531315;"ENH: Use latest actions, do not pin to latest version
+
+The convention of only specifying the MAJOR version
+is the indicator that the latest version in that
+series should be used.
+
+By not specifying the MINOR and PATCH, the exact versions
+is not pinned, but the latest in that series is chosen.
+(i.e. the v5 tag is updated every time a new MINOR or PATCH
+tag is generated).
+
+This allows benefiting from minor patch fixes without needing
+to update workflows.
+"
+pre;smistad_fast;5332d05f3842227f2d9638dbb72c7a3a9b463c23;Erik Smistad <ersmistad@gmail.com>;1711367027;"Implemented support for OME-TIFF whole slide image format
+"
+pre;smistad_fast;cd4a3bbd6834895a735bef0164c955e377ca4a0d;Erik Smistad <ersmistad@gmail.com>;1711367040;"Merge remote-tracking branch 'origin/master'
+"
+pre;smistad_fast;7b186f9b7178e68d326044e8f46012b2acc5807a;Erik Smistad <ersmistad@gmail.com>;1711374325;Update CI-ubuntu.yml [no ci]
+pre;smistad_fast;4417e680042c62002b00cc1c981896ebf8ba8044;Erik Smistad <ersmistad@gmail.com>;1711374355;Update CI-windows.yml [no ci]
+pre;smistad_fast;d14eb6a6022409201641270ad4db26092e8ed868;Erik Smistad <ersmistad@gmail.com>;1711374377;Update CI-mac-x86_64.yml [no ci]
+pre;smistad_fast;43e794d46d02c6aeee2a1d092ebdc329fcb406ac;Erik Smistad <ersmistad@gmail.com>;1711374399;Update CI-mac-arm64.yml [no ci]
+pre;smistad_fast;bf5924572286bd13ada198ff495c843e967adb37;Erik Smistad <ersmistad@gmail.com>;1711375838;Bump to version 4.9.2 [no ci]
+pre;smistad_fast;1d298650e3dbd2cf6b2e0f4018cb3e3025d33b43;Lisa Bonheme <bonhemel@iarc.who.int>;1714397901;"Show how to save files from PatchGenerator with the same file name format as ImagePyramidPatchExporter
+"
+pre;smistad_fast;4e4782e741618172f3b2cbb53c6ceab8915ce69c;Lisa Bonheme <bonhemel@iarc.who.int>;1714399613;"tiny typo fix
+"
+pre;smistad_fast;019a556a2763f9c18264cb63f359f47fe5b78207;Lisa Bonheme <bonheml@users.noreply.github.com>;1714473107;"Update Python WSI tutorial documentation (#206)
+
+Documentation: Show how to save files from PatchGenerator with the same file name format as ImagePyramidPatchExporter"
+post;smistad_fast;b8b4550a2870c2f4ca08a2c4bb301d163e48b25b;Erik Smistad <ersmistad@gmail.com>;1724241807;"Fixed bug #210
+Iterating over both bytes and channels which is incorrect.
+"
+post;smistad_fast;a3b631488488121fc0bb5539e35ac7db6352e8be;Erik Smistad <ersmistad@gmail.com>;1724241818;"Merge remote-tracking branch 'origin/master'
+"
+post;smistad_fast;95067d75bab88130807bb3c461693da36cec8180;Erik Smistad <ersmistad@gmail.com>;1724242197;Update CI-ubuntu.yml [no ci]
+post;smistad_fast;097b979dcf2d010f3c31bf4473002a0d020bd197;Erik Smistad <ersmistad@gmail.com>;1724761113;"Bumped version number
+"
+post;smistad_fast;cb5ef54ccbc978f9c3dad6b8222e0d8f37275b0c;Erik Smistad <ersmistad@gmail.com>;1724761187;"Upgraded Clarius Cast to version 11.2.0
+"
+post;smistad_fast;9ebed7dec7d6f0bae018ea1529ec146c6a55a776;Erik Smistad <ersmistad@gmail.com>;1724761208;"Merge remote-tracking branch 'origin/master'
+"
+post;smistad_fast;d9d609cb9685cb2e13a15d8bd638f2aa03d62b73;Erik Smistad <ersmistad@gmail.com>;1724762163;"Fixed missing license file after previous commit
+"
+post;smistad_fast;815a2794c971c37bef04ad6536ef5822e5ff5c87;Erik Smistad <ersmistad@gmail.com>;1724762500;"Updated x86 mac github workflows to use macos-12 runner instead of macos-11 which has been removed from github [no ci]
+"
+post;smistad_fast;ff8b287f0aa7846edf114ca52b34ef2ecf01dc0f;Erik Smistad <ersmistad@gmail.com>;1724762850;"Bump python version for Mac in pyenv to 3.7 as 3.6 doesn't compile on MacOS 12 [no ci]
+"
+post;smistad_fast;09e8d6c05dcc5747bd33b4b6014541a5ec5862c5;Erik Smistad <ersmistad@gmail.com>;1724763256;"Pyenv python version Mac fix [no ci]
+"
+pre;mouseland_kilosort;82d13887ea25c4568f6b35884aa71eb26ccaa163;Marius Pachitariu <marius10p@gmail.com>;1646849925;"Merge pull request #457 from mwawra/main
+
+Add example script for creating chan map from imro file"
+pre;mouseland_kilosort;fb822e79cb5dd4f55465ca951414dc8d25ee1643;Marius Pachitariu <marius10p@gmail.com>;1646849925;"Merge pull request #457 from mwawra/main
+
+Add example script for creating chan map from imro file
+
+Former-commit-id: 82d13887ea25c4568f6b35884aa71eb26ccaa163"
+pre;mouseland_kilosort;d7f9fe341ae8f79ed8fe00a1b5af4120ada02d19;Marius Pachitariu <marius10p@gmail.com>;1646850067;"Merge pull request #386 from czuba/addGitTracking
+
+Add git tracking to rez.ops using ops flag [ops.useGit]
+
+Former-commit-id: f74fbf8da802746e077e57299bf180379c787c0c"
+pre;mouseland_kilosort;f74fbf8da802746e077e57299bf180379c787c0c;Marius Pachitariu <marius10p@gmail.com>;1646850067;"Merge pull request #386 from czuba/addGitTracking
+
+Add git tracking to rez.ops using ops flag [ops.useGit]"
+pre;mouseland_kilosort;cb003a51c68880e8c3a9d26aa5c602c78e47d1ef;Marius Pachitariu <marius10p@gmail.com>;1646850383;Update README.md
+pre;mouseland_kilosort;59399603045e52e28cce969d7cfa418b4b4a52af;Marius Pachitariu <marius10p@gmail.com>;1646850383;"Update README.md
+
+Former-commit-id: cb003a51c68880e8c3a9d26aa5c602c78e47d1ef"
+pre;mouseland_kilosort;b898b2042d5c35755e92b64682e87e45646aed1a;Marius Pachitariu <marius10p@gmail.com>;1646850397;Update README.md
+pre;mouseland_kilosort;9dc1ecdbf2d925e19a68a5661c1113a6eae3dcdf;Marius Pachitariu <marius10p@gmail.com>;1646850397;"Update README.md
+
+Former-commit-id: b898b2042d5c35755e92b64682e87e45646aed1a"
+pre;mouseland_kilosort;1a1fd3ae07a49c042b4128d6c2e79d6ab55872e5;Marius Pachitariu <marius10p@gmail.com>;1646850455;Update README.md
+pre;mouseland_kilosort;ebea0156c22dce8363040e78e56535709b130c2a;Marius Pachitariu <marius10p@gmail.com>;1646850455;"Update README.md
+
+Former-commit-id: 1a1fd3ae07a49c042b4128d6c2e79d6ab55872e5"
+post;mouseland_kilosort;927562fe182f5ced3079aca23e6719c0f26129c0;Marius Pachitariu <marius10p@gmail.com>;1668519831;Initial commit
+post;mouseland_kilosort;360f8d4fc544c70b820460ec4bbf7ecc13cafd9d;marius10p@gmail.com <marius10p@gmail.com>;1668524244;"initial commit
+"
+post;mouseland_kilosort;afe135b2b3c48ac627fb98c14ad982ad5a0c2ac3;Carsen Stringer <carsen.stringer@gmail.com>;1668563241;"binary reading and filtering for arbitrary time periods
+"
+post;mouseland_kilosort;7c7432244ccf7835eb9f9a22e83ebdd805c7f96f;Carsen Stringer <carsen.stringer@gmail.com>;1668618541;"finishing binary wrapper
+"
+post;mouseland_kilosort;7c3d2045e51ede32ce5b018989066edc60dfb425;Carsen Stringer <carsen.stringer@gmail.com>;1670372586;"adding simulation code
+"
+post;mouseland_kilosort;20d97f21393e972b0f8f3921c50749388e313c8b;marius10p@gmail.com <marius10p@gmail.com>;1670373032;"changes to template extraction
+"
+post;mouseland_kilosort;fd0a69fc34c3cc5f75cb3ada76c15b01b0e6830e;marius10p@gmail.com <marius10p@gmail.com>;1670373229;"fix error
+"
+post;mouseland_kilosort;09c0244fafcb4eb33be5916d6ea3b2465b66932b;marius10p@gmail.com <marius10p@gmail.com>;1670373458;"needed swapped indices
+"
+post;mouseland_kilosort;73b626c527a9e1f3b76fa6a43011653412684fbd;Carsen Stringer <carsen.stringer@gmail.com>;1670453289;"updating kilosort to work with device input again
+"
+post;mouseland_kilosort;ee2084a1a6da963a65faeed53d232d9583e1910b;Shashwat Sridhar <shashwat.sridhar.95@gmail.com>;1670517529;"[gui] initial gui commit
+"
+pre;martini-alessandro_maximum-entropy-spectrum;cc935ecea80fbf24bcb01f8e6690b3f6bd412801;Walter Del Pozzo <walter.delpozzo@ligo.org>;1623167365;"minor rephrasing and a few fixes to the citations
+"
+pre;martini-alessandro_maximum-entropy-spectrum;8420c6f197ce146c40b29d69d8d6537c3d332a83;stefanoschmidt1995 <stefanoschmidt1995@gmail.com>;1623227880;"Response
+"
+pre;martini-alessandro_maximum-entropy-spectrum;2ec56fbe3934b7c04a7c31d97a8330dce6a256b7;stefanoschmidt1995 <stefanoschmidt1995@gmail.com>;1625482335;"Added bilby script on the repo
+"
+pre;martini-alessandro_maximum-entropy-spectrum;cc01937ae03b4058a094c130af96ce54e728ac01;stefanoschmidt1995 <stefanoschmidt1995@gmail.com>;1625487885;"Edit in plot by Greg
+"
+pre;martini-alessandro_maximum-entropy-spectrum;92091932ba096eba4b50f246d537f4b9895ee783;stefanoschmidt1995 <stefanoschmidt1995@gmail.com>;1626174255;"Two PSDs in gwstrain
+"
+pre;martini-alessandro_maximum-entropy-spectrum;1aace30d4abcf1d29b4a29e282addec0d5c82981;stefanoschmidt1995 <stefanoschmidt1995@gmail.com>;1626174435;"Updated bilby script
+"
+pre;martini-alessandro_maximum-entropy-spectrum;a0cf5e94eb7532682e96d2798ba5b8ab95acf148;Gregory Ashton <gregory.ashton@ligo.org>;1626771811;"Improve the bilby_mesa example
+
+- Add explicit signal/noise likelihood calculations
+- Refer to Veitch (2015) equations exactly
+- Add an argument parser
+- Add a labelling system
+- Window the data before calculating the PSD
+"
+pre;martini-alessandro_maximum-entropy-spectrum;9b2232c6839d85fee198dfbb38e2ac9c6a535ba4;Gregory Ashton <gregory.ashton@ligo.org>;1626782715;"Add categorical prior for m
+"
+pre;martini-alessandro_maximum-entropy-spectrum;03d1a1b9c2ab3a677dcc829be003cbf251a48047;Gregory Ashton <gregory.ashton@ligo.org>;1626782858;"Improve help commands
+"
+pre;martini-alessandro_maximum-entropy-spectrum;32d370a8d3b8e10306113fd7d70504cba401c6c5;Gregory Ashton <gregory.ashton@ligo.org>;1626783137;"Add caching for noise_log_likelihood
+"
+post;martini-alessandro_maximum-entropy-spectrum;9bdfe8ef591fdbff0109bf9e94719f87579156e9;stefanoschmidt1995 <stefanoschmidt1995@gmail.com>;1643109625;"Made bilby_mesa.py importable
+"
+post;martini-alessandro_maximum-entropy-spectrum;035b2f392035e74a918391428b5ad6d39278eb9e;stefanoschmidt1995 <stefanoschmidt1995@gmail.com>;1643132991;"Added check_LL and minor fixes to bilby_mesa
+"
+post;martini-alessandro_maximum-entropy-spectrum;2f3c7283e68ca0210f1f5debb0230b8926ac619e;stefanoschmidt1995 <stefanoschmidt1995@gmail.com>;1643216646;"Added some plots to check_LL
+"
+post;martini-alessandro_maximum-entropy-spectrum;42f255b26cdef7ded4fc07e078f392e1503bde71;stefanoschmidt1995 <stefanoschmidt1995@gmail.com>;1643797682;"Tiny bug in forecast
+"
+post;martini-alessandro_maximum-entropy-spectrum;4ba73429c7dab40214a33e5e32b66d037977ab98;Gregory Ashton <gregory.ashton@ligo.org>;1643989114;" Add files for GW150914
+"
+post;martini-alessandro_maximum-entropy-spectrum;b76b9e5d87ae88e3eb6de3eb22a5302fe66ca0ad;Gregory Ashton <gregory.ashton@ligo.org>;1644238154;"Add readme and pipe script
+"
+post;martini-alessandro_maximum-entropy-spectrum;09733802dcbfbed6ef29dd3c4b2c2eb310000bc4;Stefano Schmidt <52757749+stefanoschmidt1995@users.noreply.github.com>;1644259852;Fix the condor submit dag command
+post;martini-alessandro_maximum-entropy-spectrum;cf29a95aadca9dd2ebd17b8dc5f4ee9bb9e10d75;Stefano Schmidt <52757749+stefanoschmidt1995@users.noreply.github.com>;1658309123;"PSD copied
+
+In case asd option is true, the PSD was squared but not copied: this resulted in an update of the user variable, which is always dangerous!"
+post;martini-alessandro_maximum-entropy-spectrum;1044b9e86fb81a77b93a1921e56c9c3ece87cb6f;Alessandro <martini.alessandr@gmail.com>;1672327955;"Fixed Bug on OBD
+"
+post;martini-alessandro_maximum-entropy-spectrum;63454101196e09bee64688bcfd55b963ed82cff8;Alessandro <martini.alessandr@gmail.com>;1674642805;"On source estimate on toy model
+"
+pre;shixiangwang_sigminer;959bb6c43af45685fbf790575275162704b058ea;ShixiangWang <wangshx@shanghaitech.edu.cn>;1715397039;"update docs
+"
+pre;shixiangwang_sigminer;de6130646270172e5d38534069f10f478ea6d1e0;ShixiangWang <wangshx@shanghaitech.edu.cn>;1715398440;"Deploying to gh-pages from @ ShixiangWang/sigminer@959bb6c43af45685fbf790575275162704b058ea 🚀
+"
+pre;shixiangwang_sigminer;2acb064d08da1e15517c81d84d2d68c9aa96a13a;ShixiangWang <wangshx@shanghaitech.edu.cn>;1715496655;"Update CRAN-SUBMISSION
+"
+pre;shixiangwang_sigminer;99be4564d0707a9852594f5b88ccd104f7cf5819;ShixiangWang <wangshx@shanghaitech.edu.cn>;1715497344;"Deploying to gh-pages from @ ShixiangWang/sigminer@2acb064d08da1e15517c81d84d2d68c9aa96a13a 🚀
+"
+pre;shixiangwang_sigminer;01d1e938a07ed68d113054629d2608f3d36a1360;Shixiang Wang (王诗翔) <wang.shixiang@icloud.com>;1717729017;"update readme
+"
+pre;shixiangwang_sigminer;dc0c9047dc9421ae965f54f0ed67e116ae62f185;ShixiangWang <wangshx@shanghaitech.edu.cn>;1717730386;"Deploying to gh-pages from @ ShixiangWang/sigminer@01d1e938a07ed68d113054629d2608f3d36a1360 🚀
+"
+pre;shixiangwang_sigminer;9455b46c84ac47bbb35d77aed70e74875718c18f;ShixiangWang <wangshx@shanghaitech.edu.cn>;1722780730;"fix #463
+"
+pre;shixiangwang_sigminer;fe569dcdbd106f6bf9b0bb5774f910fa5e81c995;ShixiangWang <wangshx@shanghaitech.edu.cn>;1722782774;"Deploying to gh-pages from @ ShixiangWang/sigminer@9455b46c84ac47bbb35d77aed70e74875718c18f 🚀
+"
+pre;shixiangwang_sigminer;573b4b437d7988c7330c74153dd36729c0773e93;Shixiang Wang (王诗翔) <wangshx@shanghaitech.edu.cn>;1728694154;"Delete sigflow
+"
+pre;shixiangwang_sigminer;2324df8584e9bad022a908e1533c052336f30648;Shixiang Wang (王诗翔) <wangshx@shanghaitech.edu.cn>;1728699057;"Delete .gitmodules
+"
+post;shixiangwang_sigminer;131ffe859a64d7c6d6fe13cd31d3942315880e7d;Shixiang Wang (王诗翔) <wangshx@shanghaitech.edu.cn>;1755831118;"Update badges, and README for 2025 and cleanup
+
+Refactored README badges, added Anaconda download badge, and updated CRAN logs and spiral plot to include 2025. Improved GitHub Actions workflow with matrix builds and updated actions. Removed unused cran_check.R script and updated .Rbuildignore. Bumped RoxygenNote in DESCRIPTION.
+"
+post;shixiangwang_sigminer;3c329123c828e3064dc97f444726b362e8bf0390;ShixiangWang <wangshx@shanghaitech.edu.cn>;1755832587;"Deploying to gh-pages from @ ShixiangWang/sigminer@131ffe859a64d7c6d6fe13cd31d3942315880e7d 🚀
+"
+post;shixiangwang_sigminer;c6bead62e324a85fa06a6374f4fbd1342af55601;Shixiang Wang (王诗翔) <wangshx@csu.edu.cn>;1764511633;"Update README install instructions and figures, close #471
+
+README installation instructions now use BiocManager for development version, replacing remotes and gitee options. Updated date range in CRAN downloads example. Figures in man/figures have been refreshed to reflect latest outputs.
+"
+post;shixiangwang_sigminer;3aeddf81fda1c35c6c0f653ff5ab6af3882ad861;ShixiangWang <wangshx@shanghaitech.edu.cn>;1764513145;"Deploying to gh-pages from @ ShixiangWang/sigminer@c6bead62e324a85fa06a6374f4fbd1342af55601 🚀
+"
+post;shixiangwang_sigminer;229b635e19a2e4a2dd3ffde011ce5d2f3c904bda;copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>;1766647158;"Initial plan
+"
+post;shixiangwang_sigminer;e4b58882aaf5dc922ff0878707638104abfc9396;copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>;1766647434;"Replace future::availableCores() with parallelly::availableCores()
+
+Co-authored-by: ShixiangWang <25057508+ShixiangWang@users.noreply.github.com>
+"
+post;shixiangwang_sigminer;e244797684bce124874ffd86e415c29c68229790;Shixiang Wang (王诗翔) <wangshx@csu.edu.cn>;1766676437;"Increment version number to 2.3.2.9000
+"
+post;shixiangwang_sigminer;bafb71d67ffd68f9ff0c10163e8e43390f065b7b;Shixiang Wang (王诗翔) <wangshx@csu.edu.cn>;1766676600;"Update show_group_enrichment.R
+"
+post;shixiangwang_sigminer;ab901d6981ea3a517405faedef1e7d8fc4dcba91;Shixiang Wang (王诗翔) <wangshx@csu.edu.cn>;1766676683;"Update NEWS.md
+"
+post;shixiangwang_sigminer;94be27b1714c1e3cc71e453334dff664646d64bd;Shixiang Wang (王诗翔) <wangshx@shanghaitech.edu.cn>;1766676702;"Merge pull request #473 from ShixiangWang/copilot/update-available-cores-function
+
+Migrate from future::availableCores() to parallelly::availableCores()"
+pre;worldwidetelescope_wwt-website;619e03a477e981e37a2d2a3747f11dcc137929ae;Ron Gilchrist <ron@thewebkid.com>;1508468853;"changes to phil's branch to make it ready for production
+"
+pre;worldwidetelescope_wwt-website;49c901df2bfb82ca78dd9c7ee2cce4e1c0c24926;Ron Gilchrist <ron@thewebkid.com>;1508471229;"tweaks to make merged branch run locally
+"
+pre;worldwidetelescope_wwt-website;b14157eca84ff4e9f10cd0a9101e931b2b9dd1d8;Phil Rosenfield <philrosenfield@gmail.com>;1509389856;"Rearranged home page images; fixed typos; fixed broken links.
+"
+pre;worldwidetelescope_wwt-website;93b31d934f7db5a34cd9e31615fbfc36fb743339;Phil Rosenfield <philrosenfield@gmail.com>;1509391142;"Resized images to 720px x 424px, replaced develop.png with a darker image.
+"
+pre;worldwidetelescope_wwt-website;c5f0f57f39f1f250e927f0d1fe38380b46ccad9b;Ron Gilchrist <ron@thewebkid.com>;1509519960;"fixed broken links
+"
+pre;worldwidetelescope_wwt-website;3e9a8ba507526f56b5ed1862028e411436ee5b8e;Phil Rosenfield <philrosenfield@gmail.com>;1509916081;"Added annotated screen shots to Getting started (learn/index.cshtml)
+"
+pre;worldwidetelescope_wwt-website;49f592127d77e689afeeabfa7542e6bea6bc26ba;Phil Rosenfield <philrosenfield@gmail.com>;1509998546;"Added table to house WWT Guides
+"
+pre;worldwidetelescope_wwt-website;f302c4cef55b9a999f3896c5f7ee16cf131a08b2;Phil Rosenfield <philrosenfield@gmail.com>;1510322809;"simplified screen shot images
+"
+pre;worldwidetelescope_wwt-website;e1b7042bbb3f7808519f51474f70edbbc7fd3156;Phil Rosenfield <philrosenfield@gmail.com>;1511028350;"Connected User guide tables to git repo for easier maintence by community
+"
+pre;worldwidetelescope_wwt-website;56e9ca9db3dce17657f79a641ab4e5ebb021882b;Ron Gilchrist <ron@thewebkid.com>;1511308557;"fixed communities. fixed several broken files my local IIS would not serve.
+"
+post;worldwidetelescope_wwt-website;645509eb94d1978e6e2ef4ad38f47e23908749f0;Peter Williams <peter@newton.cx>;1550517625;"WWTMVC5/Views/Use/Planetariums.cshtml: add Emerald Planetarium as a portable dome vendor
+
+We are happy to provide folks with more options!
+"
+post;worldwidetelescope_wwt-website;8fd48612afda0ab6afa73a75515c720c7230e88d;Ron Gilchrist <ron@thewebkid.com>;1550581616;"site changes rollup since june 18
+"
+post;worldwidetelescope_wwt-website;7ac0fb7dcaa93cbedb597a3a607c4f541b1b8ac7;Ron <thewebkid@users.noreply.github.com>;1550582324;"Merge pull request #56 from pkgw/add-emerald
+
+WWTMVC5/Views/Use/Planetariums.cshtml: add Emerald Planetarium as a portable dome vendor"
+post;worldwidetelescope_wwt-website;320912bb0bf34f07c34664705a760fe5caa05aa6;Ron Gilchrist <ron@thewebkid.com>;1555710061;"Removed security vulnerability
+"
+post;worldwidetelescope_wwt-website;0f34e7c3affa067c3bc30f3dc8cc1cb9d37ee0af;Peter Williams <peter@newton.cx>;1561472897;"WWTMVC5/Views/Learn/SettingUp.cshtml: fix link to MIDI controller file
+
+Closes #57.
+
+It looks like there are other links in the web tree of the form
+`@Model.ResLoc/Content/...` that *are* correct, so the change I'm doing here
+doesn't seem to (need to) be applied globally.
+"
+post;worldwidetelescope_wwt-website;fc485958e9e671c2ac1086f2be3777de06226e97;Peter Williams <peter@newton.cx>;1561473045;"Merge pull request #58 from pkgw/fix-midi-link
+
+WWTMVC5/Views/Learn/SettingUp.cshtml: fix link to MIDI controller file"
+post;worldwidetelescope_wwt-website;64750bd28a237a447b07f3e062013d828a837317;Peter Williams <peter@newton.cx>;1565292674;" WWTMVC5/WWTMVC5.csproj: remove references to now-deleted webclient files
+
+These break the build in Visual Studio.
+"
+post;worldwidetelescope_wwt-website;69f02698eeec9addc1eb9544ccc64a89b1fbb883;Peter Williams <peter@newton.cx>;1565293591;"WWTMVC5: make references to Unity package self-consistent
+
+Some parts of the project referenced Unity 4.0, while others referenced Unity 3.5.
+I opened things up in Visual Studio and used NuGet to put everything at 4.0.1.
+"
+post;worldwidetelescope_wwt-website;25166a1c4fb4ee7649be13defcebae191bb8114a;Peter Williams <peter@newton.cx>;1585012961;"Merge pull request #60 from pkgw/fix-csproj
+
+A few Visual Studio build fixes"
+post;worldwidetelescope_wwt-website;acfefa79a149f77bc0d88c2f435032c1099cc1c2;Taylor Southwick <twsouthwick@outlook.com>;1597275054;"Fix a few build issues to work with latest VS
+
+- Package versions did not align with those listed in packages.config
+- Bower/Grunt versions were off
+- NuGet downloads did not work (NuGet requires TLS 1.2 now)
+- twoMassClassLibrary.dll was added from VM
+- Add Azure Pipelines build definition
+"
+pre;q2mm_q2mm;7cda5c376d6e76ebc2a7231e8b7fb11ada389062;John E. Herr <17952097+jeherr@users.noreply.github.com>;1570635373;"Merge pull request #66 from Q2MM/bug/issue-57
+
+Fix bug min value in Hessian matrix being replaced"
+pre;q2mm_q2mm;5adc047fba4dac3768847cc13c15ba54d98e1df4;Eric Hansen <ericchansen@gmail.com>;1570635942;"Merge branch 'q2mm/master' into eric/master
+"
+pre;q2mm_q2mm;f0380670b3003930f101258430506fe02051fa3a;Kevin Koh <jkoh@nd.edu>;1571933643;"Hessian weight assignment for Macromodel
+"
+pre;q2mm_q2mm;166dd73f48764faf1bc9696726b3f84255e1bda4;Kevin Koh <jkoh@nd.edu>;1571933771;"Merge branch 'master' of https://github.com/Q2MM/q2mm
+"
+pre;q2mm_q2mm;e0726de7258fdbec7a805b10320cb2d512c020a9;Kevin Koh <jkoh@nd.edu>;1571943789;"sch_util.py description
+"
+pre;q2mm_q2mm;b99fd6cde49c5be173698a99f04edcac3e417919;Kevin Koh <jkoh@nd.edu>;1571943941;"Merge e0726de7258fdbec7a805b10320cb2d512c020a9 into 7cda5c376d6e76ebc2a7231e8b7fb11ada389062
+"
+pre;q2mm_q2mm;b6e06c8500bdfd7822f339af4e7cec9dbf576955;Kevin Koh <jkoh@nd.edu>;1584123478;"fixed datalbl in calculate.py -> deleted lines in compare.py
+"
+pre;q2mm_q2mm;cc4b30ec4d8613ea91b2bfdb01147872abcca260;Kevin Koh <jkoh@nd.edu>;1592256256;"parameter.py for amber
+"
+pre;q2mm_q2mm;2907212266959d95deab5ce378f5e0391ba97ca3;Kevin Koh <jkoh@nd.edu>;1607565927;HMGR parameters and Pymol uploaded
+pre;q2mm_q2mm;8e0145516045ced43f1e3a863c32d1078be8b5d0;Kevin Koh <jkoh@nd.edu>;1607566346;"HMGR
+"
+post;q2mm_q2mm;4ab8440fe5645f15777b5e604015e7e86b1364ac;Mikaela Farrugia <mikaelamariefarrugia@gmail.com>;1669840155;"Merge and rebase commit, rebased merge onto eric-master to maintain linear history after unifying 4 code versions
+"
+post;q2mm_q2mm;59c99a1d4e3bc5e4ab9a3feeb22dd85e32cfb8ce;mmfarrugia <mikaelamariefarrugia@gmail.com>;1670353878;"initial-from-group-afs + BUG: fixatomorder + amber fxnlty
+"
+post;q2mm_q2mm;2672cf0d34e2e2af00bb4836e1220584b0eb1b5f;mmfarrugia <mfarrugi@nd.edu>;1670876948;"initial from afs group q2mm_jacobian
+"
+post;q2mm_q2mm;217b33d99aabd123d4984c167d5b47c7df817b68;mmfarrugia <mfarrugi@nd.edu>;1670878704;"FIX:bug fixes and logger fix + initial from nsf-c-cas/q2mm-2
+"
+post;q2mm_q2mm;a20159fa2f487250df15d40f8c8a5fd12adc1e51;Eric Hansen <ehansen@artisight.com>;1678624489;"Merge remote-tracking branch 'q2mm/master'
+"
+post;q2mm_q2mm;fabe03c2910f4d6f0b19d5e80b88f70304f6e8f3;Mikaela Farrugia <mfarrugi@nd.edu>;1685450247;"Merge pull request #74 from ericchansen/master
+
+Merge ericchansen q2mm into Q2MM q2mm"
+post;q2mm_q2mm;feaaadfc6dc30bd24eda903b4d69485444c5d8dc;mmfarrugia <mfarrugi@nd.edu>;1686604776;"update logger levels add note to gradient purposes
+"
+post;q2mm_q2mm;b77dffb5dd6f2211c0c04e9f24b6632bea8b36d4;mmfarrugia <mfarrugi@nd.edu>;1687882066;"ADD: add back in screen directory - no changes
+"
+post;q2mm_q2mm;d6cb5f711141f5ff2660d580837b3e99cbe9674c;mmfarrugia <mfarrugi@nd.edu>;1687891720;"FIX: fix screen directory
+"
+post;q2mm_q2mm;461cbd8707ad01461b2fdb7553504890f0a9a4c0;mmfarrugia <mfarrugi@nd.edu>;1688147933;"FIX: remove buggy jacobian file write per Brock note
+"
+pre;natverse_nat.nblast;cb004b76fe0ecad4ed660e21ae30f5fc1e3f52ef;Gregory Jefferis <jefferis@gmail.com>;1477582340;Initial pkgdown build
+pre;natverse_nat.nblast;5d1a4ed83ffd3ae1f81222f4086f23b9f3be451c;Gregory Jefferis <jefferis@gmail.com>;1478005061;"redown
+"
+pre;natverse_nat.nblast;46e4258daf11a72858a2d7a89dbdcddf32bc75a0;Gregory Jefferis <jefferis@gmail.com>;1478005353;"add nat as remote for install_github
+
+* and simplify readme instructions
+"
+pre;natverse_nat.nblast;a637352ceb7345c7a822f6fa3e3f612a81d814bf;Gregory Jefferis <jefferis@gmail.com>;1478005813;"Documentation pointers in README
+"
+pre;natverse_nat.nblast;bb2b54b9d8ba6a2ad31319ff06fea1386cbe4d17;Gregory Jefferis <jefferis@gmail.com>;1478211391;"don't build vignettes when roxygenising
+
+* my understanding is this should happen during package build
+* or when pkgdown is run (in which case the .R file is not created)
+"
+pre;natverse_nat.nblast;65c2189c3b6562480870e2f00d6e84970f0814b0;Gregory Jefferis <jefferis@gmail.com>;1478211429;"make create_scoringmatrix donttest
+
+* rather than dontrun
+* that way we see something in pkgdown docs
+"
+pre;natverse_nat.nblast;0d0e3059a5ba4e2aad3e0495f5d4a81b1338f3f8;Gregory Jefferis <jefferis@gmail.com>;1478211447;"redown
+"
+pre;natverse_nat.nblast;29f67b4cd6505a47fbfac361a4a7e2b18d7d093d;Gregory Jefferis <jefferis@gmail.com>;1478211569;"don't show progress in create_scoringmatrix
+"
+pre;natverse_nat.nblast;3f510fb7484ef8276a5c8cb7a53ce6baf921a768;Gregory Jefferis <jefferis@gmail.com>;1495664912;upgrade to roxygen2 v6.0.1
+pre;natverse_nat.nblast;6312a5cd5c9a1e5334cccdb7f078fb46976f18a0;Gregory Jefferis <jefferis@gmail.com>;1495664952;"Better documentation of UseAlpha
+
+* closes #34"
+post;natverse_nat.nblast;20a9824fd3be6da55064dcfb55647b44d728fe0c;Gregory Jefferis <jefferis@gmail.com>;1540207917;doc typo
+post;natverse_nat.nblast;d06989e933e99e122996c63040533e1a7879e443;Gregory Jefferis <jefferis@gmail.com>;1540209998;"Setup spelling
+"
+post;natverse_nat.nblast;365cd49c726500880f684831d1ae537a47313c75;Gregory Jefferis <jefferis@gmail.com>;1540213875;"Switch to NEWS.md
+"
+post;natverse_nat.nblast;8413c5d4c023286493b88586191e19ed1c73d262;Gregory Jefferis <jefferis@gmail.com>;1540237781;"Bump version to 1.6.4
+
+* Also add proper Neuron citation to README
+"
+post;natverse_nat.nblast;e329b8064b447f933c5e0f8ea8ed2ff2923c3143;Gregory Jefferis <jefferis@gmail.com>;1540237816;"redown
+"
+post;natverse_nat.nblast;ef66116bf49eeade3b4c89a3a2e985f587be4422;Gregory Jefferis <jefferis@gmail.com>;1564739970;"rglwidget is now part of rgl
+"
+post;natverse_nat.nblast;2902945fe435a45c19f0e78f27c98966363d5d29;Gregory Jefferis <jefferis@gmail.com>;1564740250;Upgrade to roxygen2
+post;natverse_nat.nblast;54b9ceb8f9e368ddb104052ec09b3302bf68bbdf;Gregory Jefferis <jefferis@gmail.com>;1564740674;Improve plot3d.hclust examples
+post;natverse_nat.nblast;087638d2a2eb484802e39b04e7ba869fc7588fc8;Gregory Jefferis <jefferis@gmail.com>;1564741250;"Give plot3d a colour.selected argument
+
+* closes #9
+  (after 5 years!)"
+post;natverse_nat.nblast;1b55d7b42e15082657f49774e275bab78d621b3d;Gregory Jefferis <jefferis@gmail.com>;1564745411;"spelling
+"

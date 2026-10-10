@@ -1,0 +1,3 @@
+# romerogroup_pyprocar
+
+This project follows a rising pattern with just 1 gap of about 4 months (2022-09 to 2022-12). Early activity was low to moderate and consisted of bug fixes and documentation. The gap came before a major restructuring, which the core developer started in January 2023 with a large push of new documentation, new features and parsers. Recovery came from the same core developer, and activity kept growing into 2025 as the code was refactored and expanded by a small team.

@@ -1,0 +1,3 @@
+# calamari-ocr_calamari
+
+This project shows a declining activity pattern with two gaps of three months or more, the longest lasting about six months. After its original developer stepped away, upkeep fell to a small group of part-time maintainers who appear to have made changes only when something needed attention, which explains the long quiet stretches. Both gaps ended when outside dependencies required compatibility fixes and a new release, and the second recovery grew into a broader modernization effort. The same long-time maintainers drove both recoveries, with new contributors joining only later, and the project remains active today.

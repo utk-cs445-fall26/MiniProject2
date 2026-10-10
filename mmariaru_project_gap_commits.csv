@@ -1,0 +1,464 @@
+pre_post;project_wocid;commit_sha1;author;time;commit message
+pre;calamari-ocr_calamari;64e2a233be234d96807e60b89ed1ef317690c9c7;Paul Buser <buser.paul@gmail.com>;1657044710;"Pin TFAIP to custom version with fix for already-initialized devices.
+"
+pre;calamari-ocr_calamari;e8112b564a031b8df8b8297780697e2d3c4970ce;akalankag <boney.ag@gmail.com>;1664225399;"Dissolve for loop that concatenates strings to str.join
+"
+pre;calamari-ocr_calamari;8e2dc21e22cd8036ba9fbd5909d8ea6ff1527bf0;Andreas Büttner <andbue@gmail.com>;1668595538;Merge branch 'master' into fix/non_existing_file_handling_mode
+pre;calamari-ocr_calamari;81b109f05d89c174d95bd58dfb376fcc13b0bfd4;Florian Strunz <90450173+fstrunz@users.noreply.github.com>;1668603757;"Implement --non_existing_pred_handling_mode in Evaluator (#289)
+
+* Move non_existing_file_handling_mode to EvaluatorParams
+
+* Rename to pred_handling_mode, implement 'skip'
+
+* Set default to 'empty'
+
+This was the (effective) default before and is expected by the tests.
+
+Fixes #322. Thanks to @bertsky and @fstrunz !"
+pre;calamari-ocr_calamari;4e9a9b0a07629d0145c6b2972ae8f7180b0603e3;Robert Sachunsky <sachunsky@informatik.uni-leipzig.de>;1668823150;"eval --non_existing_pred_handling_mode: fix 'skip' case
+"
+pre;calamari-ocr_calamari;75cbed3d4a003c3a1d75e1bbbb2ed23b55a9678e;Robert Sachunsky <sachunsky@informatik.uni-leipzig.de>;1668823225;"eval --non_existing_pred_handling_mode: pass GT ids for confusion/worst report
+"
+pre;calamari-ocr_calamari;d0c3e5aa8c73859d735cf36c5651c317163361c3;Robert Sachunsky <38561704+bertsky@users.noreply.github.com>;1668823767;Merge branch 'master' into fix-289
+pre;calamari-ocr_calamari;e6b57c8e72c29ddaeeb302a519c7aa5a42fede55;Robert Sachunsky <38561704+bertsky@users.noreply.github.com>;1669113082;"Fix 289 (#330)
+
+* Move non_existing_file_handling_mode to EvaluatorParams
+
+* Rename to pred_handling_mode, implement 'skip'
+
+* Set default to 'empty'
+
+This was the (effective) default before and is expected by the tests.
+
+* eval --non_existing_pred_handling_mode: fix 'skip' case
+
+* eval --non_existing_pred_handling_mode: pass GT ids for confusion/worst report
+
+Co-authored-by: Florian Strunz <florian.strunz@stud-mail.uni-wuerzburg.de>"
+pre;calamari-ocr_calamari;7171700ebce3f4e8d175bed1e2765e2068ea33ae;LGTM Migrator <lgtm-migrator@users.noreply.github.com>;1670365458;"Add CodeQL workflow for GitHub code scanning
+"
+pre;calamari-ocr_calamari;42134c64187b585818f8b13580e4914d1802e7dd;Andreas Büttner <andbue@gmail.com>;1672747648;"Kill subprocesses to clean up memory
+"
+post;calamari-ocr_calamari;310e4ed9d4eb8c207146dcb3855013b1dc212622;Robert Sachunsky <sachunsky@informatik.uni-leipzig.de>;1692144393;"augmenter: avoid deprecated/unsupported numpy dtype
+"
+post;calamari-ocr_calamari;c90049572d8f1a9526e4906a24067585d838e0e6;Robert Sachunsky <sachunsky@informatik.uni-leipzig.de>;1692144407;"deps: hold protobuf<4
+"
+post;calamari-ocr_calamari;8022aa075b311633c8238237881caf5866a28ef6;Robert Sachunsky <sachunsky@informatik.uni-leipzig.de>;1692350056;"PageXML: use NS prefix when adding new elements
+"
+post;calamari-ocr_calamari;f2e581259ed4e9b191ece3e0ff9e7ce615544988;Robert Sachunsky <sachunsky@informatik.uni-leipzig.de>;1692355981;"PageXML: respect --output_dir
+"
+post;calamari-ocr_calamari;830648cf1828c13a1f9d0c2f66a3f534fcd4de01;Robert Sachunsky <sachunsky@informatik.uni-leipzig.de>;1692355981;"PageXML: respect --output_dir
+"
+post;calamari-ocr_calamari;2f71b7eb08339d25ccb21d80c1d5b851f3d5bdaa;Robert Sachunsky <38561704+bertsky@users.noreply.github.com>;1692356483;"PageXML: keep SubElement NS prefixes consistent when writing (#342)
+
+* Switched to savedmodel format; temperature parameter introduced
+
+* Tests for savedmodel format
+
+* Temp scaling not active by default
+
+* PageXML: use NS prefix when adding new elements
+
+---------
+
+Co-authored-by: Andreas Büttner <andbue@gmail.com>"
+post;calamari-ocr_calamari;7fccdd889f3e5eddb93cece336ffe14aaf194297;Robert Sachunsky <38561704+bertsky@users.noreply.github.com>;1692356672;"update 1.x (#341)
+
+* augmenter: avoid deprecated/unsupported numpy dtype
+
+* deps: hold protobuf<4"
+post;calamari-ocr_calamari;40103de824fff209f1833bf56d44fbfeecf2373e;Andreas Büttner <andbue@gmail.com>;1692357050;Update version to 1.0.6
+post;calamari-ocr_calamari;910349ee96d64b29396d08fffbb53e091a8a9a7c;Robert Sachunsky <38561704+bertsky@users.noreply.github.com>;1692358011;"Merge f2e581259ed4e9b191ece3e0ff9e7ce615544988 into 2f71b7eb08339d25ccb21d80c1d5b851f3d5bdaa
+"
+post;calamari-ocr_calamari;6689ba55873fda7c5f4875056f5f77da75c9fbf1;Dom <97384583+tosemml@users.noreply.github.com>;1692669199;use str.join
+pre;pdclab_peregrine;ecd47a79e4cf0266e6701861ebb7db69da236e19;Kasra Jamshidi <kjamshid@cs.sfu.ca>;1632248003;"Sample app for enumeration
+
+This program is functionally identical to `apps/count.cc`, except that
+it uses `match()` instead of `count()`. As a result, it will be slower
+and should be used only for experiments, or modified to do some other
+aggregation.
+"
+pre;pdclab_peregrine;23a222ad4ca7a95ef1255ad3696b2f10e6c58f34;Kasra Jamshidi <kjamshid@cs.sfu.ca>;1632249076;"Link to the OSR paper in the README
+"
+pre;pdclab_peregrine;bfd51707814130215e25a7c54adc06bf7f33722a;Kasra Jamshidi <kjamshid@cs.sfu.ca>;1632854226;Add the OSR paper's citation block
+pre;pdclab_peregrine;10f27d7fcb0fd4a674a5ea4a6b2284385dbeecd9;Kasra Jamshidi <kjamshid@cs.sfu.ca>;1633039887;"Avoid OOB access when summing degrees
+
+Degree maps can have a larger size than the max_vid, which led to out of
+bounds access when summing up degrees. This commit avoids that by taking
+the minimum of the map size and max_vid.
+"
+pre;pdclab_peregrine;dbbe9dfd260d31f102432f9cf68966385de77f58;Kasra Jamshidi <kjamshid@cs.sfu.ca>;1633155505;"convert_data now ignores duplicate edges in input
+
+Previously, the onus was on users to ensure the input edge list
+consisted of unique edges. This commit guarantees the preprocessed data
+contains no duplicated edges using a std::unique call after sorting
+adjacency lists.
+"
+pre;pdclab_peregrine;1e33e94d4fc95120b37d90197a0e57c73da25872;Kasra Jamshidi <kjamshid@cs.sfu.ca>;1654300705;"Write vertex at block boundary before flushing
+
+Previously, when using the CSV format in the OutputManager, if a vertex
+aligned with the output block size, it wouldn't be written to disk
+since the output buffer size was not updated before flushing.
+
+This commit updates the buffer size before flushing, so the last vertex
+is never skipped in the output.
+"
+pre;pdclab_peregrine;876f82abd72f676c6e993dd91d20e34741b67cf6;Kasra Jamshidi <kjamshid@cs.sfu.ca>;1694056963;"Remove experiments-guide.md from master branch
+
+Avoid misunderstandings like #18 by removing experiments-guide.md from
+master and updating the README to link to the guide in
+eurosys20-experiments with a warning that it won't work on master.
+"
+pre;pdclab_peregrine;2d2fa3557db221f0ae95f3c9e5389d5375b0384e;Tristian <tristian.labanowich@gmail.com>;1694661059;"Add Startup Script
+"
+pre;pdclab_peregrine;6113202b96581170aea520d5814bc669d615bd46;Tristian <tristian.labanowich@gmail.com>;1694661765;"remove hardcode
+"
+pre;pdclab_peregrine;9fb08175792e2d7ec283245464c42b9bb64d8f72;Tristian <tristian.labanowich@gmail.com>;1694661826;"remove debug comments
+"
+post;pdclab_peregrine;97bb8c8c4f78fa61f4225b74d579be5076dbd430;Alexander <cojuer@gmail.com>;1741772643;"Speed up SmallGraph to DataGraph conversion
+"
+post;pdclab_peregrine;0f68f0574280af165951ccda091a33dc6fad1333;Alexander <cojuer@gmail.com>;1741774613;"Clarify graph format
+"
+post;pdclab_peregrine;8cf4422ecb008dc380948f1a3266ef65ab0974c8;Alexander <cojuer@gmail.com>;1741774613;"Clarify graph format
+"
+post;pdclab_peregrine;f4123b08f5c717e32d6cf3e3d5ea8153b5d1b8a3;Kasra Jamshidi <kjamshid@cs.sfu.ca>;1741800437;"Merge pull request #26 from cojuer/faster_datagraph
+
+Speed up SmallGraph to DataGraph conversion"
+pre;juliaopt_pajarito.jl;c020b41fb1f94977cccd13be8715fb334899e5e7;ccoffrin <carleton@coffrin.com>;1540444653;"update time_ns() to time()
+"
+pre;juliaopt_pajarito.jl;e3b5549a70d452eec2754966cc98d9f2cfe25858;Chris C <chriscoey@users.noreply.github.com>;1540523064;fix package naming
+pre;juliaopt_pajarito.jl;d2b55e5307142c574ed5de1f1a18478b34368d78;ccoffrin <carleton@coffrin.com>;1540564694;"update conic tools versions and drop GLPK requirement
+"
+pre;juliaopt_pajarito.jl;027cfbf882b4a1ae78f45fb11a6e51c58468a20f;Carleton Coffrin <carleton@coffr.in>;1540656483;"v0.6/v0.7/v1.0 Support (#421)
+
+* remove v0.7 warnings
+* fix typo in conic alg
+* compat for Julia v0.6
+* updates for julia v0.7/v1.0
+* update conic tools versions and drop GLPK requirement
+"
+pre;juliaopt_pajarito.jl;7d0e876955ebfb1beadcc85beb8aae9efc904ad7;ccoffrin <carleton@coffrin.com>;1540857520;"turn down logging in tests to replicate julia v0.6
+"
+pre;juliaopt_pajarito.jl;3980be2f79d0b7ece45203acc7d61a52c83a7e12;Carleton Coffrin <carleton@coffr.in>;1540861024;"turn down logging in tests to replicate julia v0.6 (#422)
+
+"
+pre;juliaopt_pajarito.jl;81a01de004f7f2af14a25d55e2a7fd6e150aafdb;Chris C <chriscoey@users.noreply.github.com>;1558906713;update paper link and citation
+pre;juliaopt_pajarito.jl;d793b3cac7388fe4e29a3b9b89de9ea1ffb6bf57;Chris C <chriscoey@users.noreply.github.com>;1558925889;"Merge pull request #427 from JuliaOpt/paper_link
+
+update paper link and citation"
+pre;juliaopt_pajarito.jl;31747d593c871823f1cbca74ac63eb4d5968843d;Chris C <chriscoey@users.noreply.github.com>;1559594468;"Create CITATION.bib
+
+suggested by @blegat in #427"
+pre;juliaopt_pajarito.jl;b51cf98de0ede586157c2b6971c91199b1bf4112;Chris C <chriscoey@users.noreply.github.com>;1559607820;"Merge pull request #428 from JuliaOpt/citation
+
+Create CITATION.bib"
+post;juliaopt_pajarito.jl;88a92f72ad55d964a19db2f4bdc80bdfb0278265;Julia TagBot <50554310+JuliaTagBot@users.noreply.github.com>;1581168542;Install TagBot as a GitHub Action
+post;juliaopt_pajarito.jl;b596b9698a20d0a5901f9446c4615440ac99f346;Miles Lubin <mlubin@google.com>;1581192324;"Merge pull request #431 from JuliaTagBot/master
+
+Install TagBot as a GitHub Action"
+post;juliaopt_pajarito.jl;9e05eb08c3102e7a9a4b0c9e0a26d8a59f9e3f0b;Miles Lubin <mlubin@google.com>;1581202103;"Revert ""Install TagBot as a GitHub Action""
+"
+post;juliaopt_pajarito.jl;5ba3acb9e7c7cb082df7d07062dec67b17410c22;Miles Lubin <mlubin@google.com>;1581202114;"Merge pull request #432 from JuliaOpt/revert-431-master
+
+Revert ""Install TagBot as a GitHub Action"""
+post;juliaopt_pajarito.jl;d394e2a595e0c95d57152c2aa692fdf33c11e0e4;ccoffrin <carleton@coffrin.com>;1581286434;"add project.toml
+"
+post;juliaopt_pajarito.jl;f156b2bd79666a1c873da3abfcb8613d5f76c4a8;ccoffrin <carleton@coffrin.com>;1581287024;"drop support for julia v0.6, update CI
+"
+post;juliaopt_pajarito.jl;0924668039370d6fd95a48ac0b211a7a45d64887;ccoffrin <carleton@coffrin.com>;1581287583;"remove authors from project.toml
+"
+post;juliaopt_pajarito.jl;3337301fca9fb02c804097140144bdc49c3ff255;Chris C <chriscoey@users.noreply.github.com>;1581355796;"Merge pull request #433 from JuliaOpt/project
+
+Add Project.toml File"
+post;juliaopt_pajarito.jl;d20637123b4e256d2084232d68abbd59157baecf;Chris C <chriscoey@users.noreply.github.com>;1581358662;don't run SCS for SOC and Exp+SOC
+post;juliaopt_pajarito.jl;152aaad20135d5d1a5531057b07c34de134c48cd;Chris C <chriscoey@users.noreply.github.com>;1581360639;"Merge pull request #435 from JuliaOpt/fixslowtests
+
+don't run SCS for SOC and Exp+SOC conic tests"
+pre;mic-dkfz_batchgenerators;57f775886a2398a169ad61b64c89dae87f647108;Fabian Isensee <f.isensee@dkfz.de>;1634032272;"fix #86
+"
+pre;mic-dkfz_batchgenerators;419df7fc55c867d58a7f0786527152c382d2f972;Fabian Isensee <isenseef@gmail.com>;1634534044;"add sampling probabilities that can be used in infinite mode
+"
+pre;mic-dkfz_batchgenerators;042344577e2d1ae4fbd7136f5a136a775d5b71e7;Fabian Isensee <isenseef@gmail.com>;1634534053;"Merge branch 'master' of ssh://phabricator.mitk.org:2222/source/dldabg
+"
+pre;mic-dkfz_batchgenerators;50e9b7f97ad23315d4698410ed6a996895fdfb86;neuronflow <7048826+neuronflow@users.noreply.github.com>;1634789534;"Merge fb8ab322cb1c6008ed2f59391a5e28850c9bfa12 into 042344577e2d1ae4fbd7136f5a136a775d5b71e7
+"
+pre;mic-dkfz_batchgenerators;38015f2e3fbed701a74dabe876b45bc788c3d437;Fabian Isensee <isenseef@gmail.com>;1639133770;"allow bool casting in NumpyToTensor
+"
+pre;mic-dkfz_batchgenerators;10c47ddbca8ccce1e575b912615e325fb42b74e8;Fabian Isensee <isenseef@gmail.com>;1639686406;"fig broken build due to accidentally adding torch dependency
+"
+pre;mic-dkfz_batchgenerators;ea0189973fbb6f0b2dbf7018d3c3b1cdab5dfc5f;Fabian Isensee <isenseef@gmail.com>;1644608295;"bugfix
+"
+pre;mic-dkfz_batchgenerators;b2dce1d9b84ea2524ed31fdfe93cf079131439bb;Fabian Isensee <isenseef@gmail.com>;1648558611;"typo
+"
+pre;mic-dkfz_batchgenerators;d0b9c45713347808e59a6ab3bb1500b58e034f74;Fabian Isensee <isenseef@gmail.com>;1648558656;"fix#95
+"
+pre;mic-dkfz_batchgenerators;01f225d843992eec5467c109875accd6ea955155;Fabian Isensee <isenseef@gmail.com>;1651485026;"tag 0.24 for pypi release
+"
+post;mic-dkfz_batchgenerators;7651ece69faf55263dd582a9f5cbd149ed9c3ad0;Fabian Isensee <isenseef@gmail.com>;1666420920;"minor formatting and type hinting changes
+"
+post;mic-dkfz_batchgenerators;1a84b7902e9f5a79c79560896977a7533feaa113;S. Gay <sscodes77@gmail.com>;1667308922;"(Typo) remove double scikit-learn
+
+The package scikit-learn was listed twice in requirements.txt"
+post;mic-dkfz_batchgenerators;73ea85e0a193d143f85824a21c509b232d558eab;Daryl.Xu <ziqiang_xu@qq.com>;1667676146;"fix: non-ascii support
+
+Sometimes people need non-ascii support, like description in dataset.json which used in nnUNet."
+post;mic-dkfz_batchgenerators;3ca060815c99a83295b068c3c7351a8affc308e0;Nicolas Cedilnik <nicolas.cedilnik@inheart.fr>;1668673821;"Stop using deprecated scipy.ndimage namespaces
+"
+post;mic-dkfz_batchgenerators;6ebf1bd71ce42a04c205ea42d24f13853e73f2db;neuronflow <7048826+neuronflow@users.noreply.github.com>;1673865203;"Merge fb8ab322cb1c6008ed2f59391a5e28850c9bfa12 into 7651ece69faf55263dd582a9f5cbd149ed9c3ad0
+"
+post;mic-dkfz_batchgenerators;e59c73c9d2ca5a4095b5d8024c36d25cc2d47acb;Fabian Isensee <f.isensee@dkfz.de>;1677168470;"allow scalar_type[0] == scalar_type[1] in sample_scalar
+"
+post;mic-dkfz_batchgenerators;61b43347c4b1a935d37d2f4ba68963b587a85e03;Fabian Isensee <f.isensee@dkfz.de>;1677168495;"Merge branch 'master' of ssh://phabricator.mitk.org:2222/source/dldabg
+"
+post;mic-dkfz_batchgenerators;c736e830629a81ab9497219586bd6025da9382e5;Fabian Isensee <f.isensee@dkfz.de>;1678177765;"better error messages for MTA
+"
+post;mic-dkfz_batchgenerators;3571ba2b951cb0ac22af02ab48f901e3f2dc1fae;Fabian Isensee <f.isensee@dkfz.de>;1678177774;"Merge branch 'master' of ssh://phabricator.mitk.org:2222/source/dldabg
+"
+post;mic-dkfz_batchgenerators;8822a08a7dbfa4986db014e6a74b040778164ca6;Fabian Isensee <f.isensee@dkfz.de>;1678183724;"move threadpool_limits into producer. More resilient
+"
+pre;romerogroup_pyprocar;bc7cd522b5340a41902d8903a33f49aad99f4392;Pedram Tavadze <petavazohi@mix.wvu.edu>;1659544281;"middle of documentation
+"
+pre;romerogroup_pyprocar;75140f85b2b8c07ba4ebdba3f2a8f2942e11e79e;Pedram Tavadze <petavazohi@mix.wvu.edu>;1659544324;"Merge branch 'master' of https://github.com/romerogroup/pyprocar
+"
+pre;romerogroup_pyprocar;b0cafe8363e1b33a4074755d929df261d1119c48;lllangWV <64661090+lllangWV@users.noreply.github.com>;1660087292;"Reverting to 7cdbf46 commit
+"
+pre;romerogroup_pyprocar;7b561e70e62535fd8592ab382a01e02958b7079b;lllangWV <64661090+lllangWV@users.noreply.github.com>;1660087872;"minor changes
+"
+pre;romerogroup_pyprocar;1e30f2d3036fef03914155c485f984d0c4b11b54;lllangWV <64661090+lllangWV@users.noreply.github.com>;1660150502;"Bug fixes
+"
+pre;romerogroup_pyprocar;b4ea14459246d4f4955aa4805427860e25a8e38b;lllangWV <64661090+lllangWV@users.noreply.github.com>;1660155508;"Re-adding sphinx files
+"
+pre;romerogroup_pyprocar;932eedbfb6fdbd6477abe265923af2f7f09bd554;lllangWV <64661090+lllangWV@users.noreply.github.com>;1660155748;"Bug fixes in docs
+"
+pre;romerogroup_pyprocar;203953a11cdc07ea959ad79da41c8a426244163d;lllangWV <64661090+lllangWV@users.noreply.github.com>;1661269779;"Update scriptDosplot.py
+
+dos_interpolation_factor when initializing VASPXML was set to None, changed interpolation_factor"
+pre;romerogroup_pyprocar;f867f5e05f1a70ba3be815caefa3f2b2146a7eab;lllangWV <64661090+lllangWV@users.noreply.github.com>;1661538116;"Update scriptBandsplot.py
+
+changed positional arguments to keywords for Procar parsing"
+pre;romerogroup_pyprocar;850573c1a96e94f52ba6a683dab681dcc856ccf8;lllangWV <64661090+lllangWV@users.noreply.github.com>;1661544009;"Update scriptFermi3D.py
+
+kpoints ebs.kpoints was assigned to bands keywords in the initialization of FermiSurface3D"
+post;romerogroup_pyprocar;b86ef8e107b01f0392bd8a74934a9a1e3e4cfdb6;lllangWV <lllangWV@gmail.com>;1673374267;"Initial dev push
+"
+post;romerogroup_pyprocar;36f1aa3343dccf65b6432d825bbf7194ee464c19;lllangWV <lllangWV@gmail.com>;1673390916;"Added requirements_docs.txt
+"
+post;romerogroup_pyprocar;bf7cc2797da3268d11f35efbbf1f9417fd5407c0;lllangWV <lllangWV@gmail.com>;1673629644;"Added option to download specific example
+"
+post;romerogroup_pyprocar;2c112e33d80120dfe44086f73d10df5f5d166771;lllangWV <lllangWV@gmail.com>;1674485302;"More doc updates
+"
+post;romerogroup_pyprocar;876f4bf9ba53e2c9bbd39b253a9fc6d3a9714f83;lllangWV <lllangWV@gmail.com>;1674737545;"Started Siesta Parser
+"
+post;romerogroup_pyprocar;d117152a131d86609a6e25f76abf7f31479b3ef5;lllangWV <lllangWV@gmail.com>;1675174595;"Added new sphinx _build/html to docs
+"
+post;romerogroup_pyprocar;42d04d86d1eee08368baf1ab501d75e84071a8cb;lllangWV <lllangWV@gmail.com>;1675623801;"More doc changes
+"
+post;romerogroup_pyprocar;97a82b343b5ec5b181ba4d7d6fb6f4d864772f42;lllangWV <lllangWV@gmail.com>;1675711107;"More doc updates. A updated api. Added complete doc to core modules.
+"
+post;romerogroup_pyprocar;425262f1080cf3e9601839d9c21e412641c16551;lllangWV <lllangWV@gmail.com>;1675946844;"More doc updates. Changes in IO API and add docstrings to parsers
+"
+post;romerogroup_pyprocar;a1a390d32d49d8f5aff65b0ade9f6577306a940b;lllangWV <lllangWV@gmail.com>;1675958539;"Bug fix in Fermi3D
+"
+pre;jean-romain_lidr;072d031b64295e76fcd2ff5a2f47ae384cd0e262;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1678278151;"Drop CXX14: required by the CRAN
+"
+pre;jean-romain_lidr;1c2a532668d2477f84ac5d178092945554e2c3c6;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1678278891;"Fix #664
+"
+pre;jean-romain_lidr;417fae124f09abdfd424a7aea937fed9c9456c50;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1678280715;"Use bibentry: required by the CRAN
+"
+pre;jean-romain_lidr;e2770e808f1f800ca8de9b71889837a4865509d1;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1678282697;"keep c++14 on windows
+"
+pre;jean-romain_lidr;4cb0c3b574eaf3b26326e07a223311881ae673b0;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1678293163;"drop CXX14
+"
+pre;jean-romain_lidr;fdf7a7fa0f5a448443defba534120c529686a05f;Jean-Romain <Jean-Romain@users.noreply.github.com>;1680093799;Update README.md
+pre;jean-romain_lidr;7dadd568971bd5ec80723e5d74d6566af19f72aa;Jean-Romain <Jean-Romain@users.noreply.github.com>;1680093838;Update README.md
+pre;jean-romain_lidr;7d5dc9c8ca9b1f9aea120a0e39cf504f78028b11;rhijmans <r.hijmans@gmail.com>;1681672208;"fixes terra plot problem
+"
+pre;jean-romain_lidr;b4f9966b68e816525a079eb524be2d2bed1896e6;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1685022578;"Fix #684
+"
+pre;jean-romain_lidr;c46e841abcfcd6bd7ab598ba5584db9dcdbae70f;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1685022614;"Merge branch 'master' of github.com:r-lidar/lidR
+"
+post;jean-romain_lidr;8aeb5e7919029de7216d9c09946b7f41de275f9a;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1692188810;"Update doc
+"
+post;jean-romain_lidr;018d9f90b1b52886fc03c8c1294410b3d0d01212;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1692188824;"Fix #694
+"
+post;jean-romain_lidr;fdc851b248e6988084c0dd88483b8ef394e8f644;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1692189982;"Fix #690
+"
+post;jean-romain_lidr;a859fc0427fad73fb34755a37f64a5d63ed58b03;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1692190792;"Fix #689
+"
+post;jean-romain_lidr;745974c916ea652a70dc5c6f922c0070d793bb75;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1692192765;"fix #680
+"
+post;jean-romain_lidr;0a90c923ac1617a206f3c664db9f2ef84f2b917a;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1692626503;"Fix #702
+"
+post;jean-romain_lidr;6e764ad69c875119377555972423573591adc1a0;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1692718711;"Fix #701
+"
+post;jean-romain_lidr;9e9de20df09fa2384748fc6e88074def4f92e884;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1692719914;"Fix bug #701
+"
+post;jean-romain_lidr;e55930f7a90bc844c147b8d76bea189da3c92b57;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1692887192;"Fix ""Additional issues"" on CRAN
+"
+post;jean-romain_lidr;107126dc989bbf3da3989f4eb2a3cd73888b74db;Jean-Romain <jean-romain.roussel.1@ulaval.ca>;1693235156;"R CMD check
+"
+pre;google-research_football;4d8e0ca0b0377bf57db19909da27d64492b041f0;Leonhard Sommerer <leonhard.sommerer@gmx.at>;1664104723;"f-12: add new file in new branch f-12
+"
+pre;google-research_football;897653910f96c21c079f62b0cc267a3fb05707c2;Leonhard Sommerer <leonhard.sommerer@gmx.at>;1664105022;"fix dockerfile
+"
+pre;google-research_football;bf4f94eb3b1445abb4ddde3f02629704b40b3268;Leonhard Sommerer <leonhard.sommerer@gmx.at>;1664105433;"add new row
+"
+pre;google-research_football;0c1548c0af638e72692ba59d4f6f4ed389fa5680;Leonhard Sommerer <leonhard.sommerer@gmx.at>;1664105515;"Merge branch 'f-12'
+"
+pre;google-research_football;355679969246600dee71983fbcc2a4c20d58f0a4;Leonhard Sommerer <leonhard.sommerer@gmx.at>;1664107268;"f-13: feature für Docker
+"
+pre;google-research_football;7b6664c337a56a5b1f9b9ffeafa0b580debe2564;Leonhard Sommerer <leonhard.sommerer@gmx.at>;1664107344;"fix Dockerfile
+"
+pre;google-research_football;84d4db96126108194614b5c2f3a7c47f7a37993f;Leonhard Sommerer <leonhard.sommerer@gmx.at>;1664107449;"Konflikt gelöst mit Dockerfile
+
+Merge branch 'f-13-docker'
+"
+pre;google-research_football;f2be8a4492e402b5b7bc80f77a77f3ff6759103d;Leonhard Sommerer <leonhard.sommerer@gmx.at>;1664108298;"f-20: add new expirement
+"
+pre;google-research_football;b6fd1c176101bdc4392a08ea5dc785e34d5e0128;Leonhard Sommerer <leonhard.sommerer@gmx.at>;1664108415;"fix example usage
+"
+pre;google-research_football;820c160b725646f62ad8e9f8472c401337429385;Leonhard Sommerer <59763160+Letschi6@users.noreply.github.com>;1664108582;"Merge f2be8a4492e402b5b7bc80f77a77f3ff6759103d into 9a9e35bcd1929a82c2b91eeed777e5e571f29d38
+"
+post;google-research_football;8c1f509d198d4617023a8925ffeda5905c425fd1;Iker Tejero <61519891+ikertejero@users.noreply.github.com>;1691421609;"Update observation.md
+
+Observation documentation is updated accordingly to the current status of the action set file in the repository."
+post;google-research_football;f9c8e8d83957d687baccefa833d3774729730871;Iker Tejero <61519891+ikertejero@users.noreply.github.com>;1691421956;"Merge 8c1f509d198d4617023a8925ffeda5905c425fd1 into 9a9e35bcd1929a82c2b91eeed777e5e571f29d38
+"
+post;google-research_football;8ee367346e5a8916f00638cf3787e0901f5711c2;rahimrahimovv <rahimrahimovv@gmail.com>;1692024256;"Bir shey deyishdim
+"
+post;google-research_football;11c8a52a14e633ac18bef273a33973eab2ca691d;Rahim Rahimov <80757614+rahimrahimovv@users.noreply.github.com>;1692024340;"Merge 8ee367346e5a8916f00638cf3787e0901f5711c2 into 9a9e35bcd1929a82c2b91eeed777e5e571f29d38
+"
+post;google-research_football;ce68c76d5378799cd564ff579991796315c5234c;cedi23 <weigc2@bfh.ch>;1700227771;"Update README.md
+
+Missing "":"""
+post;google-research_football;e169ffd2bb146909892874bf26d75ac4a00e9c01;cedi23 <weigc2@bfh.ch>;1700227796;"Merge ce68c76d5378799cd564ff579991796315c5234c into 9a9e35bcd1929a82c2b91eeed777e5e571f29d38
+"
+post;google-research_football;ff00bcb2675777a45c9e196602673279deb1566c;Dennis <san.sans@web.de>;1718720426;"2 neue datei hinzugefügt
+"
+post;google-research_football;607446187da0c903007d5cff029aa1c3d25909e3;Dennis <san.sans@web.de>;1718720696;"Datei umbenannt
+"
+post;google-research_football;9ba2e5ceb25b5284d81e07e1aee1c6275c617c9a;Dennis <san.sans@web.de>;1718720881;"Datei gelöscht
+"
+post;google-research_football;9f3dcbc3b3d4006e13cecb90bd77f4db45148744;Dennis <san.sans@web.de>;1718807920;"Fehler
+"
+pre;drostlab_philentropy;1e132daad459d6884aac2383a3ef4b3ef455db70;HajkD <hajkdrost@googlemail.com>;1461232452;"update README
+"
+pre;drostlab_philentropy;a1aeb4c7672f22b5aa2ec90b1ce2a23159258738;HajkD <hajkdrost@googlemail.com>;1461232611;"update Vignette Information Theory
+"
+pre;drostlab_philentropy;156df99bf8565842057ab9f8f19a5307511d5c0f;HajkD <hajkdrost@googlemail.com>;1461232617;"update README
+"
+pre;drostlab_philentropy;742c4e046c9ecd19a0206280b73786a09895eadf;HajkD <hajkdrost@googlemail.com>;1461236649;"adding error handling case to distance()
+"
+pre;drostlab_philentropy;b30e497b658237ac92ac5a6a62f9ec5b27ea64b6;HajkD <hajkdrost@googlemail.com>;1461236666;"adding and modifying some unit tests for distance()
+"
+pre;drostlab_philentropy;2a3e5c9d3d9be09ab348086e557a35177ce02199;HajkD <hajkdrost@googlemail.com>;1461243977;"adding check making sure that input probability vectors sum up to 1.0
+"
+pre;drostlab_philentropy;1043d18888e25b568433674c0d22c1a25a39d813;HajkD <hajkdrost@googlemail.com>;1461244126;"update README
+"
+pre;drostlab_philentropy;f2e858027d5790985d843df2c376dd07c607e29c;HajkD <hajkdrost@googlemail.com>;1461773804;"update Information Theory Vignette
+"
+pre;drostlab_philentropy;4590b2c6c370c5fc221767dd641e5a79becbcac5;HajkD <hajkdrost@googlemail.com>;1461773944;"update Information Theory Vignette
+"
+pre;drostlab_philentropy;eca30593495677c54919df79cf9e84c9bf1e0cd5;HajkD <hgd23@cam.ac.uk>;1462532202;"update README
+"
+post;drostlab_philentropy;2c351fd9dd7e4e81b802f673cb5517168f26f8b1;HajkD <hajkdrost@googlemail.com>;1493134557;"update README
+"
+post;drostlab_philentropy;09e234c25136c2ae60089bb5376e715c21ba0a2d;HajkD <hajkdrost@googlemail.com>;1493134571;"Merge branch 'master' of https://github.com/HajkD/philentropy
+"
+post;drostlab_philentropy;9beb6172c458d2853f9f53dd7312e6827c11a79d;HajkD <hajkdrost@googlemail.com>;1493136283;"update DESCRIPTION
+"
+post;drostlab_philentropy;90216c92272f58b485d2b58abe603de13ff09eff;HajkD <hajkdrost@googlemail.com>;1493136289;"update NAMESPACE
+"
+post;drostlab_philentropy;dd8a4d1d7623b8ef011f7014292665e50b8d94ce;HajkD <hajkdrost@googlemail.com>;1493136295;"update README
+"
+post;drostlab_philentropy;e2910091e872e525469fca7b5a77a5fd1d09a700;HajkD <hajkdrost@googlemail.com>;1493136335;"add RcppExports
+"
+post;drostlab_philentropy;72c0674256002126bce430d0762b48149af6c8d7;HajkD <hajkdrost@googlemail.com>;1493136362;"switch from sapply() to more stable lapply()
+"
+post;drostlab_philentropy;655ffb1ad126b939c49891557e38c87a4116bd38;HajkD <hajkdrost@googlemail.com>;1493136380;"fix rounding issue that caused KL() to fail
+"
+post;drostlab_philentropy;599338ce7a223ced01b41157eb38125caeac78ae;HajkD <hajkdrost@googlemail.com>;1493136390;"use dynlib
+"
+post;drostlab_philentropy;08823f26abc97fc7023c7364c07d8b70f29438c5;HajkD <hajkdrost@googlemail.com>;1493136399;"update header
+"
+pre;contextlab_hypertools;9c82b3f6fb4eae75c0507eb081c9e723b3651145;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1660927809;"added imageio-ffmpeg to requirements
+"
+pre;contextlab_hypertools;7f7c353c3e4ccc1b500da1132736e1e9fb91a8b6;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1660943047;"added python-ffmpeg to requirements
+"
+pre;contextlab_hypertools;85cde222c4cb478b6b8b1a618783238c6e8cb4fa;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1660943296;"working on ffmpeg install...
+"
+pre;contextlab_hypertools;d881cb77ceda621b48855001e208f5c7f5e3e8fc;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1660943643;"debugging ffmpeg on colab
+"
+pre;contextlab_hypertools;c8d567e517409f6c866a62527bd24abde8a79767;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1660943819;"get back imageio.ffmpeg.download...
+"
+pre;contextlab_hypertools;f9bf161e2aba3377bf59c23fe5cede266094efde;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1660944420;"working on ffmpeg management in colab
+"
+pre;contextlab_hypertools;a5212087d0dca047bef1cd7795474e2825920609;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1661192224;"added point-cloud datasets
+"
+pre;contextlab_hypertools;4a909d2d28d745c997fd9b7bd2fd9dbc2cc674f3;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1661202609;"added some notes and TODO items to plot.py
+"
+pre;contextlab_hypertools;6746c60b6d6543dd222b86a6c0a5aa3f5ad6e9f5;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1661375401;"cleaning up plot functions and API...
+"
+pre;contextlab_hypertools;346ea30cae04f474f55c57e7b4cd69a926ef6071;Jeremy Manning <jeremy.r.manning@dartmouth.edu>;1661543793;"backing up progress-- revamping plot code and reconfiguring the API a bit
+"
+post;contextlab_hypertools;1235b2c20f2891bc67b4c220237cbd04e16359bf;ljchang <luke.j.chang@dartmouth.edu>;1710432843;"added ability to change color of wireframe
+"
+post;contextlab_hypertools;0664c3c1e80ba6f810f7fc8e671733790cec43db;paxtonfitzpatrick <Paxton.C.Fitzpatrick@Dartmouth.edu>;1710526023;"add backend mapping for matplotlib inline from newer matplotlib versions
+"
+post;contextlab_hypertools;b684e252b4a0bfc020236b0e3f7136893bb99482;paxtonfitzpatrick <Paxton.C.Fitzpatrick@Dartmouth.edu>;1710526086;"accept arbitrary positional args in pre_run_cell hooks (re: ContextLab/hypertools#261)
+"
+post;contextlab_hypertools;3e0260a19233899e4e6b8f317cb41d621a150d17;paxtonfitzpatrick <Paxton.C.Fitzpatrick@Dartmouth.edu>;1710551851;"WIP function to check whether imported into classic notebook or lab frontend
+"
+post;contextlab_hypertools;3413a40eea9b0bfc53a7448f128b2568168dd7f3;paxtonfitzpatrick <Paxton.C.Fitzpatrick@Dartmouth.edu>;1710551878;"prefer newer version of function, fall back to deprecated version if unavailable
+"
+post;contextlab_hypertools;cde6e481a25ce0f7f9861908ef4261860c74102a;paxtonfitzpatrick <Paxton.C.Fitzpatrick@Dartmouth.edu>;1710795274;"full logic for determining jupyter frontend
+"
+post;contextlab_hypertools;809f15c33d6f7ba7c6add1b5d2daba916f79d6ed;paxtonfitzpatrick <Paxton.C.Fitzpatrick@Dartmouth.edu>;1710802545;"initialize interactive plotting backend for jupyterlab & notebook>=7
+"
+post;contextlab_hypertools;fa28a7901277c01ebc0c49f1a3ceaff11cbcf952;paxtonfitzpatrick <Paxton.C.Fitzpatrick@Dartmouth.edu>;1710802589;"add ipympl to requirements
+"
+post;contextlab_hypertools;a1447c271ef3d3b52aa8cbb6b1b5dfae82619c9e;Paxton Fitzpatrick <Paxton.C.Fitzpatrick@Dartmouth.edu>;1710817944;"Merge pull request #263 from paxtonfitzpatrick/master
+
+Support for interactive & animated plots in JupyterLab & notebook >= 7.0"
+post;contextlab_hypertools;52be63fdcc8505f16dfa715540c9e9e6db769268;paxtonfitzpatrick <Paxton.C.Fitzpatrick@Dartmouth.edu>;1710831203;"Merge branch 'cube' of https://github.com/ljchang/hypertools into master
+"
+pre;lima1_purecn;e32ca7c0a97636bfc9573f53448a55e482b3f4a8;Markus Riester <markus.riester@novartis.com>;1646501828;"Merge branch 'RELEASE_3_14' of https://github.com/lima1/PureCN into RELEASE_3_14
+"
+pre;lima1_purecn;008f1dd6da5a485c8963242b94abe7edee96710f;Nitesh Turaga <nitesh.turaga@gmail.com>;1650987116;"bump x.y.z version to even y prior to creation of RELEASE_3_15 branch
+"
+pre;lima1_purecn;607d17a776259ad047bf988d28fca7f0b0ebd191;Nitesh Turaga <nitesh.turaga@gmail.com>;1650987116;"bump x.y.z version to odd y following creation of RELEASE_3_15 branch
+"
+pre;lima1_purecn;e0901e44b20fe1fb90bb2c5f0bcf4b5158bc5b75;Markus Riester <riestma1@MARKUSs-MacBook-Pro.local>;1650996740;"Merge remote-tracking branch 'upstream/master'
+"
+pre;lima1_purecn;b6b3779de8b918b4d30eff2d36a0dfce50eb1fc0;Markus Riester <markus.riester@novartis.com>;1650997208;"Bump stable version.
+"
+pre;lima1_purecn;14a93e6d36453f5fb0801e9196d5c0c05bb0c72c;Markus Riester <markus.riester@novartis.com>;1651161900;"Updated GATK in Dockerfile
+"
+pre;lima1_purecn;87cd2bbad1af2ce20096830b748f641832a2d92b;Markus Riester <markus.riester@novartis.com>;1651161900;"Updated GATK in Dockerfile
+"
+pre;lima1_purecn;c3fa14bc4f55e77e95473d0435135a3db0c401c0;Markus Riester <markus.riester@novartis.com>;1651168327;"Updated stable Docker image.
+"
+pre;lima1_purecn;f6e9ba7c8c1793130373536b44b33f04ae2b3e26;Markus Riester <markus.riester@novartis.com>;1651168327;"Updated stable Docker image.
+"
+pre;lima1_purecn;7ba22b13bfde59a3876210e8bd134c39dfb25ee5;Markus Riester <markus.riester@novartis.com>;1651168647;"Updated devel Docker image.
+"
+post;lima1_purecn;d5249493b66f97797f4c5f6e878b4203872e328b;lshep <lori.shepherd@roswellpark.org>;1667239632;"remove empty news section
+"
+post;lima1_purecn;7d7d59bb80d68c1327f7ff0461cb5bd094da1ee4;J Wokaty <jennifer.wokaty@sph.cuny.edu>;1667315616;"bump x.y.z version to odd y following creation of RELEASE_3_16 branch
+"
+post;lima1_purecn;639f2a87aefd02445d51d081251b90d6144f7e84;J Wokaty <jennifer.wokaty@sph.cuny.edu>;1667315616;"bump x.y.z version to even y prior to creation of RELEASE_3_16 branch
+"
+post;lima1_purecn;14e0d1d7b412b156ff3f324eb7752196d582d6b4;J Wokaty <jwokaty@users.noreply.github.com>;1682433997;"bump x.y.z version to even y prior to creation of RELEASE_3_17 branch
+"
+post;lima1_purecn;98392d39e81a4fb40e67abf74547c06a99dcf29a;J Wokaty <jwokaty@users.noreply.github.com>;1682433998;"bump x.y.z version to odd y following creation of RELEASE_3_17 branch
+"
+post;lima1_purecn;31462aaf4c29495905f5c08525a1d5915943110a;Markus Riester <markus.riester@novartis.com>;1682871106;"Updated version numbers in README
+"
+post;lima1_purecn;3d711b263cd95014eadc33590b292fbaf5b62ac8;Markus Riester <markus.riester@novartis.com>;1682872902;"Updated github workflow with latest biocthis themplate
+"
+post;lima1_purecn;834df85b8a9307a4ff541d69816b37f54725c707;Markus Riester <markus.riester@novartis.com>;1682873322;"Updated github workflow with latest biocthis themplate, added python dependency for GATK
+"
+post;lima1_purecn;8bec98b15067439731552f5fde7b5749acd78595;Markus Riester <markus.riester@novartis.com>;1682874250;"Updated github workflow with latest biocthis themplate, try to fix outdated java error.
+"
+post;lima1_purecn;ea3a38104c0a23f9cce74d5a3ef6d16bedcc7090;Markus Riester <markus.riester@novartis.com>;1682881353;"Updated stable version numbers.
+"

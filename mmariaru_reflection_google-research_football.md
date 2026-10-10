@@ -1,0 +1,3 @@
+# google-research_football
+
+This project follows a declining pattern with 4 gaps, the longest being about 10 months (2022-10 to 2023-07). Activity peaked in 2020–2021, around the original research release, after which commits were mostly outside contributions, such as documentation edits and student-style additions, rather than maintainer-led work. The longest gap ended with a few small outside contributions, which is not a true recovery. A new burst of feature and modernization work appeared in 2025–2026, apparently from new contributors.

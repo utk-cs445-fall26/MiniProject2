@@ -1,0 +1,3 @@
+# lima1_purecn
+
+The project follows a declining pattern with 5 gaps, the longest about 5 months (2022-05 to 2022-09). One primary maintainer did most of the early development, and later activity follows its host ecosystem’s twice-yearly release cycle, with bursts of release housekeeping and then quiet stretches. The gaps end when the next release cycle begins and the maintainer returns to update documentation, containers and workflows. It is still active as of 2026.

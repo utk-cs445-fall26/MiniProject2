@@ -1,0 +1,3 @@
+# drostlab_philentropy
+
+This project follows an irregular pattern with 13 gaps, the longest of which is about 10 months (2016-06 to 2017-03). It is mainly a single-maintainer scientific package developed in bursts, with early intensive work followed by long quiet periods. It recovered each time as the same maintainer returned to restructure the code, move performance-critical parts to compiled code and prepare releases. In later years a few outside contributors joined, and recent work has focused on documentation and performance refactoring.

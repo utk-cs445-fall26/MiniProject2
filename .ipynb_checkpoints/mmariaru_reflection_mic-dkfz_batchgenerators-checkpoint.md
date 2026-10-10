@@ -1,0 +1,3 @@
+# mic-dkfz_batchgenerators
+
+This project follows a declining pattern with 3 short gaps, the longest about 4 months (mid-2022). One lead developer wrote most of the early feature work, and as the library matured, activity settled into release tagging and small maintenance changes, so the gaps are quiet periods between releases. Each gap ended when the lead maintainer returned for minor cleanup, joined by occasional small contributions from the community. The project remains active at a low intensity.

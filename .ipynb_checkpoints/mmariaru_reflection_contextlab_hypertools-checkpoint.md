@@ -1,0 +1,3 @@
+# contextlab_hypertools
+
+This project follows a declining pattern with 7 gaps, the longest about 18 months (2022-09 to 2024-02), plus another of about 12 months in 2024–2025. After a major plotting refactor in 2022 the original developers went quiet, which is typical of a lab-built tool. The long gap ended in 2024 when changes in the surrounding notebook and plotting tools broke functionality, which prompted compatibility updates from lab members. A smaller burst of maintenance, CI and warning cleanup followed in early 2026, again by existing contributors.

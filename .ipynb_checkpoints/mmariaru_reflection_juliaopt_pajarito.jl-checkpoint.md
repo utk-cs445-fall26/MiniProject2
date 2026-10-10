@@ -1,0 +1,3 @@
+# juliaopt_pajarito.jl
+
+This project follows a declining pattern with 2 gaps, the longest about 7 months (2019-07 to 2020-01). Activity peaked during early research development and then dropped to light upkeep, such as citations, documentation and language-version compatibility, once the core work stabilized. It recovered in early 2020 when maintainers modernized packaging and CI after ecosystem-wide changes. The same maintainers did the work. The data ends there, likely because the repository later moved to a different organization.

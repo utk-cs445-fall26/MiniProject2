@@ -1,0 +1,3 @@
+# pdclab_peregrine
+
+This project follows a declining pattern with 5 gaps of three months or more, the longest about 17 months (2023-10 to 2025-02). Most of its activity came in the first year after launch, tied to a research publication, and then shrank to occasional work as the lead developer’s attention moved elsewhere. The longest gap ended in 2025 with a small outside contribution, and only a handful of commits have followed, so the project is better described as dormant than recovered.

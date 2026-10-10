@@ -1,0 +1,2 @@
+project;#commits;#authors;From;To;#stars;#forks;LastGHCommitDate;LongestGapStart (YYYY-MM), ;LongestGapEnd (YYYY-MM),;LongestGapLength;NumCommitsAfterLastGap;pattern
+mmorise_world;347;47;1447574109;1729696092;1300;261;2025/02/21;2022-02;2023-04;15;9;declining

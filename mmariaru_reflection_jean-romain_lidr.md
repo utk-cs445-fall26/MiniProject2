@@ -1,0 +1,3 @@
+# jean-romain_lidr
+
+This project follows a declining pattern but has no gap of three months or more, since its longest pause was about 2 months (mid-2023), so it counts as an active project with no meaningful gap. A single maintainer did very heavy development early on, and activity then settled into steady, lower-volume maintenance as the package matured. The short pause ended with a batch of fixes that cleared accumulated user issues. The project is still active today.

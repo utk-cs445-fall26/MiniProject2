@@ -1,0 +1,529 @@
+pre_post;project_wocid;commit_sha1;author;time;commit_message
+
+pre;alibaba_graphscope;38fa88f033b6033cb1e24310240df6316c9c7e1a;击铗 <xujingbo.xjb@alibaba-inc.com>;1596103145;"Opensource code for GraphScope.
+
+
+Co-authored-by: Zhimin Chen <zhimin.chen@alibaba-inc.com>
+Co-authored-by: Yong Fang <mengji.fy@taobao.com>
+Co-authored-by: Liang Geng <guanyi.gl@alibaba-inc.com>
+Co-authored-by: Yuxing Han <yuxing.hyx@alibaba-inc.com>
+Co-authored-by: Tao He <linzhu.ht@alibaba-inc.com>
+Co-authored-by: Longbin Lai <longbin.lailb@alibaba-inc.com>
+Co-authored-by: Dongze Li <dongze.ldz@alibaba-inc.com>
+Co-authored-by: Gaofeng Li <peaker.lgf@alibaba-inc.com>
+Co-authored-by: Zhao Li <lizhao.lz@alibaba-inc.com>
+Co-authored-by: Xiaojian Luo <lxj193371@alibaba-inc.com>
+Co-authored-by: Bingqing Lyu <bingqing.lbq@alibaba-inc.com>
+Co-authored-by: Chenqiang Min <chenqiang.mcq@alibaba-inc.com>
+Co-authored-by: Zhengping Qian <zhengping.qzp@alibaba-inc.com>
+Co-authored-by: Xiaoming Qin <xiaoming.qxm@alibaba-inc.com>
+Co-authored-by: Li Su <lisu.sl@alibaba-inc.com>
+Co-authored-by: Chao Tian <tianchao.tc@alibaba-inc.com>
+Co-authored-by: Li Tian <tianli.tl@alibaba-inc.com>
+Co-authored-by: Lei Wang <jiede.wl@alibaba-inc.com>
+Co-authored-by: Ziniu Wu <ziniu.wzn@alibaba-inc.com>
+Co-authored-by: Jingbo Xu <xujingbo.xjb@alibaba-inc.com>
+Co-authored-by: Youyang Yao <youyang.yyy@alibaba-inc.com>
+Co-authored-by: Linguan Yang <linguan.ylg@alibaba-inc.com>
+Co-authored-by: Wenyuan Yu <wenyuan.ywy@alibaba-inc.com>
+Co-authored-by: Diwen Zhu <diwen.zdw@alibaba-inc.com>
+Co-authored-by: Kai Zeng <zengkai.zk@alibaba-inc.com>
+Co-authored-by: Kun Zhao <kun.zhao@alibaba-inc.com>
+Co-authored-by: Weibin Zeng <qiaozi.zwb@alibaba-inc.com>
+Co-authored-by: Siyuan Zhang <siyuanzhang.zsy@alibaba-inc.com>
+Co-authored-by: Jingren Zhou <jingren.zhou@alibaba-inc.com>
+Co-authored-by: Xiaoli Zhou <yihe.zxl@alibaba-inc.com>
+Co-authored-by: Rong Zhu <red.zr@alibaba-inc.com>
+"
+post;alibaba_graphscope;dbfd8e8b376be2c9ea9a104739054d9eee608a6a;Alibaba OSS <opensource@alibaba-inc.com>;1603855175;"Initial commit with README and whitepaper.
+"
+post;alibaba_graphscope;36bc295c683e97119dc6e4332359ed5c53e099c3;Tao He <linzhu.ht@alibaba-inc.com>;1604905391;"Generate latest docs on CI, from commit f0abbbf5e4315454289b94e65230fbc41430448c.
+"
+post;alibaba_graphscope;8a01a4907176bef05888255f48405c5bd0824ca7;Zhengping Qian <zhengping.qzp@alibaba-inc.com>;1605089213;Update README to correct names for previous work
+post;alibaba_graphscope;e162f11886dc49d68038836b665aa5381cea8d24;Zhengping Qian <zhengping.qzp@alibaba-inc.com>;1607995452;Fix document link in interactive_engine/README.md
+post;alibaba_graphscope;d34bd84170d1fb85041510e737112648a5856066;siyuanzhang.zsy <siyuanzhang.zsy@alibaba-inc.com>;1608004888;"Only release latest image when push to main
+"
+post;alibaba_graphscope;8061601c708d6276c9d2d69391f8f4353e4b10c4;siyuanzhang.zsy <siyuanzhang.zsy@alibaba-inc.com>;1608005041;"fix word
+"
+post;alibaba_graphscope;65819dfee9acc266eb3aefc80e1ea946814a3138;Tao He <linzhu.ht@alibaba-inc.com>;1608086716;"Show commands when running `prepare_env.sh`.
+
+Signed-off-by: Tao He <linzhu.ht@alibaba-inc.com>
+"
+post;alibaba_graphscope;0b1ec52112d56139212dfc6f6588a9f5968da55b;Tao He <sighingnow@gmail.com>;1608096352;"Show commands when running `prepare_env.sh`. (#4)
+
+Signed-off-by: Tao He <linzhu.ht@alibaba-inc.com>"
+post;alibaba_graphscope;353d69fc823c7cf284c634227abea45f931b288a;Siyuan Zhang <siyuanzhang.zsy@alibaba-inc.com>;1608096418;Merge branch 'main' into zsy/refine_ci
+post;alibaba_graphscope;b26c169ea78aa53b617295b9f45a1e5bcdbb39af;siyuanzhang.zsy <siyuanzhang.zsy@alibaba-inc.com>;1608101893;"Enable workflow from pr
+"
+pre;darrencroton_sage;0fec63735eaa5923431e276c586108e2653a96c5;Darren Croton <dcroton@astro.swin.edu.au>;1600673711;"Some simple house cleaning
+"
+pre;darrencroton_sage;73defd83cebefcaef08f8a31728a9f37753cf952;Boud Roukema <boud@cosmo.torun.pl>;1601651252;"Reduce chance of string buffer overflow exploits
+
+Gcc-10.2.0 gives many compile warnings of the risk of string
+buffer overflows. These risk segmentation violations with long
+path lengths and security problems more generally, which is why
+the warnings exist.
+
+This commit aims to reduce the chance of buffer overflows by
+using `snprintf` instead of `sprintf` and extending from just
+the C preprocesor macro MAX_STRING_LEN to MAX_BUF_SIZE defined
+as (3*MAX_STRING_LEN+40). A few unused variables are also
+commented out in response to the recommendations from gcc.
+
+This commit compiles cleanly for me with gcc-10.2.0, with
+`make OPTIONS=-fcommon`.
+"
+pre;darrencroton_sage;bf7ba0f9f8faabfaf7e8416f081ca394d3cfb629;Boud Roukema <boud@cosmo.torun.pl>;1602493451;"Several small fixes based on Manodeep Singh suggestions
+
+This commit implements several small fixes more or
+less as proposed by Manodeep Singh at
+https://github.com/darrencroton/sage/pull/17 .
+
+These compile for me without error either with gcc-10.2.0
+using `make OPTIONS=-fcommon` or with gcc-6.3.0-18+deb9u1.
+
+I don't have a convenient regression test ready to test it, so
+feel free to do a regression test before merging. The previous
+version worked as implemented in the full `elaphrocentre`
+galaxy formation pipeline - https://codeberg.org/boud/elaphrocentre .
+
+Possible TODO: There's a section of `code/io/tree_hdf5.c` with
+`char fname[1000]` and several `sprintf` statements. These should
+are not warned about by gcc-10.2.0 and there's probably no point
+being pedantic and switching them to `snprintf` statements.
+"
+pre;darrencroton_sage;e5d1ebf8a5acc34dc6224c21ad81457982b5eec5;Boud Roukema <boud@cosmo.torun.pl>;1602493451;"Several small fixes based on Manodeep Sinha suggestions
+
+This commit implements several small fixes more or
+less as proposed by Manodeep Sinha at
+https://github.com/darrencroton/sage/pull/17 .
+
+These compile for me without error either with gcc-10.2.0
+using `make OPTIONS=-fcommon` or with gcc-6.3.0-18+deb9u1.
+
+I don't have a convenient regression test ready to test it, so
+feel free to do a regression test before merging. The previous
+version worked as implemented in the full `elaphrocentre`
+galaxy formation pipeline - https://codeberg.org/boud/elaphrocentre .
+
+Possible TODO: There's a section of `code/io/tree_hdf5.c` with
+`char fname[1000]` and several `sprintf` statements. These should
+are not warned about by gcc-10.2.0 and there's probably no point
+being pedantic and switching them to `snprintf` statements.
+"
+pre;darrencroton_sage;554f418eb6ec8a8c7c75d88b74d884e39cfe8650;Boud Roukema <boud@cosmo.torun.pl>;1602493982;"Merge branch 'snprintf_is_safer' of github:broukema/sage into snprintf_is_safer
+"
+pre;darrencroton_sage;77a623b54c1ee00476b33081126d9a910b907c8e;broukema <24659560+broukema@users.noreply.github.com>;1602493995;"Merge 554f418eb6ec8a8c7c75d88b74d884e39cfe8650 into 0fec63735eaa5923431e276c586108e2653a96c5
+"
+pre;darrencroton_sage;1dcfe89b720af1be70973890eee214d9862d3c5c;Darren Croton <dcroton@astro.swin.edu.au>;1614834351;"removed the unneccessary import of h5py
+"
+pre;darrencroton_sage;999704dd7de7cfb027553dfbacfc055eeec822bd;Darren Croton <dcroton@astro.swin.edu.au>;1614844684;"Fixed a small bug in allresults.py
+"
+pre;darrencroton_sage;a341bf79f34d79242c0a520dca5efa6e0c6a0f59;Darren Croton <dcroton@astro.swin.edu.au>;1614845041;"Small clean up to the final output to screen
+"
+pre;darrencroton_sage;b611a211dd2762db01f2fbcf6576cc7cdd98cfb4;broukema <24659560+broukema@users.noreply.github.com>;1633711642;"Merge 554f418eb6ec8a8c7c75d88b74d884e39cfe8650 into a341bf79f34d79242c0a520dca5efa6e0c6a0f59
+"
+post;darrencroton_sage;ed15e9e447d7fe347fee2f4bf9b8191c143f2012;Darren Croton <darrencroton@icloud.com>;1709792971;"updated to Python 3
+"
+post;darrencroton_sage;cd2b43bc362a935c70906cb0574f2c7b353c1c31;Darren Croton <darrencroton@icloud.com>;1709870710;"Updated from Python2->3
+"
+post;darrencroton_sage;eb6842339d52895c257ec29dd1d4b8320cf830c6;broukema <24659560+broukema@users.noreply.github.com>;1709871537;"Merge 554f418eb6ec8a8c7c75d88b74d884e39cfe8650 into cd2b43bc362a935c70906cb0574f2c7b353c1c31
+"
+post;darrencroton_sage;93096c2c8b31dd240b0f176d64339cfd716d06bc;Darren Croton <2062219+darrencroton@users.noreply.github.com>;1724912383;Update millennium.par
+post;darrencroton_sage;1c213aaedd25b1b79a89a59aaa1ed7cf9621e758;Darren Croton <2062219+darrencroton@users.noreply.github.com>;1724912483;"Merge pull request #18 from darrencroton/darrencroton-patch-1
+
+Update millennium.par"
+post;darrencroton_sage;1ebd80fbd454373af376fd66d3add5396c330228;broukema <24659560+broukema@users.noreply.github.com>;1724912507;"Merge 554f418eb6ec8a8c7c75d88b74d884e39cfe8650 into 1c213aaedd25b1b79a89a59aaa1ed7cf9621e758
+"
+post;darrencroton_sage;c54e83f409d9c3a06302cddd99ef2b08fd4d2486;Darren Croton <2062219+darrencroton@users.noreply.github.com>;1741068335;"Merge pull request #17 from broukema/snprintf_is_safer
+
+Reduce chance of string buffer overflow exploits"
+post;darrencroton_sage;5051ddde9e769ea3cfda17ac1a995941e9776b56;Darren Croton <2062219+darrencroton@users.noreply.github.com>;1741068683;"Fixed an error with history.py
+"
+post;darrencroton_sage;092a0329f6a98b1b3317356f0e608c8d6ebbab82;Darren Croton <2062219+darrencroton@users.noreply.github.com>;1741069406;"Removed unused halosdone variable
+"
+post;darrencroton_sage;9c5ccc7aa040193d85bbbc75b6230e5c18e8f200;Darren Croton <2062219+darrencroton@users.noreply.github.com>;1741303355;"refactor: Split core_allvars.h into multiple focused headers
+"
+pre;juliagaussianprocesses_abstractgps.jl;0814100ae9c98dbddb9ae080ea4c31afdeb30a53;Théo Galy-Fajou <theo.galyfajou@gmail.com>;1637665923;"Update test/finite_gp_projection.jl
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+pre;juliagaussianprocesses_abstractgps.jl;742f2df891273956f82bed2a8bd6f1cf9f8cf635;Theo Galy-Fajou <theo.galyfajou@gmail.com>;1637669216;"Respect the functions arguments better
+"
+pre;juliagaussianprocesses_abstractgps.jl;b8b5ea6be1631e466349ebf3f162a246a7a613e7;Theo Galy-Fajou <theo.galyfajou@gmail.com>;1637669220;"Merge branch 'tgf/mvnormal_api' of github.com:JuliaGaussianProcesses/AbstractGPs.jl into tgf/mvnormal_api
+"
+pre;juliagaussianprocesses_abstractgps.jl;99c59f93921637fc9fe96b0752527b0d947ac9c3;Theo Galy-Fajou <theo.galyfajou@gmail.com>;1637669252;"Fix _sqmahal
+"
+pre;juliagaussianprocesses_abstractgps.jl;70cfe0a610a920c26d2b1b5e5f02d72cbfa34185;Théo Galy-Fajou <theo.galyfajou@gmail.com>;1637674494;"Update src/finite_gp_projection.jl
+
+Co-authored-by: willtebbutt <wct23@cam.ac.uk>"
+pre;juliagaussianprocesses_abstractgps.jl;c8375b807e5b8ccc8d8e97b1166fe33b255d91a7;Théo Galy-Fajou <theo.galyfajou@gmail.com>;1637674571;Back to logpdf
+pre;juliagaussianprocesses_abstractgps.jl;042df4a2a2786e18b0b19c1d4d1053bdedf7d69e;Théo Galy-Fajou <theo.galyfajou@gmail.com>;1637675224;"Solve ambiguity and module scope
+"
+pre;juliagaussianprocesses_abstractgps.jl;f9c05cbb1e520c2a5f61a5c7fc79dc81c7c3acda;Théo Galy-Fajou <theo.galyfajou@gmail.com>;1637675252;"Patch bump
+"
+pre;juliagaussianprocesses_abstractgps.jl;b6e3973f4acfaa6e9ff7ba97658e135c34654483;Théo Galy-Fajou <theo.galyfajou@gmail.com>;1637676039;"Backward compat
+"
+pre;juliagaussianprocesses_abstractgps.jl;e7c67bd24c454f0b8179032ecbb82284887159c0;Théo Galy-Fajou <theo.galyfajou@gmail.com>;1637676919;"Implement AbstractMvNormal API for FiniteGP (#254)
+
+* Add API tests
+
+* add missing methods
+
+* shortcuts
+
+* Solved some of the tests
+
+* Apply suggestions from code review
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+
+* Missing endline
+
+* Fix ambiguity
+
+* Fix ambiguity part 2
+
+* Apply suggestions
+
+* Improve coverage and correct issues
+
+* Added tests for sqmahal!
+
+* Correct doc formatting
+
+* Update test/finite_gp_projection.jl
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+
+* Respect the functions arguments better
+
+* Fix _sqmahal
+
+* Update src/finite_gp_projection.jl
+
+Co-authored-by: willtebbutt <wct23@cam.ac.uk>
+
+* Back to logpdf
+
+* Solve ambiguity and module scope
+
+* Patch bump
+
+* Backward compat
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: willtebbutt <wct23@cam.ac.uk>"
+post;juliagaussianprocesses_abstractgps.jl;28fa401ddb65b78cecea371e2768ad59d1a385fe;CompatHelper Julia <compathelper_noreply@julialang.org>;1642295178;"CompatHelper: bump compat for CSV to 0.10 for package mauna-loa, (keep existing compat)
+"
+post;juliagaussianprocesses_abstractgps.jl;ed95a78303d23f3cc0d1a58c0c16279bce71a6f8;ST John <st--@users.noreply.github.com>;1642595386;"improved error messages
+"
+post;juliagaussianprocesses_abstractgps.jl;f8efaa067caa5cc352492eea65634e91326639e0;st-- <st--@users.noreply.github.com>;1642595461;Merge branch 'master' into st/matrix_info
+post;juliagaussianprocesses_abstractgps.jl;cbb7ce084d7bfaed877c48aadc923a17faa8ad2c;ST John <st--@users.noreply.github.com>;1642595878;"improve order of concrete features
+"
+post;juliagaussianprocesses_abstractgps.jl;055f353250246345deb1bf28e2975be0838a7dae;ST John <st--@users.noreply.github.com>;1642596260;"mention vec_of_vecs behaviour in api.md
+"
+post;juliagaussianprocesses_abstractgps.jl;5a8b685ac138661b89f0b4068beec2ba2c1e9991;st-- <st--@users.noreply.github.com>;1642596411;"Update src/sparse_approximations.jl
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+post;juliagaussianprocesses_abstractgps.jl;4c914aeae271f0ef11fd745c54ae4274fcdc1ebf;ST John <st--@users.noreply.github.com>;1642596422;"Merge branch 'st/matrix_info' of github.com:JuliaGaussianProcesses/AbstractGPs.jl into st/matrix_info
+"
+post;juliagaussianprocesses_abstractgps.jl;12d6b0a8da6f65050b048a7c06caaaf7ca47f6df;ST John <st--@users.noreply.github.com>;1642598319;"comment -> text
+"
+post;juliagaussianprocesses_abstractgps.jl;7ea5101c99e95ac9308fc5c4c82bd58035f3f913;ST John <st--@users.noreply.github.com>;1642695315;"explicitly error
+"
+post;juliagaussianprocesses_abstractgps.jl;81526bbcce809800bda4839a7bade42c97b87ef3;ST John <st--@users.noreply.github.com>;1642695335;"minor bump
+"
+pre;kinnala_scikit-fem;932d1e6f53b4884a2bbbcade6f0635de58572b6f;Tom Gustafsson <kinnala@users.noreply.github.com>;1768820494;"Add python version (#1200)
+
+"
+pre;kinnala_scikit-fem;6348e86535fca5edfcff3a67822bc1e33f3c6146;Tom Gustafsson <kinnala@users.noreply.github.com>;1768820548;"Optimizations: cache mesh_parameters and global_coordinates in Basis (#1198)
+
+"
+pre;kinnala_scikit-fem;63e27ec3e2026077b8184b750e7d8cb87152e993;Tom Gustafsson <tom.gustafsson@iki.fi>;1768821614;"Bump up version number
+"
+pre;kinnala_scikit-fem;15ae6325f1d8b2b2566c61fa96c8309c6b26097f;Tom Gustafsson <tom.gustafsson@iki.fi>;1768829800;"Change build system
+"
+pre;kinnala_scikit-fem;3da5f213a139fc9a8b23c23f2359fecc22abb668;Tom Gustafsson <kinnala@users.noreply.github.com>;1768830048;"Change build system (#1201)
+
+"
+pre;kinnala_scikit-fem;11286d3bbe0bbcd4799b5e8df128be57ddd1f2c0;Tom Gustafsson <tom.gustafsson@iki.fi>;1768988284;"add logo to readme
+"
+pre;kinnala_scikit-fem;2e933a3ca19fbcae3b46b02207efc8c86edbd0b0;Tom Gustafsson <tom.gustafsson@iki.fi>;1768988443;"reduce width of logo
+"
+pre;kinnala_scikit-fem;9de1d4d6a3ae033e7502fbb2f9e61194c2bb2e4d;Tom Gustafsson <tom.gustafsson@iki.fi>;1769496523;"Support MeshQuad1 in visuals.matplotlib.plot3
+"
+pre;kinnala_scikit-fem;ec9d3191a130acc60cb0c63b4c1246535942aae4;Tom Gustafsson <tom.gustafsson@iki.fi>;1769496666;"add changelog entry
+"
+pre;kinnala_scikit-fem;365167e295a06ca708a5e066bcbe11051b34f3a3;Tom Gustafsson <kinnala@users.noreply.github.com>;1769762476;"Support MeshQuad1 in visuals.matplotlib.plot3 (#1202)
+
+"
+post;kinnala_scikit-fem;72d283f66122b9a893cee81c37cd972ca857eb10;Jakob Lüdke <luedkej@ethz.ch>;1776437272;"fix(_intersect1D): restrict supermesh to the intersection of both x-ranges
+"
+post;kinnala_scikit-fem;8fda728a0433318db21491eabe61c3ab331f652f;Jakob Lüdke <148444737+luedkej@users.noreply.github.com>;1776438258;"Update skfem/supermeshing.py
+
+make comment line <79 characters
+
+Co-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>"
+post;kinnala_scikit-fem;0e77d8ad2b05ab89ec678f65f60a2f44876601f9;Jakob Lüdke <148444737+luedkej@users.noreply.github.com>;1776440392;fix(_intersect1D): restrict supermesh to the intersection of both x-r… (#1206)
+post;kinnala_scikit-fem;4315b1eed201ae56009276b5fd1862f9bb28ac86;kinnala <kinnala@users.noreply.github.com>;1776440563;Add past fixes to unreleased section in README
+post;kinnala_scikit-fem;523a84f336faf1117a355c50ac68a048cbdb9113;icke <Konrad.Schneider@tuhh.de>;1776453415;"Add Example 55: Updated Lagrange hyperelasticity with documentation and figure. Corrected a wrong sign in the documentation of Example 43.
+"
+post;kinnala_scikit-fem;f95678065ea96c841aac47630894f065c687aacb;Swapneel Amit Pathak <swapiitr@gmail.com>;1776454232;"Merge acf5b29501b9d9fd071ebbeb40ba1d60f0398474 into 4315b1eed201ae56009276b5fd1862f9bb28ac86
+"
+post;kinnala_scikit-fem;fa1e79e6939697a4c188042afa99b465da4552c6;kinnala <kinnala@users.noreply.github.com>;1776476195;"Merge 8754a1cc80dd033344931c861d5e685b2142797e into 4315b1eed201ae56009276b5fd1862f9bb28ac86
+"
+post;kinnala_scikit-fem;abb4f1c2e1045ea27e037ecf9690003c4e0f1def;kinnala <kinnala@users.noreply.github.com>;1776476197;"Merge a1435dacbe661463205f29aa077585b699ea1b95 into 4315b1eed201ae56009276b5fd1862f9bb28ac86
+"
+post;kinnala_scikit-fem;b0001890d799a3d57ce8cab7596ed24f2f28b3a7;kinnala <kinnala@users.noreply.github.com>;1776514139;Apply suggestion from @kinnala
+post;kinnala_scikit-fem;2db76a0ba36006bc91dc0345fcde8e3e67335d09;kinnala <kinnala@users.noreply.github.com>;1776514167;Apply suggestion from @kinnala
+pre;nanograv_enterprise;53a258b4d7d065bfcf4a8ccdbbf7e5a58dfb10ff;Rutger van Haasteren <vhaasteren@gmail.com>;1743507476;"Merge branch 'master' into dev
+"
+pre;nanograv_enterprise;49180ccdbc864ab003610f8aaa84166e3b356d88;Rutger van Haasteren <vhaasteren@gmail.com>;1743507509;"Merge branch 'dev' into mockpulsar
+"
+pre;nanograv_enterprise;617ce9d71b9d8de6019c83fdbd87ba29a71ce85e;Rutger van Haasteren <vhaasteren@gmail.com>;1743507524;"Merge branch 'dev' into fft-interp
+"
+pre;nanograv_enterprise;82c09596477d1d6bead754fac1a777f79e6b083c;Rutger van Haasteren <vhaasteren@gmail.com>;1744224800;"FIXED: missing components in gp_priors
+"
+pre;nanograv_enterprise;3fdd91315a71c5fd6d8f95379a797c02b2f94936;Rutger van Haasteren <vhaasteren@gmail.com>;1745210325;"Updated fastshermanmorrison version
+"
+pre;nanograv_enterprise;98d45618339ca72a36805d94207f23493ca54dac;Rutger van Haasteren <vhaasteren@gmail.com>;1745263705;"Updated the white kernels. No unit tests yet
+"
+pre;nanograv_enterprise;318ff4d3786e07c5e8933d6768b04fd0373de7bc;Rutger van Haasteren <vhaasteren@gmail.com>;1745329159;"Updated required fastshermanmorrison to v0.5.2
+"
+pre;nanograv_enterprise;70cdfffaa23d19b3bc2bc5eba083c5cbcb4ab40c;Rutger van Haasteren <vhaasteren@gmail.com>;1745842338;"Linting
+"
+pre;nanograv_enterprise;92db6897c57d454c45cc7451ee52c7eb2d4aa415;Rutger van Haasteren <vhaasteren@gmail.com>;1745906052;"Added sqrtsolve unit tests
+"
+pre;nanograv_enterprise;9264b2c6b4653dcf18e13ca6a2a8dd4f858f5f69;Rutger van Haasteren <vhaasteren@gmail.com>;1745906121;"Updated required fastshermanmorrison
+"
+post;nanograv_enterprise;f61939649a8e429932058d44c1f0741c9fe251d5;Jeremy Baier <jgbaier28@gmail.com>;1754496589;"add flat powerlaw
+"
+post;nanograv_enterprise;ac4f38a2b09d6d01ba1694d77fe5d932d68c276f;Jeremy Baier <jgbaier28@gmail.com>;1754497445;"run black
+"
+post;nanograv_enterprise;cf6003e14dd52cb5086b65d16ce35038b7fa2b54;Jeremy Baier <jgbaier28@gmail.com>;1754499439;"reformat w/ correct version of black
+"
+post;nanograv_enterprise;ae8c80c93e0b8f14957ad6c32c2691d47715fc0b;Jeremy Baier <jgbaier28@gmail.com>;1754500494;"add unit test for flat powerlaw
+"
+post;nanograv_enterprise;3a6da88ac25e92be9d8c7366d886f7d9331761ae;Jeremy Baier <jgbaier28@gmail.com>;1754500870;"reformat unit tests for gp_priors.py
+"
+post;nanograv_enterprise;daafece62977abf6f46306ebcce696f8dade70d7;Aaron <Aaron9034@Hotmail.com>;1755095055;"Merge pull request #423 from jeremy-baier/bug-fix/jgb-flat-powerlaw
+
+Bugfix: add flat powerlaw to gp_priors.py"
+post;nanograv_enterprise;8b9099b1b4b6b53e46a2668a9d64f62525ff579a;Aaron <Aaron9034@Hotmail.com>;1755095436;"Merge pull request #418 from vhaasteren/fix_prior_components
+
+Fix prior components"
+post;nanograv_enterprise;c4b1b2c1d5cf79fba8d7e97b4c47e33e4eee631c;Pat Meyers <45089105+meyers-academic@users.noreply.github.com>;1755784615;"Merge ced9fe6b1e0a106e245373bff975bcad51b59efb into 8b9099b1b4b6b53e46a2668a9d64f62525ff579a
+"
+post;nanograv_enterprise;54878cde9bcdc81abe6ca69fc15fa07272bb1809;Rutger van Haasteren <vhaasteren@gmail.com>;1757341819;" Changed knots -> nodes for FFTInt method
+"
+post;nanograv_enterprise;36682467f5c12b282a50495f02c70ff34ad1ebb8;Rutger van Haasteren <3092444+vhaasteren@users.noreply.github.com>;1759919659;"Merge pull request #411 from vhaasteren/fft-interp
+
+Linear interpolated FFT-based time-correlated signals"
+pre;nsidc_mapxmaps;dfed0067519630520ee703f81562e19113b4e9a6;scott_lewis_nsidc <scott.lewis@nsidc.org>;1567193540;"Cleaning up README indentation and bad links
+"
+pre;nsidc_mapxmaps;c54cb4583438ba4da67746fa67b2acd48d80afdd;scott_lewis_nsidc <scott.lewis@nsidc.org>;1567193887;"Updating
+"
+pre;nsidc_mapxmaps;424bb8e9b49fd6776efc65d6ac2cb781d23ce2dd;scottsnsidc <scotts@nsidc.org>;1567635102;"Merged in remove_offEarth_500mMODIS_gpd_files (pull request #3)
+
+Remove MODIS 500m tile gpd files with no on-Earth grid cells
+
+Approved-by: MJ Brodzik <brodzik@nsidc.org>
+"
+pre;nsidc_mapxmaps;3666714bc35466af5ec0dbc03ba8407f74992187;Scott Lewis <scott.lewis@nsidc.org>;1567635207;"Merge branch 'master' of https://github.com/nsidc/mapxmaps
+"
+pre;nsidc_mapxmaps;ab5bd89d869db2d228a8186a0dd90f6a27ab4d6b;Scott Lewis <scott.lewis@nsidc.org>;1567635594;"Merge branch 'master' of github.com:nsidc/mapxmaps into github-port
+"
+pre;nsidc_mapxmaps;e21ec28696af77c9ecf34458997cc11ee866a102;Scott Lewis <scott.lewis@nsidc.org>;1567703653;"Adding more documantation, reformatting README
+"
+pre;nsidc_mapxmaps;7c373cdbb1b94348b79e2a578e0b52d7ab8594a7;Scott Lewis <scott.lewis@nsidc.org>;1567705424;"Adding more sections per template
+"
+pre;nsidc_mapxmaps;ceb134a6672e191c96b2e4e8e7cbf3a3f86b79f1;Scott Lewis <scott.lewis@nsidc.org>;1567705520;"Typo
+"
+pre;nsidc_mapxmaps;1743bedaf12dd634086a161e349d51f73be2d0e9;Scott Lewis <scott.lewis@nsidc.org>;1568238905;"Redoing PPGC link
+"
+pre;nsidc_mapxmaps;da45d18857aa1bcff81c205ec543ac29b41fe78e;Scott Lewis <scott.lewis@nsidc.org>;1568238937;"Merge pull request #1 from nsidc/github-port
+
+Refactoring documentation."
+post;nsidc_mapxmaps;5400f9c57e940c4f3be3725e96738c0cf091e0e2;Hannah Wilcox <hannah.wilcox@nsidc.org>;1737580205;"Content changes per NASA direction received on 1/22/2025, per Executive Order on 1/20/2025 (https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/)
+"
+pre;pyushkevich_itksnap;eae2d974581fca511443fee127bd57a1a4d768ca;pyushkevich <pyushkevich>;1287524466;"Release date and notes update
+"
+pre;pyushkevich_itksnap;e86c6f56769c75b45405956321ae05a673f613a9;pyushkevich <pyushkevich>;1287533764;"Upload code update
+"
+pre;pyushkevich_itksnap;98193e2fc8f935823bf1a7a341cbe884859d4d16;pyushkevich <pyushkevich>;1287538992;"Upload code update
+"
+pre;pyushkevich_itksnap;a3979de73329350031abb939ebfd8f6a4595e6e9;pyushkevich <pyushkevich>;1287539299;"Upload code update
+"
+pre;pyushkevich_itksnap;8e11179f6c9fb89b300afc62a9b6d643484d6138;pyushkevich <pyushkevich>;1287539981;"Upload code update
+"
+pre;pyushkevich_itksnap;3da9f72331ac219ebd75409d800ae2d4ed5ae038;pyushkevich <pyushkevich>;1287541940;"Upload code update
+"
+pre;pyushkevich_itksnap;260827866d0ad53fd573bf7273241aec88b8da25;pyushkevich <pyushkevich>;1287589002;"Updated version, fixed README, etc
+"
+pre;pyushkevich_itksnap;8ad89785a28268e45cdd7ee1c8cd785a43518b84;pyushkevich <pyushkevich>;1287827509;"Added option for FLTK 1.1 build
+"
+pre;pyushkevich_itksnap;0d23be16c165b165f35dd7b7c7927793f918506e;pyushkevich <pyushkevich>;1287828044;"Added option for FLTK 1.1 build
+"
+pre;pyushkevich_itksnap;849dd07bb0da4d5fa63ae49f0987ed56d94c112f;pyushkevich <pyushkevich>;1287829601;"Added option for FLTK 1.1 build
+"
+post;pyushkevich_itksnap;83c47615966b801cb7de6cabfb6adcb7045a277d;pyushkevich <pyushkevich>;1303139167;"Added keystroke for changing colormaps
+"
+post;pyushkevich_itksnap;fe745566534518dc47b64b335684be70d161499c;pyushkevich <pyushkevich>;1303148130;"Fixed bug 3288963, problems with bubble initialization
+"
+post;pyushkevich_itksnap;7320084e98596d3961a23de0baec4f704535428b;pyushkevich <pyushkevich>;1303149320;"Fixed bug 3243462. We can now save the mesh in SNAP (level set) mode
+"
+post;pyushkevich_itksnap;22f24afceea951e3313d6bd360c69e30b0ff74bd;pyushkevich <pyushkevich>;1303149428;"Fixed bug 3172058, a typo in 'sagittal'
+"
+post;pyushkevich_itksnap;81af888e5ca5b0721b2839958b0b301d4bf996eb;pyushkevich <pyushkevich>;1303154569;"Fixed font issues on Linux with XFT
+"
+post;pyushkevich_itksnap;b557eef69bd842d2dcb1083848083e6fd84d4866;pyushkevich <pyushkevich>;1304453472;"version number changed to 2.2
+"
+post;pyushkevich_itksnap;5b0895e9440586e5fbe0e25e3667ab48b8ac0aa9;pyushkevich <pyushkevich>;1304521307;"fix for fltk 1.3 on windows
+"
+post;pyushkevich_itksnap;3a0b2eb118088d2e312e6d7d3a888ba7e8be5b91;pyushkevich <pyushkevich>;1304522742;"Fixes to build with fltk 1.3.0rc3
+"
+post;pyushkevich_itksnap;b33255851959246ca25b332ddc620846d8b68756;pyushkevich <pyushkevich>;1304544117;"update release notes
+"
+post;pyushkevich_itksnap;68694ca7e420913c13a75fa75b8ee51b709b9d41;Paul Yushkevich <pyushkevich@gmail.com>;1316439479;"Checked in the QT branch that I've been working on out of SCV
+"
+pre;sandialabs_pecos;ddfe2cc731750ba3939f85a1d5dc878cac540b7d;Katherine Klise <kaklise@sandia.gov>;1649713393;"Initialize dtype, change get_loc to get_indexer
+"
+pre;sandialabs_pecos;ffeb7ceb1a59aaa36504b72e00217919771e8e65;Katherine Klise <kaklise@sandia.gov>;1649713784;"Changed display column width to use None instead of -1
+"
+pre;sandialabs_pecos;a86844877ee3c0592bd0f4a510a31f0377ea86e1;Katherine Klise <kaklise@sandia.gov>;1649713852;"Changed pandas append to concat
+"
+pre;sandialabs_pecos;93f24d091a1c2d1c2135bde309bdd3d1c3d218db;Katherine Klise <kaklise@sandia.gov>;1649713893;"Updated to catch to_sql return value, number of rows
+"
+pre;sandialabs_pecos;abb6d5a547d916f6d1f6d72138d7c93ec5e80baa;Katherine Klise <kaklise@sandia.gov>;1649713918;"update tests and docs to use 3.9
+"
+pre;sandialabs_pecos;2958f5a8f50475e3affc3b0fc745fc0dc82f7476;Katherine Klise <kaklise@sandia.gov>;1649713974;"Merge branch 'main' of https://github.com/sandialabs/pecos
+"
+pre;sandialabs_pecos;761489281adbe07494f9a5fd2d6f2a74432245fa;Katherine Klise <kaklise@sandia.gov>;1649714713;"updated release notes
+"
+pre;sandialabs_pecos;76086b54bd0d5a7bdbdb4cfcbccf6766069ce37c;Katherine Klise <kaklise@sandia.gov>;1649715783;"API doc update
+"
+pre;sandialabs_pecos;cec60418fab9d4dec485d378e328172a31d7aa61;Katherine Klise <kaklise@sandia.gov>;1649715972;"minor update
+"
+pre;sandialabs_pecos;3f62dd28ac146e794d1ce50b3d40107e234b0538;Katherine Klise <kaklise@sandia.gov>;1649872940;"Merge pull request #74 from kaklise/main
+
+Minor updates to address pandas and yaml depreciation warnings"
+post;sandialabs_pecos;e222810a80d4315566473e93f1568b548ae6f524;Katherine Klise <kaklise@sandia.gov>;1690912667;"update pandas method is_monotonic to is_monotonic_increasing
+"
+post;sandialabs_pecos;4c2b66901003bcdb0bf1668daa6293bb429d0f17;Katherine Klise <kaklise@sandia.gov>;1690912786;"update pandas use of read csv and removed use of nose
+"
+post;sandialabs_pecos;f3c4f23079c7fddf93db9173f5cc4e29c9e26734;Katherine Klise <kaklise@sandia.gov>;1690912808;"update for pandas  grouby and removed use of nose
+"
+post;sandialabs_pecos;440091c80ee5e915f2cc8d24079100e6dc2e12a3;Katherine Klise <kaklise@sandia.gov>;1690912878;"updated tests to use unittest instead of nose
+"
+post;sandialabs_pecos;16ce295d7b2a845d0feec926d9952ef076378fa2;Katherine Klise <kaklise@sandia.gov>;1690912905;"added doc and testing packages to requirements
+"
+post;sandialabs_pecos;03136fda73d2066cca665c5fff1e6468429f5119;Katherine Klise <kaklise@sandia.gov>;1690912922;"update version number
+"
+post;sandialabs_pecos;4b47e49ad8ebafffb7a2f0fea0ce34df4b2818f4;Katherine Klise <kaklise@sandia.gov>;1690914531;"updated quick test to use pytest
+"
+post;sandialabs_pecos;2420da8091afc1ea5e92252e0bf6f90ca76aa7d2;Katherine Klise <kaklise@sandia.gov>;1690915266;"update docs and release notes
+"
+post;sandialabs_pecos;b9f68e1c3942586efd1205e7fa9b908e05b1ba1b;Katherine Klise <kaklise@sandia.gov>;1690915282;"update build workflow
+"
+post;sandialabs_pecos;a53e2da6149d22d1e2ffb3651a784d8cfe24e068;Katherine Klise <kaklise@sandia.gov>;1690915805;"update build workflow
+"
+pre;sicara_tuto-fsl;2364caefb8dcf5789a9cc5dc50e0ab80b431673d;etienne <etienne.bennequin@gmail.com>;1622101515;"Add tieredImageNet to README
+"
+pre;sicara_tuto-fsl;c0febdcee1e738dff05017b12305c2bef91996fe;etienne <etienne.bennequin@gmail.com>;1622478599;"Add RGB conversion in EasySet's getitem
+"
+pre;sicara_tuto-fsl;8eeca0b2bae377caa3ba86ecc9046a1131a26a2d;Etienne Bennequin <45969336+ebennequin@users.noreply.github.com>;1622531994;"Merge pull request #10 from sicara/tiered-imagenet
+
+Add Tiered imagenet support"
+pre;sicara_tuto-fsl;ef511a539856473ddefe18f260a9905932a3d4a9;etienne <etienne.bennequin@gmail.com>;1622535872;"Update README
+"
+pre;sicara_tuto-fsl;95bdd4affd2f58e904495689893dc5ce4552c937;etienne <etienne.bennequin@gmail.com>;1622535876;"Bump version: 0.1.0 → 0.2.0
+"
+pre;sicara_tuto-fsl;838762863f5798cf6d14cc9672d40c1a36f25206;Etienne Bennequin <45969336+ebennequin@users.noreply.github.com>;1622536465;"Merge pull request #11 from sicara/release/O.2.0
+
+Release 0.1.0 => 0.2.0"
+pre;sicara_tuto-fsl;13cf559b48f8c71d297a9946871bf034f3eca344;etienne <etienne.bennequin@gmail.com>;1623676262;"Fix call to validate in AbstractMetaLearner.fit()
+"
+pre;sicara_tuto-fsl;c4b0fda3d5bcec90284c0b50b4c5b488c8ce57d0;etienne <etienne.bennequin@gmail.com>;1623676982;"Replace unittest mocks by pytest mocks
+"
+pre;sicara_tuto-fsl;966bf342faefa1ccc5a46462f3fbaf6235b16fe0;etienne <etienne.bennequin@gmail.com>;1623677561;"Bump version: 0.2.0 → 0.2.1
+"
+pre;sicara_tuto-fsl;afb315589c42ea9380f908380b46b5cb3a200dad;Etienne Bennequin <45969336+ebennequin@users.noreply.github.com>;1624350626;"Merge pull request #12 from sicara/fix-validation
+
+Fix call to validation during training (0.2.0 => 0.2.1)"
+post;sicara_tuto-fsl;822750c49854cf78339b12df88b86aa5354cb5cf;ebennequin <etienne.bennequin@gmail.com>;1636447804;"Fix best validation accuracy update
+"
+post;sicara_tuto-fsl;580f329e68877bf19ada2169948773e8fff28b27;ebennequin <etienne.bennequin@gmail.com>;1636447894;"Sort data instances for each class in EasySet
+"
+post;sicara_tuto-fsl;e139c2417911dafbc5f91efb0b51f2f983522025;ebennequin <etienne.bennequin@gmail.com>;1636448085;"Move switch to train mode inside fit_on_task()
+"
+post;sicara_tuto-fsl;a392aa5ec8de3ac229201df43929ffe0861d1329;ebennequin <etienne.bennequin@gmail.com>;1636448565;"Add citation file
+"
+post;sicara_tuto-fsl;45b50812d3472371842c54ac53f275c8cea1ff65;ebennequin <etienne.bennequin@gmail.com>;1636448801;"Make AbstractMetaLearner.fit() return average loss
+"
+post;sicara_tuto-fsl;0da16ebf458f53487012ccb5e068e1e26041cb9a;ebennequin <etienne.bennequin@gmail.com>;1636449303;"Add EasySet.number_of_classes()
+"
+post;sicara_tuto-fsl;d3c6334ed725d74727904ce8c409d349bcbf5de8;ebennequin <etienne.bennequin@gmail.com>;1636449956;"Fix python version in CI linter
+"
+post;sicara_tuto-fsl;0679b8c916bae77fa5865b071a3a1ba25ba91512;ebennequin <etienne.bennequin@gmail.com>;1636450966;"Fix linter version
+"
+post;sicara_tuto-fsl;6a4e8dab2b1dbd7e6a63511ad3f9b7156680b549;ebennequin <etienne.bennequin@gmail.com>;1636456170;"Bump version: 0.2.1 → 0.2.2
+"
+post;sicara_tuto-fsl;13221f94ec454fad5341542b67987779f655f15f;Etienne Bennequin <45969336+ebennequin@users.noreply.github.com>;1636470392;"Small fixes in EasySet and AbstractMetaLearner
+
+* Fix best validation accuracy update
+
+* Sort data instances for each class in EasySet
+
+* Move switch to train mode inside fit_on_task()
+
+* Add citation file
+
+* Make AbstractMetaLearner.fit() return average loss
+
+* Add EasySet.number_of_classes()
+
+* Fix python version in CI linter
+
+* Fix linter version
+
+* Bump version: 0.2.1 → 0.2.2"
+pre;turinglang_bijectors.jl;e24fa542b1ca4c4ef6b3938dad712561862cf3c0;mohamed82008 <mohamed82008@gmail.com>;1551593549;"fix Turing issue 700
+"
+pre;turinglang_bijectors.jl;d4ddabedc20322bbee3d412779498168392579f6;Hong Ge <hg344@cam.ac.uk>;1551720758;"Merge pull request #22 from TuringLang/mt/fix_turing_700
+
+Fix Turing issue 700"
+pre;turinglang_bijectors.jl;4a28f10e62e7894e6277aa0dc1b10155c1a5613d;mohamed82008 <mohamed82008@gmail.com>;1554557192;"add toml files
+"
+pre;turinglang_bijectors.jl;4254b84c07fdcade1b9f88c23bc2977db33985aa;Mohamed Tarek <mohamed82008@gmail.com>;1554557513;"Merge 4a28f10e62e7894e6277aa0dc1b10155c1a5613d into d4ddabedc20322bbee3d412779498168392579f6
+"
+pre;turinglang_bijectors.jl;e88833b4f1a5609738025511e35ece3824086292;Hong Ge <hg344@cam.ac.uk>;1555497309;"Merge pull request #23 from TuringLang/mt/toml_files
+
+Adds Project and Manifest toml files"
+pre;turinglang_bijectors.jl;b40fa4be05e90b44c60bae9d15270eca8508b649;Hong Ge <hg344@cam.ac.uk>;1555497392;Update Project.toml
+pre;turinglang_bijectors.jl;1714301d37d2c46c6e28bd621f5cf59b8855056e;Hong Ge <hg344@cam.ac.uk>;1555497521;Update .travis.yml
+pre;turinglang_bijectors.jl;3800a9380f73679d09332a6848ea8b5892ab813c;mohamed82008 <mohamed82008@gmail.com>;1555500248;"update Manifest file
+"
+pre;turinglang_bijectors.jl;ed45d7ca39805d4c4383be1f3f0ce291638696d1;Mohamed Tarek <mohamed82008@gmail.com>;1555502014;"Merge pull request #25 from TuringLang/mt/update_manifest
+
+Update Manifest file"
+pre;turinglang_bijectors.jl;872d1d9f11e2711d7283819d675712cc377ecbf9;Hong Ge <hg344@cam.ac.uk>;1555505405;Delete Manifest.toml
+post;turinglang_bijectors.jl;839c882d4f79baf6d314ad3592041a8880c562c2;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562617604;"initial implementation of new interface
+"
+post;turinglang_bijectors.jl;65fce15ba3e9d480b5943e2a1108ea59831fc84e;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562619518;"fixed the testing
+"
+post;turinglang_bijectors.jl;0be22a656dc81d1ef8558b2f537b96ca6229dc5a;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562623462;"now adheres to the style guide
+"
+post;turinglang_bijectors.jl;16d83aa35bf1a4fdb6d2c13d7345b8354f4c66dd;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562624029;"cant have type templates on next line...
+"
+post;turinglang_bijectors.jl;4c90e1efcaa01490d88deb3b119a3648bc876508;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562786151;"made more similar to the interface suggested by @xukai92
+"
+post;turinglang_bijectors.jl;c182b1ff0bfb3791161e5c460712b08e72de9064;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562786391;"fixed typo in error message
+"
+post;turinglang_bijectors.jl;52b5deb95a1594cad122f7726f7d163599a51ca0;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562788702;"added composition of Bijectors
+"
+post;turinglang_bijectors.jl;88c681d9fc5ca14ff74fee8880f6fa0c4e31e9a0;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562851190;"improved composing compositions and added overloading of circ
+"
+post;turinglang_bijectors.jl;b413972901a47d3cdcbb09e804598cb9fda015cc;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562853367;"composition with its own inverse now results in Identity
+"
+post;turinglang_bijectors.jl;aa657232fe38a50ec096acec48f37cddc49eb83b;tor.erlend95@gmail.com <tor.erlend95@gmail.com>;1562853628;"made a constant IdentityBijector
+"

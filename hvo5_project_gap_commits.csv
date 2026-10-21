@@ -1,0 +1,192 @@
+pre_post;project_wocid;commit_sha1;author;time;commit message
+pre;juliaastro_astrolib.jl;fd252646572b02c573c32f6aa68f3f781b77d332;Documenter.jl <documenter@juliadocs.github.io>;1661545248;build based on c846e86
+pre;juliaastro_astrolib.jl;446ce40cf7915c93e9ec7abc60455352e003728d;Morten Piibeleht <morten.piibeleht@gmail.com>;1664309016;Remove Coveralls.io badge from README
+pre;juliaastro_astrolib.jl;645db897318735bfb44926fface76a111c46403a;Jadon Orr <jadonorr01@gmail.com>;1664570484;fix mars mass and period
+pre;juliaastro_astrolib.jl;d87a01a9ac9d2b278ea38fdcdc1783a3f6802ad0;Miles Lucas <mdlucas@hawaii.edu>;1665289662;Merge pull request #78 from jjor2/incorrect-mars-constants
+pre;juliaastro_astrolib.jl;49aa321298affe5727ceab66f35edc9a3db586a6;Miles Lucas <mdlucas@hawaii.edu>;1665289686;bump project version
+pre;juliaastro_astrolib.jl;826e5d81062e007bd88a14f901836de82ea576d7;Miles Lucas <mdlucas@hawaii.edu>;1665289713;Merge pull request #77 from mortenpi/patch-1
+pre;juliaastro_astrolib.jl;67768b7997842e65db5b357c85a7dc690e4bbd3e;Documenter.jl <documenter@juliadocs.github.io>;1665289755;build based on d87a01a
+pre;juliaastro_astrolib.jl;07544d774dabe91a85ad42024a029e5d4a18a1ca;Documenter.jl <documenter@juliadocs.github.io>;1665289782;build based on 826e5d8
+pre;juliaastro_astrolib.jl;2d4c98a040231f108d4e3ec74984f54e42bebde1;Documenter.jl <documenter@juliadocs.github.io>;1665290586;build based on 826e5d8
+pre;juliaastro_astrolib.jl;3a3cf1850da0e3cd2284c7849fe95946b4950b7c;Pavel V. Dimens <pdimens@live.com>;1665496898;Merge 46549086ce30b8c530c266ff3f85cb9611c0050c into 826e5d81062e007bd88a14f901836de82ea576d7
+post;juliaastro_astrolib.jl;f7bcb2b804d874661cee8e91db5769302be42de5;Henrik Wolf <49985053+SuperGrobi@users.noreply.github.com>;1693483555;Update sunpos.jl
+post;juliaastro_astrolib.jl;9f4e7c934d4f8d3a73aa77611a79c338590fdfa0;Henrik Wolf <49985053+SuperGrobi@users.noreply.github.com>;1693485914;Fix `sunpos` docstring not attaching (#81)
+post;juliaastro_astrolib.jl;2d117fff1e1c390ed988cec7aaae5d2e2530f24d;Documenter.jl <documenter@juliadocs.github.io>;1693486020;build based on 9f4e7c9
+post;juliaastro_astrolib.jl;b331d862cba359b0b44b4a52bc18c6c75c1fe321;Mosè Giordano <mose@gnu.org>;1693486688;Improve inferrability of `lsf_rotate` in Julia v1.10+
+post;juliaastro_astrolib.jl;4cd6c1656d742e3a1a914a1ca14999cc4b71ec02;Mosè Giordano <giordano@users.noreply.github.com>;1693487303;Improve inferrability of `lsf_rotate` in Julia v1.10+ (#82)
+post;juliaastro_astrolib.jl;f095a31575ad1d89c3dc8ad2442e0ecbee0512a2;Documenter.jl <documenter@juliadocs.github.io>;1693487412;build based on 4cd6c16
+post;juliaastro_astrolib.jl;27e9f9ac3c6f0c807f3a3bceaa552f4cb64e64a7;Pavel V. Dimens <pdimens@live.com>;1696944208;Merge 46549086ce30b8c530c266ff3f85cb9611c0050c into 4cd6c1656d742e3a1a914a1ca14999cc4b71ec02
+post;juliaastro_astrolib.jl;01c241726672dc680fddb1fde0ec482eef7e1df1;Abhro <5664668+abhro@users.noreply.github.com>;1714451255;Fix star name by moving HD to newline Markdown was reading HD<newline>119288., where 119288. was read as the start of an ordered list.
+post;juliaastro_astrolib.jl;f2a67f5995d1200838d2105edb8356fcc7979f69;Abhro <5664668+abhro@users.noreply.github.com>;1714510815;Fix lists and unicode in docstrings Adjust markdown in docstrings so that lists are grouped properly, the unicode characters render properly for REPL help, and for sunpos(), use the actual default value for radians.
+post;juliaastro_astrolib.jl;4164672d3dc58a74655fc8b04cac23c289a6ac99;abhro <5664668+abhro@users.noreply.github.com>;1714744749;Add newline to src/sunpos.jl Co-authored-by: Mosè Giordano <giordano@users.noreply.github.com>
+pre;cra-ros-pkg_robot_localization;4f194af7af8aad724375caca799227f44cca0951;Enzo Ghisoni <33607172+EnzoGhisoni@users.noreply.github.com>;1744300985;Add a Parameters Callback to set magnetic_declination_radians at runtime (#920) * Add a Parameters Callback to be able to set magnetic_declination_radians value at runtime.
+pre;cra-ros-pkg_robot_localization;89d92a94427d48664e642eaffdb116c186213ba8;Enzo Ghisoni <33607172+EnzoGhisoni@users.noreply.github.com>;1744300985;Add a Parameters Callback to set magnetic_declination_radians at runtime (#920) * Add a Parameters Callback to be able to set magnetic_declination_radians value at runtime.
+pre;cra-ros-pkg_robot_localization;a78942ddc5a74a280067f67edd6449028fc36c4b;Enzo Ghisoni <33607172+EnzoGhisoni@users.noreply.github.com>;1744300985;Add a Parameters Callback to set magnetic_declination_radians at runtime (#920) * Add a Parameters Callback to be able to set magnetic_declination_radians value at runtime.
+pre;cra-ros-pkg_robot_localization;5d78e8654025c818585113c51e377354b012d323;Tom Moore <tmoore@locusrobotics.com>;1747295954;Fixing deprecated tf2 headers
+pre;cra-ros-pkg_robot_localization;151ab477003164b79f0440f2a7f95c5d3274e0c3;Tom Moore <tmoore@locusrobotics.com>;1747300381;Fixing deprecated tf2 headers (#926)
+pre;cra-ros-pkg_robot_localization;7150615384900b423777d0cf128755883baff838;Tom Moore <tmoore@locusrobotics.com>;1747326309;Fixing more tf2 headers
+pre;cra-ros-pkg_robot_localization;109cc53dc17f9674feffc1714c21e876efa45773;Tom Moore <tmoore@locusrobotics.com>;1747641987;Changelogs
+pre;cra-ros-pkg_robot_localization;59ec99532d875e2808ab8735a6e56de1afd3ade1;Tom Moore <tmoore@locusrobotics.com>;1747641995;3.9.3
+pre;cra-ros-pkg_robot_localization;319bbdcb7c4827ab8d9c3029a796f29bf99f9342;Karl Schulz <karl@angsa-robotics.com>;1748241583;Wait for setDatum call before processing incoming messages
+pre;cra-ros-pkg_robot_localization;bfe23c4dabdebdad37ed5a8d589d165a78bae45c;Karl Schulz <karl@angsa-robotics.com>;1748341151;Catch and fix race condition with fix arriving before TF is computed
+post;cra-ros-pkg_robot_localization;72386be4cbb2bd0777f6416039cb3fe16b742549;Aniket Bhushan <aniket.bhushan@rekise.com>;1754154458;add dummy log
+post;cra-ros-pkg_robot_localization;12034e4dc373cba91f31ba87f3187c9819c8885a;Ari <ari.s@bluewhite.ai>;1755199871;"Set ""enable"" and ""toggle"" services to be relative to the node's name"
+post;cra-ros-pkg_robot_localization;ed193df5c66097311942993c5f785c4ae09c8bb8;Sybren Kappert <s.kappert@riwo.eu>;1755254253;Improve baselink odom transform lookup
+post;cra-ros-pkg_robot_localization;aa58e4fd031e187af56cc6c1e0e8e1863e58cf28;Ari <ari.s@bluewhite.ai>;1755416105;"""toggle"" and ""enable"" services are now namespaced"
+post;cra-ros-pkg_robot_localization;e95ad8fc3d302dfa289c33f829f7e2a6a97fb9f4;Tim Clephas <tim.clephas@nobleo.nl>;1755512558;chore: tf2_ros to hpp headers Signed-off-by: Tim Clephas <tim.clephas@nobleo.nl>
+post;cra-ros-pkg_robot_localization;7f2477f86e459e72a81ff2a45afa1a6017b1c490;Tom Moore <tmoore@locusrobotics.com>;1755707695;Fixing off-diagonal covariance values in measurement
+post;cra-ros-pkg_robot_localization;46bd6a81a568ba98f6c6999c9111beabdefa9d37;Tom Moore <tmoore@locusrobotics.com>;1756283011;Fixing off-diagonal covariance values in measurement (#942)
+post;cra-ros-pkg_robot_localization;666a8ab1078c0a4b1fdc5503b915fa3af6b0bf74;Tom Moore <tmoore@locusrobotics.com>;1756283011;Fixing off-diagonal covariance values in measurement (#942)
+post;cra-ros-pkg_robot_localization;a85ff2650841fd77f3c5308b2947c2f2dd4e9d86;Tom Moore <tmoore@locusrobotics.com>;1756283011;Fixing off-diagonal covariance values in measurement (#942)
+post;cra-ros-pkg_robot_localization;d08300778d1bfd51c0edb6d3c0d4082783879b0c;Tom Moore <tmoore@locusrobotics.com>;1756283011;Fixing off-diagonal covariance values in measurement (#942)
+pre;hmri-group_hmri-toolbox;a1f658054fbf9e6fe68138849b138302103ba127;Christophe Phillips <c.phillips@ulg.ac.be>;1414596097;Adjusting calls (B1Mpa_process/B1Map_unwarp) for the previous function name change! git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@65 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+pre;hmri-group_hmri-toolbox;f49f3ab4137a2034050a2a84f6e14018d761b08c;Christophe Phillips <c.phillips@ulg.ac.be>;1414599102;Debugging when running things... git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@66 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+pre;hmri-group_hmri-toolbox;f2e2f29a98d8a6a5b65b3cd877a2fdc226e38f22;Christophe Phillips <c.phillips@ulg.ac.be>;1415008146;Adding a missing line... git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@67 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+pre;hmri-group_hmri-toolbox;cc4f7e43dee26d3b84420bcd8ea951185742847d;Christophe Phillips <c.phillips@ulg.ac.be>;1415201760;"Fixing bug in the generation of the dependency output. Just put it back as ti was in the ""original"" version of vout_preproc. git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@68 49fdaa88-a2c4-0410-847a-ac05bdbd63e5"
+pre;hmri-group_hmri-toolbox;45182a8d5eedc61ea13a03ccb1c64f882a9f025e;Christophe Phillips <c.phillips@ulg.ac.be>;1415375829;Fixing more small copy/paste bugs. git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@69 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+pre;hmri-group_hmri-toolbox;de250ffc0f471f03ec711868b2b5d5c27a07ea36;Christophe Phillips <c.phillips@ulg.ac.be>;1418144467;Removing the dcm2nii folder & functions. Prettifying the other 2 .m functions... git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@70 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+pre;hmri-group_hmri-toolbox;33285816d7e55db1cd478756210cc3e8f12f3014;Christophe Phillips <c.phillips@ulg.ac.be>;1418204365;Fixing 'check_entry' bug. Subfunction moved from cfg-file into run-file git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@71 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+pre;hmri-group_hmri-toolbox;67e1e3aac5d67ae16e49e2a159bea56a4b2a0d53;Christophe Phillips <c.phillips@ulg.ac.be>;1418315107;Fixing the defaults such that the standard FIL protocol show up in the Matlabbatch menu when 'FIL' is selected as a centre. Cleaning a little bit the MTProt routine: no need to re-initialize the matlabbach config every time. git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@72 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+pre;hmri-group_hmri-toolbox;767af212571435f32f2ceca9a5ba9c87fbe72021;Martina Callaghan <m.callaghan@ucl.ac.uk>;1418754875;Modifications to include processing for B1 mapping data acquired with v2b/d sequence versions, i.e. 11 pairs of SE/STE data. git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@73 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+pre;hmri-group_hmri-toolbox;74b6a31a86db85be2571d8f3ac91b42b96c3eec5;Christophe Phillips <c.phillips@ulg.ac.be>;1429696693;Fixing a little batch problem. the submenus 'create maps' and 'process maps' used to appear twice: in the VBQ menu and in the top toolbox menu. This was a 'feature' of SPM with files including *_cfg_* in their name. Fixed it by calling the submenus config file with *_scfg_* instead of *_cfg_* git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/branches/VBQ_SPM12_work@79 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+post;hmri-group_hmri-toolbox;e8310ce8d7675a6eed97882eadc36db8fc61ddf3;Martina Callaghan <m.callaghan@ucl.ac.uk>;1459241420;Same as v2e but with bug fix for sharing to output folder that isn't input folder. Tagging to release. git-svn-id: svn://bread.fil.ion.ucl.ac.uk/VBQ/VBQ/tags/VBQ_v2f@94 49fdaa88-a2c4-0410-847a-ac05bdbd63e5
+post;hmri-group_hmri-toolbox;6b92adff9a03041edec6744102d08d3f4836342f;Enrico Reimer <reimer@cbs.mpg.de>;1462488934;Initial commit
+post;hmri-group_hmri-toolbox;dee3b0bd2fb18c7012c4574daa1e44e8f033f12a;Enrico Reimer <reimer@cbs.mpg.de>;1462489817;Merge branch 'master' of https://github.molgen.mpg.de/VBQ-toolbox-group/hMRI-Toolbox into mmaster
+post;hmri-group_hmri-toolbox;3eddcf44777370a1232c0ed3e8556ee4998881c7;Enrico Reimer <reimer@cbs.mpg.de>;1462490343;Merge remote-tracking branch 'origin/FIL' into mmaster
+post;hmri-group_hmri-toolbox;e9b21e772eeee03d51e0669d5cabab301366d1c2;ebalteau <e.balteau@ulg.ac.be>;1462888930;Initial commit
+post;hmri-group_hmri-toolbox;e7e8b3ff7755ba59df363996455be985268ea711;ebalteau <e.balteau@ulg.ac.be>;1462913279;Initial commit Including: - reading and tidying DICOM header - read/write extended header - dicom to nifti conversion with extended header
+post;hmri-group_hmri-toolbox;4d5b7eca80671e459ba476a39a905f75b9cb79bb;vivelyne <vivelyne>;1465818390;hMRI - Import and Filters First version to be included in the root hMRI toolbox repository. Includes - DICOM to nifti conversion with extended header - read/write extended header functions - documentation
+post;hmri-group_hmri-toolbox;c6a4a9dfe8c1579bf80b878625eff68529546ee4;Enrico Reimer <reimer@cbs.mpg.de>;1468945287;"Revert ""Splitting the tbx_cfg_vbq.m configuration file into 2 separate ones: "" This reverts commit 801a96de0c32c8d999b4fbef3ce226c000d8384f. Conflicts: tbx_cfg_vbq.m tbx_scfg_vbq_crm.m tbx_scfg_vbq_proc.m"
+post;hmri-group_hmri-toolbox;51ad061d0c6ce9c5095b2535df9650944f343d26;Enrico Reimer <reimer@cbs.mpg.de>;1468945796;rename vbq_defaults.m and vbq_run_mpr_b0_b1.m to *_liege.m
+post;hmri-group_hmri-toolbox;ead254bd089a4f39e55b5c4425bb01322e66575e;Enrico Reimer <reimer@cbs.mpg.de>;1468946813;Merge branch 'liege' Conflicts: tbx_cfg_vbq.m vbq_defaults.m vbq_mpr_unicort.m vbq_run_mpr_b0_b1_liege.m
+pre;tdda_tdda;6981ef484d47e504cbe2647dc4f0e75dd875db2a;Nick Radcliffe <njr@StochasticSolutions.com>;1645652686;Add more gentest examples
+pre;tdda_tdda;179ced09e575db2a8767a7dd34180351c6c85ad5;Nick Radcliffe <njr@StochasticSolutions.com>;1645653783;Tweak gentest documentation and examples
+pre;tdda_tdda;704974f3b0a69aa976605bd40ed19901fa24f3ca;Nick Radcliffe <njr@StochasticSolutions.com>;1645654956;Final pre-2.0 commit on gentest. Added count of number of tests. Fixed problem with reported name of custom-named test script in summary. Added marketing slogan to help.
+pre;tdda_tdda;42a61372f6eeb8f5b814d68684f77d4b8ff075bd;Nick Radcliffe <njr@StochasticSolutions.com>;1645655263;Merge branch 'master' into gentest
+pre;tdda_tdda;0019aa75f900e8e1e3b9700822f65d1476c335da;Nick Radcliffe <njr@StochasticSolutions.com>;1645697605;Allow 1 iteration to be set in gentest wizard
+pre;tdda_tdda;d89f63d2034ea5e91d094dd0540b441ff3f8c0fa;Nick Radcliffe <njr@StochasticSolutions.com>;1645699294;.
+pre;tdda_tdda;ee4f4b5c7958814b1be2101a12d2a1aabcf88f59;Nick Radcliffe <njr@StochasticSolutions.com>;1645810676;Update TDDA machines image and CSS in doc
+pre;tdda_tdda;8faaa28d2a640a79fb874fb4389d963658d8c1b9;Nick Radcliffe <njr@StochasticSolutions.com>;1645811075;Tweak README
+pre;tdda_tdda;731dd2ee17e943ca53f7bfe1d63f1ddb4cc31d91;Nick Radcliffe <njr@StochasticSolutions.com>;1645830676;.
+pre;tdda_tdda;21a40bdf53ca77757007359b975acb6da9fc7c9c;Nick Radcliffe <njr@StochasticSolutions.com>;1645830712;.
+post;tdda_tdda;c95e1360aaf708a82dffd46cb2ee4eebbfc88441;Nick Radcliffe <njr@StochasticSolutions.com>;1676043817;Add missing gentest examples in setup.py
+post;tdda_tdda;70535c4aa922cce50b8896c2c3fbf7e441820b86;Nick Radcliffe <njr@StochasticSolutions.com>;1676043856;Update to version tdda-2.0.03
+post;tdda_tdda;3a62d2793b2e474a9c835bfc21918b1f5e46c617;Nick Radcliffe <njr@StochasticSolutions.com>;1676045490;Add pyproject.toml. Also update numpy and pandas versions and change setup.cfg to stop setuptools complaining.
+post;tdda_tdda;18f6d46100fc306af5bc2b71bc267f3a2c3ba617;Nick Radcliffe <njr@StochasticSolutions.com>;1676045646;.
+post;tdda_tdda;2daaef4bc3fdb03db639d788a2995e682d38c2e9;Nick Radcliffe <njr@StochasticSolutions.com>;1676045673;Update to version tdda-2.0.04
+post;tdda_tdda;70629e61493afccaad970b039679de457ea267e9;Nick Radcliffe <njr@StochasticSolutions.com>;1676048079;Add __init__.py to gentest
+post;tdda_tdda;cb08a6d26bfacfc60555b520153fdb2a0b2f522a;Nick Radcliffe <njr@StochasticSolutions.com>;1676048126;Update to version tdda-2.0.05
+post;tdda_tdda;35918a47a169cc768e2ffe6c7ded160368af764f;Nick Radcliffe <njr@StochasticSolutions.com>;1676050167;Add .readthedocs.yaml
+post;tdda_tdda;20241bbc975120200d056c3d67a7b68d04a8b688;Nick Radcliffe <njr@StochasticSolutions.com>;1676050194;Update to version tdda-2.0.06
+post;tdda_tdda;f562d29b8a0662020f63b2d40e5663e45e0ec07a;Nick Radcliffe <njr@StochasticSolutions.com>;1676050778;Fixes to .readthedocs.yaml
+pre;openspace_openspace;2bbb7996824313e96895725a7c3414174aa6dbd2;Alexander Bock <alexander.bock@liu.se>;1436726584;Updated ghoul version
+pre;openspace_openspace;995fff222b6338e1cd271b505c5505ded8d15a4c;Alexander Bock <alexander.bock@liu.se>;1436742956;Increase the font size of the time printing
+pre;openspace_openspace;5f370971d08276995cc87fb5def8b0133c361926;Alexander Bock <alexander.bock@liu.se>;1436957381;Merge branch 'develop'
+pre;openspace_openspace;5fcc8792a2bb86c124fb766880cb915ab857e6b4;Alexander Bock <alexander.bock@liu.se>;1437049929;Updated OpenSpace Version Rename capitalized include to non-capitalized
+pre;openspace_openspace;a59ed82ec56754a92df9facf10c9b1a726d24e04;Alexander Bock <alexander.bock@liu.se>;1437050391;Linux compile fix
+pre;openspace_openspace;0ed8a360717ecd24f9c60c7d57315a9d1279a753;Alexander Bock <alexander.bock@liu.se>;1437071862;Change from CheckCXXCompilerFlag to CXX_STANDARD
+pre;openspace_openspace;359b66b2ed792074732d1c21f7b9aff31a321c8f;Alexander Bock <alexander.bock@liu.se>;1437133837;Updated externals
+pre;openspace_openspace;8a573a7cb8322b507c5219119436db96b362c7a0;Alexander Bock <alexander.bock@liu.se>;1437134618;Added an icon to the OpenSpace executable
+pre;openspace_openspace;d104bd29ea1120e77a10ee100b1bc63447bdf8b4;Alexander Bock <alexander.bock@liu.se>;1437134772;Fix in CXX_STANDARD definition for modules in Apple and Unix
+pre;openspace_openspace;6801c4e9a90065f6f4856b2c89c25903945021e0;Alexander Bock <alexander.bock@liu.se>;1437135313;Continue using CheckCXXCompilerFlag on unix
+post;openspace_openspace;35e95b94e788308f91fb95460635496282981661;Alexander Bock <alexander.bock@liu.se>;1443996458;First version to update OpenSpace to the new SGCT version
+post;openspace_openspace;410e0137eb7e9c90368ac0aa9e5d8c67f188da24;Alexander Bock <alexander.bock@liu.se>;1443998169;Updated single_fisheye configuration file to use new SGCT format Correctly set clear color for nonlinear projections
+post;openspace_openspace;cb27e3777884be8cb679d461c745345e1e8940af;Alexander Bock <alexander.bock@liu.se>;1444048821;Fixes to make the new GLM version compatible
+post;openspace_openspace;d4da374c231fd879d8313330e92b3636af2b4b22;Alexander Bock <alexander.bock@liu.se>;1444337976;Reenable colored font rendering
+post;openspace_openspace;1ca4b9c285550a943fb06474e1caf9f8c7426270;Alexander Bock <alexander.bock@liu.se>;1444688144;Enable NOMINMAX compiler defintions in Windows on default
+post;openspace_openspace;f8f48acb98d86587293f042a23fb62a644d06937;Alexander Bock <alexander.bock@liu.se>;1445376640;Implementation of the windowhandler interface
+post;openspace_openspace;26ea512910d28f41cdc62a8aa37297d35e46ed09;Alexander Bock <alexander.bock@liu.se>;1445790461;Set Interaction sensitivity to 1 on default
+post;openspace_openspace;5456b5ee8539a464bc468c485ebcc4cd0e90d224;Alexander Bock <alexander.bock@liu.se>;1445799039;Started change moving from explicit SGCT functions to wrapper class
+post;openspace_openspace;d84edc40907df3dfae6d5ece0420b9bd4bda8d82;Alexander Bock <alexander.bock@liu.se>;1445812443;More work on transitioning to windowwrapper for keyboard and mouse interaction
+post;openspace_openspace;49dbb1ce2046de9d2e43e0a881f2614538074884;Alexander Bock <alexander.bock@liu.se>;1445869168;More work on converting to SGCT window handler Adapting to change in SGCT key callback handling
+pre;photon-hdf5_phconvert;de39ce49915c692b9d7b0939ae1240ed69ff3ebf;David Palmer <palmer@lanl.gov>;1559319813;bh_print_sys_params: update to python3 and other enhancements.
+pre;photon-hdf5_phconvert;90682e73ac856d8699b796d3e97e672a5e52feb8;Antonino Ingargiola <tritemio@gmail.com>;1559773663;Merge pull request #46 from dmopalmer/getitems_fix bh_print_sys_params: update to python3 and other enhancements.
+pre;photon-hdf5_phconvert;3a86e58f11f77e21c2a02a1d9453060db6811c9c;Antonino Ingargiola <tritemio@gmail.com>;1560200316;Add @dmopalmer to the contributor's list
+pre;photon-hdf5_phconvert;834d8fcf4e215540e863c41c0da1aa6079f7b378;ramenbytes <36470445+ramenbytes@users.noreply.github.com>;1588905347;Avoid copying data array when loading sm files Not sure if this is better or not. We still end up creating an array the same size as the file to write over again, though it is initialized with null bytes.
+pre;photon-hdf5_phconvert;88e45381b8a77686e75a077b7c29d664f1ed447c;ramenbytes <36470445+ramenbytes@users.noreply.github.com>;1590620627;Merge 834d8fcf4e215540e863c41c0da1aa6079f7b378 into 3a86e58f11f77e21c2a02a1d9453060db6811c9c
+pre;photon-hdf5_phconvert;15b8c041d644b8101fe6cb74cd5e1186d52f13e9;Laurence, Ted A <laurence2@llnl.gov>;1614194539;pt2
+pre;photon-hdf5_phconvert;cb42325c2ab2d123f2cd45cc1945b8624656f49b;ramenbytes <36470445+ramenbytes@users.noreply.github.com>;1616743835;Ensure h5file is closed if requested Callers of the save_photon_hdf5() can specify that they wanted the hdf5 file they passed in closed before returning. However, we performed validation before closing the file, and the validation can error out. If this happened, the file /would not be closed/. Not a bit deal if the user still had a hold on the file object and could close it themselves, but if they instead passed in just the file name then they were unable to close it themselves without somehow getting a hold of the object from python's global list of open files. This meant that they would need to restart the python process before they could try saving to the hdf5 file again. Now, we place the file closing logic in the clause of a finally: statement to ensure we always close it if the user wants us to.
+pre;photon-hdf5_phconvert;cfee89aa436a53d19b5a09520ca1e99c06522780;ramenbytes <36470445+ramenbytes@users.noreply.github.com>;1616745165;Merge cb42325c2ab2d123f2cd45cc1945b8624656f49b into 3a86e58f11f77e21c2a02a1d9453060db6811c9c
+pre;photon-hdf5_phconvert;23eb44f155967d406e5b0393fdc82270faafa97a;talaurence <laurence2@llnl.gov>;1620227922;Merge pull request #1 from talaurence/tl Testing Merging
+pre;photon-hdf5_phconvert;a684d6f044665196870bcff410b4eb522b081b85;talaurence <laurence2@llnl.gov>;1620229410;Merge 23eb44f155967d406e5b0393fdc82270faafa97a into 3a86e58f11f77e21c2a02a1d9453060db6811c9c
+post;photon-hdf5_phconvert;40ab1d5b484875438be798823f980e9162f08cee;Paul Harris <harripd@gmail.com>;1715605754;Update versioneer and add new ptu filetypes
+post;photon-hdf5_phconvert;71b71c6c0d4ca69c374c4129a56e8909b96917b2;Paul Harris <harripd@gmail.com>;1715695204;Switched to setuptools_scm
+post;photon-hdf5_phconvert;59b328e4f8ad33d9d6d994c02d7bbad4110c8280;Paul Harris <harripd@gmail.com>;1715772421;Fixed version detection and package data issues
+post;photon-hdf5_phconvert;b031aa137d592cab8e93be04526223018777b65a;Paul Harris <harripd@gmail.com>;1715772566;Added github workflows file (untested)
+post;photon-hdf5_phconvert;00d765d0dfce8d1186df8cbe0392ae836bd8b2b5;Paul Harris <harripd@gmail.com>;1715838650;Fixed yaml save in notebooks
+post;photon-hdf5_phconvert;1634ec24c30e8e421dd0d7be4d0654758615a836;Paul Harris <harripd@gmail.com>;1715840514;install pyyaml before running notebooks
+post;photon-hdf5_phconvert;e601ec7ae77eeac610afa4e8532194a80aca5f11;harripd <harripd@gmail.com>;1715840924;Update tests.yml
+post;photon-hdf5_phconvert;69b25749e1744f85e151480d4a3d4952015ae5fd;Paul Harris <harripd@gmail.com>;1715841917;Added workflow file
+post;photon-hdf5_phconvert;1c1a1855f8980601e15ac18570f285a0a371c81b;harripd <harripd@gmail.com>;1715842190;Update tests.yml
+post;photon-hdf5_phconvert;7a4e3da3890c39b5694a83d7714ca21925e4e669;harripd <harripd@gmail.com>;1715842261;Update tests.yml
+pre;nocions_letswave6;49444b6baaaeb96a9195dca3d55337c35e6963ca;Dounia Mulders <dounia.mulders@gmail.com>;1593336219;Update RLW_wilcoxon.m Corrected permutations for the rank-sum test.
+pre;nocions_letswave6;d80659353df1792ce3a9fe35ed28481c8cf96eab;fedeAR24 <arguissainfede@gmail.com>;1594107639;Merge pull request #180 from NOCIONS/master update
+pre;nocions_letswave6;8869fa7f54bdb387256e7d14f1869f2b2165e1a7;André Mouraux <andre.mouraux@uclouvain.be>;1606146181;update Neurone functions + minor bugfixes
+pre;nocions_letswave6;f8121bdfe512312647ce46a93f1849272f2d671f;André Mouraux <andre.mouraux@uclouvain.be>;1606146191;Merge branch 'master' of https://github.com/NOCIONS/letswave6
+pre;nocions_letswave6;37c783a42da24cd83290ab04a83d73271e4f86d0;André Mouraux <andre.mouraux@uclouvain.be>;1617205669;Allows a greater number of epochs for ST-FFT (Zhang)
+pre;nocions_letswave6;a91a3c80dcc5f59189a36a4f3662bb1b0c038723;André Mouraux <andre.mouraux@uclouvain.be>;1617951158;Update GLW_explore_SSEP.m Fix explore SSEP
+pre;nocions_letswave6;f07bf989895e47ce602a5e8eb2920ca61ab455f4;Espositogiulia <74269205+Espositogiulia@users.noreply.github.com>;1629726600;Create RLW_weighted_channel_average_template_2308_edit allows to enter different frequencies and averaging max responses
+pre;nocions_letswave6;ef5f9dd99794d42787eed470b2ac8b36c7816bf4;Espositogiulia <74269205+Espositogiulia@users.noreply.github.com>;1629726740;Merge f07bf989895e47ce602a5e8eb2920ca61ab455f4 into a91a3c80dcc5f59189a36a4f3662bb1b0c038723
+pre;nocions_letswave6;5b0bcf2fce32ff95a2c6c85a8674f6dbaf62c20a;André Mouraux <andre.mouraux@uclouvain.be>;1661784476;Update sub_tfa_stft.m
+pre;nocions_letswave6;1e42333d97ef67976d6a61d4128b4b1af895ad0e;Espositogiulia <74269205+Espositogiulia@users.noreply.github.com>;1674230495;Merge f07bf989895e47ce602a5e8eb2920ca61ab455f4 into 5b0bcf2fce32ff95a2c6c85a8674f6dbaf62c20a
+post;nocions_letswave6;60d3a2d02bccda2c47f37591a5f6b1947750ed7d;André Mouraux <andre.mouraux@uclouvain.be>;1752135472;Exploire ROI : added amplitude at CoG Add amplitude at CoG
+pre;flatsurf_flatsurf;a741ec012a2ae156ccde04c85a456af94b6153ad;Julian Rüth <julian.rueth@fsfe.org>;1681408989;Fix isomorphism() with Delaunay cells
+pre;flatsurf_flatsurf;c8bc5941e687d69827fb97cdc24aa23d3cf133f0;Julian Rüth <julian.rueth@fsfe.org>;1681439407;Fix doctests with deprecation warnings caused by pkg_resources
+pre;flatsurf_flatsurf;3e1ff4dac0fb0a2f61ba9d3a429c91a3fdb1a6f5;Julian Rüth <julian.rueth@fsfe.org>;1681441130;Stabilize output of doctest
+pre;flatsurf_flatsurf;30df5c9d5f9f9a7a15ed9b61535cbdf0849ac993;Julian Rüth <julian.rueth@fsfe.org>;1681444411;Merge pull request #328 from saraedum/isomorphism-cells Fix broken isomorphism detection with Delaunay cells
+pre;flatsurf_flatsurf;620d86ae27fc2ec1c3b91c67f163d69f03440181;asv bot <bot@flatsurf.org>;1681445350;record asv run
+pre;flatsurf_flatsurf;2076d7bff0d94757dd05e15df6d87e4a38d5bd81;saraedum <julian.rueth@fsfe.org>;1681445354;Deploying to gh-pages from @ 30df5c9d5f9f9a7a15ed9b61535cbdf0849ac993 🚀
+pre;flatsurf_flatsurf;b073d43c949bc2fee1002cfd2084a51a2e7070ae;Julian Rüth <julian.rueth@fsfe.org>;1681471233;bumped version to 3.13.3
+pre;flatsurf_flatsurf;b7a8e0e791bac13018bcec3c54eb9e38bb278081;Julian Rüth <julian.rueth@fsfe.org>;1681471233;Updated CHANGELOG for 3.13.3
+pre;flatsurf_flatsurf;bf4f207efb3007ec997484a21058291277357688;asv bot <bot@flatsurf.org>;1681472882;record asv run
+pre;flatsurf_flatsurf;dacea7f75cfbd8f1a68a2f00f4cda73c2e524e95;saraedum <julian.rueth@fsfe.org>;1681472885;Deploying to gh-pages from @ b7a8e0e791bac13018bcec3c54eb9e38bb278081 🚀
+post;flatsurf_flatsurf;4c2c2c5437fce6cc1c2679197fe5150c54d7c482;Julian Rüth <julian.rueth@fsfe.org>;1698650735;Merge branch 'master' into macos
+post;flatsurf_flatsurf;5e322c98632c0854515e4f65bc28513dbc6bab4c;Julian Rüth <julian.rueth@fsfe.org>;1698650776;Remove unused code
+post;flatsurf_flatsurf;4556695f56ef77b2f08a0ad93a76bb150eb91c05;Julian Rüth <julian.rueth@fsfe.org>;1698651260;Use pinning feedstock pins from conda-forge
+post;flatsurf_flatsurf;cbcbb83a1b916410625d09c0c4601d289502e843;Julian Rüth <julian.rueth@fsfe.org>;1698652129;Do not test for unsupported Python versions Python 3.7 had its end-of-life a few months ago
+post;flatsurf_flatsurf;4d0636b2203da9f32fce24eb59922accd436c84d;Julian Rüth <julian.rueth@fsfe.org>;1698652461;Remove unused include
+post;flatsurf_flatsurf;886ea4df1b50c2325e578249ae5f56b3c4350a2f;Julian Rüth <julian.rueth@fsfe.org>;1698652466;Merge 4d0636b2203da9f32fce24eb59922accd436c84d into b7a8e0e791bac13018bcec3c54eb9e38bb278081
+post;flatsurf_flatsurf;8b4ae9eed3a1aa7b0e4ff41f56ec447bcda72c1f;Julian Rüth <julian.rueth@fsfe.org>;1699947884;Merge 12d09c5dc3f76a745b96457adea6e2bf8fb7122b into b7a8e0e791bac13018bcec3c54eb9e38bb278081
+post;flatsurf_flatsurf;2a2a2a7b55fac105d9dc8bc27bdb3196b3320ee2;Julian Rüth <julian.rueth@fsfe.org>;1703899358;Allow building with fmt version 10
+post;flatsurf_flatsurf;6ab7aa68294dc6eca1528d7aec2716236ca5bdc3;Julian Rüth <julian.rueth@fsfe.org>;1703899560;Fix compiler warning
+post;flatsurf_flatsurf;61e206a736e44509db5994a1bd1636859004087c;Julian Rüth <julian.rueth@fsfe.org>;1703899933;Upgrade fmt pin
+pre;mano-b_microsec;1f2098f78eef63ae5007d7912e60b9a074ad0518;MANO-B <maikegam@ncc.go.jp>;1644648540;Update fun_load_mutation.R
+pre;mano-b_microsec;1f675ff7b34bdfbd7f03ea9bda759f3d15033557;MANO-B <maikegam@ncc.go.jp>;1644649082;Update fun_load_mutation.R
+pre;mano-b_microsec;cbbd758d24e3469d97cdba6b7df119f30b60cc69;MANO-B <maikegam@ncc.go.jp>;1644649542;Update fun_load_mutation_gz.R
+pre;mano-b_microsec;f9ec13f57844a9cf0749ee3a810c0e0d96ec6a60;MANO-B <maikegam@ncc.go.jp>;1644649609;Update fun_load_mutation_gz.R
+pre;mano-b_microsec;b1a294ef5ea71f3e3555c95dd3a9930b28856d31;MANO-B <maikegam@ncc.go.jp>;1644649849;Update MicroSEC.R
+pre;mano-b_microsec;a276f450d913961c522209f13a51d288e151eed1;MANO-B <maikegam@ncc.go.jp>;1645276382;Update fun_convert.R
+pre;mano-b_microsec;667eef97bce098ef7a1bff85ba61503af1b302aa;MANO-B <maikegam@ncc.go.jp>;1645347200;Update MicroSEC.R
+pre;mano-b_microsec;73aeb204c84cf824c9778aef39092d12342a262c;MANO-B <maikegam@ncc.go.jp>;1645347407;Update MicroSEC.R
+pre;mano-b_microsec;339988323353887fc86853f4987221bdf566b5a2;MANO-B <maikegam@ncc.go.jp>;1645412473;Update MicroSEC.R
+pre;mano-b_microsec;2ddc8936e4c7b695865aa65dd70115ebf8c7e128;MANO-B <maikegam@ncc.go.jp>;1645414955;Update fun_read_check.R
+post;mano-b_microsec;ac613fd53465c497da4ded401afb9f77ce732c6b;shibatay2301 <shibatay@amelieff.jp>;1683002656;msdev
+post;mano-b_microsec;664653fae2a458b57253125f6eb1144c46a0eabb;MANO-B <maikegam@ncc.go.jp>;1717926278;Update fun_hairpin_trimming.R stringr functions cannot treat DNAStrings
+post;mano-b_microsec;f360612cf7a199163bfcfb223bf925dd6b9c6552;MANO-B <maikegam@ncc.go.jp>;1717927005;Update README.md
+post;mano-b_microsec;49ab891cbee2fb6c66eb9f34b87a9dbac3de6b28;MANO-B <maikegam@ncc.go.jp>;1718281829;Update fun_homology.R
+post;mano-b_microsec;b7690864add2a54637a12f33cb38cd178e9143f0;MANO-B <maikegam@ncc.go.jp>;1718514750;Update fun_load_bam.R
+post;mano-b_microsec;49cd091efd08478b6cf81f3ebe4e290ebafbef3e;MANO-B <maikegam@ncc.go.jp>;1718516968;Update fun_load_bam.R
+post;mano-b_microsec;8e6ac8a31386c483681711a0dadef1d4e8e51f02;MANO-B <maikegam@ncc.go.jp>;1718517414;Update fun_load_bam.R
+post;mano-b_microsec;456a8a1c062d4ca4c7723d0a4f0eb1b759177aa2;MANO-B <maikegam@ncc.go.jp>;1718518556;Update fun_load_bam.R
+post;mano-b_microsec;62a0e1f96bcff3a4def71ce2030f67376684d4ab;MANO-B <maikegam@ncc.go.jp>;1718519403;Update fun_load_bam.R
+post;mano-b_microsec;62720a4cc887b5689e94ad2168ef4ef5df42e4c8;MANO-B <maikegam@ncc.go.jp>;1718869207;Update fun_summary.R
+pre;ablab_spades;cb8682b63654b8daf1c63b2e102daddbd9444434;Andrey Prjibelski <andrewprzh@gmail.com>;1746524855;Typo
+pre;ablab_spades;074c7cb6c16f14910b2b98ad348795d0b3d67e43;Andrey Prjibelski <andrewprzh@gmail.com>;1746524855;Typo
+pre;ablab_spades;f53bb1afe74b9ca5c7db2bb03dbfb198406ed32b;Anton Korobeynikov <anton@korobeynikov.info>;1746527504;Update ubuntu runner
+pre;ablab_spades;3d915b69f366d5120ccc7c6ad61414f28129fd60;Anton Korobeynikov <anton@korobeynikov.info>;1746527504;Update ubuntu runner
+pre;ablab_spades;7fee3c1050a732faef8a0d93d70861015a96f44e;Anton Korobeynikov <anton@korobeynikov.info>;1746527504;Update ubuntu runner
+pre;ablab_spades;5ee008ed19d3bc5a3a01ac91fc3c2c5ae3993ad0;Anton Korobeynikov <anton@korobeynikov.info>;1746602795;Fix bgcSPAdes output section formatting
+pre;ablab_spades;9090130090639f8134d1c65ada829a2c76bda75a;github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>;1746602828;Deployed 5ee008e with MkDocs version: 1.6.1
+pre;ablab_spades;b3bdb6438e0f5aaa994fc174d091c5b1803a7871;Itolstoganov <itolstoganov@gmail.com>;1746801723;Add typenames
+pre;ablab_spades;bb3f0c3246154d281a7f6472959fb4260a8e7ee7;Itolstoganov <itolstoganov@gmail.com>;1746801723;Add typenames
+pre;ablab_spades;480abae8d04887e3f2278d302b41bb9b27ad9716;Anton Korobeynikov <anton@korobeynikov.info>;1747141380;Restore mpi test
+post;ablab_spades;af5dd0f278d12ec8ea9713f696b6d940c3e2b19a;Andrey Prjibelski <andrewprzh@gmail.com>;1751894277;move logger to normal usage in most cases
+post;ablab_spades;b8cf3894d34082fb0ab4de9e6be0b4a2e5855ea0;Andrey Prjibelski <andrewprzh@gmail.com>;1751894277;move logger to normal usage in most cases
+post;ablab_spades;0a071ac35a254148a60ab5b9b1b058d959ece810;Andrey Prjibelski <andrewprzh@gmail.com>;1751895541;remove some unused code
+post;ablab_spades;6eab1d136a692edfc413e550a0c18a43b050dcaf;Andrey Prjibelski <andrewprzh@gmail.com>;1751895541;remove some unused code
+post;ablab_spades;264303d3e61e6d8086dda6bba2fcee155d1fe113;Andrey Prjibelski <andrewprzh@gmail.com>;1751897174;make dev mode work again
+post;ablab_spades;ea0106580662eb6e3695e232104388bbd826d354;Andrey Prjibelski <andrewprzh@gmail.com>;1751897174;make dev mode work again
+post;ablab_spades;a324f0c70f28045a319194df301344ea377ca857;Andrey Prjibelski <andrewprzh@gmail.com>;1751912507;refactor imports, standalone scripts dependant on support are left to resolve
+post;ablab_spades;d45926396366cc7c675e90087edc9a442a3d7ab7;Andrey Prjibelski <andrewprzh@gmail.com>;1751912507;refactor imports, standalone scripts dependant on support are left to resolve
+post;ablab_spades;2e8d1f8d18951f2c2d4f01b0c7980ace4476061c;Andrey Prjibelski <andrewprzh@gmail.com>;1751927521;finish cleaning up imports
+post;ablab_spades;74b682039b2b50000254c8ea7abed7be70f3bb63;Andrey Prjibelski <andrewprzh@gmail.com>;1751927521;finish cleaning up imports

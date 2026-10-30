@@ -1,0 +1,489 @@
+pre/post,project,hash,author,timestamp,message
+pre,epam_med3web,4512ea0753039f6a023d78185050dae44a0063c0,DimitriIlnitski <47006346+DimitriIlnitski@users.noreply.github.com>,1710348339,"Merge b4fe0fe5a3b26b57d5676c90f4031d5d8e54ee6d into 5927c5e4b86b9d2da3cac82318b6b03830dac5af
+"
+pre,epam_med3web,aeeb4afdf34228ee2fe7445303dba6a725792de7,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1710620667,"Bump follow-redirects from 1.15.3 to 1.15.6
+
+Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.15.3 to 1.15.6.
+- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)
+- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.15.3...v1.15.6)
+
+---
+updated-dependencies:
+- dependency-name: follow-redirects
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre,epam_med3web,51c3d628beccc5d4eb57cabee98d322907e6896b,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1710620668,"Merge aeeb4afdf34228ee2fe7445303dba6a725792de7 into e3eced78ea05ec91a6aa45488f43435cee708cb2
+"
+pre,epam_med3web,5388e56ed2c3697b8bf392b30c2113897209c28a,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1711135145,"Bump webpack-dev-middleware and react-scripts
+
+Bumps [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) to 5.3.4 and updates ancestor dependency [react-scripts](https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts). These dependencies need to be updated together.
+
+
+Updates `webpack-dev-middleware` from 3.7.3 to 5.3.4
+- [Release notes](https://github.com/webpack/webpack-dev-middleware/releases)
+- [Changelog](https://github.com/webpack/webpack-dev-middleware/blob/v5.3.4/CHANGELOG.md)
+- [Commits](https://github.com/webpack/webpack-dev-middleware/compare/v3.7.3...v5.3.4)
+
+Updates `react-scripts` from 4.0.3 to 5.0.1
+- [Release notes](https://github.com/facebook/create-react-app/releases)
+- [Changelog](https://github.com/facebook/create-react-app/blob/main/CHANGELOG-4.x.md)
+- [Commits](https://github.com/facebook/create-react-app/commits/react-scripts@5.0.1/packages/react-scripts)
+
+---
+updated-dependencies:
+- dependency-name: webpack-dev-middleware
+  dependency-type: indirect
+- dependency-name: react-scripts
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre,epam_med3web,4050f9bbd47e66db1d867c6c715843b50cd8de7f,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1711135146,"Merge 5388e56ed2c3697b8bf392b30c2113897209c28a into e3eced78ea05ec91a6aa45488f43435cee708cb2
+"
+pre,epam_med3web,2efee3bfae8723644b9bbd4decc1d73c86e41274,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1711687869,"Bump express from 4.18.2 to 4.19.2
+
+Bumps [express](https://github.com/expressjs/express) from 4.18.2 to 4.19.2.
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/master/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.18.2...4.19.2)
+
+---
+updated-dependencies:
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre,epam_med3web,59a8a92c46efa6b30ef20f5560c0fdc2ade2af06,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1711687871,"Merge 2efee3bfae8723644b9bbd4decc1d73c86e41274 into e3eced78ea05ec91a6aa45488f43435cee708cb2
+"
+pre,epam_med3web,45f6e9453eb94da35441dfcbdfaeafd5a14766d2,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1712840467,"Bump tar from 6.2.0 to 6.2.1
+
+Bumps [tar](https://github.com/isaacs/node-tar) from 6.2.0 to 6.2.1.
+- [Release notes](https://github.com/isaacs/node-tar/releases)
+- [Changelog](https://github.com/isaacs/node-tar/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/isaacs/node-tar/compare/v6.2.0...v6.2.1)
+
+---
+updated-dependencies:
+- dependency-name: tar
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre,epam_med3web,e9cd8c13857ce864227ab2c5df3c3c47d1ec7b5c,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1714094648,"Bump immer and react-scripts
+
+Bumps [immer](https://github.com/immerjs/immer) to 9.0.21 and updates ancestor dependency [react-scripts](https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts). These dependencies need to be updated together.
+
+
+Updates `immer` from 8.0.1 to 9.0.21
+- [Release notes](https://github.com/immerjs/immer/releases)
+- [Commits](https://github.com/immerjs/immer/compare/v8.0.1...v9.0.21)
+
+Updates `react-scripts` from 4.0.3 to 5.0.1
+- [Release notes](https://github.com/facebook/create-react-app/releases)
+- [Changelog](https://github.com/facebook/create-react-app/blob/main/CHANGELOG-4.x.md)
+- [Commits](https://github.com/facebook/create-react-app/commits/react-scripts@5.0.1/packages/react-scripts)
+
+---
+updated-dependencies:
+- dependency-name: immer
+  dependency-type: indirect
+- dependency-name: react-scripts
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre,epam_med3web,f529bf3fa35f5262c075c2b3d9472628eab5ae29,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1714585468,"Bump ejs and react-scripts
+
+Bumps [ejs](https://github.com/mde/ejs) to 3.1.10 and updates ancestor dependency [react-scripts](https://github.com/facebook/create-react-app/tree/HEAD/packages/react-scripts). These dependencies need to be updated together.
+
+
+Updates `ejs` from 2.7.4 to 3.1.10
+- [Release notes](https://github.com/mde/ejs/releases)
+- [Commits](https://github.com/mde/ejs/compare/v2.7.4...v3.1.10)
+
+Updates `react-scripts` from 4.0.3 to 5.0.1
+- [Release notes](https://github.com/facebook/create-react-app/releases)
+- [Changelog](https://github.com/facebook/create-react-app/blob/main/CHANGELOG-4.x.md)
+- [Commits](https://github.com/facebook/create-react-app/commits/react-scripts@5.0.1/packages/react-scripts)
+
+---
+updated-dependencies:
+- dependency-name: ejs
+  dependency-type: indirect
+- dependency-name: react-scripts
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post,epam_med3web,e1998c838199acd3f1207313b0812a2d96ee5f07,Danil Rostov <daniil.rossy@gmail.com>,1732607154,"Fix cdn distribution link
+"
+post,epam_med3web,0fb3468a2e4887c09104857fd011582d007b2ab9,Danil Rostov <daniil.rossy@gmail.com>,1732687929,"Use CDN link for static assets
+"
+post,epam_med3web,fb1dee3a2f8da37da9f6828c78d3bdee2be2771e,Danil Rostov <daniil.rossy@gmail.com>,1732688216,"Use CDN link for static assets
+"
+post,epam_med3web,251e7397fd3de50ff4938c0c8ed91882d0d59a9c,Danil Rostov <31970322+DanilRostov@users.noreply.github.com>,1732688525,"Merge pull request #214 from epam/feature/migrate-to-cdn-for-static-assets
+
+Use CDN link for static assets"
+post,epam_med3web,c59aca83078e59c86bb14f1d8e4b1ff135433b43,Danil Rostov <31970322+DanilRostov@users.noreply.github.com>,1732688536,"Merge pull request #215 from epam/feature/migrate-to-cdn-for-static-assets
+
+Feature/migrate to cdn for static assets"
+post,epam_med3web,c35c963522388d9d4db86c0f627337db10bdca70,Danil Rostov <31970322+DanilRostov@users.noreply.github.com>,1733528415,"Merge pull request #199 from epam/EPMUII-8068-lungs-brain-segmentation-improvements
+
+EPMUII-8068: lungs brain segmentation improvements"
+post,epam_med3web,47b2e09ff88bbcaed6381e73b997974285586ed6,Roman Rodionov <roman_rodionov@epam.com>,1733848547,"EPMUII-8047:
+- fixed nifti file saving dialog appearance
+- fixed file extension setting during first download
+"
+post,epam_med3web,a87b13d5c0ceecfc65881ae6c2a5406f368d86cf,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1733988949,"Bump path-to-regexp and express
+
+Bumps [path-to-regexp](https://github.com/pillarjs/path-to-regexp) and [express](https://github.com/expressjs/express). These dependencies needed to be updated together.
+
+Updates `path-to-regexp` from 0.1.7 to 0.1.12
+- [Release notes](https://github.com/pillarjs/path-to-regexp/releases)
+- [Changelog](https://github.com/pillarjs/path-to-regexp/blob/master/History.md)
+- [Commits](https://github.com/pillarjs/path-to-regexp/compare/v0.1.7...v0.1.12)
+
+Updates `express` from 4.18.2 to 4.21.2
+- [Release notes](https://github.com/expressjs/express/releases)
+- [Changelog](https://github.com/expressjs/express/blob/4.21.2/History.md)
+- [Commits](https://github.com/expressjs/express/compare/4.18.2...4.21.2)
+
+---
+updated-dependencies:
+- dependency-name: path-to-regexp
+  dependency-type: indirect
+- dependency-name: express
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post,epam_med3web,e2a0f59341ab869f281fb270c089cdf0b67bfc6c,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1733988951,"Merge a87b13d5c0ceecfc65881ae6c2a5406f368d86cf into 251e7397fd3de50ff4938c0c8ed91882d0d59a9c
+"
+post,epam_med3web,e17eb2d8bbd40c261289b18ee37c60baf14a6bfe,dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>,1734064864,"Bump nanoid from 3.3.6 to 3.3.8
+
+Bumps [nanoid](https://github.com/ai/nanoid) from 3.3.6 to 3.3.8.
+- [Release notes](https://github.com/ai/nanoid/releases)
+- [Changelog](https://github.com/ai/nanoid/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/ai/nanoid/compare/3.3.6...3.3.8)
+
+---
+updated-dependencies:
+- dependency-name: nanoid
+  dependency-type: indirect
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre,indralab_indra_db,0e0bd4a6de58eb25291c1322fe02340287bc6783,Ben Gyori <ben.gyori@gmail.com>,1643662921,"Standardize nomenclature
+"
+pre,indralab_indra_db,1c3278c6e306a6b38b4965015c3cccfdb438c121,dianakolusheva <dianakolusheva@gmail.com>,1644342880,"Add methods for bulk upload
+"
+pre,indralab_indra_db,c5b1e28c66b9cbe0cda9fe884b15cba574488c1b,Benjamin M. Gyori <ben.gyori@gmail.com>,1644522164,"Merge pull request #212 from dianakolusheva/more_pmc
+
+Add methods for bulk upload"
+pre,indralab_indra_db,e58dedf2c817ef8c7b0310d598d46b7ebe1f1584,Benjamin M. Gyori <ben.gyori@gmail.com>,1644522187,"Merge pull request #211 from indralab/dump
+
+Additional features for readonly restore"
+pre,indralab_indra_db,5e6ce475e068256bfb48bba7a66166d955f8d389,Ben Gyori <ben.gyori@gmail.com>,1645463418,"Remove ISI and MTI from jobs
+"
+pre,indralab_indra_db,34f00da3595d91b56b70a77c00208f63df664e07,Ben Gyori <ben.gyori@gmail.com>,1645463418,"Remove ISI and MTI from jobs
+"
+pre,indralab_indra_db,e61299c1e33fcb4e58b18a6ab20d9592925b3068,kkaris <karis.klas@gmail.com>,1646856154,"Some cleanup after rebase + black
+"
+pre,indralab_indra_db,1d21e59ebb08eb5cee350491b22e273dd0ccff49,kkaris <karis.klas@gmail.com>,1647464876,"Minor cleanup
+"
+pre,indralab_indra_db,52b9b4c9c8b79d76a8060ab4927c57030607eea6,Benjamin M. Gyori <ben.gyori@gmail.com>,1647533103,"Merge pull request #187 from pagreene/get-curations
+
+Open up curations, with a hash"
+pre,indralab_indra_db,98f0f3f24d8cebbbfb712891704976bad18be195,Charles Tapley Hoyt <cthoyt@gmail.com>,1648647097,"Expose the statements submodule
+"
+post,indralab_indra_db,8f4cf93bfd472c2de7b1b92cbffba3aa0389c69b,TrellixVulnTeam <charles.mcfarland@trellix.com>,1665340864,"Adding tarfile member sanitization to extractall()
+"
+post,indralab_indra_db,635bb92fdac241e4c9205d39dd936053804883c1,kkaris <karis.klas@gmail.com>,1666885057,"Use _num columns for pmcid and pmid for text_ref
+"
+post,indralab_indra_db,b99deec567a6fea86e9c2235aeec26658bbf83db,kkaris <karis.klas@gmail.com>,1669146217,"Update key
+"
+post,indralab_indra_db,e2c437b6e29db95b0859b75bc77939a72d9641c0,kkaris <karis.klas@gmail.com>,1669162345,"Avoid KeyError for few missing licenses for PMCIDs
+"
+post,indralab_indra_db,9a2f7c1f04742b9d540130e6e4444167bddf50ae,Benjamin M. Gyori <ben.gyori@gmail.com>,1669217141,"Merge pull request #215 from kkaris/content-update-fix
+
+Use integer columns in comparison"
+post,indralab_indra_db,caee96a88c17a90b62f598589e930910d8c208c3,Ben Gyori <ben.gyori@gmail.com>,1669217197,"Add new Eidos version
+"
+post,indralab_indra_db,7768663d56fb4db81fe0036c01dad8fcf7a6e66a,kkaris <karis.klas@gmail.com>,1669927852,"Decrease the number of IDs for eidos jobs to 1000
+"
+post,indralab_indra_db,1a28137d778d6c911ba6fba1c17672691bcf99cc,kkaris <karis.klas@gmail.com>,1669927852,"Decrease the number of IDs for eidos jobs to 1000
+"
+post,indralab_indra_db,9b7d70831694df688d89efaae3af13e0f76aca83,kkaris <karis.klas@gmail.com>,1671204301,"Set reading id as BigInteger in reading_ref_link
+"
+post,indralab_indra_db,cd7b99a946a5a5d4668394f84f8ea3d6a555b186,kkaris <karis.klas@gmail.com>,1671236219,"Add initial file doing dumping and loading
+"
+pre,choosehappy_histoqc,26a98cb603ebdc92527dfeecf748db4953f8241b,Jackson Jacobs <67879973+jacksonjacobs1@users.noreply.github.com>,1721656625,"Merge pull request #296 from nanli-emory/num_tissues
+
+get num tissues"
+pre,choosehappy_histoqc,7942e75fa8a2ea5079008c154ea113906399a985,nanli-emory <40213692+nanli-emory@users.noreply.github.com>,1723756117,add `params` parameter at second position in BasicModule.countTissuePieces
+pre,choosehappy_histoqc,f43ce5e3cf8ac99a61c19f8e8ec8bba1fcc07e60,nanli-emory <40213692+nanli-emory@users.noreply.github.com>,1723837541,Create data folder in tests
+pre,choosehappy_histoqc,a17b08ac1ad51ca06b6a5f49ec96c4ec707bb6a9,nanli-emory <40213692+nanli-emory@users.noreply.github.com>,1723837593,Delete histoqc/tests/data
+pre,choosehappy_histoqc,d002b2db2b02b8e3a2010c878dda5c19bcfa4ad5,nanli-emory <nli31@emory.edu>,1723838726,"update test code to include BasicModule.countTissuePieces test case
+"
+pre,choosehappy_histoqc,808908a104b210473d2ff2354e2084131adfda9b,nanli-emory <nli31@emory.edu>,1724336387,"add the upated coverage.xml for test report
+"
+pre,choosehappy_histoqc,13a9439a482595fa45469837b05d2d0e326843a3,Jackson Jacobs <67879973+jacksonjacobs1@users.noreply.github.com>,1724869399,"Merge pull request #316 from nanli-emory/fix_counttissuepieces_params
+
+fix #315 - BasicModule.countTissuePieces does not define the `params` parameter "
+pre,choosehappy_histoqc,bbcb89c1cf14f81be99f79ccfd51022dcef5daa5,nanli-emory <nli31@emory.edu>,1731688501,"fixed the polygon only and has multipolygon in geojson
+"
+pre,choosehappy_histoqc,82acf1d17976ec3abbf98062774d584e37ca1052,nanli-emory <nli31@emory.edu>,1733981488,"using geojson lib
+"
+pre,choosehappy_histoqc,74757b979b55d6f81b949154c762cbdca8ec1467,Jackson Jacobs <67879973+jacksonjacobs1@users.noreply.github.com>,1734369340,"Merge pull request #306 from nanli-emory/export_geojson
+
+New feature that save mask as geojson format"
+post,choosehappy_histoqc,47bce0ec24950e4d2646bac874850fb037c9df53,jackson <jacksonjjacobs@gmail.com>,1753371974,"add option to output pixels_to_use as a percentage of the total number of pixels in the image
+"
+post,choosehappy_histoqc,e102049e186ec540a1c3a28bd292087c7d50eb60,Jackson Jacobs <67879973+jacksonjacobs1@users.noreply.github.com>,1753373333,"Merge pull request #323 from choosehappy/322-calculation-of-pixels-to-use-as-percent
+
+add option to output pixels_to_use as a percentage of the total numbe…"
+post,choosehappy_histoqc,98c68f5c686d3c2cb990964f3d3531c7c4f981e8,jackson <jacksonjjacobs@gmail.com>,1753374592,"display all extracted metrics in the parcoords plot
+"
+post,choosehappy_histoqc,baffddebe8c15437542c87f27578a12d232f9252,jackson <jacksonjjacobs@gmail.com>,1753376048,"export all filtered rows into TSV file, including rows without comments
+"
+post,choosehappy_histoqc,755ebdc281697cc70cacc137066d6511f6165de2,Jackson Jacobs <67879973+jacksonjacobs1@users.noreply.github.com>,1753376588,"Merge pull request #325 from choosehappy/324-subset-of-statistics-are-displayed-in-parcoords
+
+display all extracted metrics in the parcoords plot"
+post,choosehappy_histoqc,694580e2b004836ee7e72128e46ad22d4bf73ee0,Jackson Jacobs <67879973+jacksonjacobs1@users.noreply.github.com>,1753376908,"Merge pull request #326 from choosehappy/export-subset-tsv
+
+export all filtered rows into TSV file, including rows without comments"
+post,choosehappy_histoqc,43ab4a7e87f61ea01317aa29326e5a47ef358229,jackson <jacksonjjacobs@gmail.com>,1753727180,"add warning for unsupported mask_statistics option and log tissue detection issues
+"
+post,choosehappy_histoqc,f2137e97281b21e2effa2837574a120c0157c64d,Jackson Jacobs <67879973+jacksonjacobs1@users.noreply.github.com>,1753733767,"Merge pull request #327 from choosehappy/322-calculation-of-pixels-to-use-as-percent
+
+add warning for unsupported mask_statistics option and log tissue det…"
+post,choosehappy_histoqc,ad8b3197ecb75e2e2daf201059ad712126efc2d6,Fathima Sumayya Mohamed <fsumayya.mohamed@MacBook-Pro.local>,1759929086,"Fix scikit-image >=0.20 compatibility (remove in_place, selem→footprint)
+"
+post,choosehappy_histoqc,aa4bc4435a0169e93fc5881bb1a54fdd2f35f041,Fathima Sumayya Mohamed <fsumayya.mohamed@MacBook-Pro.local>,1759929403,"Clean: remove backup files and ignore them
+"
+pre,ropensci_stplanr,3b81bdff95102f3782f4450c1ed1bbb69d65f1bc,robinlovelace <rob00x@gmail.com>,1668372931,"Document and tidy
+"
+pre,ropensci_stplanr,52166727d1103395b27f9f0c10fade006a9828d9,robinlovelace <rob00x@gmail.com>,1668377732,"Update docs
+"
+pre,ropensci_stplanr,733091a19749e696dc0ce895dcb594ce90405f26,robinlovelace <rob00x@gmail.com>,1668378939,"Update docs
+"
+pre,ropensci_stplanr,d6ca47c17f371d25df8dbf37b81932320c5d0d10,robinlovelace <rob00x@gmail.com>,1668379656,"Minor fixes to docs
+"
+pre,ropensci_stplanr,c4b85fa3a7a6f42a218b17451905d11d9e36e4bb,robinlovelace <rob00x@gmail.com>,1668380277,"Update docs
+"
+pre,ropensci_stplanr,e0cd6eb668345bf4c9c13ec40eef7747fc52c2e1,Robin Lovelace <Robinlovelace@users.noreply.github.com>,1668418805,"505 functions to do spatial joins between route networks (#506)
+
+* Add starter on rnet join #505
+
+* Add example dataset for #505
+
+* Add example code #505
+
+* Document and tidy
+
+* Update docs
+
+* Update docs
+
+* Minor fixes to docs
+
+* Update docs"
+pre,ropensci_stplanr,be98590ddad05add95c6899da20f0bc311658af0,robinlovelace <rob00x@gmail.com>,1668419706,"Add pak-version devel
+"
+pre,ropensci_stplanr,5cf154f56d95a4a8e4a0cd70c3793632b882eaef,robinlovelace <rob00x@gmail.com>,1668426879,"Update pak version
+
+close r-lib/pak#430 close #507
+"
+pre,ropensci_stplanr,a5258fa7f8299e447eb23e348e69d951e109652c,Malcolm Morgan <mem48@users.noreply.github.com>,1673564684,"Fix #510
+
+Fix for bug identified in #510 problem occurs when input lines have repeated coordinates for some reason this is acceptable in long linestrings st_is_valid == TRUE but not short linestrings st_is_valid == FALSE
+"
+pre,ropensci_stplanr,bdbdd983e07300baa58e48816a6e758d28b495df,robinlovelace <rob00x@gmail.com>,1674253493,"Fix issue in vignette
+"
+post,ropensci_stplanr,fd73c1ce65b11cf3fc9bf9c9d12dfe47e4881626,robinlovelace <rob00x@gmail.com>,1692105848,"Starter on 515
+"
+post,ropensci_stplanr,57025de30f96dce617fda7c3b5e09ea71b4ebf1a,Malcolm Morgan <mem48@users.noreply.github.com>,1692106163,"Switch parts of overline to data.table
+"
+post,ropensci_stplanr,d025cb72dd0808b42fee53a6c9cfcb275771f7bc,robinlovelace <rob00x@gmail.com>,1692106774,"Update rnet_split_lines
+"
+post,ropensci_stplanr,a52aab51d00584289aee7bd6671d0b9f95bac086,robinlovelace <rob00x@gmail.com>,1692106906,"Use centroids
+"
+post,ropensci_stplanr,50275c4c6cddc576e1416e1a91e66b9935768745,Malcolm Morgan <mem48@users.noreply.github.com>,1692107614,"ad missing sf::
+"
+post,ropensci_stplanr,0c01642605a6e4386dea2e16f38382b26e03cccd,robinlovelace <rob00x@gmail.com>,1692116781,"Debugging #514
+"
+post,ropensci_stplanr,6412bc19fb42e3f14347be9698f54eadbd429169,robinlovelace <rob00x@gmail.com>,1692116931,"Fix #514
+"
+post,ropensci_stplanr,810a638adb42b994bbc599da8e4bd1cb0abbebd4,robinlovelace <rob00x@gmail.com>,1692117526,"Document
+"
+post,ropensci_stplanr,50016a7c878fa95ccba4718249ef693925dffce6,robinlovelace <rob00x@gmail.com>,1692131732,"Vectorise line_segment(), close #518
+"
+post,ropensci_stplanr,5817cd6da6764e4604a85b4490a0223a4ef041e9,robinlovelace <rob00x@gmail.com>,1692132851,"Tests passing woop
+"
+pre,zhaoj9014_face.evolve,c42f6632eae955dcabb65366b5e414b849376923,Zhao Jian <zhaojian90@u.nus.edu>,1631111925,Add files via upload
+pre,zhaoj9014_face.evolve,f7fa0929ed304bd2e50e1b3ad9036bf8e04d94f7,Zhao Jian <zhaojian90@u.nus.edu>,1631112206,Update README.md
+pre,zhaoj9014_face.evolve,b9fd5a1d92093186aa3979b90735da419467db80,Zhao Jian <zhaojian90@u.nus.edu>,1631112306,Update README.md
+pre,zhaoj9014_face.evolve,b326bc972967b8c375845d5771bc341ca793a660,Zhao Jian <zhaojian90@u.nus.edu>,1631112377,Update README.md
+pre,zhaoj9014_face.evolve,9a3af4b5eabfd3603ae3a8edfce0775bdb0f78dc,Zhao Jian <zhaojian90@u.nus.edu>,1631112433,Update README.md
+pre,zhaoj9014_face.evolve,fc277da247e241b6b2003aa7e205681005ab13a3,Zhao Jian <zhaojian90@u.nus.edu>,1638782231,Update README.md
+pre,zhaoj9014_face.evolve,63520924167efb9ef53dcceed0a15cf739cad1c9,Zhao Jian <zhaojian90@u.nus.edu>,1639034177,Delete Donation.jpeg
+pre,zhaoj9014_face.evolve,7ba7366c1be33068710660bb2e7ec5e64eca1eeb,Zhao Jian <zhaojian90@u.nus.edu>,1653881904,Update README.md
+pre,zhaoj9014_face.evolve,ea744cfe0034f7c246d9cc20706d9c4843decd78,Zhao Jian <zhaojian90@u.nus.edu>,1671758612,Update README.md
+pre,zhaoj9014_face.evolve,722ecfd769006c9c9de1cf81203807e02ddac7e5,Zhao Jian <zhaojian90@u.nus.edu>,1671758724,Update README.md
+post,zhaoj9014_face.evolve,e148fd945ab2efc530d384f1e655bb7c7d7718ec,Jian ZHAO (赵健) <zhaojian90@u.nus.edu>,1742435979,Update README.md
+post,zhaoj9014_face.evolve,49f25fe67200f16d1d52357c0d9ee3de5e84c490,Jian ZHAO (赵健) <zhaojian90@u.nus.edu>,1742436498,Update README.md
+post,zhaoj9014_face.evolve,a9897bda52bdbb8d7c2fe28f1e21827dfd69d14e,Jian ZHAO (赵健) <zhaojian90@u.nus.edu>,1742438706,Update README.md
+pre,rasbt_mlxtend,f92d7beb9dee8407349b115867ff4af2f5e27d8b,Daniel Kleine <53251018+d-kleine@users.noreply.github.com>,1743948892,"Merge 1a070c26184f0ff833390dc2b7a577e2f869d6ec into 29e2fc4ac70d95a9e65852434f979fac25aaeeea
+"
+pre,rasbt_mlxtend,76439b43c952e5f98ce516df96a55d1fe8b2f9c8,Daniel Kleine <53251018+d-kleine@users.noreply.github.com>,1750377143,"fix: *sklearn* version compability in `stacking_cv` params (#1124)
+
+* fix: update parameter handling for sklearn version compatibility in stacking_cv
+
+* added fix to changelog
+
+* removed trailing whitespaces for flake8"
+pre,rasbt_mlxtend,7625e48f7da0d53bd878d0573c23145977b7b41c,naman.mistry <65106237+namanmistry@users.noreply.github.com>,1750439027,"Merge 7d1a00c4dad90a2cf655b6aec7b49675b3115756 into 76439b43c952e5f98ce516df96a55d1fe8b2f9c8
+"
+pre,rasbt_mlxtend,1063d6b211070605d9caaf8325080ff2197f0b90,Vahid Mirjalili <2880929+vmirly@users.noreply.github.com>,1750918522,"Merge 5debbf1dc27b69e7f6da1d8dec1a866883cd063d into 76439b43c952e5f98ce516df96a55d1fe8b2f9c8
+"
+pre,rasbt_mlxtend,c59e8ae09697939cf3d5d6a8d2f04057f4594072,pkaf <pkaf@users.noreply.github.com>,1750918545,"Merge 4f0717715d662ae59fbe35a942afea1dab4319d2 into 76439b43c952e5f98ce516df96a55d1fe8b2f9c8
+"
+pre,rasbt_mlxtend,58baccbad15b57998e9ce1628b14407d0a667232,Sebastian Raschka <mail@sebastianraschka.com>,1750918558,"Merge ea284e77e94d504282c900cf0f1eab7a1e11e390 into 76439b43c952e5f98ce516df96a55d1fe8b2f9c8
+"
+pre,rasbt_mlxtend,2bdd695596a10784384943db476ea5851ae8bd26,Gideon Redelinghuys <gredelinghuys@rippling.com>,1752270855,"Remove enabling of DeprecationWarning for anyone who imports the library
+"
+pre,rasbt_mlxtend,f6ef79d85755ce6957546a2212b5c0d57c2a9b5e,Gideon Redelinghuys <github@gideonred.com>,1752271027,"Merge 2bdd695596a10784384943db476ea5851ae8bd26 into 76439b43c952e5f98ce516df96a55d1fe8b2f9c8
+"
+pre,rasbt_mlxtend,19d87ffd2ecd18012525bb7e5b4da086f203e431,dhruvi003 <cdhwani03@gmail.com>,1752920662,"adding parameter for counterfactual method
+"
+pre,rasbt_mlxtend,16595f68065d44e4dc3d2686d40f5f608790a81a,Dhwani Chauhan <108978196+dhruvi003@users.noreply.github.com>,1752921674,"Merge 19d87ffd2ecd18012525bb7e5b4da086f203e431 into 76439b43c952e5f98ce516df96a55d1fe8b2f9c8
+"
+post,rasbt_mlxtend,7418f5aa2e6cfd60e06d8a5f8cb8780ed170f7a6,Sachin Yadav <syy63052@gmail.com>,1764748002,"Fix incorrect R² * -1 in regression print() examples and modernize f-strings
+"
+post,rasbt_mlxtend,cf5ec67906ee881573c78fc3c01715a1ad0ec753,Sachin Yadav <syy63052@gmail.com>,1764748418,"Fix incorrect R² * -1 in regression print() examples and modernize f-strings
+"
+post,rasbt_mlxtend,a08723e2de9dc09d0327cf775144f1d69ac84e68,Sachin Yadav <syy63052@gmail.com>,1764748902,"Fix incorrect R² * -1 in regression print() examples and modernize f-strings
+"
+post,rasbt_mlxtend,070ae723ab72476e2072af843cdd6df68296584a,Mariam Zakaria <123750992+mariam851@users.noreply.github.com>,1765265621,"feat: Add feature freezing (feature_names_to_vary) to create_counterfactual
+"
+post,rasbt_mlxtend,bb1adf048ca39dde0548458433b535e26b761a80,Mariam Zakaria <123750992+mariam851@users.noreply.github.com>,1765269587,"feat: improve apriori multiprocessing and add feature freezing
+"
+post,rasbt_mlxtend,975829aa9a66f9934176dbc9b44bae8a27232a48,Mariam Zakaria <123750992+mariam851@users.noreply.github.com>,1765270765,"fix: format code to pass lint checks
+"
+post,rasbt_mlxtend,850b3db4c13f65d73535bca72285243838c906ef,rasbt <mail@sebastianraschka.com>,1765645855,"fix logreg
+"
+post,rasbt_mlxtend,8597f54f0eabf621ebcb27ea4168e43810f161f6,rasbt <mail@sebastianraschka.com>,1765646536,"fix adaline
+"
+post,rasbt_mlxtend,2da90b5c01a3a0d81432946badc67ea24c50db10,rasbt <mail@sebastianraschka.com>,1765648556,"all sklearn fixes
+"
+post,rasbt_mlxtend,8fbda15bb20644e804989eea06d57dd9e03cde3d,rasbt <mail@sebastianraschka.com>,1765648916,"update requirements
+"
+pre,systerel_s2opc,269e53e60750458fd033f671bbcd708dd4b3e863,Vincent Monfort <vincent.monfort@systerel.fr>,1457968260,"Add stack simplified use examples and Makefile
+"
+pre,systerel_s2opc,a37d687a3f54e3fd8fe553f0c3a00b0014f90c78,monfort <vincent.monfort@systerel.fr>,1457968260,"Add stack simplified use examples and Makefile
+"
+post,systerel_s2opc,7484abf1aa79c2ddd6b46daaef68fdd0c4b4ec3b,monfort <vincent.monfort@systerel.fr>,1469798183,"Implement create/delete of main structures
+"
+post,systerel_s2opc,9d3e6fd4eaacaa4cc321a74428c68d6f1b67bdbc,Vincent <Vincent@asthmatix>,1469798183,"Implement create/delete of main structures
+"
+post,systerel_s2opc,e0034fe96f905e5cbe0e9380ecb4de16fc89ecff,monfort <vincent.monfort@systerel.fr>,1469808567,"Starting implementation of connect
+"
+post,systerel_s2opc,c7e18cb0399e02f494e3cba47596626d94c6d492,Vincent <Vincent@asthmatix>,1469808567,"Starting implementation of connect
+"
+post,systerel_s2opc,9f5e8133e59d030757f6dd71278448cf75bceb26,monfort <vincent.monfort@systerel.fr>,1470056655,"Fixes in ingopcs code
+"
+post,systerel_s2opc,fcef95a278d2475e554cc30b4e4562adfb977db9,monfort <vincent.monfort@systerel.fr>,1470056655,"Fixes in ingopcs code
+"
+post,systerel_s2opc,81e8175ff1546eb35efde9ce7c0a6bf2a6b1074b,monfort <vincent.monfort@systerel.fr>,1470056675,"Modify stub client for ingopcs code
+"
+post,systerel_s2opc,a1ae04993b602d3c4c24dc2adb9f421a2f4fcd2a,monfort <vincent.monfort@systerel.fr>,1470056675,"Modify stub client for ingopcs code
+"
+post,systerel_s2opc,8c6998aef44b9692e832cf9a210677ac10339b8b,monfort <vincent.monfort@systerel.fr>,1470060719,"Define UA_NULL instead of NULL
+"
+post,systerel_s2opc,7242ee89874f950707bbe8ab32e4893c640acda4,monfort <vincent.monfort@systerel.fr>,1470060719,"Define UA_NULL instead of NULL
+"
+pre,teush_mysense,7510b641f593004dba3790de14b462b8642492a1,Teus Hagen <teus@theunis.org>,1642871505,"added how to deal with rsyslog conf
+"
+pre,teush_mysense,920e89b7c236f20f250ba5e973007b8d6f204322,Teus Hagen <teus@theunis.org>,1643485424,"syslog improvements
+"
+pre,teush_mysense,b80bc53144805dc742c523a2f03044fafb5584f8,Teus Hagen <teus@theunis.org>,1643485461,"initialisation
+"
+pre,teush_mysense,898b00bce08c291ca1280c04629b42d51c61144e,Teus Hagen <teus@theunis.org>,1644162858,"updates
+"
+pre,teush_mysense,4d1e5fd9ca2b96f6274c49c939333b2b25082a1c,Teus Hagen <teus@theunis.org>,1644162920,"changed INSERT to REPLACE SQL instruction
+"
+pre,teush_mysense,cd92dcc3a58c999593ae8e82ef21d0e17decb729,Teus Hagen <teus@theunis.org>,1645906182,"improve ""not at home"" detection
+"
+pre,teush_mysense,a8d283ea2be96ae39d9a45c04320a6232a1ebc48,Teus Hagen <teus@theunis.org>,1645906254,"update description
+"
+pre,teush_mysense,a3ec7f6c66673da46936bd3358b386e8f7f01de0,Teus Hagen <teus@theunis.org>,1645906292,"support added for ttnv2 broker forwarding in statistics
+"
+pre,teush_mysense,271ec6392321f3e8398229fb09b449b0b21b32a9,Teus Hagen <teus@theunis.org>,1648324790,"initialize. Website page tooling (scripts) to generate HighCharts based forecast of weather and dust Air Quality Index graphs.
+"
+pre,teush_mysense,6857a8560fdd994e4a7c8febc7b4fe85e3eb34ba,Teus Hagen <teus@theunis.org>,1648381168,"json compress data added
+"
+post,teush_mysense,94e66d78e0e99a002577bed4a9920b2dbfa9fc79,Teus Hagen <teus@theunis.org>,1725023275,"Tools to use Samen Meten Things API
+"
+post,teush_mysense,7abaa389675e1c5ccf0fae263ddd6b79ad0db6d1,Teus Hagen <teus@theunis.org>,1725287866,"very few improvements routine MunicipalityStations.
+"
+post,teush_mysense,ce15c5a10dbb6e1fc89b1c651096b9cb1641b20d,Teus Hagen <teus@theunis.org>,1725443057,"Added TOOI stanbdaarden.overheid.nl as alternative for Open Data Soft API for municipality info (less fast, but more up to date).
+"
+post,teush_mysense,55c0e9b8d0f2c8706fae3da508d44146ba174ee1,Teus Hagen <teus@theunis.org>,1725724933,"Added sensor status first/last timestamp and record count for eaqcht municipality station.
+"
+post,teush_mysense,fefd90c4485d2034a7bef3398f9267dd30d618d6,Teus Hagen <teus@theunis.org>,1725809644,"Corrected cache support in Addresses lookup routine.
+"
+post,teush_mysense,93353ac42de77a320b71788f7dd6d62bf9824a0b,Teus Hagen <teus@theunis.org>,1725868697,"add select station properties support e.g. station owner, project, knmicode, etc.
+"
+post,teush_mysense,4628515ffc1b1b8b0fb83d8f29f3a26016cfdf67,Teus Hagen <teus@theunis.org>,1726064044,"ISO timestamp routine accepts ISOP timestamp as argument.
+Period End-Start defaults None bug resolved.
+"
+post,teush_mysense,8ceecf14d7c0f604f7d3d5c9c2aaeef706a03e96,Teus Hagen <teus@theunis.org>,1726070257,"added info ThingsXlsx.py script XLSX spreadsheet generation with municipality stations.
+"
+post,teush_mysense,e449584e35078ec52f4d9e60de4bb192deff9ff2,Teus Hagen <teus@theunis.org>,1726070367,"Initialize. Things XLSX spreadsheet with overview stations in a municipality.
+"
+post,teush_mysense,99ce764bee63519c6b09840abdc47ffc0346acbf,Teus Hagen <teus@theunis.org>,1726070442,"ISO data timestamping improved.
+Increased timeout for Things requests to max 90 seconds per request.
+"
+pre,kuwisdelu_cardinal,f04805783a5c2f4506556b99203c6fb4e2323a9f,kuwisdelu <k.bemis@northeastern.edu>,1628173767,"fix align/bin reference naming scheme
+"
+pre,kuwisdelu_cardinal,b0419b78a6400c564e32baf94f4cec3245e3811e,kuwisdelu <k.bemis@northeastern.edu>,1628174431,"v2.11.2 fix bin/align ref name scheme
+"
+pre,kuwisdelu_cardinal,52a8e74448448214b22a1d3c7626390535313fa3,Benjamin Yeh <bentyeh@users.noreply.github.com>,1628684746,"Merge 8d30c2a4ad0c13745a285596678a0b4424a0ca13 into b0419b78a6400c564e32baf94f4cec3245e3811e
+"
+pre,kuwisdelu_cardinal,11b47516d6f9e73c06ca545dfa031925f0bd4fb0,Kylie Bemis <k.bemis@northeastern.edu>,1631733177,"v2.11.3 fix strange RNG behavior
+"
+pre,kuwisdelu_cardinal,280cb556d73b1a3ad735f86abdddc3c40e7dd2d0,John Marshall <jmarshall@hey.com>,1632492799,"Merge cc4ec49df0fb5154d3a4aaa01023078e65b29b47 into 11b47516d6f9e73c06ca545dfa031925f0bd4fb0
+"
+pre,kuwisdelu_cardinal,f23454a8a461d56f0ad8bc7cc3699afd6514fcba,Nitesh Turaga <nitesh.turaga@gmail.com>,1635265122,"bump x.y.z version to odd y following creation of RELEASE_3_14 branch
+"
+pre,kuwisdelu_cardinal,a9cad4640a847f3ebd1784fbe5ffd881b0855856,Nitesh Turaga <nitesh.turaga@gmail.com>,1635265122,"bump x.y.z version to even y prior to creation of RELEASE_3_14 branch
+"
+pre,kuwisdelu_cardinal,4bd3fdf6a3bd1ae4c11626ababdf24fa9e8b4d59,Hervé Pagès <hpages.on.github@gmail.com>,1637489975,"Create DFrame instances in place of DataFrame instances
+"
+pre,kuwisdelu_cardinal,baf36c49b85a7da0ed2855d7b55ef6f861201be1,Nitesh Turaga <nitesh.turaga@gmail.com>,1650986621,"bump x.y.z version to odd y following creation of RELEASE_3_15 branch
+"
+pre,kuwisdelu_cardinal,1c8f02efa7cfe466d29bb1cdfd926d47f46555c4,Nitesh Turaga <nitesh.turaga@gmail.com>,1650986621,"bump x.y.z version to even y prior to creation of RELEASE_3_15 branch
+"
+post,kuwisdelu_cardinal,59a9eed1cb732e0d8cd8f48e34bb23f1b8399266,Kylie Bemis <k.bemis@northeastern.edu>,1666804624,"v2.99.0 removed legacy codebase; started updates to support matter 2.0
+"
+post,kuwisdelu_cardinal,37c625c31a3ae880ec0b80f97be19dac0585246c,Kylie Bemis <k.bemis@northeastern.edu>,1666906310,"updated spatialWeights(); deprecated spatialApply and AnnotatedImage
+"
+post,kuwisdelu_cardinal,cfcd4045c49dceda85a3103d572a7e1ccfd5ddfc,Kylie Bemis <k.bemis@northeastern.edu>,1667001629,"updated old 'spatialApply' calls--still need to fix bugs in 'spatialFastmap()'
+"
+post,kuwisdelu_cardinal,16351664efd53f07906dd142aec2b1010b76edef,Kylie Bemis <k.bemis@northeastern.edu>,1667162020,"fixed spatialFastmap() bugs; TODO--bugs in spatialShrunkenCentroids
+"
+post,kuwisdelu_cardinal,4dfe52570ebc7d8ae99f0ffba8f94a26e3913250,Kylie Bemis <k.bemis@northeastern.edu>,1667162514,"fixed spatialShrunkenCentroids() bugs
+"
+post,kuwisdelu_cardinal,5db7210c1a31eb0631a06ecfc50688d3c4f787d6,Kylie Bemis <k.bemis@northeastern.edu>,1667166727,"fixed aggregate() bugs; updated docs
+"
+post,kuwisdelu_cardinal,c771398745e3c168588629fb5dd211f48025156d,Kylie Bemis <k.bemis@northeastern.edu>,1667248273,"fixed pre-processing bugs
+"
+post,kuwisdelu_cardinal,6acbf86900a7dc09140873811a79b476f0cc603a,Kylie Bemis <k.bemis@northeastern.edu>,1667258816,"fixed imzML writing bugs and vignette issues
+"
+post,kuwisdelu_cardinal,78500e2c1379935881c86fc2b5392c617209ff08,Kylie Bemis <k.bemis@northeastern.edu>,1667263364,"widened default mz tolerance; updated vignettes
+"
+post,kuwisdelu_cardinal,e6e4821a7857010ff623f0fa4a8924b0649ab3d2,Kylie Bemis <k.bemis@northeastern.edu>,1667264658,"v2.99.1 RC
+"

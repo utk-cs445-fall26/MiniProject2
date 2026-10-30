@@ -1,0 +1,655 @@
+pre/post;project;commit;author;time;message
+pre;covid19datahub_covid19dev;a39d5e88fc4b0881ef690b54a72cbce554809b0a;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1665945978;"Built site for COVID19: 3.0.0@1f507ed
+"
+pre;covid19datahub_covid19dev;57e73c5d715ebea272996a17983c68a75eae2783;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1665975516;"Built site for COVID19: 3.0.0@1f507ed
+"
+pre;covid19datahub_covid19dev;f53336b68b0c1fdb8f81b01195f2869216c7a8ac;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1665990827;"Built site for COVID19: 3.0.0@1f507ed
+"
+pre;covid19datahub_covid19dev;a8daaca51617bcc2b9234e49b08e01031b45609b;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1666012480;"Built site for COVID19: 3.0.0@1f507ed
+"
+pre;covid19datahub_covid19dev;4d8f8c420afdcb19f532e6050e0d6f81bda610e7;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1666061523;"Built site for COVID19: 3.0.0@1f507ed
+"
+pre;covid19datahub_covid19dev;3e76f415b6c4b46aac1f9afebcf7dd9395f1238e;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1666077873;"Built site for COVID19: 3.0.0@1f507ed
+"
+pre;covid19datahub_covid19dev;bfe223e0dd0479ee5aa9a374cd43aa8c07d04dba;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1666098945;"Built site for COVID19: 3.0.0@1f507ed
+"
+pre;covid19datahub_covid19dev;28614c42f4485af058b8d01cb4470eaa219625bc;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1666119576;"Built site for COVID19: 3.0.0@1f507ed
+"
+pre;covid19datahub_covid19dev;53e40a46b30a1b545210fcbe09d6c18efdd42686;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1666147667;"Built site for COVID19: 3.0.0@1f507ed
+"
+pre;covid19datahub_covid19dev;e3a0ce884fcdaeb061a0fb86b8b46c211ec0b6c4;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1666164334;"Built site for COVID19: 3.0.0@1f507ed
+"
+post;covid19datahub_covid19dev;13e32fd0b57bec889e1230421fd3956f11d7d8e4;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677588895;"Update docs and fix CHE
+"
+post;covid19datahub_covid19dev;e62201d23f699a235fe5fa1b741cbfca2523d5f1;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677589088;"Fix workflow
+"
+post;covid19datahub_covid19dev;da83b9a8b3207383ff70ff49c10fc5754aa0b266;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677589163;"Update pkgdown.yaml
+"
+post;covid19datahub_covid19dev;4fe2806e0bc5d4eb24daabeb4406bbebd066eec8;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677590150;"Built site for COVID19: 3.0.0@da83b9a
+"
+post;covid19datahub_covid19dev;516f3f35481f73749b2aa575a29ee78c5dfa8940;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677590564;"Update data.Rmd
+"
+post;covid19datahub_covid19dev;00e3972c142422eae20e558364d0eb25aee82fab;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677591565;"Built site for COVID19: 3.0.0@516f3f3
+"
+post;covid19datahub_covid19dev;8e813fb9456086b84d495113e7464c45e4462b49;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677609598;"Built site for COVID19: 3.0.0@516f3f3
+"
+post;covid19datahub_covid19dev;3ff6c983ec2ac826659bc8feb41fd30669f1b4ac;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677636265;"Built site for COVID19: 3.0.0@516f3f3
+"
+post;covid19datahub_covid19dev;f801f65be4e95dbc7f748d902f71de07530e2976;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677653449;"Built site for COVID19: 3.0.0@516f3f3
+"
+post;covid19datahub_covid19dev;4d4acfb42484b737553516c43444f6c64fee9f3a;Emanuele Guidotti <emanuele.guidotti@unine.ch>;1677672311;"Fix BEL
+"
+pre;echonet_dynamic;dfe3baed3c11bad0c2f027306666e81fc6102f51;removedporn <86824510+removedporn@users.noreply.github.com>;1650256894;Delete setup.py
+pre;echonet_dynamic;63af9e06103846aaf3de1e6f2e5be52c8df79dd4;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655864772;"Bump numpy from 1.20.1 to 1.22.0
+
+Bumps [numpy](https://github.com/numpy/numpy) from 1.20.1 to 1.22.0.
+- [Release notes](https://github.com/numpy/numpy/releases)
+- [Changelog](https://github.com/numpy/numpy/blob/main/doc/HOWTO_RELEASE.rst)
+- [Commits](https://github.com/numpy/numpy/compare/v1.20.1...v1.22.0)
+
+---
+updated-dependencies:
+- dependency-name: numpy
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;echonet_dynamic;8045345b1333eb5e215989d6d679680952fede04;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1655864774;"Merge 63af9e06103846aaf3de1e6f2e5be52c8df79dd4 into 108518f305dbd729c4dca5da636601ebd388f77d
+"
+pre;echonet_dynamic;0e5a3ab248c275ad122ff3383e53e18e36bf52ed;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1664567634;"Bump joblib from 1.0.1 to 1.2.0
+
+Bumps [joblib](https://github.com/joblib/joblib) from 1.0.1 to 1.2.0.
+- [Release notes](https://github.com/joblib/joblib/releases)
+- [Changelog](https://github.com/joblib/joblib/blob/master/CHANGES.rst)
+- [Commits](https://github.com/joblib/joblib/compare/1.0.1...1.2.0)
+
+---
+updated-dependencies:
+- dependency-name: joblib
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;echonet_dynamic;28e23b47b8c4a8cd237c931860e4655e41cdde3e;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1664567636;"Merge 0e5a3ab248c275ad122ff3383e53e18e36bf52ed into 108518f305dbd729c4dca5da636601ebd388f77d
+"
+pre;echonet_dynamic;5fc68c1f2e27b533d124c4d2b51356079ed024d4;John Paul <jplineb@clemson.edu>;1666196052;"hacked together code for personal use
+"
+pre;echonet_dynamic;b3051e7492aa515b7ddf99c4ac4296c65d727dac;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1669103041;"Bump pillow from 8.1.2 to 9.3.0
+
+Bumps [pillow](https://github.com/python-pillow/Pillow) from 8.1.2 to 9.3.0.
+- [Release notes](https://github.com/python-pillow/Pillow/releases)
+- [Changelog](https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst)
+- [Commits](https://github.com/python-pillow/Pillow/compare/8.1.2...9.3.0)
+
+---
+updated-dependencies:
+- dependency-name: pillow
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;echonet_dynamic;b8fef59971312396d238bc9088547460d69ad936;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1669103042;"Merge b3051e7492aa515b7ddf99c4ac4296c65d727dac into 108518f305dbd729c4dca5da636601ebd388f77d
+"
+pre;echonet_dynamic;99c00dd9d94a588a8e142f6933827722ffdd7e3b;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1670485436;"Bump certifi from 2020.12.5 to 2022.12.7
+
+Bumps [certifi](https://github.com/certifi/python-certifi) from 2020.12.5 to 2022.12.7.
+- [Release notes](https://github.com/certifi/python-certifi/releases)
+- [Commits](https://github.com/certifi/python-certifi/compare/2020.12.05...2022.12.07)
+
+---
+updated-dependencies:
+- dependency-name: certifi
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;echonet_dynamic;effe1e81797874fa2fedd9c124f98b69569b9d84;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1670485438;"Merge 99c00dd9d94a588a8e142f6933827722ffdd7e3b into 108518f305dbd729c4dca5da636601ebd388f77d
+"
+post;echonet_dynamic;1763096b61f9a51f5dfd4e567437d8ea88116757;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1736270412;"Bump tqdm from 4.59.0 to 4.66.3
+
+Bumps [tqdm](https://github.com/tqdm/tqdm) from 4.59.0 to 4.66.3.
+- [Release notes](https://github.com/tqdm/tqdm/releases)
+- [Commits](https://github.com/tqdm/tqdm/compare/v4.59.0...v4.66.3)
+
+---
+updated-dependencies:
+- dependency-name: tqdm
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;echonet_dynamic;df39804f1f410c9abb01eeb12a1a54827c27c472;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1736270414;"Bump opencv-python from 4.5.1.48 to 4.8.1.78
+
+Bumps [opencv-python](https://github.com/opencv/opencv-python) from 4.5.1.48 to 4.8.1.78.
+- [Release notes](https://github.com/opencv/opencv-python/releases)
+- [Commits](https://github.com/opencv/opencv-python/commits)
+
+---
+updated-dependencies:
+- dependency-name: opencv-python
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;echonet_dynamic;1ea3522f88e3b005da38e3d7723e8a11c395615d;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1736270416;"Bump pillow from 8.1.2 to 10.3.0
+
+Bumps [pillow](https://github.com/python-pillow/Pillow) from 8.1.2 to 10.3.0.
+- [Release notes](https://github.com/python-pillow/Pillow/releases)
+- [Changelog](https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst)
+- [Commits](https://github.com/python-pillow/Pillow/compare/8.1.2...10.3.0)
+
+---
+updated-dependencies:
+- dependency-name: pillow
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;echonet_dynamic;81a46eeadcb12d8cb52586d7048eaf36e81631ae;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1736270416;"Bump scikit-learn from 0.24.1 to 1.5.0
+
+Bumps [scikit-learn](https://github.com/scikit-learn/scikit-learn) from 0.24.1 to 1.5.0.
+- [Release notes](https://github.com/scikit-learn/scikit-learn/releases)
+- [Commits](https://github.com/scikit-learn/scikit-learn/compare/0.24.1...1.5.0)
+
+---
+updated-dependencies:
+- dependency-name: scikit-learn
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;echonet_dynamic;0ea7f8b1fd5230a67a93307e73896e992982f537;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1736270420;"Bump torch from 1.8.0 to 2.2.0
+
+Bumps [torch](https://github.com/pytorch/pytorch) from 1.8.0 to 2.2.0.
+- [Release notes](https://github.com/pytorch/pytorch/releases)
+- [Changelog](https://github.com/pytorch/pytorch/blob/main/RELEASE.md)
+- [Commits](https://github.com/pytorch/pytorch/compare/v1.8.0...v2.2.0)
+
+---
+updated-dependencies:
+- dependency-name: torch
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;echonet_dynamic;9ab3a59d068648c609885c5d10bc09285ee7bae7;David Ouyang <david.ouyang@gmail.com>;1740445252;Create LICENSE
+post;echonet_dynamic;2ec2c55adb2a323f2db7db21992f82d40c1a33a6;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1741257097;"Merge 0ea7f8b1fd5230a67a93307e73896e992982f537 into 9ab3a59d068648c609885c5d10bc09285ee7bae7
+"
+post;echonet_dynamic;57ba0c2f1b6f0bcdb25ff2e866e71836aca82e33;Ashwin Nayak <anayak247@gmail.com>;1741278586;"Merge fbc1733359dfca38e1244fe3d2b5bf748fd71a81 into 9ab3a59d068648c609885c5d10bc09285ee7bae7
+"
+post;echonet_dynamic;34f9f7152405b005608bb94d578867679d44a7fe;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1741894635;"Merge 99c00dd9d94a588a8e142f6933827722ffdd7e3b into 9ab3a59d068648c609885c5d10bc09285ee7bae7
+"
+post;echonet_dynamic;adcecb1b6c883b270d880250d3910acdc87ae233;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1741954106;"Merge 0e5a3ab248c275ad122ff3383e53e18e36bf52ed into 9ab3a59d068648c609885c5d10bc09285ee7bae7
+"
+pre;opengeospatial_ogc-geosparql;070969509f9e21717e49f0446b3f5a61d0afb424;jabhay <joseph.abhayaratna@gmail.com>;1667416464;"Deploying to gh-pages from  @ 649b89f70633baf4e48ed967b280de154e0b9508 🚀
+"
+pre;opengeospatial_ogc-geosparql;e32278a80cb40024151aefb0738de3d9f04dc2de;Joseph Abhayaratna <joseph.abhayaratna@gmail.com>;1667417747;"Removed hanging turtle in 8.6 and added history for full review
+"
+pre;opengeospatial_ogc-geosparql;9153f6b3df58037271e9115700710b9bd6789c2b;Nicholas Car <nick@kurrawong.net>;1667417930;"Merge pull request #391 from opengeospatial/jabhay-fix-for-hanging-ttl
+
+Removed hanging turtle in 8.6 and added history for full review"
+pre;opengeospatial_ogc-geosparql;f75c6c487a7e46d0445e3fa47ac92f3544250467;nicholascar <nick@kurrawong.net>;1667418008;"Deploying to gh-pages from  @ 9153f6b3df58037271e9115700710b9bd6789c2b 🚀
+"
+pre;opengeospatial_ogc-geosparql;33b75549abd558bb1bc7ccffd78dcb28de0d4607;Joseph Abhayaratna <joseph.abhayaratna@gmail.com>;1667419350;"Fixing issues in revision history table
+"
+pre;opengeospatial_ogc-geosparql;61aca673d9e160ce90f133311f7408c6a15d07c7;jabhay <joseph.abhayaratna@gmail.com>;1667419451;"Deploying to gh-pages from  @ 33b75549abd558bb1bc7ccffd78dcb28de0d4607 🚀
+"
+pre;opengeospatial_ogc-geosparql;b3b58d56ec2eb92d265d064b7f35572b29d1806e;Joseph Abhayaratna <joseph.abhayaratna@gmail.com>;1667420920;"Fixing asciidoctor warnings in Annex E
+"
+pre;opengeospatial_ogc-geosparql;3e6ef3e5553ff08770284d8937b3d07325c9a0a3;jabhay <joseph.abhayaratna@gmail.com>;1667421116;"Deploying to gh-pages from  @ b3b58d56ec2eb92d265d064b7f35572b29d1806e 🚀
+"
+pre;opengeospatial_ogc-geosparql;d6cf0ea01f6cbaf4b5d7eac84b380e1a9476b959;Timo <situx@users.noreply.github.com>;1670247739;Updated webVOWL links
+pre;opengeospatial_ogc-geosparql;6d95b5b9b973b06331d70d4aadb6cce99a6b9a61;situx <situx@users.noreply.github.com>;1670247827;"Deploying to gh-pages from  @ d6cf0ea01f6cbaf4b5d7eac84b380e1a9476b959 🚀
+"
+post;opengeospatial_ogc-geosparql;facea41fd23618729607f2c2b79b17b4afba496b;Timo <situx@users.noreply.github.com>;1678720901;Elaborate on length function
+post;opengeospatial_ogc-geosparql;092f1c1c6d324d4e737560c2f1e5085df28a0688;Timo <situx@users.noreply.github.com>;1678722067;Editorial Updates
+post;opengeospatial_ogc-geosparql;9223e4eaa3ab8dd95829f0ab6845302f9162b997;Timo <situx@users.noreply.github.com>;1678725418;Added GeoSPARQL Sample Datasets to homepage
+post;opengeospatial_ogc-geosparql;41188dc39c0144328a1c572a2392ef9b8a956131;Timo <situx@users.noreply.github.com>;1678725535;Fix CI
+post;opengeospatial_ogc-geosparql;5ed9736a96fefb6600387f74fa767e3ebb43fc7c;situx <situx@users.noreply.github.com>;1678725602;"Deploying to gh-pages from  @ 41188dc39c0144328a1c572a2392ef9b8a956131 🚀
+"
+post;opengeospatial_ogc-geosparql;c75b984efd9565c32cd23da048d65d0cb944fae7;Timo <situx@users.noreply.github.com>;1678726185;Added nav menu
+post;opengeospatial_ogc-geosparql;401ed87a1ef68104fe6484bd77d2d0a7a0e4995a;situx <situx@users.noreply.github.com>;1678726251;"Deploying to gh-pages from  @ c75b984efd9565c32cd23da048d65d0cb944fae7 🚀
+"
+post;opengeospatial_ogc-geosparql;5af038786ef4d73a17bee4eea3f050519497ca0a;Timo <situx@users.noreply.github.com>;1678726431;Update index.html
+post;opengeospatial_ogc-geosparql;8a6a51f989f198b550148e12fa2618b92e692a5d;situx <situx@users.noreply.github.com>;1678726514;"Deploying to gh-pages from  @ 5af038786ef4d73a17bee4eea3f050519497ca0a 🚀
+"
+post;opengeospatial_ogc-geosparql;af10eef7575ee221869b47c6b10a34b38305f2bf;Timo <situx@users.noreply.github.com>;1678741647;Update index.html
+pre;egri-nagy_sgpdec;144fd034c66365de7d1849ffa55e27c0f473796b;Attila Egri-Nagy <attila@egri-nagy.hu>;1486346381;"separating default shift action calculation
+"
+pre;egri-nagy_sgpdec;6f75d90ca9d1da9a73a98b5e0df0eec6d56f9851;Attila Egri-Nagy <attila@egri-nagy.hu>;1486351515;"first take on a holonomy info string
+"
+pre;egri-nagy_sgpdec;b01fd0b9efbe4d93840fb3f1897d388814ac8f63;Attila Egri-Nagy <attila@egri-nagy.hu>;1493425637;Update README.md
+pre;egri-nagy_sgpdec;94465a3a2c373f21f0ae1b5a5cbef76a28893e75;Attila Egri-Nagy <attila@egri-nagy.hu>;1493428005;putting renorm links in
+pre;egri-nagy_sgpdec;dbf521b2af1a83c6fc118863f4903f5aebffea44;Attila Egri-Nagy <attila@egri-nagy.hu>;1493444458;Update README.md
+pre;egri-nagy_sgpdec;00a5986416a265422589077a6e47b3deb702fc20;Attila Egri-Nagy <attila@egri-nagy.hu>;1493446187;links proper
+pre;egri-nagy_sgpdec;86678fd34e02dd0c9971749b055f1bf675fdd1a7;Attila Egri-Nagy <attila@egri-nagy.hu>;1493446610;Update README.md
+pre;egri-nagy_sgpdec;7d8a2e343001467e443b4fe5164b7b84652c369a;Attila Egri-Nagy <attila@egri-nagy.hu>;1493446660;Update README.md
+pre;egri-nagy_sgpdec;9930c745f2b0294c479710fd0af22d42634aa34a;Attila Egri-Nagy <attila@egri-nagy.hu>;1493446897;install info
+pre;egri-nagy_sgpdec;a04b96b88ef26ccf422a7034defb3b18d2747763;Chrystopher L. Nehaniv <c.l.nehaniv@herts.ac.uk>;1513958776;"Update SGPDECbib.xml
+
+Corrected SgpDec in LNCS article title"
+post;egri-nagy_sgpdec;35e44e833dd6c3fe9427ebeba45c7d62cac75946;Max Horn <max@quendi.de>;1550176840;"PackageInfo.g: add License field
+"
+post;egri-nagy_sgpdec;2175e7ac75af771d56fdc3950985f41024f17cb7;Attila Egri-Nagy <attila@egri-nagy.hu>;1550279094;"Merge pull request #9 from gap-packages/mh/license
+
+PackageInfo.g: add License field"
+post;egri-nagy_sgpdec;5a491f9f6ecb082c6b8458ebb5fb97e259c4c400;Chrystopher L. Nehaniv <nehaniv@gmail.com>;1551376412;"Dot Semigroup Action (& with Names)
+
+much need functionality"
+post;egri-nagy_sgpdec;8bd1f39b626124b9ac1e984596a9949c476cbee0;Chrystopher L. Nehaniv <c.l.nehaniv@herts.ac.uk>;1551376646;Add files via upload
+post;egri-nagy_sgpdec;65a4e188a2b9c6aafac0998aea494704d873ad42;Chrystopher L. Nehaniv <nehaniv@gmail.com>;1551376776;define dotsemigroupaction commands
+post;egri-nagy_sgpdec;3a7e929076828dde6833e16c96528ea79d272bc3;Chrystopher L. Nehaniv <nehaniv@gmail.com>;1551409511;read implementation of dotsemigroupaction
+post;egri-nagy_sgpdec;2edb1d6272db223811a9968665031d460b39b0ab;Chrystopher L. Nehaniv <nehaniv@gmail.com>;1551412074;Update read.g
+post;egri-nagy_sgpdec;206e6fab57c4311ea218276a9f931b4b8a6f19f5;Chrystopher L. Nehaniv <nehaniv@gmail.com>;1551412280;"correct code directory: ""gap"" to ""lib"""
+post;egri-nagy_sgpdec;7ffb7d81a818083218e9ae07648119af2d2fb91b;Chrystopher L. Nehaniv <nehaniv@gmail.com>;1551496183;Update PackageInfo.g
+post;egri-nagy_sgpdec;b31305ec3d3d84378f56d392dfedc610dc55d4b0;Attila Egri-Nagy <attila@egri-nagy.hu>;1551938883;"updating example due to changes in SturctureDescription's output
+"
+pre;eendebakpt_oapackage;de107e109b16818f0246dd23976b4a7b236c8676;Pieter Eendebak <pieter.eendebak@gmail.com>;1577098622;"Cleanup even-odd code (#173)
+
+* fix markdown on pypi
+
+* fix cpp compilation warnings (#163)
+
+* fix cpp compilation warnigns
+
+* remove commented code
+
+* add check on zlib (#165)
+
+* bump version
+
+* add tests for python-cpp interface (#166)
+
+* add tests for python-cpp interface
+
+* fix array interface for mvalue_t_double
+
+* fix array interface
+
+* fix codacy
+
+* fix buffer overflow in constructor (#167)
+
+* cleanup even-odd code
+
+* refactor code
+
+* fix missing variable
+
+* fix typo
+
+* trigger builld
+"
+pre;eendebakpt_oapackage;0de8bf49b5183323d4f3968e50591d4c40cd5172;Pieter Eendebak <pieter.eendebak@gmail.com>;1577098646;"Misc fixes (#174)
+
+* fix markdown on pypi
+
+* fix cpp compilation warnings (#163)
+
+* fix cpp compilation warnigns
+
+* remove commented code
+
+* add check on zlib (#165)
+
+* bump version
+
+* add tests for python-cpp interface (#166)
+
+* add tests for python-cpp interface
+
+* fix array interface for mvalue_t_double
+
+* fix array interface
+
+* fix codacy
+
+* fix buffer overflow in constructor (#167)
+
+* remove dead code
+
+* update docs
+"
+pre;eendebakpt_oapackage;979b7f127bc37cdeda3557669a3c70c5e380ec64;Pieter Eendebak <pieter.eendebak@gmail.com>;1577103888;"fix mypy and swig conflict
+"
+pre;eendebakpt_oapackage;9c2c28ebf0e54d5970f798f56cbf71a8c0e9be5d;Pieter Eendebak <pieter.eendebak@gmail.com>;1577107739;"debug appveyor
+"
+pre;eendebakpt_oapackage;4d4cbace03b3708dea0e072bd6163ea9a534c7bc;Pieter Eendebak <pieter.eendebak@gmail.com>;1577108505;"debug appveyor
+"
+pre;eendebakpt_oapackage;2ffa709c57d3fb350dab88118b7e242a2f53abb5;Pieter Eendebak <pieter.eendebak@gmail.com>;1577108883;"cleanup scripts
+"
+pre;eendebakpt_oapackage;1b1a402b381bd9abada3a1850e4012ae7727795a;Pieter Eendebak <pieter.eendebak@gmail.com>;1577108969;"cleanup scripts
+"
+pre;eendebakpt_oapackage;02338cc9b917f7a3bcfabdcb01eb4d9c1a8cf49a;Pieter Eendebak <pieter.eendebak@gmail.com>;1577111505;"Enable python38 build on appveyor (#170)
+
+* enable 64bit python 3.8 build
+
+* update setup.py
+
+* test py38
+
+* remove miniconda methods
+
+* remove specific wheel version
+
+* enable mypy
+
+* test appveyor
+
+* reduce builld verbosity
+
+* test local build
+
+* test local build
+
+* fix mypy and swig conflict
+
+* debug appveyor
+
+* debug appveyor
+
+* cleanup scripts
+
+* cleanup scripts
+"
+pre;eendebakpt_oapackage;69d8b5d78b1ed6006f4a164107b7b590f645191a;Pieter Eendebak <pieter.eendebak@gmail.com>;1577116758;"Merge pull request #171 from eendebakpt/dev
+
+New release 2.6.6"
+pre;eendebakpt_oapackage;7ca9a84db9cc500425a81ae7a0ff99dc370624fc;Pieter Eendebak <pieter.eendebak@gmail.com>;1577489756;"use swig3
+"
+post;eendebakpt_oapackage;7c72a9bf39bbb85deb36908b8e525eeb1b0750ac;Pieter Eendebak <pieter.eendebak@gmail.com>;1597864321;"add dev files
+"
+post;eendebakpt_oapackage;834afdf23faf8b0a7645c04824a5c91e72adb2ec;Pieter Eendebak <pieter.eendebak@gmail.com>;1597865982;"cleanup code; fix clang issues
+"
+post;eendebakpt_oapackage;0517cc77a3e8f767198143d7b184f7fc54c280b4;Pieter Eendebak <pieter.eendebak@gmail.com>;1597870100;"fix problem with swig
+"
+post;eendebakpt_oapackage;4aafba54c91db0216934dc30a3fd5dbc0f2429b8;Pieter Eendebak <pieter.eendebak@gmail.com>;1597872783;"fix code style errors
+"
+post;eendebakpt_oapackage;48e97968924712a24edaba2391767d8b763b8d21;Pieter Eendebak <pieter.eendebak@gmail.com>;1597873947;"fix compilation warnings
+"
+post;eendebakpt_oapackage;3defe720b71555ed6b2e42837c60f6f2933384c6;Pieter Eendebak <pieter.eendebak@gmail.com>;1597946946;"cleanup code
+"
+post;eendebakpt_oapackage;6f778175ad9f1c0b21fcd8c03f6faf24b32faf18;Pieter Eendebak <pieter.eendebak@gmail.com>;1597949536;"add some type hints
+"
+post;eendebakpt_oapackage;baa32d74bf53b0572354f88f026a7976b106c0bb;Pieter Eendebak <pieter.eendebak@gmail.com>;1597949732;"fix codacy
+"
+post;eendebakpt_oapackage;e82c6ccdcf2351ba0ee9f501572e577e5d8fae6d;Pieter Eendebak <pieter.eendebak@gmail.com>;1597949953;"remove oadevelop to depth_extend
+"
+post;eendebakpt_oapackage;c6c1fdcabffcfa6eb10e91aae53a52a645856a64;Pieter Eendebak <pieter.eendebak@gmail.com>;1597950131;"add test for depth_extend
+"
+pre;wojdyr_fityk;72493d8faebc5c3707bf3e571cbedf446c2c0101;cl-fontana <6466945+cl-fontana@users.noreply.github.com>;1546457169;"Merge 3a75228cca674f83669fa97667969afd4d3dbf1a into ca1e85ea217dc136342000e7f619dde1eee9a878
+"
+pre;wojdyr_fityk;768007eea3556edb160b26c52b20784a4e1f8789;Cristiano Fontana <cristiano.fontana@gmail.com>;1547796868;"Added a button to toggle the y scale to logarithmic
+"
+pre;wojdyr_fityk;c5d0402b18a31fd1de6bbfa69c7f73a0095f5005;Cristiano Fontana <cristiano.fontana@gmail.com>;1547796868;"Added a button to toggle the y scale to logarithmic
+"
+pre;wojdyr_fityk;d2ddee2dfae1c0c349b78492d09eacc85a189757;Gustaf Olsson <megusgrave@gmail.com>;1548739203;"Update getstarted.rst
+
+Spelling correction, line 149, sideber -> sidebar"
+pre;wojdyr_fityk;f2899d4d5784d8c5a687ce2dda03758ed09a6728;Gustaf Olsson <megusgrave@gmail.com>;1548739203;"Update getstarted.rst
+
+Spelling correction, line 149, sideber -> sidebar"
+pre;wojdyr_fityk;c70fc17a5b04203f560e4965c3d01e6048a414f6;cl-fontana <6466945+cl-fontana@users.noreply.github.com>;1548769990;"Merge 768007eea3556edb160b26c52b20784a4e1f8789 into f2899d4d5784d8c5a687ce2dda03758ed09a6728
+"
+pre;wojdyr_fityk;40372edbfafcce3c5cc227b26875bc5c3298a106;cl-fontana <6466945+cl-fontana@users.noreply.github.com>;1548769997;"Merge 3a75228cca674f83669fa97667969afd4d3dbf1a into f2899d4d5784d8c5a687ce2dda03758ed09a6728
+"
+pre;wojdyr_fityk;3ba3808db41150c9619d36554d9d26d6d64c9f6c;Marcin Wojdyr <wojdyr@gmail.com>;1557691973;"save variable domains in ""Save Session"" (info state)
+"
+pre;wojdyr_fityk;1fcdaa1a0466deea61a28ba7b551b413a9bb1f6b;cl-fontana <6466945+cl-fontana@users.noreply.github.com>;1558423578;"Merge 3a75228cca674f83669fa97667969afd4d3dbf1a into 3ba3808db41150c9619d36554d9d26d6d64c9f6c
+"
+pre;wojdyr_fityk;dab5cc922d8e6f72ff3f4035b610ab732c12160b;cl-fontana <6466945+cl-fontana@users.noreply.github.com>;1562655580;"Merge 768007eea3556edb160b26c52b20784a4e1f8789 into 3ba3808db41150c9619d36554d9d26d6d64c9f6c
+"
+post;wojdyr_fityk;f6c9581fb040786a82d6e4133efae4fcc61d573c;Marc Hahn <marc-benjamin.hahn@bam.de>;1589996278;"Add variable region for Shirley background substraction for XPS analysis.
+"
+post;wojdyr_fityk;9e45ca9370f85085c2abab8b864911605ab49947;Marc Benjamin Hahn <mhahn1@NB1694.zit.bam.de>;1590174872;" Reimplement Shirley background substraction and extend it to enable selection of an active region.
+"
+post;wojdyr_fityk;cd331d41086bdf34574db52c0997897cd1ef36b0;MarcBHahn <60821053+MarcBHahn@users.noreply.github.com>;1590500216;"Improved ShirleyBG substraction
+
+Improves Shirley BG substraction by calculation of ymin and ymax parameter from the average of up to five surrounding datapoints.
+This improves the Shirley BG estimation for XPS data with bad signal to noise ratio."
+post;wojdyr_fityk;95c761351f537f990941dd5acb4139284fd62974;MarcBHahn <60821053+MarcBHahn@users.noreply.github.com>;1593673988;"Merge pull request #1 from MarcBHahn/Improved-ShirleyBG
+
+Improved ShirleyBG substraction"
+post;wojdyr_fityk;f90af19e82555d1f951bedb7a7ede0a601bb289c;MarcBHahn <60821053+MarcBHahn@users.noreply.github.com>;1593673991;"Merge 95c761351f537f990941dd5acb4139284fd62974 into 3ba3808db41150c9619d36554d9d26d6d64c9f6c
+"
+post;wojdyr_fityk;7e326dca359ef25354b88d60ee6c92229a649282;Marcin Wojdyr <wojdyr@gmail.com>;1600630377;"samples/cfityk.py: use not math.isnan() instead of x == x
+"
+post;wojdyr_fityk;d3bd13417e3b00fc5894ff498004d08a76d97cb4;Marcin Wojdyr <wojdyr@gmail.com>;1600631149;"change max Lua version to 5.4
+
+Fedora Rawhide compiles fityk with Lua 5.4, so it should be fine
+"
+post;wojdyr_fityk;ab4c3d63f9db6e93b8cb7521c5619737a86c3405;Marcin Wojdyr <wojdyr@gmail.com>;1610822646;"update sphinx
+
+the warning in sphinx 3.0.3 was:
+RemovedInSphinx40Warning: app.add_lexer() API changed;
+Please give lexer class instead instance
+"
+post;wojdyr_fityk;85ea545db65d7c6fbb94988b85f1e8cf1c9cbba5;Marcin Wojdyr <wojdyr@gmail.com>;1610907527;"allow building with wxGTK3 (closes #32)
+
+It works, but with some problems.
+
+The separator in wxSplitterWindow is not updated, as per:
+http://trac.wxwidgets.org/ticket/16890
+
+wxSpinCtrl is much wider (it has [+][-] instead of arrows)
+"
+post;wojdyr_fityk;234961816198d6aded0bda7da759181b53d12ec4;Marcin Wojdyr <wojdyr@gmail.com>;1610908612;"ignore -Wdeprecated warnings on throw() specification
+
+this is a temporary solution only, to not be flooded with the warnings
+"
+pre;smearle_gym-city;2ac5145c8a100ae0570458488811c1c62fae4336;Sam Earle <smearle93@gmail.com>;1607834836;"Tweak n_rand_envs argument!
+"
+pre;smearle_gym-city;a58efd85ba429f3cbed1a37d3dfae8da5fe5403d;Sam Earle <se2161@log-1.nyu.cluster>;1607841305;"Remove unnecessary gym-pcgrl import
+"
+pre;smearle_gym-city;79cce27a90394269b4d902f4e38b59f749cc59fd;Sam Earle <smearle93@gmail.com>;1607844216;"Provide absolute log_dir (to appease HPC?)
+"
+pre;smearle_gym-city;25becef210f7b3fa90eaf7dcd55ad36c0c873ec4;windsb <bwindsor22@gmail.com>;1607847195;"Remove unnecessary imports (w.r.t. micro-rct)
+"
+pre;smearle_gym-city;367509ce579ed256f9d3dec401f256e298a177bb;windsb <bwindsor22@gmail.com>;1607847266;"Merge branch 'micro-rct/multi-metrics' of https://github.com/smearle/gym-city into micro-rct/multi-metrics
+"
+pre;smearle_gym-city;f3cdd4ce8632e05acf6077fc0f6ee4d643f940a1;Sam Earle <smearle93@gmail.com>;1628661313;"Some options for visualizing random and no agents in GoL.
+"
+pre;smearle_gym-city;6d497a695869bacaff8307364b39e0ace5084e5f;Sam Earle <smearle93@gmail.com>;1633898868;Update README.md
+pre;smearle_gym-city;251df067be9d494e5d578a4e4326bac96e992013;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1634077306;"Bump opencv-python from 3.4.4.19 to 3.4.7.28 in /game_of_life/envs/gol
+
+Bumps [opencv-python](https://github.com/skvark/opencv-python) from 3.4.4.19 to 3.4.7.28.
+- [Release notes](https://github.com/skvark/opencv-python/releases)
+- [Commits](https://github.com/skvark/opencv-python/commits)
+
+---
+updated-dependencies:
+- dependency-name: opencv-python
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;smearle_gym-city;b07e36385fa9f97bec53583e63a9b9e04114262c;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1634079475;"Bump opencv-python from 3.4.4.19 to 4.2.0.32 in /game_of_life/envs/gol
+
+Bumps [opencv-python](https://github.com/skvark/opencv-python) from 3.4.4.19 to 4.2.0.32.
+- [Release notes](https://github.com/skvark/opencv-python/releases)
+- [Commits](https://github.com/skvark/opencv-python/commits)
+
+---
+updated-dependencies:
+- dependency-name: opencv-python
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+pre;smearle_gym-city;16b9e1785b6cb8147df1dcaf29f8759dd8362713;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1634079476;"Merge b07e36385fa9f97bec53583e63a9b9e04114262c into 42b338ee050fb654e1c74dfe59bf5f03f03d39a4
+"
+post;smearle_gym-city;c51ce52c4dcd920ed0dca77de8f162a6c2393dd8;Sam Earle <smearle93@gmail.com>;1743568570;"Working on bringing Dockerfile up to date
+"
+post;smearle_gym-city;919d145ab919461d8c958f80dedf3242f96d827e;Sam Earle <smearle93@gmail.com>;1743611967;"attempting to build micropolis on mac
+"
+post;smearle_gym-city;7f790d6b0ea3a7cd0d77453940b8a41375e69925;Sam Earle <smearle93@gmail.com>;1743654497;"Revert to Ubuntu 18.04 (via cudagl) in Dockerfile. Add missing library.
+"
+post;smearle_gym-city;26a9ea1f5ce2b0122f2549d5958003c633c3a06d;Sam Earle <smearle93@gmail.com>;1743654606;"Update Readme with minimal dockerfile instructions
+"
+post;smearle_gym-city;9518a3478da6d0d6b86ee2383806fb67efc85dee;Sam Earle <smearle93@gmail.com>;1743658508;"Prevent dockerfile from failing silently when building micropolis. Remove unnecessary torch imports in gym-city env.
+
+Seems to be a rendering issue when running on mac? But should work on Ubuntu...
+"
+post;smearle_gym-city;cb5c811c6b38ca503493b6e1cbcecc316d9b5763;Sam Earle <smearle93@gmail.com>;1743698288;"With this minimal dockerfile, I can futz about in the interactive shell, install a bunch of missing stuff, and run `tilemap_test.py`!! Checkpointing. Going to integrate all the necessary installation into the dockerfile now.
+"
+post;smearle_gym-city;67a6571bf3b5d32b2d0c57927fbdb5ee3a52dcf0;Sam Earle <smearle93@gmail.com>;1743718231;"Dockerfile works reliably, with rendering.
+"
+post;smearle_gym-city;354f8a6f7520d70c40d1ff2351b4bdd8487487ab;Sam Earle <smearle93@gmail.com>;1743739092;"Tweak Dockerfile.
+- make `objs` directories for compiling micropolis if not already present
+- install `git` so that changes can be tracked and committed from inside the dev container
+- add comments
+"
+post;smearle_gym-city;1f843bb0d1649d5235fa04029eef38a22c8c961e;WeiShi <ws2297@nyu.edu>;1745277058;"Full commit with project files
+"
+post;smearle_gym-city;b52980fb6ee53f665bbd096088116ececaa1718f;Awesome-Aasim <65820963+Awesome-Aasim@users.noreply.github.com>;1745347313;"Merge branch 'master' into Wei
+"
+pre;acclab_dabestr;f2f7a6ddd6a3d222c277e68d2eb8f26de18aa0cf;Joses W. Ho <joseshowh@gmail.com>;1627299034;"Revert ""Revert 112 d2""
+"
+pre;acclab_dabestr;5846167b40fed3f1d7aa5c22a246c79bbdcbebd9;Joses W. Ho <joseshowh@gmail.com>;1627299043;"Merge pull request #115 from ACCLAB/revert-114-revert-112-d2
+
+Revert ""Revert 112 d2"""
+pre;acclab_dabestr;0d465cb260187556d8331c0646a22e1aacc31813;Felicia <e0324864@u.nus.edu>;1627303450;"Resubmit pull request
+"
+pre;acclab_dabestr;937a381cbe33df98ed8aa3da4c1ae2d1b190475a;Joses W. Ho <joseshowh@gmail.com>;1627321094;"Merge pull request #116 from FellowFish/dd2
+
+Resubmit pull request"
+pre;acclab_dabestr;e2a2dd4b3b2dc28630a333befab0d0960c7335d0;Felicia <e0324864@u.nus.edu>;1628164869;"Added Mini Meta Function
+"
+pre;acclab_dabestr;e124993b77ffff7598932564c27bc647393412ee;Felicia <e0324864@u.nus.edu>;1628224654;"Edited some functions and added unit tests
+"
+pre;acclab_dabestr;f616faf42df92bbfd16f1ac249f7d264f2bd8f60;FellowFish <83933665+FellowFish@users.noreply.github.com>;1628224688;"Merge e124993b77ffff7598932564c27bc647393412ee into 8775899f7eba743a6a32bd2fdab5f57e79401fd6
+"
+pre;acclab_dabestr;073e5e80c4c5063edd075671b61e74e97fd06791;Felicia <e0324864@u.nus.edu>;1630147635;"Added documentation and vignettes
+"
+pre;acclab_dabestr;54a7e766d14c11a718ecdf7aab3ec8550e5d1107;Felicia <e0324864@u.nus.edu>;1630857415;"Edited documentation and vignette
+"
+pre;acclab_dabestr;0a30a684553d7ef55a4f6a37f8c85b59a91f61da;Joses W. Ho <12838917+josesho@users.noreply.github.com>;1638521856;"Update DESCRIPTION
+
+version bump"
+post;acclab_dabestr;f65b7bfcb620264b0d5bacb921f5c474472a371a;sunroofgod <e0725238@u.nus.edu>;1688894471;"rebuild
+"
+post;acclab_dabestr;450fff1ab4b8edcdc35c443a4cb98672dd3b04bc;sunroofgod <e0725238@u.nus.edu>;1689504572;"add main functionalities from python ver
+"
+post;acclab_dabestr;083f53d4a2d89cc861dbb44e960d960a0ad01719;Lian Kah Seng <90504567+sunroofgod@users.noreply.github.com>;1689505301;Update README.md
+post;acclab_dabestr;2b2dbd5e64af7afa8c472670c305f2732a2be232;sunroofgod <e0725238@u.nus.edu>;1690102931;"add proper aesthetics
+"
+post;acclab_dabestr;340d41f6e09094a5d612d250da4ae13a0e9bb890;sunroofgod <e0725238@u.nus.edu>;1690102954;"Merge branch 'master' of https://github.com/sunroofgod/dabestr
+"
+post;acclab_dabestr;9301f625ab3be20051e8dc10e0d8857ec1ae0ffb;Lian Kah Seng <90504567+sunroofgod@users.noreply.github.com>;1690103165;Update README.md
+post;acclab_dabestr;0fd2023487c62abdc371e72805990c3aea8201f8;Lian Kah Seng <90504567+sunroofgod@users.noreply.github.com>;1690103355;"Merge 9301f625ab3be20051e8dc10e0d8857ec1ae0ffb into 8775899f7eba743a6a32bd2fdab5f57e79401fd6
+"
+post;acclab_dabestr;4374b32e517c4fad032393efa7354e18b2b356a6;sunroofgod <e0725238@u.nus.edu>;1692702498;"dabestr rebuild
+"
+post;acclab_dabestr;f4747204d8f0b1b9ab00748e84f63be53936cb83;sunroofgod <e0725238@u.nus.edu>;1692702954;"update: site url
+"
+post;acclab_dabestr;3d59e524aad1a73046249f168b75206644782c63;Sangyu Xu <xusangyu@gmail.com>;1692773257;"Merge pull request #142 from sunroofgod/dev
+
+dabestr rebuild"
+pre;ncoudray_deeppath;d349f4a8db30b229f7d60b0256aa6ca033f9c87b;Coudray <coudrn01@bigpurple-ln3.cm.cluster>;1587596364;"Vahadane s normalization
+"
+pre;ncoudray_deeppath;a1106a1776c3a0b4db6d883935cdd1895eacf891;Coudray <coudrn01@bigpurple-ln3.cm.cluster>;1587596517;"Vahadane s normalization
+"
+pre;ncoudray_deeppath;405dcae94de4fdc2ef742441be90dbcf3fb2575f;Coudray <coudrn01@bigpurple-ln3.cm.cluster>;1595625816;"option to balance training dataset improved
+"
+pre;ncoudray_deeppath;201f56d496c9eee515ebf504db7b0ba5c47220b2;Coudray <coudrn01@bigpurple-ln3.cm.cluster>;1597067709;"Melanoma
+"
+pre;ncoudray_deeppath;223118b704fa0e223d138d8d7b7525d63380a02e;Coudray <coudrn01@bigpurple-ln3.cm.cluster>;1597067754;"Melanoma
+"
+pre;ncoudray_deeppath;012e189a7abab1c053110a737d9e28d723dc0622;Coudray <coudrn01@bigpurple-ln3.cm.cluster>;1597067902;"Melanoma
+"
+pre;ncoudray_deeppath;6d540de64a40670dca0913721ac0e66949cea7a1;Gabriel Raya <gaboraya@gmail.com>;1597525497;"Merge 4339c26466be06dfcea115e71aa4d533c4bf2e8c into 012e189a7abab1c053110a737d9e28d723dc0622
+"
+pre;ncoudray_deeppath;6792d2ee5f33f912c7d2447cb76bde570a27faa9;Coudray <coudrn01@bigpurple-ln2.cm.cluster>;1602090123;"differentiate labels with same root name
+"
+pre;ncoudray_deeppath;3be13f2919186bcada82a7c6e238de16bcc8196c;Coudray <coudrn01@bigpurple-ln2.cm.cluster>;1606263306;"QuPath
+"
+pre;ncoudray_deeppath;8066b3d7a86ea3c603fa5368eb19c0da95f7395f;Gabriel Raya <gaboraya@gmail.com>;1608055866;"Merge 4339c26466be06dfcea115e71aa4d533c4bf2e8c into 3be13f2919186bcada82a7c6e238de16bcc8196c
+"
+post;ncoudray_deeppath;37072372d548507a82108c6202cd9d7e64f038ce;Coudray <coudrn01@bigpurple-ln2.cm.cluster>;1619121938;"speed up HeatMap
+"
+post;ncoudray_deeppath;70f200bdb6b8677450c41ef3485fd799e8ac7f04;Coudray <coudrn01@bigpurple-ln2.cm.cluster>;1620000739;"code optimization
+"
+post;ncoudray_deeppath;892405d3daa902916a80cc2c446159b21ecb460c;Coudray <coudrn01@bigpurple-ln1.cm.cluster>;1624373502;"update link
+"
+post;ncoudray_deeppath;9cb8c732e64490e8e2cdd047cb6d56668eaa85a0;Coudray <coudrn01@gpu-0003.cm.cluster>;1629480404;"update README
+"
+post;ncoudray_deeppath;308c0d2b0c87876dfb0f532829bf8d9a9c92c159;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1629480518;"Bump pyyaml from 3.12 to 5.4 in /DeepPATH_code
+
+Bumps [pyyaml](https://github.com/yaml/pyyaml) from 3.12 to 5.4.
+- [Release notes](https://github.com/yaml/pyyaml/releases)
+- [Changelog](https://github.com/yaml/pyyaml/blob/master/CHANGES)
+- [Commits](https://github.com/yaml/pyyaml/compare/3.12...5.4)
+
+---
+updated-dependencies:
+- dependency-name: pyyaml
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;ncoudray_deeppath;a6500d3a80a54c07288fe8afd7ac81c3f18df079;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1629480520;"Bump urllib3 from 1.23 to 1.26.5 in /DeepPATH_code
+
+Bumps [urllib3](https://github.com/urllib3/urllib3) from 1.23 to 1.26.5.
+- [Release notes](https://github.com/urllib3/urllib3/releases)
+- [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- [Commits](https://github.com/urllib3/urllib3/compare/1.23...1.26.5)
+
+---
+updated-dependencies:
+- dependency-name: urllib3
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;ncoudray_deeppath;accd46aec0d8d282ee3db604709316670e7ea6e2;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1629480521;"Bump pillow from 5.1.0 to 8.2.0 in /DeepPATH_code
+
+Bumps [pillow](https://github.com/python-pillow/Pillow) from 5.1.0 to 8.2.0.
+- [Release notes](https://github.com/python-pillow/Pillow/releases)
+- [Changelog](https://github.com/python-pillow/Pillow/blob/master/CHANGES.rst)
+- [Commits](https://github.com/python-pillow/Pillow/compare/5.1.0...8.2.0)
+
+---
+updated-dependencies:
+- dependency-name: pillow
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;ncoudray_deeppath;9529e373a796fe7d592e06afa599ef28222b29ca;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1629480522;"Bump django from 2.1.1 to 2.2.24 in /DeepPATH_code
+
+Bumps [django](https://github.com/django/django) from 2.1.1 to 2.2.24.
+- [Release notes](https://github.com/django/django/releases)
+- [Commits](https://github.com/django/django/compare/2.1.1...2.2.24)
+
+---
+updated-dependencies:
+- dependency-name: django
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;ncoudray_deeppath;518874326468597ce62db461ac7c0705c000bdbd;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1629752693;"Bump notebook from 5.6.0 to 6.4.1 in /DeepPATH_code
+
+Bumps [notebook](http://jupyter.org) from 5.6.0 to 6.4.1.
+
+---
+updated-dependencies:
+- dependency-name: notebook
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
+post;ncoudray_deeppath;83681f2b96b903872baa9e378c9087935498dfd6;dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>;1629904446;"Bump tensorflow-gpu from 1.9.0 to 2.5.1 in /DeepPATH_code
+
+Bumps [tensorflow-gpu](https://github.com/tensorflow/tensorflow) from 1.9.0 to 2.5.1.
+- [Release notes](https://github.com/tensorflow/tensorflow/releases)
+- [Changelog](https://github.com/tensorflow/tensorflow/blob/master/RELEASE.md)
+- [Commits](https://github.com/tensorflow/tensorflow/compare/v1.9.0...v2.5.1)
+
+---
+updated-dependencies:
+- dependency-name: tensorflow-gpu
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>"
